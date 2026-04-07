@@ -278,60 +278,28 @@ When starting fresh:
 
 ## Domain-Specific Extensions
 
-This schema is domain-agnostic by default. Add domain-specific conventions below as the wiki evolves.
+### Domain: Sebenza Hub — Recruitment & Career SaaS Platform
 
-### Example: Startup / Product Wiki
-```markdown
-# Domain: [Product Name]
+#### Additional Page Types
+- `workflows/` — End-to-end user journeys with step-by-step flows
+- `integrations/` — One page per external integration (LinkedIn, WhatsApp, Adzuna, etc.)
 
-## Additional Page Types
-- `features/` — Feature specs, status, dependencies
-- `competitors/` — One page per competitor with feature matrix
-- `metrics/` — KPIs, benchmarks, targets vs actuals
-- `launches/` — Launch plans, checklists, post-mortems
+#### Additional Tags
+- `user-type` — Pages describing Individual, Recruiter, Business, or Admin
+- `individual`, `recruiter`, `business`, `admin` — Which user type(s) a page relates to
+- `hiring`, `pipeline`, `screening`, `offers` — Recruitment workflow stages
+- `ai`, `matching`, `chatbot`, `predictive` — AI feature categories
+- `popia`, `bbbee`, `employment-equity` — South African compliance
+- `whatsapp`, `linkedin`, `job-board` — Integration channels
+- `billing`, `credits`, `plans` — Commercial/monetisation
+- `community`, `learning`, `gamification` — Engagement features
+- `architecture`, `infrastructure`, `stack` — Technical
 
-## Additional Tags
-- launch, mvp, post-launch, backlog
-- competitor, market, pricing
-- integration, api, infrastructure
-
-## Additional Frontmatter
-- `priority`: p0 | p1 | p2
-- `owner`: who's responsible
-- `due`: YYYY-MM-DD
-```
-
-### Example: Research Wiki
-```markdown
-# Domain: [Research Topic]
-
-## Additional Page Types
-- `papers/` — One page per academic paper (structured summary)
-- `methods/` — Methodologies, frameworks, analytical approaches
-- `data/` — Datasets, statistics, benchmarks
-- `thesis/` — Evolving argument / position papers
-
-## Additional Tags
-- methodology, empirical, theoretical
-- supports-thesis, challenges-thesis
-- peer-reviewed, preprint, grey-literature
-```
-
-### Example: Audit / Professional Practice Wiki
-```markdown
-# Domain: [Practice Area]
-
-## Additional Page Types
-- `standards/` — ISA standards, regulatory requirements
-- `procedures/` — Step-by-step workflows
-- `templates/` — Document templates and their usage
-- `tools/` — Software tools, configurations, tips
-
-## Additional Tags
-- isa-standard, regulatory, compliance
-- casework, methodology, procedure
-- client-facing, internal
-```
+#### Additional Frontmatter
+- `user-types`: [individual, recruiter, business, admin] — Which user types this page applies to
+- `dashboard-path`: /dashboard/recruiter/* — Route prefix for features described
+- `endpoint-count`: N — Number of API endpoints covered (helps gauge complexity)
+- `table-count`: N — Number of database tables covered
 
 ---
 
