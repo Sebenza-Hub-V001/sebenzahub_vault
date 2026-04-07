@@ -13,9 +13,29 @@ dashboard-path: /dashboard/individual/*
 
 # Individual Journey: The Complete Platform Experience
 
-The complete experience of a job seeker on Sebenza Hub — from first visit through job search, hiring, career development, learning, and community engagement. This journey covers all **57 features** available to Individuals.
+The complete experience of a job seeker on Sebenza Hub. The **hiring path** (Steps 1–7) is the primary journey — each step triggers the next. But real career journeys aren't linear. **Parallel tracks** run alongside the hiring path: AI assistance, learning, career planning, and community. These tracks activate at specific moments — a rejection, a skill gap, a stalled search — and feed back into the hiring path.
 
-> **Note:** The hiring path (Steps 1–7) is the primary journey, but Sebenza Hub is more than a job board. Steps 8–13 cover the full breadth of the platform: AI tools, learning, career development, community, knowledge management, and account management. These features are available from day one — not just "after getting hired."
+```
+                    ┌─────────────────────────────────────────┐
+                    │          HIRING PATH (Steps 1–7)        │
+                    │  Signup → Profile → Search → Apply →    │
+                    │  Track → Interview → Offer              │
+                    └──────┬──────────┬──────────┬────────────┘
+                           │          │          │
+              ┌────────────┘    ┌─────┘    ┌─────┘
+              ▼                 ▼          ▼
+     ┌────────────────┐ ┌───────────┐ ┌──────────────┐
+     │ AI Assistance  │ │ Learning  │ │   Community   │
+     │ (always on)    │ │ (on gaps) │ │ (on struggle) │
+     └───────┬────────┘ └─────┬─────┘ └──────┬───────┘
+             │                │               │
+             └────────────────┼───────────────┘
+                              ▼
+                    ┌─────────────────────┐
+                    │  Career Development │
+                    │  (long-term loop)   │
+                    └─────────────────────┘
+```
 
 ---
 
@@ -246,238 +266,343 @@ See [[entities/offer-system]] for full offer lifecycle details.
 
 ---
 
-## Step 8: AI Tools
+# Parallel Tracks
 
-A dedicated suite of AI-powered tools available from day one — not just during the hiring flow.
+The hiring path is one dimension. These tracks run alongside it — activating at specific moments and feeding results back into the hiring path. They aren't "steps" you reach; they're responses to what happens during your search.
 
-| Tool | Route | What It Does |
-|------|-------|-------------|
-| **AI Coaching** | `/coaching` | Personalised career guidance — chat about goals, challenges, interviews. On-demand career coach. |
-| **CV Review** | `/cv-review` | Analyses CV for clarity, keywords, ATS compatibility, achievement quantification. Fix issues before applying. |
-| **Cover Letter** | `/cover-letter` | Generates role-specific cover letters from your profile + job description. Edit and personalise before sending. |
-| **Salary Negotiator** | `/salary-negotiator` | Market data + conversation strategies for salary negotiation. |
-| **Interview Simulator** | `/interview-simulator` | Mock interviews with AI feedback (behavioural, technical, case study). |
+---
 
-**Autopilot features** (configurable in Settings):
-- **Auto-Apply** — automatically apply to strong AI matches
-- **Auto-Cover-Letter** — generate cover letters for every application
-- **Auto-Follow-Up** — send follow-ups after configurable intervals
-- **Market Radar** — watch companies, roles, industries for alerts (salary trends, hiring bursts, layoffs)
+## Track A: AI Assistance — "I need an edge"
+
+AI tools activate at decision points throughout the hiring path. They're not a separate section you visit — they're woven into the moments where you need help.
+
+### Scenario: Your applications aren't converting
+
+```
+/application-analytics shows 15 applications, 0 interviews
+    ↓
+What's wrong? Two possible paths:
+    ↓
+PATH 1: Your CV is the problem
+  /cv-review → AI analyses your CV
+    ├─ Finds: weak action verbs, no quantified achievements, poor ATS keywords
+    ├─ Gives specific rewrites, not just "improve this"
+    └─ You fix it → re-upload → next applications perform better
+    ↓
+PATH 2: You're targeting wrong roles
+  /coaching → Chat with AI career coach
+    ├─ "I have 3 years in marketing but keep applying for senior roles"
+    ├─ Coach identifies mismatch between experience and target
+    └─ Suggests adjusting search criteria or building missing skills
+        → feeds into Learning track (Track B)
+```
+
+### Scenario: You found a dream job but feel underqualified
+
+```
+View job listing → aiMatchScore = 62 (borderline)
+  ├─ aiMissingSkills: ["Tableau", "SQL", "stakeholder management"]
+    ↓
+/cover-letter → AI generates a letter that:
+  ├─ Emphasises your matched skills (not the gaps)
+  ├─ Frames transferable experience toward the missing skills
+  └─ You edit, personalise, and submit with the application
+    ↓
+Meanwhile: /job-linked-learning flags courses for the missing skills
+  → feeds into Learning track (Track B)
+```
+
+### Scenario: You got an offer but the salary feels low
+
+```
+Offer arrives: R35,000/month for Data Analyst in Cape Town
+    ↓
+/salary-negotiator → AI pulls market data:
+  ├─ Median for this role/location/experience: R42,000
+  ├─ You're being offered 25th percentile
+  └─ AI generates talking points + counter-offer script
+    ↓
+/salary-insights → Broader market context:
+  ├─ Salary trends (rising? flat? declining?)
+  ├─ How this company's offers compare to industry
+  └─ What a realistic counter looks like
+    ↓
+You negotiate → counter-offer flow in Step 7
+```
+
+### Scenario: You want to job search on autopilot
+
+```
+/settings → Automation tab → Configure Autopilot:
+  ├─ Auto-Apply: ON (for jobs with aiMatchScore > 80)
+  ├─ Auto-Cover-Letter: ON (generate per application)
+  ├─ Auto-Follow-Up: ON (send after 7 days of no response)
+  └─ Market Radar: watching "fintech", "Cape Town", "data analyst"
+    ↓
+System runs continuously:
+  ├─ New job posted matching radar → notification
+  ├─ Strong match → auto-applies with tailored cover letter
+  ├─ No response after 7 days → auto-follow-up sent
+  └─ Market shift detected → alert (e.g., "hiring burst at Discovery")
+```
 
 See [[concepts/ai-features]] for the full AI capability map.
 
 ---
 
-## Step 9: Learning Hub
+## Track B: Learning — "I'm not qualified enough"
 
-A comprehensive learning ecosystem with 14 features — not just a course catalogue.
+Learning activates when there's a gap between where you are and where you need to be. The trigger is usually a rejection, a low match score, or a career pivot decision.
 
-### Core Learning
+### Scenario: Rejected for missing skills
 
 ```
-/learning — Learning Dashboard
-  ├─ Enrolled courses, progress %, achievements
-  ├─ Personalised recommendations based on career goals
-  └─ Upcoming deadlines
+Application rejected → feedback mentions "insufficient SQL experience"
     ↓
-/learning-hub — Browse all content
-  ├─ Providers: Udemy, Coursera, LinkedIn Learning, internal
-  ├─ Categories: technical, soft-skills, certification, language, industry
-  └─ Levels: beginner, intermediate, advanced
+/skill-gap → Select target role: "Data Analyst"
+  ├─ Compares your verified skills vs role requirements
+  ├─ Gap list: SQL (critical), Tableau (important), Statistics (nice-to-have)
+  └─ Each gap links to learning resources
     ↓
-/learning-paths — Structured journeys
-  ├─ E.g., "Become a Data Analyst", "Master Project Management"
-  └─ Step-by-step sequence at your own pace
+/learning-paths → Enrol in "Become a Data Analyst" path
+  ├─ Structured sequence: SQL fundamentals → intermediate queries → data viz
+  ├─ Your pace, your schedule
+  └─ /study-planner creates a realistic weekly plan
     ↓
-/skill-tree — Visual skill map
-  ├─ Current levels, relationships between skills
-  └─ Click any skill → learning resources, verification tests, career paths
+/micro-learning → 15-minute SQL modules during commutes
+    ↓
+/learning-challenges → Complete a real-world data challenge
+  ├─ Timed project: "Analyse this dataset and present findings"
+  ├─ Submission goes to /portfolio-builder as a portfolio piece
+  └─ Earns a badge (visible to recruiters)
+    ↓
+/skill-verifications → Take SQL assessment
+  ├─ Pass → verified badge on profile
+  └─ Your aiMatchScore for Data Analyst roles improves
+    ↓
+FEEDBACK LOOP: Re-search jobs → higher match scores → better applications
 ```
 
-### Targeted Learning
+### Scenario: Career changer with no formal credentials
 
 ```
-/micro-learning — Bite-sized modules (5–15 min)
-  └─ One concept per module + quick knowledge check
+You're a teacher pivoting to UX design — no portfolio, no certifications
     ↓
-/job-linked-learning — Tied to specific jobs
-  ├─ "You're missing X for this role — here's a course"
-  └─ Turns "not quite qualified" into "qualified"
+/career-path → Explore "Teacher → UX Designer" trajectory
+  ├─ Shows: transferable skills (communication, empathy, curriculum design)
+  ├─ Shows: missing skills (Figma, user research, prototyping)
+  └─ Typical timeline: 6–9 months
     ↓
-/learning-challenges — Practical, project-based challenges
-  ├─ Real-world scenarios, timed completion
-  └─ Submissions become portfolio pieces + earn badges
+/learning-hub → Browse UX courses
+  ├─ Providers: Coursera, Udemy, LinkedIn Learning
+  ├─ /job-linked-learning → "These 3 courses match active UX job postings"
+  └─ /certifications → Google UX Design Certificate prep
     ↓
-/peer-teaching — Teach what you know, learn from others
-  └─ Earns recognition, reinforces knowledge, builds network
-```
-
-### South African Specific
-
-```
-SETA Learnerships → accessible via Learning Hub
-  ├─ Browse by SETA and industry
-  ├─ Check eligibility requirements
-  └─ Apply directly through the platform
-  (Sector Education and Training Authority — accredited with workplace experience)
-```
-
-### Learning Management
-
-```
-/certifications — Browse, prepare, track certification progress
+/portfolio-builder → Build as you learn
+  ├─ Add course projects, personal redesigns, challenge submissions
+  └─ Shareable portfolio link for applications
     ↓
-/study-planner — Schedule learning sessions
-  ├─ Set goals + available time
-  ├─ Auto-creates realistic schedule
-  └─ Reminders + adjusts if you fall behind
+/peer-teaching → Teach what you know (communication skills workshop)
+  ├─ Earns recognition + badges
+  └─ Builds network in the UX community
     ↓
-/learning-analytics — Track learning ROI
-  ├─ Time spent, modules completed, quiz scores
-  └─ Skill growth over time
+SETA Learnerships → Check for accredited UX/digital design programmes
+  ├─ Browse by SETA, check eligibility
+  └─ Structured workplace experience — a path into employment
     ↓
-/mentorship — Structured mentorship programme
-  ├─ Browse mentors by industry/expertise
-  ├─ Request connection, schedule sessions
-  └─ Track goals and progress
+/mentorship → Connect with a working UX designer
+  ├─ Matched by industry + goals
+  ├─ Schedule sessions, track progress
+  └─ Insider guidance on breaking into the field
+    ↓
+FEEDBACK LOOP: New skills verified → Career Path updates
+  → new roles appear in Auto Match → apply with portfolio + certs
 ```
 
-**Learning → Hiring feedback loop:**
+### Scenario: Upskilling while employed (post-hire)
+
 ```
-Learning completed → Skill verified → Match score improves
-                                    → Better AI recommendations
-                                    → Credential displayed on profile
+You got hired (Step 7 complete) but want to grow toward a promotion
+    ↓
+/learning-dashboard → Track ongoing development
+  ├─ /skill-tree → Visualise current skills and what's next
+  ├─ /learning-analytics → Time invested, progress, quiz scores
+  └─ /study-planner → Fit learning around your work schedule
+    ↓
+/certifications → Work toward industry certification
+  ├─ Prep materials, study guides, exam readiness tracking
+  └─ Certified → credential on profile → stronger position for next move
 ```
 
-See [[entities/community-learning-hub]] for technical details.
+See [[entities/community-learning-hub]] for technical details on the learning infrastructure.
 
 ---
 
-## Step 10: Career Development
+## Track C: Community — "I need people, not just tools"
 
-Long-term career management tools — available alongside job search or after hiring.
+Community activates when the job search feels isolating, when you need real human insight, or when you've been through something worth sharing.
 
-| Tool | Route | What It Does |
-|------|-------|-------------|
-| **Skill Gap Analysis** | `/skill-gap` | Compares your verified skills against target role requirements. Produces prioritised gap list with linked learning. |
-| **Career Path** | `/career-path` | Visual career progression — lateral moves, promotions, pivots. Shows skills needed per transition + typical timelines. |
-| **Salary Insights** | `/salary-insights` | Market salary data by title, industry, experience, location. Median, 25th, 75th percentiles. |
-| **Career Pulse** | `/career-pulse` | Periodic career satisfaction check-ins. Tracks sentiment over time, flags misalignment or readiness for change. |
-| **Career Tests** | `/tests` | Skills and knowledge assessments. Passing scores add verified badges to profile. |
-| **Career Analytics** | `/analytics` | Profile strength, market competitiveness, search appearances, application success rates, comparison to other candidates. |
-
-**Career Development → Job Search feedback loop:**
-```
-Skill Gap identified → Learning recommended → Skill verified
-    → Improved match scores → Better job recommendations
-        → Career Path updated with new possibilities
-```
-
----
-
-## Step 11: Community
-
-A social layer for peer support, networking, and recognition — 6 features.
+### Scenario: Preparing for a big interview
 
 ```
-/community — Community Forum
-  ├─ Post types: Discussion, Interview Experience, Success Story, Resource, Question
-  ├─ Categories: job-search, interviews, career-growth, skills, general
-  ├─ Threaded comments, reactions (like, helpful, insightful, celebrate)
-  ├─ Bookmarks, polls, content reporting
-  └─ 11 tabs: feed, trending, bookmarks, success stories, challenges, pulse...
+Interview scheduled at Standard Bank for a Senior Analyst role
     ↓
-/community-trending — What the community is talking about
-  ├─ Hot posts (scored by engagement)
-  ├─ Trending categories, popular tags (top 15, 30 days)
-  └─ Active discussions
+/community-interviews → Search Interview Vault for "Standard Bank"
+  ├─ Find 3 posts from people who interviewed there
+  ├─ Common questions: case study on credit risk, behavioural on leadership
+  ├─ One post warns: "They care a lot about cultural fit — prep examples"
+  └─ You now know what to expect before the interview simulator
     ↓
-/community-leaderboard — Gamified ranking
-  ├─ Points: posts ×10 + upvotes ×5 + comments ×3
+/interview-simulator → Practice with AI using the real questions you found
+    ↓
+After your interview:
+  └─ Contribute YOUR experience to the Interview Vault
+      → helps the next person who interviews at Standard Bank
+```
+
+### Scenario: Search stalled, morale dropping
+
+```
+3 months in, 40 applications, 2 interviews, 0 offers
+    ↓
+/community → Browse the forum
+  ├─ Find others in similar situations → you're not alone
+  ├─ Read success stories → people who broke through after months
+  ├─ Post a question: "Anyone else struggling in the data space in JHB?"
+  └─ Get advice: "Have you tried contract roles? That's how I got in"
+    ↓
+/community-trending → See what's working for other job seekers
+  ├─ Trending topic: "Companies hiring in Cape Town fintech"
+  └─ Popular resource shared: a free SQL course that got someone hired
+    ↓
+/community-mentors → Request a mentor
+  ├─ Matched with someone in your target industry
+  ├─ They review your approach, suggest changes
+  └─ Accountability + insider perspective
+    ↓
+FEEDBACK LOOP: New strategy → adjust search → better outcomes
+```
+
+### Scenario: You got hired and want to give back
+
+```
+You landed the job → post a Success Story
+  ├─ Company, role, salary (optional), what worked, what you'd do differently
+  └─ This helps others calibrate their expectations
+    ↓
+/peer-teaching → Teach a skill you're strong in
+  ├─ "How I learned SQL in 3 months" — a session for career changers
+  └─ Earns badges + builds your reputation
+    ↓
+/community-leaderboard → Your contributions earn points
+  ├─ Posts ×10 + upvotes ×5 + comments ×3
   ├─ Levels: Newcomer → Contributor → Rising Star → Expert → Community Leader
-  └─ High-ranking = visibility + credibility with recruiters
+  └─ High-ranking profiles get visibility with recruiters
     ↓
-/community-interviews — Interview Vault
-  ├─ Shared real interview questions by company/role
-  └─ Contribute your experiences to help others
-    ↓
-/community-mentors — Mentor Connect
-  ├─ Matchmaking based on goals, industry, development needs
-  └─ Connection requests + session scheduling
-    ↓
-/community-badges — Achievement Badges
-  ├─ Earned via: courses, skill verifications, community contributions, milestones
-  └─ Display on profile, visible to recruiters
+/community-badges → Collect achievement badges
+  └─ Displayed on profile — signals engagement to future employers
 ```
 
-**Application Streaks** — gamification tracks consecutive days with applications. Current streak and longest streak.
+**Application Streaks** — gamification tracks consecutive days with applications. Keeps momentum during the grind.
 
 See [[entities/community-learning-hub]] for full community architecture.
 
 ---
 
-## Step 12: Knowledge Base
+## Track D: Career Development — "Where am I going?"
+
+Career Development is the long-term loop. It runs before, during, and after any specific job search. It's how you stay intentional about your career instead of drifting.
+
+### Scenario: "I don't know what I should be doing with my career"
 
 ```
-/wiki — Personal Knowledge Base
-  ├─ Wiki Dashboard — overview of your wikis
-  ├─ Wiki Viewer — read wiki pages
-  └─ Wiki Pages — create and edit personal knowledge articles
+/career-path → Explore trajectories from your current role
+  ├─ Lateral moves: Marketing Coordinator → Content Strategist
+  ├─ Upward moves: Marketing Coordinator → Marketing Manager
+  ├─ Pivot options: Marketing Coordinator → Product Manager
+  └─ Each shows: skills needed, typical timeline, salary range
+    ↓
+/tests → Take career assessments
+  ├─ Skills tests, knowledge assessments
+  ├─ Results: verified badges + clearer picture of strengths
+  └─ Weak areas → feed into Learning track (Track B)
+    ↓
+/career-pulse → Regular check-ins on satisfaction
+  ├─ "How do you feel about your current role/search?"
+  ├─ Tracks sentiment over time
+  └─ Flags when you might be ready for a change
 ```
 
-A personal wiki for organising career research, interview notes, industry insights, and learning materials.
+### Scenario: "Am I being paid fairly?"
+
+```
+/salary-insights → Search "Data Analyst, Cape Town, 3 years experience"
+  ├─ Median: R42,000/month
+  ├─ 25th percentile: R35,000 | 75th: R52,000
+  └─ Your current/offered salary vs market position
+    ↓
+Decision point:
+  ├─ Below median → /salary-negotiator for negotiation prep (Track A)
+  ├─ At median but want 75th → /skill-gap to find what separates you
+  └─ Above median → you're in a strong position
+```
+
+### Scenario: "I want to track how I'm doing overall"
+
+```
+/analytics → Career Analytics dashboard
+  ├─ Profile strength score — how complete/compelling your profile is
+  ├─ Market competitiveness — how you rank vs similar candidates
+  ├─ Search appearances — how often recruiters see your profile
+  ├─ Application success rates — what's converting and what isn't
+  └─ Comparison to others in your field
+    ↓
+Low profile strength? → Back to Step 3 (Build Profile)
+Low search appearances? → Adjust visibility in /settings → Privacy
+Low success rates? → Track A (AI Assistance) for CV/targeting fixes
+```
 
 ---
 
-## Step 13: Account Management
+## Supporting Infrastructure
 
-### Billing
+These features don't drive a narrative — they're plumbing that supports the tracks above.
 
-```
-/billing — Subscription & Payment Management
-  ├─ Overview — current plan and status
-  ├─ Value/ROI — return on subscription investment
-  ├─ Credits — balance, purchase, spend history
-  ├─ Budget — budget tracking and forecasting
-  ├─ Invoices — download invoice history
-  ├─ Plans — view/upgrade subscription plans
-  └─ Settings — payment methods, preferences
-```
+### Knowledge Base (`/wiki`)
 
-See [[concepts/billing-system]] for the full billing architecture.
+Personal wiki for organising career research, interview notes, company intel, and learning materials. Three views: dashboard, viewer, pages. Useful for candidates running a structured, multi-company search.
 
-### Settings
+### Billing (`/billing`)
 
-```
-/settings — Account Configuration (8 tabs)
-  ├─ Preferences — language, defaults
-  ├─ Career DNA — work values, communication style (feeds AI matching)
-  ├─ Automation — Autopilot config (auto-apply, auto-follow-up)
-  ├─ Notifications — email, WhatsApp, SMS, push preferences
-  ├─ Appearance — theme, accessibility
-  ├─ Privacy — profile visibility, data controls
-  ├─ Security — password, 2FA, sessions
-  └─ Account — email, deletion, data export
-```
+Subscription management (7 tabs: overview, value/ROI, credits, budget, invoices, plans, settings). Some features are credit-metered (e.g., AI operations). See [[concepts/billing-system]].
+
+### Settings (`/settings`)
+
+Account configuration (8 tabs: preferences, Career DNA, automation, notifications, appearance, privacy, security, account). Career DNA and Automation are the most consequential — they configure AI matching weights and Autopilot behaviour.
 
 ---
 
-## Feature Coverage Summary
+## How It All Connects
 
-| Category | Features | Step |
-|----------|----------|------|
-| Signup & Onboarding | 2 | Steps 1–2 |
-| Profile & Identity | 9 | Step 3 |
-| Job Search | 6 | Step 4 |
-| Applications & Tracking | 10 | Steps 5–6 |
-| Offer & Negotiation | 2 | Step 7 |
-| AI Tools | 4 (+4 autopilot) | Step 8 |
-| Learning Hub | 14 | Step 9 |
-| Career Development | 6 | Step 10 |
-| Community | 6 | Step 11 |
-| Knowledge Base | 1 (+3 sub-pages) | Step 12 |
-| Account | 2 | Step 13 |
-| **Total** | **57 main features, 90+ with tabs** | |
+```
+HIRING PATH:  Signup → Profile → Search → Apply → Track → Interview → Offer
+                 │         │        │        │       │         │         │
+                 │         │        │        │       │         │         │
+AI ASSISTANCE:   │    CV Review  Cover    Coaching  │    Interview   Salary
+                 │         │     Letter      │      │    Simulator  Negotiator
+                 │         │        │        │      │         │         │
+LEARNING:        │    Skill Tree   Job-    Skill   │    Interview    │
+                 │         │     Linked    Gap     │      Prep      │
+                 │         │    Learning    │      │         │       │
+COMMUNITY:       │         │        │      │    Mentor    Interview  Success
+                 │         │        │      │   Connect     Vault    Story
+                 │         │        │      │      │         │        │
+CAREER DEV:      │    Career Path   │   Analytics │    Career     Salary
+                 │         │        │      │      │     Pulse    Insights
+                 │         │        │      │      │         │        │
+                 ▼         ▼        ▼      ▼      ▼         ▼        ▼
+              [Each feeds back into the hiring path at the next cycle]
+```
 
 ## Key Touchpoints with Other User Types
 

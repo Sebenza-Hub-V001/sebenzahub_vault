@@ -113,9 +113,14 @@
 ## [2026-04-07] ingest | Individual Journey Gap Analysis
 - Source: `raw/articles/individual-journey-gap-analysis.md`
 - Summary: [[sources/individual-journey-gap-analysis-2026-04-07]]
-- Key action: **Full rewrite of [[workflows/individual-journey]]** — expanded from ~40% feature coverage (linear hiring path only) to 100% coverage (all 57 features across 13 steps)
-- New sections added to journey: AI Tools (Step 8), Learning Hub (Step 9), Career Development (Step 10), Community (Step 11), Knowledge Base (Step 12), Account Management (Step 13)
-- Existing sections expanded: Profile (Step 3 — added CV Templates, Skill Verifications, Portfolio Builder, Career DNA), Applications (Step 5 — added Application Portal, Candidate Hub, Experience Surveys)
+- Key action: **Full rewrite of [[workflows/individual-journey]]** — expanded from ~40% feature coverage to 100%, restructured from 13 linear steps to **7 hiring steps + 4 parallel tracks**
+- Hiring path (Steps 1–7): kept sequential narrative, expanded Step 3 (Profile) and Step 5 (Applications) with missing features
+- Parallel tracks (scenario-driven, not feature lists):
+  - **Track A: AI Assistance** — 4 scenarios: applications not converting, dream job underqualified, low salary offer, autopilot setup
+  - **Track B: Learning** — 3 scenarios: rejected for missing skills, career changer with no creds, upskilling while employed
+  - **Track C: Community** — 3 scenarios: preparing for big interview, search stalled, giving back after hired
+  - **Track D: Career Development** — 3 scenarios: career direction unclear, salary fairness, tracking overall performance
+- Supporting infrastructure: Knowledge Base, Billing, Settings (referenced, not duplicated)
 - Pages touched: [[workflows/individual-journey]], [[entities/individual-user]], [[entities/community-learning-hub]], [[concepts/ai-features]], [[concepts/billing-system]]
 - New pages created: [[sources/individual-journey-gap-analysis-2026-04-07]]
 - Contradictions flagged: none (gap analysis aligned with entity page data)
