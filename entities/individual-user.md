@@ -39,7 +39,7 @@ All Individual features live under `/dashboard/individual/*`.
 
 | Feature | Route | Description |
 |---------|-------|-------------|
-| All Jobs | `/all-jobs` | Browse complete job listings (posted + aggregated) |
+| All Jobs | `/all-jobs` | Browse complete job listings (posted + [[entities/job-aggregation\|aggregated]]) |
 | Auto Match | `/auto-match` | AI-powered automatic job matching based on profile |
 | Manual Search | `/manual-search` | Advanced search with filters (salary, location, industry) |
 | Saved Searches | `/saved-searches` | Save search criteria for quick access |
@@ -166,4 +166,7 @@ Individuals can track each application's status, set follow-up reminders, add pe
 - [[comparisons/user-type-comparison]] — How Individuals compare to other user types
 - [[entities/recruiter-user]] — Recruiters who source Individuals
 - [[entities/business-user]] — Businesses who hire Individuals
+- [[entities/community-learning-hub]] — Learning Hub and community features
+- [[entities/job-aggregation]] — External job sources (Adzuna, CareerJet)
 - Source: [[sources/repo-audit-2026-04-07]]
+- Source: [[sources/individual-features-2026-04-07]]

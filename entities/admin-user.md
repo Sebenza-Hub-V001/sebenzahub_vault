@@ -66,10 +66,10 @@ All Admin features live under `/admin/*`.
 
 | Feature | Route | Description |
 |---------|-------|-------------|
-| Job Aggregator | `/job-aggregator` | Aggregate jobs from Adzuna, CareerJet |
+| Job Aggregator | `/job-aggregator` | Aggregate jobs from Adzuna, CareerJet — see [[entities/job-aggregation]] |
 | Data Migration | `/data-migration` | Bulk data import/export tools |
 | Compliance Reports | `/compliance-reports` | Generate POPIA, B-BBEE, EE reports |
-| WhatsApp | `/whatsapp` | WhatsApp integration administration |
+| WhatsApp | `/whatsapp` | WhatsApp integration administration — see [[entities/whatsapp-bot]] |
 
 ## Data Model
 
@@ -139,5 +139,8 @@ The RBAC system (`/server/rbac.ts`) defines 40+ permissions across categories:
 - [[concepts/ai-features]] — AI systems that Admin monitors
 - [[concepts/compliance]] — Compliance that Admin enforces
 - [[concepts/billing-system]] — Billing that Admin manages
+- [[entities/job-aggregation]] — Job aggregation configuration
+- [[entities/whatsapp-bot]] — WhatsApp bot management (20 admin tabs)
+- [[concepts/seo-strategy]] — SEO management
 - [[comparisons/user-type-comparison]] — Feature comparison
 - Source: [[sources/repo-audit-2026-04-07]]

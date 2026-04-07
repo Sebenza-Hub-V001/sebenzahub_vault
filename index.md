@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-07 | Pages: 28 | Sources: 1 (+6 raw docs)
+> Last updated: 2026-04-07 | Pages: 39 | Sources: 7 (+6 raw docs)
 
 ## Entities
 - [[entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -21,17 +21,20 @@ status: active
 - [[entities/screening-system]] — CV screening, chatbot, competency tests, background checks
 - [[entities/linkedin-integration]] — OAuth, lead gen form sync, AI scoring, nurture sequences
 - [[entities/community-learning-hub]] — Forum, mentorship, learning paths, skill verification, gamification
+- [[entities/whatsapp-bot]] — AI-powered recruitment assistant via WhatsApp (20 admin tabs, 6 SA languages)
+- [[entities/job-aggregation]] — External job aggregation via Adzuna and CareerJet APIs
 
 ## Concepts
 - [[concepts/authentication]] — Passwordless magic-link login via Resend
 - [[concepts/rbac]] — Role-based access control with 40+ granular permissions
 - [[concepts/multi-tenancy]] — Organization-based data isolation for Recruiters and Businesses
 - [[concepts/application-lifecycle]] — Full hiring pipeline: apply → screen → interview → offer → hire
-- [[concepts/ai-features]] — OpenAI + Anthropic + Google Gemini powering matching, screening, interviews
+- [[concepts/ai-features]] — OpenAI + Anthropic + Google Gemini powering matching, screening, interviews (83% of pages still untouched)
 - [[concepts/compliance]] — POPIA, B-BBEE, Employment Equity (South African compliance)
-- [[concepts/billing-system]] — 18 subscription plans, credits, usage metering
+- [[concepts/billing-system]] — 18 subscription plans, credits, usage metering, 157 seeded features
 - [[concepts/whatsapp-integration]] — WhatsApp Business API: apply, campaigns, chatbots
 - [[concepts/tech-stack]] — React + Express + PostgreSQL + Railway
+- [[concepts/seo-strategy]] — SEO implementation (mature foundation) + content growth strategy
 
 ## Workflows
 - [[workflows/individual-journey]] — Signup → profile → search → apply → interview → hired
@@ -40,6 +43,12 @@ status: active
 
 ## Sources
 - [[sources/repo-audit-2026-04-07]] — Full codebase audit, 2026-04-07
+- [[sources/features-inventory-2026-04-07]] — Platform feature inventory (325 pages, 3586 endpoints, 755 tables, 157 features)
+- [[sources/individual-features-2026-04-07]] — 56+ Individual features detailed guide
+- [[sources/recruitment-features-2026-04-07]] — 95+ Recruiter features detailed guide
+- [[sources/ai-enhancement-opportunities-2026-04-07]] — AI enhancement audit (56 opportunities, 83% of pages lack AI)
+- [[sources/seo-plan-2026-04-07]] — SEO strategy (target: 10K monthly organic visitors)
+- [[sources/whatsapp-bot-training-manual-2026-04-07]] — WhatsApp bot operational manual (20 admin tabs)
 
 ## Raw Source Documents
 - `raw/data/features-inventory.md` — Platform feature inventory (325 pages, 3586 endpoints, 755 tables)
@@ -59,7 +68,7 @@ status: active
 - [[tweets/farzatv-farzapedia-personal-wiki]] — LLM compiles 2,500 personal notes into 400-article wiki for agent consumption, @FarzaTV, 2026-04
 
 ## Questions
-- [[questions/recruiter-business-relationship]] — How is the vendor relationship established? Status: open
-- [[questions/trust-tier-calculation]] — How are recruiter trust tiers calculated? Status: open
-- [[questions/subscription-plans]] — What are the 18 plans and their pricing? Status: open
-- [[questions/ai-provider-selection]] — How is the AI provider selected per feature? Status: open
+- [[questions/recruiter-business-relationship]] — How is the vendor relationship established? Status: partially resolved (medium confidence)
+- [[questions/trust-tier-calculation]] — How are recruiter trust tiers calculated? Status: partially resolved (medium confidence)
+- [[questions/subscription-plans]] — What are the 18 plans and their pricing? Status: partially resolved (pricing hints found)
+- [[questions/ai-provider-selection]] — How is the AI provider selected per feature? Status: partially resolved (admin-configurable confirmed)

@@ -22,21 +22,47 @@ Sebenza Hub uses three AI providers (OpenAI, Anthropic Claude, Google Gemini). H
 
 ## Current Assessment
 
-Likely a mix:
-- Some features hardcoded to a specific provider (e.g., embeddings → OpenAI)
-- `ai_feature_configs` may allow admin to toggle providers per feature
-- Possibly a fallback chain (primary → secondary → tertiary)
+Based on the AI enhancement audit ([[sources/ai-enhancement-opportunities-2026-04-07]]):
 
-**Confidence:** low — needs server code investigation.
+### Confirmed Architecture
+- **42 AI functions** in the backend across 3 providers
+- **44 AI API endpoints** (of 200+ total)
+- **Admin-configurable per-feature model selection** already exists — this is the key finding
+- `ai_feature_configs` table stores feature-to-provider mapping
+- Admin dashboard has `/admin/ai-monitoring` for usage and cost tracking per provider
+- Admin has **AI Model Monitoring**, **Model Performance**, and **Model Registry** tabs
+
+### Provider Roles (inferred from SDK usage patterns)
+| Provider | SDK Version | Likely Primary Role |
+|----------|-------------|-------------------|
+| OpenAI | 4.77.0 | Job matching, CV analysis, content generation, embeddings |
+| Anthropic Claude | 0.78.0 | Complex reasoning, analysis, longer-form generation |
+| Google Gemini | 0.24.1 | Generative features, possibly multimodal (video analysis) |
+
+### Admin Controls
+From [[sources/features-inventory-2026-04-07]], the Admin dashboard includes:
+- `ai-dashboard-tab` — AI usage overview
+- `model-performance-tab` — Per-model accuracy, bias, latency tracking
+- `model-registry-tab` — Model catalog and versioning
+- `ai-monitoring` — Real-time AI monitoring
+- `ai-model-monitoring` — Detailed model metrics
+- `cost-optimizer-tab` — AI cost optimization
+
+**Updated assessment:** Provider selection is **admin-configurable per feature** via `ai_feature_configs`. The admin has a sophisticated AI governance layer with model registry, performance monitoring, and cost optimization. Likely defaults are set per feature with admin override capability.
+
+**Confidence:** medium — admin configurability confirmed, but exact routing logic (fallback chains, dynamic selection) needs code verification.
 
 ## Investigation Steps
 
-- [ ] Read `ai_feature_configs` table schema for fields
-- [ ] Search server code for provider selection logic
-- [ ] Check if there's an AI middleware/wrapper that routes to providers
-- [ ] Look for environment variable patterns (e.g., `AI_PROVIDER`, `DEFAULT_MODEL`)
+- [x] Review AI enhancement audit for architecture details → confirmed admin-configurable per feature
+- [x] Review features inventory for admin AI pages → found 6+ admin AI management tabs
+- [ ] Read `ai_feature_configs` table schema for exact fields
+- [ ] Search server code for provider selection/fallback logic
+- [ ] Check if there's runtime model switching or A/B testing
 
 ## References
 
 - [[concepts/ai-features]] — AI features overview
-- [[entities/admin-user]] — AI monitoring
+- [[entities/admin-user]] — AI monitoring and governance
+- Source: [[sources/ai-enhancement-opportunities-2026-04-07]]
+- Source: [[sources/features-inventory-2026-04-07]]

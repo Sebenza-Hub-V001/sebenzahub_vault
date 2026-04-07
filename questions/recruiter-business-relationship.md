@@ -30,19 +30,30 @@ From the codebase audit:
 
 ## Current Assessment
 
-It appears Recruiters **unilaterally create** Business client records in their CRM, rather than there being a bidirectional "connection" like LinkedIn. The Business's vendor management page likely shows which Recruiters have submitted candidates to their jobs.
+Based on [[sources/recruitment-features-2026-04-07]], the Recruiter side has a full **Revenue Engine** that confirms the Recruiter-driven model:
 
-**Confidence:** low — needs code-level verification.
+1. **Client Pipeline** — CRM-style pipeline for tracking client relationships (prospect → active). Recruiters manage outreach, track deals, log meetings and proposals.
+2. **Submissions** — Recruiters submit candidate profiles to clients and track feedback.
+3. **Placements** — End-to-end tracking from confirmed offer through start date and guarantee period, with invoicing triggers.
+4. **KPI Dashboard** — Tracks submissions sent, interviews arranged, placements made.
+
+The Business side has a **Vendor Management** page (`/dashboard/business/vendor-management`) which likely shows Recruiters who have submitted candidates. The AI enhancement audit ([[sources/ai-enhancement-opportunities-2026-04-07]]) identifies "AI Vendor Scoring" as a future feature: *"AI predicts vendor performance based on historical data. Cost optimization: 'Vendor A charges 20% more but delivers 35% faster.'"*
+
+**Updated assessment:** Recruiters unilaterally create client records and manage the relationship from their side. Businesses see Recruiters as "vendors" and can track their performance. There is no mutual "connection request" flow — Recruiters pursue Businesses as sales leads. Fee terms (percentage, fixed, hybrid) are stored in `corporateClientEngagements`.
+
+**Confidence:** medium — confirmed by feature documentation, but connection flow still needs code-level verification.
 
 ## Investigation Steps
 
-- [ ] Read the vendor management page (`/dashboard/business/vendors`)
-- [ ] Check if `corporateClients` has any `organizationId` FK linking to a Business org
-- [ ] Look for any "vendor invite" or "agency connect" API endpoints
-- [ ] Check if job postings have visibility controls for specific agencies
+- [x] Review recruitment features documentation for client management → confirmed via Revenue Engine features
+- [x] Check AI enhancement audit for vendor management plans → confirmed vendor scoring as future AI feature
+- [ ] Read the vendor management page code (`/dashboard/business/vendor-management`)
+- [ ] Verify if there's any invite/approval mechanism in the API
 
 ## References
 
-- [[entities/recruiter-user]] — Client management features
+- [[entities/recruiter-user]] — Client management and Revenue Engine features
 - [[entities/business-user]] — Vendor management
 - [[concepts/multi-tenancy]] — Organization relationships
+- Source: [[sources/recruitment-features-2026-04-07]]
+- Source: [[sources/ai-enhancement-opportunities-2026-04-07]]

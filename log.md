@@ -69,3 +69,53 @@
 - Filed: [[tweets/farzatv-farzapedia-personal-wiki]]
 - Recommendations: 5 (top: agent-queryable candidate wikis for Recruiters, personal career wiki for Individuals, agent-first data architecture)
 - Pages touched: [[tweets/karpathy-llm-knowledge-bases]] (cross-reference added)
+
+## [2026-04-07] ingest | Batch ingest of 6 raw source documents
+- Ingested all 6 raw docs that were previously copied but not formally processed
+- Source summaries created:
+  - [[sources/features-inventory-2026-04-07]] — Platform feature inventory (325 pages, 157 features, 18 plans)
+  - [[sources/individual-features-2026-04-07]] — 56+ Individual features (profile, job search, applications, AI tools, learning, career, community)
+  - [[sources/recruitment-features-2026-04-07]] — 95+ Recruiter features (recruitment, evaluation, AI, talent, scheduling, analytics, revenue engine, governance)
+  - [[sources/ai-enhancement-opportunities-2026-04-07]] — 56 AI enhancement opportunities (83% of pages lack AI, 5 quick wins, 8 high-value medium effort)
+  - [[sources/seo-plan-2026-04-07]] — SEO strategy (mature foundation, SSR gap, 10K monthly organic target)
+  - [[sources/whatsapp-bot-training-manual-2026-04-07]] — WhatsApp bot operational manual (20 admin tabs, 6 SA languages, flow builder)
+- Contradictions flagged:
+  - Page count: features inventory lists 325 routes vs repo audit's 464 (likely counting methodology difference)
+  - WhatsApp language support: bot greets in 6 SA languages, but AI enhancement audit flags multi-language AI as unimplemented (template-based vs full AI conversation)
+
+## [2026-04-07] evolve | New entity and concept pages
+- New pages created:
+  - [[entities/whatsapp-bot]] — Deep-dive entity page for the WhatsApp bot (20 admin tabs, flow builder, DNA analyzer, war room)
+  - [[entities/job-aggregation]] — Job aggregation entity page (Adzuna + CareerJet APIs)
+  - [[concepts/seo-strategy]] — SEO strategy concept page (implementation status, keyword strategy, goals)
+- Pages touched:
+  - [[concepts/ai-features]] — Added AI enhancement opportunities section, infrastructure gaps, priority matrix
+  - [[concepts/whatsapp-integration]] — Added WhatsApp bot deep-dive section, Meta API details, language tension note
+  - [[entities/sebenza-hub]] — Added SEO strategy, whatsapp-bot, and job-aggregation references
+  - [[entities/admin-user]] — Added links to job-aggregation and whatsapp-bot
+  - [[entities/individual-user]] — Added links to job-aggregation and community-learning-hub
+  - [[entities/recruiter-user]] — Added links to whatsapp-bot, offer-system, screening-system, linkedin-integration
+
+## [2026-04-07] query | Resolve open questions with new source data
+- Updated all 4 open questions with information from newly ingested sources:
+  - [[questions/recruiter-business-relationship]] — Confidence raised to medium. Confirmed recruiter-driven model with Revenue Engine (client pipeline, submissions, placements). Business-side vendor scoring identified as future AI feature.
+  - [[questions/trust-tier-calculation]] — Confidence raised to medium. Confirmed input signals: placement rates, candidate NPS, client satisfaction, engagement scoring. Exact algorithm still needs code verification.
+  - [[questions/subscription-plans]] — Confidence raised to medium. Found pricing hints from SEO plan (Individual ~R99/mo, Recruiter ~R999/mo, Business ~R1,999/mo). Confirmed 157 features (boolean + metered) distributed across plans.
+  - [[questions/ai-provider-selection]] — Confidence raised to medium. Confirmed admin-configurable per-feature model selection via `ai_feature_configs`. Found 6+ admin AI management tabs.
+
+## [2026-04-07] lint | Cross-reference audit
+- Issues found: 5 orphan pages, 11 cross-reference gaps
+- Fixed: all — added missing wiki-links across 7 pages
+- Orphan pages resolved: entities/whatsapp-bot, entities/job-aggregation, concepts/seo-strategy (all newly created, now linked)
+- Remaining orphans: tasks/todo.md, tasks/lessons.md (acceptable — task files)
+- No broken wiki-links found (all content links resolve to existing files)
+
+## [2026-04-07] evolve | Overview rewrite
+- Rewrote overview.md with deeper synthesis from all 7 sources
+- Key shifts:
+  - Added "Three Products in One" framing (career platform, ATS+CRM, HR suite)
+  - Highlighted AI underutilisation (83% gap) as biggest opportunity
+  - Elevated WhatsApp as "platform within a platform"
+  - Added "Emerging Themes" section: AI moat, WhatsApp strategic, recruiter revenue engine, business frontier, compliance differentiator
+  - Added scale metrics comparison and page count discrepancy
+- Total wiki pages: 39 (+6 raw docs)
