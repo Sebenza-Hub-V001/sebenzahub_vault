@@ -50,3 +50,16 @@
 - Updated tasks/todo.md with wiki maintenance backlog
 - Created workflows/ directory
 - Total wiki pages: 27 (+6 raw docs)
+
+## [2026-04-07] evolve | Added Tweets section
+- Added `tweets/` directory and page type
+- Added "Tweet" operation (#5) to CLAUDE.md with full workflow
+- Updated directory structure, domain extension, index format in CLAUDE.md
+- Updated index.md with Tweets section
+- Purpose: Ingest AI tweets → extract insights → recommend Sebenza Hub improvements
+
+## [2026-04-07] tweet | Karpathy — LLM Knowledge Bases
+- Source: https://x.com/karpathy/status/2039805659525644595
+- Filed: [[tweets/karpathy-llm-knowledge-bases]]
+- Recommendations: 6 (top: AI-compiled company research for Individuals, LLM-maintained talent market wiki, knowledge base for screening bot)
+- Pages touched: none (recommendations filed, not yet implemented)

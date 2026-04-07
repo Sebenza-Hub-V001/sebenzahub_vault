@@ -31,6 +31,7 @@ wiki/
 ├── comparisons/           # Side-by-side analyses, trade-off tables
 ├── decisions/             # Decision records with context, options, rationale
 ├── questions/             # Open questions, research threads, things to investigate
+├── tweets/               # Ingested tweets with Sebenza Hub improvement recommendations
 └── tasks/
     ├── todo.md            # Current task tracking
     └── lessons.md         # Patterns and corrections (per existing workflow)
@@ -176,6 +177,80 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 3. **Identify** emerging themes, shifting conclusions, strengthening/weakening arguments.
 4. **Log** the evolution in `log.md`.
 
+### 5. Tweet
+
+**Trigger:** User pastes a tweet URL (x.com or twitter.com link).
+
+**Workflow:**
+
+1. **Fetch** the tweet content using WebFetch on the URL.
+2. **Extract** the core insight, claim, or idea from the tweet and any thread/replies visible.
+3. **Create** a tweet page in `tweets/` with this structure:
+   ```markdown
+   ---
+   title: "Short descriptive title of the tweet's insight"
+   type: tweet
+   created: YYYY-MM-DD
+   updated: YYYY-MM-DD
+   tags: [ai, relevant-topic-tags]
+   author: "@twitter_handle"
+   url: "https://x.com/..."
+   status: active
+   ---
+
+   # Short Descriptive Title
+
+   ## Tweet
+
+   > Quoted tweet text (or paraphrased if fetch is partial)
+
+   **Author:** [@handle](url) | **Date:** YYYY-MM-DD (if known)
+
+   ## Key Insight
+
+   One-paragraph summary of the core idea and why it matters.
+
+   ## Sebenza Hub Relevance
+
+   How this insight connects to existing Sebenza Hub features or gaps.
+
+   ## Recommendations
+
+   Specific, actionable recommendations for Sebenza Hub:
+
+   | # | Recommendation | Affected Area | Effort | Impact |
+   |---|---------------|---------------|--------|--------|
+   | 1 | ... | [[entities/page]] or [[concepts/page]] | low/medium/high | low/medium/high |
+   | 2 | ... | ... | ... | ... |
+
+   Each recommendation should:
+   - Reference specific wiki pages that would be affected
+   - Be concrete enough to act on (not vague "improve AI")
+   - Include effort (how hard) and impact (how valuable) estimates
+   - Distinguish between "new feature" vs "enhance existing feature" vs "architectural change"
+
+   ## Skip Justification (if applicable)
+
+   If the tweet has NO relevance to Sebenza Hub, say so clearly and briefly explain why. Not every tweet needs a recommendation — don't force it.
+
+   ## References
+
+   - Related wiki pages: [[...]]
+   - Source tweet: [link](url)
+   ```
+4. **Cross-reference** — update any affected entity or concept pages if the recommendation is strong enough to warrant a note (e.g., add a "Potential Enhancement" subsection).
+5. **Update** `index.md` — add the tweet to the Tweets section.
+6. **Append** to `log.md`:
+   ```markdown
+   ## [YYYY-MM-DD] tweet | Short title
+   - Source: tweet URL
+   - Filed: [[tweets/tweet-slug]]
+   - Recommendations: N (brief summary of top recommendation)
+   - Pages touched: [[page-1]], [[page-2]] (if any updated)
+   ```
+
+**Batch tweets:** If multiple tweet URLs are provided, process each one. Group related tweets if they cover the same topic.
+
 ---
 
 ## Index Format
@@ -204,6 +279,9 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
 ## Questions
 - [[questions/question-name]] — Status: open | resolved
+
+## Tweets
+- [[tweets/tweet-slug]] — Key insight, @author, YYYY-MM-DD
 ```
 
 ---
@@ -283,6 +361,7 @@ When starting fresh:
 #### Additional Page Types
 - `workflows/` — End-to-end user journeys with step-by-step flows
 - `integrations/` — One page per external integration (LinkedIn, WhatsApp, Adzuna, etc.)
+- `tweets/` — Ingested tweets with extracted insights and Sebenza Hub recommendations
 
 #### Additional Tags
 - `user-type` — Pages describing Individual, Recruiter, Business, or Admin

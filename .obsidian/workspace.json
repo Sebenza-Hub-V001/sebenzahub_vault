@@ -6,6 +6,7 @@
       {
         "id": "244eb9b70af5980a",
         "type": "tabs",
+        "dimension": 24.954873646209386,
         "children": [
           {
             "id": "ee03e7d8f283433d",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "2026-04-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "2026-04-07"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "516d1c8084d2cfd2",
         "type": "tabs",
+        "dimension": 75.04512635379061,
         "children": [
           {
             "id": "e46c11858fc660d6",
@@ -187,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -196,8 +199,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "ee03e7d8f283433d",
+  "active": "e46c11858fc660d6",
   "lastOpenFiles": [
+    "2026-04-07.md",
+    "CLAUDE.md",
     "Welcome.md",
     "Untitled.base",
     "raw/articles/Untitled.md",
@@ -217,7 +222,6 @@
     "tasks",
     "questions",
     "decisions",
-    "CLAUDE.md",
     "CLAUDE (1).md"
   ]
 }

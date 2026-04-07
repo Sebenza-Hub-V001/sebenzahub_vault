@@ -54,6 +54,9 @@ status: active
 
 ## Decisions
 
+## Tweets
+- [[tweets/karpathy-llm-knowledge-bases]] — LLM-powered knowledge bases replace RAG at personal scale, @karpathy, 2026-04
+
 ## Questions
 - [[questions/recruiter-business-relationship]] — How is the vendor relationship established? Status: open
 - [[questions/trust-tier-calculation]] — How are recruiter trust tiers calculated? Status: open
