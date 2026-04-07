@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-07 | Pages: 27 | Sources: 1 (+6 raw docs)
+> Last updated: 2026-04-07 | Pages: 28 | Sources: 1 (+6 raw docs)
 
 ## Entities
 - [[entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -56,6 +56,7 @@ status: active
 
 ## Tweets
 - [[tweets/karpathy-llm-knowledge-bases]] — LLM-powered knowledge bases replace RAG at personal scale, @karpathy, 2026-04
+- [[tweets/farzatv-farzapedia-personal-wiki]] — LLM compiles 2,500 personal notes into 400-article wiki for agent consumption, @FarzaTV, 2026-04
 
 ## Questions
 - [[questions/recruiter-business-relationship]] — How is the vendor relationship established? Status: open
