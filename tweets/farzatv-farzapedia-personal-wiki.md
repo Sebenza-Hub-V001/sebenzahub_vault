@@ -57,6 +57,7 @@ N/A — This tweet is highly relevant. It validates and extends the Karpathy wik
 ## References
 
 - [[tweets/karpathy-llm-knowledge-bases]] — Directly related: Karpathy's LLM wiki pattern (this tweet is a concrete implementation)
+- [[tweets/explorax-20-agentic-skills]] — Modular `.md` skill files for AI — same pattern (markdown artifacts powering AI behaviour) applied to task execution rather than knowledge
 - [[entities/sebenza-hub]] — Platform overview (wiki feature, AI features)
 - [[entities/individual-user]] — Career DNA, AI Career Coach
 - [[entities/recruiter-user]] — AI Copilot, client management, candidate CRM
