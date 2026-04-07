@@ -32,6 +32,7 @@ wiki/
 ├── decisions/             # Decision records with context, options, rationale
 ├── questions/             # Open questions, research threads, things to investigate
 ├── tweets/               # Ingested tweets with Sebenza Hub improvement recommendations
+├── presentations/        # Slide decks, pitch materials, and presentation content
 └── tasks/
     ├── todo.md            # Current task tracking
     └── lessons.md         # Patterns and corrections (per existing workflow)
