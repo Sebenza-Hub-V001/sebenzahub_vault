@@ -63,3 +63,9 @@
 - Filed: [[tweets/karpathy-llm-knowledge-bases]]
 - Recommendations: 6 (top: AI-compiled company research for Individuals, LLM-maintained talent market wiki, knowledge base for screening bot)
 - Pages touched: none (recommendations filed, not yet implemented)
+
+## [2026-04-07] tweet | Farza — Farzapedia Personal Wiki
+- Source: https://x.com/FarzaTV/status/2040563939797504467
+- Filed: [[tweets/farzatv-farzapedia-personal-wiki]]
+- Recommendations: 5 (top: agent-queryable candidate wikis for Recruiters, personal career wiki for Individuals, agent-first data architecture)
+- Pages touched: [[tweets/karpathy-llm-knowledge-bases]] (cross-reference added)
