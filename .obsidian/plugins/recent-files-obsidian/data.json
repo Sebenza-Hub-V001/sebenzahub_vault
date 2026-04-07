@@ -5,6 +5,14 @@
       "path": "workflows/individual-journey.md"
     },
     {
+      "basename": "individual-journey-gap-analysis-2026-04-07",
+      "path": "sources/individual-journey-gap-analysis-2026-04-07.md"
+    },
+    {
+      "basename": "log",
+      "path": "log.md"
+    },
+    {
       "basename": "individual-features-2026-04-07",
       "path": "sources/individual-features-2026-04-07.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "features-inventory-2026-04-07",
       "path": "sources/features-inventory-2026-04-07.md"
-    },
-    {
-      "basename": "log",
-      "path": "log.md"
     },
     {
       "basename": "recruiter-journey",

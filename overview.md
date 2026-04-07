@@ -25,12 +25,14 @@ See [[comparisons/user-type-comparison]] for a detailed side-by-side feature mat
 
 ## How They Connect
 
-```
-Individual ←→ Job ←→ Recruiter
-                ↕
-             Business
-                ↕
-              Admin (oversees all)
+```mermaid
+graph LR
+    Individual <-->|applies| Job
+    Job <-->|posts| Recruiter
+    Job <-->|posts| Business
+    Admin -.->|oversees| Individual
+    Admin -.->|oversees| Recruiter
+    Admin -.->|oversees| Business
 ```
 
 - **Individuals** search and apply for jobs posted by Recruiters or Businesses, plus aggregated external listings from [[entities/job-aggregation|Adzuna and CareerJet]].
