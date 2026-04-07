@@ -47,16 +47,16 @@ All Recruiter features live under `/dashboard/recruiter/*`.
 
 ### Screening & Assessment
 
-| Feature | Route | Description |
-|---------|-------|-------------|
-| Screening Chatbot | `/screening-chatbot` | Automated initial screening via chatbot |
-| Tests | `/tests` | Administer skill/competency tests |
-| Test Library | `/test-library` | Pre-built test catalogue |
-| Test Templates | `/test-templates` | Create reusable test templates |
-| Scorecards | `/scorecards` | Structured evaluation forms |
-| Culture Fit | `/culture-fit` | Assess cultural alignment |
-| Blind Hiring | `/blind-hiring` | Remove bias (hide names, photos, demographics) |
-| Background Checks | `/background-checks` | Order background verification |
+| Feature           | Route                | Description                                    |
+| ----------------- | -------------------- | ---------------------------------------------- |
+| Screening Chatbot | `/screening-chatbot` | Automated initial screening via chatbot        |
+| Tests             | `/tests`             | Administer skill/competency tests              |
+| Test Library      | `/test-library`      | Pre-built test catalogue                       |
+| Test Templates    | `/test-templates`    | Create reusable test templates                 |
+| Scorecards        | `/scorecards`        | Structured evaluation forms                    |
+| Culture Fit       | `/culture-fit`       | Assess cultural alignment                      |
+| Blind Hiring      | `/blind-hiring`      | Remove bias (hide names, photos, demographics) |
+| Background Checks | `/background-checks` | Order background verification                  |
 
 ### Interviews
 

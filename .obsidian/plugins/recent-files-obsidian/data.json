@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "log",
+      "path": "log.md"
+    },
+    {
       "basename": "individual-journey",
       "path": "workflows/individual-journey.md"
+    },
+    {
+      "basename": "recruiter-journey",
+      "path": "workflows/recruiter-journey.md"
     }
   ],
   "omittedPaths": [],

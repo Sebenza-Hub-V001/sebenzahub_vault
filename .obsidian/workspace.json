@@ -11,10 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "mk-space",
+              "state": {
+                "path": "sources"
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "sources"
             }
           }
         ]
@@ -81,7 +83,7 @@
             }
           },
           {
-            "id": "11441e88ff8aadce",
+            "id": "e3b59cbc6b7c0561",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -208,9 +210,19 @@
               "icon": "smart-connections",
               "title": "Connections"
             }
+          },
+          {
+            "id": "f046e9106f727ed8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -244,7 +256,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "log.md",
     "workflows/individual-journey.md",
+    "workflows/recruiter-journey.md",
+    "tweets/farzatv-farzapedia-personal-wiki.md",
     "Tags",
     "2026-04-07.md",
     "entities/individual-user.md",
@@ -263,7 +278,6 @@
     "tasks/todo.md",
     "overview.md",
     "overview.md.tmp.33496.1775485231235",
-    "log.md",
     "index.md",
     "index.md.tmp.33496.1775485228557",
     "tasks",
