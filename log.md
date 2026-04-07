@@ -110,6 +110,16 @@
 - Remaining orphans: tasks/todo.md, tasks/lessons.md (acceptable — task files)
 - No broken wiki-links found (all content links resolve to existing files)
 
+## [2026-04-07] ingest | Individual Journey Gap Analysis
+- Source: `raw/articles/individual-journey-gap-analysis.md`
+- Summary: [[sources/individual-journey-gap-analysis-2026-04-07]]
+- Key action: **Full rewrite of [[workflows/individual-journey]]** — expanded from ~40% feature coverage (linear hiring path only) to 100% coverage (all 57 features across 13 steps)
+- New sections added to journey: AI Tools (Step 8), Learning Hub (Step 9), Career Development (Step 10), Community (Step 11), Knowledge Base (Step 12), Account Management (Step 13)
+- Existing sections expanded: Profile (Step 3 — added CV Templates, Skill Verifications, Portfolio Builder, Career DNA), Applications (Step 5 — added Application Portal, Candidate Hub, Experience Surveys)
+- Pages touched: [[workflows/individual-journey]], [[entities/individual-user]], [[entities/community-learning-hub]], [[concepts/ai-features]], [[concepts/billing-system]]
+- New pages created: [[sources/individual-journey-gap-analysis-2026-04-07]]
+- Contradictions flagged: none (gap analysis aligned with entity page data)
+
 ## [2026-04-07] evolve | Overview rewrite
 - Rewrote overview.md with deeper synthesis from all 7 sources
 - Key shifts:

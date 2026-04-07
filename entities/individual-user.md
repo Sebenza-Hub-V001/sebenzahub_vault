@@ -160,13 +160,17 @@ Individuals can track each application's status, set follow-up reminders, add pe
 
 ## References
 
+- [[workflows/individual-journey]] — Complete journey covering all 57 features
 - [[concepts/application-lifecycle]] — Full application flow
 - [[concepts/authentication]] — Magic link login
 - [[concepts/ai-features]] — AI tools available to Individuals
+- [[concepts/billing-system]] — Billing and subscription management
 - [[comparisons/user-type-comparison]] — How Individuals compare to other user types
 - [[entities/recruiter-user]] — Recruiters who source Individuals
 - [[entities/business-user]] — Businesses who hire Individuals
 - [[entities/community-learning-hub]] — Learning Hub and community features
 - [[entities/job-aggregation]] — External job sources (Adzuna, CareerJet)
+- [[entities/offer-system]] — Offer lifecycle
 - Source: [[sources/repo-audit-2026-04-07]]
 - Source: [[sources/individual-features-2026-04-07]]
+- Source: [[sources/individual-journey-gap-analysis-2026-04-07]]

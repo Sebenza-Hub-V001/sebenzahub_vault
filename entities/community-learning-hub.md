@@ -168,6 +168,7 @@ Learning gaps identified from job applications feed back into recommended learni
 ## References
 
 - [[entities/individual-user]] — Primary users of community and learning
+- [[workflows/individual-journey]] — Learning (Step 9) and Community (Step 11) in the full journey
 - [[concepts/ai-features]] — AI in learning recommendations and interview prep
 - [[comparisons/user-type-comparison]] — Learning is Individual-only
 - Source: [[sources/repo-audit-2026-04-07]]

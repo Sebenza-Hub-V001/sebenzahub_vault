@@ -152,6 +152,7 @@ Per [[sources/ai-enhancement-opportunities-2026-04-07]], **83% of pages don't us
 ## References
 
 - [[entities/individual-user]] — AI features for job seekers
+- [[workflows/individual-journey]] — AI tools in the Individual journey (Step 8)
 - [[entities/recruiter-user]] — AI features for recruiters
 - [[entities/admin-user]] — AI monitoring and governance
 - [[concepts/application-lifecycle]] — AI in the hiring pipeline

@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-07 | Pages: 39 | Sources: 7 (+6 raw docs)
+> Last updated: 2026-04-07 | Pages: 40 | Sources: 8 (+7 raw docs)
 
 ## Entities
 - [[entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -37,7 +37,7 @@ status: active
 - [[concepts/seo-strategy]] — SEO implementation (mature foundation) + content growth strategy
 
 ## Workflows
-- [[workflows/individual-journey]] — Signup → profile → search → apply → interview → hired
+- [[workflows/individual-journey]] — Complete 57-feature journey: hiring + AI tools + learning + career dev + community
 - [[workflows/recruiter-journey]] — Signup → build profile → add clients → source → screen → place → earn fee
 - [[workflows/business-journey]] — Signup → configure org → post jobs → review → interview → hire
 
@@ -49,6 +49,7 @@ status: active
 - [[sources/ai-enhancement-opportunities-2026-04-07]] — AI enhancement audit (56 opportunities, 83% of pages lack AI)
 - [[sources/seo-plan-2026-04-07]] — SEO strategy (target: 10K monthly organic visitors)
 - [[sources/whatsapp-bot-training-manual-2026-04-07]] — WhatsApp bot operational manual (20 admin tabs)
+- [[sources/individual-journey-gap-analysis-2026-04-07]] — Journey gap analysis (40% coverage → 100% rewrite)
 
 ## Raw Source Documents
 - `raw/data/features-inventory.md` — Platform feature inventory (325 pages, 3586 endpoints, 755 tables)
@@ -57,6 +58,7 @@ status: active
 - `raw/articles/ai-enhancement-opportunities.md` — AI enhancement audit (83% of pages lack AI)
 - `raw/articles/seo-plan.md` — SEO strategy document
 - `raw/articles/whatsapp-bot-training-manual.md` — WhatsApp chatbot training guide
+- `raw/articles/individual-journey-gap-analysis.md` — Individual journey coverage audit
 
 ## Comparisons
 - [[comparisons/user-type-comparison]] — Side-by-side feature matrix across all 4 user types
