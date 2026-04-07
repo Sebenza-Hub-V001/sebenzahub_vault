@@ -11,12 +11,24 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "sources"
+                "file": "workflows/individual-journey.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "sources"
+              "title": "individual-journey"
             }
           }
         ]
@@ -254,13 +266,15 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "f046e9106f727ed8",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "entities/individual-user.md",
+    "concepts/application-lifecycle.md",
+    "sources/features-inventory-2026-04-07.md",
     "sources/whatsapp-bot-training-manual-2026-04-07.md",
     "sources/seo-plan-2026-04-07.md",
     "sources/recruitment-features-2026-04-07.md",
     "sources/individual-features-2026-04-07.md",
-    "sources/features-inventory-2026-04-07.md",
     "sources/ai-enhancement-opportunities-2026-04-07.md",
     "entities/whatsapp-bot.md",
     "entities/job-aggregation.md",
@@ -271,7 +285,6 @@
     "tweets/farzatv-farzapedia-personal-wiki.md",
     "Tags",
     "2026-04-07.md",
-    "entities/individual-user.md",
     "tweets/karpathy-llm-knowledge-bases.md",
     "CLAUDE.md",
     "Welcome.md",

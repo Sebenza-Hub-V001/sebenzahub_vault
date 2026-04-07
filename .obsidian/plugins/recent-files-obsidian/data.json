@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "log",
-      "path": "log.md"
-    },
-    {
       "basename": "individual-journey",
       "path": "workflows/individual-journey.md"
+    },
+    {
+      "basename": "individual-user",
+      "path": "entities/individual-user.md"
+    },
+    {
+      "basename": "application-lifecycle",
+      "path": "concepts/application-lifecycle.md"
+    },
+    {
+      "basename": "features-inventory-2026-04-07",
+      "path": "sources/features-inventory-2026-04-07.md"
+    },
+    {
+      "basename": "log",
+      "path": "log.md"
     },
     {
       "basename": "recruiter-journey",
