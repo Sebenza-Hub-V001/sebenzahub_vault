@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "7049bbc9c3d76a54",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "8b87b9ded94dfa4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -266,8 +266,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "8b87b9ded94dfa4c",
   "lastOpenFiles": [
+    "sources/individual-features-2026-04-07.md",
+    "workflows/individual-journey.md",
     "log.md.tmp.51100.1775570605495",
     "index.md.tmp.51100.1775570595260",
     "index.md.tmp.51100.1775570592739",
@@ -285,13 +287,11 @@
     "sources/whatsapp-bot-training-manual-2026-04-07.md",
     "sources/seo-plan-2026-04-07.md",
     "sources/recruitment-features-2026-04-07.md",
-    "sources/individual-features-2026-04-07.md",
     "sources/ai-enhancement-opportunities-2026-04-07.md",
     "entities/whatsapp-bot.md",
     "entities/job-aggregation.md",
     "concepts/seo-strategy.md",
     "log.md",
-    "workflows/individual-journey.md",
     "workflows/recruiter-journey.md",
     "tweets/farzatv-farzapedia-personal-wiki.md",
     "Tags",
@@ -299,7 +299,6 @@
     "tweets/karpathy-llm-knowledge-bases.md",
     "CLAUDE.md",
     "Welcome.md",
-    "Untitled.base",
     "raw/articles/Untitled.md",
     "Untitled.canvas",
     "2026-04-06.md",

@@ -5,6 +5,10 @@
       "path": "workflows/individual-journey.md"
     },
     {
+      "basename": "individual-features-2026-04-07",
+      "path": "sources/individual-features-2026-04-07.md"
+    },
+    {
       "basename": "individual-user",
       "path": "entities/individual-user.md"
     },
