@@ -32,6 +32,7 @@ wiki/
 ├── decisions/             # Decision records with context, options, rationale
 ├── questions/             # Open questions, research threads, things to investigate
 ├── tweets/               # Ingested tweets with Sebenza Hub improvement recommendations
+├── presentations/        # Slide decks, pitch decks, demo scripts, talk outlines
 └── tasks/
     ├── todo.md            # Current task tracking
     └── lessons.md         # Patterns and corrections (per existing workflow)
@@ -54,7 +55,7 @@ Every wiki page follows this structure:
 ```markdown
 ---
 title: "Page Title"
-type: entity | concept | source | comparison | decision | question | overview
+type: entity | concept | source | comparison | decision | question | overview | presentation
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 tags: [tag1, tag2]
@@ -86,7 +87,7 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 | Field | Required | Description |
 |-------|----------|-------------|
 | `title` | Yes | Human-readable page title |
-| `type` | Yes | One of: entity, concept, source, comparison, decision, question, overview |
+| `type` | Yes | One of: entity, concept, source, comparison, decision, question, overview, presentation |
 | `created` | Yes | Date page was created |
 | `updated` | Yes | Date of last substantive edit |
 | `tags` | Yes | Relevant tags for categorisation and Dataview queries |
@@ -282,6 +283,9 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
 ## Tweets
 - [[tweets/tweet-slug]] — Key insight, @author, YYYY-MM-DD
+
+## Presentations
+- [[presentations/presentation-name]] — Topic, audience, date
 ```
 
 ---

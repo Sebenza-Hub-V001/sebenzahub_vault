@@ -71,6 +71,8 @@ status: active
 - [[tweets/explorax-20-agentic-skills]] — 20 reusable agentic skill files (.md) for Claude/ChatGPT/Gemini across writing, visual, research, video & coding, @exploraX_, 2026-04
 - [[tweets/aiedge-claude-skills-guide]] — Claude Skills architecture: progressive loading, A/B testing, trigger optimisation, eval framework, @aiedge_, 2026-03
 
+## Presentations
+
 ## Questions
 - [[questions/recruiter-business-relationship]] — How is the vendor relationship established? Status: partially resolved (medium confidence)
 - [[questions/trust-tier-calculation]] — How are recruiter trust tiers calculated? Status: partially resolved (medium confidence)
