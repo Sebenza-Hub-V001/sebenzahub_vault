@@ -25,15 +25,7 @@ See [[comparisons/user-type-comparison]] for a detailed side-by-side feature mat
 
 ## How They Connect
 
-```mermaid
-graph LR
-    Individual <-->|applies| Job
-    Job <-->|posts| Recruiter
-    Job <-->|posts| Business
-    Admin -.->|oversees| Individual
-    Admin -.->|oversees| Recruiter
-    Admin -.->|oversees| Business
-```
+**Individual** ↔ Job ↔ **Recruiter** · Job ↔ **Business** · **Admin** oversees all
 
 - **Individuals** search and apply for jobs posted by Recruiters or Businesses, plus aggregated external listings from [[entities/job-aggregation|Adzuna and CareerJet]].
 - **Recruiters** source Individuals and submit them to Business clients, earning placement fees. Their Revenue Engine (client pipeline, submissions, placements, KPIs) drives agency economics.
