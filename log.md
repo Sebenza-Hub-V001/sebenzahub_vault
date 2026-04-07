@@ -141,3 +141,10 @@
 - Recommendations: 6 (top: AI Skills Registry to decouple AI behaviour from code, Content Repurposing for job postings across WhatsApp/LinkedIn/email, Competitive Intelligence Dashboard for recruiters)
 - Pages touched: [[tweets/karpathy-llm-knowledge-bases]], [[tweets/farzatv-farzapedia-personal-wiki]] (cross-referenced)
 - Total wiki pages: 41 (+7 raw docs)
+
+## [2026-04-07] tweet | AI Edge — Claude Skills Ultimate Guide
+- Source: https://x.com/aiedge_/status/2036815449225298369
+- Filed: [[tweets/aiedge-claude-skills-guide]]
+- Recommendations: 6 (top: Skill-like architecture for AI features with progressive loading, A/B testing for AI prompts, trigger optimisation for WhatsApp bot)
+- Pages touched: [[tweets/explorax-20-agentic-skills]] (cross-referenced)
+- Total wiki pages: 42 (+7 raw docs)

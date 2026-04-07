@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-07 | Pages: 41 | Sources: 8 (+7 raw docs)
+> Last updated: 2026-04-07 | Pages: 42 | Sources: 8 (+7 raw docs)
 
 ## Entities
 - [[entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -69,6 +69,7 @@ status: active
 - [[tweets/karpathy-llm-knowledge-bases]] — LLM-powered knowledge bases replace RAG at personal scale, @karpathy, 2026-04
 - [[tweets/farzatv-farzapedia-personal-wiki]] — LLM compiles 2,500 personal notes into 400-article wiki for agent consumption, @FarzaTV, 2026-04
 - [[tweets/explorax-20-agentic-skills]] — 20 reusable agentic skill files (.md) for Claude/ChatGPT/Gemini across writing, visual, research, video & coding, @exploraX_, 2026-04
+- [[tweets/aiedge-claude-skills-guide]] — Claude Skills architecture: progressive loading, A/B testing, trigger optimisation, eval framework, @aiedge_, 2026-03
 
 ## Questions
 - [[questions/recruiter-business-relationship]] — How is the vendor relationship established? Status: partially resolved (medium confidence)
