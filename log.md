@@ -134,3 +134,10 @@
   - Added "Emerging Themes" section: AI moat, WhatsApp strategic, recruiter revenue engine, business frontier, compliance differentiator
   - Added scale metrics comparison and page count discrepancy
 - Total wiki pages: 39 (+6 raw docs)
+
+## [2026-04-07] tweet | exploraX_ — 20 Agentic Skills for AI Models
+- Source: https://x.com/explorax_/status/2039269234253934811
+- Filed: [[tweets/explorax-20-agentic-skills]]
+- Recommendations: 6 (top: AI Skills Registry to decouple AI behaviour from code, Content Repurposing for job postings across WhatsApp/LinkedIn/email, Competitive Intelligence Dashboard for recruiters)
+- Pages touched: [[tweets/karpathy-llm-knowledge-bases]], [[tweets/farzatv-farzapedia-personal-wiki]] (cross-referenced)
+- Total wiki pages: 41 (+7 raw docs)
