@@ -70,6 +70,15 @@ Admin has full control at `/admin/billing`:
 The `feature_entitlements` table controls which features each plan includes. Admin configures this at `/admin/features`. Feature access is checked at runtime:
 - `GET /api/me/entitlements` — Returns what the current user's plan allows
 
+## Individual Account Features
+
+Per the [[sources/individual-feature-guide-pdf-2026-04-07|Job Seeker Feature Guide (PDF)]], the Individual's Account section exposes two user-facing features:
+
+- **Billing** — View current plan, upgrade for premium features, manage payment methods, download invoices, track subscription status
+- **Settings** — Control profile visibility, manage email/push notifications, connect external accounts (LinkedIn, GitHub), configure job search preferences
+
+These align with the endpoints documented above (`/api/me/billing/*`) and the settings tabs documented on [[entities/individual-user]].
+
 ## Open Questions
 
 - What are the 18 specific plans and their pricing?
@@ -85,3 +94,4 @@ The `feature_entitlements` table controls which features each plan includes. Adm
 - [[entities/sebenza-hub]] — Platform overview
 - [[concepts/rbac]] — `billing:view`, `billing:manage` permissions
 - Source: [[sources/repo-audit-2026-04-07]]
+- Source: [[sources/individual-feature-guide-pdf-2026-04-07]]

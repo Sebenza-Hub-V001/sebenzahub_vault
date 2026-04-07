@@ -32,7 +32,7 @@ Sebenza Hub integrates **three AI providers** — OpenAI, Anthropic Claude, and 
 | **Cover Letter Generator** | Auto-generates tailored cover letters per job |
 | **Salary Negotiator** | AI guidance on salary negotiation strategy |
 | **Interview Simulator** | Practice interviews with AI feedback |
-| **Career Coaching** | Personalized career guidance |
+| **Career Coaching** | Personalized career guidance. Capabilities: Pattern Detection, Skill Matching, Risk Analysis, Predictions |
 | **Ghost Job Detection** | Detects potentially fake job postings (ghostRiskScore) |
 | **Skill Gap Analysis** | Identifies missing skills for target roles |
 | **Market Radar** | Monitors salary trends, hiring bursts, layoffs |
@@ -78,6 +78,10 @@ Sebenza Hub integrates **three AI providers** — OpenAI, Anthropic Claude, and 
 | **Bias Auditing** | Monitor AI decisions for demographic bias |
 | **AI Governance** | Policy management for AI features |
 | **Model Metrics** | Track accuracy, latency, cost per model |
+
+### Shared AI Video Analysis Framework
+
+Per [[sources/individual-feature-guide-pdf-2026-04-07]], Video Profile and Interview Simulator share an AI analysis framework that scores video content on three dimensions: **Confidence** (87%), **Clarity** (92%), **Engagement** (78%). These consistent scores across both features suggest a unified video analysis pipeline rather than feature-specific implementations.
 
 ## Infrastructure
 
@@ -159,3 +163,4 @@ Per [[sources/ai-enhancement-opportunities-2026-04-07]], **83% of pages don't us
 - [[entities/sebenza-hub]] — Platform overview
 - Source: [[sources/repo-audit-2026-04-07]]
 - Source: [[sources/ai-enhancement-opportunities-2026-04-07]]
+- Source: [[sources/individual-feature-guide-pdf-2026-04-07]]

@@ -4,7 +4,7 @@ type: entity
 created: 2026-04-07
 updated: 2026-04-07
 tags: [community, learning, gamification, mentorship, individual]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, individual-feature-guide-pdf-2026-04-07]
 status: active
 confidence: high
 ---
@@ -158,10 +158,33 @@ Learning completed → Skill verified → Match score improves
 
 Learning gaps identified from job applications feed back into recommended learning paths.
 
+## User-Facing Feature Counts
+
+Per the [[sources/individual-feature-guide-pdf-2026-04-07|Job Seeker Feature Guide (PDF)]], the user-facing feature breakdown is:
+
+- **Learning Hub:** 14 features — Dashboard, Paths, Skill Tree, Micro Learning, Interview Simulator, Job-Linked Learning, Challenges, Portfolio Builder, Peer Teaching, SETA Learnerships, Certifications, Study Planner, Learning Analytics, Mentorship
+- **Community:** 6 features — Forum, Trending, Leaderboard, Interview Vault, Mentor Connect, Badges
+
+### Mentorship (from PDF)
+
+The PDF confirms mentorship as a structured programme (not just informal connections):
+- Browse mentors by **industry and expertise**
+- Request a connection and schedule sessions
+- Track goals and progress within the relationship
+- Mentor profiles display: Success rate, Placed count, Rating
+
+### Mentor Connect vs Mentorship
+
+Two related but distinct features:
+- **Mentorship** (Learning Hub) — Structured programme with goal tracking and session scheduling
+- **Mentor Connect** (Community) — Matchmaking feature that connects you with compatible mentors based on goals, industry, and development needs
+
+Both likely use the same underlying `community_mentor_profiles` and `community_mentor_requests` tables.
+
 ## Open Questions
 
 - How are learning resources curated — admin uploads, scraped, or API integration?
-- Are mentorship sessions tracked (scheduled calls, notes)?
+- Are mentorship sessions tracked (scheduled calls, notes)? *(Partially answered: PDF confirms goal tracking and session scheduling exist)*
 - How do community badges differ from skill verification badges?
 - What's the moderation workflow for reported content?
 
@@ -172,3 +195,4 @@ Learning gaps identified from job applications feed back into recommended learni
 - [[concepts/ai-features]] — AI in learning recommendations and interview prep
 - [[comparisons/user-type-comparison]] — Learning is Individual-only
 - Source: [[sources/repo-audit-2026-04-07]]
+- Source: [[sources/individual-feature-guide-pdf-2026-04-07]]

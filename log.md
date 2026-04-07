@@ -153,3 +153,20 @@
 - Created `presentations/` directory for slide decks, pitch materials, and presentation content
 - Updated index.md with Presentations section
 - Updated CLAUDE.md directory structure
+
+## [2026-04-07] ingest | Job Seeker Feature Guide (PDF)
+- Source: `raw/articles/individual-feature-guide.pdf` (fetched from WhatsApp media URL)
+- Summary: [[sources/individual-feature-guide-pdf-2026-04-07]]
+- Format: Public-facing branded PDF product guide for job seekers
+- Content: 53 features across 8 sections (Profile 5, Job Search 6, Applications 10, AI Tools 4, Learning Hub 14, Career Development 6, Community 6, Account 2)
+- Key finding: Prior source [[sources/individual-features-2026-04-07]] undercounted features in 4 sections (10 features missing from counts). All features were already on entity pages from codebase audit — only the source summary counts were wrong.
+- New insights:
+  - Shared AI video analysis framework (Confidence/Clarity/Engagement scores) across Video Profile and Interview Simulator
+  - Company Research exposes recruiter performance metrics (Success Rate, Placed, Rating) to job seekers
+  - AI Coaching capabilities: Pattern Detection, Skill Matching, Risk Analysis, Predictions
+  - Mentorship vs Mentor Connect distinction clarified (structured programme vs matchmaking)
+  - Account section (Billing, Settings) documented from user-facing perspective
+- Pages touched: [[sources/individual-features-2026-04-07]], [[entities/individual-user]], [[entities/community-learning-hub]], [[workflows/individual-journey]], [[concepts/ai-features]], [[concepts/billing-system]]
+- New pages created: [[sources/individual-feature-guide-pdf-2026-04-07]]
+- Contradictions flagged: none (PDF confirms all prior findings)
+- Total wiki pages: 43 (+8 raw docs)

@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-07 | Pages: 42 | Sources: 8 (+7 raw docs) | Presentations: 0
+> Last updated: 2026-04-07 | Pages: 43 | Sources: 9 (+8 raw docs) | Presentations: 0
 
 ## Entities
 - [[entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -49,6 +49,7 @@ status: active
 - [[sources/ai-enhancement-opportunities-2026-04-07]] — AI enhancement audit (56 opportunities, 83% of pages lack AI)
 - [[sources/seo-plan-2026-04-07]] — SEO strategy (target: 10K monthly organic visitors)
 - [[sources/whatsapp-bot-training-manual-2026-04-07]] — WhatsApp bot operational manual (20 admin tabs)
+- [[sources/individual-feature-guide-pdf-2026-04-07]] — Job Seeker Feature Guide PDF (53 features, 8 sections, user-facing product guide)
 - [[sources/individual-journey-gap-analysis-2026-04-07]] — Journey gap analysis (40% coverage → 100% rewrite)
 
 ## Raw Source Documents
@@ -58,6 +59,7 @@ status: active
 - `raw/articles/ai-enhancement-opportunities.md` — AI enhancement audit (83% of pages lack AI)
 - `raw/articles/seo-plan.md` — SEO strategy document
 - `raw/articles/whatsapp-bot-training-manual.md` — WhatsApp chatbot training guide
+- `raw/articles/individual-feature-guide.pdf` — Job Seeker Feature Guide (PDF, public-facing product guide)
 - `raw/articles/individual-journey-gap-analysis.md` — Individual journey coverage audit
 
 ## Comparisons

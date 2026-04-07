@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-07
 updated: 2026-04-07
 tags: [workflow, individual, journey, hiring, learning, career, community]
-sources: [repo-audit-2026-04-07, individual-features-2026-04-07, individual-journey-gap-analysis]
+sources: [repo-audit-2026-04-07, individual-features-2026-04-07, individual-journey-gap-analysis, individual-feature-guide-pdf-2026-04-07]
 status: active
 confidence: high
 user-types: [individual]
@@ -627,4 +627,5 @@ CAREER DEV:      │    Career Path   │   Analytics │    Career     Salary
 - [[entities/community-learning-hub]] — Learning and community technical details
 - [[entities/job-aggregation]] — External job sources (Adzuna, CareerJet)
 - [[sources/individual-features-2026-04-07]] — Detailed feature descriptions
+- [[sources/individual-feature-guide-pdf-2026-04-07]] — PDF feature guide confirming 53 features across 8 sections
 - [[sources/individual-journey-gap-analysis-2026-04-07]] — Gap analysis that prompted this rewrite

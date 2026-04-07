@@ -4,7 +4,7 @@ type: entity
 created: 2026-04-07
 updated: 2026-04-07
 tags: [user-type, individual, job-seeker, career]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, individual-feature-guide-pdf-2026-04-07]
 status: active
 confidence: high
 ---
@@ -102,6 +102,26 @@ All Individual features live under `/dashboard/individual/*`.
 | Analytics | `/analytics` | Personal career analytics |
 | Wiki | `/wiki` | Personal knowledge base |
 
+## User-Facing Feature Summary
+
+Per the [[sources/individual-feature-guide-pdf-2026-04-07|Job Seeker Feature Guide (PDF)]], the Individual Dashboard contains **53 features** across **8 sections**: Profile (5), Job Search (6), Applications (10), AI Tools (4), Learning Hub (14), Career Development (6), Community (6), Account (2).
+
+### AI Analysis Framework
+
+The PDF reveals a shared AI video analysis scoring system used across features:
+
+| Dimension | Score | Used In |
+|-----------|-------|---------|
+| Confidence | 87% | Video Profile, Interview Simulator |
+| Clarity | 92% | Video Profile, Interview Simulator |
+| Engagement | 78% | Video Profile, Interview Simulator |
+
+Skill Verifications use a 5-point rating across: Technical Skills, Communication, Problem Solving, Culture Fit, Leadership, Overall.
+
+### Company Research Metrics Exposed to Job Seekers
+
+Company profiles visible to Individuals display recruiter/agency performance metrics: Success Rate (94%), Candidates Placed (248), Rating (4.8). This confirms that recruiter reputation data flows through to job seekers.
+
 ## Data Model
 
 The Individual's profile is stored across several tables:
@@ -173,4 +193,5 @@ Individuals can track each application's status, set follow-up reminders, add pe
 - [[entities/offer-system]] — Offer lifecycle
 - Source: [[sources/repo-audit-2026-04-07]]
 - Source: [[sources/individual-features-2026-04-07]]
+- Source: [[sources/individual-feature-guide-pdf-2026-04-07]]
 - Source: [[sources/individual-journey-gap-analysis-2026-04-07]]
