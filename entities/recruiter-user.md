@@ -109,9 +109,9 @@ All Recruiter features live under `/dashboard/recruiter/*`.
 | Workflow Automation | `/workflow-automation` | Set up hiring automation rules |
 | Re-Engagement | `/re-engagement` | Win back passive candidates |
 | Recruitment Marketing | `/recruitment-marketing` | Marketing campaigns |
-| WhatsApp Apply | `/whatsapp-apply` | Enable WhatsApp job applications |
-| WhatsApp Campaigns | `/whatsapp-campaigns` | WhatsApp bulk messaging |
-| WhatsApp Bot | `/whatsapp-bot` | WhatsApp chatbot |
+| WhatsApp Apply | `/whatsapp-apply` | Enable WhatsApp job applications — see [[entities/whatsapp-bot]] |
+| WhatsApp Campaigns | `/whatsapp-campaigns` | WhatsApp bulk messaging — see [[entities/whatsapp-bot]] |
+| WhatsApp Bot | `/whatsapp-bot` | WhatsApp chatbot — see [[entities/whatsapp-bot]] |
 
 ### Analytics & Compliance
 
@@ -217,5 +217,10 @@ Fee structures: percentage-based, fixed, or hybrid. Payment terms: upfront, 50/5
 - [[concepts/multi-tenancy]] — Organization model for agencies
 - [[concepts/ai-features]] — AI tools for recruiters
 - [[concepts/compliance]] — B-BBEE, POPIA requirements
+- [[entities/whatsapp-bot]] — WhatsApp bot (recruiter has 16 dedicated tabs)
+- [[entities/offer-system]] — Offer management
+- [[entities/screening-system]] — Screening and evaluation
+- [[entities/linkedin-integration]] — LinkedIn lead import
 - [[comparisons/user-type-comparison]] — Feature comparison
 - Source: [[sources/repo-audit-2026-04-07]]
+- Source: [[sources/recruitment-features-2026-04-07]]

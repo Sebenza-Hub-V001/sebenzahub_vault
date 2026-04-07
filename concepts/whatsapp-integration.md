@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-07
 updated: 2026-04-07
 tags: [whatsapp, messaging, communication, chatbot]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, whatsapp-bot-training-manual-2026-04-07]
 status: active
 confidence: high
 ---
@@ -72,16 +72,40 @@ Individuals can opt in/out of WhatsApp notifications:
 
 Dedicated E2E test suite: `test:e2e:whatsapp`
 
+## WhatsApp Bot Deep-Dive
+
+Per [[sources/whatsapp-bot-training-manual-2026-04-07]], the WhatsApp bot is far more than a simple chatbot — it's a complete recruitment operating system via messaging. See [[entities/whatsapp-bot]] for the full entity page.
+
+### Key Capabilities
+- **6 SA languages**: English, Afrikaans, isiZulu, isiXhosa, Sesotho, Setswana
+- **POPIA consent** collection before data processing
+- **CV auto-parsing** with skills extraction and match scoring
+- **Frustration detection** → auto-escalation to human after 3+ negative messages
+- **Flow builder** with 9 node types for no-code automation
+
+### Admin Dashboard (20 tabs)
+Command Center, Conversations, Campaigns, Broadcast Studio, Automation, Compliance, Quality & CSAT, AI Intelligence, Templates, Configuration, Contact CRM, Team Inbox, Flow Builder, Bot Training, Deep Analytics, Replay & Debug, AI Matcher, Growth Engine, DNA Analyzer, War Room.
+
+### Meta Business API
+- Uses Meta WhatsApp Business API directly
+- Credentials: Phone Number ID, Access Token, WABA ID, Verify Token
+- Webhook events: messages, message_deliveries, message_reads
+
+> ⚠️ **Tension:** The bot supports 6 SA languages for greetings, but [[sources/ai-enhancement-opportunities-2026-04-07]] flags multi-language AI as a high-effort unimplemented feature. Language support appears template-based, not full AI conversation.
+
 ## Open Questions
 
-- Which WhatsApp Business API provider is used (Meta direct, Twilio, MessageBird)?
-- What's the cost model for WhatsApp messages?
+- What's the message volume and cost per month?
 - How are message templates managed and approved?
+- What's the fallback rate (% of messages the bot can't handle)?
+- How does the Contact CRM lifecycle sync with the main platform's application lifecycle?
 
 ## References
 
+- [[entities/whatsapp-bot]] — Full entity page for the WhatsApp bot
 - [[entities/recruiter-user]] — WhatsApp features for recruiters
 - [[entities/individual-user]] — WhatsApp notification preferences
 - [[entities/admin-user]] — WhatsApp platform administration
 - [[entities/sebenza-hub]] — Platform integrations
 - Source: [[sources/repo-audit-2026-04-07]]
+- Source: [[sources/whatsapp-bot-training-manual-2026-04-07]]
