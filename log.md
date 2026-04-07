@@ -148,3 +148,8 @@
 - Recommendations: 6 (top: Skill-like architecture for AI features with progressive loading, A/B testing for AI prompts, trigger optimisation for WhatsApp bot)
 - Pages touched: [[tweets/explorax-20-agentic-skills]] (cross-referenced)
 - Total wiki pages: 42 (+7 raw docs)
+
+## [2026-04-07] evolve | Added Presentations folder
+- Created `presentations/` directory for slide decks, pitch materials, and presentation content
+- Updated index.md with Presentations section
+- Updated CLAUDE.md directory structure
