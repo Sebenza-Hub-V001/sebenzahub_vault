@@ -70,5 +70,6 @@ Additionally, Sebenza Hub's **Individual Learning Hub** and **Community features
 - [[concepts/ai-features]] — Current AI capabilities
 - [[entities/community-learning-hub]] — Learning and knowledge features
 - [[tweets/farzatv-farzapedia-personal-wiki]] — Farza's concrete implementation of this pattern using personal data (diaries, notes, messages → 400-article wiki)
+- [[tweets/explorax-20-agentic-skills]] — 20 reusable `.md` skill files for AI models — the "skill" complement to the "knowledge base" pattern
 - Source tweet: [Andrej Karpathy on X](https://x.com/karpathy/status/2039805659525644595)
 - Schema gist: [llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
