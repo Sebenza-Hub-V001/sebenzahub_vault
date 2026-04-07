@@ -11,24 +11,12 @@
             "id": "8b87b9ded94dfa4c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "workflows/individual-journey.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "path": "tweets"
               },
               "icon": "lucide-file",
-              "title": "individual-journey"
+              "title": "tweets"
             }
           }
         ]
@@ -268,11 +256,12 @@
   },
   "active": "8b87b9ded94dfa4c",
   "lastOpenFiles": [
+    "tweets/farzatv-farzapedia-personal-wiki.md",
+    "workflows/individual-journey.md",
     "overview.md.tmp.51100.1775572032436",
     "overview.md.tmp.51100.1775571588833",
     "sources/individual-journey-gap-analysis-2026-04-07.md",
     "log.md",
-    "workflows/individual-journey.md",
     "log.md.tmp.51100.1775571186385",
     "workflows/individual-journey.md.tmp.51100.1775571172667",
     "workflows/individual-journey.md.tmp.51100.1775571067842",
@@ -282,7 +271,6 @@
     "index.md.tmp.51100.1775570592739",
     "index.md.tmp.51100.1775570590942",
     "index.md.tmp.51100.1775570589054",
-    "concepts/billing-system.md.tmp.51100.1775570579484",
     "raw/articles/individual-journey-gap-analysis.md",
     "entities/individual-user.md",
     "concepts/application-lifecycle.md",
@@ -295,7 +283,6 @@
     "entities/job-aggregation.md",
     "concepts/seo-strategy.md",
     "workflows/recruiter-journey.md",
-    "tweets/farzatv-farzapedia-personal-wiki.md",
     "2026-04-07.md",
     "tweets/karpathy-llm-knowledge-bases.md",
     "CLAUDE.md",
