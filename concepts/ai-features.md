@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-07
 updated: 2026-04-07
 tags: [ai, machine-learning, openai, anthropic, google]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, ai-enhancement-opportunities-2026-04-07]
 status: active
 confidence: high
 ---
@@ -120,9 +120,31 @@ Admin can monitor AI fairness through:
 
 This connects to the broader [[concepts/compliance]] framework.
 
+## AI Enhancement Opportunities
+
+Per [[sources/ai-enhancement-opportunities-2026-04-07]], **83% of pages don't use AI** despite 42 backend functions being available. The biggest opportunity is wiring existing AI to existing pages.
+
+### Quick Wins (existing backend, low effort)
+- Interview scheduling → auto-trigger `researchCompany()` + `generateInterviewQuestions()`
+- Job creation → auto-trigger `analyzeRequirementRestrictiveness()` for bias detection
+- Offers → wire `predictOfferAcceptance()` to offer creation
+- Recruiter inbox → wire `composeEmail()` for smart reply suggestions
+
+### High-Value Medium Effort
+- Job listings → `matchCandidateToJob()` scores on every job card
+- Profile → AI completeness coach from `improveCv()` + `coachCandidate()`
+- Pipeline → `predictHiringSuccess()` + `scoreCandidateEngagement()` for risk indicators
+- Screening → auto-trigger `screenCandidate()` on every new application
+
+### Infrastructure Gaps
+- **No background AI queue** — BullMQ exists for email/SMS but not AI tasks
+- **No real-time streaming** — all AI responses block until complete
+- **Dormant embeddings** — `jobEmbeddings` table exists but isn't used for semantic search
+- **No proactive AI notifications** — all notifications are event-based
+
 ## Open Questions
 
-- How is the AI provider selected per feature? Is it configurable or hardcoded?
+- How is the AI provider selected per feature? Is it configurable or hardcoded? (See [[questions/ai-provider-selection]])
 - What's the cost model — are AI features metered/limited by plan?
 - How is prompt engineering managed? Are prompts versioned?
 - What's the fallback when an AI provider is unavailable?
@@ -135,3 +157,4 @@ This connects to the broader [[concepts/compliance]] framework.
 - [[concepts/application-lifecycle]] — AI in the hiring pipeline
 - [[entities/sebenza-hub]] — Platform overview
 - Source: [[sources/repo-audit-2026-04-07]]
+- Source: [[sources/ai-enhancement-opportunities-2026-04-07]]

@@ -80,6 +80,7 @@ See [[concepts/tech-stack]] for full details.
 | Compliance | [[concepts/compliance]] |
 | Billing | [[concepts/billing-system]] |
 | WhatsApp Integration | [[concepts/whatsapp-integration]] |
+| SEO Strategy | [[concepts/seo-strategy]] |
 
 ## External Integrations
 
@@ -117,4 +118,8 @@ See [[concepts/tech-stack]] for full details.
 
 - [[comparisons/user-type-comparison]] — Feature matrix across all user types
 - [[concepts/tech-stack]] — Full technology details
+- [[entities/whatsapp-bot]] — WhatsApp bot entity
+- [[entities/job-aggregation]] — Job aggregation (Adzuna, CareerJet)
+- [[concepts/seo-strategy]] — SEO strategy and implementation
 - Source: [[sources/repo-audit-2026-04-07]]
+- Source: [[sources/features-inventory-2026-04-07]]
