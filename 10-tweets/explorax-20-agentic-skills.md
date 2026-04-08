@@ -102,5 +102,5 @@ Sebenza Hub already has **383+ AI-specific endpoints** across three providers ([
 ## References
 
 - Related wiki pages: [[02-concepts/ai-features]], [[01-entities/screening-system]], [[01-entities/whatsapp-bot]], [[01-entities/linkedin-integration]], [[01-entities/community-learning-hub]], [[01-entities/admin-user]]
-- Related tweets: [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]], [[10-tweets/aiedge-claude-skills-guide]] (architectural depth: progressive loading, A/B testing, trigger optimisation for the skill pattern)
+- Related tweets: [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]], [[10-tweets/aiedge-claude-skills-guide]] (architectural depth: progressive loading, A/B testing, trigger optimisation for the skill pattern), [[10-tweets/roundtablespace-debugging-methodology-prompt]] (debugging as a reusable 8-step skill)
 - Source tweet: [exploraX_ — 20 Agentic Skills](https://x.com/explorax_/status/2039269234253934811)
