@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-08 | Pages: 44 | Sources: 10 (+7 raw docs) | Presentations: 0
+> Last updated: 2026-04-08 | Pages: 45 | Sources: 10 (+7 raw docs) | Presentations: 0
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -72,6 +72,7 @@ status: active
 - [[10-tweets/farzatv-farzapedia-personal-wiki]] — LLM compiles 2,500 personal notes into 400-article wiki for agent consumption, @FarzaTV, 2026-04
 - [[10-tweets/explorax-20-agentic-skills]] — 20 reusable agentic skill files (.md) for Claude/ChatGPT/Gemini across writing, visual, research, video & coding, @exploraX_, 2026-04
 - [[10-tweets/aiedge-claude-skills-guide]] — Claude Skills architecture: progressive loading, A/B testing, trigger optimisation, eval framework, @aiedge_, 2026-03
+- [[10-tweets/coreyganim-hidden-claude-code-features]] — 10 hidden Claude Code features: Channels, /batch, Agent Teams, TaskCompleted hook, /loop + Skills, @coreyganim, 2026-04
 
 ## Presentations
 
