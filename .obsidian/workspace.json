@@ -4,107 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "734c1c07000395bf",
+        "id": "2a876058e4ab9f5f",
         "type": "tabs",
         "children": [
           {
-            "id": "0900dd0745edd606",
+            "id": "1353ec3650ed1dac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15-dashboards/Recruiter Dashboard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Recruiter Dashboard"
-            }
-          },
-          {
-            "id": "497d7a868759141e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15-dashboards/Business Dashboard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Business Dashboard"
-            }
-          },
-          {
-            "id": "0eaa1fb710fea121",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15-dashboards/Admin Dashboard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Admin Dashboard"
-            }
-          },
-          {
-            "id": "5006cfae16b55ab2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "15-dashboards/Admin Dashboard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Admin Dashboard"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -338,26 +251,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5006cfae16b55ab2",
+  "active": "f046e9106f727ed8",
   "lastOpenFiles": [
-    "log.md.tmp.17280.1775632726524",
-    "index.md.tmp.17280.1775632716372",
-    "index.md.tmp.17280.1775632705866",
-    "index.md.tmp.17280.1775632701914",
+    "log.md.tmp.17280.1775634232042",
+    "index.md.tmp.17280.1775634204063",
+    "index.md.tmp.17280.1775634201120",
+    "overview.md.tmp.17280.1775634194045",
+    "overview.md.tmp.17280.1775634191281",
+    "overview.md.tmp.17280.1775634186259",
+    "overview.md.tmp.17280.1775634180938",
+    "overview.md.tmp.17280.1775634165723",
+    "log.md.tmp.17280.1775634148035",
+    "03-workflows/admin-journey.md.tmp.17280.1775634129998",
+    "09-sources/dashboard-layouts-2026-04-08.md.tmp.17280.1775634127937",
+    "15-dashboards/admin-dashboard.md",
+    "15-dashboards/business-dashboard.md",
+    "15-dashboards/recruiter-dashboard.md",
+    "15-dashboards/individual-dashboard.md",
+    "03-workflows/admin-journey.md",
+    "15-dashboards/Admin Dashboard.md",
     "09-sources/dashboard-layouts-2026-04-08.md",
-    "15-dashboards/Business Dashboard.md.tmp.17280.1775632648595",
-    "15-dashboards/Individual Dashboard.md.tmp.17280.1775632587513",
     "13-raw/articles/dashboard-layouts.md",
     "10-tweets/coreyganim-hidden-claude-code-features.md",
     "03-workflows/recruiter-journey.md",
-    "15-dashboards/Admin Dashboard.md",
     "welcome.md",
     "03-workflows/business-journey.md",
     "15-dashboards/Business Dashboard.md",
     "15-dashboards/Individual Dashboard.md",
     "15-dashboards/Recruiter Dashboard.md",
     "13-raw/articles/dashboard-list.md",
-    "15-dashboards",
     "01-entities/admin-user.md",
     "09-sources/business-journey-gap-analysis-2026-04-08.md",
     "log.md",
@@ -367,16 +289,7 @@
     "10-tweets/aiedge-claude-skills-guide.md",
     "03-workflows/individual-journey.md",
     "13-raw/articles/individual-journey-gap-analysis.md",
-    "13-raw/articles/Individual Dashboard.md",
     "Pasted image 20260408063435.png",
-    "13-raw/13-raw.md",
-    "log.md.tmp.45076.1775616470466",
-    "index.md.tmp.45076.1775616454139",
-    "index.md.tmp.45076.1775616452133",
-    "index.md.tmp.45076.1775616450074",
-    "09-sources/recruiter-journey-gap-analysis-2026-04-08.md",
-    "09-sources/individual-journey-gap-analysis-2026-04-07.md",
-    "index.md",
     "Untitled.canvas"
   ]
 }

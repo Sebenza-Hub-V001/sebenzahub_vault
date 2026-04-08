@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Admin Dashboard",
-      "path": "15-dashboards/Admin Dashboard.md"
-    },
-    {
       "basename": "recruiter-journey",
       "path": "03-workflows/recruiter-journey.md"
     },
@@ -15,18 +11,6 @@
     {
       "basename": "business-journey",
       "path": "03-workflows/business-journey.md"
-    },
-    {
-      "basename": "Business Dashboard",
-      "path": "15-dashboards/Business Dashboard.md"
-    },
-    {
-      "basename": "Individual Dashboard",
-      "path": "15-dashboards/Individual Dashboard.md"
-    },
-    {
-      "basename": "Recruiter Dashboard",
-      "path": "15-dashboards/Recruiter Dashboard.md"
     },
     {
       "basename": "dashboard-list",

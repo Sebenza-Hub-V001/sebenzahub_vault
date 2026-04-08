@@ -132,6 +132,8 @@ The RBAC system (`/server/rbac.ts`) defines 40+ permissions across categories:
 
 ## References
 
+- [[03-workflows/admin-journey]] — Complete journey: 4 operations steps + 3 parallel tracks
+- [[15-dashboards/admin-dashboard]] — Dashboard layout (24 pages)
 - [[01-entities/individual-user]] — Users managed by Admin
 - [[01-entities/recruiter-user]] — Users managed by Admin
 - [[01-entities/business-user]] — Users managed by Admin

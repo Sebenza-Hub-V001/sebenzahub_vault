@@ -6,13 +6,36 @@
 - Recommendations: 6 (top: event-driven AI architecture via Channels pattern, AI output quality gates via TaskCompleted hook pattern, parallel AI processing via /batch pattern)
 - Pages touched: [[10-tweets/aiedge-claude-skills-guide]] (cross-reference added)
 
+## [2026-04-08] lint | Wiki health check
+- Issues found: 6
+- Fixed: 4
+  - overview.md: Updated stale dashboard page counts (Business 15→47, Admin 104→24, Individual 85→51, Recruiter 86→101)
+  - overview.md: Added journey references to "Three Products in One" section
+  - overview.md: Updated Emerging Themes #4 (Business no longer "15 pages")
+  - 15-dashboards/: Renamed 4 files from spaces to kebab-case (Individual Dashboard.md → individual-dashboard.md, etc.)
+  - Updated all wiki-links referencing old dashboard filenames (index, log, sources, admin-journey)
+- Deferred: 2
+  - Orphan pages in 13-raw/ (expected — raw docs don't need inbound links)
+  - Template/placeholder links in CLAUDE.md (expected — they're examples)
+
+## [2026-04-08] evolve | Admin Journey + Overview rewrite
+- Created [[03-workflows/admin-journey]] — 4 operations steps + 3 parallel tracks:
+  - Operations Path: Monitor → Users → Content → Billing
+  - Track A: AI Governance — cost spikes, bias detection, feature configuration
+  - Track B: Trust & Safety — fraud detection, compliance reporting
+  - Track C: Platform Config — white-label, languages, WhatsApp, data migration
+- Rewrote overview.md with journey references and corrected dashboard page counts
+- Pages touched: overview.md, [[01-entities/admin-user]], index.md
+- New pages created: [[03-workflows/admin-journey]]
+- Total wiki pages: 50 (+8 raw docs)
+
 ## [2026-04-08] ingest | Dashboard Layouts (Journey-Aligned)
 - Source: `13-raw/articles/dashboard-layouts.md`
 - Summary: [[09-sources/dashboard-layouts-2026-04-08]]
 - Key action: Updated all 4 dashboard files in `15-dashboards/` with journey-aligned sidebar structure
 - Structure: Each dashboard now follows Primary Path → Parallel Tracks → Supporting with glowing headers and thick divider
 - Page counts: Individual 51, Recruiter 101, Business 47, Admin 24 (223 total)
-- Pages touched: [[15-dashboards/Individual Dashboard]], [[15-dashboards/Recruiter Dashboard]], [[15-dashboards/Business Dashboard]], [[15-dashboards/Admin Dashboard]]
+- Pages touched: [[15-dashboards/individual-dashboard]], [[15-dashboards/recruiter-dashboard]], [[15-dashboards/business-dashboard]], [[15-dashboards/admin-dashboard]]
 - New pages created: [[09-sources/dashboard-layouts-2026-04-08]]
 - Added Dashboards section to index.md
 

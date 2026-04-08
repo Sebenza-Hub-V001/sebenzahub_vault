@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-08 | Pages: 49 | Sources: 11 (+8 raw docs) | Presentations: 0
+> Last updated: 2026-04-08 | Pages: 50 | Sources: 11 (+8 raw docs) | Presentations: 0
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -40,6 +40,7 @@ status: active
 - [[03-workflows/individual-journey]] — Complete 57-feature journey: hiring + AI tools + learning + career dev + community
 - [[03-workflows/recruiter-journey]] — Complete 95+ feature journey: recruitment path + communication + analytics + compliance + brand
 - [[03-workflows/business-journey]] — Complete employer journey: hiring + vendor management + workforce & HR + compliance
+- [[03-workflows/admin-journey]] — Platform operator: 4 operations steps + 3 parallel tracks (AI governance, trust/safety, config)
 
 ## Sources
 - [[09-sources/repo-audit-2026-04-07]] — Full codebase audit, 2026-04-07
@@ -65,10 +66,10 @@ status: active
 - `13-raw/articles/dashboard-layouts.md` — Dashboard layouts (journey-aligned, all 4 dashboards)
 
 ## Dashboards
-- [[15-dashboards/Individual Dashboard]] — 51 pages, journey-aligned sidebar (Hiring Path + Parallel Tracks)
-- [[15-dashboards/Recruiter Dashboard]] — 101 pages, journey-aligned sidebar (Recruitment Path + Parallel Tracks)
-- [[15-dashboards/Business Dashboard]] — 47 pages, journey-aligned sidebar (Hiring Path + Parallel Tracks)
-- [[15-dashboards/Admin Dashboard]] — 24 pages, journey-aligned sidebar (Operations Path + Parallel Tracks)
+- [[15-dashboards/individual-dashboard]] — 51 pages, journey-aligned sidebar (Hiring Path + Parallel Tracks)
+- [[15-dashboards/recruiter-dashboard]] — 101 pages, journey-aligned sidebar (Recruitment Path + Parallel Tracks)
+- [[15-dashboards/business-dashboard]] — 47 pages, journey-aligned sidebar (Hiring Path + Parallel Tracks)
+- [[15-dashboards/admin-dashboard]] — 24 pages, journey-aligned sidebar (Operations Path + Parallel Tracks)
 
 ## Comparisons
 - [[06-comparisons/user-type-comparison]] — Side-by-side feature matrix across all 4 user types

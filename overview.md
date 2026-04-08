@@ -2,7 +2,7 @@
 title: "Sebenza Hub — Overview"
 type: overview
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-08
 tags: [overview, synthesis, platform]
 status: active
 confidence: high
@@ -14,14 +14,14 @@ Sebenza Hub is a **multi-sided recruitment and career platform** built for the S
 
 ## The Four Pillars
 
-| User Type | Role | Core Purpose | Dashboard Pages | Features |
-|-----------|------|--------------|-----------------|----------|
-| **[[01-entities/individual-user]]** | Job Seeker | Find jobs, build skills, manage career | 85 | 42 (56+ documented) |
-| **[[01-entities/recruiter-user]]** | Talent Agency | Source candidates, manage clients, earn placement fees | 86 | 86 (95+ documented) |
-| **[[01-entities/business-user]]** | Employer / Corporate HR | Post jobs, hire directly, manage workforce | 15 | 29 |
-| **[[01-entities/admin-user]]** | Platform Operator | Configure platform, monitor health, ensure compliance | 104 | — |
+| User Type | Role | Core Purpose | Dashboard Pages | Journey |
+|-----------|------|--------------|-----------------|---------|
+| **[[01-entities/individual-user]]** | Job Seeker | Find jobs, build skills, manage career | 51 | [[03-workflows/individual-journey]] |
+| **[[01-entities/recruiter-user]]** | Talent Agency | Source candidates, manage clients, earn placement fees | 101 | [[03-workflows/recruiter-journey]] |
+| **[[01-entities/business-user]]** | Employer / Corporate HR | Post jobs, hire directly, manage workforce | 47 | [[03-workflows/business-journey]] |
+| **[[01-entities/admin-user]]** | Platform Operator | Configure platform, monitor health, ensure compliance | 24 | [[03-workflows/admin-journey]] |
 
-See [[06-comparisons/user-type-comparison]] for a detailed side-by-side feature matrix.
+**Total: 223 dashboard pages.** See [[06-comparisons/user-type-comparison]] for a detailed side-by-side feature matrix. See [[15-dashboards/individual-dashboard|Dashboard Layouts]] for exact routes.
 
 ## How They Connect
 
@@ -51,13 +51,13 @@ The key relationship triangle: Recruiters act as **intermediaries** between Indi
 ## Three Products in One
 
 ### 1. Career Platform for Individuals
-Not just a job board — a complete career development ecosystem. Individuals get AI-powered job matching, CV review, cover letter generation, interview simulation, salary negotiation coaching, skill gap analysis, learning paths, SETA learnerships, portfolio builder, mentorship, and community. See [[09-sources/individual-features-2026-04-07]] for full documentation of 56+ features.
+Not just a job board — a complete career development ecosystem. The [[03-workflows/individual-journey|Individual journey]] follows a 7-step hiring path (signup → profile → search → apply → track → interview → offer) with 4 parallel tracks: AI assistance, learning (14 features including SETA learnerships), community, and career development. Each track activates at specific moments — a rejection, a skill gap, a stalled search — and feeds back into the hiring path. 51 dashboard pages, 56+ documented features.
 
 ### 2. Recruitment ATS + CRM for Agencies
-A full ATS + CRM + business intelligence suite comparable to standalone products like Bullhorn or Greenhouse. Recruiters manage the complete lifecycle: source → screen → evaluate → interview → offer → place. The Revenue Engine (client pipeline, submissions, placements, KPI tracking) makes this a business tool, not just a hiring tool. See [[09-sources/recruitment-features-2026-04-07]] for full documentation of 95+ features.
+A full ATS + CRM + business intelligence suite comparable to standalone products like Bullhorn or Greenhouse. The [[03-workflows/recruiter-journey|Recruiter journey]] follows a 10-step recruitment path (signup → profile → clients → jobs → source → screen → interview → offer → place → retain) with 4 parallel tracks: communication & automation, analytics & intelligence, compliance & governance, and brand & growth. 101 dashboard pages, 95+ documented features.
 
 ### 3. HR Suite for Businesses
-The smallest but growing segment. Businesses manage jobs, applications, contract workers, performance, succession planning, workforce planning, and vendor (recruiter) relationships. The AI enhancement audit identifies 8 opportunities to bring AI to this dashboard — currently 0% of Business pages use AI.
+The growing employer segment. The [[03-workflows/business-journey|Business journey]] follows a 7-step hiring path with dual channels (direct applications + recruiter vendor submissions) and 4 parallel tracks: vendor management & active sourcing, communication & automation, compliance & governance, and workforce & HR (unique to Business — succession planning, contract workers, performance, HRIS integration). 47 dashboard pages, expanded significantly from the initial 15-page scope.
 
 ## AI: Deep but Underutilised
 
@@ -109,7 +109,7 @@ Sebenza Hub is purpose-built for South Africa:
 1. **AI is the moat, but it's barely deployed.** The platform has sophisticated AI infrastructure that most pages don't use. Connecting existing AI to existing pages is the highest-leverage work.
 2. **WhatsApp is strategic.** The 20-tab admin dashboard and sophisticated bot capabilities suggest WhatsApp is a first-class channel, not an afterthought. This makes sense for SA where WhatsApp dominates.
 3. **The Recruiter product is the revenue engine.** With placement fee tracking, client CRM, and KPI dashboards, the platform is designed around recruitment agency economics.
-4. **Business dashboard is the growth frontier.** At 15 pages with 0% AI usage, this is the least developed segment — and the most obvious expansion opportunity.
+4. **Business dashboard has expanded significantly.** Now 47 pages (up from 15), with vendor management, workforce planning, and compliance tracks. AI usage remains the key gap — 5 AI tools exist but are underutilised.
 5. **Compliance is a differentiator.** POPIA, B-BBEE, and Employment Equity are deeply integrated, not bolted on. This is hard for international competitors to replicate.
 
 ## Open Questions

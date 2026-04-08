@@ -36,10 +36,10 @@ All four dashboards have been restructured to follow their respective user journ
 
 ## Cross-References
 
-- [[15-dashboards/Individual Dashboard]] — Full page-by-page layout
-- [[15-dashboards/Recruiter Dashboard]] — Full page-by-page layout
-- [[15-dashboards/Business Dashboard]] — Full page-by-page layout
-- [[15-dashboards/Admin Dashboard]] — Full page-by-page layout
+- [[15-dashboards/individual-dashboard]] — Full page-by-page layout
+- [[15-dashboards/recruiter-dashboard]] — Full page-by-page layout
+- [[15-dashboards/business-dashboard]] — Full page-by-page layout
+- [[15-dashboards/admin-dashboard]] — Full page-by-page layout
 - [[03-workflows/individual-journey]] — Journey that defines Individual sidebar structure
 - [[03-workflows/recruiter-journey]] — Journey that defines Recruiter sidebar structure
 - [[03-workflows/business-journey]] — Journey that defines Business sidebar structure
