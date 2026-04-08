@@ -16,31 +16,39 @@ You are a **wiki maintainer**. Your job is to read sources, extract knowledge, a
 ```
 wiki/
 ├── CLAUDE.md              # This file — schema and conventions
+├── welcome.md             # Landing page for new readers
 ├── index.md               # Content catalog (you maintain this)
 ├── log.md                 # Chronological activity log (append-only)
 ├── overview.md            # High-level synthesis (evolves over time)
-├── raw/                   # Source documents (IMMUTABLE — never modify)
-│   ├── articles/
-│   ├── papers/
-│   ├── transcripts/
-│   ├── screenshots/
-│   └── data/
-├── entities/              # Pages for specific things: people, companies, products, tools
-├── concepts/              # Pages for ideas, patterns, frameworks, methodologies
-├── sources/               # One summary page per ingested source
-├── comparisons/           # Side-by-side analyses, trade-off tables
-├── decisions/             # Decision records with context, options, rationale
-├── questions/             # Open questions, research threads, things to investigate
-├── tweets/               # Ingested tweets with Sebenza Hub improvement recommendations
-├── presentations/        # Slide decks, pitch materials, and presentation content
-└── tasks/
-    ├── todo.md            # Current task tracking
-    └── lessons.md         # Patterns and corrections (per existing workflow)
+│
+│   ── JOURNEY LIFECYCLE ──
+│
+├── 01-entities/           # WHO — people, companies, products, systems
+├── 02-concepts/           # WHAT — ideas, patterns, frameworks, methodologies
+├── 03-workflows/          # HOW — end-to-end user journeys
+├── 04-standards/          # RULES — POPIA, B-BBEE, Employment Equity compliance
+├── 05-procedures/         # OPS — deployment, onboarding, support processes
+├── 06-comparisons/        # ANALYSE — side-by-side analyses, trade-off tables
+├── 07-decisions/          # DECIDE — decision records with context and rationale
+├── 08-questions/          # GAPS — open questions, research threads
+├── 09-sources/            # EVIDENCE — one summary page per ingested source
+├── 10-tweets/             # EXTERNAL — ingested tweets with recommendations
+├── 11-presentations/      # OUTPUT — slide decks, pitch materials
+├── 12-tasks/              # WORK — current task tracking
+│   ├── todo.md
+│   └── lessons.md
+└── 13-raw/                # ARCHIVE — source documents (IMMUTABLE — never modify)
+    ├── articles/
+    ├── data/
+    ├── papers/
+    ├── screenshots/
+    ├── transcripts/
+    └── videos/
 ```
 
 ### Rules
 
-- **raw/** is immutable. Never edit, rename, or delete anything in it.
+- **13-raw/** is immutable. Never edit, rename, or delete anything in it.
 - **Everything else** is yours to create, update, restructure, and interlink.
 - All wiki pages are markdown (`.md`).
 - All filenames use kebab-case: `whatsapp-cloud-api.md`, not `WhatsApp Cloud API.md`.
@@ -79,7 +87,7 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
 - [[related-page-1]]
 - [[related-page-2]]
-- Source: [[sources/source-summary]]
+- Source: [[09-sources/source-summary]]
 ```
 
 ### Frontmatter Fields
@@ -101,13 +109,13 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
 ### 1. Ingest
 
-**Trigger:** User drops a new source into `raw/` and says "ingest" (or similar).
+**Trigger:** User drops a new source into `13-raw/` and says "ingest" (or similar).
 
 **Workflow:**
 
 1. **Read** the source completely. Do not skim.
 2. **Discuss** key takeaways with the user. Ask: "What matters most to you here? Anything to emphasise or de-emphasise?"
-3. **Create** a summary page in `sources/` with:
+3. **Create** a summary page in `09-sources/` with:
    - One-paragraph summary
    - Key claims (bulleted, with page/section references where possible)
    - Entities and concepts mentioned
@@ -122,8 +130,8 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 6. **Append** to `log.md`:
    ```markdown
    ## [YYYY-MM-DD] ingest | Source Title
-   - Source: `raw/path/to/file`
-   - Summary: [[sources/source-summary]]
+   - Source: `13-raw/path/to/file`
+   - Summary: [[09-sources/source-summary]]
    - Pages touched: [[page-1]], [[page-2]], [[page-3]]
    - New pages created: [[page-4]]
    - Contradictions flagged: describe briefly
@@ -144,10 +152,10 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 5. If filed, update `index.md` and `log.md`.
 
 **Answer formats** (match to the question):
-- Prose summary → `sources/` or `concepts/` page
-- Comparison → `comparisons/` page with a table
-- Decision analysis → `decisions/` page with options and trade-offs
-- Open thread → `questions/` page
+- Prose summary → `09-sources/` or `02-concepts/` page
+- Comparison → `06-comparisons/` page with a table
+- Decision analysis → `07-decisions/` page with options and trade-offs
+- Open thread → `08-questions/` page
 
 ### 3. Lint
 
@@ -186,7 +194,7 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
 1. **Fetch** the tweet content using WebFetch on the URL.
 2. **Extract** the core insight, claim, or idea from the tweet and any thread/replies visible.
-3. **Create** a tweet page in `tweets/` with this structure:
+3. **Create** a tweet page in `10-tweets/` with this structure:
    ```markdown
    ---
    title: "Short descriptive title of the tweet's insight"
@@ -221,7 +229,7 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
    | # | Recommendation | Affected Area | Effort | Impact |
    |---|---------------|---------------|--------|--------|
-   | 1 | ... | [[entities/page]] or [[concepts/page]] | low/medium/high | low/medium/high |
+   | 1 | ... | [[01-entities/page]] or [[02-concepts/page]] | low/medium/high | low/medium/high |
    | 2 | ... | ... | ... | ... |
 
    Each recommendation should:
@@ -245,7 +253,7 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
    ```markdown
    ## [YYYY-MM-DD] tweet | Short title
    - Source: tweet URL
-   - Filed: [[tweets/tweet-slug]]
+   - Filed: [[10-tweets/tweet-slug]]
    - Recommendations: N (brief summary of top recommendation)
    - Pages touched: [[page-1]], [[page-2]] (if any updated)
    ```
@@ -264,25 +272,25 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 > Last updated: YYYY-MM-DD | Pages: N | Sources: N
 
 ## Entities
-- [[entities/entity-name]] — One-line description
+- [[01-entities/entity-name]] — One-line description
 
 ## Concepts
-- [[concepts/concept-name]] — One-line description
+- [[02-concepts/concept-name]] — One-line description
 
 ## Sources
-- [[sources/source-summary]] — Title, date ingested
+- [[09-sources/source-summary]] — Title, date ingested
 
 ## Comparisons
-- [[comparisons/comparison-name]] — What's being compared
+- [[06-comparisons/comparison-name]] — What's being compared
 
 ## Decisions
-- [[decisions/decision-name]] — What was decided and when
+- [[07-decisions/decision-name]] — What was decided and when
 
 ## Questions
-- [[questions/question-name]] — Status: open | resolved
+- [[08-questions/question-name]] — Status: open | resolved
 
 ## Tweets
-- [[tweets/tweet-slug]] — Key insight, @author, YYYY-MM-DD
+- [[10-tweets/tweet-slug]] — Key insight, @author, YYYY-MM-DD
 ```
 
 ---
@@ -295,13 +303,13 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 # Activity Log
 
 ## [YYYY-MM-DD] ingest | Source Title
-- Source: `raw/path`
-- Summary: [[sources/source-summary]]
+- Source: `13-raw/path`
+- Summary: [[09-sources/source-summary]]
 - Pages touched: [[page-1]], [[page-2]]
 - New pages: [[page-3]]
 
 ## [YYYY-MM-DD] query | Question summary
-- Answer filed: [[comparisons/comparison-name]] (or "answered in chat")
+- Answer filed: [[06-comparisons/comparison-name]] (or "answered in chat")
 
 ## [YYYY-MM-DD] lint
 - Issues found: 3
@@ -317,12 +325,12 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
 ## Cross-Referencing Rules
 
-1. **Every claim should trace back to a source.** Use `[[sources/source-name]]` inline or in a References section.
+1. **Every claim should trace back to a source.** Use `[[09-sources/source-name]]` inline or in a References section.
 2. **Every entity/concept page should link to related pages.** If you mention a concept, link it.
 3. **Bidirectional links.** If page A links to page B, page B should link back to page A.
 4. **Contradiction markers are mandatory.** When sources disagree, flag it visibly:
    ```markdown
-   > ⚠️ **Tension:** [[sources/source-a]] claims X, but [[sources/source-b]] claims Y.
+   > ⚠️ **Tension:** [[09-sources/source-a]] claims X, but [[09-sources/source-b]] claims Y.
    > Current assessment: [your synthesis]. Confidence: medium.
    ```
 5. **Don't bury new information.** When a new source updates an existing page, add it prominently — not at the bottom of a long list.
@@ -360,9 +368,9 @@ When starting fresh:
 ### Domain: Sebenza Hub — Recruitment & Career SaaS Platform
 
 #### Additional Page Types
-- `workflows/` — End-to-end user journeys with step-by-step flows
+- `03-workflows/` — End-to-end user journeys with step-by-step flows
 - `integrations/` — One page per external integration (LinkedIn, WhatsApp, Adzuna, etc.)
-- `tweets/` — Ingested tweets with extracted insights and Sebenza Hub recommendations
+- `10-tweets/` — Ingested tweets with extracted insights and Sebenza Hub recommendations
 
 #### Additional Tags
 - `user-type` — Pages describing Individual, Recruiter, Business, or Admin
@@ -385,7 +393,7 @@ When starting fresh:
 
 ## Integration with Existing Workflow
 
-This schema is designed to work alongside your existing `tasks/todo.md` and `tasks/lessons.md` workflow. The wiki doesn't replace task management — it complements it by giving your accumulated knowledge a persistent home.
+This schema is designed to work alongside your existing `12-tasks/todo.md` and `12-tasks/lessons.md` workflow. The wiki doesn't replace task management — it complements it by giving your accumulated knowledge a persistent home.
 
 - **Tasks** track what you're doing now.
 - **The wiki** tracks what you know and have learned.

@@ -1,40 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "farzatv-farzapedia-personal-wiki",
-      "path": "tweets/farzatv-farzapedia-personal-wiki.md"
-    },
-    {
-      "basename": "individual-journey",
-      "path": "workflows/individual-journey.md"
-    },
-    {
-      "basename": "individual-journey-gap-analysis-2026-04-07",
-      "path": "sources/individual-journey-gap-analysis-2026-04-07.md"
-    },
-    {
       "basename": "log",
       "path": "log.md"
-    },
-    {
-      "basename": "individual-features-2026-04-07",
-      "path": "sources/individual-features-2026-04-07.md"
-    },
-    {
-      "basename": "individual-user",
-      "path": "entities/individual-user.md"
-    },
-    {
-      "basename": "application-lifecycle",
-      "path": "concepts/application-lifecycle.md"
-    },
-    {
-      "basename": "features-inventory-2026-04-07",
-      "path": "sources/features-inventory-2026-04-07.md"
-    },
-    {
-      "basename": "recruiter-journey",
-      "path": "workflows/recruiter-journey.md"
     }
   ],
   "omittedPaths": [],

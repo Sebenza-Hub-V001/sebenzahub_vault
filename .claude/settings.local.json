@@ -5,7 +5,16 @@
       "WebFetch(domain:nitter.net)",
       "WebFetch(domain:xcancel.com)",
       "WebFetch(domain:syndication.twitter.com)",
-      "WebFetch(domain:t.co)"
+      "WebFetch(domain:t.co)",
+      "Bash(mv entities:*)",
+      "Bash(mv concepts:*)",
+      "Bash(mv workflows:*)",
+      "Bash(mv standards:*)",
+      "Bash(mv procedures:*)",
+      "Bash(find . -name '*.md' -exec sed -i -e 's|\\\\[\\\\[entities/|\\\\[\\\\[01-entities/|g' -e 's|\\\\[\\\\[concepts/|\\\\[\\\\[02-concepts/|g' -e 's|\\\\[\\\\[workflows/|\\\\[\\\\[03-workflows/|g' -e 's|\\\\[\\\\[standards/|\\\\[\\\\[04-standards/|g' -e 's|\\\\[\\\\[procedures/|\\\\[\\\\[05-procedures/|g' -e 's|\\\\[\\\\[comparisons/|\\\\[\\\\[06-comparisons/|g' -e 's|\\\\[\\\\[decisions/|\\\\[\\\\[07-decisions/|g' -e 's|\\\\[\\\\[questions/|\\\\[\\\\[08-questions/|g' -e 's|\\\\[\\\\[sources/|\\\\[\\\\[09-sources/|g' -e 's|\\\\[\\\\[tweets/|\\\\[\\\\[10-tweets/|g' -e 's|\\\\[\\\\[presentations/|\\\\[\\\\[11-presentations/|g' -e 's|\\\\[\\\\[tasks/|\\\\[\\\\[12-tasks/|g' -e 's|\\\\[\\\\[raw/|\\\\[\\\\[13-raw/|g' '{}' ';')",
+      "Bash(find . -name '*.md' -exec sed -i -e 's|`raw/|`13-raw/|g' -e 's|entities/|01-entities/|g' -e 's|concepts/|02-concepts/|g' -e 's|workflows/|03-workflows/|g' -e 's|standards/|04-standards/|g' -e 's|procedures/|05-procedures/|g' -e 's|comparisons/|06-comparisons/|g' -e 's|decisions/|07-decisions/|g' -e 's|questions/|08-questions/|g' -e 's|sources/|09-sources/|g' -e 's|tweets/|10-tweets/|g' -e 's|presentations/|11-presentations/|g' -e 's|tasks/|12-tasks/|g' -e 's|raw/|13-raw/|g' '{}' ';')",
+      "Bash(find . -name '*.md' -exec sed -i -e 's|01-01-entities/|01-entities/|g' -e 's|02-02-concepts/|02-concepts/|g' -e 's|03-03-workflows/|03-workflows/|g' -e 's|04-04-standards/|04-standards/|g' -e 's|05-05-procedures/|05-procedures/|g' -e 's|06-06-comparisons/|06-comparisons/|g' -e 's|07-07-decisions/|07-decisions/|g' -e 's|08-08-questions/|08-questions/|g' -e 's|09-09-sources/|09-sources/|g' -e 's|10-10-tweets/|10-tweets/|g' -e 's|11-11-presentations/|11-presentations/|g' -e 's|12-12-tasks/|12-tasks/|g' -e 's|13-13-raw/|13-raw/|g' '{}' ';')",
+      "Bash(ls -d c:/Users/User/Desktop/SebenzaHub_Wiki/sebenzahub_vault/*/)"
     ]
   }
 }

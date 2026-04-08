@@ -39,10 +39,7 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//sources",
-    "//raw",
-    "//raw/raw/articles",
-    "//tweets"
+    "//raw"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
