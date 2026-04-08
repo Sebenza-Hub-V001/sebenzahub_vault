@@ -82,6 +82,7 @@ status: active
 - [[10-tweets/explorax-20-agentic-skills]] — 20 reusable agentic skill files (.md) for Claude/ChatGPT/Gemini across writing, visual, research, video & coding, @exploraX_, 2026-04
 - [[10-tweets/aiedge-claude-skills-guide]] — Claude Skills architecture: progressive loading, A/B testing, trigger optimisation, eval framework, @aiedge_, 2026-03
 - [[10-tweets/coreyganim-hidden-claude-code-features]] — 10 hidden Claude Code features: Channels, /batch, Agent Teams, TaskCompleted hook, /loop + Skills, @coreyganim, 2026-04
+- [[10-tweets/roundtablespace-debugging-methodology-prompt]] — 8-step systematic debugging methodology prompt (detective thinking, no hallucinated causes), @RoundtableSpace, 2026-03
 
 ## Presentations
 

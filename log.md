@@ -1,5 +1,11 @@
 # Activity Log
 
+## [2026-04-08] tweet | Systematic Debugging Methodology Prompt (8-Step Detective Thinking)
+- Source: https://x.com/roundtablespace/status/2035631314691387534
+- Filed: [[10-tweets/roundtablespace-debugging-methodology-prompt]]
+- Recommendations: 5 (top: AI Output Debugging Dashboard for admin, Screening Bot Root Cause Analysis, WhatsApp Bot Debugging Mode)
+- Pages touched: [[10-tweets/explorax-20-agentic-skills]] (cross-reference added)
+
 ## [2026-04-08] tweet | Hidden Claude Code Features (Channels, /batch, Agent Teams, Hooks, /loop)
 - Source: https://x.com/coreyganim/status/2041596621591629915
 - Filed: [[10-tweets/coreyganim-hidden-claude-code-features]]
