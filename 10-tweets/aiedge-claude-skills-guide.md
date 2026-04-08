@@ -91,5 +91,5 @@ All content in this guide is relevant to Sebenza Hub. No sections skipped — th
 ## References
 
 - Related wiki pages: [[02-concepts/ai-features]], [[01-entities/whatsapp-bot]], [[01-entities/admin-user]], [[01-entities/screening-system]], [[02-concepts/tech-stack]], [[02-concepts/compliance]]
-- Related tweets: [[10-tweets/explorax-20-agentic-skills]] (modular `.md` skill files — this guide provides the architectural depth), [[10-tweets/karpathy-llm-knowledge-bases]] (markdown-as-AI-infrastructure pattern), [[10-tweets/farzatv-farzapedia-personal-wiki]]
+- Related tweets: [[10-tweets/explorax-20-agentic-skills]] (modular `.md` skill files — this guide provides the architectural depth), [[10-tweets/karpathy-llm-knowledge-bases]] (markdown-as-AI-infrastructure pattern), [[10-tweets/farzatv-farzapedia-personal-wiki]], [[10-tweets/coreyganim-hidden-claude-code-features]] (/loop + Skills feature validates recurring automation with Skills architecture)
 - Source tweet: [AI Edge on X](https://x.com/aiedge_/status/2036815449225298369)

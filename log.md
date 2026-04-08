@@ -1,5 +1,11 @@
 # Activity Log
 
+## [2026-04-08] tweet | Hidden Claude Code Features (Channels, /batch, Agent Teams, Hooks, /loop)
+- Source: https://x.com/coreyganim/status/2041596621591629915
+- Filed: [[10-tweets/coreyganim-hidden-claude-code-features]]
+- Recommendations: 6 (top: event-driven AI architecture via Channels pattern, AI output quality gates via TaskCompleted hook pattern, parallel AI processing via /batch pattern)
+- Pages touched: [[10-tweets/aiedge-claude-skills-guide]] (cross-reference added)
+
 ## [2026-04-08] ingest | Business Journey Gap Analysis
 - Source: Internal analysis comparing journey against entity page
 - Summary: [[09-sources/business-journey-gap-analysis-2026-04-08]]
