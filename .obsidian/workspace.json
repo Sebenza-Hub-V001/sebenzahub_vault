@@ -11,12 +11,24 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Tags"
+                "file": "14-notes/Sidebar Flow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Tags"
+              "title": "Sidebar Flow"
             }
           }
         ]
@@ -256,6 +268,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "14-notes/Sidebar Flow.md",
+    "14-notes/14-notes.md",
+    "13-raw/13-raw.md",
+    "14-notes",
+    "12-tasks/lessons.md",
+    "13-raw/Untitled.md",
     "CLAUDE.md.tmp.37640.1775610307343",
     "welcome.md.tmp.37640.1775610286285",
     "sedgnzUB7",
@@ -273,10 +291,7 @@
     "13-raw/articles/individual-features.md",
     "13-raw/videos",
     "13-raw/transcripts",
-    "13-raw/screenshots",
-    "13-raw/papers",
     "12-tasks/todo.md",
-    "12-tasks/lessons.md",
     "10-tweets/farzatv-farzapedia-personal-wiki.md",
     "10-tweets/karpathy-llm-knowledge-bases.md",
     "10-tweets/aiedge-claude-skills-guide.md",
@@ -289,9 +304,6 @@
     "09-sources/individual-journey-gap-analysis-2026-04-07.md",
     "09-sources/features-inventory-2026-04-07.md",
     "09-sources/ai-enhancement-opportunities-2026-04-07.md",
-    "08-questions/trust-tier-calculation.md",
-    "08-questions/recruiter-business-relationship.md",
-    "08-questions/subscription-plans.md",
     "Untitled.canvas"
   ]
 }

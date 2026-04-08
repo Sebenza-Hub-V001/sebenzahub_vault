@@ -1,0 +1,15 @@
+Here's the new sidebar flow — a journey lifecycle from understanding to action:
+
+01-entities/        → WHO (the actors)
+02-concepts/        → WHAT (systems & ideas)
+03-workflows/       → HOW (user journeys)
+04-standards/       → RULES (compliance)
+05-procedures/      → OPS (operations)
+06-comparisons/     → ANALYSE (trade-offs)
+07-decisions/       → DECIDE (choices made)
+08-questions/       → GAPS (open threads)
+09-sources/         → EVIDENCE (research)
+10-tweets/          → EXTERNAL (outside insights)
+11-presentations/   → OUTPUT (deliverables)
+12-tasks/           → WORK (tracking)
+13-raw/             → ARCHIVE (immutable sources)

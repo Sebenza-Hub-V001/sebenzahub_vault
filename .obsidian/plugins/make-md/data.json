@@ -39,7 +39,8 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//raw"
+    "//raw",
+    "//14-notes"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
