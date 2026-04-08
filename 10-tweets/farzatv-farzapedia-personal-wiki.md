@@ -58,6 +58,7 @@ N/A — This tweet is highly relevant. It validates and extends the Karpathy wik
 
 - [[10-tweets/karpathy-llm-knowledge-bases]] — Directly related: Karpathy's LLM wiki pattern (this tweet is a concrete implementation)
 - [[10-tweets/explorax-20-agentic-skills]] — Modular `.md` skill files for AI — same pattern (markdown artifacts powering AI behaviour) applied to task execution rather than knowledge
+- [[10-tweets/neilxbt-obsidian-claude-memory]] — Practical implementation guide: Obsidian + CLAUDE.md as the memory layer, validating this compounding knowledge pattern
 - [[01-entities/sebenza-hub]] — Platform overview (wiki feature, AI features)
 - [[01-entities/individual-user]] — Career DNA, AI Career Coach
 - [[01-entities/recruiter-user]] — AI Copilot, client management, candidate CRM
