@@ -197,11 +197,14 @@ See [[06-comparisons/user-type-comparison]] for the full matrix.
 
 ## References
 
+- [[03-workflows/business-journey]] — Complete journey: 7 hiring steps + 4 parallel tracks
 - [[01-entities/individual-user]] — Job seekers who apply to Business jobs
 - [[01-entities/recruiter-user]] — Agencies that submit candidates to Businesses
 - [[02-concepts/multi-tenancy]] — Organization model
 - [[02-concepts/rbac]] — Permission system for team members
 - [[02-concepts/application-lifecycle]] — Hiring flow
 - [[02-concepts/compliance]] — B-BBEE, POPIA, EE requirements
+- [[02-concepts/billing-system]] — Billing and subscription management
 - [[06-comparisons/user-type-comparison]] — Feature comparison
 - Source: [[09-sources/repo-audit-2026-04-07]]
+- Source: [[09-sources/business-journey-gap-analysis-2026-04-08]]

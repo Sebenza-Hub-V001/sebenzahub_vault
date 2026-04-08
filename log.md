@@ -1,5 +1,18 @@
 # Activity Log
 
+## [2026-04-08] ingest | Business Journey Gap Analysis
+- Source: Internal analysis comparing journey against entity page
+- Summary: [[09-sources/business-journey-gap-analysis-2026-04-08]]
+- Key action: **Full rewrite of [[03-workflows/business-journey]]** — expanded from ~65% feature coverage to 100%, restructured from 9 linear steps to **7 hiring steps + 4 parallel tracks**
+- Hiring path (Steps 1–7): consolidated from 9 steps, expanded Step 7 (Offers — added templates, approvals, letters, predictive hiring)
+- Parallel tracks (scenario-driven):
+  - **Track A: Vendor Management & Active Sourcing** — 2 scenarios: role won't fill (direct vs recruiter paths), vendor underperforming + decision framework table
+  - **Track B: Communication & Automation** — 2 scenarios: candidates dropping out from slow responses, team scattered across channels
+  - **Track C: Compliance & Governance** — 3 scenarios: EE audit, POPIA data request, B-BBEE scorecard
+  - **Track D: Workforce & HR** — 4 scenarios: CFO leaves (succession + internal board + workforce planning), contractor visibility, team composition before hiring, performance gaps driving hiring
+- Pages touched: [[03-workflows/business-journey]], [[01-entities/business-user]]
+- New pages created: [[09-sources/business-journey-gap-analysis-2026-04-08]]
+
 ## [2026-04-08] ingest | Recruiter Journey Gap Analysis
 - Source: Internal analysis (same treatment as Individual journey gap analysis)
 - Summary: [[09-sources/recruiter-journey-gap-analysis-2026-04-08]]

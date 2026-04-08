@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-08 | Pages: 43 | Sources: 9 (+7 raw docs) | Presentations: 0
+> Last updated: 2026-04-08 | Pages: 44 | Sources: 10 (+7 raw docs) | Presentations: 0
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -39,7 +39,7 @@ status: active
 ## Workflows
 - [[03-workflows/individual-journey]] — Complete 57-feature journey: hiring + AI tools + learning + career dev + community
 - [[03-workflows/recruiter-journey]] — Complete 95+ feature journey: recruitment path + communication + analytics + compliance + brand
-- [[03-workflows/business-journey]] — Signup → configure org → post jobs → review → interview → hire
+- [[03-workflows/business-journey]] — Complete employer journey: hiring + vendor management + workforce & HR + compliance
 
 ## Sources
 - [[09-sources/repo-audit-2026-04-07]] — Full codebase audit, 2026-04-07
@@ -51,6 +51,7 @@ status: active
 - [[09-sources/whatsapp-bot-training-manual-2026-04-07]] — WhatsApp bot operational manual (20 admin tabs)
 - [[09-sources/individual-journey-gap-analysis-2026-04-07]] — Journey gap analysis (40% coverage → 100% rewrite)
 - [[09-sources/recruiter-journey-gap-analysis-2026-04-08]] — Recruiter journey gap analysis (60% coverage → 100% rewrite)
+- [[09-sources/business-journey-gap-analysis-2026-04-08]] — Business journey gap analysis (65% coverage → 100% rewrite)
 
 ## Raw Source Documents
 - `13-raw/data/features-inventory.md` — Platform feature inventory (325 pages, 3586 endpoints, 755 tables)

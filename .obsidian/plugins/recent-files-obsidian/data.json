@@ -5,6 +5,10 @@
       "path": "03-workflows/recruiter-journey.md"
     },
     {
+      "basename": "business-journey",
+      "path": "03-workflows/business-journey.md"
+    },
+    {
       "basename": "individual-journey-gap-analysis-2026-04-07",
       "path": "09-sources/individual-journey-gap-analysis-2026-04-07.md"
     },
