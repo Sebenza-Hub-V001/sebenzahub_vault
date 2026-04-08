@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-08 | Pages: 50 | Sources: 11 (+8 raw docs) | Presentations: 0
+> Last updated: 2026-04-08 | Pages: 51 | Sources: 11 (+8 raw docs) | Presentations: 0
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -83,6 +83,7 @@ status: active
 - [[10-tweets/aiedge-claude-skills-guide]] — Claude Skills architecture: progressive loading, A/B testing, trigger optimisation, eval framework, @aiedge_, 2026-03
 - [[10-tweets/coreyganim-hidden-claude-code-features]] — 10 hidden Claude Code features: Channels, /batch, Agent Teams, TaskCompleted hook, /loop + Skills, @coreyganim, 2026-04
 - [[10-tweets/roundtablespace-debugging-methodology-prompt]] — 8-step systematic debugging methodology prompt (detective thinking, no hallucinated causes), @RoundtableSpace, 2026-03
+- [[10-tweets/neilxbt-obsidian-claude-memory]] — Obsidian + CLAUDE.md as persistent memory layer for Claude Code (compounding knowledge flywheel), @neil_xbt, 2026-04
 
 ## Presentations
 

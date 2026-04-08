@@ -1,5 +1,11 @@
 # Activity Log
 
+## [2026-04-08] tweet | Obsidian Gives Claude the Memory It Was Never Born With
+- Source: https://x.com/neil_xbt/status/2041779011336999021
+- Filed: [[10-tweets/neilxbt-obsidian-claude-memory]]
+- Recommendations: 5 (top: session context files for AI Copilot, persistent career context for Individuals, WhatsApp bot session continuity)
+- Pages touched: [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]] (cross-references added)
+
 ## [2026-04-08] tweet | Systematic Debugging Methodology Prompt (8-Step Detective Thinking)
 - Source: https://x.com/roundtablespace/status/2035631314691387534
 - Filed: [[10-tweets/roundtablespace-debugging-methodology-prompt]]
