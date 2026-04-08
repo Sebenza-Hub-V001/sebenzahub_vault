@@ -106,6 +106,10 @@ AI decisions are monitored for compliance:
 - What EE report formats are generated (EEA2, EEA4)?
 - How is the tension between EE data collection and POPIA managed in practice?
 
+## Compliance in Workflows
+
+- [[03-workflows/recruiter-journey]] — Track C: Compliance & Governance (EE audits, POPIA data requests, fee disputes)
+
 ## References
 
 - [[01-entities/recruiter-user]] — B-BBEE level, POPIA compliance on profile

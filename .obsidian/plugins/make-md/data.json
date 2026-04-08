@@ -38,9 +38,9 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//raw",
-    "//14-notes"
+    "//14-notes",
+    "/"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

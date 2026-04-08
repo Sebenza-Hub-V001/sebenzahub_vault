@@ -1,5 +1,19 @@
 # Activity Log
 
+## [2026-04-08] ingest | Recruiter Journey Gap Analysis
+- Source: Internal analysis (same treatment as Individual journey gap analysis)
+- Summary: [[09-sources/recruiter-journey-gap-analysis-2026-04-08]]
+- Key action: **Full rewrite of [[03-workflows/recruiter-journey]]** — expanded from ~60% feature coverage to 100%, restructured from 10 linear steps to **10 recruitment steps + 4 parallel tracks**
+- Recruitment path (Steps 1–10): kept sequential narrative, expanded Step 8 (Offers — added templates, benchmarking, predictor, compare, timeline, compliance, analytics), Step 10 (added referrals, onboarding checklists)
+- Parallel tracks (scenario-driven, not feature lists):
+  - **Track A: Communication & Automation** — 3 scenarios: candidates going cold, managing 30 active across channels, eliminating repetitive tasks
+  - **Track B: Analytics & Intelligence** — 4 scenarios: slow fill with client pressure, inconsistent panels, proving agency value, AI candidate shortcuts
+  - **Track C: Compliance & Governance** — 3 scenarios: EE audit, POPIA data request, fee dispute
+  - **Track D: Brand & Growth** — 3 scenarios: inbound attraction via career site, new market expansion with location intel, referral-driven growth
+- Supporting infrastructure: Billing, Settings, Rapid Workflow (referenced, not duplicated)
+- Pages touched: [[03-workflows/recruiter-journey]], [[01-entities/recruiter-user]], [[02-concepts/compliance]]
+- New pages created: [[09-sources/recruiter-journey-gap-analysis-2026-04-08]]
+
 ## [2026-04-06] bootstrap | Wiki initialised
 - Created directory structure: 13-raw/, 01-entities/, 02-concepts/, 09-sources/, 06-comparisons/, 07-decisions/, 08-questions/, 12-tasks/
 - Created starter files: index.md, log.md, overview.md

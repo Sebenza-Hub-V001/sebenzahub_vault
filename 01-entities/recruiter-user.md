@@ -211,12 +211,14 @@ Fee structures: percentage-based, fixed, or hybrid. Payment terms: upfront, 50/5
 
 ## References
 
+- [[03-workflows/recruiter-journey]] — Complete journey: 10 recruitment steps + 4 parallel tracks
 - [[01-entities/individual-user]] — Candidates that recruiters source
 - [[01-entities/business-user]] — Corporate clients of recruiters
 - [[02-concepts/application-lifecycle]] — The hiring pipeline
 - [[02-concepts/multi-tenancy]] — Organization model for agencies
 - [[02-concepts/ai-features]] — AI tools for recruiters
 - [[02-concepts/compliance]] — B-BBEE, POPIA requirements
+- [[02-concepts/billing-system]] — Billing and subscription management
 - [[01-entities/whatsapp-bot]] — WhatsApp bot (recruiter has 16 dedicated tabs)
 - [[01-entities/offer-system]] — Offer management
 - [[01-entities/screening-system]] — Screening and evaluation
@@ -224,3 +226,4 @@ Fee structures: percentage-based, fixed, or hybrid. Payment terms: upfront, 50/5
 - [[06-comparisons/user-type-comparison]] — Feature comparison
 - Source: [[09-sources/repo-audit-2026-04-07]]
 - Source: [[09-sources/recruitment-features-2026-04-07]]
+- Source: [[09-sources/recruiter-journey-gap-analysis-2026-04-08]]
