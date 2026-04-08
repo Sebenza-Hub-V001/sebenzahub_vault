@@ -2,11 +2,13 @@
 title: "Recruiter (Talent Agency)"
 type: entity
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-08
 tags: [user-type, recruiter, agency, talent]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, features-inventory-2026-04-07]
 status: active
 confidence: high
+dashboard-path: /dashboard/recruiter/*
+endpoint-count: 86
 ---
 
 # Recruiter (Talent Agency)
@@ -18,9 +20,17 @@ The **Recruiter** represents a recruitment agency or independent recruiter on Se
 
 ## Dashboard Routes
 
-All Recruiter features live under `/dashboard/recruiter/*`.
+All Recruiter features live under `/dashboard/recruiter/*`. **Total pages: 86.**
 
 ## Features by Category
+
+### Dashboard & Onboarding
+
+| Feature | Route | Description |
+|---------|-------|-------------|
+| Dashboard | `/dashboard` | Main Recruiter dashboard overview |
+| Onboarding | `/onboarding` | Recruiter onboarding flow |
+| Profile | `/profile` | Agency/recruiter profile management |
 
 ### Core Recruitment
 
@@ -29,34 +39,43 @@ All Recruiter features live under `/dashboard/recruiter/*`.
 | Jobs | `/jobs` | Post, edit, publish jobs to multiple channels |
 | Pipeline | `/pipeline` | Visual recruitment funnel (Kanban board) |
 | Candidates | `/candidates` | Manage candidate database |
+| Candidate Summary | `/candidate-summary` | AI-generated candidate summary view |
 | Applications | `/applications` | Review incoming applications |
 | Submissions | `/submissions` | Track candidates submitted to client jobs |
 
-### AI-Powered Sourcing
+### AI-Powered Tools
 
 | Feature | Route | Description |
 |---------|-------|-------------|
 | AI Search | `/ai-search` | AI-powered candidate discovery |
-| Talent Discovery | `/talent-discovery` | Find passive candidates |
+| AI Questions | `/ai-questions` | AI-generated interview questions |
+| AI Writer | `/ai-writer` | AI-generated job descriptions and content |
 | Talent CRM | `/talent-crm` | Full CRM for talent relationships |
 | Talent Pool | `/talent-pool` | Create and segment talent pools |
 | Talent Rediscovery | `/talent-rediscovery` | Re-engage past candidates |
-| LinkedIn Leads | `/linkedin-leads` | Import and manage LinkedIn leads |
+| LinkedIn Leads | `/linked-in-leads` | Import and manage LinkedIn leads |
 | Candidate Sourcing | `/candidate-sourcing` | Multi-channel sourcing tools |
-| Location Intel | `/location-intel` | Geographic candidate analysis |
+| Location Intelligence | `/location-intelligence` | Geographic candidate analysis |
+| Engagement Scoring | `/engagement-scoring` | Score candidate engagement levels |
+| Requirement Analyzer | `/requirement-analyzer` | AI analysis of job requirements |
 
 ### Screening & Assessment
 
-| Feature           | Route                | Description                                    |
-| ----------------- | -------------------- | ---------------------------------------------- |
-| Screening Chatbot | `/screening-chatbot` | Automated initial screening via chatbot        |
-| Tests             | `/tests`             | Administer skill/competency tests              |
-| Test Library      | `/test-library`      | Pre-built test catalogue                       |
-| Test Templates    | `/test-templates`    | Create reusable test templates                 |
-| Scorecards        | `/scorecards`        | Structured evaluation forms                    |
-| Culture Fit       | `/culture-fit`       | Assess cultural alignment                      |
-| Blind Hiring      | `/blind-hiring`      | Remove bias (hide names, photos, demographics) |
-| Background Checks | `/background-checks` | Order background verification                  |
+| Feature | Route | Description |
+|---------|-------|-------------|
+| Screening | `/screening` | Candidate screening management |
+| Screening Chatbot | `/screening-chatbot` | Automated initial screening via chatbot |
+| Tests | `/tests` | Administer skill/competency tests |
+| Test Library | `/test-library` | Pre-built test catalogue |
+| Test Templates | `/test-templates` | Create reusable test templates |
+| Test Builder | `/test-builder` | Build custom tests |
+| Test Detail | `/test-detail` | View individual test details |
+| Scorecards | `/scorecards` | Structured evaluation forms |
+| Culture Fit | `/culture-fit` | Assess cultural alignment |
+| Blind Hiring | `/blind-hiring` | Remove bias (hide names, photos, demographics) |
+| Background Checks | `/background-checks` | Order background verification |
+| Reference Checks | `/reference-checks` | Request and track reference checks |
+| Team DNA | `/team-dna` | Team composition and DNA analysis |
 
 ### Interviews
 
@@ -67,6 +86,14 @@ All Recruiter features live under `/dashboard/recruiter/*`.
 | Interview Kits | `/interview-kits` | Structured interview guides |
 | Video Interviews | `/video-interviews` | Asynchronous video interviews |
 | Video Analysis | `/video-analysis` | AI analysis of video performance |
+
+### Candidate Comparison
+
+| Feature | Route | Description |
+|---------|-------|-------------|
+| Comparison | `/comparison` | Side-by-side candidate comparison |
+| Comparison Detail | `/comparison-detail` | Detailed candidate comparison view |
+| Disagreement Analysis | `/disagreement-analysis` | Analyze interviewer disagreements |
 
 ### Offer Management
 
@@ -81,7 +108,7 @@ All Recruiter features live under `/dashboard/recruiter/*`.
 | Offer Approvals | `/offer-approvals` | Approval workflow for offers |
 | Offer Predictor | `/offer-predictor` | Predict offer acceptance probability |
 | Offer Compliance | `/offer-compliance` | Legal compliance checks |
-| Offer Compare | `/offer-compare` | Compare multiple offers side-by-side |
+| Offer Comparison | `/offer-comparison` | Compare multiple offers side-by-side |
 | Offer Timeline | `/offer-timeline` | Track offer milestones |
 
 ### Client Management (Revenue Engine)
@@ -103,15 +130,17 @@ All Recruiter features live under `/dashboard/recruiter/*`.
 | Feature | Route | Description |
 |---------|-------|-------------|
 | Unified Inbox | `/unified-inbox` | Cross-channel messaging (email, WhatsApp) |
+| Inbox | `/inbox` | Standard messaging inbox |
 | Email Templates | `/email-templates` | Pre-built email templates |
 | Sequences | `/sequences` | Automated email/message sequences |
 | Chatbot | `/chatbot` | Conversational bot management |
 | Workflow Automation | `/workflow-automation` | Set up hiring automation rules |
+| Automation Enhanced Tabs | `/automation-enhanced-tabs` | Advanced automation configuration |
 | Re-Engagement | `/re-engagement` | Win back passive candidates |
 | Recruitment Marketing | `/recruitment-marketing` | Marketing campaigns |
-| WhatsApp Apply | `/whatsapp-apply` | Enable WhatsApp job applications — see [[01-entities/whatsapp-bot]] |
-| WhatsApp Campaigns | `/whatsapp-campaigns` | WhatsApp bulk messaging — see [[01-entities/whatsapp-bot]] |
-| WhatsApp Bot | `/whatsapp-bot` | WhatsApp chatbot — see [[01-entities/whatsapp-bot]] |
+| WhatsApp Apply | `/whats-app-apply` | Enable WhatsApp job applications — see [[01-entities/whatsapp-bot]] |
+| WhatsApp Campaigns | `/wa-campaigns` | WhatsApp bulk messaging — see [[01-entities/whatsapp-bot]] |
+| WhatsApp Bot Dashboard | `/whats-app-bot-dashboard` | WhatsApp chatbot management — see [[01-entities/whatsapp-bot]] |
 
 ### Analytics & Compliance
 
@@ -120,20 +149,27 @@ All Recruiter features live under `/dashboard/recruiter/*`.
 | Analytics | `/analytics` | Recruitment analytics dashboard |
 | Predictive Analytics | `/predictive-analytics` | Forecast hiring needs |
 | Predictive Hiring | `/predictive-hiring` | Predict hiring success |
-| Diversity | `/diversity` | DEI metrics and reporting |
-| EE Reports | `/ee-reports` | Employment Equity reports |
+| Diversity Analytics | `/diversity-analytics` | DEI metrics and reporting |
+| EE Reports | `/ee` | Employment Equity reports |
 | B-BBEE | `/bbbee` | B-BBEE compliance reporting |
 | Compliance | `/compliance` | Compliance dashboard |
 | Audit Trail | `/audit-trail` | Track all actions and changes |
 | Approval Workflows | `/approval-workflows` | Configurable approval chains |
 
-### External Integrations
+### External Integrations & Branding
 
 | Feature | Route | Description |
 |---------|-------|-------------|
 | Job Board Integrations | `/job-board-integrations` | Pnet, CareerJunction, Adzuna |
-| Career Site | `/career-site` | Build custom careers page |
-| Brand | `/brand` | Public agency profile page |
+| Career Site Builder | `/career-site-builder` | Build custom careers page |
+| Brand Editor | `/brand-editor` | Public agency profile page editor |
+
+### Account
+
+| Feature | Route | Description |
+|---------|-------|-------------|
+| Settings | `/settings` | Recruiter preferences and configuration |
+| Billing | `/billing` | Credits, subscription management |
 
 ## Data Model
 
@@ -227,3 +263,4 @@ Fee structures: percentage-based, fixed, or hybrid. Payment terms: upfront, 50/5
 - Source: [[09-sources/repo-audit-2026-04-07]]
 - Source: [[09-sources/recruitment-features-2026-04-07]]
 - Source: [[09-sources/recruiter-journey-gap-analysis-2026-04-08]]
+- Source: [[09-sources/features-inventory-2026-04-07]]

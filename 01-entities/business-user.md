@@ -2,11 +2,13 @@
 title: "Business (Employer / Corporate HR)"
 type: entity
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-08
 tags: [user-type, business, employer, corporate, hr]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, features-inventory-2026-04-07]
 status: active
 confidence: high
+dashboard-path: /dashboard/business/*
+endpoint-count: 15
 ---
 
 # Business (Employer / Corporate HR)
@@ -18,7 +20,9 @@ The **Business** user represents a company or employer on Sebenza Hub. They post
 
 ## Dashboard Routes
 
-All Business features live under `/dashboard/business/*`.
+All Business features live under `/dashboard/business/*`. **Total pages: 15.**
+
+> **Note:** The Business dashboard is the **leanest** of the four dashboards. Many recruitment features (pipeline, offers, screening, interviews, AI tools, analytics, compliance) that are available to Recruiters are **not yet built** as dedicated Business pages. Businesses currently rely on a streamlined subset focused on job posting, team management, and HR/workforce operations.
 
 ## Features by Category
 
@@ -27,84 +31,27 @@ All Business features live under `/dashboard/business/*`.
 | Feature | Route | Description |
 |---------|-------|-------------|
 | Home | `/home` | Business dashboard overview |
+| Dashboard | `/dashboard` | Main business dashboard |
 | Jobs | `/jobs` | Post and manage job listings |
 | Applications | `/applications` | View all applications across the org |
-| Pipeline | `/pipeline` | Recruitment pipeline (Kanban) |
-| Candidates | `/candidates` | Candidate database |
-| Offers | `/offers` | Offer lifecycle management |
-| Offer Letters | `/offer-letters` | Generate and send offers |
-| Offer Templates | `/offer-templates` | Pre-built offer templates |
-| Offer Approvals | `/offer-approvals` | Multi-step approval workflows |
 
 ### HR & Workforce Management
 
 | Feature | Route | Description |
 |---------|-------|-------------|
 | Team | `/team` | Manage HR/hiring team members and permissions |
-| Team DNA | `/team-dna` | Team composition analysis |
 | Internal Job Board | `/internal-job-board` | Post internal-only positions |
 | HRIS Integration | `/hris-integration` | Connect to external HR systems |
 | Workforce Planning | `/workforce-planning` | Plan headcount and skill gaps |
-| Performance Management | `/performance` | Track employee performance |
+| Performance Management | `/performance-management` | Track employee performance |
 | Succession Planning | `/succession-planning` | Identify replacement candidates |
 | Contract Workers | `/contract-workers` | Manage contractors and temps |
-
-### Screening & Assessment
-
-| Feature | Route | Description |
-|---------|-------|-------------|
-| Screening Bot | `/screening-bot` | Automated screening chatbot |
-| Screening Roles | `/screening-roles` | Define role-based screening criteria |
-| Interview Kits | `/interview-kits` | Structured interview guides |
-| Video Interviews | `/video-interviews` | Asynchronous video interviews |
-| Scorecards | `/scorecards` | Evaluation forms |
-| Background Checks | `/background-checks` | Background verification |
-
-### AI Tools
-
-| Feature | Route | Description |
-|---------|-------|-------------|
-| AI Search | `/ai-search` | AI-powered candidate search |
-| AI Questions | `/ai-questions` | Generate interview questions |
-| AI Writer | `/ai-writer` | Generate job descriptions, content |
-| Predictive Hiring | `/predictive-hiring` | Predict hiring success |
-
-### Communication & Scheduling
-
-| Feature | Route | Description |
-|---------|-------|-------------|
-| Unified Inbox | `/unified-inbox` | Centralized messaging |
-| Email Templates | `/email-templates` | Pre-built email templates |
-| Scheduling | `/scheduling` | Interview scheduling |
-| Self-Scheduling | `/self-scheduling` | Candidate self-service booking |
-
-### Sourcing
-
-| Feature | Route | Description |
-|---------|-------|-------------|
-| Talent CRM | `/talent-crm` | CRM for talent management |
-| Candidate Sourcing | `/candidate-sourcing` | Multi-channel sourcing |
 
 ### Analytics & Reporting
 
 | Feature | Route | Description |
 |---------|-------|-------------|
-| Analytics | `/analytics` | Business recruitment analytics |
-| Custom Reports | `/custom-reports` | Build custom dashboards |
-| Diversity Analytics | `/diversity-analytics` | DEI metrics |
-| Predictive Analytics | `/predictive-analytics` | Forecast hiring needs |
-| Predictive Hiring | `/predictive-hiring` | Success prediction |
-| Workforce Planning | `/workforce-planning` | Headcount planning |
-
-### Compliance & Governance
-
-| Feature | Route | Description |
-|---------|-------|-------------|
-| Audit Trail | `/audit-trail` | Track all actions |
-| B-BBEE | `/bbbee` | B-BBEE compliance reporting |
-| POPIA Compliance | `/popia-compliance` | Data protection compliance |
-| Employment Equity | `/employment-equity` | EE statutory reporting |
-| Approvals | `/approvals` | Configurable approval workflows |
+| Custom Reports | `/custom-reports` | Build custom dashboards and reports |
 
 ### Settings & Configuration
 
@@ -112,9 +59,24 @@ All Business features live under `/dashboard/business/*`.
 |---------|-------|-------------|
 | Settings | `/settings` | Company-wide settings |
 | SSO Config | `/sso-config` | Single sign-on configuration |
-| Profile | `/profile` | Company profile |
-| Billing | `/billing` | Subscription and payments |
-| Vendors | `/vendors` | Manage third-party vendor relationships |
+| Vendor Management | `/vendor-management` | Manage third-party vendor relationships |
+
+## Features Not Yet Built (from Recruiter parity)
+
+The following features exist on the Recruiter dashboard but are **not yet available** as dedicated Business pages. Businesses may access some of these through shared components or API endpoints, but they lack dedicated dashboard routes:
+
+| Category | Missing Features |
+|----------|-----------------|
+| Recruitment Pipeline | Pipeline (Kanban), Candidates database, Submissions |
+| Offers | Offer management, Offer letters, Offer templates, Offer approvals |
+| Screening | Screening bot, Screening roles, Scorecards, Background checks |
+| Interviews | Interview kits, Video interviews, Scheduling, Self-scheduling |
+| AI Tools | AI search, AI questions, AI writer, Predictive hiring |
+| Communication | Unified inbox, Email templates |
+| Sourcing | Talent CRM, Candidate sourcing |
+| Analytics | Analytics dashboard, Diversity analytics, Predictive analytics |
+| Compliance | Audit trail, B-BBEE reporting, POPIA compliance, Employment equity |
+| Account | Profile page, Billing page |
 
 ## Data Model
 
@@ -178,14 +140,16 @@ The relationship is tracked via:
 
 Business and Recruiter share many features (pipeline, offers, interviews, screening) but differ in:
 
-| Capability | Recruiter | Business |
+| Capability | Recruiter (86 pages) | Business (15 pages) |
 |------------|-----------|----------|
+| Dashboard pages | 86 built | 15 built |
 | Client management | Yes (managing Business clients) | No |
 | Placement fees | Earns fees | Pays fees |
 | Internal HR | No | Yes (HRIS, workforce planning, succession) |
 | Team management | Agency team | HR team with approval workflows |
 | SSO | No | Yes |
 | Vendor management | No | Yes (manages Recruiter vendors) |
+| Recruitment pipeline | Full pipeline, screening, offers | Not yet built as dedicated pages |
 
 See [[06-comparisons/user-type-comparison]] for the full matrix.
 
@@ -194,6 +158,7 @@ See [[06-comparisons/user-type-comparison]] for the full matrix.
 - How does the Business-Recruiter vendor relationship get established? Does the Business invite recruiters, or do recruiters request access?
 - What's the SSO provider support? (SAML, OIDC, specific providers?)
 - How does workforce planning integrate with job posting?
+- When will recruitment pipeline features (offers, screening, interviews) be built out for Business users?
 
 ## References
 
@@ -208,3 +173,4 @@ See [[06-comparisons/user-type-comparison]] for the full matrix.
 - [[06-comparisons/user-type-comparison]] — Feature comparison
 - Source: [[09-sources/repo-audit-2026-04-07]]
 - Source: [[09-sources/business-journey-gap-analysis-2026-04-08]]
+- Source: [[09-sources/features-inventory-2026-04-07]]

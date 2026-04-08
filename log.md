@@ -1,5 +1,14 @@
 # Activity Log
 
+## [2026-04-08] evolve | Dashboard Layout Update (All 4 User Types)
+- Updated all 4 entity pages to reflect actual dashboard page counts from features inventory
+- **Individual (85 pages):** Added 30+ new pages not previously documented — credential system (22 pages), document management (6 pages), dashboard/portal (3 pages), education/experience (5 pages), interview scheduling, cover letter
+- **Recruiter (86 pages):** Reorganised into 12 categories. Added missing pages: AI Questions, AI Writer, Candidate Summary, Comparison views, Disagreement Analysis, Engagement Scoring, Reference Checks, Requirement Analyzer, Test Builder/Detail, Screening, WhatsApp Bot Dashboard. Updated route names to match codebase (e.g. `/linked-in-leads`, `/location-intelligence`, `/wa-campaigns`)
+- **Business (15 pages):** Major correction — reduced from aspirational ~47 features to actual 15 built pages. Added "Features Not Yet Built" section documenting the gap vs Recruiter parity
+- **Admin (104 pages):** Expanded from ~27 listed features to all 104 pages. Added Feature Management (24 pages), RBAC (18 pages), AI Monitoring (19 pages), Bias Auditing (11 pages), WhatsApp Admin (12 pages), Individual management sub-tabs (7 pages)
+- Pages touched: [[01-entities/individual-user]], [[01-entities/recruiter-user]], [[01-entities/business-user]], [[01-entities/admin-user]], [[06-comparisons/user-type-comparison]], [[index]]
+- Key insight: Admin dashboard (104 pages) is actually the **largest**, not Recruiter (86). Business (15 pages) has significant feature gap vs Recruiter.
+
 ## [2026-04-08] ingest | Business Journey Gap Analysis
 - Source: Internal analysis comparing journey against entity page
 - Summary: [[09-sources/business-journey-gap-analysis-2026-04-08]]

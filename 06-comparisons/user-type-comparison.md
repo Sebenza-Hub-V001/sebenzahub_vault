@@ -2,9 +2,9 @@
 title: "User Type Comparison"
 type: comparison
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-08
 tags: [comparison, user-types, features, matrix]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, features-inventory-2026-04-07]
 status: active
 confidence: high
 ---
@@ -123,16 +123,18 @@ A side-by-side comparison of the four user types on Sebenza Hub: [[01-entities/i
 | White-label | - | - | - | Yes |
 | Data migration | - | - | - | Yes |
 
-## Approximate Feature Count by Dashboard
+## Dashboard Page Count (from Features Inventory)
 
-| User Type | Dashboard Routes | Key Feature Areas |
-|-----------|-----------------|-------------------|
-| Individual | ~52 | Profile, jobs, learning, career, community |
-| Recruiter | ~95 | Recruitment, clients, AI, offers, compliance, marketing |
-| Business | ~47 | Jobs, HR, screening, analytics, compliance |
-| Admin | ~27 | Users, config, AI, compliance, billing |
+| User Type | Actual Dashboard Pages | Key Feature Areas |
+|-----------|----------------------|-------------------|
+| Individual | **85** | Profile, credentials (22 pages), jobs, learning, career, community, documents |
+| Recruiter | **86** | Recruitment, clients, AI tools, offers (11 pages), screening (13 pages), compliance |
+| Business | **15** | Jobs, HR/workforce (7 pages), settings — leanest dashboard, many features not yet built |
+| Admin | **104** | Feature management (24 pages), RBAC (18 pages), AI monitoring (19 pages), bias auditing (11 pages), WhatsApp (12 pages) |
 
-The Recruiter has the largest feature set, reflecting the depth of the recruitment ATS/CRM tooling.
+The Admin has the **largest** dashboard (104 pages), followed closely by Recruiter (86) and Individual (85). The Business dashboard (15 pages) is significantly leaner — many recruitment features available to Recruiters have not yet been built as dedicated Business pages.
+
+> **Note:** Page counts reflect actual built dashboard routes from the features inventory, not aspirational feature lists.
 
 ## References
 
@@ -141,3 +143,4 @@ The Recruiter has the largest feature set, reflecting the depth of the recruitme
 - [[01-entities/business-user]] — Full Business details
 - [[01-entities/admin-user]] — Full Admin details
 - Source: [[09-sources/repo-audit-2026-04-07]]
+- Source: [[09-sources/features-inventory-2026-04-07]]

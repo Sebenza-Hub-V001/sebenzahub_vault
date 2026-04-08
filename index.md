@@ -13,10 +13,10 @@ status: active
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
-- [[01-entities/individual-user]] — Job seeker: search jobs, build skills, manage career
-- [[01-entities/recruiter-user]] — Talent agency: source candidates, manage clients, earn placement fees
-- [[01-entities/business-user]] — Employer / corporate HR: post jobs, hire, manage workforce
-- [[01-entities/admin-user]] — Platform operator: configure features, monitor health, enforce compliance
+- [[01-entities/individual-user]] — Job seeker: 85 dashboard pages (profile, credentials, jobs, learning, career, community)
+- [[01-entities/recruiter-user]] — Talent agency: 86 dashboard pages (recruitment, clients, AI, offers, screening, compliance)
+- [[01-entities/business-user]] — Employer / corporate HR: 15 dashboard pages (jobs, HR/workforce, settings)
+- [[01-entities/admin-user]] — Platform operator: 104 dashboard pages (features, RBAC, AI monitoring, bias auditing, WhatsApp)
 - [[01-entities/offer-system]] — Full offer lifecycle: creation, approval chains, negotiation, compliance
 - [[01-entities/screening-system]] — CV screening, chatbot, competency tests, background checks
 - [[01-entities/linkedin-integration]] — OAuth, lead gen form sync, AI scoring, nurture sequences
