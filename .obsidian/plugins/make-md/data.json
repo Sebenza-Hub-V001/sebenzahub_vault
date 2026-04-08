@@ -39,8 +39,17 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//raw",
-    "//14-notes",
-    "/"
+    "/",
+    "//Tags",
+    "//13-raw/13-raw/data",
+    "//13-raw/13-raw/papers",
+    "//13-raw/13-raw/screenshots",
+    "//13-raw/13-raw/transcripts",
+    "//13-raw/13-raw/articles",
+    "//05-procedures",
+    "//11-presentations",
+    "//03-workflows",
+    "//04-standards"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

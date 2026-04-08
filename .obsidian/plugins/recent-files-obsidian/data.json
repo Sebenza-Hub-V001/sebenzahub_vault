@@ -1,12 +1,80 @@
 {
   "recentFiles": [
     {
+      "basename": "Admin Dashboard",
+      "path": "15-dashboards/Admin Dashboard.md"
+    },
+    {
       "basename": "recruiter-journey",
       "path": "03-workflows/recruiter-journey.md"
     },
     {
+      "basename": "welcome",
+      "path": "welcome.md"
+    },
+    {
       "basename": "business-journey",
       "path": "03-workflows/business-journey.md"
+    },
+    {
+      "basename": "Business Dashboard",
+      "path": "15-dashboards/Business Dashboard.md"
+    },
+    {
+      "basename": "Individual Dashboard",
+      "path": "15-dashboards/Individual Dashboard.md"
+    },
+    {
+      "basename": "Recruiter Dashboard",
+      "path": "15-dashboards/Recruiter Dashboard.md"
+    },
+    {
+      "basename": "dashboard-list",
+      "path": "13-raw/articles/dashboard-list.md"
+    },
+    {
+      "basename": "admin-user",
+      "path": "01-entities/admin-user.md"
+    },
+    {
+      "basename": "business-journey-gap-analysis-2026-04-08",
+      "path": "09-sources/business-journey-gap-analysis-2026-04-08.md"
+    },
+    {
+      "basename": "log",
+      "path": "log.md"
+    },
+    {
+      "basename": "explorax-20-agentic-skills",
+      "path": "10-tweets/explorax-20-agentic-skills.md"
+    },
+    {
+      "basename": "farzatv-farzapedia-personal-wiki",
+      "path": "10-tweets/farzatv-farzapedia-personal-wiki.md"
+    },
+    {
+      "basename": "karpathy-llm-knowledge-bases",
+      "path": "10-tweets/karpathy-llm-knowledge-bases.md"
+    },
+    {
+      "basename": "aiedge-claude-skills-guide",
+      "path": "10-tweets/aiedge-claude-skills-guide.md"
+    },
+    {
+      "basename": "individual-journey",
+      "path": "03-workflows/individual-journey.md"
+    },
+    {
+      "basename": "individual-journey-gap-analysis",
+      "path": "13-raw/articles/individual-journey-gap-analysis.md"
+    },
+    {
+      "basename": "Individual Dashboard",
+      "path": "13-raw/articles/Individual Dashboard.md"
+    },
+    {
+      "basename": "13-raw",
+      "path": "13-raw/13-raw.md"
     },
     {
       "basename": "individual-journey-gap-analysis-2026-04-07",
@@ -27,10 +95,6 @@
     {
       "basename": "lessons",
       "path": "12-tasks/lessons.md"
-    },
-    {
-      "basename": "log",
-      "path": "log.md"
     }
   ],
   "omittedPaths": [],

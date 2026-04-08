@@ -6,6 +6,16 @@
 - Recommendations: 6 (top: event-driven AI architecture via Channels pattern, AI output quality gates via TaskCompleted hook pattern, parallel AI processing via /batch pattern)
 - Pages touched: [[10-tweets/aiedge-claude-skills-guide]] (cross-reference added)
 
+## [2026-04-08] ingest | Dashboard Layouts (Journey-Aligned)
+- Source: `13-raw/articles/dashboard-layouts.md`
+- Summary: [[09-sources/dashboard-layouts-2026-04-08]]
+- Key action: Updated all 4 dashboard files in `15-dashboards/` with journey-aligned sidebar structure
+- Structure: Each dashboard now follows Primary Path → Parallel Tracks → Supporting with glowing headers and thick divider
+- Page counts: Individual 51, Recruiter 101, Business 47, Admin 24 (223 total)
+- Pages touched: [[15-dashboards/Individual Dashboard]], [[15-dashboards/Recruiter Dashboard]], [[15-dashboards/Business Dashboard]], [[15-dashboards/Admin Dashboard]]
+- New pages created: [[09-sources/dashboard-layouts-2026-04-08]]
+- Added Dashboards section to index.md
+
 ## [2026-04-08] ingest | Business Journey Gap Analysis
 - Source: Internal analysis comparing journey against entity page
 - Summary: [[09-sources/business-journey-gap-analysis-2026-04-08]]
