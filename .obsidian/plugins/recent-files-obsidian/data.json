@@ -1,12 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "recruiter-journey",
-      "path": "03-workflows/recruiter-journey.md"
+      "basename": "Recruiter Capability Uplift Skills",
+      "path": "16. Features/Recruiter Capability Uplift Skills.md"
+    },
+    {
+      "basename": "Adopt Skill-Based Architecture for AI Featuresed",
+      "path": "16. Features/Adopt Skill-Based Architecture for AI Featuresed.md"
+    },
+    {
+      "basename": "farzatv-farzapedia-personal-wiki",
+      "path": "10-tweets/farzatv-farzapedia-personal-wiki.md"
+    },
+    {
+      "basename": "AI Quality Gates & Recurring Health Checks",
+      "path": "16. Features/AI Quality Gates & Recurring Health Checks.md"
+    },
+    {
+      "basename": "AI Monitoring Hub + AI Gap Backlog",
+      "path": "16. Features/AI Monitoring Hub + AI Gap Backlog.md"
+    },
+    {
+      "basename": "Agent Teams + AI Quality Gates",
+      "path": "16. Features/Agent Teams + AI Quality Gates.md"
+    },
+    {
+      "basename": "Recurring AI Monitoring Loops + Multi-Agent Screening Workflow",
+      "path": "16. Features/Recurring AI Monitoring Loops + Multi-Agent Screening Workflow.md"
+    },
+    {
+      "basename": "Batch Parallel AI Processing Pipeline",
+      "path": "16. Features/Batch Parallel AI Processing Pipeline.md"
+    },
+    {
+      "basename": "Event-Driven AI Architecture",
+      "path": "16. Features/Event-Driven AI Architecture.md"
+    },
+    {
+      "basename": "AB Testing for AI Prompts",
+      "path": "16. Features/AB Testing for AI Prompts.md"
+    },
+    {
+      "basename": "Quarterly AI Skill Review Workflow",
+      "path": "16. Features/Quarterly AI Skill Review Workflow.md"
+    },
+    {
+      "basename": "Progressive Loading for AI Context",
+      "path": "16. Features/Progressive Loading for AI Context.md"
+    },
+    {
+      "basename": "coreyganim-hidden-claude-code-features",
+      "path": "10-tweets/coreyganim-hidden-claude-code-features.md"
+    },
+    {
+      "basename": "aiedge-claude-skills-guide",
+      "path": "10-tweets/aiedge-claude-skills-guide.md"
+    },
+    {
+      "basename": " Skill Creator Meta-Skill",
+      "path": "16. Features/ Skill Creator Meta-Skill.md"
+    },
+    {
+      "basename": "Content Repurposing Engine for Job Postings",
+      "path": "16. Features/Content Repurposing Engine for Job Postings.md"
+    },
+    {
+      "basename": "AI Skills Registry",
+      "path": "16. Features/AI Skills Registry.md"
+    },
+    {
+      "basename": "Brand Voice Enforcer for Businesses",
+      "path": "16. Features/Brand Voice Enforcer for Businesses.md"
     },
     {
       "basename": "welcome",
       "path": "welcome.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "recruiter-journey",
+      "path": "03-workflows/recruiter-journey.md"
     },
     {
       "basename": "business-journey",
@@ -33,16 +109,8 @@
       "path": "10-tweets/explorax-20-agentic-skills.md"
     },
     {
-      "basename": "farzatv-farzapedia-personal-wiki",
-      "path": "10-tweets/farzatv-farzapedia-personal-wiki.md"
-    },
-    {
       "basename": "karpathy-llm-knowledge-bases",
       "path": "10-tweets/karpathy-llm-knowledge-bases.md"
-    },
-    {
-      "basename": "aiedge-claude-skills-guide",
-      "path": "10-tweets/aiedge-claude-skills-guide.md"
     },
     {
       "basename": "individual-journey",
@@ -63,10 +131,6 @@
     {
       "basename": "individual-journey-gap-analysis-2026-04-07",
       "path": "09-sources/individual-journey-gap-analysis-2026-04-07.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
     },
     {
       "basename": "Sidebar Flow",
