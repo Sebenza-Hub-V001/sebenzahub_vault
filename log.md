@@ -1,5 +1,40 @@
 # Activity Log
 
+## [2026-04-09] edit | Individual Training Manual — editorial pass
+- Audited all 23 chapters for consistency, repeated phrasing, broken links, and shaky claims
+- Findings:
+  - All chapters have Checklist, Next chapter, References sections (Ch 23 correctly omits Next chapter as the final chapter)
+  - All cross-chapter wiki-links resolve to existing files
+  - Frontmatter is consistent across chapters (type=concept, status=draft, updated=2026-04-09)
+  - Average length 145 lines; longest is Ch 7 at 190 lines (Skills + Verifications + Credentials + Video + Portfolio — kept as-is, content is justified)
+- Targeted edits:
+  - Varied "This chapter is X" opening pattern in Ch 6, Ch 9, Ch 17 (was used in 6 chapters; trimmed to 3)
+  - Removed misleading [[Chapter 7]] cross-link in [[16-manuals/individual/03-onboarding]] (job preferences live in Settings, not Ch 7)
+  - Hedged unverified factual claim in [[16-manuals/individual/08-privacy-and-popia]] about per-organisation blocking (was asserting nonexistence; now invites users to check Settings)
+  - Hedged unsupported "at least a third" silent-application statistic in [[16-manuals/individual/11-applying]] to "a meaningful fraction"
+- No structural changes; no chapters rewritten; no content cut
+
+## [2026-04-09] update | Individual Training Manual — Parts 3, 4, 5, 6 drafted (manual complete)
+- Drafted full bodies for chapters 9–23 (with Ch 20 as a partial pending the Autopilot open question):
+  - Part 3 (Find and Apply): [[16-manuals/individual/09-search-modes]], [[16-manuals/individual/10-saved-searches-and-favourites]], [[16-manuals/individual/11-applying]], [[16-manuals/individual/12-tracking-applications]]
+  - Part 4 (Interview and Offer): [[16-manuals/individual/13-interview-simulator]], [[16-manuals/individual/14-company-research]], [[16-manuals/individual/15-receiving-an-offer]], [[16-manuals/individual/16-salary-negotiator]]
+  - Part 5 (Troubleshooting): [[16-manuals/individual/17-no-responses]], [[16-manuals/individual/18-no-direction]], [[16-manuals/individual/19-level-up]]
+  - Part 6 (Advanced): [[16-manuals/individual/20-autopilot]] (partial — blocked on operational details), [[16-manuals/individual/21-career-dna]], [[16-manuals/individual/22-market-radar]], [[16-manuals/individual/23-community-and-mentorship]]
+- Plan checklist updated: Parts 3–6 marked complete; Ch 20 noted as partial
+- All 23 chapters of the Individual Training Manual now have body content (Ch 20 still labelled partial in-page)
+- Outstanding open questions still flagged inline in affected chapters: Autopilot operational behaviour (Ch 20), pricing tiers (Ch 6, Ch 11, Ch 16), Learning Path curation (Ch 19)
+- Next: screenshot capture pass; review/edit pass on full manual; sibling manuals for Recruiter / Business / Admin
+
+## [2026-04-09] update | Individual Training Manual — Part 2 drafted
+- Drafted full bodies for chapters 5–8 (Build Your Profile):
+  - [[16-manuals/individual/05-uploading-a-cv]] — upload vs build routes, AI parsing review, multiple CV versions
+  - [[16-manuals/individual/06-cv-review]] — what CV Review checks, how to read feedback, what it doesn't do
+  - [[16-manuals/individual/07-skills-credentials-video]] — skills with proficiency, verifications, credentials, video intro, portfolio (when each matters)
+  - [[16-manuals/individual/08-privacy-and-popia]] — public vs private, public profile preview, POPIA rights, notification settings
+- Plan checklist updated: Part 2 marked complete
+- Pricing-tier open question still flagged in Chapter 6 (CV Review may be paid)
+- Next: Part 3 (chapters 9–12, Find and Apply to Jobs)
+
 ## [2026-04-09] new | Individual Training Manual — plan + Part 1 drafted
 - Plan filed: [[08-questions/individual-training-manual-plan]]
 - New directory: `16-manuals/` (training manuals top-level)
