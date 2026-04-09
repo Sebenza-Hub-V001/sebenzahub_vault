@@ -1,5 +1,14 @@
 # Activity Log
 
+## [2026-04-09] tweet | Claude Code + Obsidian Second Brain — @aiedge_
+- Source: https://x.com/aiedge_/status/2041908011078447222
+- Filed: [[10-tweets/aiedge-claude-obsidian-second-brain]]
+- Fidelity note: X blocked direct scraping (HTTP 402); content reconstructed via reader-proxy summary. Exact tweet text not preserved verbatim. Confidence: medium. Re-ingest when direct access is restored.
+- Recommendations: 5 (top: adopt Marp for empty 11-presentations/; add Dataview queries to index.md; install Obsidian Web Clipper for ingestion)
+- Cross-references: the tweet is redundant with [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]], [[10-tweets/neilxbt-obsidian-claude-memory]] at the architectural level, but adds a concrete tool stack (Marp, Dataview, qmd, Web Clipper) that was not previously named
+- Pages touched: [[index.md]] (Tweets section, page count 79 → 80)
+- No entity/concept pages edited — the recommendations are wiki-tooling-level, not platform-level
+
 ## [2026-04-09] tweet | Claude Managed Agents — @NickSpisak_
 - Source: https://x.com/NickSpisak_/status/2041949191887262164
 - Filed: [[10-tweets/nickspisak-claude-managed-agents]]
