@@ -4,7 +4,7 @@ type: overview
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, job-seeker, training]
-status: draft
+status: active
 user-types: [individual]
 ---
 

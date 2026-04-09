@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, applications]
-status: draft
+status: active
 user-types: [individual]
 ---
 
