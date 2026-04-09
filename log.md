@@ -1,5 +1,16 @@
 # Activity Log
 
+## [2026-04-09] update | Individual Training Manual — Parts 3, 4, 5, 6 drafted (manual complete)
+- Drafted full bodies for chapters 9–23 (with Ch 20 as a partial pending the Autopilot open question):
+  - Part 3 (Find and Apply): [[16-manuals/individual/09-search-modes]], [[16-manuals/individual/10-saved-searches-and-favourites]], [[16-manuals/individual/11-applying]], [[16-manuals/individual/12-tracking-applications]]
+  - Part 4 (Interview and Offer): [[16-manuals/individual/13-interview-simulator]], [[16-manuals/individual/14-company-research]], [[16-manuals/individual/15-receiving-an-offer]], [[16-manuals/individual/16-salary-negotiator]]
+  - Part 5 (Troubleshooting): [[16-manuals/individual/17-no-responses]], [[16-manuals/individual/18-no-direction]], [[16-manuals/individual/19-level-up]]
+  - Part 6 (Advanced): [[16-manuals/individual/20-autopilot]] (partial — blocked on operational details), [[16-manuals/individual/21-career-dna]], [[16-manuals/individual/22-market-radar]], [[16-manuals/individual/23-community-and-mentorship]]
+- Plan checklist updated: Parts 3–6 marked complete; Ch 20 noted as partial
+- All 23 chapters of the Individual Training Manual now have body content (Ch 20 still labelled partial in-page)
+- Outstanding open questions still flagged inline in affected chapters: Autopilot operational behaviour (Ch 20), pricing tiers (Ch 6, Ch 11, Ch 16), Learning Path curation (Ch 19)
+- Next: screenshot capture pass; review/edit pass on full manual; sibling manuals for Recruiter / Business / Admin
+
 ## [2026-04-09] update | Individual Training Manual — Part 2 drafted
 - Drafted full bodies for chapters 5–8 (Build Your Profile):
   - [[16-manuals/individual/05-uploading-a-cv]] — upload vs build routes, AI parsing review, multiple CV versions

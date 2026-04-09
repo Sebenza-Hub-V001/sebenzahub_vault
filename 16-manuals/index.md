@@ -17,7 +17,7 @@ For internal reference material and feature inventories, see the entity, workflo
 
 | Manual | Audience | Status |
 |--------|----------|--------|
-| [[16-manuals/individual/index\|Individual Manual]] | Job seekers | In progress (Part 1 drafted) |
+| [[16-manuals/individual/index\|Individual Manual]] | Job seekers | First complete draft (Ch 20 partial) |
 | Recruiter Manual | Recruitment agencies | Not started |
 | Business Manual | Employers / corporate HR | Not started |
 | Admin Manual | Platform operators | Not started |
