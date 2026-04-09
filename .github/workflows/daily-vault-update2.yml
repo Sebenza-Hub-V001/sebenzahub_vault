@@ -1,0 +1,99 @@
+name: Daily Vault Update Email
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  send-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate vault update summary
+        id: summary
+        run: |
+          SINCE=$(date -u -d '24 hours ago' '+%Y-%m-%dT%H:%M:%SZ')
+          TODAY=$(date -u '+%A, %d %B %Y')
+          echo "date=$TODAY" >> $GITHUB_OUTPUT
+
+          COMMIT_COUNT=$(git log --since="$SINCE" --oneline 2>/dev/null | wc -l)
+          COMMITS=$(git log --since="$SINCE" --pretty=format:"<li>%s (%an, %ar)</li>" 2>/dev/null)
+
+          if [ "$COMMIT_COUNT" -gt "0" ]; then
+            LAST_HASH=$(git log --since="$SINCE" --format="%H" | tail -1)
+            ADDED=$(git diff --name-only --diff-filter=A "$LAST_HASH"..HEAD 2>/dev/null || echo "")
+            MODIFIED=$(git diff --name-only --diff-filter=M "$LAST_HASH"..HEAD 2>/dev/null || echo "")
+            DELETED=$(git diff --name-only --diff-filter=D "$LAST_HASH"..HEAD 2>/dev/null || echo "")
+            ADDED_COUNT=$(echo "$ADDED" | grep -c . 2>/dev/null || echo "0")
+            MODIFIED_COUNT=$(echo "$MODIFIED" | grep -c . 2>/dev/null || echo "0")
+            DELETED_COUNT=$(echo "$DELETED" | grep -c . 2>/dev/null || echo "0")
+          else
+            ADDED=""
+            MODIFIED=""
+            DELETED=""
+            ADDED_COUNT=0
+            MODIFIED_COUNT=0
+            DELETED_COUNT=0
+          fi
+
+          ADDED_LIST=""
+          if [ -n "$ADDED" ] && [ "$ADDED_COUNT" -gt "0" ]; then
+            ADDED_LIST="<h3>New Files</h3><ul>"
+            while IFS= read -r f; do
+              [ -n "$f" ] && ADDED_LIST="$ADDED_LIST<li>$f</li>"
+            done <<< "$ADDED"
+            ADDED_LIST="$ADDED_LIST</ul>"
+          fi
+
+          MODIFIED_LIST=""
+          if [ -n "$MODIFIED" ] && [ "$MODIFIED_COUNT" -gt "0" ]; then
+            MODIFIED_LIST="<h3>Modified Files</h3><ul>"
+            while IFS= read -r f; do
+              [ -n "$f" ] && MODIFIED_LIST="$MODIFIED_LIST<li>$f</li>"
+            done <<< "$MODIFIED"
+            MODIFIED_LIST="$MODIFIED_LIST</ul>"
+          fi
+
+          DELETED_LIST=""
+          if [ -n "$DELETED" ] && [ "$DELETED_COUNT" -gt "0" ]; then
+            DELETED_LIST="<h3>Deleted Files</h3><ul>"
+            while IFS= read -r f; do
+              [ -n "$f" ] && DELETED_LIST="$DELETED_LIST<li>$f</li>"
+            done <<< "$DELETED"
+            DELETED_LIST="$DELETED_LIST</ul>"
+          fi
+
+          if [ "$COMMIT_COUNT" -eq "0" ]; then
+            BODY="<h2>Sebenza Hub Vault - Daily Update</h2><p>$TODAY</p><hr><p>No changes in the last 24 hours.</p>"
+          else
+            BODY="<h2>Sebenza Hub Vault - Daily Update</h2><p>$TODAY</p><hr>"
+            BODY="$BODY<h3>Summary</h3><ul><li>$COMMIT_COUNT commit(s)</li><li>$ADDED_COUNT file(s) added</li><li>$MODIFIED_COUNT file(s) modified</li><li>$DELETED_COUNT file(s) deleted</li></ul>"
+            BODY="$BODY<h3>Commits</h3><ul>$COMMITS</ul>"
+            BODY="$BODY$ADDED_LIST$MODIFIED_LIST$DELETED_LIST"
+          fi
+
+          BODY="$BODY<hr><p style='font-size:12px;color:#999;'>Automated report from Sebenza Hub Vault</p>"
+
+          EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+          echo "body<<$EOF" >> $GITHUB_OUTPUT
+          echo "$BODY" >> $GITHUB_OUTPUT
+          echo "$EOF" >> $GITHUB_OUTPUT
+
+      - name: Send email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: Vault Update - ${{ steps.summary.outputs.date }}
+          to: Wes.dutoit@sebenzahub.co.za
+          from: ${{ secrets.SMTP_USERNAME }}
+          html_body: ${{ steps.summary.outputs.body }}
+          content_type: text/html
