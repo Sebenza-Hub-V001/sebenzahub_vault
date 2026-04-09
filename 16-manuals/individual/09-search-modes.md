@@ -12,7 +12,7 @@ user-types: [individual]
 
 Sebenza Hub gives you three ways to find jobs. Each one suits a different mode of looking. You'll probably use all three over time, but the trick is knowing which to reach for in each situation — otherwise you waste effort and miss roles you would have liked.
 
-This chapter is short and useful. It explains the three modes, when each is best, and how to read the signals (match scores, ghost-risk scores) that show up alongside listings.
+What follows is short: the three modes, when each is best, and how to read the signals (match scores, ghost-risk scores) that show up alongside listings.
 
 ## The three modes
 

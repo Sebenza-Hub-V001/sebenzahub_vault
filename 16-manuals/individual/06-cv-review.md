@@ -12,7 +12,7 @@ user-types: [individual]
 
 You have a CV in the system. Before you start applying to jobs, run it through CV Review. This is the first AI feature you should use, and it's also one of the highest-value: most CVs get rejected in seconds because of fixable problems, and CV Review surfaces those problems before a recruiter ever sees them.
 
-This chapter takes about 20 minutes if you actually act on the feedback (which is the point).
+Plan on about 20 minutes — most of that spent actually acting on the feedback, which is the point.
 
 ## What CV Review actually checks
 

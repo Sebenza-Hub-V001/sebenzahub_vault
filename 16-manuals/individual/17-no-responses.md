@@ -12,7 +12,7 @@ user-types: [individual]
 
 You've followed Parts 1–4. You've applied to a reasonable number of jobs. Weeks have gone by and the response rate is approximately zero. This is the most common job-search problem, and it's almost always fixable — but only if you diagnose the actual cause instead of guessing.
 
-This chapter is a structured troubleshooting guide. Don't skip the diagnosis step.
+What follows is a structured troubleshooting guide. Don't skip the diagnosis step.
 
 ## First — be sure the problem is real
 

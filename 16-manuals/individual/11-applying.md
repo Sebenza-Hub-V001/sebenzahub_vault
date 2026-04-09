@@ -118,7 +118,7 @@ The platform doesn't control how fast employers respond. Realistically:
 | First message from a human | Days to weeks |
 | Interview invitation | Days to a month |
 | Rejection notification | Anywhere from days to never (some employers ghost) |
-| No response at all | Common — at least a third of applications go silent |
+| No response at all | Common — a meaningful fraction of applications go silent |
 
 If you don't hear back after 7–14 days, that's your cue to set a follow-up reminder (Chapter 12) — not to spiral.
 

@@ -39,11 +39,13 @@ You set this during onboarding. To change it now, go to **Settings** (`/dashboar
 
 ### Hiding from your current employer
 
-Sebenza Hub does not have a per-organisation block. If your employer uses Sebenza Hub as a Recruiter or Business and you're worried about them seeing your profile, your options are:
+If your employer uses Sebenza Hub as a Recruiter or Business and you're worried about them seeing your profile, the safest options are:
 
 1. Set your profile to **private** while you're early in your search and applying to specific roles you've identified yourself.
 2. Use **anonymous-friendly fields** in your headline and summary — describe your role without giving away employer-identifying details.
-3. Be aware that the moment you *apply* to a job, the employer of that job sees you. There's no way to apply anonymously.
+3. Be aware that the moment you *apply* to a job, the employer of that job sees you. There is no anonymous application route.
+
+If a per-organisation block exists in Settings, use it on top of the above. Check your current Settings page for the option, since the feature set evolves.
 
 ## What recruiters actually see
 

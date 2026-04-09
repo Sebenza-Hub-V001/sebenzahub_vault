@@ -1,5 +1,19 @@
 # Activity Log
 
+## [2026-04-09] edit | Individual Training Manual — editorial pass
+- Audited all 23 chapters for consistency, repeated phrasing, broken links, and shaky claims
+- Findings:
+  - All chapters have Checklist, Next chapter, References sections (Ch 23 correctly omits Next chapter as the final chapter)
+  - All cross-chapter wiki-links resolve to existing files
+  - Frontmatter is consistent across chapters (type=concept, status=draft, updated=2026-04-09)
+  - Average length 145 lines; longest is Ch 7 at 190 lines (Skills + Verifications + Credentials + Video + Portfolio — kept as-is, content is justified)
+- Targeted edits:
+  - Varied "This chapter is X" opening pattern in Ch 6, Ch 9, Ch 17 (was used in 6 chapters; trimmed to 3)
+  - Removed misleading [[Chapter 7]] cross-link in [[16-manuals/individual/03-onboarding]] (job preferences live in Settings, not Ch 7)
+  - Hedged unverified factual claim in [[16-manuals/individual/08-privacy-and-popia]] about per-organisation blocking (was asserting nonexistence; now invites users to check Settings)
+  - Hedged unsupported "at least a third" silent-application statistic in [[16-manuals/individual/11-applying]] to "a meaningful fraction"
+- No structural changes; no chapters rewritten; no content cut
+
 ## [2026-04-09] update | Individual Training Manual — Parts 3, 4, 5, 6 drafted (manual complete)
 - Drafted full bodies for chapters 9–23 (with Ch 20 as a partial pending the Autopilot open question):
   - Part 3 (Find and Apply): [[16-manuals/individual/09-search-modes]], [[16-manuals/individual/10-saved-searches-and-favourites]], [[16-manuals/individual/11-applying]], [[16-manuals/individual/12-tracking-applications]]
