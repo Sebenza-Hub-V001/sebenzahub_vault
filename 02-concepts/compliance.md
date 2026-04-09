@@ -112,9 +112,6 @@ AI decisions are monitored for compliance:
 
 ## References
 
-- [[01-entities/recruiter-user]] — B-BBEE level, POPIA compliance on profile
-- [[01-entities/business-user]] — Organization compliance settings
-- [[01-entities/admin-user]] — Compliance reporting and monitoring
 - [[02-concepts/ai-features]] — AI bias auditing
 - [[02-concepts/rbac]] — `data:pii_access` permission for sensitive data
-- Source: [[09-sources/repo-audit-2026-04-07]]
+- [[03-workflows/recruiter-journey]] — Track C: Compliance & Governance

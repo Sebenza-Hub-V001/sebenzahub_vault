@@ -90,7 +90,5 @@ Sebenza Hub uses **passwordless magic-link authentication**. Users enter their e
 ## References
 
 - [[02-concepts/rbac]] — Permission system after authentication
-- [[01-entities/individual-user]] — Individual onboarding flow
-- [[01-entities/recruiter-user]] — Recruiter onboarding flow
-- [[01-entities/business-user]] — Business onboarding flow
-- Source: [[09-sources/repo-audit-2026-04-07]]
+- [[03-workflows/individual-journey]] — Individual signup flow
+- [[03-workflows/recruiter-journey]] — Recruiter signup flow

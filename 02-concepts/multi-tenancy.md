@@ -116,6 +116,4 @@ Each organization can configure:
 ## References
 
 - [[02-concepts/rbac]] — Permission system within organizations
-- [[01-entities/recruiter-user]] — Agency organization
-- [[01-entities/business-user]] — Employer organization
-- Source: [[09-sources/repo-audit-2026-04-07]]
+- [[03-workflows/recruiter-journey]] — Agency organisation in the recruiter journey

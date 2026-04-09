@@ -74,7 +74,7 @@ Dedicated E2E test suite: `test:e2e:whatsapp`
 
 ## WhatsApp Bot Deep-Dive
 
-Per [[09-sources/whatsapp-bot-training-manual-2026-04-07]], the WhatsApp bot is far more than a simple chatbot — it's a complete recruitment operating system via messaging. See [[01-entities/whatsapp-bot]] for the full entity page.
+The WhatsApp bot is far more than a simple chatbot — it's a complete recruitment operating system via messaging.
 
 ### Key Capabilities
 - **6 SA languages**: English, Afrikaans, isiZulu, isiXhosa, Sesotho, Setswana
@@ -91,7 +91,7 @@ Command Center, Conversations, Campaigns, Broadcast Studio, Automation, Complian
 - Credentials: Phone Number ID, Access Token, WABA ID, Verify Token
 - Webhook events: messages, message_deliveries, message_reads
 
-> ⚠️ **Tension:** The bot supports 6 SA languages for greetings, but [[09-sources/ai-enhancement-opportunities-2026-04-07]] flags multi-language AI as a high-effort unimplemented feature. Language support appears template-based, not full AI conversation.
+> ⚠️ **Tension:** The bot supports 6 SA languages for greetings, but multi-language AI is a high-effort unimplemented feature elsewhere in the platform. Language support appears template-based, not full AI conversation.
 
 ## Open Questions
 
@@ -102,10 +102,5 @@ Command Center, Conversations, Campaigns, Broadcast Studio, Automation, Complian
 
 ## References
 
-- [[01-entities/whatsapp-bot]] — Full entity page for the WhatsApp bot
-- [[01-entities/recruiter-user]] — WhatsApp features for recruiters
-- [[01-entities/individual-user]] — WhatsApp notification preferences
-- [[01-entities/admin-user]] — WhatsApp platform administration
-- [[01-entities/sebenza-hub]] — Platform integrations
-- Source: [[09-sources/repo-audit-2026-04-07]]
-- Source: [[09-sources/whatsapp-bot-training-manual-2026-04-07]]
+- [[02-concepts/compliance]] — POPIA consent for WhatsApp messaging
+- [[03-workflows/recruiter-journey]] — WhatsApp in the recruiter journey (Track A)

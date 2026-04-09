@@ -162,8 +162,6 @@ Multiple sourcing channels:
 └──────────────────────────────────────────┘
 ```
 
-See [[01-entities/linkedin-integration]] for LinkedIn details.
-
 ## Step 6: Screen & Evaluate
 
 ```
@@ -183,8 +181,6 @@ Compare candidates:
   ├─ /culture-fit — Culture alignment analysis
   └─ /ranking — AI-powered ranking
 ```
-
-See [[01-entities/screening-system]] for details.
 
 ## Step 7: Interview
 
@@ -233,8 +229,6 @@ Negotiation (if needed) via /offer-negotiation:
 /offer-analytics — Track acceptance rates, time-to-accept, decline reasons
 /offer-compliance — Auto-validate legal and policy requirements
 ```
-
-See [[01-entities/offer-system]] for full lifecycle details.
 
 ## Step 9: Placement & Revenue
 
@@ -364,7 +358,7 @@ WhatsApp at scale:
 FEEDBACK LOOP: Less admin → more time on sourcing and client relationships
 ```
 
-See [[01-entities/whatsapp-bot]] and [[02-concepts/whatsapp-integration]] for WhatsApp details.
+See [[02-concepts/whatsapp-integration]] for WhatsApp Business API details.
 
 ---
 
@@ -643,27 +637,17 @@ BRAND:          │    Brand    Client     Career  Job     Recruit.  Location   
 
 | Stage | Interacts With |
 |-------|---------------|
-| Candidate sourced | [[01-entities/individual-user]] |
-| Job posted for client | [[01-entities/business-user]] |
+| Candidate sourced | Individual job seekers |
+| Job posted for client | Business hiring teams |
 | Candidate submitted to client | Business (via Hiring Manager Portal) |
 | Offer extended | Individual (candidate) + Business (approval) |
 | Placement recorded | Business (revenue event) |
-| Platform moderated | [[01-entities/admin-user]] |
-| WhatsApp communications | [[01-entities/whatsapp-bot]] |
+| Platform moderated | Sebenza Hub Admin team |
+| WhatsApp communications | WhatsApp Business API |
 
 ## References
 
-- [[01-entities/recruiter-user]] — Full feature list and data model
-- [[01-entities/individual-user]] — Candidates being sourced
-- [[01-entities/business-user]] — Client companies
-- [[01-entities/offer-system]] — Offer lifecycle
-- [[01-entities/screening-system]] — Screening tools
-- [[01-entities/linkedin-integration]] — LinkedIn sourcing
-- [[01-entities/whatsapp-bot]] — WhatsApp bot (16 recruiter tabs)
 - [[02-concepts/application-lifecycle]] — Pipeline stages
 - [[02-concepts/ai-features]] — AI tools for recruiters
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity
-- [[02-concepts/billing-system]] — Billing architecture
 - [[02-concepts/whatsapp-integration]] — WhatsApp Business API
-- [[09-sources/recruitment-features-2026-04-07]] — Detailed feature descriptions
-- [[09-sources/recruiter-journey-gap-analysis-2026-04-08]] — Gap analysis that prompted this rewrite
