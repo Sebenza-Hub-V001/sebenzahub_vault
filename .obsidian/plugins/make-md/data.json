@@ -46,13 +46,9 @@
     "//13-raw/13-raw/transcripts",
     "//13-raw/13-raw/articles",
     "//11-presentations",
-    "//03-workflows",
     "//04-standards",
     "//16. Features",
-    "//16-manuals",
-    "//Tags",
-    "//02-concepts",
-    "//16-manuals/16-manuals/recruiter"
+    "//Tags"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
