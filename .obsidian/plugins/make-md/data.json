@@ -49,7 +49,9 @@
     "//05-procedures",
     "//11-presentations",
     "//03-workflows",
-    "//04-standards"
+    "//04-standards",
+    "//16. Features",
+    "//16-manuals/16-manuals/individual"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

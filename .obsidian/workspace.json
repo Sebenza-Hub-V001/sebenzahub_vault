@@ -11,10 +11,24 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "08-questions/individual-training-manual-plan.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "individual-training-manual-plan"
             }
           }
         ]
@@ -254,6 +268,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "16-manuals/individual/07-skills-credentials-video.md",
+    "16-manuals/individual/06-cv-review.md",
+    "16-manuals/individual/04-first-10-minutes.md",
+    "16-manuals/individual/05-uploading-a-cv.md",
+    "16-manuals/individual/02-creating-your-account.md",
+    "16-manuals/individual/03-onboarding.md",
+    "16-manuals/individual/01-what-sebenza-hub-is.md",
     "16-manuals/individual/index.md",
     "16-manuals/individual/23-community-and-mentorship.md",
     "16-manuals/individual/22-market-radar.md",
@@ -271,18 +292,11 @@
     "16-manuals/individual/08-privacy-and-popia.md",
     "16-manuals/individual/10-saved-searches-and-favourites.md",
     "16-manuals/individual/09-search-modes.md",
-    "16-manuals/individual/07-skills-credentials-video.md",
-    "16-manuals/individual/06-cv-review.md",
-    "16-manuals/individual/04-first-10-minutes.md",
-    "16-manuals/individual/05-uploading-a-cv.md",
-    "16-manuals/individual/02-creating-your-account.md",
-    "16-manuals/individual/03-onboarding.md",
-    "16-manuals/individual/01-what-sebenza-hub-is.md",
     "16-manuals/index.md",
     "16-manuals/individual",
     "16-manuals",
     "10-tweets/roundtablespace-debugging-methodology-prompt.md",
-    "16. Features",
+    "17. Features",
     "Pasted image 20260408063435.png",
     "log.md.tmp.17280.1775634232042",
     "index.md.tmp.17280.1775634204063",
