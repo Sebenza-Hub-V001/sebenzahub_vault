@@ -1,5 +1,31 @@
 # Activity Log
 
+## [2026-04-09] new | Individual Training Manual — plan + Part 1 drafted
+- Plan filed: [[08-questions/individual-training-manual-plan]]
+- New directory: `16-manuals/` (training manuals top-level)
+- New manual scaffold: [[16-manuals/individual/index]] (23 chapters across 6 parts)
+- Part 1 drafted (chapters 1–4):
+  - [[16-manuals/individual/01-what-sebenza-hub-is]] — what the platform is and who it's for
+  - [[16-manuals/individual/02-creating-your-account]] — magic-link sign-up walkthrough
+  - [[16-manuals/individual/03-onboarding]] — six onboarding fields + POPIA consent
+  - [[16-manuals/individual/04-first-10-minutes]] — dashboard orientation tour
+- Chapters 5–23 scaffolded (frontmatter, outline, source pages, checklist) — bodies pending
+- Chapter 20 (Autopilot) blocked on open question carried over from [[01-entities/individual-user]]
+- Index updated; `16-manuals/` added as new top-level directory under Manuals
+- Pending: drafting Parts 2–6, screenshot capture, sibling manuals for Recruiter / Business / Admin
+
+## [2026-04-08] tweet | Obsidian Gives Claude the Memory It Was Never Born With
+- Source: https://x.com/neil_xbt/status/2041779011336999021
+- Filed: [[10-tweets/neilxbt-obsidian-claude-memory]]
+- Recommendations: 5 (top: session context files for AI Copilot, persistent career context for Individuals, WhatsApp bot session continuity)
+- Pages touched: [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]] (cross-references added)
+
+## [2026-04-08] tweet | Systematic Debugging Methodology Prompt (8-Step Detective Thinking)
+- Source: https://x.com/roundtablespace/status/2035631314691387534
+- Filed: [[10-tweets/roundtablespace-debugging-methodology-prompt]]
+- Recommendations: 5 (top: AI Output Debugging Dashboard for admin, Screening Bot Root Cause Analysis, WhatsApp Bot Debugging Mode)
+- Pages touched: [[10-tweets/explorax-20-agentic-skills]] (cross-reference added)
+
 ## [2026-04-08] tweet | Hidden Claude Code Features (Channels, /batch, Agent Teams, Hooks, /loop)
 - Source: https://x.com/coreyganim/status/2041596621591629915
 - Filed: [[10-tweets/coreyganim-hidden-claude-code-features]]

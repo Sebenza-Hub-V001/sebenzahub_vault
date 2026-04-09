@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-08 | Pages: 50 | Sources: 11 (+8 raw docs) | Presentations: 0
+> Last updated: 2026-04-09 | Pages: 78 | Sources: 11 (+8 raw docs) | Presentations: 0 | Manuals: 1 (in progress)
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -71,6 +71,10 @@ status: active
 - [[15-dashboards/business-dashboard]] — 47 pages, journey-aligned sidebar (Hiring Path + Parallel Tracks)
 - [[15-dashboards/admin-dashboard]] — 24 pages, journey-aligned sidebar (Operations Path + Parallel Tracks)
 
+## Training Manuals
+- [[16-manuals/index]] — End-user training manuals (one per user type)
+- [[16-manuals/individual/index]] — Individual (job seeker) manual — Part 1 drafted (Ch 1–4); Ch 5–23 scaffolded
+
 ## Comparisons
 - [[06-comparisons/user-type-comparison]] — Side-by-side feature matrix across all 4 user types
 
@@ -82,6 +86,8 @@ status: active
 - [[10-tweets/explorax-20-agentic-skills]] — 20 reusable agentic skill files (.md) for Claude/ChatGPT/Gemini across writing, visual, research, video & coding, @exploraX_, 2026-04
 - [[10-tweets/aiedge-claude-skills-guide]] — Claude Skills architecture: progressive loading, A/B testing, trigger optimisation, eval framework, @aiedge_, 2026-03
 - [[10-tweets/coreyganim-hidden-claude-code-features]] — 10 hidden Claude Code features: Channels, /batch, Agent Teams, TaskCompleted hook, /loop + Skills, @coreyganim, 2026-04
+- [[10-tweets/roundtablespace-debugging-methodology-prompt]] — 8-step systematic debugging methodology prompt (detective thinking, no hallucinated causes), @RoundtableSpace, 2026-03
+- [[10-tweets/neilxbt-obsidian-claude-memory]] — Obsidian + CLAUDE.md as persistent memory layer for Claude Code (compounding knowledge flywheel), @neil_xbt, 2026-04
 
 ## Presentations
 
@@ -92,3 +98,4 @@ _(No presentations yet.)_
 - [[08-questions/trust-tier-calculation]] — How are recruiter trust tiers calculated? Status: partially resolved (medium confidence)
 - [[08-questions/subscription-plans]] — What are the 18 plans and their pricing? Status: partially resolved (pricing hints found)
 - [[08-questions/ai-provider-selection]] — How is the AI provider selected per feature? Status: partially resolved (admin-configurable confirmed)
+- [[08-questions/individual-training-manual-plan]] — Plan and outline for the Individual training manual. Status: in progress (Part 1 drafted)
