@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-09 | Pages: 78 | Sources: 11 (+8 raw docs) | Presentations: 0 | Manuals: 1 (in progress)
+> Last updated: 2026-04-09 | Pages: 79 | Sources: 11 (+8 raw docs) | Presentations: 0 | Manuals: 1 (in progress)
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -88,6 +88,7 @@ status: active
 - [[10-tweets/coreyganim-hidden-claude-code-features]] — 10 hidden Claude Code features: Channels, /batch, Agent Teams, TaskCompleted hook, /loop + Skills, @coreyganim, 2026-04
 - [[10-tweets/roundtablespace-debugging-methodology-prompt]] — 8-step systematic debugging methodology prompt (detective thinking, no hallucinated causes), @RoundtableSpace, 2026-03
 - [[10-tweets/neilxbt-obsidian-claude-memory]] — Obsidian + CLAUDE.md as persistent memory layer for Claude Code (compounding knowledge flywheel), @neil_xbt, 2026-04
+- [[10-tweets/nickspisak-claude-managed-agents]] — Claude Managed Agents public beta: Anthropic-hosted agent runtime (sandbox, session, MCP, per-tool permissions, $0.08/session-hr), @NickSpisak_, 2026-04-09
 
 ## Presentations
 
