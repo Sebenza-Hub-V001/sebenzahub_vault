@@ -12,7 +12,7 @@ user-types: [individual]
 
 A complete guide for job seekers on Sebenza Hub. Read Parts 1–4 in order if you're brand new. Use Parts 5–6 as references when you get stuck or want to go deeper.
 
-> **Status:** Draft. Part 1 is the first complete pass; later parts are scaffolded but not yet written.
+> **Status:** Draft. Parts 1 and 2 are the first complete passes; later parts are scaffolded but not yet written.
 
 ## How to use this manual
 

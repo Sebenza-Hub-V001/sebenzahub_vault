@@ -96,7 +96,7 @@ Part 6 — Advanced (optional)
 - [x] Plan filed (this page)
 - [x] `16-manuals/individual/` scaffold created
 - [x] Part 1 (Chapters 1–4) drafted
-- [ ] Part 2 (Chapters 5–8) drafted
+- [x] Part 2 (Chapters 5–8) drafted
 - [ ] Part 3 (Chapters 9–12) drafted
 - [ ] Part 4 (Chapters 13–16) drafted
 - [ ] Part 5 (Chapters 17–19) drafted

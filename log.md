@@ -1,5 +1,15 @@
 # Activity Log
 
+## [2026-04-09] update | Individual Training Manual — Part 2 drafted
+- Drafted full bodies for chapters 5–8 (Build Your Profile):
+  - [[16-manuals/individual/05-uploading-a-cv]] — upload vs build routes, AI parsing review, multiple CV versions
+  - [[16-manuals/individual/06-cv-review]] — what CV Review checks, how to read feedback, what it doesn't do
+  - [[16-manuals/individual/07-skills-credentials-video]] — skills with proficiency, verifications, credentials, video intro, portfolio (when each matters)
+  - [[16-manuals/individual/08-privacy-and-popia]] — public vs private, public profile preview, POPIA rights, notification settings
+- Plan checklist updated: Part 2 marked complete
+- Pricing-tier open question still flagged in Chapter 6 (CV Review may be paid)
+- Next: Part 3 (chapters 9–12, Find and Apply to Jobs)
+
 ## [2026-04-09] new | Individual Training Manual — plan + Part 1 drafted
 - Plan filed: [[08-questions/individual-training-manual-plan]]
 - New directory: `16-manuals/` (training manuals top-level)
