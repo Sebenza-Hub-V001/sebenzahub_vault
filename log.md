@@ -1,5 +1,19 @@
 # Activity Log
 
+## [2026-04-09] new | Individual Training Manual — plan + Part 1 drafted
+- Plan filed: [[08-questions/individual-training-manual-plan]]
+- New directory: `16-manuals/` (training manuals top-level)
+- New manual scaffold: [[16-manuals/individual/index]] (23 chapters across 6 parts)
+- Part 1 drafted (chapters 1–4):
+  - [[16-manuals/individual/01-what-sebenza-hub-is]] — what the platform is and who it's for
+  - [[16-manuals/individual/02-creating-your-account]] — magic-link sign-up walkthrough
+  - [[16-manuals/individual/03-onboarding]] — six onboarding fields + POPIA consent
+  - [[16-manuals/individual/04-first-10-minutes]] — dashboard orientation tour
+- Chapters 5–23 scaffolded (frontmatter, outline, source pages, checklist) — bodies pending
+- Chapter 20 (Autopilot) blocked on open question carried over from [[01-entities/individual-user]]
+- Index updated; `16-manuals/` added as new top-level directory under Manuals
+- Pending: drafting Parts 2–6, screenshot capture, sibling manuals for Recruiter / Business / Admin
+
 ## [2026-04-08] tweet | Obsidian Gives Claude the Memory It Was Never Born With
 - Source: https://x.com/neil_xbt/status/2041779011336999021
 - Filed: [[10-tweets/neilxbt-obsidian-claude-memory]]
