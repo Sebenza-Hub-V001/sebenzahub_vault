@@ -37,7 +37,7 @@ First and last name. This appears on your CVs, your applications, and your publi
 
 ### 2. Your location
 
-**Province and city are both required.** Sebenza Hub uses your location to filter job matches and to surface salary data relevant to where you actually live. If you're prepared to relocate, you can tell the platform about that later in [[16-manuals/individual/07-skills-credentials-video|Chapter 7]] (preferences) — for now, put down where you are *today*.
+**Province and city are both required.** Sebenza Hub uses your location to filter job matches and to surface salary data relevant to where you actually live. If you're prepared to relocate, you can tune that later in Settings — for now, put down where you are *today*.
 
 ### 3. Your phone number
 

@@ -96,11 +96,11 @@ Part 6 — Advanced (optional)
 - [x] Plan filed (this page)
 - [x] `16-manuals/individual/` scaffold created
 - [x] Part 1 (Chapters 1–4) drafted
-- [ ] Part 2 (Chapters 5–8) drafted
-- [ ] Part 3 (Chapters 9–12) drafted
-- [ ] Part 4 (Chapters 13–16) drafted
-- [ ] Part 5 (Chapters 17–19) drafted
-- [ ] Part 6 (Chapters 20–23) drafted — blocked on Autopilot question
+- [x] Part 2 (Chapters 5–8) drafted
+- [x] Part 3 (Chapters 9–12) drafted
+- [x] Part 4 (Chapters 13–16) drafted
+- [x] Part 5 (Chapters 17–19) drafted
+- [x] Part 6 (Chapters 20–23) drafted — Ch 20 (Autopilot) is a *partial* draft pending the operational details from the open question; Ch 21–23 are full drafts
 - [ ] Screenshots captured
 - [ ] Recruiter manual planned (sibling to this one)
 - [ ] Business manual planned

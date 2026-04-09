@@ -73,7 +73,7 @@ status: active
 
 ## Training Manuals
 - [[16-manuals/index]] — End-user training manuals (one per user type)
-- [[16-manuals/individual/index]] — Individual (job seeker) manual — Part 1 drafted (Ch 1–4); Ch 5–23 scaffolded
+- [[16-manuals/individual/index]] — Individual (job seeker) manual — all 23 chapters drafted (Ch 20 partial, blocked on Autopilot open question)
 
 ## Comparisons
 - [[06-comparisons/user-type-comparison]] — Side-by-side feature matrix across all 4 user types
