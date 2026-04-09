@@ -170,6 +170,7 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
    - **Missing pages** — `[[wiki-links]]` that point to pages that don't exist
    - **Gaps** — important topics mentioned but lacking their own page
    - **Weak sourcing** — claims without source attribution
+   - **Cross-site leaks** — see Two-Site Publish below. Any `[[wiki-link]]` inside `16-manuals/` that points to a folder *other than* `16-manuals/`, `02-concepts/`, or `03-workflows/` is flagged as a potential leak to the public manual site. Internal-only targets (`01-entities/`, `06-comparisons/`, `07-decisions/`, `08-questions/`, `09-sources/`, `10-tweets/`, `12-tasks/`, `13-raw/`, `14-notes/`, `15-dashboards/`, `17-features/`) must be removed, replaced with a public-facing equivalent, or rewritten as plain prose.
 2. **Report** findings as a checklist.
 3. **Suggest** new questions to investigate and sources to look for.
 4. **Fix** issues with user approval, or batch-fix if user says "fix all".
@@ -388,6 +389,29 @@ When starting fresh:
 - `dashboard-path`: /dashboard/recruiter/* — Route prefix for features described
 - `endpoint-count`: N — Number of API endpoints covered (helps gauge complexity)
 - `table-count`: N — Number of database tables covered
+
+#### Two-Site Publish
+
+This vault is published to **two Obsidian Publish sites** from the same source:
+
+1. **`sebenzahub`** — Internal site. Full vault visible. Audience: user + internal team.
+2. **`sebenzahub-manual`** — Public training manual. Audience: end users (Individual, Recruiter, Business, Admin).
+
+Visibility per site is controlled in the Obsidian Publish **Navigation → Show/Hide** UI (right-click → Hide). Hidden pages still resolve by direct URL — they are not access-controlled, only de-listed from navigation. There is no file-based config to edit.
+
+**Folders that ship to the public `sebenzahub-manual` site:**
+- `16-manuals/` — the main payload (always shown)
+- Selected pages from `02-concepts/` and `03-workflows/` — only the user-relevant ones, hidden case-by-case
+- A custom landing page (likely `16-manuals/welcome.md` and `16-manuals/index.md`) — *not* the root `welcome.md` / `index.md`, which are internal
+
+**Folders that must stay hidden on the public site:**
+`01-entities/`, `06-comparisons/`, `07-decisions/`, `08-questions/`, `09-sources/`, `10-tweets/`, `12-tasks/`, `13-raw/`, `14-notes/`, `15-dashboards/`, `17-features/`, `CLAUDE.md`, `log.md`, `README.md`, `Vault.md`, root `welcome.md`, root `index.md`, root `overview.md`.
+
+**Authoring rules for `16-manuals/` pages:**
+- Tone: user-facing, plain language. No internal jargon, no references to "the wiki", "the vault", "open questions", "decisions", or "sources".
+- Wiki-links from inside `16-manuals/` may only target: other `16-manuals/` pages, `02-concepts/` pages, or `03-workflows/` pages. Anything else is a **cross-site leak** (see Lint).
+- If a manual page needs context that lives only in an internal folder (e.g. `08-questions/subscription-plans`), either: (a) inline the relevant facts as plain prose with no link, (b) move the relevant facts into a new `02-concepts/` page that can be published on both sites, or (c) drop the reference entirely.
+- Cross-references from `02-concepts/` or `03-workflows/` *into* internal folders are fine on the internal site but will appear as broken on the public site if those concept/workflow pages are published. Treat any internal-folder link inside a published concept/workflow page as a leak too.
 
 ---
 

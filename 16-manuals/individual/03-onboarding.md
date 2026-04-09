@@ -104,6 +104,5 @@ So don't agonise over the form. Get it close to right, click submit, and tune it
 
 ## References
 
-- [[01-entities/individual-user]] — Onboarding flow details
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity overview
 - [[16-manuals/individual/08-privacy-and-popia|Chapter 8]] — More on privacy and your POPIA rights

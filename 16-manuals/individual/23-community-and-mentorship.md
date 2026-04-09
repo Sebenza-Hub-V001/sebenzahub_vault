@@ -144,12 +144,10 @@ Good luck.
 
 ## Manual complete
 
-You've reached the end. The plan and source pages remain in the wiki — see [[08-questions/individual-training-manual-plan]] for what's still pending and [[16-manuals/individual/index|the manual index]] to jump back to any chapter.
+You've reached the end. Use [[16-manuals/individual/index|the manual index]] to jump back to any chapter.
 
 ## References
 
-- [[01-entities/individual-user]] — Community features
-- [[01-entities/community-learning-hub]] — Learning Hub and community overview
 - [[16-manuals/individual/index]] — Manual index
 - [[16-manuals/individual/14-company-research|Chapter 14]] — Pairs with Interview Vault for interview prep
 - [[16-manuals/individual/19-level-up|Chapter 19]] — Mentorship in the learning context

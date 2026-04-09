@@ -64,6 +64,5 @@ Parts 5 and 6 are there for when something goes wrong, or when you want to use t
 
 ## References
 
-- [[01-entities/sebenza-hub]] — Platform overview
-- [[01-entities/individual-user]] — Full Individual feature inventory
-- [[06-comparisons/user-type-comparison]] — How Individuals compare to other user types
+- [[16-manuals/individual/02-creating-your-account|Chapter 2 — Creating your account]]
+- [[16-manuals/individual/03-onboarding|Chapter 3 — Onboarding]]

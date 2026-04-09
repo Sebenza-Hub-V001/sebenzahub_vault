@@ -112,6 +112,5 @@ You now know enough about the dashboard to follow the rest of the manual without
 
 ## References
 
-- [[15-dashboards/individual-dashboard]] — Full dashboard layout and route map
 - [[03-workflows/individual-journey]] — Complete journey with the same Hiring Path / Parallel Tracks structure
-- [[01-entities/individual-user]] — Full feature inventory by category
+- [[16-manuals/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]

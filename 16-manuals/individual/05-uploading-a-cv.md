@@ -118,5 +118,5 @@ Skipping this chapter and going straight to job applications means none of those
 
 ## References
 
-- [[01-entities/individual-user]] — CV Management, Resume Upload, CV Templates features
 - [[03-workflows/individual-journey]] — Step 3 (Build Profile)
+- [[16-manuals/individual/06-cv-review|Chapter 6 — Running CV Review]]

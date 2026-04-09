@@ -143,6 +143,5 @@ Sometimes people set Career DNA and Opportunity Weights well, get great matches,
 
 ## References
 
-- [[01-entities/individual-user]] — Career DNA, Opportunity Weights (in `individualSettings`)
 - [[16-manuals/individual/09-search-modes|Chapter 9]] — How matching uses these settings
 - [[16-manuals/individual/20-autopilot|Chapter 20]] — Why these settings matter before enabling auto-apply

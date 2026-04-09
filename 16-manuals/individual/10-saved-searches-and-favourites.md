@@ -119,6 +119,5 @@ This rhythm beats scrolling-as-job-hunt by a wide margin. It produces fewer appl
 
 ## References
 
-- [[01-entities/individual-user]] — Saved Searches, Favourites
 - [[03-workflows/individual-journey]] — Step 4 (Search & Apply)
 - [[16-manuals/individual/09-search-modes|Chapter 9]] — The search modes you'll save from

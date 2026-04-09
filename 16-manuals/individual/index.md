@@ -12,7 +12,7 @@ user-types: [individual]
 
 A complete guide for job seekers on Sebenza Hub. Read Parts 1–4 in order if you're brand new. Use Parts 5–6 as references when you get stuck or want to go deeper.
 
-> **Status:** First complete draft. All 23 chapters have body content. Chapter 20 (Autopilot) is intentionally partial — it captures the principles but not the operational specifics, which are blocked on an open question about how Autopilot actually behaves. See [[08-questions/individual-training-manual-plan]] for outstanding work.
+> **Status:** First complete draft. All 23 chapters have body content. Chapter 20 (Autopilot) is intentionally partial — it captures the principles but the operational specifics will be expanded in a future update.
 
 ## How to use this manual
 
@@ -68,7 +68,4 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 
 ## References
 
-- Plan & open questions: [[08-questions/individual-training-manual-plan]]
 - Source spine: [[03-workflows/individual-journey]]
-- Feature inventory: [[01-entities/individual-user]]
-- Dashboard layout: [[15-dashboards/individual-dashboard]]
