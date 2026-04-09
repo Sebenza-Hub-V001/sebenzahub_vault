@@ -1,5 +1,14 @@
 # Activity Log
 
+## [2026-04-09] tweet | Claude Managed Agents — @NickSpisak_
+- Source: https://x.com/NickSpisak_/status/2041949191887262164
+- Filed: [[10-tweets/nickspisak-claude-managed-agents]]
+- Fidelity note: X blocked direct scraping (HTTP 402); content reconstructed via reader-proxy summary. Confidence: medium. Re-ingest when possible.
+- Recommendations: 7 (top: prototype WhatsApp bot session layer on Managed Agents; adopt as target runtime for Autopilot; open a decision record)
+- Open questions raised: POPIA data-residency, multi-provider lock-in, session-hour cost at scale, custom tool support
+- Pages touched: [[index.md]] (Tweets section, page count 78 → 79)
+- No entity/concept pages edited yet — awaiting Rec #7 decision record before making architectural claims in [[02-concepts/ai-features]]
+
 ## [2026-04-09] edit | Individual Training Manual — editorial pass
 - Audited all 23 chapters for consistency, repeated phrasing, broken links, and shaky claims
 - Findings:
