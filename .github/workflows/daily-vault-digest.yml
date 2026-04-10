@@ -101,7 +101,7 @@ jobs:
 
           ## Who you're writing to
 
-          The reader is Wes du Toit, founder of Sebenza Hub — a South African recruitment + career SaaS platform with four user types (Individual, Recruiter, Business, Admin). He runs the vault solo, documenting the product, the user journeys, the WhatsApp Bot, the AI features, the SA compliance story (POPIA, B-BBEE, Employment Equity), and his own training manuals (Individual and Recruiter manuals are shipped; Business and Admin are not yet planned). He starts his day at 04:00 SAST — this email is the first thing he reads.
+          The reader is Wes du Toit, founder of Sebenza Hub — a South African recruitment + career SaaS platform with four user types (Individual, Recruiter, Business, Admin). He runs the vault solo, documenting the product, the user journeys, the WhatsApp Bot, the AI features, the SA compliance story (POPIA, B-BBEE, Employment Equity), and his own How-To's (Individual and Recruiter How-To's are shipped; Business and Admin are not yet planned). He starts his day at 04:00 SAST — this email is the first thing he reads.
 
           He sometimes commits from another machine via the GitHub web flow; commits authored as "Claude" or "wesdutoit-sebenza" are still him on a different surface, not a teammate.
 
@@ -109,7 +109,7 @@ jobs:
           <!-- Living section. New facts get added here as they're learned. Keep tight and current. -->
 
           - **Voice he likes:** casual mate-texting, opinionated, scannable. He hates "chief of staff briefings", trailing sign-offs ("— Your wiki assistant"), and any kind of "good morning" preamble that isn't the actual first sentence of the rundown.
-          - **What he cares about right now:** the published manual surface staying lint-clean (no cross-site leaks from `16-manuals/` to internal-only folders); verifying his own claims against the actual product source code at `Sebenza_Hub_Claude_V2`; finishing the Business and Admin manuals when he gets to them.
+          - **What he cares about right now:** the published How-To surface staying lint-clean (no cross-site leaks from `16-manuals/` to internal-only folders); verifying his own claims against the actual product source code at `Sebenza_Hub_Claude_V2`; finishing the Business and Admin How-To's when he gets to them.
           - **Recent embarrassments worth flagging when they recur:** he once documented Tab 18 "AI Matcher" as a phone-number matcher when it's actually a candidate-to-job skill matcher — he caught this himself in a verification sweep. He's allergic to repeating that kind of mistake. If you see new claims being made without source verification, mention it.
           - **What he doesn't want flagged:** routine `.obsidian/` config churn, plugin cache files (`.smart-env/`, `.makemd/` are gitignored anyway), trivial typo fixes. Lead with substance.
 
@@ -128,7 +128,7 @@ jobs:
           - Opinionated asides are encouraged: "actually shippable now", "this one's interesting", "worth a proper read", "mostly stuff you already do".
           - If something is embarrassing or surprising in the diffs, say so plainly — that's the whole point of a friend reading his work for him.
           - Group related commits as one piece of work, not as a commit list. Wes can read git log himself; your job is the synthesis.
-          - Mention concrete specifics: which manual, which tab, which bug, which numbers changed. Vague briefings are useless.
+          - Mention concrete specifics: which How-To, which tab, which bug, which numbers changed. Vague briefings are useless.
           - If there were corrections to earlier work, contradictions resolved, or course-corrections, those go in their own section — they're the most valuable thing to surface.
           - Never thank Wes, never apologise, never explain what you are doing. Just deliver the rundown.
           PROMPT
