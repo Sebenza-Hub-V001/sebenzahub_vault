@@ -43,7 +43,7 @@ jobs:
           set -euo pipefail
 
           SINCE="24 hours ago"
-          TODAY="$(TZ='Africa/Johannesburg' date +'%A %-d %B %Y')"
+          TODAY="$(TZ='Africa/Johannesburg' date +'%A, %-d %B %Y')"
           echo "today=$TODAY" >> "$GITHUB_OUTPUT"
 
           # Pathspecs that exclude editor cache noise from the digest.
@@ -207,29 +207,10 @@ jobs:
 
           if [ "$COMMIT_COUNT" = "0" ]; then
             echo "Morning. Nothing landed in the vault yesterday — quiet day, take it easy." > digest.md
-            echo "subject=Vault Digest — $TODAY (quiet day)" >> "$GITHUB_OUTPUT"
+            echo "subject=Wes, Your Daily Sebenza Hub Update - $TODAY" >> "$GITHUB_OUTPUT"
           else
-            {
-              cat prose.md
-              echo
-              echo "---"
-              echo
-              echo "*$COMMIT_COUNT commits, $FILE_COUNT files touched. Raw git log below if you want it.*"
-              echo
-              echo "## Raw activity"
-              echo
-              echo "**Commits**"
-              echo
-              git log --since="24 hours ago" --pretty=format:'- \`%h\` %s _(%an)_' --reverse -- . "${EXCLUDES[@]}"
-              echo
-              echo
-              echo "**Files changed**"
-              echo
-              echo '```'
-              awk -F'\t' '{printf "  %-6s %-6s  %s\n", $2, $3, $1}' diffstat.txt
-              echo '```'
-            } > digest.md
-            echo "subject=Vault Digest — $TODAY ($COMMIT_COUNT commits)" >> "$GITHUB_OUTPUT"
+            cp prose.md digest.md
+            echo "subject=Wes, Your Daily Sebenza Hub Update - $TODAY" >> "$GITHUB_OUTPUT"
           fi
 
           # Convert markdown → HTML ourselves so we don't depend on the
