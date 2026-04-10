@@ -12,7 +12,7 @@ user-types: [individual]
 
 # Individual How-To Guide — Plan & Outline
 
-This page captures the plan for the **Individual user how-to guide** and tracks open questions before each part is drafted. The how-to guide itself lives in `16-how-tos/individual/`.
+This page captures the plan for the **Individual user how-to guide** and tracks open questions before each part is drafted. The how-to guide itself lives in `01 How-To Documents/individual/`.
 
 ## Goal
 
@@ -94,7 +94,7 @@ Part 6 — Advanced (optional)
 ## Status
 
 - [x] Plan filed (this page)
-- [x] `16-how-tos/individual/` scaffold created
+- [x] `01 How-To Documents/individual/` scaffold created
 - [x] Part 1 (Chapters 1–4) drafted
 - [x] Part 2 (Chapters 5–8) drafted
 - [x] Part 3 (Chapters 9–12) drafted
@@ -108,8 +108,8 @@ Part 6 — Advanced (optional)
 
 ## References
 
-- [[16-how-tos/individual/index]] — How-to table of contents
-- [[16-how-tos/individual/01-what-sebenza-hub-is]] — Chapter 1
+- [[01 How-To Documents/individual/index]] — How-to table of contents
+- [[01 How-To Documents/individual/01-what-sebenza-hub-is]] — Chapter 1
 - [[03-workflows/individual-journey]] — Source spine
 - [[01-entities/individual-user]] — Feature inventory
 - [[15-dashboards/individual-dashboard]] — UI grouping

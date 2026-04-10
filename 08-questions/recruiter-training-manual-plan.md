@@ -12,7 +12,7 @@ user-types: [recruiter]
 
 # Recruiter How-To Guide — Plan & Outline
 
-This page captures the plan for the **Recruiter user how-to guide** and tracks open questions before each part is drafted. The how-to guide itself lives in `16-how-tos/recruiter/`.
+This page captures the plan for the **Recruiter user how-to guide** and tracks open questions before each part is drafted. The how-to guide itself lives in `01 How-To Documents/recruiter/`.
 
 ## Goal
 
@@ -43,7 +43,7 @@ Same shape as the Individual how-to — the wiki already contains the raw materi
 4. **Scenarios over screenshots.** Each chapter opens with the realistic scenario it solves. The recruiter journey doc already has these — adapt them.
 5. **Defer power-user features** (Predictive Hiring, Rapid Workflow, Team DNA) to Part 11.
 6. **Every chapter ends with a checklist** the user can self-verify against.
-7. **Cross-link only inside `16-how-tos/recruiter/`, `02-concepts/`, `03-workflows/`** per the [[CLAUDE]] cross-site link rule. No leaking to internal-only folders.
+7. **Cross-link only inside `01 How-To Documents/recruiter/`, `02-concepts/`, `03-workflows/`** per the [[CLAUDE]] cross-site link rule. No leaking to internal-only folders.
 
 ## Outline (34 chapters)
 
@@ -120,7 +120,7 @@ All 5 blocking questions resolved 2026-04-09 via codebase grep at `C:\Users\User
 ## Status
 
 - [x] Plan filed (this page)
-- [x] `16-how-tos/recruiter/` scaffold created
+- [x] `01 How-To Documents/recruiter/` scaffold created
 - [x] Part 1 (Chapters 1–4 + 4.5) drafted
 - [x] Part 2 (Chapters 5–7) drafted
 - [x] Part 3 (Chapters 8–10) drafted
@@ -136,8 +136,8 @@ All 5 blocking questions resolved 2026-04-09 via codebase grep at `C:\Users\User
 
 ## References
 
-- [[16-how-tos/individual/index]] — Sibling Individual how-to (same shape, smaller scope)
-- [[16-how-tos/recruiter/index]] — Recruiter how-to table of contents
+- [[01 How-To Documents/individual/index]] — Sibling Individual how-to (same shape, smaller scope)
+- [[01 How-To Documents/recruiter/index]] — Recruiter how-to table of contents
 - [[03-workflows/recruiter-journey]] — Source spine
 - [[01-entities/recruiter-user]] — Feature inventory
 - [[15-dashboards/recruiter-dashboard]] — UI grouping

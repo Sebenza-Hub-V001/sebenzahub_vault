@@ -77,8 +77,8 @@ status: active
 - [[15-dashboards/admin-dashboard]] — 24 pages, journey-aligned sidebar (Operations Path + Parallel Tracks)
 
 ## How-To's
-- [[16-how-tos/index]] — End-user how-to guides (one per user type)
-- [[16-how-tos/individual/index]] — Individual (job seeker) how-to — all 23 chapters drafted (Ch 20 partial, blocked on Autopilot open question)
+- [[01 How-To Documents/index]] — End-user how-to guides (one per user type)
+- [[01 How-To Documents/individual/index]] — Individual (job seeker) how-to — all 23 chapters drafted (Ch 20 partial, blocked on Autopilot open question)
 
 ## Comparisons
 - [[06-comparisons/user-type-comparison]] — Side-by-side feature matrix across all 4 user types
