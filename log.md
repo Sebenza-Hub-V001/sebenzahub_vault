@@ -116,16 +116,16 @@
 
 ## [2026-04-09] tweet | Claude Code + Obsidian Second Brain — @aiedge_
 - Source: https://x.com/aiedge_/status/2041908011078447222
-- Filed: [[10-tweets/aiedge-claude-obsidian-second-brain]]
+- Filed: [[10-tweets/08-aiedge-claude-obsidian-second-brain]]
 - Fidelity note: X blocked direct scraping (HTTP 402); content reconstructed via reader-proxy summary. Exact tweet text not preserved verbatim. Confidence: medium. Re-ingest when direct access is restored.
 - Recommendations: 5 (top: adopt Marp for empty 11-presentations/; add Dataview queries to index.md; install Obsidian Web Clipper for ingestion)
-- Cross-references: the tweet is redundant with [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]], [[10-tweets/neilxbt-obsidian-claude-memory]] at the architectural level, but adds a concrete tool stack (Marp, Dataview, qmd, Web Clipper) that was not previously named
+- Cross-references: the tweet is redundant with [[10-tweets/04-karpathy-llm-knowledge-bases]], [[10-tweets/03-farzatv-farzapedia-personal-wiki]], [[10-tweets/06-neilxbt-obsidian-claude-memory]] at the architectural level, but adds a concrete tool stack (Marp, Dataview, qmd, Web Clipper) that was not previously named
 - Pages touched: [[index.md]] (Tweets section, page count 79 → 80)
 - No entity/concept pages edited — the recommendations are wiki-tooling-level, not platform-level
 
 ## [2026-04-09] tweet | Claude Managed Agents — @NickSpisak_
 - Source: https://x.com/NickSpisak_/status/2041949191887262164
-- Filed: [[10-tweets/nickspisak-claude-managed-agents]]
+- Filed: [[10-tweets/09-nickspisak-claude-managed-agents]]
 - Fidelity note: X blocked direct scraping (HTTP 402); content reconstructed via reader-proxy summary. Confidence: medium. Re-ingest when possible.
 - Recommendations: 7 (top: prototype WhatsApp bot session layer on Managed Agents; adopt as target runtime for Autopilot; open a decision record)
 - Open questions raised: POPIA data-residency, multi-provider lock-in, session-hour cost at scale, custom tool support
@@ -183,21 +183,21 @@
 
 ## [2026-04-08] tweet | Obsidian Gives Claude the Memory It Was Never Born With
 - Source: https://x.com/neil_xbt/status/2041779011336999021
-- Filed: [[10-tweets/neilxbt-obsidian-claude-memory]]
+- Filed: [[10-tweets/06-neilxbt-obsidian-claude-memory]]
 - Recommendations: 5 (top: session context files for AI Copilot, persistent career context for Individuals, WhatsApp bot session continuity)
-- Pages touched: [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]] (cross-references added)
+- Pages touched: [[10-tweets/04-karpathy-llm-knowledge-bases]], [[10-tweets/03-farzatv-farzapedia-personal-wiki]] (cross-references added)
 
 ## [2026-04-08] tweet | Systematic Debugging Methodology Prompt (8-Step Detective Thinking)
 - Source: https://x.com/roundtablespace/status/2035631314691387534
-- Filed: [[10-tweets/roundtablespace-debugging-methodology-prompt]]
+- Filed: [[10-tweets/07-roundtablespace-debugging-methodology-prompt]]
 - Recommendations: 5 (top: AI Output Debugging Dashboard for admin, Screening Bot Root Cause Analysis, WhatsApp Bot Debugging Mode)
-- Pages touched: [[10-tweets/explorax-20-agentic-skills]] (cross-reference added)
+- Pages touched: [[10-tweets/02-explorax-20-agentic-skills]] (cross-reference added)
 
 ## [2026-04-08] tweet | Hidden Claude Code Features (Channels, /batch, Agent Teams, Hooks, /loop)
 - Source: https://x.com/coreyganim/status/2041596621591629915
-- Filed: [[10-tweets/coreyganim-hidden-claude-code-features]]
+- Filed: [[10-tweets/05-coreyganim-hidden-claude-code-features]]
 - Recommendations: 6 (top: event-driven AI architecture via Channels pattern, AI output quality gates via TaskCompleted hook pattern, parallel AI processing via /batch pattern)
-- Pages touched: [[10-tweets/aiedge-claude-skills-guide]] (cross-reference added)
+- Pages touched: [[10-tweets/01-aiedge-claude-skills-guide]] (cross-reference added)
 
 ## [2026-04-08] lint | Wiki health check
 - Issues found: 6
@@ -319,15 +319,15 @@
 
 ## [2026-04-07] tweet | Karpathy — LLM Knowledge Bases
 - Source: https://x.com/karpathy/status/2039805659525644595
-- Filed: [[10-tweets/karpathy-llm-knowledge-bases]]
+- Filed: [[10-tweets/04-karpathy-llm-knowledge-bases]]
 - Recommendations: 6 (top: AI-compiled company research for Individuals, LLM-maintained talent market wiki, knowledge base for screening bot)
 - Pages touched: none (recommendations filed, not yet implemented)
 
 ## [2026-04-07] tweet | Farza — Farzapedia Personal Wiki
 - Source: https://x.com/FarzaTV/status/2040563939797504467
-- Filed: [[10-tweets/farzatv-farzapedia-personal-wiki]]
+- Filed: [[10-tweets/03-farzatv-farzapedia-personal-wiki]]
 - Recommendations: 5 (top: agent-queryable candidate wikis for Recruiters, personal career wiki for Individuals, agent-first data architecture)
-- Pages touched: [[10-tweets/karpathy-llm-knowledge-bases]] (cross-reference added)
+- Pages touched: [[10-tweets/04-karpathy-llm-knowledge-bases]] (cross-reference added)
 
 ## [2026-04-07] ingest | Batch ingest of 6 raw source documents
 - Ingested all 6 raw docs that were previously copied but not formally processed
@@ -396,16 +396,16 @@
 
 ## [2026-04-07] tweet | exploraX_ — 20 Agentic Skills for AI Models
 - Source: https://x.com/explorax_/status/2039269234253934811
-- Filed: [[10-tweets/explorax-20-agentic-skills]]
+- Filed: [[10-tweets/02-explorax-20-agentic-skills]]
 - Recommendations: 6 (top: AI Skills Registry to decouple AI behaviour from code, Content Repurposing for job postings across WhatsApp/LinkedIn/email, Competitive Intelligence Dashboard for recruiters)
-- Pages touched: [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]] (cross-referenced)
+- Pages touched: [[10-tweets/04-karpathy-llm-knowledge-bases]], [[10-tweets/03-farzatv-farzapedia-personal-wiki]] (cross-referenced)
 - Total wiki pages: 41 (+7 raw docs)
 
 ## [2026-04-07] tweet | AI Edge — Claude Skills Ultimate Guide
 - Source: https://x.com/aiedge_/status/2036815449225298369
-- Filed: [[10-tweets/aiedge-claude-skills-guide]]
+- Filed: [[10-tweets/01-aiedge-claude-skills-guide]]
 - Recommendations: 6 (top: Skill-like architecture for AI features with progressive loading, A/B testing for AI prompts, trigger optimisation for WhatsApp bot)
-- Pages touched: [[10-tweets/explorax-20-agentic-skills]] (cross-referenced)
+- Pages touched: [[10-tweets/02-explorax-20-agentic-skills]] (cross-referenced)
 - Total wiki pages: 42 (+7 raw docs)
 
 ## [2026-04-07] evolve | Added Presentations folder

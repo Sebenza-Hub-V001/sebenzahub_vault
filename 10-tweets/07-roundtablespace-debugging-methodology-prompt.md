@@ -33,7 +33,7 @@ The 8 steps:
 7. **Prevent recurrence** — add tests, documentation, or guardrails
 8. **Think like a detective** — follow evidence, question assumptions, revisit hypotheses
 
-This is essentially a **debugging skill file** in the same pattern as [[10-tweets/explorax-20-agentic-skills]] and [[10-tweets/aiedge-claude-skills-guide]] — a structured markdown prompt that encodes domain expertise for AI consumption.
+This is essentially a **debugging skill file** in the same pattern as [[10-tweets/02-explorax-20-agentic-skills]] and [[10-tweets/01-aiedge-claude-skills-guide]] — a structured markdown prompt that encodes domain expertise for AI consumption.
 
 ## Sebenza Hub Relevance
 
@@ -46,7 +46,7 @@ Sebenza Hub has **383+ AI-specific API endpoints** (see [[02-concepts/ai-feature
 
 | # | Recommendation | Affected Area | Effort | Impact |
 |---|---------------|---------------|--------|--------|
-| 1 | **AI Debugging Skill for Internal Dev** — Adopt this 8-step methodology as a `.md` skill file for Sebenza Hub's development workflow (aligns with Skills architecture in [[10-tweets/aiedge-claude-skills-guide]]) | Engineering process | Low | Medium |
+| 1 | **AI Debugging Skill for Internal Dev** — Adopt this 8-step methodology as a `.md` skill file for Sebenza Hub's development workflow (aligns with Skills architecture in [[10-tweets/01-aiedge-claude-skills-guide]]) | Engineering process | Low | Medium |
 | 2 | **AI Output Debugging Dashboard** — Build an admin tool that applies this methodology to diagnose AI feature failures (e.g., why did matching score a candidate at 20% when they were qualified?). Log hypotheses, root causes, and fixes per incident. | [[01-entities/admin-user]], [[02-concepts/ai-features]] | Medium | High |
 | 3 | **Screening Bot Root Cause Analysis** — Apply the "isolate → verify → minimal fix" steps to the [[01-entities/screening-system]] chatbot. When a screening decision is disputed, the system should trace back through the 8 steps to explain what happened and why. | [[01-entities/screening-system]] | Medium | High |
 | 4 | **WhatsApp Bot Debugging Mode** — Add a diagnostic mode to the [[01-entities/whatsapp-bot]] that follows this methodology when conversations fail or users report issues. Admin sees step-by-step isolation of where the bot went wrong. | [[01-entities/whatsapp-bot]] | Medium | Medium |
@@ -57,5 +57,5 @@ Each recommendation builds on the principle that debugging isn't just for code �
 ## References
 
 - Related wiki pages: [[02-concepts/ai-features]], [[01-entities/screening-system]], [[01-entities/whatsapp-bot]], [[01-entities/admin-user]]
-- Related tweets: [[10-tweets/explorax-20-agentic-skills]] (debugging as a reusable skill), [[10-tweets/aiedge-claude-skills-guide]] (skill architecture for systematic prompts)
+- Related tweets: [[10-tweets/02-explorax-20-agentic-skills]] (debugging as a reusable skill), [[10-tweets/01-aiedge-claude-skills-guide]] (skill architecture for systematic prompts)
 - Source tweet: [link](https://x.com/roundtablespace/status/2035631314691387534)

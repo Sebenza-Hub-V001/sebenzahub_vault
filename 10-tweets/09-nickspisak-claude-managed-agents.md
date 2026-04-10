@@ -75,9 +75,9 @@ Concretely, the following Sebenza Hub systems look like natural Managed Agents c
 
 The pattern also reinforces prior wiki entries:
 
-- The permission model maps directly to the "trigger optimisation" and approval layer discussed in [[10-tweets/aiedge-claude-skills-guide]]
-- The "Agent as config" pattern echoes the reusable-skills architecture from [[10-tweets/explorax-20-agentic-skills]]
-- The MCP + secrets vault story is the enterprise-grade version of the memory/context discipline advocated in [[10-tweets/neilxbt-obsidian-claude-memory]] and [[10-tweets/karpathy-llm-knowledge-bases]]
+- The permission model maps directly to the "trigger optimisation" and approval layer discussed in [[10-tweets/01-aiedge-claude-skills-guide]]
+- The "Agent as config" pattern echoes the reusable-skills architecture from [[10-tweets/02-explorax-20-agentic-skills]]
+- The MCP + secrets vault story is the enterprise-grade version of the memory/context discipline advocated in [[10-tweets/06-neilxbt-obsidian-claude-memory]] and [[10-tweets/04-karpathy-llm-knowledge-bases]]
 
 ## Recommendations
 
@@ -105,5 +105,5 @@ Not applicable — this tweet is highly relevant to Sebenza Hub's AI roadmap.
 ## References
 
 - Related wiki pages: [[02-concepts/ai-features]], [[01-entities/whatsapp-bot]], [[01-entities/screening-system]], [[16-how-tos/individual/20-autopilot]], [[08-questions/ai-provider-selection]], [[02-concepts/billing-system]], [[02-concepts/rbac]]
-- Related tweets: [[10-tweets/aiedge-claude-skills-guide]] (permission + trigger architecture), [[10-tweets/explorax-20-agentic-skills]] (agent-as-config pattern), [[10-tweets/coreyganim-hidden-claude-code-features]] (Claude Code onboarding path into Managed Agents), [[10-tweets/neilxbt-obsidian-claude-memory]] (context/memory discipline)
+- Related tweets: [[10-tweets/01-aiedge-claude-skills-guide]] (permission + trigger architecture), [[10-tweets/02-explorax-20-agentic-skills]] (agent-as-config pattern), [[10-tweets/05-coreyganim-hidden-claude-code-features]] (Claude Code onboarding path into Managed Agents), [[10-tweets/06-neilxbt-obsidian-claude-memory]] (context/memory discipline)
 - Source tweet: [Nick Spisak on X](https://x.com/NickSpisak_/status/2041949191887262164)
