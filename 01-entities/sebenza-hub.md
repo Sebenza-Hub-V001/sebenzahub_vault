@@ -2,9 +2,9 @@
 title: "Sebenza Hub"
 type: entity
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-10
 tags: [platform, product, saas, recruitment]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, database-erd-2026-04-10]
 status: active
 confidence: high
 ---
@@ -49,7 +49,7 @@ See [[02-concepts/tech-stack]] for full details.
 
 | Component | Count |
 |-----------|-------|
-| Database tables | 755 |
+| Database tables | 794 (29 domains, 1208 FK relationships) |
 | API endpoints | 3,586 |
 | Frontend pages | 464 |
 | UI components | 496 |
@@ -123,3 +123,4 @@ See [[02-concepts/tech-stack]] for full details.
 - [[02-concepts/seo-strategy]] — SEO strategy and implementation
 - Source: [[09-sources/repo-audit-2026-04-07]]
 - Source: [[09-sources/features-inventory-2026-04-07]]
+- Source: [[09-sources/database-erd-2026-04-10]]

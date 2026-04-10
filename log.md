@@ -1,5 +1,13 @@
 # Activity Log
 
+## [2026-04-10] ingest | Database ERD — Full Schema Map
+- Source: `13-raw/data/database-erd.md`
+- Summary: [[09-sources/database-erd-2026-04-10]]
+- Pages touched: [[02-concepts/tech-stack]], [[01-entities/sebenza-hub]], [[overview]], [[09-sources/repo-audit-2026-04-07]], [[index]]
+- New pages created: [[09-sources/database-erd-2026-04-10]]
+- Key updates: 755 → 794 tables across all references; added 29-domain breakdown with FK counts; documented hub tables (`users` 461 FKs, `organizations` 333 FKs); flagged 3 open questions (39-table growth source, "Other" domain cleanup, missing FKs on `placements`/`submissions`)
+- Contradictions flagged: table count updated from 755 (April 7) to 794 (April 10) — 39 new tables in 3 days
+
 ## [2026-04-09] lint | Verification sweep across admin-whatsapp-tab-reference.md
 - Ran a 65-claim verification pass against the actual source code at `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2`. 56 claims verified, 9 errors/discrepancies found and fixed:
   - **Bot Templates line count**: 860 → 1041 (verified via `wc -l`).

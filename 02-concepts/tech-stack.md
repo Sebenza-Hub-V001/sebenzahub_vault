@@ -2,9 +2,9 @@
 title: "Tech Stack"
 type: concept
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-10
 tags: [technology, architecture, infrastructure, stack]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, database-erd-2026-04-10]
 status: active
 confidence: high
 ---
@@ -33,7 +33,7 @@ Sebenza Hub is a full-stack TypeScript monorepo with `client/`, `server/`, and `
 ┌──────────────────────▼──────────────────────────┐
 │                  DATA LAYER                       │
 │  PostgreSQL (Neon serverless) + Drizzle ORM      │
-│  755 tables, 28 migrations                       │
+│  794 tables, 1208 FKs, 28 migrations              │
 │  Redis (BullMQ queues, caching, rate limiting)   │
 │  Cloudflare R2 (file storage)                    │
 └─────────────────────────────────────────────────┘
@@ -86,8 +86,9 @@ Sebenza Hub is a full-stack TypeScript monorepo with `client/`, `server/`, and `
 | Drizzle Kit | 0.30.1 — Migration management |
 | Redis | Caching, rate limiting, job queue |
 
-**Schema:** 755 tables defined in `shared/schema.ts`
+**Schema:** 794 tables across 29 domains, defined in `shared/schema.ts`. See [[09-sources/database-erd-2026-04-10]] for the full ERD with all tables, columns, and FK relationships.
 **Migrations:** 28 files in `migrations/`
+**FK relationships:** 1,208 (hub tables: `users` with 461 inbound FKs, `organizations` with 333)
 
 ## File Processing
 
@@ -154,3 +155,4 @@ Test configurations: UI, API, E2E, AI-quality, WhatsApp-specific.
 - [[01-entities/sebenza-hub]] — Platform overview
 - [[02-concepts/authentication]] — Auth tech details
 - Source: [[09-sources/repo-audit-2026-04-07]]
+- Source: [[09-sources/database-erd-2026-04-10]]
