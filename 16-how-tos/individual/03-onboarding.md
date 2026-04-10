@@ -26,9 +26,9 @@ The first screen asks you to pick your role:
 Pick **Individual**.
 
 > ⚠️ **Your role is locked after this screen.** You cannot switch from Individual to Recruiter (or any other role) on the same account later. If you need both — for example, you're a job seeker who later starts a small recruitment agency — you'll need a separate account with a different email. Make sure Individual is what you want before moving on.
-> ![[Pasted image 20260409150303.png]]
+> ![[13-raw/screenshots/Pasted image 20260409150303.png]]
 
-![[Pasted image 20260409150410.png]]
+![[13-raw/screenshots/Pasted image 20260409150410.png]]
 ## Step 2 — Fill in the onboarding form
 
 The Individual onboarding form asks for six things. Here they are, with the reason each one matters.

@@ -48,9 +48,9 @@
     "//11-presentations",
     "//04-standards",
     "//16. Features",
-    "//Tags",
     "//16-manuals",
-    "//16-manuals/16-manuals/individual"
+    "//16-manuals/16-manuals/individual",
+    "//Tags"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
