@@ -33,8 +33,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Install jq and pandoc
+        run: sudo apt-get update && sudo apt-get install -y jq pandoc
 
       - name: Collect raw activity
         id: collect
@@ -46,13 +46,28 @@ jobs:
           TODAY="$(TZ='Africa/Johannesburg' date +'%A %-d %B %Y')"
           echo "today=$TODAY" >> "$GITHUB_OUTPUT"
 
-          # Commits, oldest first, with body so Claude sees the "why"
+          # Pathspecs that exclude editor cache noise from the digest.
+          # Smart Connections (.smart-env), Make.md (.makemd), Obsidian
+          # workspace state, and recent-files plugin all churn on every save.
+          EXCLUDES=(
+            ':(exclude).smart-env'
+            ':(exclude).smart-env/**'
+            ':(exclude).makemd'
+            ':(exclude).makemd/**'
+            ':(exclude).obsidian/workspace.json'
+            ':(exclude).obsidian/plugins/recent-files-obsidian/**'
+            ':(exclude).trash/**'
+          )
+
+          # Commits, oldest first, with body so Claude sees the "why".
+          # Only count commits that touched at least one non-excluded file.
           git log --since="$SINCE" \
             --pretty=format:'commit %h by %an%n%s%n%b%n---' \
-            --reverse > commits.txt || true
+            --reverse -- . "${EXCLUDES[@]}" > commits.txt || true
 
           # Files touched + line counts
           git log --since="$SINCE" --pretty=format: --numstat \
+            -- . "${EXCLUDES[@]}" \
             | awk 'NF==3 && $3 != "" {a[$3]+=$1; d[$3]+=$2}
                    END {for (f in a) printf "%s\t+%d\t-%d\n", f, a[f], d[f]}' \
             | sort > diffstat.txt || true
@@ -60,9 +75,10 @@ jobs:
           # Actual content diff, capped at 60 KB so Claude has the substance
           # of small edits without blowing up context on huge refactors.
           git log --since="$SINCE" -p --no-color \
+            -- . "${EXCLUDES[@]}" \
             | head -c 60000 > diffcontent.txt || true
 
-          COMMIT_COUNT=$(git log --since="$SINCE" --oneline | wc -l | tr -d ' ')
+          COMMIT_COUNT=$(git log --since="$SINCE" --oneline -- . "${EXCLUDES[@]}" | wc -l | tr -d ' ')
           FILE_COUNT=$(wc -l < diffstat.txt | tr -d ' ')
           echo "commit_count=$COMMIT_COUNT" >> "$GITHUB_OUTPUT"
           echo "file_count=$FILE_COUNT" >> "$GITHUB_OUTPUT"
@@ -137,10 +153,32 @@ jobs:
             -d @payload.json)
 
           if [ "$HTTP_CODE" != "200" ]; then
-            echo "Anthropic API returned HTTP $HTTP_CODE"
+            echo "::error::Anthropic API returned HTTP $HTTP_CODE"
+            echo "::group::Response body"
             cat response.json
+            echo "::endgroup::"
+            # Extract the API's own error message if it's there
+            API_ERR=$(jq -r '.error.message // "no error message in response"' response.json 2>/dev/null || echo "could not parse response")
             # Don't fail the workflow — fall back to a stub so the email still ships
-            echo "_(Claude prose briefing unavailable today — API returned HTTP $HTTP_CODE. Raw activity follows below.)_" > prose.md
+            {
+              echo "## Heads up — the prose briefing failed"
+              echo
+              echo "The Anthropic API returned **HTTP $HTTP_CODE** when I tried to write your briefing this morning."
+              echo
+              echo "**API said:** $API_ERR"
+              echo
+              if [ "$HTTP_CODE" = "401" ]; then
+                echo "**What this means:** Your \`ANTHROPIC_API_KEY\` secret is wrong, expired, or has whitespace in it. Go to repo Settings → Secrets → Actions and re-paste a fresh key from console.anthropic.com. Real keys start with \`sk-ant-\`."
+              elif [ "$HTTP_CODE" = "429" ]; then
+                echo "**What this means:** Rate limited or out of credits. Check your Anthropic console balance."
+              elif [ "$HTTP_CODE" = "404" ]; then
+                echo "**What this means:** The model name is wrong. Check the workflow file."
+              else
+                echo "**What this means:** Check the GitHub Actions run logs for the full error."
+              fi
+              echo
+              echo "Raw activity follows below."
+            } > prose.md
             exit 0
           fi
 
@@ -156,10 +194,19 @@ jobs:
           COMMIT_COUNT="${{ steps.collect.outputs.commit_count }}"
           FILE_COUNT="${{ steps.collect.outputs.file_count }}"
 
+          # Same pathspec exclusions used in the collect step.
+          EXCLUDES=(
+            ':(exclude).smart-env'
+            ':(exclude).smart-env/**'
+            ':(exclude).makemd'
+            ':(exclude).makemd/**'
+            ':(exclude).obsidian/workspace.json'
+            ':(exclude).obsidian/plugins/recent-files-obsidian/**'
+            ':(exclude).trash/**'
+          )
+
           if [ "$COMMIT_COUNT" = "0" ]; then
-            {
-              echo "Morning. Nothing landed in the vault yesterday — quiet day, take it easy."
-            } > digest.md
+            echo "Morning. Nothing landed in the vault yesterday — quiet day, take it easy." > digest.md
             echo "subject=Vault Digest — $TODAY (quiet day)" >> "$GITHUB_OUTPUT"
           else
             {
@@ -167,13 +214,13 @@ jobs:
               echo
               echo "---"
               echo
-              echo "_$COMMIT_COUNT commits, $FILE_COUNT files touched. Raw git log below if you want it._"
+              echo "*$COMMIT_COUNT commits, $FILE_COUNT files touched. Raw git log below if you want it.*"
               echo
-              echo "<details><summary>Show raw activity</summary>"
+              echo "## Raw activity"
               echo
               echo "**Commits**"
               echo
-              git log --since="24 hours ago" --pretty=format:'- \`%h\` %s _(%an)_' --reverse
+              git log --since="24 hours ago" --pretty=format:'- \`%h\` %s _(%an)_' --reverse -- . "${EXCLUDES[@]}"
               echo
               echo
               echo "**Files changed**"
@@ -181,11 +228,39 @@ jobs:
               echo '```'
               awk -F'\t' '{printf "  %-6s %-6s  %s\n", $2, $3, $1}' diffstat.txt
               echo '```'
-              echo
-              echo "</details>"
             } > digest.md
             echo "subject=Vault Digest — $TODAY ($COMMIT_COUNT commits)" >> "$GITHUB_OUTPUT"
           fi
+
+          # Convert markdown → HTML ourselves so we don't depend on the
+          # email action's flaky convert_markdown flag. Wrap the body in a
+          # readable, email-safe inline-CSS template.
+          pandoc digest.md -f gfm -t html5 -o digest_inner.html
+
+          cat > digest.html <<'HTMLHEAD'
+          <!doctype html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <style>
+              body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.55; color: #222; max-width: 680px; margin: 24px auto; padding: 0 20px; }
+              h1 { font-size: 22px; margin-top: 28px; }
+              h2 { font-size: 17px; margin-top: 26px; padding-bottom: 4px; border-bottom: 1px solid #eee; }
+              ul { padding-left: 22px; }
+              li { margin: 4px 0; }
+              code { background: #f4f4f4; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+              pre { background: #f4f4f4; padding: 12px; border-radius: 4px; overflow-x: auto; font-size: 12px; line-height: 1.4; }
+              hr { border: none; border-top: 1px solid #eee; margin: 24px 0; }
+              em { color: #777; }
+              strong { color: #111; }
+              a { color: #0366d6; }
+            </style>
+          </head>
+          <body>
+          HTMLHEAD
+
+          cat digest_inner.html >> digest.html
+          echo "</body></html>" >> digest.html
 
       - name: Send email
         uses: dawidd6/action-send-mail@v3
@@ -197,5 +272,5 @@ jobs:
           subject: ${{ steps.digest.outputs.subject }}
           to: ${{ secrets.MAIL_TO || secrets.SMTP_USERNAME }}
           from: Sebenza Hub Vault <${{ secrets.MAIL_FROM || secrets.SMTP_USERNAME }}>
+          html_body: file://digest.html
           body: file://digest.md
-          convert_markdown: true
