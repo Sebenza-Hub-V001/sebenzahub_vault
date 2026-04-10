@@ -21,7 +21,7 @@ Sebenza Hub is a large-scale, production-deployed recruitment and career SaaS pl
 ## Key Findings
 
 ### Scale
-- **755 database tables** (Drizzle ORM + PostgreSQL/Neon)
+- **755 database tables** at time of audit (Drizzle ORM + PostgreSQL/Neon) — updated to **794 tables** as of 2026-04-10 per [[09-sources/database-erd-2026-04-10]]
 - **3,586 API endpoints** across 120 server route files
 - **464 frontend pages** with code-splitting and lazy loading
 - **496 reusable UI components**

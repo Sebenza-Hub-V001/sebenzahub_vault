@@ -2,7 +2,7 @@
 title: "Sebenza Hub — Overview"
 type: overview
 created: 2026-04-07
-updated: 2026-04-08
+updated: 2026-04-10
 tags: [overview, synthesis, platform]
 status: active
 confidence: high
@@ -38,7 +38,7 @@ The key relationship triangle: Recruiters act as **intermediaries** between Indi
 
 | Component | Count |
 |-----------|-------|
-| Database tables | 755 |
+| Database tables | 794 (29 domains, 1208 FKs — see [[09-sources/database-erd-2026-04-10|ERD]]) |
 | API endpoints | 3,586 |
 | Frontend pages | 325 (routes) / 464 (inc. sub-components) |
 | Reusable UI components | 496 |
@@ -131,4 +131,5 @@ Sebenza Hub is purpose-built for South Africa:
 - [[09-sources/seo-plan-2026-04-07]] — SEO strategy document
 - [[09-sources/whatsapp-bot-training-manual-2026-04-07]] — WhatsApp bot manual
 - [[12-tasks/todo.md]] — Current task backlog
+- [[09-sources/database-erd-2026-04-10]] — Full database ERD (794 tables, 29 domains)
 - [[12-tasks/lessons.md]] — Patterns and corrections

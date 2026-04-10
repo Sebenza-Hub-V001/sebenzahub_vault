@@ -2,14 +2,14 @@
 title: "Wiki Index"
 type: overview
 created: 2026-04-06
-updated: 2026-04-07
+updated: 2026-04-10
 tags: [index, navigation]
 status: active
 ---
 
 # Wiki Index
 
-> Last updated: 2026-04-09 | Pages: 80 | Sources: 11 (+8 raw docs) | Presentations: 0 | How-To's: 1 (in progress)
+> Last updated: 2026-04-10 | Pages: 81 | Sources: 12 (+9 raw docs) | Presentations: 0 | How-To's: 1 (in progress)
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -59,6 +59,7 @@ status: active
 - [[09-sources/recruiter-journey-gap-analysis-2026-04-08]] — Recruiter journey gap analysis (60% coverage → 100% rewrite)
 - [[09-sources/business-journey-gap-analysis-2026-04-08]] — Business journey gap analysis (65% coverage → 100% rewrite)
 - [[09-sources/dashboard-layouts-2026-04-08]] — Dashboard layouts restructured to follow user journeys (223 total pages)
+- [[09-sources/database-erd-2026-04-10]] — Full database ERD: 794 tables, 29 domains, 1208 FK relationships
 
 ## Raw Source Documents
 - `13-raw/data/features-inventory.md` — Platform feature inventory (325 pages, 3586 endpoints, 755 tables)
@@ -69,6 +70,7 @@ status: active
 - `13-raw/articles/whatsapp-bot-training-manual.md` — WhatsApp chatbot training guide
 - `13-raw/articles/individual-journey-gap-analysis.md` — Individual journey coverage audit
 - `13-raw/articles/dashboard-layouts.md` — Dashboard layouts (journey-aligned, all 4 dashboards)
+- `13-raw/data/database-erd.md` — Complete database ERD (794 tables, every column and FK)
 
 ## Dashboards
 - [[15-dashboards/individual-dashboard]] — 51 pages, journey-aligned sidebar (Hiring Path + Parallel Tracks)
