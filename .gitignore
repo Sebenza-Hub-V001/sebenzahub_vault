@@ -1,0 +1,12 @@
+# Obsidian editor state (window layout, recent files)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/recent-files-obsidian/data.json
+
+# make.md caches (binary, regenerated locally)
+.makemd/fileCache.mdc
+.makemd/superstate.mdc
+
+# smart-env append-only logs and per-file state
+.smart-env/event_logs/
+.smart-env/multi/

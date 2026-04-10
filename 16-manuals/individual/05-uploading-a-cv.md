@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, cv, profile]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -36,7 +36,8 @@ Both routes take 10–20 minutes. The build route takes longer but produces a mo
    - Work history (employer, role, dates, responsibilities)
    - Education
    - Skills it can infer from your experience
-4. The parser then offers to populate your profile fields with what it found.
+1. The parser then offers to populate your profile fields with what it found.
+![[Pasted image 20260409151753.png]]
 
 **Always review the parsed fields before accepting them.** AI parsers are good but not perfect. Common mistakes:
 
@@ -60,12 +61,13 @@ Accept the parts that are right. Edit the parts that are wrong before saving. Yo
 4. Click **Use this template**. You'll be taken to **My CVs** (`/dashboard/individual/cvs`) with the template loaded as a new CV.
 5. Fill in each section: personal details, summary, work history, education, skills, references. Most fields are pre-populated from the data you entered during onboarding — you're filling in the gaps.
 
+
 **Tips for content, not formatting:**
 
 - **Lead each role with the result, not the responsibility.** "Increased customer retention by 18% through a quarterly check-in programme" beats "Responsible for customer retention."
 - **Quantify whatever you can.** Numbers anchor claims. Even rough ones ("managed a team of 6", "handled R2m in monthly transactions") give recruiters something concrete.
 - **Tailor the summary to the kind of role you want next.** This is the one section a recruiter is guaranteed to read.
-
+![[Pasted image 20260409151947.png]]
 ## Step 2 — Save with a clear filename
 
 Once your CV is built or uploaded, give it a name in My CVs that you'll recognise three months from now:
@@ -118,5 +120,5 @@ Skipping this chapter and going straight to job applications means none of those
 
 ## References
 
-- [[01-entities/individual-user]] — CV Management, Resume Upload, CV Templates features
 - [[03-workflows/individual-journey]] — Step 3 (Build Profile)
+- [[16-manuals/individual/06-cv-review|Chapter 6 — Running CV Review]]

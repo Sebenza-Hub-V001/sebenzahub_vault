@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, profile, skills, credentials]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -186,5 +186,5 @@ The next chapter (Chapter 8) covers what's *visible* and what isn't, and the pri
 
 ## References
 
-- [[01-entities/individual-user]] — Skills, Skill Verifications, Credentials, Video Profile, Portfolio Builder
 - [[03-workflows/individual-journey]] — Step 3 (Build Profile → Credentials & Verification)
+- [[16-manuals/individual/08-privacy-and-popia|Chapter 8 — Privacy and POPIA]]

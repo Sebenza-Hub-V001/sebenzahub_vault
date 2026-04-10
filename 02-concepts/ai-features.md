@@ -122,7 +122,7 @@ This connects to the broader [[02-concepts/compliance]] framework.
 
 ## AI Enhancement Opportunities
 
-Per [[09-sources/ai-enhancement-opportunities-2026-04-07]], **83% of pages don't use AI** despite 42 backend functions being available. The biggest opportunity is wiring existing AI to existing pages.
+Audit findings show **83% of pages don't use AI** despite 42 backend functions being available. The biggest opportunity is wiring existing AI to existing pages.
 
 ### Quick Wins (existing backend, low effort)
 - Interview scheduling → auto-trigger `researchCompany()` + `generateInterviewQuestions()`
@@ -144,18 +144,14 @@ Per [[09-sources/ai-enhancement-opportunities-2026-04-07]], **83% of pages don't
 
 ## Open Questions
 
-- How is the AI provider selected per feature? Is it configurable or hardcoded? (See [[08-questions/ai-provider-selection]])
+- How is the AI provider selected per feature? Is it configurable or hardcoded?
 - What's the cost model — are AI features metered/limited by plan?
 - How is prompt engineering managed? Are prompts versioned?
 - What's the fallback when an AI provider is unavailable?
 
 ## References
 
-- [[01-entities/individual-user]] — AI features for job seekers
-- [[03-workflows/individual-journey]] — AI tools in the Individual journey (Step 8)
-- [[01-entities/recruiter-user]] — AI features for recruiters
-- [[01-entities/admin-user]] — AI monitoring and governance
 - [[02-concepts/application-lifecycle]] — AI in the hiring pipeline
-- [[01-entities/sebenza-hub]] — Platform overview
-- Source: [[09-sources/repo-audit-2026-04-07]]
-- Source: [[09-sources/ai-enhancement-opportunities-2026-04-07]]
+- [[02-concepts/compliance]] — AI bias and governance
+- [[03-workflows/individual-journey]] — AI tools in the Individual journey (Step 8)
+- [[03-workflows/recruiter-journey]] — AI tools across the recruiter workflow

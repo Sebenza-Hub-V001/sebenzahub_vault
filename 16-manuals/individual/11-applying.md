@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, applications]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -73,7 +73,7 @@ Sebenza Hub has a **Cover Letter** tool (`/dashboard/individual/cover-letter`) t
 - The AI doesn't know your real motivation. The "why this company" line will always be the weakest part — overwrite it with something true.
 - A two-paragraph cover letter that mentions one specific thing about the role beats a three-paragraph AI letter that could apply to any company.
 
-> **Open question:** The Cover Letter tool may consume credits or require a paid plan. See [[08-questions/subscription-plans]].
+> **Heads up:** The Cover Letter tool may consume credits or require a paid plan depending on your subscription.
 
 ## Step 3 — Answer screening questions
 
@@ -149,7 +149,6 @@ You can withdraw an application at any time before the offer stage. Go to **My A
 
 ## References
 
-- [[01-entities/individual-user]] — Applications, Cover Letter
 - [[02-concepts/application-lifecycle]] — Status enum, what each stage means
 - [[03-workflows/individual-journey]] — Step 4 (Search & Apply)
 - [[16-manuals/individual/05-uploading-a-cv|Chapter 5]] — Where your CV came from

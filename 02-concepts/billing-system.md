@@ -79,9 +79,6 @@ The `feature_entitlements` table controls which features each plan includes. Adm
 
 ## References
 
-- [[01-entities/admin-user]] — Billing management
-- [[01-entities/individual-user]] — Individual billing features
-- [[03-workflows/individual-journey]] — Billing in the Individual journey (Step 13)
-- [[01-entities/sebenza-hub]] — Platform overview
 - [[02-concepts/rbac]] — `billing:view`, `billing:manage` permissions
-- Source: [[09-sources/repo-audit-2026-04-07]]
+- [[03-workflows/individual-journey]] — Billing in the Individual journey
+- [[03-workflows/recruiter-journey]] — Billing in the recruiter journey

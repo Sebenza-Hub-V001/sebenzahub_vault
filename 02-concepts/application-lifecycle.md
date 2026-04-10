@@ -196,8 +196,6 @@ AI is deeply integrated into the lifecycle:
 
 ## References
 
-- [[01-entities/individual-user]] — The applicant
-- [[01-entities/recruiter-user]] — The intermediary
-- [[01-entities/business-user]] — The employer
 - [[02-concepts/ai-features]] — AI in the hiring process
-- Source: [[09-sources/repo-audit-2026-04-07]]
+- [[03-workflows/individual-journey]] — Individual perspective
+- [[03-workflows/recruiter-journey]] — Recruiter perspective

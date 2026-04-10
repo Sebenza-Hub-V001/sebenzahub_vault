@@ -1,5 +1,119 @@
 # Activity Log
 
+## [2026-04-09] lint | Verification sweep across admin-whatsapp-tab-reference.md
+- Ran a 65-claim verification pass against the actual source code at `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2`. 56 claims verified, 9 errors/discrepancies found and fixed:
+  - **Bot Templates line count**: 860 → 1041 (verified via `wc -l`).
+  - **Tab 14 Bot Training sub-tabs**: previously listed as `Intents / FAQs / Training Playground / Unmatched Messages`. Actual sub-tab values are `intents / faqs / playground / metrics` with display labels `Intents / FAQ Knowledge Base / Conversation Playground / Training Metrics` (verified at WhatsAppChatbotTraining.tsx:424-427). The "Unmatched Messages" feature exists but is a section *inside* Training Metrics (line 1028), not its own sub-tab. Fixed the sub-tab names and added a visible correction callout.
+  - **Tab 18 AI Matcher — completely wrong purpose**: previously described as a phone-number-to-profile matcher (matching WhatsApp numbers to user/candidate/recruiter records). The actual feature is a **candidate-to-job skill matcher** that extracts skills from conversations and CVs (via NLP / Keyword / CV Parse) and matches to live jobs. Real funnel: Conversations → Skills Extracted → Jobs Matched → Cards Sent → Applications. Real sub-tabs: Live Matches / Skill Extraction / Configuration / Analytics (WhatsAppCandidateMatcher.tsx:434-445). Real status enum: pending / sent / applied / placed. Real confidence thresholds: ≥0.85 high, ≥0.60 medium. Rewrote the entire Tab 18 section with a visible correction callout.
+  - **Tab 19 Growth Engine sub-structure**: previously listed sub-sections "Funnel Analysis / Win-Back Campaigns / Audience Insights / Growth Recommendations" — none of those exist. Real 5 sub-tabs are: Growth Dashboard / Referral Chains / QR Campaigns / Deep Links / Viral Analytics (WhatsAppGrowthEngine.tsx:350-354). The K-factor labelling is real and uses thresholds from WhatsAppGrowthEngine.tsx:124-128 (Explosive ≥1.5, Viral ≥1.0, Steady ≥0.5, Sub-Viral <0.5). Rewrote with correction callout.
+  - **Tab 21 War Room "Crisis Dashboard banner"**: stale reference from before the previous correction round — Tab 21's "What you see" still listed the fabricated banner. Replaced with the real header (Active escalations + predictedNext30Min).
+  - **Cheat sheet**: "Match a phone number to a user profile" was pointing at AI Matcher — wrong tab. Updated to point at Conversations → Match button (where the actual phone-to-user matching happens). Added new entries for the real AI Matcher capabilities.
+  - **Hidden gem #7**: said "Training Playground sub-tab" — corrected to "Conversation Playground sub-tab" to match the actual UI label.
+- Unverified items left as-is (lower priority): Optimal Send Times heatmap actually exists at AdminWhatsApp.tsx:1800 (verification agent missed it on first pass; my claim was correct).
+- Pages touched: [[05-procedures/admin-whatsapp-tab-reference]] (8 edits).
+- **Lesson:** the original tab inventory agent's report had several inferences and at least one straight-up wrong tab attribution (AI Matcher described as phone matcher despite the file being WhatsAppCandidateMatcher.tsx). Don't trust agent inferences for anything that ends up in a doc — verify with grep before publishing.
+
+## [2026-04-09] lint | Cross-site leak cleanup of `02-concepts/` and `03-workflows/` published pages
+- Context: follow-up to the recruiter manual completion. The recruiter and individual manuals reference 7 concept pages and 2 workflow pages — these are part of the public `sebenzahub-manual` Publish surface (everything inside `16-manuals/` plus the concept/workflow pages those chapters link to). Same cross-site leak rule applies to these pages.
+- Scan results: **45 leaks across 8 published files** (1 page — `02-concepts/whatsapp-integration` — was missed in the first scan but caught and cleaned in the same pass; 1 page — `02-concepts/billing-system` — was missed in the first scan because it's only referenced from Chapter 4.5, but caught and cleaned after a complete cross-reference grep). The 9th page caught later was `03-workflows/individual-journey`.
+- Strategy: same Option A (strip and rewrite) used in the original `16-manuals/individual/` cleanup. Three patterns:
+  1. **References tail bulk strip** (most pages) — removed `01-entities/`, `09-sources/`, `08-questions/` links from References sections, kept allowed-folder links, added adjacent `03-workflows/*` or `02-concepts/*` links where the section thinned out.
+  2. **Inline mid-document references** (recruiter-journey and individual-journey) — removed `See [[01-entities/X]] for details.` lines entirely; the surrounding prose still works without the link.
+  3. **"Key Touchpoints" tables in journey files** — rewrote table cells from `[[01-entities/recruiter-user]]` to plain text descriptions ("Recruiters or Business hiring teams"). Same information, no leak.
+- Files cleaned (9 total, 23 edits):
+  - [[02-concepts/authentication]] — References tail (1 edit, 4 leaks)
+  - [[02-concepts/compliance]] — References tail (1 edit, 4 leaks)
+  - [[02-concepts/ai-features]] — Mid-doc + open question + References (3 edits, 7 leaks)
+  - [[02-concepts/application-lifecycle]] — References tail (1 edit, 4 leaks)
+  - [[02-concepts/multi-tenancy]] — References tail (1 edit, 3 leaks)
+  - [[02-concepts/whatsapp-integration]] — Mid-doc + tension callout + References (3 edits, 6 leaks)
+  - [[02-concepts/billing-system]] — References tail (1 edit, 4 leaks)
+  - [[03-workflows/recruiter-journey]] — 4 inline `See [[...]]` lines + Key Touchpoints table + References (6 edits, 17 leaks — the worst offender)
+  - [[03-workflows/individual-journey]] — 4 inline `See [[...]]` lines + Key Touchpoints table + References (6 edits, 13 leaks)
+- Re-scan after cleanup: **0 leaks across all 9 files**. Re-scan of `16-manuals/individual/` and `16-manuals/recruiter/` (35 + 23 = 58 chapter files): **0 leaks**.
+- **Total public surface (after cleanup):** 67 files, 0 leaks.
+  - 23 individual manual chapters
+  - 35 recruiter manual chapters
+  - 7 concept pages (authentication, compliance, ai-features, application-lifecycle, multi-tenancy, whatsapp-integration, billing-system)
+  - 2 workflow pages (individual-journey, recruiter-journey)
+- **NOT cleaned (intentional)** — 5 dirty pages that no manual chapter references, so they don't need to be published on the manual site:
+  - `02-concepts/rbac` (3 leaks) — internal-only audience
+  - `02-concepts/tech-stack` (2 leaks) — internal-only
+  - `02-concepts/seo-strategy` (2 leaks) — internal-only
+  - `03-workflows/business-journey` (10 leaks) — Business manual not yet planned
+  - `03-workflows/admin-journey` (8 leaks) — Admin runbooks live in `05-procedures/`, not `16-manuals/admin/`
+  These can be hidden in the Obsidian Publish Navigation UI for `sebenzahub-manual` and remain publishable on the internal `sebenzahub` site.
+- **User action still needed in Obsidian Publish:**
+  - Show the 9 cleaned files in the Navigation UI for `sebenzahub-manual`
+  - Hide the 5 internal-only files listed above
+  - The full public publishing list is now: 16-manuals/individual/* + 16-manuals/recruiter/* + the 9 concept/workflow files above
+
+## [2026-04-09] procedure | Admin WhatsApp tab reference — hidden gems section + corrections
+- Added a "Hidden gems & non-obvious features" section to [[05-procedures/admin-whatsapp-tab-reference]] documenting 8 features that aren't in the original Sebenza Hub WhatsApp Bot Training Manual: (1) Broadcast Studio is a 3-in-1 (broadcasts + drips + contact lists), (2) Team Inbox 10-15s polling, (3) War Room 10-15s polling + `predictedNext30Min` forward-looking signal, (4) Contact CRM tab is rendered by `WhatsAppContactIntelligence` component (verified at AdminWhatsApp.tsx:47/1396/5318), (5) Automation tab supports PDF attachments on greeting/fallback, (6) Estimated Cost in ZAR in Broadcast Studio is the easiest cost-watch number, (7) Bot Training Playground for fast intent testing, (8) Replay & Debug auto-flags Critical Moments.
+- **Corrections to earlier docs:** my previous tab-reference and morning-routine versions claimed Live Pulse and War Room polled every 5 seconds and described a "Crisis banner" with specific firing thresholds (3+ critical in 5 min, sentiment cluster, delivery drop). Both were wrong. Verified actual `refetchInterval` values from source: AdminWhatsApp.tsx uses 10-30s intervals (no 5s anywhere); WhatsAppEscalationWarRoom.tsx uses 10-15s. The "Crisis banner" with the specific thresholds I described does not exist in the code — only `activeEscalations` and `predictedNext30Min` header stats. Fixed three locations in [[05-procedures/admin-whatsapp-tab-reference]] (Tab 1 polling note, Tab 21 Crisis section + polling note, polling frequency table) and two locations in [[05-procedures/admin-whatsapp-morning-routine]] (War Room check section, red-flag escalation table). Added a visible "Earlier doc correction" callout in Tab 21 to flag the change for anyone who read the previous version.
+- Pages touched: [[05-procedures/admin-whatsapp-tab-reference]], [[05-procedures/admin-whatsapp-morning-routine]], [[index]] (updated tab-reference description).
+
+## [2026-04-09] update | Recruiter Training Manual — first complete draft (35 chapters)
+- Context: sibling to the Individual manual. Required because Sebenza Hub's recruiter side has 101 pages across 11 feature categories — significantly larger than Individual's ~50 features. Plan filed earlier in [[08-questions/recruiter-training-manual-plan]] with a 34-chapter outline; Chapter 4.5 (How we charge) added during drafting at user request, bringing total to 35.
+- Codebase research resolved 5 blocking open questions before drafting, all confirmed via grep at `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2`:
+  - **Trust tier calculation** — 7-badge formula in `server/routes.ts:5625-5682`. trustScore = (earnedCount/7)*100. Bronze 0-2, Silver 3-4, Gold 5, Platinum 6-7. Documented in [[08-questions/trust-tier-calculation]] with the full Bronze→Platinum playbook.
+  - **Exclusivity model** — `jobIntakeScorecard.exclusivity` field at `shared/schema.ts:7450` with 3 values: exclusive/preferred/contingent. Sebenza Hub does NOT enforce exclusivity — it's a recruiter-side categorisation for analytics. Critical legal framing in Chapter 9.
+  - **Plan structure** — `server/seed-plans.ts` defines 9 plan seeds × 2 intervals = 18 plans. Recruiter tiers: Free / Standard R999/mo / Premium R2,499/mo (annual ~20% discount). Documented in [[08-questions/subscription-plans]].
+  - **Team roles** — already in [[02-concepts/rbac]] (Owner/Admin/Manager/Recruiter/Viewer/Member + 40+ permissions).
+  - **Verification** — manual admin review via `organizations.isVerified` flag and `/admin/recruiters` route.
+- Drafted in 5 batches across the session: Part 1 (Ch 1-4 + 4.5) → Parts 2+3 (Ch 5-10) → Parts 4+5 (Ch 11-21) → Parts 6-9 (Ch 22-30) → Parts 10+11 (Ch 31-34).
+- All 35 chapters use real schema field names, real status enums, and real plan pricing. No "to be confirmed" hedging.
+- Cross-site leak rule (from earlier session) enforced throughout — every chapter only links to `02-concepts/`, `03-workflows/`, or other `16-manuals/recruiter/` chapters. Re-grepped the full folder after each batch; final scan: 0 leaks across all 36 files.
+- New pages created:
+  - [[16-manuals/recruiter/index]] — Manual table of contents
+  - [[16-manuals/recruiter/01-what-sebenza-hub-is-for-recruiters]] through [[16-manuals/recruiter/34-advanced-and-platinum]] (35 chapters)
+  - [[08-questions/recruiter-training-manual-plan]] — Plan and outline (filed earlier in session, marked complete)
+- Existing pages updated:
+  - [[08-questions/trust-tier-calculation]] — Resolution section added with full formula
+  - [[08-questions/subscription-plans]] — Resolution section added with full plan table
+- Memory persisted: codebase location reference saved so future sessions can grep `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2` without asking for the path.
+- Outstanding (deferred):
+  - The 7 `02-concepts/` and `03-workflows/` pages the recruiter manual references all have their own cross-site leaks to internal folders. Lint pass run; ~40 leaks identified across 7 files. Cleanup pending user go-ahead.
+  - Screenshots — same status as Individual manual.
+  - Business and Admin manuals — not yet planned. Note: user has filed [[05-procedures/admin-whatsapp-command-center-setup]], [[05-procedures/admin-whatsapp-tab-reference]], and [[05-procedures/admin-whatsapp-morning-routine]] as internal-only admin runbooks (correctly placed under `05-procedures/`, not `16-manuals/admin/`, to keep them off the public site).
+
+## [2026-04-09] procedure | Admin WhatsApp morning routine cheat sheet
+- Filed: [[05-procedures/admin-whatsapp-morning-routine]] — one-page printable distillation of the daily checks from the tab reference. 5 sequential checks (Live Pulse → War Room → Sentiment/Funnel → Compliance → Unmatched), 10-minute time budget, with green/yellow/red thresholds per metric, a daily go/no-go checklist, and a red-flag escalation table for when to call DevOps. Designed to fit on a single A4 page.
+- Pages touched: [[index]] (added third Procedures entry).
+
+## [2026-04-09] procedure | Admin WhatsApp Command Center tab-by-tab reference
+- Context: follow-up to the setup runbook — user wanted every one of the 21 tabs explained in detail.
+- Filed: [[05-procedures/admin-whatsapp-tab-reference]] — companion to the setup runbook, structured as a per-tab reference (purpose / what you see / what you can do / when to open it). Includes a quick-map cadence table at the top, a "I want to..." cross-tab cheat sheet at the bottom, plus polling frequency table.
+- Sources: deep code exploration of all 11 sub-components in `client/src/pages/admin/whatsapp/` (WhatsAppTeamInbox.tsx 863 lines, WhatsAppFlowBuilder.tsx 688, WhatsAppChatbotTraining.tsx 1190, WhatsAppBotTemplates.tsx 860, WhatsAppAnalyticsDeepDive.tsx 1780, WhatsAppConversationReplay.tsx 666, WhatsAppCandidateMatcher.tsx 1438, WhatsAppContactIntelligence.tsx, WhatsAppGrowthEngine.tsx 1489, WhatsAppConversationDNA.tsx 624, WhatsAppEscalationWarRoom.tsx 800) plus the in-file tab content blocks in AdminWhatsApp.tsx for the first 10 tabs (lines 1433-5312).
+- Pages touched: [[index]] (added second Procedures entry).
+
+## [2026-04-09] procedure | Admin WhatsApp Command Center setup runbook
+- Context: user (Admin) requested a personal training guide for setting up and operating the WhatsApp Command Center at `/admin/whatsapp`. Meta-side setup already complete (App ID `1295366105776721`, WABA `914872117983837`, Phone Number ID `1006592152543941`, webhook callback registered). Bot toggle currently OFF in production — flagged in the runbook.
+- Filed: [[05-procedures/admin-whatsapp-command-center-setup]] — internal-only (under `05-procedures/`, NOT `16-manuals/admin/`, to keep it off the public `sebenzahub-manual` site).
+- Scope: full setup (Meta prerequisites → credential paste → webhook verification → test message → bot toggle → bot settings → templates → bot training → automation/flows) PLUS day-to-day operations across all 21 tabs (Command Center, Conversations, Team Inbox, Campaigns, Broadcast Studio, Compliance, Quality & CSAT, AI Intelligence, Contact CRM, Deep Analytics, Replay & Debug, AI Matcher, Growth Engine, DNA Analyzer, War Room) plus operational rhythms, troubleshooting, and reference appendix (env vars, API endpoints, DB tables).
+- Format: numbered runbook with screenshot-to-take placeholders (📸) and pull quotes for warnings/tips.
+- Sources: codebase exploration of `Sebenza_Hub_Claude_V2` — `client/src/pages/admin/AdminWhatsApp.tsx` (5,491 lines, 21 tabs), `server/whatsapp.ts`, `server/routes.ts` (~30 admin WhatsApp endpoints), `shared/schema.ts` (10 whatsapp tables), and `docs/WhatsApp-Bot-Training-Manual.md` (784 lines, mined for tab-by-tab descriptions).
+- User screenshots: Sebenza Hub Configuration tab (Connected banner + Bot OFF strip), Meta App Basic settings, Meta Webhook Configuration page.
+- Pages touched: [[index]] (added new "Procedures" section between Workflows and Sources).
+
+## [2026-04-09] lint | Cross-site leak scan + cleanup of `16-manuals/individual/`
+- Context: vault publishes to two Obsidian Publish sites — `sebenzahub` (internal, full vault) and `sebenzahub-manual` (public, end-user training manual). Per-site visibility is controlled in the Publish Navigation UI; hidden pages still resolve by direct URL.
+- Updated [[CLAUDE]]:
+  - Added a **Cross-site leaks** check to the Lint workflow (rule: any `[[wiki-link]]` inside `16-manuals/` that targets a folder other than `16-manuals/`, `02-concepts/`, or `03-workflows/` is a leak).
+  - Added a **Two-Site Publish** subsection under Domain-Specific Extensions documenting the two sites, allowed/forbidden link targets, and authoring rules for `16-manuals/` pages.
+- Scan results: 47 leak instances across 21 files in `16-manuals/individual/`, hitting 5 internal folders (`01-entities/`, `06-comparisons/`, `08-questions/`, `15-dashboards/`, plus one mid-chapter Open question pattern).
+- Fix strategy applied: **Option A — strip and rewrite.**
+  - Removed all internal-folder links from References sections in chapters 01–23 + index. Where stripping left a section thin, added an adjacent `16-manuals/individual/` chapter link.
+  - Rewrote 4 mid-chapter "Open question" callouts as plain "Heads up" prose: chs 6 (CV Review pricing), 11 (Cover Letter pricing), 16 (Salary Negotiator pricing), 19 (Learning Paths curation).
+  - Rewrote chapter 20 (Autopilot): converted internal `## Open question` section to `## What we'll cover in a future update` with no links; de-leaked the partial-draft warning at the top.
+  - Updated [[16-manuals/individual/index]]: removed internal references (Plan, Feature inventory, Dashboard layout); kept Source spine (`03-workflows/individual-journey`, allowed).
+- Files touched: 22 files, 28 edits total. Re-scan confirms zero leaks remaining in `16-manuals/individual/`.
+- Allowed cross-folder targets still in use (must be **shown** on the manual site): `02-concepts/authentication`, `02-concepts/compliance`, `02-concepts/ai-features`, `02-concepts/application-lifecycle`, `03-workflows/individual-journey`.
+- Outstanding (not done in this pass):
+  - User must still hide internal folders in the Obsidian Publish Navigation UI for `sebenzahub-manual` (no file-based config to set).
+  - The 5 published `02-concepts/` and `03-workflows/` pages above need their own leak scan, since they're now part of the public surface area.
+  - Recruiter / business / admin manuals are not yet drafted; same lint rule will apply when they are.
+
 ## [2026-04-09] tweet | Claude Code + Obsidian Second Brain — @aiedge_
 - Source: https://x.com/aiedge_/status/2041908011078447222
 - Filed: [[10-tweets/aiedge-claude-obsidian-second-brain]]

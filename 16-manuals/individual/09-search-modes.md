@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, search, jobs]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -172,7 +172,6 @@ Spend 20 minutes doing this:
 
 ## References
 
-- [[01-entities/individual-user]] — All Jobs, Auto Match, Manual Search
-- [[01-entities/job-aggregation]] — External job sources
 - [[02-concepts/application-lifecycle]] — Where match scores get used
 - [[03-workflows/individual-journey]] — Step 4 (Search & Apply)
+- [[16-manuals/individual/10-saved-searches-and-favourites|Chapter 10 — Saved searches and favourites]]

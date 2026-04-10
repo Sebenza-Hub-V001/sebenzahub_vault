@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, troubleshooting, career]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -172,6 +172,5 @@ If option #1 doesn't feel right after a couple of applications, try option #2. T
 
 ## References
 
-- [[01-entities/individual-user]] — Career Path, Career Pulse, Coaching, Tests
 - [[03-workflows/individual-journey]] — Career Development track
 - [[16-manuals/individual/21-career-dna|Chapter 21]] — Once you know your direction, Career DNA tunes the matching

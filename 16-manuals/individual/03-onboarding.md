@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, onboarding, popia]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -26,7 +26,9 @@ The first screen asks you to pick your role:
 Pick **Individual**.
 
 > ⚠️ **Your role is locked after this screen.** You cannot switch from Individual to Recruiter (or any other role) on the same account later. If you need both — for example, you're a job seeker who later starts a small recruitment agency — you'll need a separate account with a different email. Make sure Individual is what you want before moving on.
+> ![[Pasted image 20260409150303.png]]
 
+![[Pasted image 20260409150410.png]]
 ## Step 2 — Fill in the onboarding form
 
 The Individual onboarding form asks for six things. Here they are, with the reason each one matters.
@@ -104,6 +106,5 @@ So don't agonise over the form. Get it close to right, click submit, and tune it
 
 ## References
 
-- [[01-entities/individual-user]] — Onboarding flow details
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity overview
 - [[16-manuals/individual/08-privacy-and-popia|Chapter 8]] — More on privacy and your POPIA rights

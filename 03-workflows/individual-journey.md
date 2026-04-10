@@ -191,8 +191,6 @@ Application created:
   └─ ghostRiskScore calculated (is this a real job?)
 ```
 
-See [[01-entities/job-aggregation]] for external job sources.
-
 ## Step 5: Track Applications
 
 ```
@@ -261,8 +259,6 @@ Respond:
   ├─ Negotiate → counter-offer flow
   └─ Decline → provide reason
 ```
-
-See [[01-entities/offer-system]] for full offer lifecycle details.
 
 ---
 
@@ -434,7 +430,6 @@ You got hired (Step 7 complete) but want to grow toward a promotion
   └─ Certified → credential on profile → stronger position for next move
 ```
 
-See [[01-entities/community-learning-hub]] for technical details on the learning infrastructure.
 
 ---
 
@@ -505,7 +500,6 @@ You landed the job → post a Success Story
 
 **Application Streaks** — gamification tracks consecutive days with applications. Keeps momentum during the grind.
 
-See [[01-entities/community-learning-hub]] for full community architecture.
 
 ---
 
@@ -608,23 +602,17 @@ CAREER DEV:      │    Career Path   │   Analytics │    Career     Salary
 
 | Stage | Interacts With |
 |-------|---------------|
-| Job posted | [[01-entities/recruiter-user]] or [[01-entities/business-user]] |
+| Job posted | Recruiters or Business hiring teams |
 | Application reviewed | Recruiter or Business |
 | Interview scheduled | Recruiter or Business |
 | Offer extended | Recruiter or Business |
-| Profile moderated | [[01-entities/admin-user]] |
-| Community content | Other [[01-entities/individual-user|Individuals]] |
+| Profile moderated | Sebenza Hub Admin team |
+| Community content | Other Individuals |
 | Mentorship | Experienced professionals in community |
 
 ## References
 
-- [[01-entities/individual-user]] — Full feature list and data model
 - [[02-concepts/application-lifecycle]] — Pipeline status details
 - [[02-concepts/authentication]] — Signup/login flow
 - [[02-concepts/ai-features]] — AI tools in the journey
-- [[02-concepts/billing-system]] — Billing architecture
-- [[01-entities/offer-system]] — Offer lifecycle
-- [[01-entities/community-learning-hub]] — Learning and community technical details
-- [[01-entities/job-aggregation]] — External job sources (Adzuna, CareerJet)
-- [[09-sources/individual-features-2026-04-07]] — Detailed feature descriptions
-- [[09-sources/individual-journey-gap-analysis-2026-04-07]] — Gap analysis that prompted this rewrite
+- [[02-concepts/compliance]] — POPIA and consent context

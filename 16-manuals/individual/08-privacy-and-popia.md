@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, privacy, popia, compliance]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -153,5 +153,4 @@ Part 3 is where things start moving outward instead of inward. Take a breath, th
 ## References
 
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity overview
-- [[01-entities/individual-user]] — Settings, Profile visibility
 - [[16-manuals/individual/03-onboarding|Chapter 3]] — Where you originally gave POPIA consent

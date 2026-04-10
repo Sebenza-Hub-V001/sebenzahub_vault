@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, cv, ai]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -36,7 +36,7 @@ The feedback is *specific*. It points at the exact bullet point or section it ha
 3. Click **Run review**. The AI takes about 30 seconds to a minute to process.
 4. The review appears as a structured report with sections you can expand and collapse.
 
-> **Open question:** CV Review may require credits or a paid plan depending on your subscription tier. We'll update this chapter once we've confirmed the exact pricing — see [[08-questions/subscription-plans]]. If you hit a paywall, that's why.
+> **Heads up:** CV Review may require credits or a paid plan depending on your subscription tier. If you hit a paywall, that's why.
 
 ## Step 2 — Read the review properly
 
@@ -106,6 +106,5 @@ Be aware of the limits:
 
 ## References
 
-- [[01-entities/individual-user]] — CV Review feature
 - [[02-concepts/ai-features]] — AI capabilities
 - [[16-manuals/individual/05-uploading-a-cv|Chapter 5]] — Where your CV came from

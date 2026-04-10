@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, offers]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -175,6 +175,5 @@ You can also leave a post-interview experience survey if the platform invites yo
 
 ## References
 
-- [[01-entities/offer-system]] — Full offer lifecycle (status enum, approval chains)
 - [[03-workflows/individual-journey]] — Step 7 (Receive & Accept Offer)
 - [[16-manuals/individual/12-tracking-applications|Chapter 12]] — Application Portal for post-acceptance documents

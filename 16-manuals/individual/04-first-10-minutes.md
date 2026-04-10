@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, dashboard, orientation]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -29,7 +29,7 @@ This is the spine of everything you do on Sebenza Hub. It runs in the natural or
 5. **Offers** (2 pages) — Salary Insights and Salary Negotiator
 
 If you only ever used these five sections, you would still get hired. Everything below the Hiring Path is *support* for when these aren't enough.
-
+![[Pasted image 20260409150822.png]]<center></center>
 ### Group 2 — PARALLEL TRACKS
 
 These activate when something on the Hiring Path needs help. They're not steps you reach in order; they're tools you reach for.
@@ -40,11 +40,13 @@ These activate when something on the Hiring Path needs help. They're not steps y
 - **Career Development** (5 pages) — Skill Gap, Career Path, Career Pulse, Tests, Analytics
 
 You'll touch most of these eventually, but you don't have to touch any of them today. This manual will tell you when each one becomes relevant.
+![[Pasted image 20260409150959.png]]
 
 ### Group 3 — SUPPORTING
 
 - **Knowledge Base** (3 pages) — your personal wiki
 - **Account** (2 pages) — Billing and Settings
+![[Pasted image 20260409151123.png]]
 
 ### Visual cue: the divider
 
@@ -74,6 +76,7 @@ Don't read this — *do* it. Open your dashboard in another tab and spend a lite
 5. **My Applications** (`/dashboard/individual/applications`) — empty for now; this is where Chapter 12 lives
 6. **Inbox** (`/dashboard/individual/inbox`) — empty; this is where recruiters reach you
 7. **Settings** (`/dashboard/individual/settings`) — note where it lives, but don't change anything yet
+![[Pasted image 20260409151623.png]]
 
 Do not touch:
 
@@ -112,6 +115,5 @@ You now know enough about the dashboard to follow the rest of the manual without
 
 ## References
 
-- [[15-dashboards/individual-dashboard]] — Full dashboard layout and route map
 - [[03-workflows/individual-journey]] — Complete journey with the same Hiring Path / Parallel Tracks structure
-- [[01-entities/individual-user]] — Full feature inventory by category
+- [[16-manuals/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]

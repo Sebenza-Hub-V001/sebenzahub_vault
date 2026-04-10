@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, interview, research]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -145,6 +145,5 @@ Company research feeds back into the Interview Simulator (Chapter 13). Once you 
 
 ## References
 
-- [[01-entities/individual-user]] — Company Research
 - [[03-workflows/individual-journey]] — Step 6 (Interview)
 - [[16-manuals/individual/13-interview-simulator|Chapter 13]] — Where this research feeds back into prep

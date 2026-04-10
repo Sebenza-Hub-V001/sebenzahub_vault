@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, troubleshooting]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -153,7 +153,6 @@ Pick the one cause that best matches your data. Make the fix. Apply 10+ jobs ove
 
 ## References
 
-- [[01-entities/individual-user]] — Coaching, CV Review, Skill Gap, Application Analytics
 - [[03-workflows/individual-journey]] — Track A: AI Assistance scenarios
 - [[16-manuals/individual/06-cv-review|Chapter 6]] — CV Review
 - [[16-manuals/individual/07-skills-credentials-video|Chapter 7]] — Profile completeness

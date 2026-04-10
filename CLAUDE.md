@@ -159,7 +159,11 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
 ### 3. Lint
 
-**Trigger:** User says "lint", "health check", or "review the wiki".
+**Triggers:**
+
+- **"lint"**, **"health check"**, **"review the wiki"** — full scan, all checks below.
+- **"lint manuals"**, **"lint published surface"**, **"check for leaks"** — targeted scan: run only the **Cross-site leaks** check (Layer 1 + Layer 2 from the recursive procedure). Skip everything else. Use this after every batch of manual edits — it's the fast "did I really finish?" check that takes ~2 seconds and catches the common gotcha (a new chapter introduced a link to a `02-concepts/` page that itself has internal-folder leaks).
+- **"lint <folder>"** (e.g. "lint 16-manuals/recruiter") — run all checks scoped to that folder only.
 
 **Workflow:**
 
@@ -170,6 +174,15 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
    - **Missing pages** — `[[wiki-links]]` that point to pages that don't exist
    - **Gaps** — important topics mentioned but lacking their own page
    - **Weak sourcing** — claims without source attribution
+   - **Cross-site leaks** — see Two-Site Publish below. The "published surface" is everything that ships to the public `sebenzahub-manual` site, which is **`16-manuals/*` plus the transitive set** of `02-concepts/*` and `03-workflows/*` pages that any manual chapter references. Both layers must be lint-clean:
+     - **Direct leaks (Layer 1):** any `[[wiki-link]]` inside `16-manuals/` that points to a folder *other than* `16-manuals/`, `02-concepts/`, or `03-workflows/`. Internal-only targets — `01-entities/`, `05-procedures/`, `06-comparisons/`, `07-decisions/`, `08-questions/`, `09-sources/`, `10-tweets/`, `12-tasks/`, `13-raw/`, `14-notes/`, `15-dashboards/`, `17-features/` — must be removed, replaced with a public-facing equivalent, or rewritten as plain prose.
+     - **Transitive leaks (Layer 2):** for each `02-concepts/X` and `03-workflows/Y` page referenced from any `16-manuals/` chapter, that page must *also* contain no links to the forbidden folders above. A leak in a published concept/workflow page is just a leak one hop downstream.
+     - **How to compute the published surface** (the recursive lint procedure):
+       1. `grep -rE '\[\[(02-concepts|03-workflows)/[^|\]]+' 16-manuals/` to enumerate every concept/workflow page referenced by any manual chapter.
+       2. Deduplicate the target list — that's the transitive set.
+       3. Run the forbidden-folder grep against `16-manuals/` (Layer 1) AND against each file in the transitive set (Layer 2).
+       4. Zero matches across both layers = lint clean.
+     - **Pages outside the published surface are exempt.** A `02-concepts/` or `03-workflows/` page that no manual chapter references can keep its internal-folder links — just hide it on the `sebenzahub-manual` site in the Publish Navigation UI.
 2. **Report** findings as a checklist.
 3. **Suggest** new questions to investigate and sources to look for.
 4. **Fix** issues with user approval, or batch-fix if user says "fix all".
@@ -388,6 +401,37 @@ When starting fresh:
 - `dashboard-path`: /dashboard/recruiter/* — Route prefix for features described
 - `endpoint-count`: N — Number of API endpoints covered (helps gauge complexity)
 - `table-count`: N — Number of database tables covered
+
+#### Two-Site Publish
+
+This vault is published to **two Obsidian Publish sites** from the same source:
+
+1. **`sebenzahub`** — Internal site. Full vault visible. Audience: user + internal team.
+2. **`sebenzahub-manual`** — Public training manual. Audience: end users (Individual, Recruiter, Business, Admin).
+
+Visibility per site is controlled in the Obsidian Publish **Navigation → Show/Hide** UI (right-click → Hide). Hidden pages still resolve by direct URL — they are not access-controlled, only de-listed from navigation. There is no file-based config to edit.
+
+**Folders that ship to the public `sebenzahub-manual` site:**
+- `16-manuals/` — the main payload (always shown)
+- Selected pages from `02-concepts/` and `03-workflows/` — only the user-relevant ones, hidden case-by-case
+- A custom landing page (likely `16-manuals/welcome.md` and `16-manuals/index.md`) — *not* the root `welcome.md` / `index.md`, which are internal
+
+**Folders that must stay hidden on the public site:**
+`01-entities/`, `06-comparisons/`, `07-decisions/`, `08-questions/`, `09-sources/`, `10-tweets/`, `12-tasks/`, `13-raw/`, `14-notes/`, `15-dashboards/`, `17-features/`, `CLAUDE.md`, `log.md`, `README.md`, `Vault.md`, root `welcome.md`, root `index.md`, root `overview.md`.
+
+**Authoring rules for `16-manuals/` pages:**
+- Tone: user-facing, plain language. No internal jargon, no references to "the wiki", "the vault", "open questions", "decisions", or "sources".
+- Wiki-links from inside `16-manuals/` may only target: other `16-manuals/` pages, `02-concepts/` pages, or `03-workflows/` pages. Anything else is a **cross-site leak** (see Lint).
+- If a manual page needs context that lives only in an internal folder (e.g. `08-questions/subscription-plans`), either: (a) inline the relevant facts as plain prose with no link, (b) move the relevant facts into a new `02-concepts/` page that can be published on both sites, or (c) drop the reference entirely.
+
+**The published surface is bigger than `16-manuals/`:**
+
+When a manual chapter links to `[[02-concepts/foo]]` or `[[03-workflows/bar]]`, that target page **becomes part of the public surface** — you have to show it on the `sebenzahub-manual` Navigation UI for the link to resolve, which means its content is visible to end users. Therefore:
+
+- **The lint rule applies transitively.** The same forbidden-folder check runs against any `02-concepts/` or `03-workflows/` page that's referenced from `16-manuals/`. A leak there is just a leak one hop downstream.
+- **The "published surface" is computable.** Run `grep -rE '\[\[(02-concepts|03-workflows)/[^|\]]+' 16-manuals/`, deduplicate the targets, and that's the exact set of concept/workflow pages that need to be lint-clean (and shown on the public site).
+- **Pages outside the published surface keep their freedom.** A `02-concepts/` or `03-workflows/` page that no manual chapter references can link to whatever internal folders it wants — just hide it on `sebenzahub-manual` in the Publish Navigation UI.
+- **Adding a new manual chapter expands the published surface.** Every time a new chapter introduces a new `[[02-concepts/X]]` or `[[03-workflows/Y]]` reference, X or Y joins the published surface and must be lint-clean before the chapter ships. Run the recursive lint procedure (Lint workflow above) after every batch of manual edits.
 
 ---
 

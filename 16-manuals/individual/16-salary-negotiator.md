@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, salary, negotiation, ai]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -23,7 +23,7 @@ Two tools matter here. **Salary Insights** gives you the data. **Salary Negotiat
 
 If you skip Salary Insights and go straight to the Negotiator, you'll be negotiating without data. If you skip the Negotiator and just rely on Insights, you'll have data but no plan for the conversation. Use both.
 
-> **Open question:** Salary Negotiator may consume credits or require a paid plan depending on your subscription. See [[08-questions/subscription-plans]].
+> **Heads up:** Salary Negotiator may consume credits or require a paid plan depending on your subscription.
 
 ## Step 1 — Open Salary Insights and find your number
 
@@ -170,7 +170,5 @@ Parts 5 and 6 are reference material for when things get harder or when you want
 
 ## References
 
-- [[01-entities/individual-user]] — Salary Insights, Salary Negotiator
-- [[01-entities/offer-system]] — Negotiation flow, compensation packages
 - [[03-workflows/individual-journey]] — Step 7 (Receive & Accept Offer)
 - [[16-manuals/individual/15-receiving-an-offer|Chapter 15]] — The decision frame this chapter sits inside

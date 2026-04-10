@@ -8,7 +8,7 @@ author: "@karpathy"
 url: "https://x.com/karpathy/status/2039805659525644595"
 status: active
 ---
-
+I’m
 # LLM Knowledge Bases — Karpathy's Wiki Pattern
 
 ## Tweet

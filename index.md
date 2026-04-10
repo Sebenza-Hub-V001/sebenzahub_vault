@@ -42,6 +42,11 @@ status: active
 - [[03-workflows/business-journey]] — Complete employer journey: hiring + vendor management + workforce & HR + compliance
 - [[03-workflows/admin-journey]] — Platform operator: 4 operations steps + 3 parallel tracks (AI governance, trust/safety, config)
 
+## Procedures
+- [[05-procedures/admin-whatsapp-command-center-setup]] — Admin runbook: connect Meta credentials, verify webhook, turn the bot on, configure flows/intents/templates, day-to-day operations across all 21 tabs
+- [[05-procedures/admin-whatsapp-tab-reference]] — Tab-by-tab reference for all 21 Command Center tabs (layout, controls, metrics, when to use) + 8 hidden gems most admins miss
+- [[05-procedures/admin-whatsapp-morning-routine]] — One-page printable: 5 checks in 10 minutes every morning, plus red-flag escalation table
+
 ## Sources
 - [[09-sources/repo-audit-2026-04-07]] — Full codebase audit, 2026-04-07
 - [[09-sources/features-inventory-2026-04-07]] — Platform feature inventory (325 pages, 3586 endpoints, 755 tables, 157 features)

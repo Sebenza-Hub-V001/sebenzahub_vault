@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, interview, ai]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -132,6 +132,6 @@ These are nice-to-haves, not essentials. Don't enable them until you've gone thr
 
 ## References
 
-- [[01-entities/individual-user]] — Interview Simulator
 - [[02-concepts/ai-features]] — AI capabilities
 - [[03-workflows/individual-journey]] — Step 6 (Interview)
+- [[16-manuals/individual/14-company-research|Chapter 14 — Researching a company]]

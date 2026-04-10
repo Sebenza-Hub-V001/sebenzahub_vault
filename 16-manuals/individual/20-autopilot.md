@@ -4,13 +4,13 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, autopilot, advanced]
-status: draft
+status: active
 user-types: [individual]
 ---
 
 # Chapter 20 — Autopilot and auto-apply safeguards
 
-> ⚠️ **Partial draft.** This chapter covers the *concept* of Autopilot and the principles you should apply if you turn it on, but the *exact platform behaviour* — rate limits, approval gates, override mechanisms, and what gets auto-generated on your behalf — is still being documented. Do not enable Autopilot in production until the open question in [[08-questions/individual-training-manual-plan]] is resolved and this chapter is filled in. If you do enable it in the meantime, set the most conservative settings available and review every action it takes.
+> ⚠️ **Partial draft.** This chapter covers the *concept* of Autopilot and the principles you should apply if you turn it on, but the *exact platform behaviour* — rate limits, approval gates, override mechanisms, and what gets auto-generated on your behalf — is still being documented and will be added in a future update. If you enable Autopilot in the meantime, set the most conservative settings available and review every action it takes.
 
 ## What Autopilot is
 
@@ -75,13 +75,13 @@ Until the open question is resolved and the operational specifics here are docum
 3. **Check back on this chapter periodically** — once we have the operational details, the chapter will tell you which exact settings to use and what the safeguards already are.
 4. **Read [[16-manuals/individual/21-career-dna|Chapter 21]] first** — Career DNA and Opportunity Weights tighten the AI matching that Autopilot uses, which makes the entire thing safer.
 
-## Open question
+## What we'll cover in a future update
 
-The detailed open question being tracked:
+This chapter will be expanded with operational specifics once they're finalised:
 
-> How does the auto-apply (Autopilot) feature work in practice? What rate limits, approval gates, and override mechanisms exist? What exactly does auto-cover-letter generate? What does auto-follow-up send and on what schedule?
+> How Autopilot behaves in practice — rate limits, approval gates, override mechanisms, what auto-cover-letter generates, and what auto-follow-up sends and on what schedule.
 
-Tracked in [[08-questions/individual-training-manual-plan]] and originally raised in [[01-entities/individual-user]].
+Until then, treat the principles in this chapter as the safe defaults: conservative settings, daily review, full audit of every action Autopilot takes on your behalf.
 
 ## Checklist
 
@@ -97,5 +97,5 @@ Tracked in [[08-questions/individual-training-manual-plan]] and originally raise
 
 ## References
 
-- [[01-entities/individual-user]] — Autopilot Config (in `individualSettings`)
-- [[08-questions/individual-training-manual-plan]] — Open question tracking
+- [[16-manuals/individual/21-career-dna|Chapter 21]] — Career DNA tunes the matching Autopilot relies on
+- [[16-manuals/individual/12-tracking-applications|Chapter 12]] — How to audit what Autopilot has done

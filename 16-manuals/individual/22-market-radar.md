@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, market-radar, advanced]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -125,5 +125,5 @@ It can always be turned back on. Don't treat the configuration as permanent.
 
 ## References
 
-- [[01-entities/individual-user]] — Market Radar (in `individualSettings`)
 - [[16-manuals/individual/10-saved-searches-and-favourites|Chapter 10]] — Saved Searches (the active-hunter cousin)
+- [[16-manuals/individual/23-community-and-mentorship|Chapter 23 — Community and mentorship]]

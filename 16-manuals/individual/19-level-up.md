@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-09
 updated: 2026-04-09
 tags: [manual, individual, learning, skills]
-status: draft
+status: active
 user-types: [individual]
 ---
 
@@ -72,7 +72,7 @@ Reasonable patterns:
 
 Whatever pattern you pick, write it down and commit. Learning that depends on motivation rarely sticks; learning that depends on a calendar slot does.
 
-> **Open question:** Learning Paths are curated centrally — exactly how, and how recently they were updated, is something we'll confirm. See [[08-questions/individual-training-manual-plan]]. If a Learning Path looks dated, supplement with current external sources.
+> **Heads up:** Learning Paths are curated centrally. If a Learning Path looks dated, supplement it with current external sources.
 
 ## Step 4 — Make the learning visible on your profile
 
@@ -163,7 +163,6 @@ Part 6 covers the platform's more advanced features. They're powerful but they'r
 
 ## References
 
-- [[01-entities/individual-user]] — Skill Gap, Learning Paths, Micro Learning, Job-Linked Learning, Study Planner, Mentorship
-- [[01-entities/community-learning-hub]] — Learning Hub overview
 - [[16-manuals/individual/07-skills-credentials-video|Chapter 7]] — Where new skills go on your profile
 - [[16-manuals/individual/17-no-responses|Chapter 17]] — When learning is or isn't the answer
+- [[16-manuals/individual/23-community-and-mentorship|Chapter 23]] — Mentorship in the community context

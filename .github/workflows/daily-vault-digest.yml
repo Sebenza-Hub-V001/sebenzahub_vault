@@ -1,0 +1,198 @@
+name: Daily Vault Digest
+
+# Sends an email every morning at 04:00 SAST (02:00 UTC) summarising
+# all Obsidian vault activity in the previous 24 hours. The body is a
+# prose briefing written by Claude, with raw git stats appended below.
+#
+# Required repo secrets:
+#   ANTHROPIC_API_KEY  Anthropic API key (get one at console.anthropic.com)
+#   SMTP_SERVER        e.g. smtp.gmail.com
+#   SMTP_PORT          e.g. 465 (SSL) or 587 (STARTTLS)
+#   SMTP_USERNAME      SMTP login (usually the sending email address)
+#   SMTP_PASSWORD      SMTP password or app password
+#
+# Optional repo secrets:
+#   MAIL_TO            recipient address — defaults to SMTP_USERNAME (sends to self)
+#   MAIL_FROM          sender address — defaults to SMTP_USERNAME
+
+on:
+  schedule:
+    # 04:00 South Africa Standard Time = 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # allow manual runs from the Actions tab
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout vault (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Collect raw activity
+        id: collect
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          SINCE="24 hours ago"
+          TODAY="$(TZ='Africa/Johannesburg' date +'%A %-d %B %Y')"
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+
+          # Commits, oldest first, with body so Claude sees the "why"
+          git log --since="$SINCE" \
+            --pretty=format:'commit %h by %an%n%s%n%b%n---' \
+            --reverse > commits.txt || true
+
+          # Files touched + line counts
+          git log --since="$SINCE" --pretty=format: --numstat \
+            | awk 'NF==3 && $3 != "" {a[$3]+=$1; d[$3]+=$2}
+                   END {for (f in a) printf "%s\t+%d\t-%d\n", f, a[f], d[f]}' \
+            | sort > diffstat.txt || true
+
+          # Actual content diff, capped at 60 KB so Claude has the substance
+          # of small edits without blowing up context on huge refactors.
+          git log --since="$SINCE" -p --no-color \
+            | head -c 60000 > diffcontent.txt || true
+
+          COMMIT_COUNT=$(git log --since="$SINCE" --oneline | wc -l | tr -d ' ')
+          FILE_COUNT=$(wc -l < diffstat.txt | tr -d ' ')
+          echo "commit_count=$COMMIT_COUNT" >> "$GITHUB_OUTPUT"
+          echo "file_count=$FILE_COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Generate prose briefing with Claude
+        if: steps.collect.outputs.commit_count != '0'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TODAY: ${{ steps.collect.outputs.today }}
+          COMMIT_COUNT: ${{ steps.collect.outputs.commit_count }}
+          FILE_COUNT: ${{ steps.collect.outputs.file_count }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Write the system prompt to a file via heredoc — cleaner than
+          # juggling multi-line bash strings inside a YAML block scalar.
+          cat > system_prompt.txt <<'PROMPT'
+          You are the user's personal wiki assistant — think chief of staff giving a calm, informed morning briefing. Each day you read what changed in their Obsidian vault (the Sebenza Hub knowledge base) over the past 24 hours and write a short prose update.
+
+          Voice and style:
+          - Warm, direct, intelligent. Refer to the user as 'you'.
+          - Write flowing prose in 2 to 4 short paragraphs. No bullet lists. No headings. No emoji.
+          - Lead with the headline — the most important thing that happened, not a recap of every commit.
+          - If multiple commits belong to one project (e.g. several manual chapters, a lint sweep, a refactor), describe it as one piece of work, not as a list.
+          - Mention concrete details: which manual, which feature, which bug got fixed, which numbers changed. Specifics make a briefing useful.
+          - If there were corrections to earlier work, contradictions resolved, or things that surprised you in the diffs, surface them — that's the kind of detail a chief of staff would flag.
+          - Close with one short sentence on what state the vault is in or what's queued up next, only if it's obvious from the changes. Don't invent plans.
+          - Never thank the user, never apologise, never explain what you are doing. Just deliver the briefing.
+          PROMPT
+
+          # Strip the leading 10 spaces of indentation that YAML required
+          sed -i 's/^          //' system_prompt.txt
+
+          # Assemble the user prompt (the actual data we want Claude to read)
+          {
+            echo "Today is $TODAY. In the last 24 hours there were $COMMIT_COUNT commits touching $FILE_COUNT files in the Sebenza Hub Obsidian vault."
+            echo
+            echo "Below is the raw activity. Read it and write the briefing."
+            echo
+            echo "=== COMMITS ==="
+            cat commits.txt
+            echo
+            echo "=== FILES CHANGED (path, +added, -deleted) ==="
+            cat diffstat.txt
+            echo
+            echo "=== DIFF CONTENT (truncated to 60KB) ==="
+            cat diffcontent.txt
+          } > user_prompt.txt
+
+          # Build the JSON payload safely with jq, reading prompts from files
+          jq -n \
+            --arg model "claude-sonnet-4-6" \
+            --rawfile system system_prompt.txt \
+            --rawfile user user_prompt.txt \
+            '{model: $model, max_tokens: 1500, system: $system, messages: [{role: "user", content: $user}]}' \
+            > payload.json
+
+          # Call the Anthropic Messages API
+          HTTP_CODE=$(curl -sS -o response.json -w '%{http_code}' \
+            https://api.anthropic.com/v1/messages \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "content-type: application/json" \
+            -d @payload.json)
+
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "Anthropic API returned HTTP $HTTP_CODE"
+            cat response.json
+            # Don't fail the workflow — fall back to a stub so the email still ships
+            echo "_(Claude prose briefing unavailable today — API returned HTTP $HTTP_CODE. Raw activity follows below.)_" > prose.md
+            exit 0
+          fi
+
+          jq -r '.content[0].text' response.json > prose.md
+
+      - name: Assemble email body
+        id: digest
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          TODAY="${{ steps.collect.outputs.today }}"
+          COMMIT_COUNT="${{ steps.collect.outputs.commit_count }}"
+          FILE_COUNT="${{ steps.collect.outputs.file_count }}"
+
+          if [ "$COMMIT_COUNT" = "0" ]; then
+            {
+              echo "Good morning."
+              echo
+              echo "Nothing new landed in the vault yesterday — no commits in the last 24 hours. Enjoy the quiet morning."
+              echo
+              echo "— Your wiki assistant"
+            } > digest.md
+            echo "subject=Vault Digest — $TODAY (quiet day)" >> "$GITHUB_OUTPUT"
+          else
+            {
+              echo "Good morning."
+              echo
+              cat prose.md
+              echo
+              echo "---"
+              echo
+              echo "**At a glance:** $COMMIT_COUNT commits, $FILE_COUNT files touched."
+              echo
+              echo "**Commits**"
+              echo
+              git log --since="24 hours ago" --pretty=format:'- \`%h\` %s _(%an)_' --reverse
+              echo
+              echo
+              echo "**Files changed**"
+              echo
+              echo '```'
+              awk -F'\t' '{printf "  %-6s %-6s  %s\n", $2, $3, $1}' diffstat.txt
+              echo '```'
+              echo
+              echo "_— Your wiki assistant, generated by GitHub Actions_"
+            } > digest.md
+            echo "subject=Vault Digest — $TODAY ($COMMIT_COUNT commits)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: ${{ steps.digest.outputs.subject }}
+          to: ${{ secrets.MAIL_TO || secrets.SMTP_USERNAME }}
+          from: Sebenza Hub Vault <${{ secrets.MAIL_FROM || secrets.SMTP_USERNAME }}>
+          body: file://digest.md
+          convert_markdown: true
