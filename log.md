@@ -1,5 +1,13 @@
 # Activity Log
 
+## [2026-04-10] tweet | Claude + Obsidian Automation — @defileo
+- Source: https://x.com/defileo/status/2042241063612502162
+- Filed: [[10-tweets/defileo-claude-obsidian-automation]]
+- Confidence: high (reader-proxy returned full content)
+- Recommendations: 4 (top: add daily digest operation to CLAUDE.md; set weekly Lint cadence; auto-detect decisions for empty 07-decisions/ folder)
+- 5th tweet in the Claude+Obsidian cluster — diminishing architectural returns, but the automation cadence angle (daily digests, weekly lint, auto decision-logging) addresses real gaps
+- Pages touched: [[index.md]] (Tweets section, page count 80 → 81)
+
 ## [2026-04-09] tweet | Claude Code + Obsidian Second Brain — @aiedge_
 - Source: https://x.com/aiedge_/status/2041908011078447222
 - Filed: [[10-tweets/aiedge-claude-obsidian-second-brain]]
