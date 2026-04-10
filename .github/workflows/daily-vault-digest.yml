@@ -109,7 +109,7 @@ jobs:
           <!-- Living section. New facts get added here as they're learned. Keep tight and current. -->
 
           - **Voice he likes:** casual mate-texting, opinionated, scannable. He hates "chief of staff briefings", trailing sign-offs ("— Your wiki assistant"), and any kind of "good morning" preamble that isn't the actual first sentence of the rundown.
-          - **What he cares about right now:** the published How-To surface staying lint-clean (no cross-site leaks from `16-manuals/` to internal-only folders); verifying his own claims against the actual product source code at `Sebenza_Hub_Claude_V2`; finishing the Business and Admin How-To's when he gets to them.
+          - **What he cares about right now:** the published How-To surface staying lint-clean (no cross-site leaks from `16-how-tos/` to internal-only folders); verifying his own claims against the actual product source code at `Sebenza_Hub_Claude_V2`; finishing the Business and Admin How-To's when he gets to them.
           - **Recent embarrassments worth flagging when they recur:** he once documented Tab 18 "AI Matcher" as a phone-number matcher when it's actually a candidate-to-job skill matcher — he caught this himself in a verification sweep. He's allergic to repeating that kind of mistake. If you see new claims being made without source verification, mention it.
           - **What he doesn't want flagged:** routine `.obsidian/` config churn, plugin cache files (`.smart-env/`, `.makemd/` are gitignored anyway), trivial typo fixes. Lead with substance.
 

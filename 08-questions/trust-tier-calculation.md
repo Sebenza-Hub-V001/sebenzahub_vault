@@ -108,7 +108,7 @@ Individual users (candidates) also have a `trustTier` field on `candidateProfile
 ## References
 
 - [[01-entities/recruiter-user]] — Trust tier fields on profile
-- [[16-manuals/recruiter/06-ai-profile-assets]] — Where this is documented user-facing (when drafted)
+- [[16-how-tos/recruiter/06-ai-profile-assets]] — Where this is documented user-facing (when drafted)
 - Source: [[09-sources/recruitment-features-2026-04-07]]
 - Source: [[09-sources/ai-enhancement-opportunities-2026-04-07]]
 - Code: `server/routes.ts` lines 5625–5682 (recruiter trust)

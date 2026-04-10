@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-09 | Pages: 80 | Sources: 11 (+8 raw docs) | Presentations: 0 | Manuals: 1 (in progress)
+> Last updated: 2026-04-09 | Pages: 80 | Sources: 11 (+8 raw docs) | Presentations: 0 | How-To's: 1 (in progress)
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -76,9 +76,9 @@ status: active
 - [[15-dashboards/business-dashboard]] — 47 pages, journey-aligned sidebar (Hiring Path + Parallel Tracks)
 - [[15-dashboards/admin-dashboard]] — 24 pages, journey-aligned sidebar (Operations Path + Parallel Tracks)
 
-## Training Manuals
-- [[16-manuals/index]] — End-user training manuals (one per user type)
-- [[16-manuals/individual/index]] — Individual (job seeker) manual — all 23 chapters drafted (Ch 20 partial, blocked on Autopilot open question)
+## How-To's
+- [[16-how-tos/index]] — End-user how-to guides (one per user type)
+- [[16-how-tos/individual/index]] — Individual (job seeker) how-to — all 23 chapters drafted (Ch 20 partial, blocked on Autopilot open question)
 
 ## Comparisons
 - [[06-comparisons/user-type-comparison]] — Side-by-side feature matrix across all 4 user types
@@ -105,4 +105,4 @@ _(No presentations yet.)_
 - [[08-questions/trust-tier-calculation]] — How are recruiter trust tiers calculated? Status: partially resolved (medium confidence)
 - [[08-questions/subscription-plans]] — What are the 18 plans and their pricing? Status: partially resolved (pricing hints found)
 - [[08-questions/ai-provider-selection]] — How is the AI provider selected per feature? Status: partially resolved (admin-configurable confirmed)
-- [[08-questions/individual-training-manual-plan]] — Plan and outline for the Individual training manual. Status: in progress (Part 1 drafted)
+- [[08-questions/individual-training-manual-plan]] — Plan and outline for the Individual how-to guide. Status: in progress (Part 1 drafted)

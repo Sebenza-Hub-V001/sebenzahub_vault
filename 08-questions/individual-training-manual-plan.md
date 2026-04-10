@@ -1,28 +1,28 @@
 ---
-title: "Individual Training Manual — Plan & Outline"
+title: "Individual How-To Guide — Plan & Outline"
 type: question
 created: 2026-04-09
 updated: 2026-04-09
-tags: [training, manual, individual, documentation, planning]
+tags: [training, how-to, individual, documentation, planning]
 sources: [individual-features-2026-04-07, individual-journey-gap-analysis-2026-04-07]
 status: active
 confidence: high
 user-types: [individual]
 ---
 
-# Individual Training Manual — Plan & Outline
+# Individual How-To Guide — Plan & Outline
 
-This page captures the plan for the **Individual user training manual** and tracks open questions before each part is drafted. The manual itself lives in `16-manuals/individual/`.
+This page captures the plan for the **Individual user how-to guide** and tracks open questions before each part is drafted. The how-to guide itself lives in `16-how-tos/individual/`.
 
 ## Goal
 
-Produce a task-oriented training manual that takes a brand-new Individual user from signup to a successful first hire. The manual should be readable end-to-end by a true beginner, while also functioning as a reference for users who already know the basics and need to look up a specific task.
+Produce a task-oriented how-to guide that takes a brand-new Individual user from signup to a successful first hire. The how-to guide should be readable end-to-end by a true beginner, while also functioning as a reference for users who already know the basics and need to look up a specific task.
 
 ## Source material (already in the wiki)
 
-The wiki already contains the raw material. The manual is a *reshape*, not a research project.
+The wiki already contains the raw material. The how-to guide is a *reshape*, not a research project.
 
-| Existing wiki page | Role for the manual |
+| Existing wiki page | Role for the how-to guide |
 |--------------------|---------------------|
 | [[01-entities/individual-user]] | Master feature inventory (57 features in 6 categories) |
 | [[03-workflows/individual-journey]] | End-to-end journey, hiring path + parallel tracks (the spine) |
@@ -43,7 +43,7 @@ The wiki already contains the raw material. The manual is a *reshape*, not a res
 4. **Defer power-user features** (Autopilot, Career DNA, Market Radar, Opportunity Weights) to Part 6.
 5. **Write to outcomes, not features.** Each section answers "what am I trying to achieve?" before "which button do I click?"
 6. **Every chapter ends with a checklist** the user can self-verify against.
-7. **Cross-link to the wiki**, do not duplicate it. The manual is for end users; the wiki is for the team.
+7. **Cross-link to the wiki**, do not duplicate it. The how-to guide is for end users; the wiki is for the team.
 
 ## Outline
 
@@ -94,7 +94,7 @@ Part 6 — Advanced (optional)
 ## Status
 
 - [x] Plan filed (this page)
-- [x] `16-manuals/individual/` scaffold created
+- [x] `16-how-tos/individual/` scaffold created
 - [x] Part 1 (Chapters 1–4) drafted
 - [x] Part 2 (Chapters 5–8) drafted
 - [x] Part 3 (Chapters 9–12) drafted
@@ -102,14 +102,14 @@ Part 6 — Advanced (optional)
 - [x] Part 5 (Chapters 17–19) drafted
 - [x] Part 6 (Chapters 20–23) drafted — Ch 20 (Autopilot) is a *partial* draft pending the operational details from the open question; Ch 21–23 are full drafts
 - [ ] Screenshots captured
-- [ ] Recruiter manual planned (sibling to this one)
-- [ ] Business manual planned
-- [ ] Admin manual planned
+- [ ] Recruiter how-to planned (sibling to this one)
+- [ ] Business how-to planned
+- [ ] Admin how-to planned
 
 ## References
 
-- [[16-manuals/individual/index]] — Manual table of contents
-- [[16-manuals/individual/01-what-sebenza-hub-is]] — Chapter 1
+- [[16-how-tos/individual/index]] — How-to table of contents
+- [[16-how-tos/individual/01-what-sebenza-hub-is]] — Chapter 1
 - [[03-workflows/individual-journey]] — Source spine
 - [[01-entities/individual-user]] — Feature inventory
 - [[15-dashboards/individual-dashboard]] — UI grouping
