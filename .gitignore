@@ -3,10 +3,11 @@
 .obsidian/workspace-mobile.json
 .obsidian/plugins/recent-files-obsidian/data.json
 
-# make.md caches (binary, regenerated locally)
-.makemd/fileCache.mdc
-.makemd/superstate.mdc
+# make.md caches (binary, regenerated locally on every save)
+.makemd/
 
-# smart-env append-only logs and per-file state
-.smart-env/event_logs/
-.smart-env/multi/
+# Smart Connections cache and per-file state (regenerated locally)
+.smart-env/
+
+# Local trash
+.trash/
