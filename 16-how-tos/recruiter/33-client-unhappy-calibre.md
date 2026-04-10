@@ -3,7 +3,7 @@ title: "Chapter 33 — \"My client is unhappy with the calibre\""
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, troubleshooting, client-management]
+tags: [how-to, recruiter, troubleshooting, client-management]
 status: draft
 user-types: [recruiter]
 ---
@@ -171,12 +171,12 @@ A walked-away client is better than a client who churns six months later with da
 
 ## Next chapter
 
-[[16-manuals/recruiter/34-advanced-and-platinum|Chapter 34 — Predictive Hiring, Rapid Workflow, and the path to Platinum trust]]
+[[16-how-tos/recruiter/34-advanced-and-platinum|Chapter 34 — Predictive Hiring, Rapid Workflow, and the path to Platinum trust]]
 
 ## References
 
-- [[16-manuals/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]
-- [[16-manuals/recruiter/20-making-an-offer|Chapter 20 — Making an offer (benchmarking)]]
-- [[16-manuals/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
-- [[16-manuals/recruiter/29-career-site-brand|Chapter 29 — Location Intel]]
-- [[16-manuals/recruiter/34-advanced-and-platinum|Chapter 34 — Advanced features and Platinum trust]]
+- [[16-how-tos/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]
+- [[16-how-tos/recruiter/20-making-an-offer|Chapter 20 — Making an offer (benchmarking)]]
+- [[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
+- [[16-how-tos/recruiter/29-career-site-brand|Chapter 29 — Location Intel]]
+- [[16-how-tos/recruiter/34-advanced-and-platinum|Chapter 34 — Advanced features and Platinum trust]]

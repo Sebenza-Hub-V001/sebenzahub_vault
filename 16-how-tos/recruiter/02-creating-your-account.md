@@ -3,7 +3,7 @@ title: "Chapter 2 — Creating your account"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, signup]
+tags: [how-to, recruiter, signup]
 status: draft
 user-types: [recruiter]
 ---
@@ -40,7 +40,7 @@ The first time you log in, Sebenza Hub doesn't know whether you're a job seeker,
 
 Choose **Recruiter**.
 
-> ⚠️ **This is the most important click in the manual.** Once you select Recruiter and complete onboarding, your role is **locked** to this account. You cannot later switch this same login to a Business account or an Individual account. If you accidentally pick the wrong role, the cleanest fix is to use a different email address and start over.
+> ⚠️ **This is the most important click in the guide.** Once you select Recruiter and complete onboarding, your role is **locked** to this account. You cannot later switch this same login to a Business account or an Individual account. If you accidentally pick the wrong role, the cleanest fix is to use a different email address and start over.
 
 If you also need to:
 
@@ -51,7 +51,7 @@ These are not the same account, and they cannot share a login.
 
 ## Step 4 — On to agency onboarding
 
-After you select Recruiter, you'll be taken to a longer form for setting up your agency. That's covered in [[16-manuals/recruiter/03-agency-onboarding|Chapter 3]].
+After you select Recruiter, you'll be taken to a longer form for setting up your agency. That's covered in [[16-how-tos/recruiter/03-agency-onboarding|Chapter 3]].
 
 ## What to do if signup fails
 
@@ -69,9 +69,9 @@ After you select Recruiter, you'll be taken to a longer form for setting up your
 
 ## Next chapter
 
-[[16-manuals/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding: setting up your organisation]]
+[[16-how-tos/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding: setting up your organisation]]
 
 ## References
 
 - [[02-concepts/authentication]] — How magic-link authentication works under the hood
-- [[16-manuals/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]
+- [[16-how-tos/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]

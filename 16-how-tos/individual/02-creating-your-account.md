@@ -3,7 +3,7 @@ title: "Chapter 2 — Creating your account"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, signup, authentication]
+tags: [how-to, individual, signup, authentication]
 status: active
 user-types: [individual]
 ---
@@ -44,7 +44,7 @@ Open the email and click the magic link. This will:
 4. Sign you in
 5. ![[Pasted image 20260409145857.png]]
 
-The first time you do this, you'll be redirected to **/onboarding** because Sebenza Hub doesn't know who you are yet. That's covered in [[16-manuals/individual/03-onboarding|Chapter 3]].
+The first time you do this, you'll be redirected to **/onboarding** because Sebenza Hub doesn't know who you are yet. That's covered in [[16-how-tos/individual/03-onboarding|Chapter 3]].
 
 > **If you click the link and get an "expired token" error**, it means either the 15 minutes ran out or the link has already been used. Go back to /login and request a fresh one — there's nothing wrong with your account.
 
@@ -71,7 +71,7 @@ Passwordless login is genuinely safer than a password for most people. There's n
 
 ## Next chapter
 
-[[16-manuals/individual/03-onboarding|Chapter 3 — Onboarding: the 6 things you need to fill in]]
+[[16-how-tos/individual/03-onboarding|Chapter 3 — Onboarding: the 6 things you need to fill in]]
 
 ## References
 

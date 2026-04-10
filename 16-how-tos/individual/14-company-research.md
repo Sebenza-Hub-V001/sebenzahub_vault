@@ -3,7 +3,7 @@ title: "Chapter 14 — Researching a company"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, interview, research]
+tags: [how-to, individual, interview, research]
 status: active
 user-types: [individual]
 ---
@@ -141,9 +141,9 @@ Company research feeds back into the Interview Simulator (Chapter 13). Once you 
 
 ## Next chapter
 
-[[16-manuals/individual/15-receiving-an-offer|Chapter 15 — Receiving and responding to an offer]]
+[[16-how-tos/individual/15-receiving-an-offer|Chapter 15 — Receiving and responding to an offer]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Step 6 (Interview)
-- [[16-manuals/individual/13-interview-simulator|Chapter 13]] — Where this research feeds back into prep
+- [[16-how-tos/individual/13-interview-simulator|Chapter 13]] — Where this research feeds back into prep

@@ -14,9 +14,9 @@
 - **Lesson:** the original tab inventory agent's report had several inferences and at least one straight-up wrong tab attribution (AI Matcher described as phone matcher despite the file being WhatsAppCandidateMatcher.tsx). Don't trust agent inferences for anything that ends up in a doc — verify with grep before publishing.
 
 ## [2026-04-09] lint | Cross-site leak cleanup of `02-concepts/` and `03-workflows/` published pages
-- Context: follow-up to the recruiter manual completion. The recruiter and individual manuals reference 7 concept pages and 2 workflow pages — these are part of the public `sebenzahub-manual` Publish surface (everything inside `16-manuals/` plus the concept/workflow pages those chapters link to). Same cross-site leak rule applies to these pages.
+- Context: follow-up to the recruiter how-to completion. The recruiter and individual how-tos reference 7 concept pages and 2 workflow pages — these are part of the public `sebenzahub-manual` Publish surface (everything inside `16-how-tos/` plus the concept/workflow pages those chapters link to). Same cross-site leak rule applies to these pages.
 - Scan results: **45 leaks across 8 published files** (1 page — `02-concepts/whatsapp-integration` — was missed in the first scan but caught and cleaned in the same pass; 1 page — `02-concepts/billing-system` — was missed in the first scan because it's only referenced from Chapter 4.5, but caught and cleaned after a complete cross-reference grep). The 9th page caught later was `03-workflows/individual-journey`.
-- Strategy: same Option A (strip and rewrite) used in the original `16-manuals/individual/` cleanup. Three patterns:
+- Strategy: same Option A (strip and rewrite) used in the original `16-how-tos/individual/` cleanup. Three patterns:
   1. **References tail bulk strip** (most pages) — removed `01-entities/`, `09-sources/`, `08-questions/` links from References sections, kept allowed-folder links, added adjacent `03-workflows/*` or `02-concepts/*` links where the section thinned out.
   2. **Inline mid-document references** (recruiter-journey and individual-journey) — removed `See [[01-entities/X]] for details.` lines entirely; the surrounding prose still works without the link.
   3. **"Key Touchpoints" tables in journey files** — rewrote table cells from `[[01-entities/recruiter-user]]` to plain text descriptions ("Recruiters or Business hiring teams"). Same information, no leak.
@@ -30,31 +30,31 @@
   - [[02-concepts/billing-system]] — References tail (1 edit, 4 leaks)
   - [[03-workflows/recruiter-journey]] — 4 inline `See [[...]]` lines + Key Touchpoints table + References (6 edits, 17 leaks — the worst offender)
   - [[03-workflows/individual-journey]] — 4 inline `See [[...]]` lines + Key Touchpoints table + References (6 edits, 13 leaks)
-- Re-scan after cleanup: **0 leaks across all 9 files**. Re-scan of `16-manuals/individual/` and `16-manuals/recruiter/` (35 + 23 = 58 chapter files): **0 leaks**.
+- Re-scan after cleanup: **0 leaks across all 9 files**. Re-scan of `16-how-tos/individual/` and `16-how-tos/recruiter/` (35 + 23 = 58 chapter files): **0 leaks**.
 - **Total public surface (after cleanup):** 67 files, 0 leaks.
-  - 23 individual manual chapters
-  - 35 recruiter manual chapters
+  - 23 individual how-to chapters
+  - 35 recruiter how-to chapters
   - 7 concept pages (authentication, compliance, ai-features, application-lifecycle, multi-tenancy, whatsapp-integration, billing-system)
   - 2 workflow pages (individual-journey, recruiter-journey)
-- **NOT cleaned (intentional)** — 5 dirty pages that no manual chapter references, so they don't need to be published on the manual site:
+- **NOT cleaned (intentional)** — 5 dirty pages that no how-to chapter references, so they don't need to be published on the how-to site:
   - `02-concepts/rbac` (3 leaks) — internal-only audience
   - `02-concepts/tech-stack` (2 leaks) — internal-only
   - `02-concepts/seo-strategy` (2 leaks) — internal-only
-  - `03-workflows/business-journey` (10 leaks) — Business manual not yet planned
-  - `03-workflows/admin-journey` (8 leaks) — Admin runbooks live in `05-procedures/`, not `16-manuals/admin/`
+  - `03-workflows/business-journey` (10 leaks) — Business how-to not yet planned
+  - `03-workflows/admin-journey` (8 leaks) — Admin runbooks live in `05-procedures/`, not `16-how-tos/admin/`
   These can be hidden in the Obsidian Publish Navigation UI for `sebenzahub-manual` and remain publishable on the internal `sebenzahub` site.
 - **User action still needed in Obsidian Publish:**
   - Show the 9 cleaned files in the Navigation UI for `sebenzahub-manual`
   - Hide the 5 internal-only files listed above
-  - The full public publishing list is now: 16-manuals/individual/* + 16-manuals/recruiter/* + the 9 concept/workflow files above
+  - The full public publishing list is now: 16-how-tos/individual/* + 16-how-tos/recruiter/* + the 9 concept/workflow files above
 
 ## [2026-04-09] procedure | Admin WhatsApp tab reference — hidden gems section + corrections
-- Added a "Hidden gems & non-obvious features" section to [[05-procedures/admin-whatsapp-tab-reference]] documenting 8 features that aren't in the original Sebenza Hub WhatsApp Bot Training Manual: (1) Broadcast Studio is a 3-in-1 (broadcasts + drips + contact lists), (2) Team Inbox 10-15s polling, (3) War Room 10-15s polling + `predictedNext30Min` forward-looking signal, (4) Contact CRM tab is rendered by `WhatsAppContactIntelligence` component (verified at AdminWhatsApp.tsx:47/1396/5318), (5) Automation tab supports PDF attachments on greeting/fallback, (6) Estimated Cost in ZAR in Broadcast Studio is the easiest cost-watch number, (7) Bot Training Playground for fast intent testing, (8) Replay & Debug auto-flags Critical Moments.
+- Added a "Hidden gems & non-obvious features" section to [[05-procedures/admin-whatsapp-tab-reference]] documenting 8 features that aren't in the original Sebenza Hub WhatsApp Bot How-To Guide: (1) Broadcast Studio is a 3-in-1 (broadcasts + drips + contact lists), (2) Team Inbox 10-15s polling, (3) War Room 10-15s polling + `predictedNext30Min` forward-looking signal, (4) Contact CRM tab is rendered by `WhatsAppContactIntelligence` component (verified at AdminWhatsApp.tsx:47/1396/5318), (5) Automation tab supports PDF attachments on greeting/fallback, (6) Estimated Cost in ZAR in Broadcast Studio is the easiest cost-watch number, (7) Bot Training Playground for fast intent testing, (8) Replay & Debug auto-flags Critical Moments.
 - **Corrections to earlier docs:** my previous tab-reference and morning-routine versions claimed Live Pulse and War Room polled every 5 seconds and described a "Crisis banner" with specific firing thresholds (3+ critical in 5 min, sentiment cluster, delivery drop). Both were wrong. Verified actual `refetchInterval` values from source: AdminWhatsApp.tsx uses 10-30s intervals (no 5s anywhere); WhatsAppEscalationWarRoom.tsx uses 10-15s. The "Crisis banner" with the specific thresholds I described does not exist in the code — only `activeEscalations` and `predictedNext30Min` header stats. Fixed three locations in [[05-procedures/admin-whatsapp-tab-reference]] (Tab 1 polling note, Tab 21 Crisis section + polling note, polling frequency table) and two locations in [[05-procedures/admin-whatsapp-morning-routine]] (War Room check section, red-flag escalation table). Added a visible "Earlier doc correction" callout in Tab 21 to flag the change for anyone who read the previous version.
 - Pages touched: [[05-procedures/admin-whatsapp-tab-reference]], [[05-procedures/admin-whatsapp-morning-routine]], [[index]] (updated tab-reference description).
 
-## [2026-04-09] update | Recruiter Training Manual — first complete draft (35 chapters)
-- Context: sibling to the Individual manual. Required because Sebenza Hub's recruiter side has 101 pages across 11 feature categories — significantly larger than Individual's ~50 features. Plan filed earlier in [[08-questions/recruiter-training-manual-plan]] with a 34-chapter outline; Chapter 4.5 (How we charge) added during drafting at user request, bringing total to 35.
+## [2026-04-09] update | Recruiter How-To Guide — first complete draft (35 chapters)
+- Context: sibling to the Individual how-to. Required because Sebenza Hub's recruiter side has 101 pages across 11 feature categories — significantly larger than Individual's ~50 features. Plan filed earlier in [[08-questions/recruiter-training-manual-plan]] with a 34-chapter outline; Chapter 4.5 (How we charge) added during drafting at user request, bringing total to 35.
 - Codebase research resolved 5 blocking open questions before drafting, all confirmed via grep at `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2`:
   - **Trust tier calculation** — 7-badge formula in `server/routes.ts:5625-5682`. trustScore = (earnedCount/7)*100. Bronze 0-2, Silver 3-4, Gold 5, Platinum 6-7. Documented in [[08-questions/trust-tier-calculation]] with the full Bronze→Platinum playbook.
   - **Exclusivity model** — `jobIntakeScorecard.exclusivity` field at `shared/schema.ts:7450` with 3 values: exclusive/preferred/contingent. Sebenza Hub does NOT enforce exclusivity — it's a recruiter-side categorisation for analytics. Critical legal framing in Chapter 9.
@@ -63,19 +63,19 @@
   - **Verification** — manual admin review via `organizations.isVerified` flag and `/admin/recruiters` route.
 - Drafted in 5 batches across the session: Part 1 (Ch 1-4 + 4.5) → Parts 2+3 (Ch 5-10) → Parts 4+5 (Ch 11-21) → Parts 6-9 (Ch 22-30) → Parts 10+11 (Ch 31-34).
 - All 35 chapters use real schema field names, real status enums, and real plan pricing. No "to be confirmed" hedging.
-- Cross-site leak rule (from earlier session) enforced throughout — every chapter only links to `02-concepts/`, `03-workflows/`, or other `16-manuals/recruiter/` chapters. Re-grepped the full folder after each batch; final scan: 0 leaks across all 36 files.
+- Cross-site leak rule (from earlier session) enforced throughout — every chapter only links to `02-concepts/`, `03-workflows/`, or other `16-how-tos/recruiter/` chapters. Re-grepped the full folder after each batch; final scan: 0 leaks across all 36 files.
 - New pages created:
-  - [[16-manuals/recruiter/index]] — Manual table of contents
-  - [[16-manuals/recruiter/01-what-sebenza-hub-is-for-recruiters]] through [[16-manuals/recruiter/34-advanced-and-platinum]] (35 chapters)
+  - [[16-how-tos/recruiter/index]] — How-to table of contents
+  - [[16-how-tos/recruiter/01-what-sebenza-hub-is-for-recruiters]] through [[16-how-tos/recruiter/34-advanced-and-platinum]] (35 chapters)
   - [[08-questions/recruiter-training-manual-plan]] — Plan and outline (filed earlier in session, marked complete)
 - Existing pages updated:
   - [[08-questions/trust-tier-calculation]] — Resolution section added with full formula
   - [[08-questions/subscription-plans]] — Resolution section added with full plan table
 - Memory persisted: codebase location reference saved so future sessions can grep `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2` without asking for the path.
 - Outstanding (deferred):
-  - The 7 `02-concepts/` and `03-workflows/` pages the recruiter manual references all have their own cross-site leaks to internal folders. Lint pass run; ~40 leaks identified across 7 files. Cleanup pending user go-ahead.
-  - Screenshots — same status as Individual manual.
-  - Business and Admin manuals — not yet planned. Note: user has filed [[05-procedures/admin-whatsapp-command-center-setup]], [[05-procedures/admin-whatsapp-tab-reference]], and [[05-procedures/admin-whatsapp-morning-routine]] as internal-only admin runbooks (correctly placed under `05-procedures/`, not `16-manuals/admin/`, to keep them off the public site).
+  - The 7 `02-concepts/` and `03-workflows/` pages the recruiter how-to references all have their own cross-site leaks to internal folders. Lint pass run; ~40 leaks identified across 7 files. Cleanup pending user go-ahead.
+  - Screenshots — same status as Individual how-to.
+  - Business and Admin how-tos — not yet planned. Note: user has filed [[05-procedures/admin-whatsapp-command-center-setup]], [[05-procedures/admin-whatsapp-tab-reference]], and [[05-procedures/admin-whatsapp-morning-routine]] as internal-only admin runbooks (correctly placed under `05-procedures/`, not `16-how-tos/admin/`, to keep them off the public site).
 
 ## [2026-04-09] procedure | Admin WhatsApp morning routine cheat sheet
 - Filed: [[05-procedures/admin-whatsapp-morning-routine]] — one-page printable distillation of the daily checks from the tab reference. 5 sequential checks (Live Pulse → War Room → Sentiment/Funnel → Compliance → Unmatched), 10-minute time budget, with green/yellow/red thresholds per metric, a daily go/no-go checklist, and a red-flag escalation table for when to call DevOps. Designed to fit on a single A4 page.
@@ -89,30 +89,30 @@
 
 ## [2026-04-09] procedure | Admin WhatsApp Command Center setup runbook
 - Context: user (Admin) requested a personal training guide for setting up and operating the WhatsApp Command Center at `/admin/whatsapp`. Meta-side setup already complete (App ID `1295366105776721`, WABA `914872117983837`, Phone Number ID `1006592152543941`, webhook callback registered). Bot toggle currently OFF in production — flagged in the runbook.
-- Filed: [[05-procedures/admin-whatsapp-command-center-setup]] — internal-only (under `05-procedures/`, NOT `16-manuals/admin/`, to keep it off the public `sebenzahub-manual` site).
+- Filed: [[05-procedures/admin-whatsapp-command-center-setup]] — internal-only (under `05-procedures/`, NOT `16-how-tos/admin/`, to keep it off the public `sebenzahub-manual` site).
 - Scope: full setup (Meta prerequisites → credential paste → webhook verification → test message → bot toggle → bot settings → templates → bot training → automation/flows) PLUS day-to-day operations across all 21 tabs (Command Center, Conversations, Team Inbox, Campaigns, Broadcast Studio, Compliance, Quality & CSAT, AI Intelligence, Contact CRM, Deep Analytics, Replay & Debug, AI Matcher, Growth Engine, DNA Analyzer, War Room) plus operational rhythms, troubleshooting, and reference appendix (env vars, API endpoints, DB tables).
 - Format: numbered runbook with screenshot-to-take placeholders (📸) and pull quotes for warnings/tips.
 - Sources: codebase exploration of `Sebenza_Hub_Claude_V2` — `client/src/pages/admin/AdminWhatsApp.tsx` (5,491 lines, 21 tabs), `server/whatsapp.ts`, `server/routes.ts` (~30 admin WhatsApp endpoints), `shared/schema.ts` (10 whatsapp tables), and `docs/WhatsApp-Bot-Training-Manual.md` (784 lines, mined for tab-by-tab descriptions).
 - User screenshots: Sebenza Hub Configuration tab (Connected banner + Bot OFF strip), Meta App Basic settings, Meta Webhook Configuration page.
 - Pages touched: [[index]] (added new "Procedures" section between Workflows and Sources).
 
-## [2026-04-09] lint | Cross-site leak scan + cleanup of `16-manuals/individual/`
-- Context: vault publishes to two Obsidian Publish sites — `sebenzahub` (internal, full vault) and `sebenzahub-manual` (public, end-user training manual). Per-site visibility is controlled in the Publish Navigation UI; hidden pages still resolve by direct URL.
+## [2026-04-09] lint | Cross-site leak scan + cleanup of `16-how-tos/individual/`
+- Context: vault publishes to two Obsidian Publish sites — `sebenzahub` (internal, full vault) and `sebenzahub-manual` (public, end-user how-to guide). Per-site visibility is controlled in the Publish Navigation UI; hidden pages still resolve by direct URL.
 - Updated [[CLAUDE]]:
-  - Added a **Cross-site leaks** check to the Lint workflow (rule: any `[[wiki-link]]` inside `16-manuals/` that targets a folder other than `16-manuals/`, `02-concepts/`, or `03-workflows/` is a leak).
-  - Added a **Two-Site Publish** subsection under Domain-Specific Extensions documenting the two sites, allowed/forbidden link targets, and authoring rules for `16-manuals/` pages.
-- Scan results: 47 leak instances across 21 files in `16-manuals/individual/`, hitting 5 internal folders (`01-entities/`, `06-comparisons/`, `08-questions/`, `15-dashboards/`, plus one mid-chapter Open question pattern).
+  - Added a **Cross-site leaks** check to the Lint workflow (rule: any `[[wiki-link]]` inside `16-how-tos/` that targets a folder other than `16-how-tos/`, `02-concepts/`, or `03-workflows/` is a leak).
+  - Added a **Two-Site Publish** subsection under Domain-Specific Extensions documenting the two sites, allowed/forbidden link targets, and authoring rules for `16-how-tos/` pages.
+- Scan results: 47 leak instances across 21 files in `16-how-tos/individual/`, hitting 5 internal folders (`01-entities/`, `06-comparisons/`, `08-questions/`, `15-dashboards/`, plus one mid-chapter Open question pattern).
 - Fix strategy applied: **Option A — strip and rewrite.**
-  - Removed all internal-folder links from References sections in chapters 01–23 + index. Where stripping left a section thin, added an adjacent `16-manuals/individual/` chapter link.
+  - Removed all internal-folder links from References sections in chapters 01–23 + index. Where stripping left a section thin, added an adjacent `16-how-tos/individual/` chapter link.
   - Rewrote 4 mid-chapter "Open question" callouts as plain "Heads up" prose: chs 6 (CV Review pricing), 11 (Cover Letter pricing), 16 (Salary Negotiator pricing), 19 (Learning Paths curation).
   - Rewrote chapter 20 (Autopilot): converted internal `## Open question` section to `## What we'll cover in a future update` with no links; de-leaked the partial-draft warning at the top.
-  - Updated [[16-manuals/individual/index]]: removed internal references (Plan, Feature inventory, Dashboard layout); kept Source spine (`03-workflows/individual-journey`, allowed).
-- Files touched: 22 files, 28 edits total. Re-scan confirms zero leaks remaining in `16-manuals/individual/`.
-- Allowed cross-folder targets still in use (must be **shown** on the manual site): `02-concepts/authentication`, `02-concepts/compliance`, `02-concepts/ai-features`, `02-concepts/application-lifecycle`, `03-workflows/individual-journey`.
+  - Updated [[16-how-tos/individual/index]]: removed internal references (Plan, Feature inventory, Dashboard layout); kept Source spine (`03-workflows/individual-journey`, allowed).
+- Files touched: 22 files, 28 edits total. Re-scan confirms zero leaks remaining in `16-how-tos/individual/`.
+- Allowed cross-folder targets still in use (must be **shown** on the how-to site): `02-concepts/authentication`, `02-concepts/compliance`, `02-concepts/ai-features`, `02-concepts/application-lifecycle`, `03-workflows/individual-journey`.
 - Outstanding (not done in this pass):
   - User must still hide internal folders in the Obsidian Publish Navigation UI for `sebenzahub-manual` (no file-based config to set).
   - The 5 published `02-concepts/` and `03-workflows/` pages above need their own leak scan, since they're now part of the public surface area.
-  - Recruiter / business / admin manuals are not yet drafted; same lint rule will apply when they are.
+  - Recruiter / business / admin how-tos are not yet drafted; same lint rule will apply when they are.
 
 ## [2026-04-09] tweet | Claude Code + Obsidian Second Brain — @aiedge_
 - Source: https://x.com/aiedge_/status/2041908011078447222
@@ -132,7 +132,7 @@
 - Pages touched: [[index.md]] (Tweets section, page count 78 → 79)
 - No entity/concept pages edited yet — awaiting Rec #7 decision record before making architectural claims in [[02-concepts/ai-features]]
 
-## [2026-04-09] edit | Individual Training Manual — editorial pass
+## [2026-04-09] edit | Individual How-To Guide — editorial pass
 - Audited all 23 chapters for consistency, repeated phrasing, broken links, and shaky claims
 - Findings:
   - All chapters have Checklist, Next chapter, References sections (Ch 23 correctly omits Next chapter as the final chapter)
@@ -141,45 +141,45 @@
   - Average length 145 lines; longest is Ch 7 at 190 lines (Skills + Verifications + Credentials + Video + Portfolio — kept as-is, content is justified)
 - Targeted edits:
   - Varied "This chapter is X" opening pattern in Ch 6, Ch 9, Ch 17 (was used in 6 chapters; trimmed to 3)
-  - Removed misleading [[Chapter 7]] cross-link in [[16-manuals/individual/03-onboarding]] (job preferences live in Settings, not Ch 7)
-  - Hedged unverified factual claim in [[16-manuals/individual/08-privacy-and-popia]] about per-organisation blocking (was asserting nonexistence; now invites users to check Settings)
-  - Hedged unsupported "at least a third" silent-application statistic in [[16-manuals/individual/11-applying]] to "a meaningful fraction"
+  - Removed misleading [[Chapter 7]] cross-link in [[16-how-tos/individual/03-onboarding]] (job preferences live in Settings, not Ch 7)
+  - Hedged unverified factual claim in [[16-how-tos/individual/08-privacy-and-popia]] about per-organisation blocking (was asserting nonexistence; now invites users to check Settings)
+  - Hedged unsupported "at least a third" silent-application statistic in [[16-how-tos/individual/11-applying]] to "a meaningful fraction"
 - No structural changes; no chapters rewritten; no content cut
 
-## [2026-04-09] update | Individual Training Manual — Parts 3, 4, 5, 6 drafted (manual complete)
+## [2026-04-09] update | Individual How-To Guide — Parts 3, 4, 5, 6 drafted (how-to complete)
 - Drafted full bodies for chapters 9–23 (with Ch 20 as a partial pending the Autopilot open question):
-  - Part 3 (Find and Apply): [[16-manuals/individual/09-search-modes]], [[16-manuals/individual/10-saved-searches-and-favourites]], [[16-manuals/individual/11-applying]], [[16-manuals/individual/12-tracking-applications]]
-  - Part 4 (Interview and Offer): [[16-manuals/individual/13-interview-simulator]], [[16-manuals/individual/14-company-research]], [[16-manuals/individual/15-receiving-an-offer]], [[16-manuals/individual/16-salary-negotiator]]
-  - Part 5 (Troubleshooting): [[16-manuals/individual/17-no-responses]], [[16-manuals/individual/18-no-direction]], [[16-manuals/individual/19-level-up]]
-  - Part 6 (Advanced): [[16-manuals/individual/20-autopilot]] (partial — blocked on operational details), [[16-manuals/individual/21-career-dna]], [[16-manuals/individual/22-market-radar]], [[16-manuals/individual/23-community-and-mentorship]]
+  - Part 3 (Find and Apply): [[16-how-tos/individual/09-search-modes]], [[16-how-tos/individual/10-saved-searches-and-favourites]], [[16-how-tos/individual/11-applying]], [[16-how-tos/individual/12-tracking-applications]]
+  - Part 4 (Interview and Offer): [[16-how-tos/individual/13-interview-simulator]], [[16-how-tos/individual/14-company-research]], [[16-how-tos/individual/15-receiving-an-offer]], [[16-how-tos/individual/16-salary-negotiator]]
+  - Part 5 (Troubleshooting): [[16-how-tos/individual/17-no-responses]], [[16-how-tos/individual/18-no-direction]], [[16-how-tos/individual/19-level-up]]
+  - Part 6 (Advanced): [[16-how-tos/individual/20-autopilot]] (partial — blocked on operational details), [[16-how-tos/individual/21-career-dna]], [[16-how-tos/individual/22-market-radar]], [[16-how-tos/individual/23-community-and-mentorship]]
 - Plan checklist updated: Parts 3–6 marked complete; Ch 20 noted as partial
-- All 23 chapters of the Individual Training Manual now have body content (Ch 20 still labelled partial in-page)
+- All 23 chapters of the Individual How-To Guide now have body content (Ch 20 still labelled partial in-page)
 - Outstanding open questions still flagged inline in affected chapters: Autopilot operational behaviour (Ch 20), pricing tiers (Ch 6, Ch 11, Ch 16), Learning Path curation (Ch 19)
-- Next: screenshot capture pass; review/edit pass on full manual; sibling manuals for Recruiter / Business / Admin
+- Next: screenshot capture pass; review/edit pass on full how-to guide; sibling how-tos for Recruiter / Business / Admin
 
-## [2026-04-09] update | Individual Training Manual — Part 2 drafted
+## [2026-04-09] update | Individual How-To Guide — Part 2 drafted
 - Drafted full bodies for chapters 5–8 (Build Your Profile):
-  - [[16-manuals/individual/05-uploading-a-cv]] — upload vs build routes, AI parsing review, multiple CV versions
-  - [[16-manuals/individual/06-cv-review]] — what CV Review checks, how to read feedback, what it doesn't do
-  - [[16-manuals/individual/07-skills-credentials-video]] — skills with proficiency, verifications, credentials, video intro, portfolio (when each matters)
-  - [[16-manuals/individual/08-privacy-and-popia]] — public vs private, public profile preview, POPIA rights, notification settings
+  - [[16-how-tos/individual/05-uploading-a-cv]] — upload vs build routes, AI parsing review, multiple CV versions
+  - [[16-how-tos/individual/06-cv-review]] — what CV Review checks, how to read feedback, what it doesn't do
+  - [[16-how-tos/individual/07-skills-credentials-video]] — skills with proficiency, verifications, credentials, video intro, portfolio (when each matters)
+  - [[16-how-tos/individual/08-privacy-and-popia]] — public vs private, public profile preview, POPIA rights, notification settings
 - Plan checklist updated: Part 2 marked complete
 - Pricing-tier open question still flagged in Chapter 6 (CV Review may be paid)
 - Next: Part 3 (chapters 9–12, Find and Apply to Jobs)
 
-## [2026-04-09] new | Individual Training Manual — plan + Part 1 drafted
+## [2026-04-09] new | Individual How-To Guide — plan + Part 1 drafted
 - Plan filed: [[08-questions/individual-training-manual-plan]]
-- New directory: `16-manuals/` (training manuals top-level)
-- New manual scaffold: [[16-manuals/individual/index]] (23 chapters across 6 parts)
+- New directory: `16-how-tos/` (how-to guides top-level)
+- New how-to scaffold: [[16-how-tos/individual/index]] (23 chapters across 6 parts)
 - Part 1 drafted (chapters 1–4):
-  - [[16-manuals/individual/01-what-sebenza-hub-is]] — what the platform is and who it's for
-  - [[16-manuals/individual/02-creating-your-account]] — magic-link sign-up walkthrough
-  - [[16-manuals/individual/03-onboarding]] — six onboarding fields + POPIA consent
-  - [[16-manuals/individual/04-first-10-minutes]] — dashboard orientation tour
+  - [[16-how-tos/individual/01-what-sebenza-hub-is]] — what the platform is and who it's for
+  - [[16-how-tos/individual/02-creating-your-account]] — magic-link sign-up walkthrough
+  - [[16-how-tos/individual/03-onboarding]] — six onboarding fields + POPIA consent
+  - [[16-how-tos/individual/04-first-10-minutes]] — dashboard orientation tour
 - Chapters 5–23 scaffolded (frontmatter, outline, source pages, checklist) — bodies pending
 - Chapter 20 (Autopilot) blocked on open question carried over from [[01-entities/individual-user]]
-- Index updated; `16-manuals/` added as new top-level directory under Manuals
-- Pending: drafting Parts 2–6, screenshot capture, sibling manuals for Recruiter / Business / Admin
+- Index updated; `16-how-tos/` added as new top-level directory under Manuals
+- Pending: drafting Parts 2–6, screenshot capture, sibling how-tos for Recruiter / Business / Admin
 
 ## [2026-04-08] tweet | Obsidian Gives Claude the Memory It Was Never Born With
 - Source: https://x.com/neil_xbt/status/2041779011336999021

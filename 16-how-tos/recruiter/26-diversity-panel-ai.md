@@ -3,7 +3,7 @@ title: "Chapter 26 — Diversity, panel analysis, and AI Intelligence"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, diversity, bias, panel, ai-intelligence]
+tags: [how-to, recruiter, diversity, bias, panel, ai-intelligence]
 status: draft
 user-types: [recruiter]
 ---
@@ -192,12 +192,12 @@ In a busy week, the Engagement Score helps you decide who needs your attention f
 
 ## Next chapter
 
-[[16-manuals/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
+[[16-how-tos/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI bias risks in screening and analysis
 - [[02-concepts/compliance]] — Employment Equity legal context
-- [[16-manuals/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
-- [[16-manuals/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
-- [[16-manuals/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
+- [[16-how-tos/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
+- [[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
+- [[16-how-tos/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]

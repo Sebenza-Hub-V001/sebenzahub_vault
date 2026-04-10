@@ -3,7 +3,7 @@ title: "Chapter 15 — Configuring screening at the job level"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, screening, knockouts, automation]
+tags: [how-to, recruiter, screening, knockouts, automation]
 status: draft
 user-types: [recruiter]
 ---
@@ -161,12 +161,12 @@ Sebenza Hub's `/dashboard/recruiter/requirement-check` is built for exactly this
 
 ## Next chapter
 
-[[16-manuals/recruiter/16-the-pipeline|Chapter 16 — The Pipeline (Kanban): your daily workspace]]
+[[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline (Kanban): your daily workspace]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI scoring and chatbot capabilities
 - [[02-concepts/application-lifecycle]] — Where screening sits in the full lifecycle
-- [[16-manuals/recruiter/11-posting-a-job|Chapter 11 — Posting a job]]
-- [[16-manuals/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-manuals/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
+- [[16-how-tos/recruiter/11-posting-a-job|Chapter 11 — Posting a job]]
+- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[16-how-tos/recruiter/17-screening-tools|Chapter 17 — Screening tools]]

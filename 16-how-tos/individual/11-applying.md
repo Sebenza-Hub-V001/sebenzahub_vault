@@ -3,7 +3,7 @@ title: "Chapter 11 — Applying to a job"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, applications]
+tags: [how-to, individual, applications]
 status: active
 user-types: [individual]
 ---
@@ -145,11 +145,11 @@ You can withdraw an application at any time before the offer stage. Go to **My A
 
 ## Next chapter
 
-[[16-manuals/individual/12-tracking-applications|Chapter 12 — Tracking applications and follow-ups]]
+[[16-how-tos/individual/12-tracking-applications|Chapter 12 — Tracking applications and follow-ups]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Status enum, what each stage means
 - [[03-workflows/individual-journey]] — Step 4 (Search & Apply)
-- [[16-manuals/individual/05-uploading-a-cv|Chapter 5]] — Where your CV came from
-- [[16-manuals/individual/06-cv-review|Chapter 6]] — Re-run before tailoring
+- [[16-how-tos/individual/05-uploading-a-cv|Chapter 5]] — Where your CV came from
+- [[16-how-tos/individual/06-cv-review|Chapter 6]] — Re-run before tailoring

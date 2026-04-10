@@ -3,7 +3,7 @@ title: "Chapter 15 — Receiving an offer"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, offers]
+tags: [how-to, individual, offers]
 status: active
 user-types: [individual]
 ---
@@ -171,9 +171,9 @@ You can also leave a post-interview experience survey if the platform invites yo
 
 ## Next chapter
 
-[[16-manuals/individual/16-salary-negotiator|Chapter 16 — Salary Negotiator]]
+[[16-how-tos/individual/16-salary-negotiator|Chapter 16 — Salary Negotiator]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Step 7 (Receive & Accept Offer)
-- [[16-manuals/individual/12-tracking-applications|Chapter 12]] — Application Portal for post-acceptance documents
+- [[16-how-tos/individual/12-tracking-applications|Chapter 12]] — Application Portal for post-acceptance documents

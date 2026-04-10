@@ -3,7 +3,7 @@ title: "Chapter 21 — Career DNA and Opportunity Weights"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, career-dna, advanced]
+tags: [how-to, individual, career-dna, advanced]
 status: active
 user-types: [individual]
 ---
@@ -139,9 +139,9 @@ Sometimes people set Career DNA and Opportunity Weights well, get great matches,
 
 ## Next chapter
 
-[[16-manuals/individual/22-market-radar|Chapter 22 — Market Radar]]
+[[16-how-tos/individual/22-market-radar|Chapter 22 — Market Radar]]
 
 ## References
 
-- [[16-manuals/individual/09-search-modes|Chapter 9]] — How matching uses these settings
-- [[16-manuals/individual/20-autopilot|Chapter 20]] — Why these settings matter before enabling auto-apply
+- [[16-how-tos/individual/09-search-modes|Chapter 9]] — How matching uses these settings
+- [[16-how-tos/individual/20-autopilot|Chapter 20]] — Why these settings matter before enabling auto-apply

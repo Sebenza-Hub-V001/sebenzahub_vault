@@ -3,7 +3,7 @@ title: "Chapter 7 — Adding skills, credentials, and a video intro"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, profile, skills, credentials]
+tags: [how-to, individual, profile, skills, credentials]
 status: active
 user-types: [individual]
 ---
@@ -182,9 +182,9 @@ The next chapter (Chapter 8) covers what's *visible* and what isn't, and the pri
 
 ## Next chapter
 
-[[16-manuals/individual/08-privacy-and-popia|Chapter 8 — Privacy and POPIA]]
+[[16-how-tos/individual/08-privacy-and-popia|Chapter 8 — Privacy and POPIA]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Step 3 (Build Profile → Credentials & Verification)
-- [[16-manuals/individual/08-privacy-and-popia|Chapter 8 — Privacy and POPIA]]
+- [[16-how-tos/individual/08-privacy-and-popia|Chapter 8 — Privacy and POPIA]]

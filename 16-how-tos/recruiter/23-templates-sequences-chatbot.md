@@ -3,7 +3,7 @@ title: "Chapter 23 — Email templates, sequences, and the chatbot"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, templates, sequences, automation, chatbot]
+tags: [how-to, recruiter, templates, sequences, automation, chatbot]
 status: draft
 user-types: [recruiter]
 ---
@@ -198,12 +198,12 @@ There's a temptation to automate everything. Resist. Over-automation creates a f
 
 ## Next chapter
 
-[[16-manuals/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
+[[16-how-tos/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI tone analysis and template suggestions
 - [[02-concepts/compliance]] — POPIA opt-out requirements for sequences
-- [[16-manuals/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
-- [[16-manuals/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
-- [[16-manuals/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
+- [[16-how-tos/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
+- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

@@ -3,7 +3,7 @@ title: "Chapter 25 — Reading your analytics"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, analytics, kpi, dashboard]
+tags: [how-to, recruiter, analytics, kpi, dashboard]
 status: draft
 user-types: [recruiter]
 ---
@@ -168,11 +168,11 @@ The four reports above cover 90% of analytics needs. The remaining specialist pa
 
 ## Next chapter
 
-[[16-manuals/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
+[[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI behind predictive analytics
-- [[16-manuals/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-manuals/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement]]
-- [[16-manuals/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
+- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[16-how-tos/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement]]
+- [[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]

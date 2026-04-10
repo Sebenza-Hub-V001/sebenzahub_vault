@@ -3,7 +3,7 @@ title: "Chapter 18 — Interview scheduling and interview kits"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, interviews, scheduling, calendar]
+tags: [how-to, recruiter, interviews, scheduling, calendar]
 status: draft
 user-types: [recruiter]
 ---
@@ -168,11 +168,11 @@ The `no_show` status is important — it feeds the candidate's engagement score 
 
 ## Next chapter
 
-[[16-manuals/recruiter/19-video-interviews|Chapter 19 — Video interviews and AI video analysis]]
+[[16-how-tos/recruiter/19-video-interviews|Chapter 19 — Video interviews and AI video analysis]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Where interview sits in the full flow
-- [[16-manuals/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-manuals/recruiter/17-screening-tools|Chapter 17 — Screening tools (scorecards)]]
-- [[16-manuals/recruiter/19-video-interviews|Chapter 19 — Video interviews]]
+- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[16-how-tos/recruiter/17-screening-tools|Chapter 17 — Screening tools (scorecards)]]
+- [[16-how-tos/recruiter/19-video-interviews|Chapter 19 — Video interviews]]

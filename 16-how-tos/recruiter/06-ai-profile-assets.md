@@ -3,7 +3,7 @@ title: "Chapter 6 — AI profile assets: DNA Card, Reputation Score, Trust Tier"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, ai, trust, reputation, badges]
+tags: [how-to, recruiter, ai, trust, reputation, badges]
 status: draft
 user-types: [recruiter]
 ---
@@ -108,7 +108,7 @@ The **Capacity Signal** is the simplest asset and the most overlooked. It's a pe
 - 🟡 **Limited** — you're busy but can take on selective new work
 - 🔴 **At Capacity** — you cannot take on new mandates in this sector right now
 
-You set this manually per sector. **Use it.** Clients respect agencies that flip to "At Capacity" when they're genuinely full — it signals discipline and stops them from approaching you with work you can't service well. Pretending to be Available when you're drowning leads to dropped balls and reputation damage.
+You set this guidely per sector. **Use it.** Clients respect agencies that flip to "At Capacity" when they're genuinely full — it signals discipline and stops them from approaching you with work you can't service well. Pretending to be Available when you're drowning leads to dropped balls and reputation damage.
 
 A good rhythm: review your Capacity Signal at the start of every week. If you're carrying more than 8–10 active mandates in a sector, flip to Limited or At Capacity. When something closes, flip back.
 
@@ -136,11 +136,11 @@ The first three things they see are all AI-generated. Spending an hour on your d
 
 ## Next chapter
 
-[[16-manuals/recruiter/07-team-setup|Chapter 7 — Team setup: members, roles, and approval chains]]
+[[16-how-tos/recruiter/07-team-setup|Chapter 7 — Team setup: members, roles, and approval chains]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities behind these assets
 - [[02-concepts/compliance]] — B-BBEE certification details
-- [[16-manuals/recruiter/05-agency-profile|Chapter 5 — Your agency profile]]
-- [[16-manuals/recruiter/07-team-setup|Chapter 7 — Team setup]]
+- [[16-how-tos/recruiter/05-agency-profile|Chapter 5 — Your agency profile]]
+- [[16-how-tos/recruiter/07-team-setup|Chapter 7 — Team setup]]

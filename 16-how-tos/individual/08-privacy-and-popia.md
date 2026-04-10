@@ -3,7 +3,7 @@ title: "Chapter 8 — Privacy and POPIA"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, privacy, popia, compliance]
+tags: [how-to, individual, privacy, popia, compliance]
 status: active
 user-types: [individual]
 ---
@@ -148,9 +148,9 @@ Part 3 is where things start moving outward instead of inward. Take a breath, th
 
 ## Next chapter
 
-[[16-manuals/individual/09-search-modes|Chapter 9 — Browse vs Auto Match vs Manual Search]]
+[[16-how-tos/individual/09-search-modes|Chapter 9 — Browse vs Auto Match vs Manual Search]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity overview
-- [[16-manuals/individual/03-onboarding|Chapter 3]] — Where you originally gave POPIA consent
+- [[16-how-tos/individual/03-onboarding|Chapter 3]] — Where you originally gave POPIA consent

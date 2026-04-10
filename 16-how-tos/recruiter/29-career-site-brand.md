@@ -3,14 +3,14 @@ title: "Chapter 29 — Career Site, Brand Page, and Job Boards"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, career-site, brand, job-boards]
+tags: [how-to, recruiter, career-site, brand, job-boards]
 status: draft
 user-types: [recruiter]
 ---
 
 # Chapter 29 — Career Site, Brand Page, and Job Board Integrations
 
-Up to this point the manual has been about *running* recruitment work. This chapter is about *attracting* it. The Brand and Growth tools turn your agency from a thing that goes out hunting to a thing that candidates and clients find on their own. Inbound candidates are cheaper and warmer than outbound. Inbound clients are the difference between an agency that grows and one that plateaus.
+Up to this point the guide has been about *running* recruitment work. This chapter is about *attracting* it. The Brand and Growth tools turn your agency from a thing that goes out hunting to a thing that candidates and clients find on their own. Inbound candidates are cheaper and warmer than outbound. Inbound clients are the difference between an agency that grows and one that plateaus.
 
 ## Where it lives
 
@@ -201,11 +201,11 @@ These aren't separate features. They're one system for inbound growth.
 
 ## Next chapter
 
-[[16-manuals/recruiter/30-marketing-referrals-nps|Chapter 30 — Recruitment Marketing, Referrals, and Candidate NPS]]
+[[16-how-tos/recruiter/30-marketing-referrals-nps|Chapter 30 — Recruitment Marketing, Referrals, and Candidate NPS]]
 
 ## References
 
-- [[16-manuals/recruiter/05-agency-profile|Chapter 5 — Your agency profile (feeds Brand Page)]]
-- [[16-manuals/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
-- [[16-manuals/recruiter/11-posting-a-job|Chapter 11 — Posting a job (publishes to boards)]]
-- [[16-manuals/recruiter/30-marketing-referrals-nps|Chapter 30 — Marketing, Referrals, and NPS]]
+- [[16-how-tos/recruiter/05-agency-profile|Chapter 5 — Your agency profile (feeds Brand Page)]]
+- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
+- [[16-how-tos/recruiter/11-posting-a-job|Chapter 11 — Posting a job (publishes to boards)]]
+- [[16-how-tos/recruiter/30-marketing-referrals-nps|Chapter 30 — Marketing, Referrals, and NPS]]

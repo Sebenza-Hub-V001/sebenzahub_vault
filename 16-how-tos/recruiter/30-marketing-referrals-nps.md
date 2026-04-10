@@ -3,7 +3,7 @@ title: "Chapter 30 — Recruitment Marketing, Referrals, and Candidate NPS"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, marketing, referrals, nps, growth]
+tags: [how-to, recruiter, marketing, referrals, nps, growth]
 status: draft
 user-types: [recruiter]
 ---
@@ -235,12 +235,12 @@ This is the loop. Recruitment marketing fills the top, NPS identifies the gold, 
 
 ## Next chapter
 
-[[16-manuals/recruiter/31-fill-rate-dropping|Chapter 31 — "My fill rate is dropping"]]
+[[16-how-tos/recruiter/31-fill-rate-dropping|Chapter 31 — "My fill rate is dropping"]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI scoring of NPS sentiment and references
-- [[16-manuals/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (NPS feeds Reputation)]]
-- [[16-manuals/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
-- [[16-manuals/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
-- [[16-manuals/recruiter/31-fill-rate-dropping|Chapter 31 — Troubleshooting: fill rate dropping]]
+- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (NPS feeds Reputation)]]
+- [[16-how-tos/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+- [[16-how-tos/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
+- [[16-how-tos/recruiter/31-fill-rate-dropping|Chapter 31 — Troubleshooting: fill rate dropping]]

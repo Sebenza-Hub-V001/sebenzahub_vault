@@ -3,7 +3,7 @@ title: "Chapter 5 — Your agency profile"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, profile, branding]
+tags: [how-to, recruiter, profile, branding]
 status: draft
 user-types: [recruiter]
 ---
@@ -138,10 +138,10 @@ Everything else is competitive — the more you fill in, the better you look. Bu
 
 ## Next chapter
 
-[[16-manuals/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets: DNA Card, Reputation Score, Trust Tier]]
+[[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets: DNA Card, Reputation Score, Trust Tier]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity context
-- [[16-manuals/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
-- [[16-manuals/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]
+- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
+- [[16-how-tos/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]

@@ -99,7 +99,7 @@ The metered limits per plan tier are stored in `feature_entitlements` and manage
 
 - [[02-concepts/billing-system]] — Billing overview
 - [[01-entities/admin-user]] — Plan management
-- [[16-manuals/recruiter/04.5-how-we-charge]] — User-facing recruiter billing chapter
+- [[16-how-tos/recruiter/04.5-how-we-charge]] — User-facing recruiter billing chapter
 - Source: [[09-sources/features-inventory-2026-04-07]]
 - Source: [[09-sources/seo-plan-2026-04-07]]
 - Code: `server/seed-plans.ts` (full plan structure)

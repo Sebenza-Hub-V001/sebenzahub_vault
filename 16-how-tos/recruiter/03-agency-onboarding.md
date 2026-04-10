@@ -3,7 +3,7 @@ title: "Chapter 3 — Agency onboarding"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, onboarding]
+tags: [how-to, recruiter, onboarding]
 status: draft
 user-types: [recruiter]
 ---
@@ -91,9 +91,9 @@ You're now on the recruiter dashboard at `/dashboard/recruiter/profile`. Chapter
 
 ## Next chapter
 
-[[16-manuals/recruiter/04-the-recruiter-dashboard|Chapter 4 — The recruiter dashboard]]
+[[16-how-tos/recruiter/04-the-recruiter-dashboard|Chapter 4 — The recruiter dashboard]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity context
-- [[16-manuals/recruiter/04-the-recruiter-dashboard|Chapter 4 — The recruiter dashboard]]
+- [[16-how-tos/recruiter/04-the-recruiter-dashboard|Chapter 4 — The recruiter dashboard]]

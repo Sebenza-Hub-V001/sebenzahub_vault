@@ -3,7 +3,7 @@ title: "Chapter 8 — Adding corporate clients"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, clients, crm]
+tags: [how-to, recruiter, clients, crm]
 status: draft
 user-types: [recruiter]
 ---
@@ -124,10 +124,10 @@ Use the **Last activity** sort regularly. A client you haven't touched in 60 day
 
 ## Next chapter
 
-[[16-manuals/recruiter/09-engagement-terms|Chapter 9 — Engagement terms: fees, payment, guarantee]]
+[[16-how-tos/recruiter/09-engagement-terms|Chapter 9 — Engagement terms: fees, payment, guarantee]]
 
 ## References
 
 - [[02-concepts/multi-tenancy]] — Why each agency has its own client list
-- [[16-manuals/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
-- [[16-manuals/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]
+- [[16-how-tos/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
+- [[16-how-tos/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]

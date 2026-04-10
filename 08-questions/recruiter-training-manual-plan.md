@@ -1,28 +1,28 @@
 ---
-title: "Recruiter Training Manual — Plan & Outline"
+title: "Recruiter How-To Guide — Plan & Outline"
 type: question
 created: 2026-04-09
 updated: 2026-04-09
-tags: [training, manual, recruiter, documentation, planning]
+tags: [training, how-to, recruiter, documentation, planning]
 sources: [recruitment-features-2026-04-07, recruiter-journey-gap-analysis-2026-04-08]
 status: active
 confidence: high
 user-types: [recruiter]
 ---
 
-# Recruiter Training Manual — Plan & Outline
+# Recruiter How-To Guide — Plan & Outline
 
-This page captures the plan for the **Recruiter user training manual** and tracks open questions before each part is drafted. The manual itself lives in `16-manuals/recruiter/`.
+This page captures the plan for the **Recruiter user how-to guide** and tracks open questions before each part is drafted. The how-to guide itself lives in `16-how-tos/recruiter/`.
 
 ## Goal
 
-Produce a task-oriented training manual that takes a brand-new recruitment agency from signup to a profitable, repeatable recruiting practice on Sebenza Hub. The manual should be readable end-to-end by someone who has never used the platform, while also functioning as a reference for established users who need to look up a specific workflow.
+Produce a task-oriented how-to guide that takes a brand-new recruitment agency from signup to a profitable, repeatable recruiting practice on Sebenza Hub. The how-to guide should be readable end-to-end by someone who has never used the platform, while also functioning as a reference for established users who need to look up a specific workflow.
 
 ## Source material
 
-Same shape as the Individual manual — the wiki already contains the raw material. The manual is a *reshape* into user-facing language, not a research project.
+Same shape as the Individual how-to — the wiki already contains the raw material. The how-to guide is a *reshape* into user-facing language, not a research project.
 
-| Existing wiki page | Role for the manual |
+| Existing wiki page | Role for the how-to guide |
 |--------------------|---------------------|
 | [[01-entities/recruiter-user]] | Master feature inventory (101 pages across 11 categories) |
 | [[03-workflows/recruiter-journey]] | End-to-end journey: 10 recruitment steps + 4 parallel tracks (the spine) |
@@ -43,7 +43,7 @@ Same shape as the Individual manual — the wiki already contains the raw materi
 4. **Scenarios over screenshots.** Each chapter opens with the realistic scenario it solves. The recruiter journey doc already has these — adapt them.
 5. **Defer power-user features** (Predictive Hiring, Rapid Workflow, Team DNA) to Part 11.
 6. **Every chapter ends with a checklist** the user can self-verify against.
-7. **Cross-link only inside `16-manuals/recruiter/`, `02-concepts/`, `03-workflows/`** per the [[CLAUDE]] cross-site link rule. No leaking to internal-only folders.
+7. **Cross-link only inside `16-how-tos/recruiter/`, `02-concepts/`, `03-workflows/`** per the [[CLAUDE]] cross-site link rule. No leaking to internal-only folders.
 
 ## Outline (34 chapters)
 
@@ -120,7 +120,7 @@ All 5 blocking questions resolved 2026-04-09 via codebase grep at `C:\Users\User
 ## Status
 
 - [x] Plan filed (this page)
-- [x] `16-manuals/recruiter/` scaffold created
+- [x] `16-how-tos/recruiter/` scaffold created
 - [x] Part 1 (Chapters 1–4 + 4.5) drafted
 - [x] Part 2 (Chapters 5–7) drafted
 - [x] Part 3 (Chapters 8–10) drafted
@@ -136,8 +136,8 @@ All 5 blocking questions resolved 2026-04-09 via codebase grep at `C:\Users\User
 
 ## References
 
-- [[16-manuals/individual/index]] — Sibling Individual manual (same shape, smaller scope)
-- [[16-manuals/recruiter/index]] — Recruiter manual table of contents
+- [[16-how-tos/individual/index]] — Sibling Individual how-to (same shape, smaller scope)
+- [[16-how-tos/recruiter/index]] — Recruiter how-to table of contents
 - [[03-workflows/recruiter-journey]] — Source spine
 - [[01-entities/recruiter-user]] — Feature inventory
 - [[15-dashboards/recruiter-dashboard]] — UI grouping

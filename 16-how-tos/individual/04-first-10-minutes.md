@@ -3,14 +3,14 @@ title: "Chapter 4 — Your first 10 minutes on the dashboard"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, dashboard, orientation]
+tags: [how-to, individual, dashboard, orientation]
 status: active
 user-types: [individual]
 ---
 
 # Chapter 4 — Your first 10 minutes on the dashboard
 
-You've signed up. You've finished onboarding. You're now looking at your dashboard at **/dashboard/individual/profile** and there are dozens of things in the sidebar. This chapter is a tour, not a deep dive — its job is to make the dashboard feel familiar so the rest of the manual makes sense.
+You've signed up. You've finished onboarding. You're now looking at your dashboard at **/dashboard/individual/profile** and there are dozens of things in the sidebar. This chapter is a tour, not a deep dive — its job is to make the dashboard feel familiar so the rest of the guide makes sense.
 
 Spend ten minutes here. Don't try to do anything yet. Just look around.
 
@@ -39,7 +39,7 @@ These activate when something on the Hiring Path needs help. They're not steps y
 - **Community** (6 pages) — Forum, Trending, Leaderboard, Interview Vault, Mentor Connect, Badges
 - **Career Development** (5 pages) — Skill Gap, Career Path, Career Pulse, Tests, Analytics
 
-You'll touch most of these eventually, but you don't have to touch any of them today. This manual will tell you when each one becomes relevant.
+You'll touch most of these eventually, but you don't have to touch any of them today. This guide will tell you when each one becomes relevant.
 ![[Pasted image 20260409150959.png]]
 
 ### Group 3 — SUPPORTING
@@ -99,7 +99,7 @@ Most of the basics are free: signing up, building a profile, browsing jobs, appl
 
 ## What to do next
 
-You now know enough about the dashboard to follow the rest of the manual without getting lost. Move on to Part 2 to build a profile that's actually worth a recruiter's attention.
+You now know enough about the dashboard to follow the rest of the guide without getting lost. Move on to Part 2 to build a profile that's actually worth a recruiter's attention.
 
 ## Checklist
 
@@ -111,9 +111,9 @@ You now know enough about the dashboard to follow the rest of the manual without
 
 ## Next chapter
 
-[[16-manuals/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]
+[[16-how-tos/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Complete journey with the same Hiring Path / Parallel Tracks structure
-- [[16-manuals/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]
+- [[16-how-tos/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]

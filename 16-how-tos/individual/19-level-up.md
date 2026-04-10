@@ -3,7 +3,7 @@ title: "Chapter 19 — I need to level up my skills"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, learning, skills]
+tags: [how-to, individual, learning, skills]
 status: active
 user-types: [individual]
 ---
@@ -153,16 +153,16 @@ Don't reach out when:
 
 ## Part 5 complete
 
-Parts 1–4 took you through the core hiring path. Part 5 covered the three most common ways things go wrong — no responses, no direction, no skills — and how to fix each. If you've used Part 5 to unstick yourself, the rest of the manual is optional.
+Parts 1–4 took you through the core hiring path. Part 5 covered the three most common ways things go wrong — no responses, no direction, no skills — and how to fix each. If you've used Part 5 to unstick yourself, the rest of the guide is optional.
 
 Part 6 covers the platform's more advanced features. They're powerful but they're also easy to misuse. Read them when you've stabilised the basics.
 
 ## Next chapter
 
-[[16-manuals/individual/20-autopilot|Chapter 20 — Autopilot and auto-apply safeguards]]
+[[16-how-tos/individual/20-autopilot|Chapter 20 — Autopilot and auto-apply safeguards]]
 
 ## References
 
-- [[16-manuals/individual/07-skills-credentials-video|Chapter 7]] — Where new skills go on your profile
-- [[16-manuals/individual/17-no-responses|Chapter 17]] — When learning is or isn't the answer
-- [[16-manuals/individual/23-community-and-mentorship|Chapter 23]] — Mentorship in the community context
+- [[16-how-tos/individual/07-skills-credentials-video|Chapter 7]] — Where new skills go on your profile
+- [[16-how-tos/individual/17-no-responses|Chapter 17]] — When learning is or isn't the answer
+- [[16-how-tos/individual/23-community-and-mentorship|Chapter 23]] — Mentorship in the community context

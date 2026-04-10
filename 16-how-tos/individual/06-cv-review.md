@@ -3,7 +3,7 @@ title: "Chapter 6 — Running CV Review"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, cv, ai]
+tags: [how-to, individual, cv, ai]
 status: active
 user-types: [individual]
 ---
@@ -102,9 +102,9 @@ Be aware of the limits:
 
 ## Next chapter
 
-[[16-manuals/individual/07-skills-credentials-video|Chapter 7 — Adding skills, credentials, and a video intro]]
+[[16-how-tos/individual/07-skills-credentials-video|Chapter 7 — Adding skills, credentials, and a video intro]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities
-- [[16-manuals/individual/05-uploading-a-cv|Chapter 5]] — Where your CV came from
+- [[16-how-tos/individual/05-uploading-a-cv|Chapter 5]] — Where your CV came from

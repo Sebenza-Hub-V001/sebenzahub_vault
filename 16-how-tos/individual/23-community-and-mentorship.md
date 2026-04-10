@@ -3,16 +3,16 @@ title: "Chapter 23 — Community and mentorship"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, community, mentorship]
+tags: [how-to, individual, community, mentorship]
 status: active
 user-types: [individual]
 ---
 
 # Chapter 23 — Community and mentorship
 
-The hiring path in this manual treats Sebenza Hub as a tool you use mostly alone — a profile, a tracker, a search engine, a coach. The Community and Mentorship features step outside that frame. They put you in contact with other people: other job seekers, people who've already done what you want to do, and people learning the same things you are.
+The hiring path in this guide treats Sebenza Hub as a tool you use mostly alone — a profile, a tracker, a search engine, a coach. The Community and Mentorship features step outside that frame. They put you in contact with other people: other job seekers, people who've already done what you want to do, and people learning the same things you are.
 
-This is the last chapter of the manual. Treat the Community as something you opt into when it suits you, not as another box to tick.
+This is the last chapter of the guide. Treat the Community as something you opt into when it suits you, not as another box to tick.
 
 ## What's in the Community section
 
@@ -119,7 +119,7 @@ The honest test: did the time you spent in the community section translate into 
 
 ## A final word
 
-You've reached the end of the manual. If you've worked through Parts 1–4 and reached out to a mentor or contributed to Interview Vault, you've done substantially more than most users. The platform has a lot of features, and most people only use a fraction of them — that's fine. The point was never to use everything; it was to use the right things at the right time.
+You've reached the end of the guide. If you've worked through Parts 1–4 and reached out to a mentor or contributed to Interview Vault, you've done substantially more than most users. The platform has a lot of features, and most people only use a fraction of them — that's fine. The point was never to use everything; it was to use the right things at the right time.
 
 A few things to take with you:
 
@@ -144,10 +144,10 @@ Good luck.
 
 ## Manual complete
 
-You've reached the end. Use [[16-manuals/individual/index|the manual index]] to jump back to any chapter.
+You've reached the end. Use [[16-how-tos/individual/index|the guide index]] to jump back to any chapter.
 
 ## References
 
-- [[16-manuals/individual/index]] — Manual index
-- [[16-manuals/individual/14-company-research|Chapter 14]] — Pairs with Interview Vault for interview prep
-- [[16-manuals/individual/19-level-up|Chapter 19]] — Mentorship in the learning context
+- [[16-how-tos/individual/index]] — Manual index
+- [[16-how-tos/individual/14-company-research|Chapter 14]] — Pairs with Interview Vault for interview prep
+- [[16-how-tos/individual/19-level-up|Chapter 19]] — Mentorship in the learning context

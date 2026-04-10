@@ -3,7 +3,7 @@ title: "Chapter 4 — The recruiter dashboard"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, dashboard, navigation]
+tags: [how-to, recruiter, dashboard, navigation]
 status: draft
 user-types: [recruiter]
 ---
@@ -37,7 +37,7 @@ The path follows the actual sequence of work in an agency:
 | 7 | Make Offer | Templates, approvals, negotiation, predictor, analytics |
 | 8 | Place & Retain | Submissions, placements, KPIs, post-hire onboarding |
 
-Some groups have a single page; others have many. **Source Candidates** has 8 pages (each is a different sourcing channel); **Make Offer** has 11 (the offer lifecycle is rich). Don't try to learn them all on day one — the manual takes you through them in order in Parts 2–5.
+Some groups have a single page; others have many. **Source Candidates** has 8 pages (each is a different sourcing channel); **Make Offer** has 11 (the offer lifecycle is rich). Don't try to learn them all on day one — the guide takes you through them in order in Parts 2–5.
 
 ## The four Parallel Tracks
 
@@ -86,10 +86,10 @@ That's it. Don't sign up for AI Search, don't import LinkedIn leads, don't run a
 
 ## Next chapter
 
-[[16-manuals/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+[[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
 
 ## References
 
 - [[03-workflows/recruiter-journey]] — The full recruitment path with scenarios
-- [[16-manuals/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
-- [[16-manuals/recruiter/05-agency-profile|Chapter 5 — Your agency profile]]
+- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[16-how-tos/recruiter/05-agency-profile|Chapter 5 — Your agency profile]]

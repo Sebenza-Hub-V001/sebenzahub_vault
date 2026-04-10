@@ -3,7 +3,7 @@ title: "Chapter 16 — Salary Negotiator"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, salary, negotiation, ai]
+tags: [how-to, individual, salary, negotiation, ai]
 status: active
 user-types: [individual]
 ---
@@ -166,9 +166,9 @@ Parts 5 and 6 are reference material for when things get harder or when you want
 
 ## Next chapter
 
-[[16-manuals/individual/17-no-responses|Chapter 17 — "I'm not getting responses"]]
+[[16-how-tos/individual/17-no-responses|Chapter 17 — "I'm not getting responses"]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Step 7 (Receive & Accept Offer)
-- [[16-manuals/individual/15-receiving-an-offer|Chapter 15]] — The decision frame this chapter sits inside
+- [[16-how-tos/individual/15-receiving-an-offer|Chapter 15]] — The decision frame this chapter sits inside

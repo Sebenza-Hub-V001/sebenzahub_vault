@@ -3,7 +3,7 @@ title: "Chapter 18 — I don't know what to apply for"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, troubleshooting, career]
+tags: [how-to, individual, troubleshooting, career]
 status: active
 user-types: [individual]
 ---
@@ -168,9 +168,9 @@ If option #1 doesn't feel right after a couple of applications, try option #2. T
 
 ## Next chapter
 
-[[16-manuals/individual/19-level-up|Chapter 19 — "I need to level up my skills"]]
+[[16-how-tos/individual/19-level-up|Chapter 19 — "I need to level up my skills"]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Career Development track
-- [[16-manuals/individual/21-career-dna|Chapter 21]] — Once you know your direction, Career DNA tunes the matching
+- [[16-how-tos/individual/21-career-dna|Chapter 21]] — Once you know your direction, Career DNA tunes the matching

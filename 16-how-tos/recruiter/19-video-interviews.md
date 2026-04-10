@@ -3,7 +3,7 @@ title: "Chapter 19 — Video interviews and AI video analysis"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, video, interviews, ai-analysis]
+tags: [how-to, recruiter, video, interviews, ai-analysis]
 status: draft
 user-types: [recruiter]
 ---
@@ -171,12 +171,12 @@ If you're a high-volume video user, the Premium plan is significantly more cost-
 
 ## Next chapter
 
-[[16-manuals/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
+[[16-how-tos/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities and bias warnings
 - [[02-concepts/compliance]] — POPIA consent for recording
-- [[16-manuals/recruiter/18-interview-scheduling|Chapter 18 — Interview scheduling]]
-- [[16-manuals/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
-- [[16-manuals/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[16-how-tos/recruiter/18-interview-scheduling|Chapter 18 — Interview scheduling]]
+- [[16-how-tos/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
+- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

@@ -3,7 +3,7 @@ title: "Chapter 12 — Sourcing channels"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, sourcing, ai-search, talent-discovery]
+tags: [how-to, recruiter, sourcing, ai-search, talent-discovery]
 status: draft
 user-types: [recruiter]
 ---
@@ -148,12 +148,12 @@ Watch your usage on `/dashboard/recruiter/billing` → Usage history. If you're 
 
 ## Next chapter
 
-[[16-manuals/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
+[[16-how-tos/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities behind these tools
 - [[02-concepts/compliance]] — POPIA implications for cold outreach
-- [[16-manuals/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
-- [[16-manuals/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
-- [[16-manuals/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[16-how-tos/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
+- [[16-how-tos/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

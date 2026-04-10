@@ -3,7 +3,7 @@ title: "Chapter 17 — I'm not getting responses"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, troubleshooting]
+tags: [how-to, individual, troubleshooting]
 status: active
 user-types: [individual]
 ---
@@ -149,11 +149,11 @@ Pick the one cause that best matches your data. Make the fix. Apply 10+ jobs ove
 
 ## Next chapter
 
-[[16-manuals/individual/18-no-direction|Chapter 18 — "I don't know what to apply for"]]
+[[16-how-tos/individual/18-no-direction|Chapter 18 — "I don't know what to apply for"]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Track A: AI Assistance scenarios
-- [[16-manuals/individual/06-cv-review|Chapter 6]] — CV Review
-- [[16-manuals/individual/07-skills-credentials-video|Chapter 7]] — Profile completeness
-- [[16-manuals/individual/12-tracking-applications|Chapter 12]] — Application Analytics
+- [[16-how-tos/individual/06-cv-review|Chapter 6]] — CV Review
+- [[16-how-tos/individual/07-skills-credentials-video|Chapter 7]] — Profile completeness
+- [[16-how-tos/individual/12-tracking-applications|Chapter 12]] — Application Analytics

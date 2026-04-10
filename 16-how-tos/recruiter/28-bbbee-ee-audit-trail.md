@@ -3,7 +3,7 @@ title: "Chapter 28 — B-BBEE, EE Reports, Audit Trail, Approval Workflows"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, bbbee, ee, audit, compliance]
+tags: [how-to, recruiter, bbbee, ee, audit, compliance]
 status: draft
 user-types: [recruiter]
 ---
@@ -222,11 +222,11 @@ That's an unargueable defence. Without these tools, "we did everything right" is
 
 ## Next chapter
 
-[[16-manuals/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
+[[16-how-tos/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity legal context
-- [[16-manuals/recruiter/07-team-setup|Chapter 7 — Team setup (approval chains)]]
-- [[16-manuals/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
-- [[16-manuals/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
+- [[16-how-tos/recruiter/07-team-setup|Chapter 7 — Team setup (approval chains)]]
+- [[16-how-tos/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
+- [[16-how-tos/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]

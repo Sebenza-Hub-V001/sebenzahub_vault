@@ -3,7 +3,7 @@ title: "Chapter 7 — Team setup: members, roles, and approval chains"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, team, roles, permissions, rbac]
+tags: [how-to, recruiter, team, roles, permissions, rbac]
 status: draft
 user-types: [recruiter]
 ---
@@ -135,10 +135,10 @@ Your subscription plan caps how many team members you can invite. If you hit the
 
 ## Next chapter
 
-[[16-manuals/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
+[[16-how-tos/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
 
 ## References
 
 - [[02-concepts/multi-tenancy]] — Organisation and team architecture
-- [[16-manuals/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
-- [[16-manuals/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
+- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
+- [[16-how-tos/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]

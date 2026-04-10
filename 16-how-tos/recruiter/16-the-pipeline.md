@@ -3,7 +3,7 @@ title: "Chapter 16 — The Pipeline (Kanban)"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, pipeline, kanban, daily-workflow]
+tags: [how-to, recruiter, pipeline, kanban, daily-workflow]
 status: draft
 user-types: [recruiter]
 ---
@@ -139,11 +139,11 @@ If a stage move doesn't reflect reality, fix it. If your team is moving cards in
 
 ## Next chapter
 
-[[16-manuals/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
+[[16-how-tos/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Stage definitions and status enum
-- [[16-manuals/recruiter/15-screening-config|Chapter 15 — Screening configuration at the job level]]
-- [[16-manuals/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
-- [[16-manuals/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (NPS feeds back here)]]
+- [[16-how-tos/recruiter/15-screening-config|Chapter 15 — Screening configuration at the job level]]
+- [[16-how-tos/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
+- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (NPS feeds back here)]]

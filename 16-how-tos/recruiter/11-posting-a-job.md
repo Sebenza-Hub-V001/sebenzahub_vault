@@ -3,7 +3,7 @@ title: "Chapter 11 — Posting a job"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, jobs, posting, ai-jd-writer]
+tags: [how-to, recruiter, jobs, posting, ai-jd-writer]
 status: draft
 user-types: [recruiter]
 ---
@@ -152,12 +152,12 @@ If you hit the cap, you'll be blocked from publishing new jobs until you close e
 
 ## Next chapter
 
-[[16-manuals/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels: AI Search, Talent Discovery, Sourcing]]
+[[16-how-tos/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels: AI Search, Talent Discovery, Sourcing]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI JD Writer capabilities
 - [[02-concepts/application-lifecycle]] — Status enum and pipeline stages
-- [[16-manuals/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
-- [[16-manuals/recruiter/15-screening-config|Chapter 15 — Screening configuration at the job level]]
-- [[16-manuals/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[16-how-tos/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
+- [[16-how-tos/recruiter/15-screening-config|Chapter 15 — Screening configuration at the job level]]
+- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

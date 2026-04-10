@@ -3,7 +3,7 @@ title: "Chapter 5 — Uploading or building a CV"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, cv, profile]
+tags: [how-to, individual, cv, profile]
 status: active
 user-types: [individual]
 ---
@@ -116,9 +116,9 @@ Skipping this chapter and going straight to job applications means none of those
 
 ## Next chapter
 
-[[16-manuals/individual/06-cv-review|Chapter 6 — Running CV Review]]
+[[16-how-tos/individual/06-cv-review|Chapter 6 — Running CV Review]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Step 3 (Build Profile)
-- [[16-manuals/individual/06-cv-review|Chapter 6 — Running CV Review]]
+- [[16-how-tos/individual/06-cv-review|Chapter 6 — Running CV Review]]

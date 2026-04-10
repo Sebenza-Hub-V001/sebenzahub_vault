@@ -3,7 +3,7 @@ title: "Chapter 31 — \"My fill rate is dropping\""
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, troubleshooting, fill-rate]
+tags: [how-to, recruiter, troubleshooting, fill-rate]
 status: draft
 user-types: [recruiter]
 ---
@@ -153,12 +153,12 @@ Some fill rate drops aren't your problem to solve alone:
 
 ## Next chapter
 
-[[16-manuals/recruiter/32-candidates-ghosting|Chapter 32 — "Candidates are ghosting between stages"]]
+[[16-how-tos/recruiter/32-candidates-ghosting|Chapter 32 — "Candidates are ghosting between stages"]]
 
 ## References
 
-- [[16-manuals/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-manuals/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
-- [[16-manuals/recruiter/26-diversity-panel-ai|Chapter 26 — Team DNA and analytics]]
-- [[16-manuals/recruiter/32-candidates-ghosting|Chapter 32 — Candidates ghosting]]
-- [[16-manuals/recruiter/33-client-unhappy-calibre|Chapter 33 — Client unhappy with calibre]]
+- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
+- [[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Team DNA and analytics]]
+- [[16-how-tos/recruiter/32-candidates-ghosting|Chapter 32 — Candidates ghosting]]
+- [[16-how-tos/recruiter/33-client-unhappy-calibre|Chapter 33 — Client unhappy with calibre]]

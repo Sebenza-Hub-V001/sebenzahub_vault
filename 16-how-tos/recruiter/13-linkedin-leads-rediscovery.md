@@ -3,7 +3,7 @@ title: "Chapter 13 — LinkedIn Leads and Talent Rediscovery"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, linkedin, rediscovery, sourcing]
+tags: [how-to, recruiter, linkedin, rediscovery, sourcing]
 status: draft
 user-types: [recruiter]
 ---
@@ -146,11 +146,11 @@ LinkedIn Leads brings new people in. Talent Rediscovery resurfaces old people. T
 
 ## Next chapter
 
-[[16-manuals/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+[[16-how-tos/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, opt-outs, suppression lists
 - [[02-concepts/ai-features]] — AI scoring and enrichment
-- [[16-manuals/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
-- [[16-manuals/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+- [[16-how-tos/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
+- [[16-how-tos/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]

@@ -3,7 +3,7 @@ title: "Chapter 9 — Browse vs Auto Match vs Manual Search"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, search, jobs]
+tags: [how-to, individual, search, jobs]
 status: active
 user-types: [individual]
 ---
@@ -168,10 +168,10 @@ Spend 20 minutes doing this:
 
 ## Next chapter
 
-[[16-manuals/individual/10-saved-searches-and-favourites|Chapter 10 — Saved searches and favourites]]
+[[16-how-tos/individual/10-saved-searches-and-favourites|Chapter 10 — Saved searches and favourites]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Where match scores get used
 - [[03-workflows/individual-journey]] — Step 4 (Search & Apply)
-- [[16-manuals/individual/10-saved-searches-and-favourites|Chapter 10 — Saved searches and favourites]]
+- [[16-how-tos/individual/10-saved-searches-and-favourites|Chapter 10 — Saved searches and favourites]]

@@ -3,7 +3,7 @@ title: "Chapter 12 — Tracking applications and follow-ups"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, applications, tracking]
+tags: [how-to, individual, applications, tracking]
 status: active
 user-types: [individual]
 ---
@@ -180,10 +180,10 @@ You've found jobs, applied to them, and put a tracking system in place. You know
 
 ## Next chapter
 
-[[16-manuals/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]
+[[16-how-tos/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Status enum, full pipeline
 - [[03-workflows/individual-journey]] — Step 5 (Track Applications)
-- [[16-manuals/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]
+- [[16-how-tos/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]

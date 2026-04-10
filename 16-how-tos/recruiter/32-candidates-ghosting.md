@@ -3,7 +3,7 @@ title: "Chapter 32 — \"Candidates are ghosting between stages\""
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, troubleshooting, ghosting, engagement]
+tags: [how-to, recruiter, troubleshooting, ghosting, engagement]
 status: draft
 user-types: [recruiter]
 ---
@@ -178,12 +178,12 @@ The fact that you handled the ghost gracefully — without pressure, without gui
 
 ## Next chapter
 
-[[16-manuals/recruiter/33-client-unhappy-calibre|Chapter 33 — "My client is unhappy with the calibre"]]
+[[16-how-tos/recruiter/33-client-unhappy-calibre|Chapter 33 — "My client is unhappy with the calibre"]]
 
 ## References
 
-- [[16-manuals/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-manuals/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
-- [[16-manuals/recruiter/26-diversity-panel-ai|Chapter 26 — Engagement Score]]
-- [[16-manuals/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — Re-engagement]]
-- [[16-manuals/recruiter/33-client-unhappy-calibre|Chapter 33 — Client unhappy with calibre]]
+- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
+- [[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Engagement Score]]
+- [[16-how-tos/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — Re-engagement]]
+- [[16-how-tos/recruiter/33-client-unhappy-calibre|Chapter 33 — Client unhappy with calibre]]

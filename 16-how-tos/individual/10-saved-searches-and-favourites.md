@@ -3,7 +3,7 @@ title: "Chapter 10 — Saved searches and favourites"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, search, jobs]
+tags: [how-to, individual, search, jobs]
 status: active
 user-types: [individual]
 ---
@@ -115,9 +115,9 @@ This rhythm beats scrolling-as-job-hunt by a wide margin. It produces fewer appl
 
 ## Next chapter
 
-[[16-manuals/individual/11-applying|Chapter 11 — Applying to a job: walkthrough]]
+[[16-how-tos/individual/11-applying|Chapter 11 — Applying to a job: walkthrough]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Step 4 (Search & Apply)
-- [[16-manuals/individual/09-search-modes|Chapter 9]] — The search modes you'll save from
+- [[16-how-tos/individual/09-search-modes|Chapter 9]] — The search modes you'll save from

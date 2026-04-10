@@ -3,7 +3,7 @@ title: "Chapter 24 — WhatsApp at scale"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, whatsapp, communication, popia]
+tags: [how-to, recruiter, whatsapp, communication, popia]
 status: draft
 user-types: [recruiter]
 ---
@@ -198,12 +198,12 @@ You'll touch most of these only when configuring or troubleshooting. Day-to-day,
 
 ## Next chapter
 
-[[16-manuals/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
+[[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
 
 ## References
 
 - [[02-concepts/whatsapp-integration]] — WhatsApp Business API architecture
 - [[02-concepts/compliance]] — POPIA consent requirements for messaging
-- [[16-manuals/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
-- [[16-manuals/recruiter/23-templates-sequences-chatbot|Chapter 23 — Templates, sequences, and the chatbot]]
-- [[16-manuals/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
+- [[16-how-tos/recruiter/23-templates-sequences-chatbot|Chapter 23 — Templates, sequences, and the chatbot]]
+- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

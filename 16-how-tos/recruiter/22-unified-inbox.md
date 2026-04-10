@@ -3,7 +3,7 @@ title: "Chapter 22 — Unified Inbox and message management"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, inbox, communication]
+tags: [how-to, recruiter, inbox, communication]
 status: draft
 user-types: [recruiter]
 ---
@@ -129,11 +129,11 @@ Once a week, archive conversations that are clearly closed (rejected candidates,
 
 ## Next chapter
 
-[[16-manuals/recruiter/23-templates-sequences-chatbot|Chapter 23 — Email templates, sequences, and the chatbot]]
+[[16-how-tos/recruiter/23-templates-sequences-chatbot|Chapter 23 — Email templates, sequences, and the chatbot]]
 
 ## References
 
 - [[02-concepts/ai-features]] — Tone analysis and sentiment detection
-- [[16-manuals/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-manuals/recruiter/23-templates-sequences-chatbot|Chapter 23 — Templates, sequences, and the chatbot]]
-- [[16-manuals/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
+- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[16-how-tos/recruiter/23-templates-sequences-chatbot|Chapter 23 — Templates, sequences, and the chatbot]]
+- [[16-how-tos/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]

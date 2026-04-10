@@ -3,7 +3,7 @@ title: "Chapter 10 — Managing client relationships"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, clients, crm, relationships]
+tags: [how-to, recruiter, clients, crm, relationships]
 status: draft
 user-types: [recruiter]
 ---
@@ -142,11 +142,11 @@ That's your CRM rhythm. Half an hour a week keeps the relationships healthy. Ski
 
 ## Next chapter
 
-[[16-manuals/recruiter/11-posting-a-job|Chapter 11 — Posting a job (with AI JD Writer)]]
+[[16-how-tos/recruiter/11-posting-a-job|Chapter 11 — Posting a job (with AI JD Writer)]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA consent for client communications
-- [[16-manuals/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
-- [[16-manuals/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
-- [[16-manuals/recruiter/11-posting-a-job|Chapter 11 — Posting a job]]
+- [[16-how-tos/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
+- [[16-how-tos/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
+- [[16-how-tos/recruiter/11-posting-a-job|Chapter 11 — Posting a job]]

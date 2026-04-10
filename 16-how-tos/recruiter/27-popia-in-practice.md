@@ -3,7 +3,7 @@ title: "Chapter 27 — POPIA in practice"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, popia, privacy, compliance]
+tags: [how-to, recruiter, popia, privacy, compliance]
 status: draft
 user-types: [recruiter]
 ---
@@ -107,7 +107,7 @@ Send via a secure channel (the platform's DSAR delivery is encrypted). Include:
 
 ### Step 6 — Log the response
 
-The platform records the DSAR fulfilment in the audit trail. You don't have to do this manually, but verify it happened.
+The platform records the DSAR fulfilment in the audit trail. You don't have to do this guidely, but verify it happened.
 
 ## The right to be forgotten — deletion requests
 
@@ -181,11 +181,11 @@ Configure your retention policy at `/dashboard/recruiter/compliance` → Retenti
 
 ## Next chapter
 
-[[16-manuals/recruiter/28-bbbee-ee-audit-trail|Chapter 28 — B-BBEE, EE Reports, Audit Trail, Approval Workflows]]
+[[16-how-tos/recruiter/28-bbbee-ee-audit-trail|Chapter 28 — B-BBEE, EE Reports, Audit Trail, Approval Workflows]]
 
 ## References
 
 - [[02-concepts/compliance]] — Full POPIA architecture and legal context
-- [[16-manuals/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
-- [[16-manuals/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
-- [[16-manuals/recruiter/28-bbbee-ee-audit-trail|Chapter 28 — B-BBEE, EE, Audit Trail]]
+- [[16-how-tos/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
+- [[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
+- [[16-how-tos/recruiter/28-bbbee-ee-audit-trail|Chapter 28 — B-BBEE, EE, Audit Trail]]

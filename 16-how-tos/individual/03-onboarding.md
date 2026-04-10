@@ -3,7 +3,7 @@ title: "Chapter 3 — Onboarding"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, onboarding, popia]
+tags: [how-to, individual, onboarding, popia]
 status: active
 user-types: [individual]
 ---
@@ -18,7 +18,7 @@ Onboarding takes about five minutes if you have your details to hand. You don't 
 
 The first screen asks you to pick your role:
 
-- **Individual** — job seeker (this manual)
+- **Individual** — job seeker (this guide)
 - **Recruiter** — talent agency
 - **Business** — employer
 - **Admin** — platform operator (almost certainly not you)
@@ -60,7 +60,7 @@ If you're between two levels, pick the lower one. Recruiters filter jobs by leve
 
 ### 5. Your skills
 
-Add between 1 and 10 skills, each with a proficiency level. Don't dump every skill you've ever touched — pick the ones that are actually relevant to the work you want next, and rate them honestly. You can always add more after onboarding in [[16-manuals/individual/07-skills-credentials-video|Chapter 7]].
+Add between 1 and 10 skills, each with a proficiency level. Don't dump every skill you've ever touched — pick the ones that are actually relevant to the work you want next, and rate them honestly. You can always add more after onboarding in [[16-how-tos/individual/07-skills-credentials-video|Chapter 7]].
 
 A practical tip: rate yourself the way you'd want a recruiter to interpret you, not the way you feel on a bad day. "Intermediate" is the most common honest answer for skills you use regularly but aren't a guru in.
 
@@ -102,9 +102,9 @@ So don't agonise over the form. Get it close to right, click submit, and tune it
 
 ## Next chapter
 
-[[16-manuals/individual/04-first-10-minutes|Chapter 4 — Your first 10 minutes on the dashboard]]
+[[16-how-tos/individual/04-first-10-minutes|Chapter 4 — Your first 10 minutes on the dashboard]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity overview
-- [[16-manuals/individual/08-privacy-and-popia|Chapter 8]] — More on privacy and your POPIA rights
+- [[16-how-tos/individual/08-privacy-and-popia|Chapter 8]] — More on privacy and your POPIA rights

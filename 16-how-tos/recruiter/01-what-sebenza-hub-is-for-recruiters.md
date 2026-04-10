@@ -3,7 +3,7 @@ title: "Chapter 1 — What Sebenza Hub is for recruiters"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, introduction]
+tags: [how-to, recruiter, introduction]
 status: draft
 user-types: [recruiter]
 ---
@@ -26,7 +26,7 @@ Specifically, as a Recruiter you get:
 - **Communication at scale.** Unified inbox across email, SMS, and WhatsApp; sequences and templates; WhatsApp Business API integration with 16 dedicated tabs for managing WA conversations and campaigns.
 - **Brand and growth.** Public agency brand page, custom career site, job board integrations (Pnet, CareerJunction, Adzuna), recruitment marketing campaigns, structured referral programmes.
 
-## Who this manual is for
+## Who this guide is for
 
 You should be reading this if:
 
@@ -39,7 +39,7 @@ You don't need any technical background. You don't need to read every chapter �
 ## Three things to know before you continue
 
 1. **Sebenza Hub is built around South African compliance.** POPIA (privacy), B-BBEE, and Employment Equity are not optional add-ons — they shape how you onboard, how you screen, how you store data, and what you have to report. This is good news if you're tired of foreign software that pretends none of this exists.
-2. **There are several user types on the platform.** Individuals (job seekers / candidates), Recruiters (you), Businesses (corporate hiring teams that buy your placement services), and Admins (the team running Sebenza Hub itself). This manual covers only the Recruiter experience. Businesses interact with you through a Hiring Manager Portal — that's the only part of the Business experience you'll touch.
+2. **There are several user types on the platform.** Individuals (job seekers / candidates), Recruiters (you), Businesses (corporate hiring teams that buy your placement services), and Admins (the team running Sebenza Hub itself). This guide covers only the Recruiter experience. Businesses interact with you through a Hiring Manager Portal — that's the only part of the Business experience you'll touch.
 3. **Your role is locked after onboarding.** Once you choose "Recruiter" during signup, you can't switch this same login to a Business or Individual account. If you also need to test the candidate experience or set up a Business client account, you'll need a separate email address. Chapter 2 explains the implications before you click anything.
 
 ## How big is this thing, really?
@@ -48,7 +48,7 @@ The Recruiter side of Sebenza Hub has **101 distinct pages** across 11 feature c
 
 Chapter 4 walks you through the dashboard so you can see this layout for yourself.
 
-## What you'll be able to do by the end of this manual
+## What you'll be able to do by the end of this guide
 
 By the time you finish Part 5, you will have:
 
@@ -62,16 +62,16 @@ Parts 6–9 cover the parallel tracks (communication, analytics, compliance, bra
 ## Checklist
 
 - [ ] You understand that Sebenza Hub is an end-to-end agency platform, not just a sourcing tool
-- [ ] You know that this manual covers the Recruiter experience specifically
+- [ ] You know that this guide covers the Recruiter experience specifically
 - [ ] You're aware that your role is locked after onboarding
 - [ ] You've accepted that the platform is large but you don't need everything at once
 
 ## Next chapter
 
-[[16-manuals/recruiter/02-creating-your-account|Chapter 2 — Creating your account]]
+[[16-how-tos/recruiter/02-creating-your-account|Chapter 2 — Creating your account]]
 
 ## References
 
-- [[16-manuals/recruiter/02-creating-your-account|Chapter 2 — Creating your account]]
-- [[16-manuals/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]
+- [[16-how-tos/recruiter/02-creating-your-account|Chapter 2 — Creating your account]]
+- [[16-how-tos/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]
 - [[03-workflows/recruiter-journey]] — The full recruitment path with scenarios

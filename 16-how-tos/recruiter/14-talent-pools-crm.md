@@ -3,7 +3,7 @@ title: "Chapter 14 — Talent Pools and Talent CRM"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, talent-pool, crm, segmentation]
+tags: [how-to, recruiter, talent-pool, crm, segmentation]
 status: draft
 user-types: [recruiter]
 ---
@@ -135,11 +135,11 @@ This is recruitment as a CRM business, not a job-board business. It's the differ
 
 ## Next chapter
 
-[[16-manuals/recruiter/15-screening-config|Chapter 15 — Configuring screening at the job level]]
+[[16-how-tos/recruiter/15-screening-config|Chapter 15 — Configuring screening at the job level]]
 
 ## References
 
-- [[16-manuals/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
-- [[16-manuals/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
-- [[16-manuals/recruiter/15-screening-config|Chapter 15 — Configuring screening at the job level]]
-- [[16-manuals/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[16-how-tos/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
+- [[16-how-tos/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
+- [[16-how-tos/recruiter/15-screening-config|Chapter 15 — Configuring screening at the job level]]
+- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

@@ -3,7 +3,7 @@ title: "Chapter 34 — Predictive Hiring, Rapid Workflow, and the path to Platin
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, advanced, predictive, rapid-workflow, platinum]
+tags: [how-to, recruiter, advanced, predictive, rapid-workflow, platinum]
 status: draft
 user-types: [recruiter]
 ---
@@ -109,7 +109,7 @@ trustTier = score >= 85 ? Platinum
          : Bronze
 ```
 
-Reaching Platinum requires **6 or 7 of the 7 badges**. By the time you've worked through this manual, here's the consolidated playbook for each:
+Reaching Platinum requires **6 or 7 of the 7 badges**. By the time you've worked through this guide, here's the consolidated playbook for each:
 
 ### Badges 1–3: The fast wins (within Week 1)
 
@@ -167,7 +167,7 @@ The 33 chapters before this one are the path to Platinum. This chapter is just t
 
 ## A final word on running the agency
 
-Twenty years in recruitment will teach you a few things, and this manual is an attempt to compress them. The most important ones aren't features:
+Twenty years in recruitment will teach you a few things, and this guide is an attempt to compress them. The most important ones aren't features:
 
 1. **The candidates and clients you treat best in the worst moments are the ones who become your moat.** Great service when things are smooth is table stakes; great service when things are hard is what builds lasting relationships.
 
@@ -189,13 +189,13 @@ You now have everything you need to use the platform properly. The rest is execu
 - [ ] You have a realistic plan for moving from your current trust tier to the next one
 - [ ] You've internalised the principle that the platform amplifies discipline, doesn't replace it
 
-## End of manual
+## End of guide
 
-You've reached the end. The plan and source pages remain in the wiki — use [[16-manuals/recruiter/index|the manual index]] to jump back to any chapter.
+You've reached the end. The plan and source pages remain in the wiki — use [[16-how-tos/recruiter/index|the guide index]] to jump back to any chapter.
 
 ## References
 
-- [[16-manuals/recruiter/index|Manual index]]
-- [[16-manuals/recruiter/06-ai-profile-assets|Chapter 6 — Trust tier playbook]]
-- [[16-manuals/recruiter/25-reading-your-analytics|Chapter 25 — Predictive analytics]]
-- [[03-workflows/recruiter-journey]] — The full journey doc this manual is built on
+- [[16-how-tos/recruiter/index|Manual index]]
+- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — Trust tier playbook]]
+- [[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Predictive analytics]]
+- [[03-workflows/recruiter-journey]] — The full journey doc this guide is built on

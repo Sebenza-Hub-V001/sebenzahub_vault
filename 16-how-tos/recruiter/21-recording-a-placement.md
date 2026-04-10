@@ -3,7 +3,7 @@ title: "Chapter 21 — Recording a placement and revenue"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, placement, revenue, kpi]
+tags: [how-to, recruiter, placement, revenue, kpi]
 status: draft
 user-types: [recruiter]
 ---
@@ -181,12 +181,12 @@ You'll have many submissions per placement — typically 10–20 submissions for
 
 ## Next chapter
 
-[[16-manuals/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox and message management]]
+[[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox and message management]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Where placement sits in the lifecycle
-- [[16-manuals/recruiter/09-engagement-terms|Chapter 9 — Engagement terms (fee structure feeds revenue)]]
-- [[16-manuals/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (placements feed badges)]]
-- [[16-manuals/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
-- [[16-manuals/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
+- [[16-how-tos/recruiter/09-engagement-terms|Chapter 9 — Engagement terms (fee structure feeds revenue)]]
+- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (placements feed badges)]]
+- [[16-how-tos/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
+- [[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]

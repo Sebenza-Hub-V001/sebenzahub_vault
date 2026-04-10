@@ -3,7 +3,7 @@ title: "Chapter 17 — Screening tools"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, screening, scorecards, blind-hiring, tests]
+tags: [how-to, recruiter, screening, scorecards, blind-hiring, tests]
 status: draft
 user-types: [recruiter]
 ---
@@ -199,12 +199,12 @@ Each layer has a purpose. Each layer rejects a smaller, more carefully-selected 
 
 ## Next chapter
 
-[[16-manuals/recruiter/18-interview-scheduling|Chapter 18 — Interview scheduling and interview kits]]
+[[16-how-tos/recruiter/18-interview-scheduling|Chapter 18 — Interview scheduling and interview kits]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities in screening
 - [[02-concepts/compliance]] — POPIA, EE, and bias auditing context
-- [[16-manuals/recruiter/15-screening-config|Chapter 15 — Configuring screening at the job level]]
-- [[16-manuals/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-manuals/recruiter/18-interview-scheduling|Chapter 18 — Interview scheduling]]
+- [[16-how-tos/recruiter/15-screening-config|Chapter 15 — Configuring screening at the job level]]
+- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[16-how-tos/recruiter/18-interview-scheduling|Chapter 18 — Interview scheduling]]

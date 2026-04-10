@@ -3,7 +3,7 @@ title: "Chapter 20 — Autopilot and auto-apply"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, individual, autopilot, advanced]
+tags: [how-to, individual, autopilot, advanced]
 status: active
 user-types: [individual]
 ---
@@ -24,7 +24,7 @@ The promise: more applications, faster, with less effort. The risk: applications
 
 ## Why you should be careful
 
-Auto-apply is the most powerful feature in this manual and the easiest one to misuse. The reason is structural: the value of an application is not its existence — it's your *attention* to it. A hand-written cover letter referencing a specific JD detail is signal. A generic AI-generated cover letter on a wrong-fit job is noise. Autopilot can scale either, depending on how it's tuned.
+Auto-apply is the most powerful feature in this guide and the easiest one to misuse. The reason is structural: the value of an application is not its existence — it's your *attention* to it. A hand-written cover letter referencing a specific JD detail is signal. A generic AI-generated cover letter on a wrong-fit job is noise. Autopilot can scale either, depending on how it's tuned.
 
 The risks specifically:
 
@@ -73,7 +73,7 @@ Until the open question is resolved and the operational specifics here are docum
 1. **Don't enable any Autopilot feature** unless you've already had success with manual applications and know exactly what you want it to do.
 2. **If you must enable something**, start with the most restrictive setting available, watch it for a week, and only loosen it after you've reviewed every single action.
 3. **Check back on this chapter periodically** — once we have the operational details, the chapter will tell you which exact settings to use and what the safeguards already are.
-4. **Read [[16-manuals/individual/21-career-dna|Chapter 21]] first** — Career DNA and Opportunity Weights tighten the AI matching that Autopilot uses, which makes the entire thing safer.
+4. **Read [[16-how-tos/individual/21-career-dna|Chapter 21]] first** — Career DNA and Opportunity Weights tighten the AI matching that Autopilot uses, which makes the entire thing safer.
 
 ## What we'll cover in a future update
 
@@ -93,9 +93,9 @@ Until then, treat the principles in this chapter as the safe defaults: conservat
 
 ## Next chapter
 
-[[16-manuals/individual/21-career-dna|Chapter 21 — Career DNA and Opportunity Weights]]
+[[16-how-tos/individual/21-career-dna|Chapter 21 — Career DNA and Opportunity Weights]]
 
 ## References
 
-- [[16-manuals/individual/21-career-dna|Chapter 21]] — Career DNA tunes the matching Autopilot relies on
-- [[16-manuals/individual/12-tracking-applications|Chapter 12]] — How to audit what Autopilot has done
+- [[16-how-tos/individual/21-career-dna|Chapter 21]] — Career DNA tunes the matching Autopilot relies on
+- [[16-how-tos/individual/12-tracking-applications|Chapter 12]] — How to audit what Autopilot has done

@@ -3,7 +3,7 @@ title: "Chapter 20 — Making an offer"
 type: concept
 created: 2026-04-09
 updated: 2026-04-09
-tags: [manual, recruiter, offers, approvals, negotiation]
+tags: [how-to, recruiter, offers, approvals, negotiation]
 status: draft
 user-types: [recruiter]
 ---
@@ -216,12 +216,12 @@ Watch the decline reasons. If "competing offer" is your top decline reason, your
 
 ## Next chapter
 
-[[16-manuals/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement and revenue]]
+[[16-how-tos/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement and revenue]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Offer status enum
 - [[02-concepts/compliance]] — EE and B-BBEE compliance considerations
-- [[16-manuals/recruiter/07-team-setup|Chapter 7 — Team setup (approval chains)]]
-- [[16-manuals/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
-- [[16-manuals/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement and revenue]]
+- [[16-how-tos/recruiter/07-team-setup|Chapter 7 — Team setup (approval chains)]]
+- [[16-how-tos/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
+- [[16-how-tos/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement and revenue]]
