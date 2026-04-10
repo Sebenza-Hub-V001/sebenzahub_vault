@@ -46,7 +46,7 @@ Beyond validating our own approach, this pattern has product implications for Se
 
 1. **Users accumulate knowledge across sessions** — Recruiters track candidate pipelines, Individuals manage career progress, Businesses oversee workforce data. All of this knowledge is currently locked in database tables and UI views, not in a compounding, agent-readable format.
 2. **The CLAUDE.md pattern generalises** — Any LLM-powered feature in Sebenza Hub (AI Copilot, Career Coach, Screening Bot) could benefit from a structured context file that persists across interactions, loaded on session start.
-3. **The "no RAG needed" insight matters** — At personal/team scale, well-structured markdown with good naming conventions outperforms vector search for retrieval. This aligns with [[10-tweets/karpathy-llm-knowledge-bases|Karpathy's observation]] that personal-scale knowledge bases don't need RAG infrastructure.
+3. **The "no RAG needed" insight matters** — At personal/team scale, well-structured markdown with good naming conventions outperforms vector search for retrieval. This aligns with [[10-tweets/04-karpathy-llm-knowledge-bases|Karpathy's observation]] that personal-scale knowledge bases don't need RAG infrastructure.
 
 ## Recommendations
 
@@ -64,9 +64,9 @@ N/A — Highly relevant. This tweet describes the exact architecture this wiki u
 
 ## References
 
-- [[10-tweets/karpathy-llm-knowledge-bases]] — Foundational LLM wiki pattern; neil_xbt's article is a practical guide for implementing Karpathy's architecture
-- [[10-tweets/farzatv-farzapedia-personal-wiki]] — Farza's implementation using personal data (2,500 entries → 400 articles); proves the pattern works with messy personal data
-- [[10-tweets/coreyganim-hidden-claude-code-features]] — Claude Code advanced features that enhance the Obsidian + Claude workflow
+- [[10-tweets/04-karpathy-llm-knowledge-bases]] — Foundational LLM wiki pattern; neil_xbt's article is a practical guide for implementing Karpathy's architecture
+- [[10-tweets/03-farzatv-farzapedia-personal-wiki]] — Farza's implementation using personal data (2,500 entries → 400 articles); proves the pattern works with messy personal data
+- [[10-tweets/05-coreyganim-hidden-claude-code-features]] — Claude Code advanced features that enhance the Obsidian + Claude workflow
 - [[01-entities/sebenza-hub]] — Platform overview
 - [[01-entities/recruiter-user]] — AI Copilot, candidate management
 - [[01-entities/individual-user]] — Career DNA, AI Career Coach

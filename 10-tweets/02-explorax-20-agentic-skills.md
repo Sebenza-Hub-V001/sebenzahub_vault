@@ -23,7 +23,7 @@ The tweet shares a curated collection of **20 agentic skills** written in `.md` 
 
 The core idea is that AI models become dramatically more useful when given **reusable, structured skill files** (markdown prompts) that encode domain-specific workflows. Instead of writing one-off prompts, you build a library of modular `.md` skills that any AI agent can load and execute. This is the "agentic skills" pattern — turning AI from a chat partner into a **toolbox of specialised workers**, each with a defined scope, input/output format, and methodology.
 
-This aligns with the broader trend (see [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]]) of structuring AI interactions via persistent markdown artifacts rather than ephemeral chat.
+This aligns with the broader trend (see [[10-tweets/04-karpathy-llm-knowledge-bases]], [[10-tweets/03-farzatv-farzapedia-personal-wiki]]) of structuring AI interactions via persistent markdown artifacts rather than ephemeral chat.
 
 ## The 20 Skills
 
@@ -102,5 +102,5 @@ Sebenza Hub already has **383+ AI-specific endpoints** across three providers ([
 ## References
 
 - Related wiki pages: [[02-concepts/ai-features]], [[01-entities/screening-system]], [[01-entities/whatsapp-bot]], [[01-entities/linkedin-integration]], [[01-entities/community-learning-hub]], [[01-entities/admin-user]]
-- Related tweets: [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]], [[10-tweets/aiedge-claude-skills-guide]] (architectural depth: progressive loading, A/B testing, trigger optimisation for the skill pattern), [[10-tweets/roundtablespace-debugging-methodology-prompt]] (debugging as a reusable 8-step skill)
+- Related tweets: [[10-tweets/04-karpathy-llm-knowledge-bases]], [[10-tweets/03-farzatv-farzapedia-personal-wiki]], [[10-tweets/01-aiedge-claude-skills-guide]] (architectural depth: progressive loading, A/B testing, trigger optimisation for the skill pattern), [[10-tweets/07-roundtablespace-debugging-methodology-prompt]] (debugging as a reusable 8-step skill)
 - Source tweet: [exploraX_ — 20 Agentic Skills](https://x.com/explorax_/status/2039269234253934811)

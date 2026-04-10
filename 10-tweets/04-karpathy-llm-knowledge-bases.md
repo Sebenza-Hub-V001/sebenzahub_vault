@@ -69,8 +69,8 @@ Additionally, Sebenza Hub's **Individual Learning Hub** and **Community features
 - [[01-entities/screening-system]] — Screening chatbot and question banks
 - [[02-concepts/ai-features]] — Current AI capabilities
 - [[01-entities/community-learning-hub]] — Learning and knowledge features
-- [[10-tweets/farzatv-farzapedia-personal-wiki]] — Farza's concrete implementation of this pattern using personal data (diaries, notes, messages → 400-article wiki)
-- [[10-tweets/explorax-20-agentic-skills]] — 20 reusable `.md` skill files for AI models — the "skill" complement to the "knowledge base" pattern
-- [[10-tweets/neilxbt-obsidian-claude-memory]] — Practical guide to implementing this pattern: Obsidian + CLAUDE.md as persistent memory layer for Claude Code
+- [[10-tweets/03-farzatv-farzapedia-personal-wiki]] — Farza's concrete implementation of this pattern using personal data (diaries, notes, messages → 400-article wiki)
+- [[10-tweets/02-explorax-20-agentic-skills]] — 20 reusable `.md` skill files for AI models — the "skill" complement to the "knowledge base" pattern
+- [[10-tweets/06-neilxbt-obsidian-claude-memory]] — Practical guide to implementing this pattern: Obsidian + CLAUDE.md as persistent memory layer for Claude Code
 - Source tweet: [Andrej Karpathy on X](https://x.com/karpathy/status/2039805659525644595)
 - Schema gist: [llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)

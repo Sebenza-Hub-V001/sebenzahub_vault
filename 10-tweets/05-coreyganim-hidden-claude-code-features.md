@@ -47,7 +47,7 @@ These features directly address patterns and gaps already identified in the Sebe
 
 - **TaskCompleted hook pattern → Quality gates for AI outputs**: Sebenza Hub's AI features (CV screening, JD writing, candidate matching) need output validation before results reach users. The hook pattern — "check quality before declaring done" — maps directly to ensuring AI-generated content meets compliance and quality thresholds.
 
-- **/loop + Skills pattern → Recurring AI monitoring**: Aligns with [[10-tweets/aiedge-claude-skills-guide|AI Edge's Skills architecture]] recommendations. Recurring loops could power: stale job listing detection, compliance audit schedules, candidate match refresh cycles, and WhatsApp bot health monitoring.
+- **/loop + Skills pattern → Recurring AI monitoring**: Aligns with [[10-tweets/01-aiedge-claude-skills-guide|AI Edge's Skills architecture]] recommendations. Recurring loops could power: stale job listing detection, compliance audit schedules, candidate match refresh cycles, and WhatsApp bot health monitoring.
 
 ## Recommendations
 
@@ -67,5 +67,5 @@ All 5 features highlighted are relevant to Sebenza Hub. The remaining 5 features
 ## References
 
 - Related wiki pages: [[02-concepts/ai-features]], [[01-entities/whatsapp-bot]], [[01-entities/screening-system]], [[02-concepts/compliance]], [[02-concepts/application-lifecycle]], [[02-concepts/tech-stack]], [[02-concepts/whatsapp-integration]]
-- Related tweets: [[10-tweets/aiedge-claude-skills-guide]] (Skills architecture — /loop + Skills deepens this), [[10-tweets/explorax-20-agentic-skills]] (agentic skill files — Agent Teams extends the pattern), [[10-tweets/karpathy-llm-knowledge-bases]] (AI infrastructure via markdown), [[10-tweets/farzatv-farzapedia-personal-wiki]] (agent-queryable data)
+- Related tweets: [[10-tweets/01-aiedge-claude-skills-guide]] (Skills architecture — /loop + Skills deepens this), [[10-tweets/02-explorax-20-agentic-skills]] (agentic skill files — Agent Teams extends the pattern), [[10-tweets/04-karpathy-llm-knowledge-bases]] (AI infrastructure via markdown), [[10-tweets/03-farzatv-farzapedia-personal-wiki]] (agent-queryable data)
 - Source tweet: [Corey Ganim on X](https://x.com/coreyganim/status/2041596621591629915)

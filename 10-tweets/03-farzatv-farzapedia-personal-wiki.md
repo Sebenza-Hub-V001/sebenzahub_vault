@@ -19,7 +19,7 @@ status: active
 
 ## Key Insight
 
-Farza demonstrates a concrete implementation of the LLM-wiki pattern that [[10-tweets/karpathy-llm-knowledge-bases|Karpathy described]]. The critical difference: **the input is deeply personal data** — diaries, notes, private messages — not research papers or public sources. The LLM compiled 2,500 raw entries into 400 structured, interlinked wiki articles covering people, projects, interests, and their relationships.
+Farza demonstrates a concrete implementation of the LLM-wiki pattern that [[10-tweets/04-karpathy-llm-knowledge-bases|Karpathy described]]. The critical difference: **the input is deeply personal data** — diaries, notes, private messages — not research papers or public sources. The LLM compiled 2,500 raw entries into 400 structured, interlinked wiki articles covering people, projects, interests, and their relationships.
 
 Two important design points emerge:
 
@@ -46,7 +46,7 @@ These are all proto-versions of what Farzapedia demonstrates at scale.
 |---|---------------|---------------|--------|--------|
 | 1 | **Agent-queryable candidate wikis for Recruiters** — Auto-compile a personal wiki per candidate from their application data, interview transcripts, screening bot conversations, assessment scores, and notes. The recruiter's AI Copilot can then answer complex questions like "Which candidates in my pipeline have fintech experience AND salary expectations under 600K?" by querying the wiki, not running SQL. | [[01-entities/recruiter-user]], [[02-concepts/ai-features]] — AI Copilot | High | High |
 | 2 | **Personal career wiki for Individuals** — Evolve Career DNA from a static config into a living wiki compiled from the Individual's applications, interview feedback, skills assessments, learning completions, and saved jobs. Unlike a profile page, this would be a multi-article knowledge base the Individual (and their AI Career Coach) can query: "What patterns do my rejections have in common?" | [[01-entities/individual-user]] — Career DNA | Medium | High |
-| 3 | **Client intelligence wiki for Recruiters** — Auto-compile a wiki page per client company from placement history, job descriptions, offer outcomes, time-to-fill data, and communication logs. Builds institutional memory that survives recruiter turnover. Directly extends Karpathy recommendation #1 from [[10-tweets/karpathy-llm-knowledge-bases]]. | [[01-entities/recruiter-user]] — Client Management | Medium | High |
+| 3 | **Client intelligence wiki for Recruiters** — Auto-compile a wiki page per client company from placement history, job descriptions, offer outcomes, time-to-fill data, and communication logs. Builds institutional memory that survives recruiter turnover. Directly extends Karpathy recommendation #1 from [[10-tweets/04-karpathy-llm-knowledge-bases]]. | [[01-entities/recruiter-user]] — Client Management | Medium | High |
 | 4 | **Private-data-to-wiki pipeline as platform feature** — Offer a "bring your own data" wiki builder as a premium Individual feature. Users upload their CV history, LinkedIn export, career notes, and the LLM compiles a structured career wiki. Differentiator: no other job platform does this. | [[01-entities/individual-user]], [[02-concepts/billing-system]] | High | Medium |
 | 5 | **Agent-first data architecture** — Adopt the insight that "the wiki is for the agent, not the human." Design AI features (Copilot, Career Coach, Screening Bot) to read from compiled wiki-format knowledge bases rather than raw database queries. This is an architectural shift that makes AI features dramatically more capable without changing the UI. | [[02-concepts/ai-features]], [[02-concepts/tech-stack]] | High | High |
 
@@ -56,9 +56,9 @@ N/A — This tweet is highly relevant. It validates and extends the Karpathy wik
 
 ## References
 
-- [[10-tweets/karpathy-llm-knowledge-bases]] — Directly related: Karpathy's LLM wiki pattern (this tweet is a concrete implementation)
-- [[10-tweets/explorax-20-agentic-skills]] — Modular `.md` skill files for AI — same pattern (markdown artifacts powering AI behaviour) applied to task execution rather than knowledge
-- [[10-tweets/neilxbt-obsidian-claude-memory]] — Practical implementation guide: Obsidian + CLAUDE.md as the memory layer, validating this compounding knowledge pattern
+- [[10-tweets/04-karpathy-llm-knowledge-bases]] — Directly related: Karpathy's LLM wiki pattern (this tweet is a concrete implementation)
+- [[10-tweets/02-explorax-20-agentic-skills]] — Modular `.md` skill files for AI — same pattern (markdown artifacts powering AI behaviour) applied to task execution rather than knowledge
+- [[10-tweets/06-neilxbt-obsidian-claude-memory]] — Practical implementation guide: Obsidian + CLAUDE.md as the memory layer, validating this compounding knowledge pattern
 - [[01-entities/sebenza-hub]] — Platform overview (wiki feature, AI features)
 - [[01-entities/individual-user]] — Career DNA, AI Career Coach
 - [[01-entities/recruiter-user]] — AI Copilot, client management, candidate CRM

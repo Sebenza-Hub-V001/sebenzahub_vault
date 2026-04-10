@@ -86,15 +86,15 @@ status: active
 ## Decisions
 
 ## Tweets
-- [[10-tweets/karpathy-llm-knowledge-bases]] — LLM-powered knowledge bases replace RAG at personal scale, @karpathy, 2026-04
-- [[10-tweets/farzatv-farzapedia-personal-wiki]] — LLM compiles 2,500 personal notes into 400-article wiki for agent consumption, @FarzaTV, 2026-04
-- [[10-tweets/explorax-20-agentic-skills]] — 20 reusable agentic skill files (.md) for Claude/ChatGPT/Gemini across writing, visual, research, video & coding, @exploraX_, 2026-04
-- [[10-tweets/aiedge-claude-skills-guide]] — Claude Skills architecture: progressive loading, A/B testing, trigger optimisation, eval framework, @aiedge_, 2026-03
-- [[10-tweets/coreyganim-hidden-claude-code-features]] — 10 hidden Claude Code features: Channels, /batch, Agent Teams, TaskCompleted hook, /loop + Skills, @coreyganim, 2026-04
-- [[10-tweets/roundtablespace-debugging-methodology-prompt]] — 8-step systematic debugging methodology prompt (detective thinking, no hallucinated causes), @RoundtableSpace, 2026-03
-- [[10-tweets/neilxbt-obsidian-claude-memory]] — Obsidian + CLAUDE.md as persistent memory layer for Claude Code (compounding knowledge flywheel), @neil_xbt, 2026-04
-- [[10-tweets/nickspisak-claude-managed-agents]] — Claude Managed Agents public beta: Anthropic-hosted agent runtime (sandbox, session, MCP, per-tool permissions, $0.08/session-hr), @NickSpisak_, 2026-04-09
-- [[10-tweets/aiedge-claude-obsidian-second-brain]] — Claude Code + Obsidian second-brain setup guide (Marp, Dataview, Web Clipper, qmd on top of Karpathy's schema), @aiedge_, 2026-04-09
+- [[10-tweets/04-karpathy-llm-knowledge-bases]] — LLM-powered knowledge bases replace RAG at personal scale, @karpathy, 2026-04
+- [[10-tweets/03-farzatv-farzapedia-personal-wiki]] — LLM compiles 2,500 personal notes into 400-article wiki for agent consumption, @FarzaTV, 2026-04
+- [[10-tweets/02-explorax-20-agentic-skills]] — 20 reusable agentic skill files (.md) for Claude/ChatGPT/Gemini across writing, visual, research, video & coding, @exploraX_, 2026-04
+- [[10-tweets/01-aiedge-claude-skills-guide]] — Claude Skills architecture: progressive loading, A/B testing, trigger optimisation, eval framework, @aiedge_, 2026-03
+- [[10-tweets/05-coreyganim-hidden-claude-code-features]] — 10 hidden Claude Code features: Channels, /batch, Agent Teams, TaskCompleted hook, /loop + Skills, @coreyganim, 2026-04
+- [[10-tweets/07-roundtablespace-debugging-methodology-prompt]] — 8-step systematic debugging methodology prompt (detective thinking, no hallucinated causes), @RoundtableSpace, 2026-03
+- [[10-tweets/06-neilxbt-obsidian-claude-memory]] — Obsidian + CLAUDE.md as persistent memory layer for Claude Code (compounding knowledge flywheel), @neil_xbt, 2026-04
+- [[10-tweets/09-nickspisak-claude-managed-agents]] — Claude Managed Agents public beta: Anthropic-hosted agent runtime (sandbox, session, MCP, per-tool permissions, $0.08/session-hr), @NickSpisak_, 2026-04-09
+- [[10-tweets/08-aiedge-claude-obsidian-second-brain]] — Claude Code + Obsidian second-brain setup guide (Marp, Dataview, Web Clipper, qmd on top of Karpathy's schema), @aiedge_, 2026-04-09
 
 ## Presentations
 

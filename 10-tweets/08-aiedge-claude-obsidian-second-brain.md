@@ -66,9 +66,9 @@ This tweet is **directly validating** — this very wiki (the one you're reading
 
 Three prior tweets already cover the same pattern at different levels:
 
-- [[10-tweets/karpathy-llm-knowledge-bases]] — the foundational pattern + schema gist
-- [[10-tweets/farzatv-farzapedia-personal-wiki]] — a working implementation (2,500 notes → 400 articles)
-- [[10-tweets/neilxbt-obsidian-claude-memory]] — the "Obsidian as Claude's memory" framing
+- [[10-tweets/04-karpathy-llm-knowledge-bases]] — the foundational pattern + schema gist
+- [[10-tweets/03-farzatv-farzapedia-personal-wiki]] — a working implementation (2,500 notes → 400 articles)
+- [[10-tweets/06-neilxbt-obsidian-claude-memory]] — the "Obsidian as Claude's memory" framing
 
 What **this** tweet adds that the others didn't:
 
@@ -77,7 +77,7 @@ What **this** tweet adds that the others didn't:
 3. **Dataview for structured queries** — our frontmatter is already Dataview-compatible (`type`, `tags`, `status`, `created`, `updated`). We could ship queries that surface stale pages, orphan pages, or per-tag indexes without custom tooling.
 4. **Obsidian Web Clipper** — a lower-friction path to get tweets, articles, and screenshots into `13-raw/` without manual file creation.
 
-Beyond the meta-validation, there is a **product angle for Sebenza Hub**: a user-facing "Agent-Ready Knowledge Base" export (already suggested in Rec #3 of [[10-tweets/neilxbt-obsidian-claude-memory]]) could bundle Marp templates, Dataview queries, and a pre-built `CLAUDE.md` so users plug their exported vault straight into Claude Code.
+Beyond the meta-validation, there is a **product angle for Sebenza Hub**: a user-facing "Agent-Ready Knowledge Base" export (already suggested in Rec #3 of [[10-tweets/06-neilxbt-obsidian-claude-memory]]) could bundle Marp templates, Dataview queries, and a pre-built `CLAUDE.md` so users plug their exported vault straight into Claude Code.
 
 ## Recommendations
 
@@ -86,16 +86,16 @@ Beyond the meta-validation, there is a **product angle for Sebenza Hub**: a user
 | 1 | **Adopt Marp for the empty `11-presentations/` folder** — Install Marp, create a shared template, and start generating pitch decks directly from wiki content (e.g. "Sebenza Hub platform overview" deck sourced from [[01-entities/sebenza-hub]] + [[overview.md]]). Removes the blocker on the presentations track. | `11-presentations/`, wiki tooling | low | medium |
 | 2 | **Add Dataview queries to `index.md`** — Replace the manually-maintained lists with Dataview queries over frontmatter (`TABLE type, updated FROM "01-entities" WHERE status = "active"`). Auto-surfaces stale pages and eliminates the drift between `index.md` and reality. | [[index.md]], wiki tooling | low | medium |
 | 3 | **Install Obsidian Web Clipper for ingestion** — Streamlines the Ingest workflow: clipping an article goes straight into `13-raw/articles/` with source URL preserved. Reduces friction on the most frequent operation. | Ingest workflow, `13-raw/` | low | medium |
-| 4 | **Ship a "Knowledge Vault Export" SKU for Sebenza Hub users** — Bundle the user's platform data as an Obsidian-compatible vault with pre-configured `CLAUDE.md`, Marp templates, and Dataview dashboards. Differentiator vs every other recruiter/career SaaS. Extends Rec #3 from [[10-tweets/neilxbt-obsidian-claude-memory]]. | [[01-entities/recruiter-user]], [[01-entities/individual-user]], [[02-concepts/billing-system]] | high | medium |
+| 4 | **Ship a "Knowledge Vault Export" SKU for Sebenza Hub users** — Bundle the user's platform data as an Obsidian-compatible vault with pre-configured `CLAUDE.md`, Marp templates, and Dataview dashboards. Differentiator vs every other recruiter/career SaaS. Extends Rec #3 from [[10-tweets/06-neilxbt-obsidian-claude-memory]]. | [[01-entities/recruiter-user]], [[01-entities/individual-user]], [[02-concepts/billing-system]] | high | medium |
 | 5 | **Use Karpathy's schema gist as the canonical upstream** — Cross-link our `CLAUDE.md` back to [Karpathy's llm-wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) so future drift is visible. Add a "schema version" field to page frontmatter. | [[CLAUDE.md]], all pages | low | low |
 
 ## Skip Justification
 
-N/A — The tweet is directly relevant. The only reason to downrank it is redundancy with [[10-tweets/karpathy-llm-knowledge-bases]], [[10-tweets/farzatv-farzapedia-personal-wiki]], and [[10-tweets/neilxbt-obsidian-claude-memory]], but the specific tool stack (Marp, Dataview, Web Clipper, qmd) is new and actionable.
+N/A — The tweet is directly relevant. The only reason to downrank it is redundancy with [[10-tweets/04-karpathy-llm-knowledge-bases]], [[10-tweets/03-farzatv-farzapedia-personal-wiki]], and [[10-tweets/06-neilxbt-obsidian-claude-memory]], but the specific tool stack (Marp, Dataview, Web Clipper, qmd) is new and actionable.
 
 ## References
 
-- Related tweets: [[10-tweets/karpathy-llm-knowledge-bases]] (foundational pattern), [[10-tweets/farzatv-farzapedia-personal-wiki]] (working implementation), [[10-tweets/neilxbt-obsidian-claude-memory]] (Obsidian-as-memory framing), [[10-tweets/coreyganim-hidden-claude-code-features]] (Claude Code features that pair with this stack)
+- Related tweets: [[10-tweets/04-karpathy-llm-knowledge-bases]] (foundational pattern), [[10-tweets/03-farzatv-farzapedia-personal-wiki]] (working implementation), [[10-tweets/06-neilxbt-obsidian-claude-memory]] (Obsidian-as-memory framing), [[10-tweets/05-coreyganim-hidden-claude-code-features]] (Claude Code features that pair with this stack)
 - Related wiki pages: [[CLAUDE.md]] (our schema), [[index.md]], [[01-entities/sebenza-hub]], [[01-entities/recruiter-user]], [[01-entities/individual-user]], [[02-concepts/ai-features]]
 - Source tweet: [@aiedge_ on X](https://x.com/aiedge_/status/2041908011078447222)
 - Upstream schema: [Karpathy's llm-wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
