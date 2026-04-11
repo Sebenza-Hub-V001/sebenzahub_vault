@@ -2,9 +2,9 @@
 title: "AI Features"
 type: concept
 created: 2026-04-07
-updated: 2026-04-07
-tags: [ai, machine-learning, openai, anthropic, google]
-sources: [repo-audit-2026-04-07, ai-enhancement-opportunities-2026-04-07]
+updated: 2026-04-11
+tags: [ai, machine-learning, openai, anthropic, google, compliance, regulation, risk-classification]
+sources: [repo-audit-2026-04-07, ai-enhancement-opportunities-2026-04-07, sa-ai-policy-compliance-review]
 status: active
 confidence: high
 ---
@@ -120,6 +120,28 @@ Admin can monitor AI fairness through:
 
 This connects to the broader [[02-concepts/compliance]] framework.
 
+> ⚠️ **Tension:** The bias audit infrastructure (tables, endpoints, admin dashboard) exists in the codebase, but the [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] finds it is **not operationalised** — no documented fairness constraints, no demographic parity testing, no algorithm impact assessments are running. Candidates receive no AI disclosure notices, cannot see how scores are calculated, and have no appeal mechanism.
+
+## SA National AI Policy — Risk Classification
+
+Under the [[04-standards/sa-national-ai-policy]] (draft, 2026), Sebenza Hub's AI features are classified by regulatory risk:
+
+| Risk Level | Features | Regulatory Requirements |
+|---|---|---|
+| **High** | Predictive Hiring, Job Matching, Battle Cards, Assessment Scoring | Bias audits, explainability, HITL, impact assessments, potential certification |
+| **Medium** | Decision Simulator, Automation Engine, Offer Strategy | Transparency notices, accountability logging |
+| **Low** | AI Cost Controls, Safety Rules | Standard compliance |
+
+**Key compliance gaps for high-risk features:**
+- No AI disclosure notices to candidates
+- No POPIA Section 71 compliance (automated decision-making notification + right to challenge)
+- No data minimisation for AI endpoints (full profiles sent to Claude)
+- No designated AI accountability officer
+- No global kill-switch to disable AI features
+- Automation engine lacks human approval gates for critical pipeline stages
+
+**Timeline:** High-risk regulations expected 2026/27 (~12–18 months). See [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] for the full gap analysis and 10 prioritised action items.
+
 ## AI Enhancement Opportunities
 
 Audit findings show **83% of pages don't use AI** despite 42 backend functions being available. The biggest opportunity is wiring existing AI to existing pages.
@@ -151,6 +173,8 @@ Audit findings show **83% of pages don't use AI** despite 42 backend functions b
 
 ## References
 
+- [[04-standards/sa-national-ai-policy]] — SA National AI Policy (draft) — risk classification for AI features
+- [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] — Full compliance gap analysis
 - [[02-concepts/application-lifecycle]] — AI in the hiring pipeline
 - [[02-concepts/compliance]] — AI bias and governance
 - [[03-workflows/individual-journey]] — AI tools in the Individual journey (Step 8)

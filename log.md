@@ -1,5 +1,21 @@
 # Activity Log
 
+## [2026-04-11] ingest | SA National AI Policy — Compliance Review
+- Source: `13-raw/articles/sa-ai-policy-compliance-review.md`
+- Summary: [[09-sources/sa-ai-policy-compliance-review-2026-04-11]]
+- Pages touched: [[02-concepts/compliance]], [[02-concepts/ai-features]], [[index]]
+- New pages created: [[09-sources/sa-ai-policy-compliance-review-2026-04-11]], [[04-standards/sa-national-ai-policy]]
+- Key findings:
+  - Draft SA National AI Policy (Gazette 54477, Cabinet-approved 25 March 2026) classifies recruitment AI as **HIGH risk**
+  - 4 Sebenza Hub features in high-risk tier: Predictive Hiring, Job Matching, Battle Cards, Assessment Scoring
+  - Gaps found across all 6 policy principles — most critical: candidate transparency, bias audit operationalisation, AI-specific POPIA consent
+  - 10 prioritised action items; 12–18 months before high-risk enforcement
+  - Public comment period closes 10 June 2026
+- Contradictions flagged:
+  - Bias audit infrastructure (DB tables, admin dashboard) exists but is not operationalised — plumbing without processes
+  - General POPIA consent exists but AI-specific consent (required by policy) does not
+  - AI features page describes governance capabilities that aren't candidate-facing
+
 ## [2026-04-11] evolve | Overview rewritten — post-hardening, post-Linda, post-how-tos
 - Overview rewritten to reflect current state as of 2026-04-11
 - Key shifts:

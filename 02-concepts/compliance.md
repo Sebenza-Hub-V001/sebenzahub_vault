@@ -99,12 +99,46 @@ AI decisions are monitored for compliance:
 - Admin bias auditing dashboard at `/admin/bias-auditing`
 - Connects to [[02-concepts/ai-features]] governance
 
+> ⚠️ **Tension:** The bias audit infrastructure (database tables, admin dashboard) exists but is **not operationalised**. The [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] finds no evidence of documented bias detection, demographic parity testing, or fairness constraints actually running against matching/scoring algorithms. The plumbing is there; the processes aren't.
+
+## 4. SA National AI Policy (Draft — 2026)
+
+The [[04-standards/sa-national-ai-policy]] (Gazette No. 54477, Cabinet-approved 25 March 2026) introduces a **risk-based AI classification** modelled on the EU AI Act. Recruitment/hiring AI is explicitly **HIGH risk**.
+
+**Sebenza Hub's high-risk AI features:** Predictive Hiring, Job Matching Engine, Battle Card Analyzer, Assessment Scoring.
+
+### Compliance Gaps Identified
+
+| Principle | Gap |
+|---|---|
+| **Fairness** | No bias detection running, no demographic parity testing, no impact assessments |
+| **Transparency** | No AI disclosure notices to candidates, no explainability of scores, no appeal mechanism |
+| **Privacy (POPIA)** | AI-specific consent missing — general consent doesn't cover AI processing; no data minimisation for AI endpoints |
+| **Accountability** | No designated AI accountability officer, no incident response for AI complaints |
+| **Human Oversight** | Automation engine lacks approval gates for critical stages; no global kill-switch |
+| **Inclusiveness** | No accessibility testing of AI interfaces, no multilingual AI explanations |
+
+### POPIA Section 71 — Not Yet Implemented
+
+Section 71 requires that data subjects be **notified** when automated decisions materially affect them and given the opportunity to **make representations** (challenge the decision). This is not currently implemented for any of Sebenza Hub's AI-driven hiring features.
+
+### Timeline
+
+- **10 June 2026** — Public comment period closes
+- **2026/27** — High-risk regulations take effect
+- **12–18 months** to achieve compliance from policy finalisation
+
+See [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] for the full gap analysis and prioritised action items.
+
 ## Open Questions
 
 - How is POPIA consent versioned? If the consent text changes, are users re-prompted?
 - Who verifies B-BBEE certificates — admin manual review or automated?
 - What EE report formats are generated (EEA2, EEA4)?
 - How is the tension between EE data collection and POPIA managed in practice?
+- Does the `ai_bias_audits` table contain any production data, or is it an empty schema?
+- What would a POPIA Section 71 notification look like in the Sebenza Hub UX?
+- Should Sebenza Hub submit a public comment on the draft AI policy by 10 June 2026?
 
 ## Compliance in Workflows
 
@@ -112,6 +146,8 @@ AI decisions are monitored for compliance:
 
 ## References
 
-- [[02-concepts/ai-features]] — AI bias auditing
+- [[04-standards/sa-national-ai-policy]] — SA National AI Policy (draft) — risk classification, 6 principles, timeline
+- [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] — Full compliance gap analysis
+- [[02-concepts/ai-features]] — AI bias auditing and risk classification
 - [[02-concepts/rbac]] — `data:pii_access` permission for sensitive data
 - [[03-workflows/recruiter-journey]] — Track C: Compliance & Governance
