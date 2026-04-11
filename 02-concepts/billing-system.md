@@ -2,9 +2,9 @@
 title: "Billing System"
 type: concept
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-11
 tags: [billing, payments, subscriptions, plans, credits]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11]
 status: active
 confidence: medium
 ---
@@ -70,9 +70,19 @@ Admin has full control at `/admin/billing`:
 The `feature_entitlements` table controls which features each plan includes. Admin configures this at `/admin/features`. Feature access is checked at runtime:
 - `GET /api/me/entitlements` — Returns what the current user's plan allows
 
+## Business Billing Dashboard
+
+As of April 2026, Business users now have a dedicated billing management page (`BusinessBilling.tsx`) for corporate subscription management.
+
+### Shared Plan Cards Component
+
+A new shared `DashboardPlanCards.tsx` component (189 lines) provides a consistent plan selection and display UI across all three user dashboards (Individual, Recruiter, Business). Plan features and pricing data are centralised in `client/src/data/plans.ts` (229 lines, 18 plans defined).
+
+This refactoring replaced duplicated billing code in `RecruiterBilling.tsx` and `IndividualBilling.tsx`, reducing each by ~78 lines.
+
 ## Open Questions
 
-- What are the 18 specific plans and their pricing?
+- What are the 18 specific plans and their pricing tiers?
 - What features are credit-metered vs included in plans?
 - Is Peach Payments confirmed or is there another gateway?
 - How does the referral program work (credits, free months, etc.)?
@@ -82,3 +92,4 @@ The `feature_entitlements` table controls which features each plan includes. Adm
 - [[02-concepts/rbac]] — `billing:view`, `billing:manage` permissions
 - [[03-workflows/individual-journey]] — Billing in the Individual journey
 - [[03-workflows/recruiter-journey]] — Billing in the recruiter journey
+- [[03-workflows/business-journey]] — Billing in the Business journey

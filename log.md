@@ -1,5 +1,30 @@
 # Activity Log
 
+## [2026-04-11] evolve | Overview rewritten — post-hardening, post-Linda, post-how-tos
+- Overview rewritten to reflect current state as of 2026-04-11
+- Key shifts:
+  - **Stats corrected**: API endpoints 3,586→3,741; AI features now 152 (was inflated); test templates 96 (was inflated)
+  - **Linda named**: WhatsApp bot section rewritten around named persona, v2 manual capabilities (sentiment scoring, 3 screening modes, knockout questions)
+  - **How-to guides tracked**: Added how-to column to Four Pillars table; 57 chapters across Individual (23) and Recruiter (34) now reflected
+  - **Security & Infrastructure section added**: Zero vulnerabilities, multi-tenant fix, Neon→PostgreSQL migration, unified billing
+  - **Documentation maturity tracked**: New "Documentation & Knowledge Base" section with asset counts (82 pages, 13 sources, 57 how-tos, 9 tweets, 3 procedures)
+  - **Emerging themes updated**: Linda elevated from "strategic" to "first-class product"; added documentation momentum theme; added infrastructure stabilisation theme
+  - **WhatsApp bot manual reference updated**: v1→v2, added procedures cross-ref
+- Pages touched: [[overview]]
+
+## [2026-04-11] sync | Repo audit — latest codebase changes
+- Source: `github.com/Sebenza-Hub-V001/Sebenza_Hub_Claude_V2` (pulled to local, includes PRs #265-#284)
+- Key changes:
+  - **Linda in codebase confirmed** (`cfb71f7`): `botName` default = "Linda" in `shared/schema.ts`, all 6 SA-language greetings in `server/whatsapp-bot.ts` use the name. Resolved open question in [[01-entities/whatsapp-bot]].
+  - **Platform stats corrected** (`f0a59cb`): AI Features 134→152 (display 150+), Test Templates 300→96 (display 95+). Updated [[01-entities/sebenza-hub]].
+  - **Business billing added** (`b359c31`): New `BusinessBilling.tsx`, shared `DashboardPlanCards.tsx` across all 3 user dashboards, centralised `plans.ts` data file. Updated [[02-concepts/billing-system]].
+  - **Neon → local PostgreSQL** (`0c70182`): Switched from Neon serverless to local PostgreSQL with dotenv. Updated [[02-concepts/tech-stack]] and [[01-entities/sebenza-hub]].
+  - **Multi-tenant security fix** (`c6890be`): Candidate routes now scoped to caller's org. Updated [[02-concepts/multi-tenancy]].
+  - **All 25 vulnerabilities fixed** (`2f2a76c`): 0 remaining. Noted in [[01-entities/sebenza-hub]].
+  - **E2E tests** (`d5ccb92`): Comprehensive recruiter + public flow tests added.
+  - **WhatsApp templates** (`1098704`): Drag-and-drop + UI key management.
+- Pages touched: [[01-entities/sebenza-hub]], [[01-entities/whatsapp-bot]], [[02-concepts/tech-stack]], [[02-concepts/billing-system]], [[02-concepts/multi-tenancy]], [[index]]
+
 ## [2026-04-11] ingest | Linda — WhatsApp Bot Training Manual v2
 - Source: `13-raw/articles/whatsapp-bot-training-manual-v2.md`
 - Summary: [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]]

@@ -188,7 +188,7 @@ Recruiter Dashboard > WhatsApp Apply provides a full application management suit
 - What's the monthly message volume and per-message cost?
 - How does Contact CRM lifecycle sync with the main platform's [[02-concepts/application-lifecycle]]?
 - What's the current fallback rate (% of messages bot can't handle)?
-- Is the "Linda" branding visible in the codebase, or just in documentation?
+- ~~Is the "Linda" branding visible in the codebase, or just in documentation?~~ **Resolved (2026-04-11):** Yes — `shared/schema.ts` sets `botName` default to `"Linda"`, and `server/whatsapp-bot.ts` uses the name in all 6 SA-language greetings. Commit `cfb71f7`.
 - What AI model powers the Live Assist co-pilot mode?
 - How does Application Inbox AI scoring integrate with the main platform's match scoring?
 

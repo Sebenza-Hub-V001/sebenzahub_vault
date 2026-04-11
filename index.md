@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-11 | Pages: 82 | Sources: 13 (+10 raw docs) | Presentations: 0 | How-To's: 1 (in progress)
+> Last updated: 2026-04-11 | Pages: 82 | Sources: 13 (+10 raw docs) | Presentations: 0 | How-To's: 1 (in progress) | AI Features: 152 | Endpoints: 3,741 | Tables: 794
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)

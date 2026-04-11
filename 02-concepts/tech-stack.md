@@ -2,9 +2,9 @@
 title: "Tech Stack"
 type: concept
 created: 2026-04-07
-updated: 2026-04-10
+updated: 2026-04-11
 tags: [technology, architecture, infrastructure, stack]
-sources: [repo-audit-2026-04-07, database-erd-2026-04-10]
+sources: [repo-audit-2026-04-07, database-erd-2026-04-10, whatsapp-bot-training-manual-v2-2026-04-11]
 status: active
 confidence: high
 ---
@@ -32,7 +32,7 @@ Sebenza Hub is a full-stack TypeScript monorepo with `client/`, `server/`, and `
                        │
 ┌──────────────────────▼──────────────────────────┐
 │                  DATA LAYER                       │
-│  PostgreSQL (Neon serverless) + Drizzle ORM      │
+│  PostgreSQL (local) + Drizzle ORM                │
 │  794 tables, 1208 FKs, 28 migrations              │
 │  Redis (BullMQ queues, caching, rate limiting)   │
 │  Cloudflare R2 (file storage)                    │
@@ -81,10 +81,13 @@ Sebenza Hub is a full-stack TypeScript monorepo with `client/`, `server/`, and `
 
 | Technology | Purpose |
 |-----------|---------|
-| PostgreSQL (Neon) | Primary data store (serverless) |
+| PostgreSQL (local) | Primary data store (switched from Neon serverless via `0c70182`) |
 | Drizzle ORM | Type-safe queries and schema |
 | Drizzle Kit | 0.30.1 — Migration management |
 | Redis | Caching, rate limiting, job queue |
+| dotenv | Database connection config (replaces Neon serverless driver) |
+
+> **Migration note (April 2026):** Switched from Neon serverless (`@neondatabase/serverless`) to local PostgreSQL with `dotenv` for connection management. This removes the serverless connection pooling dependency.
 
 **Schema:** 794 tables across 29 domains, defined in `shared/schema.ts`. See [[09-sources/database-erd-2026-04-10]] for the full ERD with all tables, columns, and FK relationships.
 **Migrations:** 28 files in `migrations/`
@@ -148,7 +151,7 @@ Test configurations: UI, API, E2E, AI-quality, WhatsApp-specific.
 - Vite code splitting by vendor
 - Service worker with NetworkFirst strategy
 - Node.js 4GB heap for development
-- Database connection pooling via Neon serverless
+- Database connection pooling via local PostgreSQL
 
 ## References
 
