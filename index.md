@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-10 | Pages: 81 | Sources: 12 (+9 raw docs) | Presentations: 0 | How-To's: 1 (in progress)
+> Last updated: 2026-04-11 | Pages: 82 | Sources: 13 (+10 raw docs) | Presentations: 0 | How-To's: 1 (in progress) | AI Features: 152 | Endpoints: 3,741 | Tables: 794
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -21,7 +21,7 @@ status: active
 - [[01-entities/screening-system]] — CV screening, chatbot, competency tests, background checks
 - [[01-entities/linkedin-integration]] — OAuth, lead gen form sync, AI scoring, nurture sequences
 - [[01-entities/community-learning-hub]] — Forum, mentorship, learning paths, skill verification, gamification
-- [[01-entities/whatsapp-bot]] — AI-powered recruitment assistant via WhatsApp (20 admin tabs, 6 SA languages)
+- [[01-entities/whatsapp-bot]] — "Linda" — AI-powered recruitment assistant via WhatsApp (20 admin tabs, 6 SA languages)
 - [[01-entities/job-aggregation]] — External job aggregation via Adzuna and CareerJet APIs
 
 ## Concepts
@@ -54,7 +54,8 @@ status: active
 - [[09-sources/recruitment-features-2026-04-07]] — 95+ Recruiter features detailed guide
 - [[09-sources/ai-enhancement-opportunities-2026-04-07]] — AI enhancement audit (56 opportunities, 83% of pages lack AI)
 - [[09-sources/seo-plan-2026-04-07]] — SEO strategy (target: 10K monthly organic visitors)
-- [[09-sources/whatsapp-bot-training-manual-2026-04-07]] — WhatsApp bot operational manual (20 admin tabs)
+- [[09-sources/whatsapp-bot-training-manual-2026-04-07]] — WhatsApp bot operational manual v1 (20 admin tabs)
+- [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]] — Linda — WhatsApp Bot Training Manual v2 (named persona, sentiment thresholds, screening modes, troubleshooting)
 - [[09-sources/individual-journey-gap-analysis-2026-04-07]] — Journey gap analysis (40% coverage → 100% rewrite)
 - [[09-sources/recruiter-journey-gap-analysis-2026-04-08]] — Recruiter journey gap analysis (60% coverage → 100% rewrite)
 - [[09-sources/business-journey-gap-analysis-2026-04-08]] — Business journey gap analysis (65% coverage → 100% rewrite)
@@ -67,7 +68,8 @@ status: active
 - `13-raw/articles/recruitment-features.md` — 95+ Recruiter features detailed guide
 - `13-raw/articles/ai-enhancement-opportunities.md` — AI enhancement audit (83% of pages lack AI)
 - `13-raw/articles/seo-plan.md` — SEO strategy document
-- `13-raw/articles/whatsapp-bot-training-manual.md` — WhatsApp chatbot training guide
+- `13-raw/articles/whatsapp-bot-training-manual.md` — WhatsApp chatbot training guide (v1)
+- `13-raw/articles/whatsapp-bot-training-manual-v2.md` — Linda — WhatsApp Bot Training Manual v2
 - `13-raw/articles/individual-journey-gap-analysis.md` — Individual journey coverage audit
 - `13-raw/articles/dashboard-layouts.md` — Dashboard layouts (journey-aligned, all 4 dashboards)
 - `13-raw/data/database-erd.md` — Complete database ERD (794 tables, every column and FK)

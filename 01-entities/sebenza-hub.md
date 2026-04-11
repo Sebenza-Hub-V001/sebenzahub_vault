@@ -2,9 +2,9 @@
 title: "Sebenza Hub"
 type: entity
 created: 2026-04-07
-updated: 2026-04-10
+updated: 2026-04-11
 tags: [platform, product, saas, recruitment]
-sources: [repo-audit-2026-04-07, database-erd-2026-04-10]
+sources: [repo-audit-2026-04-07, database-erd-2026-04-10, whatsapp-bot-training-manual-v2-2026-04-11]
 status: active
 confidence: high
 ---
@@ -34,7 +34,7 @@ See [[02-concepts/tech-stack]] for full details.
 |-------|-----------|
 | Frontend | React 18 + TypeScript + Vite |
 | Backend | Express.js (Node.js) |
-| Database | PostgreSQL (Neon serverless) |
+| Database | PostgreSQL (local, via dotenv — migrated from Neon serverless) |
 | ORM | Drizzle ORM |
 | UI | Radix UI + Tailwind CSS |
 | Auth | Passwordless magic link (Resend) |
@@ -47,17 +47,20 @@ See [[02-concepts/tech-stack]] for full details.
 
 ## Scale Metrics
 
-| Component | Count |
-|-----------|-------|
-| Database tables | 794 (29 domains, 1208 FK relationships) |
-| API endpoints | 3,586 |
-| Frontend pages | 464 |
-| UI components | 496 |
-| Server route files | 120 |
-| E2E test suites | 66 |
-| Subscription plans | 18 |
-| Migration files | 28 |
-| NPM dependencies | 149 |
+| Component | Count | Notes |
+|-----------|-------|-------|
+| Database tables | 794 | 29 domains, 1208 FK relationships |
+| API endpoints | 3,700+ | Actual: 3,741 (verified April 2026) |
+| Dashboard pages | 250+ | Actual: 251 |
+| AI features | 150+ | Actual: 152 (corrected from inflated 250+) |
+| Frontend pages | 464 | |
+| UI components | 496 | |
+| Server route files | 120 | |
+| E2E test suites | 66 | Comprehensive recruiter + public flow E2E added |
+| Test templates | 95+ | Actual: 96 seed data (corrected from inflated 300+) |
+| Subscription plans | 18 | |
+| Migration files | 28 | |
+| NPM dependencies | 149 | 0 known vulnerabilities (all 25 fixed) |
 
 ## Four User Types
 

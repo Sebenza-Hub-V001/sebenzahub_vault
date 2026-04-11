@@ -2,7 +2,7 @@
 title: "Multi-Tenancy (Organizations)"
 type: concept
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-11
 tags: [architecture, multi-tenancy, organizations, teams]
 sources: [repo-audit-2026-04-07]
 status: active
@@ -106,6 +106,10 @@ Each organization can configure:
 | Recruiter | Yes (agency) | Created during onboarding, user becomes owner |
 | Business | Yes (employer) | Created during onboarding, user becomes owner |
 | Admin | No (platform-level) | Operates across all organizations |
+
+## Security Hardening (April 2026)
+
+Commit `c6890be` scoped candidate routes to the caller's organization. Previously, candidate API endpoints did not consistently enforce org-level data isolation — a candidate visible to Org A could theoretically be accessed from Org B's context. This fix ensures all candidate queries pass through `resolveOrgContext`, closing the gap.
 
 ## Open Questions
 

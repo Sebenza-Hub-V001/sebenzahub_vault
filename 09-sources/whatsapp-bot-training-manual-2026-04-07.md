@@ -5,11 +5,13 @@ created: 2026-04-07
 updated: 2026-04-07
 tags: [whatsapp, chatbot, ai, messaging, candidate-experience]
 sources: [whatsapp-bot-training-manual]
-status: active
+status: superseded
 confidence: high
 ---
 
 # Source: WhatsApp Bot Training Manual
+
+> **Superseded by:** [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]] — v2 adds "Linda" persona, sentiment thresholds, screening modes, and troubleshooting.
 
 **Raw file:** `13-raw/articles/whatsapp-bot-training-manual.md`
 **Ingested:** 2026-04-07

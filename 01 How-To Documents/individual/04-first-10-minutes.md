@@ -29,7 +29,7 @@ This is the spine of everything you do on Sebenza Hub. It runs in the natural or
 5. **Offers** (2 pages) — Salary Insights and Salary Negotiator
 
 If you only ever used these five sections, you would still get hired. Everything below the Hiring Path is *support* for when these aren't enough.
-![[13-raw/screenshots/Pasted image 20260409150822.png]]<center></center>
+![[13-raw/screenshots/ch04-sidebar-hiring-path.png]]<center></center>
 ### Group 2 — PARALLEL TRACKS
 
 These activate when something on the Hiring Path needs help. They're not steps you reach in order; they're tools you reach for.
@@ -40,13 +40,13 @@ These activate when something on the Hiring Path needs help. They're not steps y
 - **Career Development** (5 pages) — Skill Gap, Career Path, Career Pulse, Tests, Analytics
 
 You'll touch most of these eventually, but you don't have to touch any of them today. This guide will tell you when each one becomes relevant.
-![[13-raw/screenshots/Pasted image 20260409150959.png]]
+![[13-raw/screenshots/ch04-sidebar-parallel-tracks.png]]
 
 ### Group 3 — SUPPORTING
 
 - **Knowledge Base** (3 pages) — your personal wiki
 - **Account** (2 pages) — Billing and Settings
-![[13-raw/screenshots/Pasted image 20260409151123.png]]
+![[13-raw/screenshots/ch04-sidebar-supporting.png]]
 
 ### Visual cue: the divider
 
@@ -76,7 +76,7 @@ Don't read this — *do* it. Open your dashboard in another tab and spend a lite
 5. **My Applications** (`/dashboard/individual/applications`) — empty for now; this is where Chapter 12 lives
 6. **Inbox** (`/dashboard/individual/inbox`) — empty; this is where recruiters reach you
 7. **Settings** (`/dashboard/individual/settings`) — note where it lives, but don't change anything yet
-![[13-raw/screenshots/Pasted image 20260409151623.png]]
+![[13-raw/screenshots/ch04-sidebar-tour-highlights.png]]
 
 Do not touch:
 

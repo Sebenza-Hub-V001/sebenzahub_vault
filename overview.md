@@ -2,7 +2,7 @@
 title: "Sebenza Hub — Overview"
 type: overview
 created: 2026-04-07
-updated: 2026-04-10
+updated: 2026-04-11
 tags: [overview, synthesis, platform]
 status: active
 confidence: high
@@ -14,14 +14,14 @@ Sebenza Hub is a **multi-sided recruitment and career platform** built for the S
 
 ## The Four Pillars
 
-| User Type | Role | Core Purpose | Dashboard Pages | Journey |
-|-----------|------|--------------|-----------------|---------|
-| **[[01-entities/individual-user]]** | Job Seeker | Find jobs, build skills, manage career | 51 | [[03-workflows/individual-journey]] |
-| **[[01-entities/recruiter-user]]** | Talent Agency | Source candidates, manage clients, earn placement fees | 101 | [[03-workflows/recruiter-journey]] |
-| **[[01-entities/business-user]]** | Employer / Corporate HR | Post jobs, hire directly, manage workforce | 47 | [[03-workflows/business-journey]] |
-| **[[01-entities/admin-user]]** | Platform Operator | Configure platform, monitor health, ensure compliance | 24 | [[03-workflows/admin-journey]] |
+| User Type | Role | Core Purpose | Dashboard Pages | Journey | How-To Guide |
+|-----------|------|--------------|-----------------|---------|--------------|
+| **[[01-entities/individual-user]]** | Job Seeker | Find jobs, build skills, manage career | 51 | [[03-workflows/individual-journey]] | [[01 How-To Documents/individual/index\|23 chapters]] |
+| **[[01-entities/recruiter-user]]** | Talent Agency | Source candidates, manage clients, earn placement fees | 101 | [[03-workflows/recruiter-journey]] | [[01 How-To Documents/recruiter/index\|34 chapters]] |
+| **[[01-entities/business-user]]** | Employer / Corporate HR | Post jobs, hire directly, manage workforce | 47 | [[03-workflows/business-journey]] | *planned* |
+| **[[01-entities/admin-user]]** | Platform Operator | Configure platform, monitor health, ensure compliance | 24 | [[03-workflows/admin-journey]] | *planned* |
 
-**Total: 223 dashboard pages.** See [[06-comparisons/user-type-comparison]] for a detailed side-by-side feature matrix. See [[15-dashboards/individual-dashboard|Dashboard Layouts]] for exact routes.
+**Total: 223 dashboard pages, 251 routes, 57 how-to chapters drafted.** See [[06-comparisons/user-type-comparison]] for a detailed side-by-side feature matrix. See [[15-dashboards/individual-dashboard|Dashboard Layouts]] for exact routes.
 
 ## How They Connect
 
@@ -36,46 +36,57 @@ The key relationship triangle: Recruiters act as **intermediaries** between Indi
 
 ## Scale
 
-| Component | Count |
-|-----------|-------|
-| Database tables | 794 (29 domains, 1208 FKs — see [[09-sources/database-erd-2026-04-10|ERD]]) |
-| API endpoints | 3,586 |
-| Frontend pages | 325 (routes) / 464 (inc. sub-components) |
-| Reusable UI components | 496 |
-| Seeded features | 157 (42 Individual + 86 Recruiter + 29 Business/Admin) |
-| E2E test suites | 66 |
-| Subscription plans | 18 |
-| AI backend functions | 42 (across 3 providers) |
-| AI API endpoints | 383+ |
+| Component | Count | Notes |
+|-----------|-------|-------|
+| Database tables | 794 | 29 domains, 1208 FKs — see [[09-sources/database-erd-2026-04-10\|ERD]] |
+| API endpoints | 3,741 | Verified April 2026 (was 3,586 at first audit) |
+| Frontend pages | 464 | 251 routes + sub-components |
+| Reusable UI components | 496 | |
+| AI features | 152 | Corrected from inflated 250+ (April 2026 audit) |
+| Seeded features | 157 | 42 Individual + 86 Recruiter + 29 Business/Admin |
+| E2E test suites | 66 | Comprehensive recruiter + public flow coverage |
+| Subscription plans | 18 | Shared `DashboardPlanCards` across all 3 user dashboards |
+| AI backend functions | 42 | Across OpenAI, Anthropic, Google Gemini |
+| Test templates | 96 | Seed data (corrected from inflated 300+) |
 
 ## Three Products in One
 
 ### 1. Career Platform for Individuals
-Not just a job board — a complete career development ecosystem. The [[03-workflows/individual-journey|Individual journey]] follows a 7-step hiring path (signup → profile → search → apply → track → interview → offer) with 4 parallel tracks: AI assistance, learning (14 features including SETA learnerships), community, and career development. Each track activates at specific moments — a rejection, a skill gap, a stalled search — and feeds back into the hiring path. 51 dashboard pages, 56+ documented features.
+Not just a job board — a complete career development ecosystem. The [[03-workflows/individual-journey|Individual journey]] follows a 7-step hiring path (signup → profile → search → apply → track → interview → offer) with 4 parallel tracks: AI assistance, learning (14 features including SETA learnerships), community, and career development. Each track activates at specific moments — a rejection, a skill gap, a stalled search — and feeds back into the hiring path. 51 dashboard pages, 56+ documented features. **[[01 How-To Documents/individual/index|23-chapter how-to guide]]** drafted for end users.
 
 ### 2. Recruitment ATS + CRM for Agencies
-A full ATS + CRM + business intelligence suite comparable to standalone products like Bullhorn or Greenhouse. The [[03-workflows/recruiter-journey|Recruiter journey]] follows a 10-step recruitment path (signup → profile → clients → jobs → source → screen → interview → offer → place → retain) with 4 parallel tracks: communication & automation, analytics & intelligence, compliance & governance, and brand & growth. 101 dashboard pages, 95+ documented features.
+A full ATS + CRM + business intelligence suite comparable to standalone products like Bullhorn or Greenhouse. The [[03-workflows/recruiter-journey|Recruiter journey]] follows a 10-step recruitment path (signup → profile → clients → jobs → source → screen → interview → offer → place → retain) with 4 parallel tracks: communication & automation, analytics & intelligence, compliance & governance, and brand & growth. 101 dashboard pages, 95+ documented features. **[[01 How-To Documents/recruiter/index|34-chapter how-to guide]]** drafted, covering the full lifecycle plus troubleshooting (ghosting, client calibre complaints, advanced/platinum features).
 
 ### 3. HR Suite for Businesses
-The growing employer segment. The [[03-workflows/business-journey|Business journey]] follows a 7-step hiring path with dual channels (direct applications + recruiter vendor submissions) and 4 parallel tracks: vendor management & active sourcing, communication & automation, compliance & governance, and workforce & HR (unique to Business — succession planning, contract workers, performance, HRIS integration). 47 dashboard pages, expanded significantly from the initial 15-page scope.
+The growing employer segment. The [[03-workflows/business-journey|Business journey]] follows a 7-step hiring path with dual channels (direct applications + recruiter vendor submissions) and 4 parallel tracks: vendor management & active sourcing, communication & automation, compliance & governance, and workforce & HR (unique to Business — succession planning, contract workers, performance, HRIS integration). 47 dashboard pages, expanded significantly from the initial 15-page scope. Billing now unified with other dashboards via shared `DashboardPlanCards` component.
 
 ## AI: Deep but Underutilised
 
-The AI backbone is **excellent** — 42 functions across OpenAI, Anthropic Claude, and Google Gemini, with admin-configurable per-feature model selection. But [[09-sources/ai-enhancement-opportunities-2026-04-07]] reveals that **83% of pages don't use AI at all**.
+The AI backbone is **substantial** — 152 AI features (42 backend functions) across OpenAI, Anthropic Claude, and Google Gemini, with admin-configurable per-feature model selection. But [[09-sources/ai-enhancement-opportunities-2026-04-07]] reveals that **83% of pages don't use AI at all**.
 
 The biggest opportunity: **wiring existing AI to existing pages**. Five quick wins (auto-prep kit, bias check, offer prediction, smart alerts, smart reply) require only connecting backend functions already built. Eight more high-value enhancements (match scores, application insights, profile coach, pipeline risk, candidate summaries, relationship AI, auto-screening, compliance AI) need medium effort.
 
 Infrastructure gaps: no background AI job queue, no real-time streaming, dormant job embeddings table, no proactive AI notifications. See [[02-concepts/ai-features]] for details.
 
-## WhatsApp: A Platform Within the Platform
+## WhatsApp: Linda — A Platform Within the Platform
 
-The [[01-entities/whatsapp-bot]] is not a simple chatbot — it's a complete recruitment operating system via WhatsApp (SA's dominant messaging platform). It supports 6 SA languages, POPIA consent, CV parsing, job search, applications, screening interviews, career coaching, and frustration-driven human escalation.
+The [[01-entities/whatsapp-bot|WhatsApp bot "Linda"]] is not a simple chatbot — she's a complete recruitment operating system via WhatsApp (SA's dominant messaging platform). Named "Linda" in the codebase (`shared/schema.ts`), she introduces herself by name in every first interaction across 6 SA languages (English, Afrikaans, isiZulu, isiXhosa, Sesotho, Setswana).
 
-The admin WhatsApp dashboard alone has **20 tabs** — including a visual flow builder (9 node types), DNA Analyzer (conversation pattern classification), War Room (escalation prediction), and Growth Engine (viral/referral tracking). See [[09-sources/whatsapp-bot-training-manual-2026-04-07]].
+**Core capabilities:** POPIA consent, CV parsing with match scoring, job search and applications, three screening modes (Quick Screen, Template Screen, Live Assist), knockout questions, self-service screening links, career coaching, and frustration-driven human escalation (sentiment threshold: 3+ consecutive messages scoring below -50).
+
+The admin WhatsApp dashboard alone has **20 tabs** — including a visual flow builder (9 node types), DNA Analyzer (conversation pattern classification), War Room (escalation prediction), and Growth Engine (viral/referral tracking). See [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]] and [[05-procedures/admin-whatsapp-command-center-setup]].
 
 ## SEO: Mature Foundation, Content Gap
 
 The [[02-concepts/seo-strategy]] is already comprehensive: per-page meta tags, 8 JSON-LD schemas, sitemap, robots.txt, Open Graph tags, Core Web Vitals tracking. The critical gap is **SSR/prerendering** — as a React SPA, the site may not be fully indexed. Blog content expansion is the highest-impact organic growth lever. Target: 10,000+ monthly organic visitors within 12 months.
+
+## Security & Infrastructure (April 2026)
+
+Recent hardening:
+- **All 25 known vulnerabilities fixed** — zero remaining as of April 2026
+- **Multi-tenant security patched** — candidate routes now scoped to caller's organization
+- **Database migration** — moved from Neon serverless to local PostgreSQL (via dotenv)
+- **Billing unified** — shared `DashboardPlanCards` component across Individual, Recruiter, and Business dashboards with centralised `plans.ts` data file
 
 ## South African Focus
 
@@ -87,7 +98,7 @@ Sebenza Hub is purpose-built for South Africa:
 - **ZAR currency** defaults, South African provinces and cities
 - **WhatsApp-first** communication (dominant messaging platform in SA)
 - **SETA learnerships** integrated into the learning hub
-- **6 SA languages** in WhatsApp bot greetings
+- **6 SA languages** in WhatsApp bot (Linda) greetings
 
 ## Key Systems
 
@@ -104,13 +115,28 @@ Sebenza Hub is purpose-built for South Africa:
 | Tech Stack | [[02-concepts/tech-stack]] |
 | SEO Strategy | [[02-concepts/seo-strategy]] |
 
+## Documentation & Knowledge Base
+
+The wiki itself has matured significantly:
+
+| Asset | Count |
+|-------|-------|
+| Wiki pages | 82 |
+| Ingested sources | 13 (+ 10 raw docs) |
+| How-to chapters | 57 (23 Individual + 34 Recruiter) |
+| Ingested tweets | 9 |
+| Admin procedures | 3 (WhatsApp command center setup, tab reference, morning routine) |
+
+The how-to guides are published to the public **`sebenzahub-manual`** Obsidian Publish site, while the full wiki is on the internal **`sebenzahub`** site. See the Two-Site Publish rules in CLAUDE.md for the cross-site leak policy.
+
 ## Emerging Themes
 
-1. **AI is the moat, but it's barely deployed.** The platform has sophisticated AI infrastructure that most pages don't use. Connecting existing AI to existing pages is the highest-leverage work.
-2. **WhatsApp is strategic.** The 20-tab admin dashboard and sophisticated bot capabilities suggest WhatsApp is a first-class channel, not an afterthought. This makes sense for SA where WhatsApp dominates.
-3. **The Recruiter product is the revenue engine.** With placement fee tracking, client CRM, and KPI dashboards, the platform is designed around recruitment agency economics.
-4. **Business dashboard has expanded significantly.** Now 47 pages (up from 15), with vendor management, workforce planning, and compliance tracks. AI usage remains the key gap — 5 AI tools exist but are underutilised.
+1. **AI is the moat, but it's barely deployed.** 152 AI features exist, but 83% of dashboard pages don't use AI. Connecting existing AI to existing pages remains the highest-leverage engineering work.
+2. **Linda (WhatsApp) is a first-class product.** With a named persona, sentiment scoring, three screening modes, and a 20-tab admin dashboard, WhatsApp is not an afterthought — it's a parallel operating system for candidates who never open a browser.
+3. **The Recruiter product is the revenue engine.** 101 dashboard pages, 34 how-to chapters, placement fee tracking, client CRM, and KPI dashboards — the platform is designed around recruitment agency economics.
+4. **Documentation is catching up to the product.** 57 how-to chapters across two user types is a real user-facing asset. Business and Admin guides are the next frontier.
 5. **Compliance is a differentiator.** POPIA, B-BBEE, and Employment Equity are deeply integrated, not bolted on. This is hard for international competitors to replicate.
+6. **Infrastructure is stabilising.** Zero vulnerabilities, multi-tenant security fixes, database migration to local PostgreSQL, unified billing — the platform is hardening for production readiness.
 
 ## Open Questions
 
@@ -129,7 +155,7 @@ Sebenza Hub is purpose-built for South Africa:
 - [[09-sources/recruitment-features-2026-04-07]] — Recruitment features guide
 - [[09-sources/ai-enhancement-opportunities-2026-04-07]] — AI enhancement audit
 - [[09-sources/seo-plan-2026-04-07]] — SEO strategy document
-- [[09-sources/whatsapp-bot-training-manual-2026-04-07]] — WhatsApp bot manual
-- [[12-tasks/todo.md]] — Current task backlog
+- [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]] — WhatsApp bot manual v2 (Linda)
 - [[09-sources/database-erd-2026-04-10]] — Full database ERD (794 tables, 29 domains)
+- [[12-tasks/todo.md]] — Current task backlog
 - [[12-tasks/lessons.md]] — Patterns and corrections

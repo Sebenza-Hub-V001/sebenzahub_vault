@@ -37,7 +37,7 @@ Both routes take 10–20 minutes. The build route takes longer but produces a mo
    - Education
    - Skills it can infer from your experience
 1. The parser then offers to populate your profile fields with what it found.
-![[13-raw/screenshots/Pasted image 20260409151753.png]]
+![[13-raw/screenshots/ch05-resume-upload-dialog.png]]
 
 **Always review the parsed fields before accepting them.** AI parsers are good but not perfect. Common mistakes:
 
@@ -67,7 +67,7 @@ Accept the parts that are right. Edit the parts that are wrong before saving. Yo
 - **Lead each role with the result, not the responsibility.** "Increased customer retention by 18% through a quarterly check-in programme" beats "Responsible for customer retention."
 - **Quantify whatever you can.** Numbers anchor claims. Even rough ones ("managed a team of 6", "handled R2m in monthly transactions") give recruiters something concrete.
 - **Tailor the summary to the kind of role you want next.** This is the one section a recruiter is guaranteed to read.
-![[13-raw/screenshots/Pasted image 20260409151947.png]]
+![[13-raw/screenshots/ch05-cv-builder-personal-info.png]]
 ## Step 2 — Save with a clear filename
 
 Once your CV is built or uploaded, give it a name in My CVs that you'll recognise three months from now:
