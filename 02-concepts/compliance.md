@@ -1,10 +1,10 @@
 ---
-title: "Compliance (POPIA, B-BBEE, Employment Equity)"
+title: "Compliance (POPIA, B-BBEE, Employment Equity, AI Policy)"
 type: concept
 created: 2026-04-07
-updated: 2026-04-07
-tags: [compliance, popia, bbbee, employment-equity, south-africa, legal]
-sources: [repo-audit-2026-04-07]
+updated: 2026-04-11
+tags: [compliance, popia, bbbee, employment-equity, south-africa, legal, ai, regulation, transparency]
+sources: [repo-audit-2026-04-07, sa-ai-policy-compliance-review]
 status: active
 confidence: high
 ---
