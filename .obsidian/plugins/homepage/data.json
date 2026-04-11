@@ -1,0 +1,13 @@
+{
+  "defaultNote": "00 Welcome/00 Welcome",
+  "useMoment": false,
+  "openMode": "Replace all open notes",
+  "manualOpenMode": "Keep open notes",
+  "view": "Default view",
+  "revertView": true,
+  "openOnStartup": true,
+  "hasRibbonIcon": true,
+  "workplace": false,
+  "workspaceEnabled": false,
+  "separateMobile": false
+}

@@ -1,5 +1,8 @@
 {
   "theme": "obsidian",
   "textFontFamily": "Montserrat",
-  "monospaceFontFamily": "Montserrat"
+  "monospaceFontFamily": "Montserrat",
+  "enabledCssSnippets": [
+    "center-images"
+  ]
 }
