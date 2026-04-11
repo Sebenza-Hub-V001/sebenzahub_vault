@@ -1,4 +1,18 @@
 {
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$(git rev-parse --show-toplevel)\" && bash scripts/rename-screenshots.sh --apply 2>/dev/null || true",
+            "timeout": 30,
+            "statusMessage": "Renaming pasted screenshots..."
+          }
+        ]
+      }
+    ]
+  },
   "permissions": {
     "allow": [
       "WebFetch(domain:x.com)",

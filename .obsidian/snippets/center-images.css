@@ -1,0 +1,12 @@
+/* Center all images by default */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Also center the parent paragraph that Obsidian wraps images in */
+.image-embed {
+  display: flex;
+  justify-content: center;
+}
