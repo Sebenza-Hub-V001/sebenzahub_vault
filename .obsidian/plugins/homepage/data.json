@@ -1,13 +1,19 @@
 {
-  "defaultNote": "00 Welcome/00 Welcome",
-  "useMoment": false,
-  "openMode": "Replace all open notes",
-  "manualOpenMode": "Keep open notes",
-  "view": "Default view",
-  "revertView": true,
-  "openOnStartup": true,
-  "hasRibbonIcon": true,
-  "workplace": false,
-  "workspaceEnabled": false,
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "openMode": "Replace all open notes",
+      "manualOpenMode": "Keep open notes",
+      "view": "Default view",
+      "revertView": true,
+      "openOnStartup": true,
+      "hasRibbonIcon": true,
+      "workplace": false,
+      "separateMobile": false,
+      "value": "00 Welcome/00 Welcome",
+      "kind": "File",
+      "commands": []
+    }
+  },
   "separateMobile": false
 }

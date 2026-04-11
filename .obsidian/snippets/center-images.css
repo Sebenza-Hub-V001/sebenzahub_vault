@@ -1,12 +1,31 @@
 /* Center all images by default */
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-/* Also center the parent paragraph that Obsidian wraps images in */
-.image-embed {
-  display: flex;
-  justify-content: center;
+/* Center the parent containers Obsidian wraps images in */
+.image-embed,
+span.image-embed {
+  display: block !important;
+  text-align: center !important;
+}
+
+/* Center images inside paragraphs */
+p:has(img),
+p:has(.image-embed) {
+  text-align: center !important;
+}
+
+/* Center in reading view */
+.markdown-preview-view .image-embed {
+  display: block !important;
+  text-align: center !important;
+}
+
+/* Center in live preview */
+.markdown-source-view .image-embed {
+  display: block !important;
+  text-align: center !important;
 }
