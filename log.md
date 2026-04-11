@@ -1,5 +1,14 @@
 # Activity Log
 
+## [2026-04-11] ingest | Linda — WhatsApp Bot Training Manual v2
+- Source: `13-raw/articles/whatsapp-bot-training-manual-v2.md`
+- Summary: [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]]
+- Supersedes: [[09-sources/whatsapp-bot-training-manual-2026-04-07]]
+- Pages touched: [[01-entities/whatsapp-bot]], [[index]]
+- New pages created: [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]]
+- Key updates: bot officially named "Linda"; added sentiment scoring thresholds (positive >30, negative <-30, escalation at 3+ consecutive <-50); three screening modes (Quick Screen, Template Screen, Live Assist); knockout questions; self-service screening links; full WhatsApp Apply section; troubleshooting FAQ; expanded global commands
+- Contradictions flagged: none new (carried forward multi-language tension from v1)
+
 ## [2026-04-10] ingest | Database ERD — Full Schema Map
 - Source: `13-raw/data/database-erd.md`
 - Summary: [[09-sources/database-erd-2026-04-10]]

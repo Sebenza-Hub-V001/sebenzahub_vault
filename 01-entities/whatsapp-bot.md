@@ -1,18 +1,20 @@
 ---
-title: "WhatsApp Bot"
+title: "WhatsApp Bot — Linda"
 type: entity
 created: 2026-04-07
-updated: 2026-04-07
-tags: [whatsapp, chatbot, ai, messaging, candidate-experience, automation]
-sources: [whatsapp-bot-training-manual-2026-04-07]
+updated: 2026-04-11
+tags: [whatsapp, chatbot, ai, messaging, candidate-experience, automation, linda]
+sources: [whatsapp-bot-training-manual-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11]
 status: active
 confidence: high
 user-types: [individual, recruiter, admin]
 ---
 
-# WhatsApp Bot
+# WhatsApp Bot — Linda
 
-The Sebenza Hub WhatsApp Bot is an **AI-powered recruitment assistant** that handles the full candidate lifecycle via WhatsApp — the dominant messaging platform in South Africa. It's not a simple FAQ chatbot; it's a complete recruitment operating system accessible via messaging.
+**Linda** is Sebenza Hub's **AI-powered WhatsApp recruitment assistant** that handles the full candidate lifecycle via WhatsApp — the dominant messaging platform in South Africa. She's not a simple FAQ chatbot; she's a complete recruitment operating system accessible via messaging.
+
+Linda introduces herself by name in every first interaction: *"I'm Linda, your AI-powered recruitment assistant from Sebenza Hub!"*
 
 ## What It Does
 
@@ -131,12 +133,64 @@ Contacts are scored on:
 ### API Endpoints
 71+ WhatsApp-related endpoints covering core messaging, templates, campaigns, apply flows, and bot operations.
 
+## Sentiment Analysis
+
+Linda analyses every message for sentiment in real time:
+
+| Range | Label | Meaning |
+|-------|-------|---------|
+| Score > 30 | Positive | Candidate is engaged and enthusiastic |
+| Score −30 to 30 | Neutral | Normal conversation |
+| Score < −30 | Negative | Candidate may be frustrated |
+
+**Auto-escalation** triggers when **3+ consecutive messages** score below −50. Linda stops responding entirely and the conversation is routed to the Team Inbox for a human recruiter.
+
+## Screening Session Modes
+
+Linda supports three screening modes via the Screening Chatbot section (Recruiter Dashboard):
+
+1. **Quick Screen** — Enter candidate name and phone, select a template, click Start. Linda sends questions automatically.
+2. **Template Screen** — Assign a saved template to specific candidates. Linda conducts the full interview end-to-end.
+3. **Live Assist** — AI co-pilot mode. Linda suggests questions and evaluates answers in real time. The recruiter can override or add follow-ups.
+
+Screening results include: overall score (0–100), category breakdown (Technical / Behavioral / Situational), recommendation (Shortlist / Maybe / Reject), sentiment analysis (enthusiasm, clarity), red/green flags, and full transcript.
+
+Templates support **knockout questions** — must-pass gates that determine whether the candidate continues.
+
+### Self-Service Screening Links
+
+Generate public links tied to a screening template. Configurable expiration and max uses. Share on job posts or social media — candidates self-screen without recruiter involvement.
+
+## WhatsApp Apply
+
+Recruiter Dashboard > WhatsApp Apply provides a full application management suite:
+
+- **AI Message Generator** — generates optimised 160-char WhatsApp messages with CTA; supports tone selection (Professional / Friendly / Casual / Urgent Hiring) and A/B variants
+- **Apply Links & QR Codes** — standard, short URL, or QR code with UTM tracking
+- **Application Inbox** — AI-scored applications with match %, sentiment analysis, bulk actions (assign, shortlist, reject)
+- **Auto-Reply** — triggers on new application, after hours, status change, or keywords
+
+## Troubleshooting
+
+### Connection
+- Verify all four Meta credentials in Configuration tab
+- Click **Test Connection** to verify webhook
+- Webhook URL must be publicly accessible (HTTPS required)
+- Ensure webhook events are subscribed: `messages`, `message_deliveries`, `message_reads`
+
+### Bot Behaviour
+- If auto-responder fires instead of menu navigation: narrow auto-responder trigger keywords (they only match free-text, not button/list selections)
+- Bot stuck in a state: candidate types **MENU** to reset; admin uses Conversation Replay to debug
+- False sentiment escalation: escalation needs 3+ consecutive at <−50, not individual negative messages
+
 ## Open Questions
 
 - What's the monthly message volume and per-message cost?
 - How does Contact CRM lifecycle sync with the main platform's [[02-concepts/application-lifecycle]]?
 - What's the current fallback rate (% of messages bot can't handle)?
-- How are screening bot questions configured per role?
+- Is the "Linda" branding visible in the codebase, or just in documentation?
+- What AI model powers the Live Assist co-pilot mode?
+- How does Application Inbox AI scoring integrate with the main platform's match scoring?
 
 ## References
 
@@ -144,6 +198,8 @@ Contacts are scored on:
 - [[01-entities/recruiter-user]] — Recruiter WhatsApp features (16 tabs)
 - [[01-entities/admin-user]] — Admin WhatsApp management (20 tabs)
 - [[01-entities/individual-user]] — Candidate experience via WhatsApp
+- [[01-entities/screening-system]] — Screening bot templates and scoring
 - [[02-concepts/ai-features]] — AI-powered screening, matching, sentiment
 - [[02-concepts/compliance]] — POPIA consent in WhatsApp
 - Source: [[09-sources/whatsapp-bot-training-manual-2026-04-07]]
+- Source: [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]]
