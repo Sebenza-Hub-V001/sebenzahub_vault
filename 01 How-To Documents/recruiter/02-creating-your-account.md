@@ -26,6 +26,8 @@ Open the Sebenza Hub homepage and click **Sign up** (or **Get started**). You'll
 
 Enter your agency email address and click **Send magic link**. There's no password — Sebenza Hub uses magic-link login, where you click a link in your email instead of typing a password. This is more secure than a password (no password to leak, no password to forget) and faster after the first time.
 
+![[ch02-signup-landing-page.png]]
+
 ## Step 2 — Click the magic link
 
 Check your inbox. You should see an email from Sebenza Hub within a minute or two. If you don't, check your spam folder and your filtered inbox — agency email systems sometimes route automated mail to a quarantine.
@@ -33,7 +35,7 @@ Check your inbox. You should see an email from Sebenza Hub within a minute or tw
 Click the link in the email. It opens in your browser and logs you in.
 
 > **Note:** The magic link expires after a short window. If you take too long to click it, request a new one.
-
+![[ch02-magic-link-email.png]]
 ## Step 3 — Choose your role
 
 The first time you log in, Sebenza Hub doesn't know whether you're a job seeker, a recruiter, a corporate hiring team, or just curious. You'll be redirected to **/onboarding** with a role picker.
@@ -48,6 +50,7 @@ If you also need to:
 - **Set up a Business client** (so they can post their own jobs and invite you to submit candidates), have someone from the client's company sign up on their own email and choose Business.
 
 These are not the same account, and they cannot share a login.
+![[ch03-role-selection.png]]
 
 ## Step 4 — On to agency onboarding
 

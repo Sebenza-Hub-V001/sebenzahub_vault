@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-04-11 | Pages: 82 | Sources: 13 (+10 raw docs) | Presentations: 0 | How-To's: 1 (in progress) | AI Features: 152 | Endpoints: 3,741 | Tables: 794
+> Last updated: 2026-04-11 | Pages: 84 | Sources: 14 (+11 raw docs) | Presentations: 0 | How-To's: 1 (in progress) | AI Features: 152 | Endpoints: 3,741 | Tables: 794
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -61,6 +61,7 @@ status: active
 - [[09-sources/business-journey-gap-analysis-2026-04-08]] — Business journey gap analysis (65% coverage → 100% rewrite)
 - [[09-sources/dashboard-layouts-2026-04-08]] — Dashboard layouts restructured to follow user journeys (223 total pages)
 - [[09-sources/database-erd-2026-04-10]] — Full database ERD: 794 tables, 29 domains, 1208 FK relationships
+- [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] — SA National AI Policy compliance gap analysis (6 principles, 10 priority actions)
 
 ## Raw Source Documents
 - `13-raw/data/features-inventory.md` — Platform feature inventory (325 pages, 3586 endpoints, 755 tables)
@@ -73,6 +74,7 @@ status: active
 - `13-raw/articles/individual-journey-gap-analysis.md` — Individual journey coverage audit
 - `13-raw/articles/dashboard-layouts.md` — Dashboard layouts (journey-aligned, all 4 dashboards)
 - `13-raw/data/database-erd.md` — Complete database ERD (794 tables, every column and FK)
+- `13-raw/articles/sa-ai-policy-compliance-review.md` — SA National AI Policy compliance review (Gazette 54477, 2026)
 
 ## Dashboards
 - [[15-dashboards/individual-dashboard]] — 51 pages, journey-aligned sidebar (Hiring Path + Parallel Tracks)
@@ -83,6 +85,9 @@ status: active
 ## How-To's
 - [[01 How-To Documents/index]] — End-user how-to guides (one per user type)
 - [[01 How-To Documents/individual/index]] — Individual (job seeker) how-to — all 23 chapters drafted (Ch 20 partial, blocked on Autopilot open question)
+
+## Standards
+- [[04-standards/sa-national-ai-policy]] — Draft SA National AI Policy (Gazette 54477, 2026) — risk-based AI classification, 6 principles, recruitment = HIGH risk
 
 ## Comparisons
 - [[06-comparisons/user-type-comparison]] — Side-by-side feature matrix across all 4 user types
