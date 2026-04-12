@@ -2,9 +2,10 @@
 title: "SEO Strategy"
 type: concept
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-12
 tags: [seo, marketing, growth, content, search]
 sources: [seo-plan-2026-04-07]
+related-tweets: [10-bloggersarvesh-claude-cowork-chief-of-seo]
 status: active
 confidence: high
 ---
@@ -78,3 +79,4 @@ Sebenza Hub has a comprehensive SEO strategy targeting the South African recruit
 - [[01-entities/sebenza-hub]] — Platform overview
 - [[02-concepts/tech-stack]] — React SPA architecture
 - Source: [[09-sources/seo-plan-2026-04-07]]
+- Related tweet: [[10-tweets/10-bloggersarvesh-claude-cowork-chief-of-seo]] — 20-prompt "Chief of SEO" audit library covering Google Business Profile (8 prompts), website strategy (5), backlinks/authority (3), and content tracking (4); maps 1:1 onto three of the four Medium-priority gaps above.
