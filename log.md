@@ -470,3 +470,13 @@
 - Created `11-presentations/` directory for slide decks, pitch materials, and presentation content
 - Updated index.md with Presentations section
 - Updated CLAUDE.md directory structure
+
+## [2026-04-12] tweet | bloggersarvesh — Claude Cowork as Chief of SEO
+- Source: https://x.com/bloggersarvesh/status/2036795618090520592
+- Filed: [[10-tweets/10-bloggersarvesh-claude-cowork-chief-of-seo]]
+- Recommendations: 7 (top: (1) run the 20-prompt audit against sebenzahub.co.za itself — closes 3 of 4 SEO gaps for ~zero cost, (2) ship a "Local SEO Audit" AI feature in recruiter/business dashboards, (3) formalise the "Chief of X" pattern as a Sebenza Hub AI architecture primitive)
+- Pages touched: [[02-concepts/seo-strategy]] (added cross-reference + tweet link in References section, bumped `updated` to 2026-04-12)
+- New pages created: [[10-tweets/10-bloggersarvesh-claude-cowork-chief-of-seo]]
+- Contradictions flagged: none — the article's 40/25/15/20 section split (GBP / website / backlinks / content) may contradict the traditional agency "link building is where the leverage is" narrative, but this is flagged as an Open Question rather than a contradiction with existing wiki content
+- Fidelity note: X/Twitter blocked direct article scraping (HTTP 402) at ingest time; structural summary was reconstructed from the fxtwitter card. Verbatim prompt text for the 20 prompts was NOT recovered — re-ingest from original source before shipping Rec #2 or #3. Confidence: medium.
+- Total wiki pages: 85 (+11 raw docs)
