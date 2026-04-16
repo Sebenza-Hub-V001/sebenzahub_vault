@@ -48,9 +48,7 @@
     "//13-raw",
     "//13-raw/13-raw/screenshots",
     "//01 How-To Documents",
-    "/",
-    "//01 How-To Documents/01 How-To Documents/individual",
-    "//01 How-To Documents/01 How-To Documents/recruiter"
+    "/"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
