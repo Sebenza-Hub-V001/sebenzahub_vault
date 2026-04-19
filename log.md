@@ -480,3 +480,14 @@
 - Contradictions flagged: none — the article's 40/25/15/20 section split (GBP / website / backlinks / content) may contradict the traditional agency "link building is where the leverage is" narrative, but this is flagged as an Open Question rather than a contradiction with existing wiki content
 - Fidelity note: X/Twitter blocked direct article scraping (HTTP 402) at ingest time; structural summary was reconstructed from the fxtwitter card. Verbatim prompt text for the 20 prompts was NOT recovered — re-ingest from original source before shipping Rec #2 or #3. Confidence: medium.
 - Total wiki pages: 85 (+11 raw docs)
+
+## [2026-04-19] tweet | minchoi — Claude Design text-to-UI/animation
+- Source: https://x.com/minchoi/status/2045705871527653794
+- Filed: [[10-tweets/11-minchoi-claude-design-ui-generation]]
+- Recommendations: 7 (top: (1) spike Claude Design against one underspecified Recruiter dashboard page — decides dashboard-build-out fit for one day of work, (2) generate 8 SA city-specific landing pages — executes Rec #5 from the Chief-of-SEO tweet and closes a Medium-priority SEO gap, (3) design a "Branded Candidate Page Generator" feature for recruiters and businesses — potentially differentiating vs. pure-ATS competitors)
+- Pages touched: [[index]] (added tweet to Tweets section, bumped page count to 86 and updated to 2026-04-19)
+- New pages created: [[10-tweets/11-minchoi-claude-design-ui-generation]]
+- Cross-references: links to [[10-tweets/10-bloggersarvesh-claude-cowork-chief-of-seo]] (Rec #2 here executes Rec #5 there), [[10-tweets/09-nickspisak-claude-managed-agents]] (sibling Anthropic surface; POPIA question shared), [[10-tweets/01-aiedge-claude-skills-guide]], [[10-tweets/02-explorax-20-agentic-skills]], [[10-tweets/08-aiedge-claude-obsidian-second-brain]]
+- Contradictions flagged: none
+- Fidelity note: only the opening tweet was recovered via fxtwitter; the 10 example videos/screenshots in the thread body were NOT fetched. Product category ("text-to-UI/animation generation") is accepted at face value, but specific capabilities (output format, pricing, component-library support) are unknown. Block Recs #2, #3, #5 on answering "what does Claude Design actually output?" before production integration. Confidence: medium on existence and category, low on exact capabilities.
+- Total wiki pages: 86 (+11 raw docs)

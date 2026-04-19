@@ -2,14 +2,14 @@
 title: "Wiki Index"
 type: overview
 created: 2026-04-06
-updated: 2026-04-10
+updated: 2026-04-19
 tags: [index, navigation]
 status: active
 ---
 
 # Wiki Index
 
-> Last updated: 2026-04-12 | Pages: 85 | Sources: 14 (+11 raw docs) | Presentations: 0 | How-To's: 1 (in progress) | AI Features: 152 | Endpoints: 3,741 | Tables: 794
+> Last updated: 2026-04-19 | Pages: 86 | Sources: 14 (+11 raw docs) | Presentations: 0 | How-To's: 1 (in progress) | AI Features: 152 | Endpoints: 3,741 | Tables: 794
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -105,6 +105,7 @@ status: active
 - [[10-tweets/09-nickspisak-claude-managed-agents]] — Claude Managed Agents public beta: Anthropic-hosted agent runtime (sandbox, session, MCP, per-tool permissions, $0.08/session-hr), @NickSpisak_, 2026-04-09
 - [[10-tweets/08-aiedge-claude-obsidian-second-brain]] — Claude Code + Obsidian second-brain setup guide (Marp, Dataview, Web Clipper, qmd on top of Karpathy's schema), @aiedge_, 2026-04-09
 - [[10-tweets/10-bloggersarvesh-claude-cowork-chief-of-seo]] — 20-prompt "Chief of SEO" audit library in Claude Cowork: GBP (8), website (5), backlinks (3), content (4) — maps 1:1 onto three Sebenza Hub SEO gaps, @bloggersarvesh, 2026-03-25
+- [[10-tweets/11-minchoi-claude-design-ui-generation]] — Claude Design generates UI, designs & animations from text — direct velocity play for Sebenza Hub's 223 dashboard pages and SA city landing pages, @minchoi, 2026-04-19
 
 ## Presentations
 
