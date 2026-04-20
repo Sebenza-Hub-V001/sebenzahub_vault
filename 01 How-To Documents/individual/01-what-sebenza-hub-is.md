@@ -2,7 +2,7 @@
 title: "Chapter 1 — What Sebenza Hub is and who it's for"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-20
 tags: [how-to, individual, introduction]
 status: active
 user-types: [individual]
@@ -60,9 +60,9 @@ Parts 5 and 6 are there for when something goes wrong, or when you want to use t
 
 ## Next chapter
 
-[[16-how-tos/individual/02-creating-your-account|Chapter 2 — Creating your account]]
+[[01 How-To Documents/individual/02-creating-your-account|Chapter 2 — Creating your account]]
 
 ## References
 
-- [[16-how-tos/individual/02-creating-your-account|Chapter 2 — Creating your account]]
-- [[16-how-tos/individual/03-onboarding|Chapter 3 — Onboarding]]
+- [[01 How-To Documents/individual/02-creating-your-account|Chapter 2 — Creating your account]]
+- [[01 How-To Documents/individual/03-onboarding|Chapter 3 — Onboarding]]

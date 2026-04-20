@@ -2,8 +2,8 @@
 title: "Chapter 30 — Recruitment Marketing, Referrals, and Candidate NPS"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, marketing, referrals, nps, growth]
+updated: 2026-04-20
+tags: [how-to, recruiter, marketing, referrals, nps, growth, candidate-coaching]
 status: draft
 user-types: [recruiter]
 ---
@@ -72,6 +72,22 @@ The number that matters most: **placements attributable to the campaign**. A cam
 
 ## 2. Referrals — `/dashboard/recruiter/referrals`
 
+### Referral Program — _Tier: Premium_
+
+**What this feature is.** Referral Program is the end-to-end referral management surface — unique referrer links, multi-tier incentive structures, conversion-funnel tracking, automatic payout calculation, and the audit trail that defends every commission paid.
+
+**Why it matters.** Referrals are the highest-quality hiring channel you have, but losing track of a single promised commission destroys the programme's reputation in a quarter. Proper management turns referrals from a sometimes-thing into a predictable, compounding source of placements.
+
+**How to use it.** Open `/dashboard/recruiter/referrals`, click **Configure programme**, and set the incentive tiers, the legal terms, the referrer journey, and the payout flow as described below.
+
+### Referral Tracking — _Tier: Standard_
+
+**What this feature is.** Referral Tracking is the operational layer underneath the programme — referrer attribution, status tracking per referred candidate, commission calculation, and payout management with full activity log.
+
+**Why it matters.** Referrals die in disputes about who referred whom and what they were owed. Tracking removes the ambiguity: every referral has a unique link, a verified referrer, and a status the referrer can see in real time. Disputed commissions disappear when both sides see the same record.
+
+**How to use it.** Tracking runs automatically once the programme is live. Spot-check it monthly: open `/dashboard/recruiter/referrals` → **Tracking**, sort by status, and confirm any referral that's been at "interviewed" for 14+ days has either advanced or been closed with a reason.
+
 A structured referral programme is the highest-leverage growth tool you have. The math: every successful placement is a candidate who now knows you, trusts you, and probably has 5–20 colleagues with similar skills you'd love to recruit. If even 1 in 10 placed candidates refers a single colleague who eventually places, your candidate acquisition cost drops dramatically.
 
 ### How the platform supports referrals
@@ -114,6 +130,8 @@ The right moments to ask:
 
 ## 3. Candidate NPS — `/dashboard/recruiter/feedback`
 
+Two-line callback: Candidate NPS is the same Standard-tier feature introduced in [[01 How-To Documents/recruiter/27-popia-in-practice|Chapter 27]] as a candidate-experience signal. Here it's used commercially — promoters become referrers, detractors become recovery work — but the surveys, page, and tier are identical.
+
 NPS (Net Promoter Score) is the most diagnostic single metric in recruitment. Asked at the right moments, in the right way, it tells you whether candidates would recommend you (Promoters), tolerate you (Passives), or warn others against you (Detractors).
 
 ### When the platform asks NPS
@@ -152,7 +170,17 @@ A detractor who feels heard often becomes a passive. A passive who feels heard o
 
 Candidate NPS is one of the four sub-scores in your Reputation Score (Chapter 6). High NPS → high reputation → better visibility in inbound matching → more inbound clients. The connection is direct.
 
-## 4. Reference Checks — `/dashboard/recruiter/reference-checks`
+## 4. Turning rejection into brand — Candidate Coaching Report
+
+### Candidate Coaching Report — _Tier: Premium_
+
+**What this feature is.** The Candidate Coaching Report is an AI-generated, shareable, constructive feedback document the candidate receives after a rejection — covering what went well, what didn't, and concrete suggestions for their next role.
+
+**Why it matters.** Silent rejection burns candidate goodwill and future pipeline; a real coaching report turns the worst moment of the journey into a brand-building one. Rejected-but-coached candidates become NPS promoters, return as Promoters in your referral programme, and are the warmest re-engagement pool you have.
+
+**How to use it.** From a rejected candidate's record, click **Generate Coaching Report**. Review the AI draft for tone and accuracy — never send it raw, but the AI does 90% of the work. Send via the platform so the timestamp and version are logged. Track the candidate's NPS response after delivery; coaching-report recipients consistently score higher.
+
+## 5. Reference Checks — `/dashboard/recruiter/reference-checks`
 
 Reference checks are the structured verification of a candidate's claims with their previous managers and colleagues. Sebenza Hub automates the collection so you don't have to chase referees manually.
 
@@ -224,6 +252,15 @@ This is the loop. Recruitment marketing fills the top, NPS identifies the gold, 
 - **Referral incentives should be meaningful.** Cheap incentives signal that you don't value referrals. Generous ones (5–10% of the placement fee for the referrer is common) turn referrals into a real channel.
 - **Marketing campaigns need conversion goals, not vanity metrics.** Reach is meaningless. Placements attributable is the metric.
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 188 | Referral Program | Premium |
+| 241 | Referral Tracking | Standard |
+| 163 | Candidate Coaching Report | Premium |
+| 193 | Candidate NPS (callback to Ch 27) | Standard |
+
 ## Checklist
 
 - [ ] You're sending NPS surveys at the standard moments
@@ -235,12 +272,12 @@ This is the loop. Recruitment marketing fills the top, NPS identifies the gold, 
 
 ## Next chapter
 
-[[16-how-tos/recruiter/31-fill-rate-dropping|Chapter 31 — "My fill rate is dropping"]]
+[[01 How-To Documents/recruiter/31-fill-rate-dropping|Chapter 31 — "My fill rate is dropping"]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI scoring of NPS sentiment and references
-- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (NPS feeds Reputation)]]
-- [[16-how-tos/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
-- [[16-how-tos/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
-- [[16-how-tos/recruiter/31-fill-rate-dropping|Chapter 31 — Troubleshooting: fill rate dropping]]
+- [[01 How-To Documents/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (NPS feeds Reputation)]]
+- [[01 How-To Documents/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+- [[01 How-To Documents/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
+- [[01 How-To Documents/recruiter/31-fill-rate-dropping|Chapter 31 — Troubleshooting: fill rate dropping]]

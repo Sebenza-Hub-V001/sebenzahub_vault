@@ -2,8 +2,8 @@
 title: "Chapter 4 — Your first 10 minutes on the dashboard"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, dashboard, orientation]
+updated: 2026-04-20
+tags: [how-to, individual, dashboard, orientation, pricing-tiers]
 status: active
 user-types: [individual]
 ---
@@ -93,9 +93,15 @@ This is why the next four chapters (Part 2) are about building a profile worth b
 
 ## Free tier vs paid features
 
-Most of the basics are free: signing up, building a profile, browsing jobs, applying, tracking, the inbox, and the community. Some of the more advanced AI features may require credits or a paid plan — exactly which ones is something we'll flag in each relevant chapter.
+The Individual product has three tiers: **Free**, **Standard**, and **Premium**. A few high-use features are **metered** — Free gives you a small monthly quota, Standard a larger one, Premium unlimited.
 
-> **Open question:** Pricing tiers for individual features (CV Review, Interview Simulator, Salary Negotiator) are still being confirmed. If you hit a paywall in any chapter and we haven't flagged it, that's a documentation gap — please let us know.
+Roughly:
+
+- **Free** — everything you need to start: profile, CV upload, basic job search, favourites, apply to jobs, application tracking, learning hub, micro-learning, learning challenges, email notifications, email support.
+- **Standard** — the upgrade triggered the moment you start job-hunting seriously: AI CV review, AI cover letters, AI matching, advanced search, saved searches, skill gap analysis, salary insights, career coaching, mock interviews, learning paths, most of the career-development AI.
+- **Premium** — unlimited quotas on the metered features plus the high-end tools: negotiation coach and scenarios, career pulse report, interviewer intelligence, cross-interview comparison, credential roadmap, adaptive practice, test behaviour insights, priority applications.
+
+Every feature in this guide has a **Tier** badge on its heading (e.g. `_Tier: Standard_`) so you always know what you're paying for at the moment a feature is described. Metered features show their quota (e.g. `_Tier: Metered — Standard: 5/mo · Premium: 25/mo_`). If you hit a paywall in a chapter and the tier badge is missing, that's a documentation gap — please let us know.
 
 ## What to do next
 
@@ -111,9 +117,9 @@ You now know enough about the dashboard to follow the rest of the guide without 
 
 ## Next chapter
 
-[[16-how-tos/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]
+[[01 How-To Documents/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Complete journey with the same Hiring Path / Parallel Tracks structure
-- [[16-how-tos/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]
+- [[01 How-To Documents/individual/05-uploading-a-cv|Chapter 5 — Uploading or building a CV]]

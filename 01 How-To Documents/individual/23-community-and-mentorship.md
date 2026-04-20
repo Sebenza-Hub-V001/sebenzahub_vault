@@ -2,8 +2,8 @@
 title: "Chapter 23 — Community and mentorship"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, community, mentorship]
+updated: 2026-04-20
+tags: [how-to, individual, community, mentorship, portfolio]
 status: active
 user-types: [individual]
 ---
@@ -95,6 +95,26 @@ Bad mentees:
 - Don't follow through
 - Treat the mentor as a contact to mine for referrals (which usually backfires)
 
+## Bring something to share — your Portfolio
+
+Community and mentorship work best when you have something concrete to point at. A profile page is fine; a portfolio page is better. For senior engineers, designers, writers, analysts, and consultants, the portfolio often *is* the hiring decision — not the CV.
+
+### Portfolio Builder — _Tier: Standard_
+
+**What this feature is.** Portfolio Builder creates a public, shareable portfolio page for projects, writing, designs, case studies, or test results, with a custom URL you can share.
+
+**Why it matters.** For creative roles and senior engineers, the portfolio is what gets you hired — not the CV. Having a native builder means you don't fragment your presence across Wix, Notion, GitHub Pages, and a personal domain. One link, kept current, used everywhere from mentor introductions to Interview Vault contributions to LinkedIn featured posts.
+
+**How to use it.**
+
+1. Open **Portfolio** (`/dashboard/individual/portfolio`).
+2. Pick three to six pieces of work you'd actually defend in conversation. Quality over volume — a sparse portfolio of strong work beats a dense one of weak work.
+3. Write a one-paragraph context note for each piece: what it was, what you did, what changed because of it.
+4. Publish. Add the URL to your profile, your CV, your LinkedIn, your email signature, and the first message you send any new mentor.
+5. Refresh quarterly. Old portfolios date you faster than old CVs.
+
+If you're using Mentor Connect, attach the portfolio link to your introduction message. Mentors decide whether to engage based on what you've actually built — they're scanning for that link before they read the rest.
+
 ## The features you can mostly ignore
 
 These are present, may be useful for some people, but are not load-bearing for your job hunt:
@@ -140,14 +160,21 @@ Good luck.
 - [ ] You're prepared to contribute back after your own interviews
 - [ ] If you've reached out to a mentor, you did it well (specific, prepared, committed)
 - [ ] You can tell when community time is helping your job hunt and when it's not
+- [ ] You've published a Portfolio you'd actually point a mentor at
 - [ ] You have a clear sense of what to do next, today
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 57 | Portfolio Builder | Standard |
 
 ## Manual complete
 
-You've reached the end. Use [[16-how-tos/individual/index|the guide index]] to jump back to any chapter.
+You've reached the end. Use [[01 How-To Documents/individual/index|the guide index]] to jump back to any chapter.
 
 ## References
 
-- [[16-how-tos/individual/index]] — Manual index
-- [[16-how-tos/individual/14-company-research|Chapter 14]] — Pairs with Interview Vault for interview prep
-- [[16-how-tos/individual/19-level-up|Chapter 19]] — Mentorship in the learning context
+- [[01 How-To Documents/individual/index]] — Manual index
+- [[01 How-To Documents/individual/14-company-research|Chapter 14]] — Pairs with Interview Vault for interview prep
+- [[01 How-To Documents/individual/19-level-up|Chapter 19]] — Mentorship in the learning context

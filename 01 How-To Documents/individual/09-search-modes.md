@@ -2,8 +2,8 @@
 title: "Chapter 9 — Browse vs Auto Match vs Manual Search"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, search, jobs]
+updated: 2026-04-20
+tags: [how-to, individual, search, jobs, basic-search, advanced-search, auto-match]
 status: active
 user-types: [individual]
 ---
@@ -30,6 +30,14 @@ Use them roughly like this:
 
 ## All Jobs
 
+### Basic Job Search — _Tier: Free_
+
+**What this feature is.** Basic Job Search is keyword, category, and location search across every active listing on the platform — with simple filters like job type and salary range. It's the same search box you saw on the public landing page, just connected to your profile once you log in.
+
+**Why it matters.** This is the front door. Friction here loses you to Pnet, CareerJunction, or LinkedIn before you've even begun, so it's free on every plan. For Sebenza Hub it's also the SEO surface — every indexed job page is an acquisition funnel. For you it means you can do the obvious "what's out there in Cape Town?" search without paying anything.
+
+**How to use it.** Open **All Jobs** (`/dashboard/individual/all-jobs`), type a keyword (a role, a skill, a company), set the location, and scroll. The basic filters live in the sidebar. If your search returns hundreds of results and you need to cut them down, that's the cue to switch to Advanced Search (next section).
+
 This is the full job listing on the platform — both jobs **posted directly** by Recruiters and Businesses on Sebenza Hub *and* jobs **aggregated externally** from sources like Adzuna and CareerJet. The mix is important to understand, because the two types behave differently:
 
 - **Posted jobs** are real Sebenza Hub listings. You can apply through the platform, the employer is on Sebenza Hub, your application is tracked end-to-end, and the AI match score is calculated against the actual job spec.
@@ -49,6 +57,14 @@ Both types have their place. Aggregated jobs roughly double the volume you can s
 - Don't trust every aggregated listing. Some are stale, some are reposts, some are ghost jobs — the platform flags these via ghost-risk scores (more below).
 
 ## Auto Match
+
+### AI Auto Match — _Tier: Standard_
+
+**What this feature is.** AI Auto Match is the engine that scans new jobs against your profile and surfaces the ones that fit best — each one comes with an explainable match score (e.g. 87%) and a list of reasons. It runs continuously in the background; every time a new job is posted or aggregated, it gets scored against you.
+
+**Why it matters.** Job seekers often don't know which titles to search for. A "Financial Analyst" might be equally qualified for "FP&A Associate" roles they'd never type into a search box. Auto Match expands the part of the market you can actually see, and the explanations let you challenge the score rather than trust it blindly.
+
+**How to use it.** Runs automatically once your profile is in place — here's what you'll see.
 
 Auto Match is the AI feature that scans new jobs against your profile and surfaces the ones it thinks fit. It runs continuously in the background — every time a new job is posted or aggregated, it gets scored against you.
 
@@ -78,6 +94,14 @@ Auto Match is only as good as the input. If your profile is thin, your matches w
 - After any major profile update (new skill, new credential, new experience)
 
 ## Manual Search
+
+### Advanced Job Search — _Tier: Standard_
+
+**What this feature is.** Advanced Job Search is multi-criteria filtering across salary bands, experience level, industry, remote/hybrid, B-BBEE status, company size, and province-level geography — with boolean operators and the ability to save result views. It's the precision tool, where you set the filters yourself instead of letting the AI infer them.
+
+**Why it matters.** Serious job hunters filter hard. The difference between 500 results and 12 relevant ones is the difference between actually applying and giving up. The advanced filters are usually the first paywall you'll hit on the platform — Standard unlocks them, and the productivity jump from basic to advanced is substantial once you know what you're looking for.
+
+**How to use it.** Open **Manual Search** (`/dashboard/individual/manual-search`). Set the filters you actually care about — don't add filters for the sake of it. Save the result view if it's a search you'll re-run (Chapter 10 covers that). The same filter set is available inside Saved Searches.
 
 Manual Search is the precision tool. You set the filters yourself instead of letting AI infer them.
 
@@ -166,12 +190,20 @@ Spend 20 minutes doing this:
 - [ ] You understand what the AI Match Score and Ghost Risk Score mean
 - [ ] You know which mode is going to be your default
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | Basic Job Search | Free |
+| 2 | Advanced Job Search | Standard |
+| 3 | AI Auto Match | Standard |
+
 ## Next chapter
 
-[[16-how-tos/individual/10-saved-searches-and-favourites|Chapter 10 — Saved searches and favourites]]
+[[01 How-To Documents/individual/10-saved-searches-and-favourites|Chapter 10 — Saved searches and favourites]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Where match scores get used
 - [[03-workflows/individual-journey]] — Step 4 (Search & Apply)
-- [[16-how-tos/individual/10-saved-searches-and-favourites|Chapter 10 — Saved searches and favourites]]
+- [[01 How-To Documents/individual/10-saved-searches-and-favourites|Chapter 10 — Saved searches and favourites]]

@@ -2,9 +2,9 @@
 title: "Individual (Job Seeker)"
 type: entity
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-20
 tags: [user-type, individual, job-seeker, career]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, repo-sync-2026-04-20]
 status: active
 confidence: high
 ---
@@ -152,6 +152,24 @@ Browse Jobs → Apply → Screening → Interview → Offer → Hired
 
 Individuals can track each application's status, set follow-up reminders, add personal notes, and view AI-generated match scores.
 
+## 2026-04-18 De-Hardcode Pass
+
+Between April 18–19, **nine previously demo-only areas** were rewritten against real server-driven endpoints (21 new database tables — all covered by a verify migration script):
+
+| Area | Commit | What's real now |
+|------|--------|-----------------|
+| Mentorship | `e3113f0` | Real mentorship engagements backed by DB |
+| Interview practice | `4589480` | Self-practice sessions persisted |
+| Learning analytics | `09952db` | Activity + completion analytics from real events |
+| Portfolio | `deec1f8` | Real project CRUD + derived impact heatmaps |
+| Skill tree | `901096c` | Server-driven node progress, quests, XP |
+| Study planner | `2b3705b` | Real blocks, goals, logs, resources |
+| Job-linked learning | `769f7ff` | Real saved-jobs + learning junction |
+| Peer teaching | `7d53a6f` | Real offerings, lessons, study groups |
+| Micro-learning | `8821d47` | Greenfield lessons, SRS flashcards, SM-2 server-side |
+
+Five sections previously dropped during refactor were also re-added across 3 pages (`11e6c39`). Individual dashboard is now effectively free of demo/placeholder data for these categories.
+
 ## Open Questions
 
 - How does the auto-apply (Autopilot) feature work in practice? What safeguards exist?
@@ -174,3 +192,4 @@ Individuals can track each application's status, set follow-up reminders, add pe
 - Source: [[09-sources/repo-audit-2026-04-07]]
 - Source: [[09-sources/individual-features-2026-04-07]]
 - Source: [[09-sources/individual-journey-gap-analysis-2026-04-07]]
+- Source: [[09-sources/repo-sync-2026-04-20]] — 9-area de-hardcode pass, 21 new tables, real data throughout Individual dashboard

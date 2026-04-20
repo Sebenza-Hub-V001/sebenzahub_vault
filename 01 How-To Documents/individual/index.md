@@ -2,7 +2,7 @@
 title: "Individual Training Manual"
 type: overview
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-20
 tags: [how-to, individual, job-seeker, training]
 status: active
 user-types: [individual]
@@ -12,7 +12,7 @@ user-types: [individual]
 
 A complete guide for job seekers on Sebenza Hub. Read Parts 1–4 in order if you're brand new. Use Parts 5–6 as references when you get stuck or want to go deeper.
 
-> **Status:** First complete draft. All 23 chapters have body content. Chapter 20 (Autopilot) is intentionally partial — it captures the principles but the operational specifics will be expanded in a future update.
+> **Status:** First complete draft. All 23 chapters have body content. Every catalogue feature (#1–85) has a dedicated block with its tier, a "What this feature is" paragraph, a "Why it matters" paragraph, and step-by-step instructions. Chapter 20 (Autopilot) is intentionally thinner — it captures the principles and cross-references the relevant apply-flow features, with operational specifics to follow.
 
 ## How to use this guide
 
@@ -27,44 +27,44 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 
 ## Part 1 — Getting Started
 
-1. [[16-how-tos/individual/01-what-sebenza-hub-is|What Sebenza Hub is and who it's for]]
-2. [[16-how-tos/individual/02-creating-your-account|Creating your account]]
-3. [[16-how-tos/individual/03-onboarding|Onboarding: the 6 things you need to fill in]]
-4. [[16-how-tos/individual/04-first-10-minutes|Your first 10 minutes on the dashboard]]
+1. [[01 How-To Documents/individual/01-what-sebenza-hub-is|What Sebenza Hub is and who it's for]]
+2. [[01 How-To Documents/individual/02-creating-your-account|Creating your account]]
+3. [[01 How-To Documents/individual/03-onboarding|Onboarding: the 6 things you need to fill in]]
+4. [[01 How-To Documents/individual/04-first-10-minutes|Your first 10 minutes on the dashboard]]
 
 ## Part 2 — Build Your Profile
 
-5. [[16-how-tos/individual/05-uploading-a-cv|Uploading or building a CV]]
-6. [[16-how-tos/individual/06-cv-review|Running CV Review]]
-7. [[16-how-tos/individual/07-skills-credentials-video|Adding skills, credentials, and a video intro]]
-8. [[16-how-tos/individual/08-privacy-and-popia|Privacy and POPIA: what recruiters can see]]
+5. [[01 How-To Documents/individual/05-uploading-a-cv|Uploading or building a CV]]
+6. [[01 How-To Documents/individual/06-cv-review|Running CV Review]]
+7. [[01 How-To Documents/individual/07-skills-credentials-video|Adding skills, credentials, and a video intro]]
+8. [[01 How-To Documents/individual/08-privacy-and-popia|Privacy and POPIA: what recruiters can see]]
 
 ## Part 3 — Find and Apply to Jobs
 
-9. [[16-how-tos/individual/09-search-modes|Browse vs Auto Match vs Manual Search]]
-10. [[16-how-tos/individual/10-saved-searches-and-favourites|Saved searches and favourites]]
-11. [[16-how-tos/individual/11-applying|Applying to a job: walkthrough]]
-12. [[16-how-tos/individual/12-tracking-applications|Tracking applications and follow-ups]]
+9. [[01 How-To Documents/individual/09-search-modes|Browse vs Auto Match vs Manual Search]]
+10. [[01 How-To Documents/individual/10-saved-searches-and-favourites|Saved searches and favourites]]
+11. [[01 How-To Documents/individual/11-applying|Applying to a job: walkthrough]]
+12. [[01 How-To Documents/individual/12-tracking-applications|Tracking applications and follow-ups]]
 
 ## Part 4 — Interview and Offer
 
-13. [[16-how-tos/individual/13-interview-simulator|Using the Interview Simulator]]
-14. [[16-how-tos/individual/14-company-research|Researching a company before an interview]]
-15. [[16-how-tos/individual/15-receiving-an-offer|Receiving and responding to an offer]]
-16. [[16-how-tos/individual/16-salary-negotiator|Salary Negotiator]]
+13. [[01 How-To Documents/individual/13-interview-simulator|Using the Interview Simulator]]
+14. [[01 How-To Documents/individual/14-company-research|Researching a company before an interview]]
+15. [[01 How-To Documents/individual/15-receiving-an-offer|Receiving and responding to an offer]]
+16. [[01 How-To Documents/individual/16-salary-negotiator|Salary Negotiator]]
 
 ## Part 5 — When You're Stuck
 
-17. [[16-how-tos/individual/17-no-responses|"I'm not getting responses"]]
-18. [[16-how-tos/individual/18-no-direction|"I don't know what to apply for"]]
-19. [[16-how-tos/individual/19-level-up|"I need to level up my skills"]]
+17. [[01 How-To Documents/individual/17-no-responses|"I'm not getting responses"]]
+18. [[01 How-To Documents/individual/18-no-direction|"I don't know what to apply for"]]
+19. [[01 How-To Documents/individual/19-level-up|"I need to level up my skills"]]
 
 ## Part 6 — Advanced (Optional)
 
-20. [[16-how-tos/individual/20-autopilot|Autopilot and auto-apply safeguards]]
-21. [[16-how-tos/individual/21-career-dna|Career DNA and Opportunity Weights]]
-22. [[16-how-tos/individual/22-market-radar|Market Radar]]
-23. [[16-how-tos/individual/23-community-and-mentorship|Community and mentorship]]
+20. [[01 How-To Documents/individual/20-autopilot|Autopilot and auto-apply safeguards]]
+21. [[01 How-To Documents/individual/21-career-dna|Career DNA and Opportunity Weights]]
+22. [[01 How-To Documents/individual/22-market-radar|Market Radar]]
+23. [[01 How-To Documents/individual/23-community-and-mentorship|Community and mentorship]]
 
 ## References
 

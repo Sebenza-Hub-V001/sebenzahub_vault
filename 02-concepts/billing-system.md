@@ -2,9 +2,9 @@
 title: "Billing System"
 type: concept
 created: 2026-04-07
-updated: 2026-04-11
-tags: [billing, payments, subscriptions, plans, credits]
-sources: [repo-audit-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11]
+updated: 2026-04-20
+tags: [billing, payments, subscriptions, plans, credits, entitlements]
+sources: [repo-audit-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11, repo-sync-2026-04-20]
 status: active
 confidence: medium
 ---
@@ -16,6 +16,12 @@ Sebenza Hub uses a tiered subscription model with 18 plans, credits, usage meter
 ## Subscription Plans
 
 18 plans across the user types, managed by Admin at `/admin/plans`. Plans are stored in the `plans` table and entitlements in `feature_entitlements`.
+
+**Centralised pricing (2026-04-11):** Pricing constants moved into a shared `plans.ts` data file — dashboards for all 3 user types render from a single `DashboardPlanCards.tsx` component (`b359c31`, `48542e6`).
+
+**Feature entitlements seeded (2026-04-13):** `feature_entitlements` now seeded with plan↔feature links automatically (`cc94cfc`). Unified AI Governance and billing registries (`9cd04fd`) — no more divergence between what features a plan claims and what Governance tracks.
+
+**Checkout persistence (2026-04-11):** `checkoutId` now persists across payment retries so interrupted flows resume correctly (`570b679`).
 
 ## Key Billing Endpoints
 
@@ -93,3 +99,4 @@ This refactoring replaced duplicated billing code in `RecruiterBilling.tsx` and 
 - [[03-workflows/individual-journey]] — Billing in the Individual journey
 - [[03-workflows/recruiter-journey]] — Billing in the recruiter journey
 - [[03-workflows/business-journey]] — Billing in the Business journey
+- Source: repo sync 2026-04-20 — Centralised pricing, feature entitlements seeding, unified AI-Governance/billing registries

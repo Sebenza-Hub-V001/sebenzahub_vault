@@ -2,8 +2,8 @@
 title: "Chapter 25 — Reading your analytics"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, analytics, kpi, dashboard]
+updated: 2026-04-20
+tags: [how-to, recruiter, analytics, kpi, dashboard, recruiter-analytics, predictive-analytics, placement-analytics]
 status: draft
 user-types: [recruiter]
 ---
@@ -75,6 +75,18 @@ Not every metric is honest. Watch out for:
 
 The Recruitment Analytics page is where you go monthly to understand *patterns*, not just snapshots.
 
+### Recruiter Analytics — _Tier: Standard_
+
+**What this feature is.** Recruiter Analytics is the time-to-hire, funnel conversion, source quality, and cost-per-hire dashboard. It rolls up every job, every desk, and every team member into the operating numbers a billing agency lives by.
+
+**Why it matters.** Agency billing is tied to KPIs — fill rate, time-to-fill, conversion ratios. Without dedicated analytics those numbers get reconstructed from spreadsheets once a quarter, badly, after the damage is done. Standard analytics make them visible weekly so you can act on a slide before it becomes a quarter.
+
+**How to use it.** Open `/dashboard/recruiter/analytics` on the first Monday of every month. Walk through the questions below against the conversion funnel, source effectiveness, recruiter performance, and client performance views. Don't skim — write down one decision you're making this month based on what you see.
+
+### Placement Analytics — _Tier: Standard_
+
+Two-line callback: per-client placement success rates, time-to-fill, and per-recruiter performance live in the same Recruitment Analytics surface — covered in detail in [[01 How-To Documents/recruiter/21-recording-a-placement|Chapter 21]] alongside the placement record itself.
+
 ### What it shows
 
 - **Pipeline conversion funnel** — applicants → screened → interviewed → offered → placed, with conversion percentages between each stage
@@ -99,7 +111,13 @@ If you can't answer one of these from the data, that's a sign your data hygiene 
 
 ## 3. Predictive Analytics — `/dashboard/recruiter/predictive-analytics`
 
-Predictive Analytics is forecasting. It uses your historical patterns to project:
+### Predictive Analytics — _Tier: Premium_
+
+**What this feature is.** Predictive Analytics runs forward-looking models over your pipeline, client engagement, and recruiter capacity to project placements, revenue, fill rate, and at-risk roles for the next 30 / 60 / 90 days.
+
+**Why it matters.** Basic analytics tell you where you've been; predictive tells you where you're going. The strategic agencies — and the corporate clients buying from them — pay for the forward view because it converts a quarterly surprise into a monthly intervention.
+
+**How to use it.** Mid-month, open `/dashboard/recruiter/predictive-analytics` and act on the warnings rather than just reading them. The page surfaces:
 
 - **Next month's expected placements** (range, not single number)
 - **Next quarter's expected revenue**
@@ -157,6 +175,14 @@ The four reports above cover 90% of analytics needs. The remaining specialist pa
 - **Share the dashboard in team meetings.** A team that sees the numbers weekly becomes data-literate fast. A team that doesn't develops fictions about what's working.
 - **Set targets.** Numbers without targets are descriptive. Numbers with targets are diagnostic. Set quarterly targets for placements, revenue, fill rate, and submission-to-placement ratio. Review them every Monday.
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 196 | Recruiter Analytics | Standard |
+| 209 | Predictive Analytics | Premium |
+| 208 | Placement Analytics (callback) | Standard |
+
 ## Checklist
 
 - [ ] You have a Monday morning routine that includes 10 minutes on the KPI Dashboard
@@ -168,11 +194,11 @@ The four reports above cover 90% of analytics needs. The remaining specialist pa
 
 ## Next chapter
 
-[[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
+[[01 How-To Documents/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI behind predictive analytics
-- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-how-tos/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement]]
-- [[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
+- [[01 How-To Documents/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[01 How-To Documents/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement]]
+- [[01 How-To Documents/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]

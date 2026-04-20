@@ -2,7 +2,7 @@
 title: "Chapter 9 — Engagement terms: fees, payment, guarantee"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-20
 tags: [how-to, recruiter, engagements, fees, contracts]
 status: draft
 user-types: [recruiter]
@@ -120,10 +120,10 @@ Once an engagement exists, the platform uses it for:
 
 ## Next chapter
 
-[[16-how-tos/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]
+[[01 How-To Documents/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA implications for client data
-- [[16-how-tos/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
-- [[16-how-tos/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]
+- [[01 How-To Documents/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
+- [[01 How-To Documents/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]

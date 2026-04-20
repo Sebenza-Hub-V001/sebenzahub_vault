@@ -2,15 +2,15 @@
 title: "Chapter 22 — Unified Inbox and message management"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, inbox, communication]
+updated: 2026-04-20
+tags: [how-to, recruiter, inbox, communication, ai-composer, templates, outreach, pitch, whatsapp]
 status: draft
 user-types: [recruiter]
 ---
 
 # Chapter 22 — Unified Inbox and message management
 
-A working recruiter sends and receives 50–100 messages per day across email, WhatsApp, SMS, LinkedIn, and the in-platform inbox. Without a single place to read all of them, you spend half your day switching tabs and the other half losing threads. The Unified Inbox is Sebenza Hub's answer — every conversation with every candidate and client, in one timeline, automatically logged to the right record.
+A working recruiter sends and receives 50–100 messages per day across email, WhatsApp, SMS, LinkedIn, and the in-platform inbox. Without a single place to read all of them, you spend half your day switching tabs and the other half losing threads. The Unified Inbox is Sebenza Hub's answer — every conversation with every candidate and client, in one timeline, automatically logged to the right record. This chapter walks through the inbox itself and the five message-generation features that sit on top of it: the AI composer, the email template library, the outreach drafter, the pitch generator, and the WhatsApp message generator.
 
 ## Where it lives
 
@@ -60,6 +60,46 @@ While composing a reply, an AI assistant offers help in real time:
 - **Keyboard shortcuts** for power users (insert template, jump to context, mark resolved)
 
 The tone analysis is the most underrated feature. Recruiters who type fast under pressure routinely send rejection emails that sound harsher than they meant. The platform catches "we're going with someone else" and suggests "we've decided to move forward with another candidate, but we'll keep your profile in mind for future roles" — same message, kinder tone.
+
+### AI Email Composer — _Tier: Standard_
+
+**What this feature is.** AI-powered email drafting tuned for candidate communication — outreach, scheduling, rejection, follow-up. Drafts a complete email from a one-line prompt and the conversation context.
+
+**Why it matters.** Bad recruiter emails kill response rates. AI drafting produces baseline-quality emails fast — which matters when one recruiter sends 50+ emails a day and the alternative is either rushed prose or no email at all.
+
+**How to use it.** Click **AI Compose** in the Unified Inbox composer. Tell the AI what kind of email (cold outreach, interview invite, gentle nudge, polite rejection). Edit the draft before sending — never send the first AI draft verbatim, the candidate can tell.
+
+### Email Templates — _Tier: Standard_
+
+**What this feature is.** Customisable email templates with variable substitution — candidate name, role, dates, links — saved per recruiter and per agency.
+
+**Why it matters.** Template libraries enforce consistency across a team and free recruiters from rewriting the same message ten times a day. Templates plus variables are the foundation of any scaled outbound communication.
+
+**How to use it.** Build the 10 essential templates in `/dashboard/recruiter/email-templates` (full list in Chapter 23). Insert into any composer with one click. Add a personal-touch line before sending so the message doesn't read like a form letter.
+
+### Outreach Draft Generator — _Tier: Standard_
+
+**What this feature is.** Generates personalised candidate outreach messages based on the candidate's profile and the open role — references specific projects, skills, or background details.
+
+**Why it matters.** Generic outreach is deleted without reading. Personalised drafts that reference specific projects or skills lift open rates by 3–5×, which is the difference between a sourcing campaign that works and one that wastes everyone's time.
+
+**How to use it.** From any candidate's record, click **Generate outreach**. The AI reads the profile and the linked job, drafts a tailored message. Review, tweak the personalisation hook, send.
+
+### Pitch Generator — _Tier: Standard_
+
+**What this feature is.** Generates customised recruitment pitches for both directions — "why this role" pitches to candidates and "why this candidate" pitches to clients.
+
+**Why it matters.** A strong pitch is what converts interest to commitment at critical moments — when the candidate is wavering on the offer or when the client is choosing between two shortlists. Generation ensures every recruiter, not just the rockstars, has a strong pitch ready.
+
+**How to use it.** Open `/dashboard/recruiter/pitch-generator`, pick the direction (to candidate / to client), the candidate, the role. The AI returns a structured pitch you can copy into any channel — email, WhatsApp, a client call notes prep doc.
+
+### WhatsApp Messages — _Tier: Standard_
+
+**What this feature is.** Generates mobile-friendly WhatsApp messages for individual candidate outreach — short, personalised, casual tone, suited to the channel.
+
+**Why it matters.** LinkedIn-style outreach doesn't translate to WhatsApp — length and tone are totally different. Channel-specific generation ensures the message format matches the channel, which is the difference between a reply and a block.
+
+**How to use it.** From the Unified Inbox or a candidate's record, click **Generate WhatsApp message**. The AI writes 2–4 sentences in conversational tone, ready to send. For bulk WhatsApp campaigns instead of individual messages, see Chapter 24.
 
 ## Filtering and triage
 
@@ -124,16 +164,29 @@ Once a week, archive conversations that are clearly closed (rejected candidates,
 - [ ] You can find any candidate's full message history from their profile
 - [ ] You have a morning + end-of-day inbox sweep ritual
 - [ ] You're using the tone analysis feature (or at least aware of it)
+- [ ] You've used AI Email Composer at least once instead of writing from blank
+- [ ] You've built (or copied) at least 5 of the essential Email Templates
+- [ ] You've used the Outreach Draft Generator on a sourcing message
 - [ ] You're marking conversations as resolved when they're done
 - [ ] You're not replying to candidates from a personal email account
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 169 | AI Email Composer | Standard |
+| 170 | Email Templates | Standard |
+| 174 | Outreach Draft Generator | Standard |
+| 175 | Pitch Generator | Standard |
+| 245 | WhatsApp Messages | Standard |
+
 ## Next chapter
 
-[[16-how-tos/recruiter/23-templates-sequences-chatbot|Chapter 23 — Email templates, sequences, and the chatbot]]
+[[01 How-To Documents/recruiter/23-templates-sequences-chatbot|Chapter 23 — Email templates, sequences, and the chatbot]]
 
 ## References
 
 - [[02-concepts/ai-features]] — Tone analysis and sentiment detection
-- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-how-tos/recruiter/23-templates-sequences-chatbot|Chapter 23 — Templates, sequences, and the chatbot]]
-- [[16-how-tos/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
+- [[01 How-To Documents/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[01 How-To Documents/recruiter/23-templates-sequences-chatbot|Chapter 23 — Templates, sequences, and the chatbot]]
+- [[01 How-To Documents/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]

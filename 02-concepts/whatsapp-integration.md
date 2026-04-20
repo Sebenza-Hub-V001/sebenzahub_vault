@@ -2,9 +2,9 @@
 title: "WhatsApp Integration"
 type: concept
 created: 2026-04-07
-updated: 2026-04-07
-tags: [whatsapp, messaging, communication, chatbot]
-sources: [repo-audit-2026-04-07, whatsapp-bot-training-manual-2026-04-07]
+updated: 2026-04-20
+tags: [whatsapp, messaging, communication, chatbot, flow-builder, rag, magic-link]
+sources: [repo-audit-2026-04-07, whatsapp-bot-training-manual-2026-04-07, repo-sync-2026-04-20]
 status: active
 confidence: high
 ---
@@ -81,7 +81,9 @@ The WhatsApp bot is far more than a simple chatbot — it's a complete recruitme
 - **POPIA consent** collection before data processing
 - **CV auto-parsing** with skills extraction and match scoring
 - **Frustration detection** → auto-escalation to human after 3+ negative messages
-- **Flow builder** with 9 node types for no-code automation
+- **Flow builder** — authoritative runtime as of 2026-04-19; 9 original node types + 10 new action types in Phase 2; 7 cron triggers; platform events wired into runtime
+- **AI Phase 0–6 (2026-04-19)** — default-on intent classification, RAG FAQ from `wiki_pages`, escalation summarisation, Whisper voice transcription, AI reply drafts, bidirectional translation
+- **Magic-link auth** — WhatsApp users authenticate via phone lookup + email fallback + magic link
 
 ### Admin Dashboard (20 tabs)
 Command Center, Conversations, Campaigns, Broadcast Studio, Automation, Compliance, Quality & CSAT, AI Intelligence, Templates, Configuration, Contact CRM, Team Inbox, Flow Builder, Bot Training, Deep Analytics, Replay & Debug, AI Matcher, Growth Engine, DNA Analyzer, War Room.
@@ -91,7 +93,7 @@ Command Center, Conversations, Campaigns, Broadcast Studio, Automation, Complian
 - Credentials: Phone Number ID, Access Token, WABA ID, Verify Token
 - Webhook events: messages, message_deliveries, message_reads
 
-> ⚠️ **Tension:** The bot supports 6 SA languages for greetings, but multi-language AI is a high-effort unimplemented feature elsewhere in the platform. Language support appears template-based, not full AI conversation.
+> ⚠️ **Tension:** The bot supports 6 SA languages for greetings, but multi-language AI was a high-effort unimplemented feature elsewhere in the platform. **Partially resolved (2026-04-19):** Phase 6 added bidirectional agent/user auto-translation, and Phase 2 extended localization beyond greetings to interactive responses. Still unconfirmed whether full LLM-level conversation runs in non-English or whether translation sits in front of an English-only core.
 
 ## Open Questions
 
@@ -104,3 +106,4 @@ Command Center, Conversations, Campaigns, Broadcast Studio, Automation, Complian
 
 - [[02-concepts/compliance]] — POPIA consent for WhatsApp messaging
 - [[03-workflows/recruiter-journey]] — WhatsApp in the recruiter journey (Track A)
+- Source: repo sync 2026-04-20 — Flow Builder maturation, Phase 0–6 AI, magic-link auth

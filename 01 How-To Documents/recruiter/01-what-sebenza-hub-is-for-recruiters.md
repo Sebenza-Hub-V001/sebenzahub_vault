@@ -2,7 +2,7 @@
 title: "Chapter 1 — What Sebenza Hub is for recruiters"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-20
 tags: [how-to, recruiter, introduction]
 status: draft
 user-types: [recruiter]
@@ -68,10 +68,10 @@ Parts 6–9 cover the parallel tracks (communication, analytics, compliance, bra
 
 ## Next chapter
 
-[[16-how-tos/recruiter/02-creating-your-account|Chapter 2 — Creating your account]]
+[[01 How-To Documents/recruiter/02-creating-your-account|Chapter 2 — Creating your account]]
 
 ## References
 
-- [[16-how-tos/recruiter/02-creating-your-account|Chapter 2 — Creating your account]]
-- [[16-how-tos/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]
+- [[01 How-To Documents/recruiter/02-creating-your-account|Chapter 2 — Creating your account]]
+- [[01 How-To Documents/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]
 - [[03-workflows/recruiter-journey]] — The full recruitment path with scenarios

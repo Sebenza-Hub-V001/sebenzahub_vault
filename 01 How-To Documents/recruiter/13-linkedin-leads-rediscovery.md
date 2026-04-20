@@ -2,8 +2,8 @@
 title: "Chapter 13 — LinkedIn Leads and Talent Rediscovery"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, linkedin, rediscovery, sourcing]
+updated: 2026-04-20
+tags: [how-to, recruiter, linkedin, rediscovery, sourcing, re-engagement, ai-recommendations]
 status: draft
 user-types: [recruiter]
 ---
@@ -26,6 +26,8 @@ Used well, these two together fill 30–40% of your senior roles. Used poorly, t
 **Page:** `/dashboard/recruiter/linkedin-leads`
 
 LinkedIn Leads is the integration point between LinkedIn and Sebenza Hub. It pulls in people who match a target profile, scores and enriches them with AI, and lets you nurture them through sequences before converting them into full candidate records.
+
+This page sits on top of **LinkedIn Sync** (covered in Chapter 12) — Sync brings the data in, LinkedIn Leads is what you do with it.
 
 ### The flow
 
@@ -79,20 +81,42 @@ The point of nurturing is *not* to close them on the first touch. Most leads res
 
 LinkedIn outreach is governed by both LinkedIn's own terms and POPIA. The platform's integration handles rate limiting and connection-request etiquette automatically, but **you** are responsible for the content of messages and for honouring opt-outs. A reply of "no thanks" or "please don't message me again" must be added to your suppression list immediately. Chapter 27 covers this.
 
-## 2. Talent Rediscovery
+## 2. Three features for resurfacing past candidates
 
-**Page:** `/dashboard/recruiter/talent-rediscovery`
+Past candidates are the cheapest source of qualified hires you have. Sebenza Hub layers three features on this — one to surface forgotten candidates against new roles, one to drive structured re-engagement, and one purpose-built for executive-level rediscovery.
 
-Talent Rediscovery is the most underused tool in the platform. It surfaces candidates already in your database who:
+### AI Candidate Recommendations — _Tier: Standard_
+
+**What this feature is.** AI Candidate Recommendations surfaces the top candidates from your existing database for any open job you have published. It runs against your active postings continuously and pushes a ranked shortlist of "best-fit candidates you already know" into the job's pipeline view.
+
+**Why it matters.** Most agencies forget about candidates after two weeks of no contact. AI recommendations re-surface forgotten candidates for new roles automatically — effectively finding free inventory on your existing book before you go cold sourcing. For most desks this is a 10–15% uplift in placements with zero new sourcing cost.
+
+**How to use it.** Open any active job → **AI Recommendations** tab. Review the ranked candidates with their match reasoning. Move the strong ones into the pipeline; dismiss the wrong ones (the dismissals train the model).
+
+### Candidate Re-Engagement — _Tier: Standard_
+
+**What this feature is.** Candidate Re-Engagement generates AI-driven strategies and personalised messaging to reach out to past candidates for new roles — drawing on the candidate's history, the previous interaction, and the new role's fit.
+
+**Why it matters.** Re-engagement is the highest-conversion outreach you can do because the candidate already knows you. Structured strategies and personalised messages lift response from cold past-candidate outreach dramatically — generic re-engagement emails get ignored, but a message that references the previous conversation gets a reply.
+
+**How to use it.** From any past candidate's profile, click **Re-engage**. Pick the open role you want to talk about; the AI suggests a message that references the prior interaction (e.g. "you came second on the Naspers role in March 2024"). Edit, send, log.
+
+### Talent Rediscovery — _Tier: Premium_
+
+**What this feature is.** Talent Rediscovery is the dedicated AI-driven view of your dormant database matched against every open role — a continuously updated "who in your database fits this brief?" answer for every active job. It's the most underused tool in the platform.
+
+**Why it matters.** 90% of agency value sits in the existing database but is under-utilised. Rediscovery monetises inventory you've already paid for — the highest-margin feature on the recruiter side, because every candidate it resurfaces is one you don't have to source cold.
+
+It surfaces candidates already in your database who:
 
 - Matched a previous role but were not placed (they were strong but lost out)
 - Were placed in a role 18–24 months ago and may now be open to a move
 - Engaged with your agency in the past but went quiet (no recent activity)
 - Are now a better match for an open role than they were when you first met them
 
-The AI compares your active jobs against every dormant candidate in your database and ranks the best re-engagement targets.
+**How to use it.** Open `/dashboard/recruiter/talent-rediscovery`. The page shows your dormant candidates ranked by re-engagement potential, with the open job they best fit. Spend 15–20 minutes per week here; aim to re-engage 5–10 candidates per week. Then use Candidate Re-Engagement above to send the actual outreach.
 
-### Why it works
+### Why it works (the pattern Rediscovery exploits)
 
 Recruiters chronically under-leverage their existing database. The same pattern plays out everywhere:
 
@@ -103,21 +127,10 @@ Recruiters chronically under-leverage their existing database. The same pattern 
 
 That candidate is probably more experienced now, possibly looking again, and far more likely to respond to you (a known recruiter who treated them well) than to a cold outreach. Talent Rediscovery surfaces this pattern for every dormant candidate, every week.
 
-### How to use it
-
-1. Open `/dashboard/recruiter/talent-rediscovery`.
-2. The page shows your dormant candidates ranked by re-engagement potential, with the open job they best fit.
-3. Click into a candidate to see:
-   - When you last spoke to them
-   - What role they were originally sourced for
-   - Why the AI thinks they fit a current open role
-   - Suggested re-engagement message tone (warm, professional, casual)
-4. Send a re-engagement message — usually a personal note that references the previous interaction, not a generic "we have a role for you".
-
 ### The right cadence
 
 - Spend **15–20 minutes per week** on Talent Rediscovery. Not more, not less.
-- Aim to re-engage 5–10 dormant candidates per week.
+- Aim to re-engage 5–10 dormant candidates per week using Candidate Re-Engagement.
 - Track the response rate — if it's above 25%, you're doing it right; if it's below 10%, your messages are too generic.
 
 ### When NOT to use it
@@ -140,17 +153,26 @@ LinkedIn Leads brings new people in. Talent Rediscovery resurfaces old people. T
 
 - [ ] You've imported at least one batch of LinkedIn leads (or know how to)
 - [ ] You've set up a default nurture sequence for new leads
+- [ ] You've checked AI Candidate Recommendations on each of your active jobs
 - [ ] You've spent 15 minutes on Talent Rediscovery this week
-- [ ] You have a habit of writing personal re-engagement messages, not generic ones
+- [ ] You've used Candidate Re-Engagement to send at least 5 personal re-engagement messages
 - [ ] You understand the POPIA implications of cold outreach (Chapter 27)
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | AI Candidate Recommendations | Standard |
+| 2 | Candidate Re-Engagement | Standard |
+| 3 | Talent Rediscovery | Premium |
 
 ## Next chapter
 
-[[16-how-tos/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+[[01 How-To Documents/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, opt-outs, suppression lists
 - [[02-concepts/ai-features]] — AI scoring and enrichment
-- [[16-how-tos/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
-- [[16-how-tos/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+- [[01 How-To Documents/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
+- [[01 How-To Documents/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]

@@ -1,5 +1,45 @@
 # Activity Log
 
+## [2026-04-20] ingest | Feature Catalogue — 253 features rolled into the How-To manuals
+- Source: `13-raw/Features Document.pdf` (253 features across Individual 85 · Recruiter 131 · Corporate 17 · Cross-Product 13 · Platform admin-only 7)
+- Reference: `c:\tmp\features-catalogue.md` (compact reference built from the PDF for agent use)
+- Pilot: [[01 How-To Documents/individual/05-uploading-a-cv|Individual Chapter 5]] rewritten as format reference (features #1–6). Format: `### Feature Name — _Tier: X_` heading + **What this feature is** + **Why it matters** + **How to use it** blocks, plus a "Features covered in this chapter" table at the end.
+- Execution: 7 parallel agents handled the bulk — Individual Ch 6–12, 13–17, 18–23; Recruiter Ch 4–14, 15–24, 25–34; and new Corporate book (9 chapters + index).
+- Manual work: Individual Ch 1–4 and Recruiter Ch 1–3 frontmatter bumps; Individual Ch 4 tier-system explainer replaces an open question about pricing that the catalogue resolved.
+- Corporate book: new `01 How-To Documents/corporate/` folder, chapters 01–09 + index.md. Covers all 17 Corporate features + cross-product notifications (#234–236), support (#237–239), Onboarding Checklists (#240), Team Collaboration (#242), API Access (#243).
+- Platform admin-only features (#247–253) flagged as out of public-manual scope. Candidate for a future internal admin reference.
+- Features placed:
+  - Individual: 85 (all catalogue features for this user type)
+  - Recruiter: 131 (all catalogue features for this user type)
+  - Corporate: 17 + 9 cross-product = 26 total feature blocks
+  - **Total new feature blocks across the manual: 242**
+- Lint:
+  - **Layer 1** (direct leaks in `01 How-To Documents/`): 3 leaks in the root `index.md` (pointing at `08-questions/`, `01-entities/`, `15-dashboards/`). All fixed + index updated to reflect all 3 published books.
+  - **Layer 2** (transitive — concept/workflow pages referenced from how-tos): 25 leaks across 6 pages. All fixed. The full published surface (`01 How-To Documents/` + `02-concepts/{authentication,compliance,billing-system,rbac,multi-tenancy,application-lifecycle,ai-features,whatsapp-integration}` + `03-workflows/{individual-journey,recruiter-journey,business-journey}`) is now lint-clean.
+  - Image embeds `![[13-raw/screenshots/...]]` are asset references, not navigation, and were left alone — they ship as images with the published page.
+- Pages touched: 56 How-To chapters + 10 new Corporate files + root `01 How-To Documents/index.md` + 3 per-book `index.md` + 6 concept/workflow pages for Layer 2 fixes = **76 files changed**.
+- Open decisions:
+  - Corporate book has no Ch 4.5 "how we charge" equivalent (the Recruiter book has one). The Corporate pricing model is not in the catalogue. Flag for later.
+  - Agent 7 omitted screenshot embeds for the new Corporate chapters (images for those flows don't exist yet in `13-raw/screenshots/`). Flag for a screenshot pass once the Corporate UI is stable.
+  - Ch 19 Individual (Level Up) carries 23 features — longest chapter in the manual. Reads as a reference, not an essay. Watch for reader fatigue; consider splitting if we add more features later.
+
+## [2026-04-20] sync | Repo audit — 151 commits since 2026-04-11
+- Source: `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2` (local clone), PRs #295–#311+
+- Summary: [[09-sources/repo-sync-2026-04-20]]
+- Window: 2026-04-11 → 2026-04-20 (9 days)
+- Schema: tables 794 → 820 (+26); migrations 0028–0036 (+9)
+- Five dominant themes:
+  - **WhatsApp AI Phase 0–6** (2026-04-19) — intent AI default-on, RAG FAQ from `wiki_pages`, escalation summarisation, Whisper voice transcription, AI reply drafts, bidirectional translation. Linda now genuinely AI-powered.
+  - **Flow Builder maturation** — authoritative runtime (overrides hardcoded state machine), versioning, simulator, analytics, 7 cron triggers with dedupe, 10 new action types, event wiring, two-tab editor (My Flows / Permanent).
+  - **POPIA AI consent rollout** (2026-04-17/18) — `ai_processing` consent enforced at `POST /api/applications`; AI disclosure badges in public job detail + QuickApplyDialog; Privacy Policy page at `/privacy`; signup consent persists to `popia_consents`; demographic opt-in added.
+  - **Individual dashboard de-hardcode** (2026-04-18) — 9 areas switched from demo to real data: mentorship, micro-learning, peer-teaching, job-linked learning, study planner, skill tree, portfolio, learning analytics, interview practice (21 new tables, verify script added).
+  - **Security & infra** — 3 Dependabot patches, `crypto.randomBytes` for tokens, 5 AI-intelligence endpoints role-gated, pre-merge CI (tsc + static-analysis + smoke e2e), SQL migration runner on boot, readiness endpoint, runbooks for secrets rotation / git scrub / migration rename.
+- Other notable: platform-wide Admin Pay Equity dashboard, WhatsApp magic-link auth, team invitation acceptance flow with owner designation, Smart Match (candidate ↔ specific job), AI Candidate Search v2 with keyword filtering, centralized pricing + unified AI-Governance/billing registries, Claude Opus model bump to 4.7.
+- Pages touched: [[01-entities/sebenza-hub]], [[01-entities/whatsapp-bot]], [[01-entities/individual-user]], [[01-entities/recruiter-user]], [[01-entities/admin-user]], [[02-concepts/whatsapp-integration]], [[02-concepts/ai-features]], [[02-concepts/compliance]], [[02-concepts/billing-system]], [[index]]
+- New pages: [[09-sources/repo-sync-2026-04-20]]
+- Contradictions resolved: [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] flagged AI-specific POPIA consent as a critical gap — now **partially resolved** (consent enforced, disclosures live, privacy page up). Remaining: POPIA Section 71 representation mechanism, bias audit operationalisation, data minimisation for AI endpoints.
+- Open questions raised: Does RAG-on-`wiki_pages` draw from this wiki or an internal table? What's the post-Phase-1 fallback rate? Which AI provider powers each WhatsApp phase? Are the 7 cron triggers active in production or seeded-only?
+
 ## [2026-04-11] ingest | SA National AI Policy — Compliance Review
 - Source: `13-raw/articles/sa-ai-policy-compliance-review.md`
 - Summary: [[09-sources/sa-ai-policy-compliance-review-2026-04-11]]

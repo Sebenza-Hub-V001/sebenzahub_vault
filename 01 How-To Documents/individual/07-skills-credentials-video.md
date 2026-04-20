@@ -2,8 +2,8 @@
 title: "Chapter 7 — Adding skills, credentials, and a video intro"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, profile, skills, credentials]
+updated: 2026-04-20
+tags: [how-to, individual, profile, skills, credentials, competency-tests, credential-gap, credential-roadmap]
 status: active
 user-types: [individual]
 ---
@@ -57,9 +57,17 @@ Most professionals are Intermediate or Advanced on most of their skills. Almost 
 
 Come back to this once a quarter. People consistently over-rate skills they haven't used recently and under-rate skills they use every day. Both hurt your matching.
 
-## Part B — Skill Verifications
+## Part B — Skill Verifications and Competency Tests
 
 Anyone can claim a skill. Verified skills are different — they carry a badge that's visible to recruiters and signals you've proven the skill against a standardised test.
+
+### Competency Tests — _Tier: Free_
+
+**What this feature is.** Competency Tests are skills tests you can take either when a recruiter assigns one as part of an application or as a self-assessment from your profile. Scores are recorded on your profile and visible to recruiters reviewing you.
+
+**Why it matters.** Without verified skills, candidates look the same as everyone else in the pile. Free tests are critical for surfacing unknown talent — a degree-less self-taught developer proves themselves here, and a senior with two decades of experience can confirm they still know the fundamentals. Keeping tests free means no candidate gets locked out of proving they're real.
+
+**How to use it.** Most tests come to you — when you apply to a role that uses one, the recruiter assigns it and you'll see it in your Inbox or Application Portal. To take a self-assessment, go to your **Profile** → **Skills** section, find a skill that has a test available, and click **Take test**. Tests are typically a mix of multiple choice and short structured tasks, timed, and run inside the browser. Your score sits next to the skill on your profile from then on.
 
 ### When to bother
 
@@ -111,6 +119,31 @@ Several credentials expire (AWS certs every three years, professional registrati
 ### Why verified credentials matter
 
 When a recruiter sees a credential with a trust badge attached, it removes a step from screening: they don't have to chase you for the document or verify it themselves. That's often the difference between getting shortlisted and getting passed over for a candidate who made the screener's job easier.
+
+### Step 3 — Check what's missing
+
+Once your existing credentials are loaded, the obvious next question is: *what should I get next?* Sebenza Hub answers that with two related tools — one diagnostic, one prescriptive.
+
+#### Credential Gap Analysis — _Tier: Standard_
+
+**What this feature is.** Credential Gap Analysis compares your credentials — qualifications, certifications, NQF levels — against the typical requirements for your target roles in the South African market. The output is a ranked list of gaps: which credentials you're missing, how often the missing credentials block applications in your target band, and what alternatives might count.
+
+**Why it matters.** SA hiring is credential-heavy, and many roles auto-reject on NQF level alone. This tells you whether a R30,000 certification is actually going to unlock the next tier of roles or whether it's vanity spend. The same analysis also reveals when your credentials *are* sufficient and the problem is somewhere else (CV, profile, network) — so you stop chasing certificates you don't need.
+
+**How to use it.**
+
+1. Go to **Credential Gap Analysis** (`/dashboard/individual/credential-gap-analysis`).
+2. Confirm the target role(s) you're aiming for. The analysis pulls from your profile preferences, but you can adjust them per run.
+3. Run the analysis. Results come back with each gap categorised as critical, useful, or nice-to-have.
+4. Cross-reference with your own market research — the AI doesn't know about regional nuances or specific employers' quirks.
+
+#### Credential Roadmap — _Tier: Premium_
+
+**What this feature is.** Credential Roadmap is a visual, time-sequenced plan of which credentials to pursue and in what order. It includes providers, timelines, cost estimates, and the projected job-market payoff at each step — so the path from your current state to your target role becomes a concrete sequence rather than an open-ended ambition.
+
+**Why it matters.** Credentials take months or years and can't be redone — choosing the wrong sequence is expensive in both money and time. A roadmap turns lifelong-learning anxiety into a plan with milestones you can actually measure against. This is Premium because it's the kind of thing serious career-changers will pay for once and follow for two years.
+
+**How to use it.** Open **Credential Roadmap** (`/dashboard/individual/credential-roadmap`) — it builds on top of the gap analysis. Pick the target role, set a realistic time horizon (12 months, 24 months, longer), and the platform generates a sequenced plan. Treat it as a draft: validate provider costs and timelines yourself before committing, and revisit the roadmap every six months as your situation and the market shift.
 
 ## Part D — Video Profile (optional but powerful)
 
@@ -176,15 +209,26 @@ The next chapter (Chapter 8) covers what's *visible* and what isn't, and the pri
 
 - [ ] Added at least 10 skills with honest proficiency ratings
 - [ ] Verified 2–5 of your most important skills
+- [ ] Taken at least one Competency Test for a self-assessment
 - [ ] Uploaded all current credentials (certs, degrees, licences) with expiry dates set
+- [ ] Run Credential Gap Analysis at least once to see what's missing
+- [ ] If on Premium and serious about a career step, generated a Credential Roadmap
 - [ ] Decided whether you need a Video Profile and recorded one if so
 - [ ] Decided whether you need a Portfolio and built one if so
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | Competency Tests | Free |
+| 2 | Credential Gap Analysis | Standard |
+| 3 | Credential Roadmap | Premium |
+
 ## Next chapter
 
-[[16-how-tos/individual/08-privacy-and-popia|Chapter 8 — Privacy and POPIA]]
+[[01 How-To Documents/individual/08-privacy-and-popia|Chapter 8 — Privacy and POPIA]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Step 3 (Build Profile → Credentials & Verification)
-- [[16-how-tos/individual/08-privacy-and-popia|Chapter 8 — Privacy and POPIA]]
+- [[01 How-To Documents/individual/08-privacy-and-popia|Chapter 8 — Privacy and POPIA]]

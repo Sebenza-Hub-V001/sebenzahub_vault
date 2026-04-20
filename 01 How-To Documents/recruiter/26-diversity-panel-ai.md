@@ -2,8 +2,8 @@
 title: "Chapter 26 — Diversity, panel analysis, and AI Intelligence"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, diversity, bias, panel, ai-intelligence]
+updated: 2026-04-20
+tags: [how-to, recruiter, diversity, bias, panel, ai-intelligence, ee, dei, team-dna, engagement-score]
 status: draft
 user-types: [recruiter]
 ---
@@ -23,6 +23,14 @@ This chapter covers the analytics tools that surface things you'd rather not kno
 | `/dashboard/recruiter/engagement` | Candidate engagement scores |
 
 ## 1. Diversity Analytics
+
+### Diversity Pipeline Analytics — _Tier: Premium_
+
+**What this feature is.** Diversity Pipeline Analytics is the EE Act-aligned dashboard that breaks down gender, race, and disability representation at every funnel stage — sourced, screened, interviewed, offered, placed — for every job, every client, and your agency overall.
+
+**Why it matters.** South African corporates must report EE; a stage-level drop is both a compliance and a reputational risk. Stage-level analytics convert a year-end report into an in-flight dashboard, so you spot the leak in week 3, not at the audit.
+
+**How to use it.** Open `/dashboard/recruiter/diversity` monthly. Filter by client and by job. Look for the stage where representation drops fastest — that's where bias is entering. Once located, audit the screening tool (Chapter 17) or the interviewer (Panel Analysis below) responsible for that stage.
 
 This is the most important tool in the chapter. South African recruitment is shaped by Employment Equity legislation; your clients live or die by their EE scorecards; your agency's reputation depends on whether your pipelines are honestly representative or quietly discriminatory.
 
@@ -76,6 +84,30 @@ There's no single "right" diversity number — it depends on the talent pool for
 Your clients have EE plans with specific targets. The Diversity dashboard lets you filter by client to see whether your placements at *each client* are helping or hurting their EE numbers. A Tier A client whose EE targets you've consistently missed is a client whose contract you'll lose at renewal. Catch this monthly, not at renewal.
 
 ## 2. Panel Analysis (Disagreements)
+
+### Video Bias Audit & DEI Shield — _Tier: Premium_
+
+**What this feature is.** DEI Shield analyses interviews — recorded video and scorecard data — for unconscious bias, fairness of question distribution, and demographic outcome gaps across the candidates a single interviewer or panel evaluates.
+
+**Why it matters.** Bias audits are a board-level concern that consultants currently bill quarterly to produce. Built-in auditing turns a quarterly panic into an ongoing practice — and gives you the documented evidence trail that protects you when an EE Act or CCMA challenge lands.
+
+**How to use it.** Runs automatically on every recorded interview. Open `/dashboard/recruiter/disagreements` weekly and review any flagged interview. Pair with the Diversity dashboard above when investigating a stage-level drop.
+
+### Interviewer Effectiveness — _Tier: Premium_
+
+**What this feature is.** Interviewer Effectiveness scores each interviewer on their own technique — question quality, listening ratio, rapport-building, follow-up depth — independent of the candidates they assessed.
+
+**Why it matters.** Bad interviewers produce bad hires regardless of candidate quality. Effectiveness scoring surfaces training needs and identifies which panel members to remove from hiring loops before they cost you placements.
+
+**How to use it.** Review the interviewer leaderboard in `/dashboard/recruiter/disagreements` quarterly. Coach the bottom quartile; consider removing the bottom 10% from active panels until they recalibrate.
+
+### Interview Disagreement Analyzer — _Tier: Premium_
+
+**What this feature is.** The Disagreement Analyzer takes every multi-interviewer scoring set and surfaces score-distribution patterns per interviewer, demographic patterns per interviewer, disagreement frequency, and whether the disagreement is systemic (calibration) or random (variance).
+
+**Why it matters.** Panel disagreement often hides individual interviewer bias. Flagging the patterns turns disagreements into training moments rather than shouting matches in debrief — and gives you defensible documentation when a candidate alleges discrimination.
+
+**How to use it.** Runs on every scored panel. The page distinguishes calibration findings from bias findings — handle them differently as described below.
 
 When two interviewers score the same candidate differently, that's a calibration problem. When *one specific interviewer* consistently scores certain demographics differently, that's a bias problem. Panel Analysis surfaces both.
 
@@ -142,6 +174,14 @@ AI Intelligence is a sorting and surfacing aid, not a decision tool. The "skill 
 
 ## 4. Team DNA — `/dashboard/recruiter/team-dna`
 
+### Team DNA Profiler — _Tier: Premium_
+
+**What this feature is.** Team DNA Profiler is the AI team-composition analysis that builds a profile of each recruiter's strengths, sweet spots, and capacity, and identifies where your team has coverage gaps you should hire or train into.
+
+**Why it matters.** Hiring 'more of the same' eventually breaks teams — you need complementary skills, not duplicates. Team DNA surfaces the gap you should hire for and the recruiter best matched to each new mandate, both classic blind spots.
+
+**How to use it.** Re-run quarterly. Use the output to allocate new mandates by strength, plan agency hiring against coverage gaps, and frame performance reviews on objective specialisation data.
+
 Team DNA is the analytics view of your *team*, not your candidates or clients. It shows:
 
 - **Each recruiter's strengths** — fastest at sourcing, highest at interviewing, best at closing
@@ -181,6 +221,16 @@ In a busy week, the Engagement Score helps you decide who needs your attention f
 - **Team DNA changes with hiring.** Re-run quarterly so you're allocating roles based on current capabilities, not last year's.
 - **Engagement Score is the early warning system.** Watch declining scores; they predict ghosting better than any other signal.
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 130 | Diversity Pipeline Analytics | Premium |
+| 158 | Video Bias Audit & DEI Shield | Premium |
+| 159 | Interviewer Effectiveness | Premium |
+| 128 | Interview Disagreement Analyzer | Premium |
+| 127 | Team DNA Profiler | Premium |
+
 ## Checklist
 
 - [ ] You review the Diversity dashboard at least monthly, by client
@@ -192,12 +242,12 @@ In a busy week, the Engagement Score helps you decide who needs your attention f
 
 ## Next chapter
 
-[[16-how-tos/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
+[[01 How-To Documents/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI bias risks in screening and analysis
 - [[02-concepts/compliance]] — Employment Equity legal context
-- [[16-how-tos/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
-- [[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
-- [[16-how-tos/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
+- [[01 How-To Documents/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
+- [[01 How-To Documents/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
+- [[01 How-To Documents/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]

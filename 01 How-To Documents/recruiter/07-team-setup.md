@@ -2,8 +2,8 @@
 title: "Chapter 7 — Team setup: members, roles, and approval chains"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, team, roles, permissions, rbac]
+updated: 2026-04-20
+tags: [how-to, recruiter, team, roles, permissions, rbac, collaboration, coaching, benchmarking]
 status: draft
 user-types: [recruiter]
 ---
@@ -37,6 +37,14 @@ Every membership in your agency has one of these six roles. They're listed from 
 These roles are checked across **40+ granular permissions** organised by category: Jobs, Candidates, Pipeline, Interviews, Offers, Clients, Billing, Analytics, Team, Communications, Data, Audit. You don't usually need to think about individual permissions — the role bundles them sensibly. But if you do need a custom permission set, that's what custom role definitions are for.
 
 ## Inviting a team member
+
+### Team Members — _Tier: Metered — Standard: 5 · Premium: unlimited_
+
+**What this feature is.** Team Members lets you add recruiters, managers, hiring managers, and viewers to your agency organisation, each with their own login, profile, and permission set. Seats are metered — Standard includes 5 active members, Premium is unlimited. (This feature is technically part of the Corporate seat-metering model, but agencies use the same mechanism — a seat is a seat regardless of organisation type.)
+
+**Why it matters.** Recruitment is rarely a solo sport once you grow past one desk. Metering on seats aligns cost with team size in a predictable way and prevents the surprise of being charged per-feature for every active person. If you're a solo today on Standard, you have 4 seats in reserve for when you grow.
+
+**How to use it.**
 
 1. Go to `/dashboard/recruiter/settings` → **Team Members**.
 2. Click **Invite member**.
@@ -80,6 +88,51 @@ Each approver has a maximum authorised amount they can sign off on. If an offer 
 **Delegation** is supported — if an approver is on leave, they can delegate their approval authority to another user for a date range.
 
 The approval audit trail (`approval_audit_log`) records every approval, rejection, delegation, and escalation. This is what you'll use to defend a fee or an offer if a client ever disputes the chain of authority. (More on this in Chapter 28.)
+
+## How the team actually works together
+
+Roles and permissions decide who *can* do what. The next feature is what your team uses to *actually do it together* — share candidates, leave notes, tag colleagues, and decide as a group instead of in side-channel chats.
+
+### Team Collaboration — _Tier: Standard_
+
+**What this feature is.** Team Collaboration lets team members share candidates, comment on profiles, @-mention each other, leave structured scorecard feedback, and follow an activity feed of what's happening across the desk. Conversations live next to the candidate record, not in Slack.
+
+**Why it matters.** Hiring is a team sport and the decisions that matter (advance / reject / extend offer) almost always involve at least two people. In-platform collaboration captures the decision context where the work actually lives — so when someone asks "why did we pass on her in March?" the answer is one click away instead of a Slack search.
+
+**How to use it.**
+
+1. On any candidate page, use the **Comments** panel to leave notes for the team.
+2. Type `@name` to mention a colleague — they get a notification in their preferred channel (Chapter 4).
+3. Use **Share with team** to give specific members visibility on a private candidate.
+4. The dashboard's **Team activity** feed surfaces what's happened across the agency in the last 24 hours.
+
+## Coaching, benchmarks, and recruiter performance
+
+Once you have more than one recruiter, you need a way to manage performance that isn't just "going off vibes." The next three features turn team management into a data conversation.
+
+### Recruiter Coach Insights — _Tier: Premium_
+
+**What this feature is.** Recruiter Coach Insights is an AI coaching layer for individual recruiter performance. It looks at each recruiter's pipeline activity, response times, conversion rates, and outcomes, then surfaces what's working, what's slipping, and what to focus on next week.
+
+**Why it matters.** Managers can't coach 15 recruiters equally well — there isn't enough manager time, and the weakest recruiters end up under-coached precisely because they're the hardest conversations. Coach Insights augments the manager and raises the performance floor across the team.
+
+**How to use it.** As a Manager or Admin, open `/dashboard/recruiter/coach-insights`. Pick a team member to see their personalised insight cards (e.g. "candidate response rate dropped 18% over 30 days — investigate template fatigue"). Use the cards as the agenda for your weekly 1:1s.
+
+### Recruiter Benchmark — _Tier: Premium_
+
+**What this feature is.** Recruiter Benchmark compares each recruiter's performance against industry standards on placement rate, time-to-fill, and candidate quality — both inside your agency and against anonymised platform-wide data for similar sectors and seniority.
+
+**Why it matters.** Recruiters benchmark themselves against rumour and LinkedIn posts, which is how good people convince themselves they're underperforming and weak people convince themselves they're crushing it. Data benchmarking turns "am I any good?" into a concrete answer — and gives you the evidence that retains your top performers when competitors come knocking.
+
+**How to use it.** From the team management page, open **Benchmarks**. Each recruiter has their own benchmark card showing their numbers against agency average and platform average. Share the card with the recruiter directly — transparency is the point.
+
+### Recruiter DNA — _Tier: Premium_
+
+**What this feature is.** Recruiter DNA profiles the strengths, sweet spots, and comparative performance of every recruiter on your team. It surfaces patterns — "Sipho fills mid-market fintech roles 40% faster than agency average; struggles with executive search" — that take a manager months of observation to spot manually.
+
+**Why it matters.** Agency leaders currently manage by feel and assign roles by who's available. DNA profiling turns that into a deliberate routing decision — the right role goes to the recruiter most likely to fill it well, not the one whose desk is least full. The result is faster fills, better retention, and clearer career conversations.
+
+**How to use it.** Open `/dashboard/recruiter/team-dna` (Manager or Admin only). The dashboard shows each recruiter's profile in radar form alongside their sweet-spot sectors and seniority bands. Use it when assigning new mandates and as a long-term coaching reference.
 
 ## Practical role setups by agency size
 
@@ -132,13 +185,25 @@ Your subscription plan caps how many team members you can invite. If you hit the
 - [ ] You've invited at least one trusted Admin (or noted that you're staying solo for now)
 - [ ] You know where to set up approval chains when you grow into needing them
 - [ ] You've identified your "in case of bus" person, even if not yet invited
+- [ ] You know which seat-metering tier you're on and how many seats you have left
+- [ ] (Premium) You've reviewed Coach Insights, Benchmarks, and Recruiter DNA at least once
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | Team Members | Metered — Standard: 5 · Premium: unlimited |
+| 2 | Team Collaboration | Standard |
+| 3 | Recruiter Coach Insights | Premium |
+| 4 | Recruiter Benchmark | Premium |
+| 5 | Recruiter DNA | Premium |
 
 ## Next chapter
 
-[[16-how-tos/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
+[[01 How-To Documents/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
 
 ## References
 
 - [[02-concepts/multi-tenancy]] — Organisation and team architecture
-- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
-- [[16-how-tos/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]
+- [[01 How-To Documents/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
+- [[01 How-To Documents/recruiter/08-adding-clients|Chapter 8 — Adding corporate clients]]

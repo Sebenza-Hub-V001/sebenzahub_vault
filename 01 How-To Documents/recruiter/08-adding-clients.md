@@ -2,8 +2,8 @@
 title: "Chapter 8 — Adding corporate clients"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, clients, crm]
+updated: 2026-04-20
+tags: [how-to, recruiter, clients, crm, client-management]
 status: draft
 user-types: [recruiter]
 ---
@@ -13,6 +13,16 @@ user-types: [recruiter]
 In Sebenza Hub, a **client** is a corporate buyer of your placement services — the company you submit candidates to and earn fees from. Clients are first-class records in the system, not just notes attached to jobs. Every job, every submission, every placement, and every revenue line ties back to a client. Get the client records right and the rest of the platform works; get them sloppy and your KPI Dashboard becomes meaningless.
 
 This chapter walks through adding a client, adding contacts, setting client tier and status, and the principles behind keeping client records useful.
+
+## The feature underneath all of this
+
+### Client Management — _Tier: Standard_
+
+**What this feature is.** Client Management is the dedicated CRM layer for managing recruitment clients — corporate buyers, their requisitions, their billing arrangements, and their client-specific candidate pipelines. Each client is a first-class record with its own contacts, documents, engagements, revenue history, and pipeline view.
+
+**Why it matters.** Agencies' entire business is client relationships. Treating clients as a structured CRM record (not a tag on a job) turns a tacked-on spreadsheet into a first-class part of the platform — which is what protects revenue, defends fees, and surfaces who you should actually be spending time with. Without it, your KPI dashboard becomes meaningless and so does your forecast.
+
+**How to use it.** Use it everywhere. The rest of this chapter is a walk-through of the sub-features inside Client Management — adding clients, contacts, tier and status, documents, and the list views you'll filter on daily.
 
 ## Where it lives
 
@@ -122,12 +132,18 @@ Use the **Last activity** sort regularly. A client you haven't touched in 60 day
 - [ ] You've uploaded at least one signed engagement contract to the Documents tab
 - [ ] You understand that orphan jobs (no client link) won't roll up into your dashboard
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | Client Management | Standard |
+
 ## Next chapter
 
-[[16-how-tos/recruiter/09-engagement-terms|Chapter 9 — Engagement terms: fees, payment, guarantee]]
+[[01 How-To Documents/recruiter/09-engagement-terms|Chapter 9 — Engagement terms: fees, payment, guarantee]]
 
 ## References
 
 - [[02-concepts/multi-tenancy]] — Why each agency has its own client list
-- [[16-how-tos/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
-- [[16-how-tos/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]
+- [[01 How-To Documents/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
+- [[01 How-To Documents/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]

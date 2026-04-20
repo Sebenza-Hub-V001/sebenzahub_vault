@@ -2,8 +2,8 @@
 title: "Chapter 10 — Saved searches and favourites"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, search, jobs]
+updated: 2026-04-20
+tags: [how-to, individual, search, jobs, notifications, saved-searches, favourites]
 status: active
 user-types: [individual]
 ---
@@ -26,6 +26,14 @@ In short: a saved search is a query that finds jobs in the future. A favourite i
 Use both. They serve different purposes.
 
 ## Saved Searches
+
+### Saved Searches — _Tier: Standard_
+
+**What this feature is.** Saved Searches stores any search query — keywords plus all its filters — and re-runs it on a schedule, sending you notifications whenever new jobs match. You can also re-run a saved search on demand from the Saved Searches page.
+
+**Why it matters.** The best jobs fill in days, not weeks. Candidates who check daily beat candidates who check weekly, but nobody actually checks daily without a system. Saved searches invert the work — instead of you remembering to look, the platform looks for you and tells you when something matches. That converts passive browsers into actively-applying pipeline.
+
+**How to use it.**
 
 Go to **Saved Searches** (`/dashboard/individual/saved-searches`) to manage them. To create one, run a search you like in **Manual Search** (Chapter 9), then save the criteria.
 
@@ -68,6 +76,14 @@ Saved searches are not set-and-forget. They get better as you tune them.
 
 ## Favourites
 
+### Favourites — _Tier: Free_
+
+**What this feature is.** Favourites lets you bookmark a job listing to a shortlist for later review. Bookmarks are retained across sessions, exportable, and accessible from any device — so the job you spotted on your phone at lunch is still there when you sit down at the laptop in the evening.
+
+**Why it matters.** Browsing and applying are different mental activities. People browse on mobile during a commute and apply at home on a laptop. Favourites bridges those two moments and dramatically lifts your apply-rate compared to "I'll remember to come back to this." It's free because it's the basic shortlist behaviour every job seeker needs.
+
+**How to use it.**
+
 Go to **Favourites** (`/dashboard/individual/favourites`) to see your bookmarked jobs. To add one, click the favourite icon (usually a star or heart) on any job listing.
 
 ### Why bookmark instead of applying immediately
@@ -95,6 +111,48 @@ Once you've set up saved searches and started using favourites, your job hunt ha
 
 This rhythm beats scrolling-as-job-hunt by a wide margin. It produces fewer applications but better ones, and it's sustainable — you can run it for months without burning out.
 
+## Notifications: which channels carry which alerts
+
+Saved searches generate alerts. Those alerts have to reach you somewhere. Sebenza Hub's notification system has three tiers — what you can use depends on your plan.
+
+### Email Notifications — _Tier: Free_
+
+**What this feature is.** Email is the baseline notification channel. New job matches, application status changes, recruiter messages, interview scheduling — all of it can be delivered by email on every plan. Frequency is configurable per category (real-time, daily digest, weekly digest, off).
+
+**Why it matters.** Email is the channel everyone has and checks. Keeping it free ensures no candidate misses a critical update — an interview time, an offer, a recruiter follow-up — just because of their plan tier. It's also the channel best suited to digests, where saved searches really live.
+
+**How to use it.** Go to **Settings** → **Notifications**, find the Email block, and toggle which event types you want emailed. For saved-search alerts specifically, set the frequency on each saved search itself (real-time vs daily digest vs weekly digest).
+
+### SMS Notifications — _Tier: Standard_
+
+**What this feature is.** SMS delivers time-critical alerts straight to your phone — interview reminders, offer-deadline warnings, 2FA codes. It's reserved for things you genuinely cannot afford to miss, not for new-match noise.
+
+**Why it matters.** SMS has a ~98% open rate and reaches you even when you have no data, on a feature phone, on the move. For moments where minutes matter — "interview in 2 hours" — it's the only channel that reliably gets through. Standard tier candidates are the ones actively interviewing, which is why this sits on Standard.
+
+**How to use it.** Same Settings → Notifications page, SMS block. Restrict it deliberately — interview reminders and offer deadlines, nothing else. Turning SMS on for new matches will exhaust you within a week.
+
+### All Notification Channels — _Tier: Premium_
+
+**What this feature is.** Premium unlocks the full set: email, SMS, push notifications, and WhatsApp — with per-event channel rules so you can route, say, recruiter messages to WhatsApp and saved-search alerts to email digests.
+
+**Why it matters.** Different candidates prefer different channels, and senior candidates being headhunted by corporate recruiters need every channel available so the recruiter can reach them however they prefer. Multi-channel is the power-user feature — most candidates don't need it, but the ones who do really do.
+
+**How to use it.** Settings → Notifications shows all four channels once you're on Premium, plus a per-event matrix where you assign channels to event types. Set up the matrix once and forget about it; revisit when your search status changes (active vs passive).
+
+### Sensible defaults across all tiers
+
+Whatever channels you have, the same restraint applies — don't turn everything on across every channel. Pick one primary channel and use the others sparingly:
+
+| Notification type | Recommended channel |
+|-------------------|---------------------|
+| Saved search alerts | Email, daily digest |
+| New Auto Match jobs | Email, weekly digest |
+| Application status changes | Email |
+| Recruiter messages | Email + WhatsApp (Premium) |
+| Interview invitations and reminders | Email + SMS |
+| Offer deadlines | Email + SMS |
+| Marketing / platform updates | Email only, low frequency |
+
 ## Common mistakes
 
 | Mistake | Fix |
@@ -111,13 +169,24 @@ This rhythm beats scrolling-as-job-hunt by a wide margin. It produces fewer appl
 - [ ] Set a sensible alert frequency (probably daily digest, not real-time)
 - [ ] Favourited at least 5 jobs you intend to apply to
 - [ ] Decided on a weekly application session (which day, what time)
+- [ ] Reviewed your notification channels and set a single primary one
 - [ ] You understand the difference between a saved search and a favourite
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | Saved Searches | Standard |
+| 2 | Favourites | Free |
+| 3 | Email Notifications | Free |
+| 4 | SMS Notifications | Standard |
+| 5 | All Notification Channels | Premium |
 
 ## Next chapter
 
-[[16-how-tos/individual/11-applying|Chapter 11 — Applying to a job: walkthrough]]
+[[01 How-To Documents/individual/11-applying|Chapter 11 — Applying to a job: walkthrough]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Step 4 (Search & Apply)
-- [[16-how-tos/individual/09-search-modes|Chapter 9]] — The search modes you'll save from
+- [[01 How-To Documents/individual/09-search-modes|Chapter 9]] — The search modes you'll save from

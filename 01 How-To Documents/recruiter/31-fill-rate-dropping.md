@@ -2,8 +2,8 @@
 title: "Chapter 31 — \"My fill rate is dropping\""
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, troubleshooting, fill-rate]
+updated: 2026-04-20
+tags: [how-to, recruiter, troubleshooting, fill-rate, scenario, market-pulse, screening-intel]
 status: draft
 user-types: [recruiter]
 ---
@@ -54,9 +54,17 @@ Open `/dashboard/recruiter/requirement-check` for each job that's been open long
 
 You're looking for patterns across multiple jobs, not just one. If three jobs all show "85%+ rejected at the SQL knockout question" — that knockout is the problem, not the sourcing.
 
+**Try: #97 Job AI Insights _(Standard)_.** Why this helps in this scenario: it surfaces day-1 red flags on each affected job — wrong salary, wrong location, over-restrictive criteria — without you having to deduce them from the funnel. Full detail: covered alongside job posting in [[01 How-To Documents/recruiter/11-posting-a-job|Chapter 11]].
+
+**Try: #131 Requirement Restriction Analyzer _(Standard)_.** Why this helps in this scenario: it scores each requirement on the Job Description for how much it shrinks the candidate pool, so you can show the client exactly which "nice-to-have" is killing the fill rate. Pair with the client conversation in [[01 How-To Documents/recruiter/33-client-unhappy-calibre|Chapter 33]].
+
 ### Step 4 — Check sourcing channel effectiveness
 
 In `/dashboard/recruiter/analytics`, look at **source effectiveness** — which channels brought you placements last quarter vs this one. If your top channel has gone quiet (LinkedIn algorithm change, Talent Pool gone stale, AI Search returning weak matches), that's the cause.
+
+**Try: #114 Search Market Pulse _(Premium)_.** Why this helps in this scenario: it analyses your saved-search criteria against live SA market signals — candidate supply, demand shifts, salary movement, geographic hotspots — so you can see whether the channel went quiet or whether the market moved. Lives at `/dashboard/recruiter/location-intel` adjacent to Location Intel ([[01 How-To Documents/recruiter/29-career-site-brand|Chapter 29]]).
+
+**Try: #134 Screening Market Intelligence _(Premium)_.** Why this helps in this scenario: it tells you what candidates for the affected role *currently* look like — salary bands, supply depth, competitor activity — so you know if your offer or sourcing footprint is now off-market. Surface inside the screening config covered in [[01 How-To Documents/recruiter/15-screening-config|Chapter 15]].
 
 ### Step 5 — Check team-level patterns
 
@@ -142,6 +150,15 @@ Some fill rate drops aren't your problem to solve alone:
 - **Fix one thing at a time.** Multiple simultaneous changes destroy your ability to learn from the result.
 - **Document the diagnosis.** Even if you fix it quickly, write down what was wrong and what worked. Six months later when it happens again, you'll thank yourself.
 
+## Features referenced in this chapter
+
+| # | Feature | Tier | Used at step |
+|---|---------|------|--------------|
+| 97 | Job AI Insights | Standard | Step 3 — diagnose stuck jobs |
+| 131 | Requirement Restriction Analyzer | Standard | Step 3 — quantify over-restriction |
+| 114 | Search Market Pulse | Premium | Step 4 — confirm market shift |
+| 134 | Screening Market Intelligence | Premium | Step 4 — current-market role view |
+
 ## Checklist
 
 - [ ] You've confirmed the drop is real (not noise) using trend, not snapshot
@@ -153,12 +170,12 @@ Some fill rate drops aren't your problem to solve alone:
 
 ## Next chapter
 
-[[16-how-tos/recruiter/32-candidates-ghosting|Chapter 32 — "Candidates are ghosting between stages"]]
+[[01 How-To Documents/recruiter/32-candidates-ghosting|Chapter 32 — "Candidates are ghosting between stages"]]
 
 ## References
 
-- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
-- [[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Team DNA and analytics]]
-- [[16-how-tos/recruiter/32-candidates-ghosting|Chapter 32 — Candidates ghosting]]
-- [[16-how-tos/recruiter/33-client-unhappy-calibre|Chapter 33 — Client unhappy with calibre]]
+- [[01 How-To Documents/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[01 How-To Documents/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
+- [[01 How-To Documents/recruiter/26-diversity-panel-ai|Chapter 26 — Team DNA and analytics]]
+- [[01 How-To Documents/recruiter/32-candidates-ghosting|Chapter 32 — Candidates ghosting]]
+- [[01 How-To Documents/recruiter/33-client-unhappy-calibre|Chapter 33 — Client unhappy with calibre]]

@@ -2,8 +2,8 @@
 title: "Chapter 21 — Career DNA and Opportunity Weights"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, career-dna, advanced]
+updated: 2026-04-20
+tags: [how-to, individual, career-dna, advanced, elevator-pitch, dashboard, billing, support]
 status: active
 user-types: [individual]
 ---
@@ -129,6 +129,67 @@ Don't enable Autopilot before you've set these. The two work together.
 
 Sometimes people set Career DNA and Opportunity Weights well, get great matches, and then ignore them — applying to everything Auto Match shows them rather than just the top-ranked. If that's you, the issue isn't the matching; it's the discipline. Re-read Chapter 9 (search modes) and Chapter 10 (favourites) to fix the workflow.
 
+## Translate the DNA into how you talk about yourself
+
+Career DNA tunes how the platform sees you. The next step is tuning how *people* see you. Once your DNA is honest, your "tell me about yourself" opener should reflect it.
+
+### Elevator Pitch Builder — _Tier: Standard_
+
+**What this feature is.** Generates a 30-second, 60-second, and 2-minute pitch from your experience, profile, and Career DNA. Tuned for networking events, LinkedIn intros, recruiter screens, and the opening of every interview.
+
+**Why it matters.** The first 60 seconds of every interview and every networking introduction sets the frame. A rehearsed pitch that's actually about who you are — not a recital of your CV — converts cold networking into referrals and lukewarm interviews into conversations. It's one of the lowest-cost, highest-impact tools in the whole manual.
+
+**How to use it.**
+
+1. Open **Elevator Pitch** (`/dashboard/individual/elevator-pitch`).
+2. Pick the variant you need next: 30-sec for networking, 60-sec for screens, 2-min for formal interviews.
+3. Edit the draft until it actually sounds like you say it out loud — read it aloud twice.
+4. Save the version you'll use; revisit after every Career DNA tune-up.
+
+## Supporting features you'll touch around here
+
+The dashboard, billing, and support features sit alongside the advanced tooling in Part 6. They're not headline features but they're load-bearing for actually running your time on the platform.
+
+### Basic Dashboard — _Tier: Free_
+
+**What this feature is.** The main dashboard tile showing applications submitted, profile strength percentage, recent activity, and your next-best-actions.
+
+**Why it matters.** Without a dashboard, returning users don't know what to do next and engagement collapses. This is the first screen after login — keep it tidy and use it as your daily entry point rather than starting from a feature page.
+
+**How to use it.** Open `/dashboard/individual` after every login. Read the next-best-actions tile before doing anything else; it's calibrated to your current state.
+
+### Billing & Subscription Management — _Tier: Free (all paying users)_
+
+**What this feature is.** Self-service for payment methods, invoices, plan changes, cancellations, and coupon application.
+
+**Why it matters.** Billing UX is the difference between a user who downgrades cleanly and one who chargebacks. Self-service protects you from getting stuck on the wrong plan and protects the platform from churn it can't recover.
+
+**How to use it.** Open **Billing** (`/dashboard/individual/billing`) when changing tier, updating a card, or pulling an invoice for tax. Cancel from here directly — no phone calls required.
+
+### Email Support — _Tier: Free_
+
+**What this feature is.** Standard email support with a 24–48 hour response SLA on business days.
+
+**Why it matters.** It's the baseline. If a feature behaves unexpectedly or your data looks wrong, this is the channel that exists for every user, on every plan.
+
+**How to use it.** From any page, **Help → Contact Support**. Include screenshots and the URL of the page you were on. Free-tier users will hear back within 1–2 business days.
+
+### Priority Support — _Tier: Standard_
+
+**What this feature is.** Faster response times and a dedicated support queue for paying customers.
+
+**Why it matters.** A broken feature on Wednesday can't wait until Friday when you've got an interview booked or an application deadline. Priority routing is what protects your subscription from feeling like noise.
+
+**How to use it.** Same Contact Support flow as above — your tier routes you automatically. Expect responses inside one business day.
+
+### Dedicated Support — _Tier: Premium_
+
+**What this feature is.** A named account contact, scheduled check-ins, and a priority support channel reserved for Premium individuals.
+
+**Why it matters.** When you're paying for the top tier you shouldn't be opening tickets for routine questions. A named human who already knows your account compresses three round-trips into one conversation.
+
+**How to use it.** Your dedicated contact is listed in **Account → Support**. Book a check-in once a quarter even if nothing is broken — it's how you find out about features that match your situation but you wouldn't otherwise notice.
+
 ## Checklist
 
 - [ ] Filled in Career DNA honestly, not aspirationally
@@ -136,12 +197,25 @@ Sometimes people set Career DNA and Opportunity Weights well, get great matches,
 - [ ] Re-checked your Auto Match results after the changes
 - [ ] You have a date in 3 months to re-tune
 - [ ] You're not enabling Autopilot before this is done
+- [ ] Built and rehearsed an Elevator Pitch in at least one length
+- [ ] You know how to reach Support on your tier and where Billing lives
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 35 | Elevator Pitch Builder | Standard |
+| 47 | Basic Dashboard | Free |
+| 49 | Billing & Subscription Management | Free (all paying users) |
+| 237 | Email Support | Free |
+| 238 | Priority Support | Standard |
+| 239 | Dedicated Support | Premium |
 
 ## Next chapter
 
-[[16-how-tos/individual/22-market-radar|Chapter 22 — Market Radar]]
+[[01 How-To Documents/individual/22-market-radar|Chapter 22 — Market Radar]]
 
 ## References
 
-- [[16-how-tos/individual/09-search-modes|Chapter 9]] — How matching uses these settings
-- [[16-how-tos/individual/20-autopilot|Chapter 20]] — Why these settings matter before enabling auto-apply
+- [[01 How-To Documents/individual/09-search-modes|Chapter 9]] — How matching uses these settings
+- [[01 How-To Documents/individual/20-autopilot|Chapter 20]] — Why these settings matter before enabling auto-apply

@@ -2,7 +2,7 @@
 title: "Chapter 2 — Creating your account"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-20
 tags: [how-to, recruiter, signup]
 status: draft
 user-types: [recruiter]
@@ -54,7 +54,7 @@ These are not the same account, and they cannot share a login.
 
 ## Step 4 — On to agency onboarding
 
-After you select Recruiter, you'll be taken to a longer form for setting up your agency. That's covered in [[16-how-tos/recruiter/03-agency-onboarding|Chapter 3]].
+After you select Recruiter, you'll be taken to a longer form for setting up your agency. That's covered in [[01 How-To Documents/recruiter/03-agency-onboarding|Chapter 3]].
 
 ## What to do if signup fails
 
@@ -72,9 +72,9 @@ After you select Recruiter, you'll be taken to a longer form for setting up your
 
 ## Next chapter
 
-[[16-how-tos/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding: setting up your organisation]]
+[[01 How-To Documents/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding: setting up your organisation]]
 
 ## References
 
 - [[02-concepts/authentication]] — How magic-link authentication works under the hood
-- [[16-how-tos/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]
+- [[01 How-To Documents/recruiter/03-agency-onboarding|Chapter 3 — Agency onboarding]]

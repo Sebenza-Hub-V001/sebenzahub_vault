@@ -2,8 +2,8 @@
 title: "Chapter 27 — POPIA in practice"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, popia, privacy, compliance]
+updated: 2026-04-20
+tags: [how-to, recruiter, popia, privacy, compliance, candidate-nps, dsar, consent, retention]
 status: draft
 user-types: [recruiter]
 ---
@@ -15,6 +15,14 @@ POPIA — the Protection of Personal Information Act — is South Africa's data 
 ## Where it lives
 
 `/dashboard/recruiter/compliance` is the master POPIA compliance page. From here you can access consent records, data inventory, retention policies, and the data subject access request workflow.
+
+### POPIA Compliance — _Tier: Standard_
+
+**What this feature is.** POPIA Compliance is the consent-management, data-retention, and deletion toolkit baked into candidate intake. Every consent (signup, application, video, background check, WhatsApp opt-in) is timestamped and version-stamped; every retention rule is enforced automatically; every DSAR can be generated in one click.
+
+**Why it matters.** POPIA non-compliance carries fines up to R10 million per breach, and the Information Regulator started enforcing seriously in 2023. Built-in compliance means agencies are POPIA-safe by default — not by an audit you intend to run "next quarter."
+
+**How to use it.** You don't *do* POPIA Compliance once — you live in it. Day-to-day: respect the `whatsappConsent` flag, only collect data relevant to the role, and run the DSAR workflow (below) when a candidate requests their data. Quarterly: audit retention against the policy you set at `/dashboard/recruiter/compliance` → Retention.
 
 ## The five POPIA principles you need to remember
 
@@ -161,6 +169,18 @@ Configure your retention policy at `/dashboard/recruiter/compliance` → Retenti
 | **Recording video interviews without explicit consent** | Always get the consent confirmation; the platform enforces this |
 | **Discussing candidate details in non-encrypted channels** | If you need to discuss, use the platform's internal messaging, not personal Slack/WhatsApp |
 
+## Candidate experience as a compliance signal
+
+POPIA is the legal floor; how candidates *feel* about your data handling is the trust ceiling. Sebenza Hub measures the latter directly.
+
+### Candidate NPS — _Tier: Standard_
+
+**What this feature is.** Candidate NPS sends short Net Promoter surveys at key moments in the journey — after application, after rejection, after offer acceptance, at 30 and 90 days into a placement — and tracks promoter / passive / detractor breakdown over time.
+
+**Why it matters.** Candidate experience is a leading indicator of employer brand and referral inflow, and a candidate who feels mishandled is the one most likely to lodge a POPIA or EE complaint. NPS turns the soft signal into a measurable KPI you can act on before it becomes a regulator's letter.
+
+**How to use it.** Surveys run automatically. Open `/dashboard/recruiter/feedback` weekly. Reply to every detractor (0–6) within 24 hours personally, not via template. Promoters (9–10) become referral asks (Chapter 30). Patterns of detractor responses around data handling — "you kept asking for documents I didn't think were relevant" — point straight at POPIA principles 2 and 3 and tell you what to fix.
+
 ## Pro tips
 
 - **Read your own privacy notice.** Most recruiters have never read the privacy notice they're asking candidates to consent to. Read yours; if you can't explain it in plain language, it's wrong.
@@ -168,6 +188,13 @@ Configure your retention policy at `/dashboard/recruiter/compliance` → Retenti
 - **Train your team.** Everyone who touches candidate data needs to know POPIA basics. 30 minutes of training prevents 90% of mistakes.
 - **Audit your retention quarterly.** Run a report on what's about to age out under your retention policy. Decide what to keep, anonymise, or delete *before* the deadline.
 - **The Information Regulator is real.** South Africa's Information Regulator can fine companies up to R10 million for serious POPIA breaches. They've started enforcing seriously since 2023. Don't be the agency that becomes a precedent.
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 192 | POPIA Compliance | Standard |
+| 193 | Candidate NPS | Standard |
 
 ## Checklist
 
@@ -181,11 +208,11 @@ Configure your retention policy at `/dashboard/recruiter/compliance` → Retenti
 
 ## Next chapter
 
-[[16-how-tos/recruiter/28-bbbee-ee-audit-trail|Chapter 28 — B-BBEE, EE Reports, Audit Trail, Approval Workflows]]
+[[01 How-To Documents/recruiter/28-bbbee-ee-audit-trail|Chapter 28 — B-BBEE, EE Reports, Audit Trail, Approval Workflows]]
 
 ## References
 
 - [[02-concepts/compliance]] — Full POPIA architecture and legal context
-- [[16-how-tos/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
-- [[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
-- [[16-how-tos/recruiter/28-bbbee-ee-audit-trail|Chapter 28 — B-BBEE, EE, Audit Trail]]
+- [[01 How-To Documents/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
+- [[01 How-To Documents/recruiter/26-diversity-panel-ai|Chapter 26 — Diversity, panel analysis, and AI Intelligence]]
+- [[01 How-To Documents/recruiter/28-bbbee-ee-audit-trail|Chapter 28 — B-BBEE, EE, Audit Trail]]

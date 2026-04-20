@@ -2,8 +2,8 @@
 title: "Chapter 33 — \"My client is unhappy with the calibre\""
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, troubleshooting, client-management]
+updated: 2026-04-20
+tags: [how-to, recruiter, troubleshooting, client-management, scenario, predictive-hiring, culture-fit, social-proof, references]
 status: draft
 user-types: [recruiter]
 ---
@@ -60,6 +60,10 @@ You thought "senior backend developer" meant tech lead level. The client meant i
 
 **Pro tip:** Use the Job Intake Scorecard (referenced in Chapter 9) more carefully on your next brief. The intake scorecard exists to prevent exactly this kind of misread — fill it in carefully and review it back to the client before sourcing starts.
 
+**Try: #124 Culture Fit Assessment _(Standard)_.** Why this helps in this scenario: a 6-dimension AI cultural-alignment score per candidate gives the panel a defensible reason for the calibre call beyond "gut feel" — and surfaces fit gaps you missed at intake. Run it on the next round before you ship the shortlist.
+
+**Try: #123 Predictive Hiring _(Premium)_.** Why this helps in this scenario: it predicts on-the-job success and retention risk for each shortlisted candidate against the client's historical hiring patterns — so you can rank by likely outcomes, not just CV match. Lives at `/dashboard/recruiter/predictive-hiring` (covered in [[01 How-To Documents/recruiter/34-advanced-and-platinum|Chapter 34]]).
+
 ### Pattern 3 — The client's expectations are unrealistic
 
 The client wants a "senior dev with 12 years' experience, R600k–R800k budget, fully remote, immediate start." That candidate doesn't exist at that price. You're not failing to find them; they're not findable.
@@ -72,6 +76,8 @@ The client wants a "senior dev with 12 years' experience, R600k–R800k budget, 
 - **Show the data, then make the choice clear:** "Here are the trade-offs. We can find someone in your salary band, but you'll need to relax X. Or we can find your ideal profile, but the salary needs to be Y. Which trade-off works for you?"
 
 **Pro tip:** Don't try to soften the message. Clients respect recruiters who tell them the truth backed by data. They don't respect recruiters who keep submitting hope-and-pray candidates against an impossible brief.
+
+**Try: #184 Social Proof Summary _(Standard)_.** Why this helps in this scenario: pulls your placement data into a one-page summary — "47 placements in fintech, average TTF 23 days, 89% retention at 12 months" — that backs your push-back with track record, not opinion. Generate before the difficult call. Lives in the brand surface covered in [[01 How-To Documents/recruiter/29-career-site-brand|Chapter 29]].
 
 ## After the diagnostic: the recovery plan
 
@@ -109,6 +115,8 @@ A written recovery plan does three things:
 1. **Demonstrates you listened.** It mirrors back exactly what the client said.
 2. **Forces specificity.** Vague feedback turns into concrete actions.
 3. **Creates accountability** for both sides. The client knows what's coming; you know what's expected.
+
+**Try: #167 Reference Check Summary _(Standard)_.** Why this helps in this scenario: when calibre is the complaint, attaching a 3-sentence AI summary of each shortlisted candidate's references (with red flags called out) shows the client you've verified what they're worried about. Run it on the next shortlist before submission, not after the complaint. Workflow lives at `/dashboard/recruiter/reference-checks` (Chapter 30).
 
 ## When to push back vs accept
 
@@ -160,6 +168,15 @@ A walked-away client is better than a client who churns six months later with da
 - **Track recovery patterns across clients.** If you notice the same complaint coming from multiple clients, the issue is in your process, not in any one client's expectations.
 - **Don't take it personally.** Client unhappiness almost always reflects pressure they're under, not malice toward you. Their frustration is the reaction; understand the source.
 
+## Features referenced in this chapter
+
+| # | Feature | Tier | Used at step |
+|---|---------|------|--------------|
+| 124 | Culture Fit Assessment | Standard | Pattern 2 — re-shortlist with fit data |
+| 123 | Predictive Hiring | Premium | Pattern 2 — rank by likely outcome |
+| 184 | Social Proof Summary | Standard | Pattern 3 — back push-back with track record |
+| 167 | Reference Check Summary | Standard | Recovery plan — verify before submission |
+
 ## Checklist
 
 - [ ] You know the diagnostic question set for unhappy client conversations
@@ -171,12 +188,12 @@ A walked-away client is better than a client who churns six months later with da
 
 ## Next chapter
 
-[[16-how-tos/recruiter/34-advanced-and-platinum|Chapter 34 — Predictive Hiring, Rapid Workflow, and the path to Platinum trust]]
+[[01 How-To Documents/recruiter/34-advanced-and-platinum|Chapter 34 — Predictive Hiring, Rapid Workflow, and the path to Platinum trust]]
 
 ## References
 
-- [[16-how-tos/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]
-- [[16-how-tos/recruiter/20-making-an-offer|Chapter 20 — Making an offer (benchmarking)]]
-- [[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
-- [[16-how-tos/recruiter/29-career-site-brand|Chapter 29 — Location Intel]]
-- [[16-how-tos/recruiter/34-advanced-and-platinum|Chapter 34 — Advanced features and Platinum trust]]
+- [[01 How-To Documents/recruiter/10-managing-client-relationships|Chapter 10 — Managing client relationships]]
+- [[01 How-To Documents/recruiter/20-making-an-offer|Chapter 20 — Making an offer (benchmarking)]]
+- [[01 How-To Documents/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
+- [[01 How-To Documents/recruiter/29-career-site-brand|Chapter 29 — Location Intel]]
+- [[01 How-To Documents/recruiter/34-advanced-and-platinum|Chapter 34 — Advanced features and Platinum trust]]

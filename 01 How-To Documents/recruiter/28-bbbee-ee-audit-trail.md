@@ -2,8 +2,8 @@
 title: "Chapter 28 — B-BBEE, EE Reports, Audit Trail, Approval Workflows"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, bbbee, ee, audit, compliance]
+updated: 2026-04-20
+tags: [how-to, recruiter, bbbee, ee, audit, compliance, transformation, blind-hiring]
 status: draft
 user-types: [recruiter]
 ---
@@ -22,6 +22,14 @@ POPIA (Chapter 27) protects individual privacy. **This** chapter is about the ot
 | `/dashboard/recruiter/approval-workflows` | Configure and review approval chains |
 
 ## 1. Employment Equity (EE) Reports — `/dashboard/recruiter/ee-reports`
+
+### Employment Equity Reporting — _Tier: Premium_
+
+**What this feature is.** EE Reporting compiles Employment Equity Act-formatted reports across your pipeline and workforce — by client, by occupational level, by year — in the exact format the Department of Employment and Labour expects.
+
+**Why it matters.** EE reports are legally required of designated employers and painful to compile by hand. Automated reporting turns the annual deadline panic into a standing dashboard your clients can see month-by-month, which is also how you prove your contribution at renewal time.
+
+**How to use it.** Generate quarterly per client, not annually. The PDF output is submission-ready; send it to your client to include in their own filing. Cross-reference with the Diversity dashboard (Chapter 26) to spot pipeline drops before they show up in the year-end report.
 
 The Employment Equity Act requires designated employers (50+ employees, or specific revenue thresholds) to report annually on workforce demographics, pipeline representation, and progress against EE targets. The Department of Employment and Labour audits these reports and can fine non-compliance.
 
@@ -50,6 +58,14 @@ For each client (and aggregated across all clients), the report shows:
 A client whose EE numbers improve year-over-year — and who can show you helped — is a client who renews. A client whose numbers worsen blames the recruiter who placed them. EE Reports are the proof of your contribution. Generate them quarterly so you have the data when the client asks.
 
 ## 2. B-BBEE — `/dashboard/recruiter/bbbee`
+
+### B-BBEE Compliance Reporting — _Tier: Premium_
+
+**What this feature is.** B-BBEE Compliance Reporting tracks your agency's scorecard and your placements' contribution to each client's pillars (ownership, management control, skills development, enterprise development, socio-economic development) aligned to the revised Codes of Good Practice.
+
+**Why it matters.** B-BBEE is a contract requirement for many SA clients. Built-in reporting replaces the consultant invoice that currently handles this and keeps you compliant without a specialist hire — and a Tier A client whose B-BBEE rating dropped because of your placements is one you lose at renewal.
+
+**How to use it.** Generate quarterly per client. Open `/dashboard/recruiter/bbbee`, pick the client and time range, send the PDF to the client for inclusion in their B-BBEE certification renewal evidence pack.
 
 B-BBEE (Broad-Based Black Economic Empowerment) is a separate framework — it scores companies on transformation across multiple "pillars" (ownership, management control, skills development, enterprise development, socio-economic development). Companies need a B-BBEE level (1 best, 8 worst) to qualify for government tenders, supply major corporates, and access procurement preferences.
 
@@ -86,6 +102,18 @@ The report shows: total placements made, demographic breakdown by occupational l
 ### What clients actually use this for
 
 When your client renews their B-BBEE certification (annually), they need to provide evidence of their transformation contribution. Your B-BBEE report is one piece of that evidence. A Tier A client whose B-BBEE rating dropped from Level 2 to Level 4 because your placements weren't transformation-aligned is a client you'll lose.
+
+### B-BBEE Transformation Statement — _Tier: Standard_
+
+**What this feature is.** The Transformation Statement generator produces tailored B-BBEE transformation commitment statements for proposals, tenders, and client pitches — populated from your live agency B-BBEE data, not a stale Word template.
+
+**Why it matters.** Every RFP in SA asks for a transformation statement, and "we'll repurpose last year's" produces stale, unconvincing copy that loses bids. Generation means a compliant, current, tailored statement is ready in seconds — which is the difference between making the shortlist and not.
+
+**How to use it.** From `/dashboard/recruiter/bbbee` click **Generate Transformation Statement**. Pick the client or tender, the relevant pillars to emphasise, and the tone. Edit the draft, sign off, attach to the proposal.
+
+### Blind Hiring (callback)
+
+Two-line callback: the Blind Hiring toggle that strips identifying information during screening — covered in [[01 How-To Documents/recruiter/17-screening-tools|Chapter 17]] — is the operational lever that *produces* the transformation numbers your B-BBEE and EE reports show. Compliance reporting without bias-reduction at intake is just measuring the leak.
 
 ## 3. Audit Trail — `/dashboard/recruiter/audit-trail`
 
@@ -211,6 +239,15 @@ That's an unargueable defence. Without these tools, "we did everything right" is
 - **Train your team that the audit trail is real.** When team members know everything they do is logged immutably, behaviour improves. This isn't surveillance — it's accountability. Frame it that way.
 - **The audit trail is evidence, but only if you cite it.** When a dispute arises, *show* the relevant audit trail entries to the client. Don't just say "we have records." Pull them up.
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 191 | Employment Equity Reporting | Premium |
+| 190 | B-BBEE Compliance Reporting | Premium |
+| 194 | B-BBEE Transformation Statement | Standard |
+| 200 | Blind Hiring (callback) | Standard |
+
 ## Checklist
 
 - [ ] You know how to generate an EE report for a client
@@ -222,11 +259,11 @@ That's an unargueable defence. Without these tools, "we did everything right" is
 
 ## Next chapter
 
-[[16-how-tos/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
+[[01 How-To Documents/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity legal context
-- [[16-how-tos/recruiter/07-team-setup|Chapter 7 — Team setup (approval chains)]]
-- [[16-how-tos/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
-- [[16-how-tos/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
+- [[01 How-To Documents/recruiter/07-team-setup|Chapter 7 — Team setup (approval chains)]]
+- [[01 How-To Documents/recruiter/27-popia-in-practice|Chapter 27 — POPIA in practice]]
+- [[01 How-To Documents/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]

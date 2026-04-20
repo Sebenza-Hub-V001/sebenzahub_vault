@@ -2,8 +2,8 @@
 title: "Chapter 22 — Market Radar"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, market-radar, advanced]
+updated: 2026-04-20
+tags: [how-to, individual, market-radar, advanced, career-pulse, market-intelligence]
 status: active
 user-types: [individual]
 ---
@@ -103,6 +103,25 @@ These two features overlap. The difference:
 
 If you're actively applying, Saved Searches are your primary tool. If you're not, Market Radar is. They can coexist — Saved Searches for "is anything new I should apply to?" and Market Radar for "is the world I might want to enter changing?"
 
+## Pair Market Radar with Career Pulse
+
+Market Radar tells you what's moving *out there*. Career Pulse tells you where *you* stand inside that movement. Use them together — radar for incoming signals, pulse for the periodic check-up.
+
+### Career Pulse Report — _Tier: Premium_
+
+**What this feature is.** A personalised market report covering demand trend for your role, salary trajectory, competing-candidate density, hottest cities, and a set of recommended actions. It's diagnostic — it tells you where you stand, not what to do.
+
+**Why it matters.** Mid-career professionals need to know which direction their market is going, not just where their next job is. Career Pulse is the analysis that justifies the Premium price point for senior talent — it's the difference between guessing your market is healthy and knowing demand for your skills has been declining for two years.
+
+**How to use it.**
+
+1. Open **Career Pulse** (`/dashboard/individual/career-pulse`). Generate a fresh report.
+2. Read it slowly — every section is structured to surface a specific blind spot.
+3. Cross-reference with what your Market Radar has been telling you. If the two disagree, the disagreement is the most useful signal in either report.
+4. Re-generate quarterly, or after any major shift in your situation.
+
+A worked example: you might believe your skills are in demand, but Career Pulse shows demand has been declining for two years. That's something to factor into the next direction decision (Chapter 18) and into the Career DNA tune-up (Chapter 21).
+
 ## When to turn Market Radar off
 
 - When you've taken a new job and need to step away from the platform completely
@@ -118,12 +137,19 @@ It can always be turned back on. Don't treat the configuration as permanent.
 - [ ] Each watch has an appropriate frequency
 - [ ] You have a weekly review ritual for the alerts
 - [ ] You're prepared to tune watches that produce noise
+- [ ] Generated a Career Pulse Report and cross-referenced it with the radar signals
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 29 | Career Pulse Report | Premium |
 
 ## Next chapter
 
-[[16-how-tos/individual/23-community-and-mentorship|Chapter 23 — Community and mentorship]]
+[[01 How-To Documents/individual/23-community-and-mentorship|Chapter 23 — Community and mentorship]]
 
 ## References
 
-- [[16-how-tos/individual/10-saved-searches-and-favourites|Chapter 10]] — Saved Searches (the active-hunter cousin)
-- [[16-how-tos/individual/23-community-and-mentorship|Chapter 23 — Community and mentorship]]
+- [[01 How-To Documents/individual/10-saved-searches-and-favourites|Chapter 10]] — Saved Searches (the active-hunter cousin)
+- [[01 How-To Documents/individual/23-community-and-mentorship|Chapter 23 — Community and mentorship]]

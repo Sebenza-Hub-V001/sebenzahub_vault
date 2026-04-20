@@ -2,9 +2,9 @@
 title: "Compliance (POPIA, B-BBEE, Employment Equity, AI Policy)"
 type: concept
 created: 2026-04-07
-updated: 2026-04-11
-tags: [compliance, popia, bbbee, employment-equity, south-africa, legal, ai, regulation, transparency]
-sources: [repo-audit-2026-04-07, sa-ai-policy-compliance-review]
+updated: 2026-04-20
+tags: [compliance, popia, bbbee, employment-equity, south-africa, legal, ai, regulation, transparency, privacy-policy, pay-equity]
+sources: [repo-audit-2026-04-07, sa-ai-policy-compliance-review, repo-sync-2026-04-20]
 status: active
 confidence: high
 ---
@@ -27,6 +27,11 @@ South Africa's data protection law (similar to GDPR).
 | Recruiter compliance | `recruiterProfiles.popiaCompliant` flag |
 | Organization compliance | `complianceSettings.popiaCompliant` flag |
 | Data subject requests | DSAR (Data Subject Access Request) support |
+| **Privacy Policy page** | POPIA-aligned scaffold at `/privacy` (added 2026-04-17) |
+| **Signup consent persistence** | Consent persisted to `popia_consents` on magic-link verify (2026-04-18) |
+| **AI processing consent** | Required flag enforced at `POST /api/applications` — request rejected without it (2026-04-17) |
+| **AI disclosure UI** | AI-assisted review badge on public job detail; AI screening disclosure + consent checkbox in QuickApplyDialog (2026-04-17) |
+| **Demographic opt-in** | Gender/race capture is opt-in at source (2026-04-18) — consented data then drives pay-gap cards |
 
 **Key principle:** Users must consent before their personal data is processed. Recruiters and Businesses must declare POPIA compliance.
 
@@ -97,9 +102,11 @@ Recruiter and Business dashboards include an **Audit Trail** page showing all ac
 AI decisions are monitored for compliance:
 - `ai_bias_audits` — Fairness auditing results with demographic breakdowns
 - Admin bias auditing dashboard at `/admin/bias-auditing`
+- **Platform-wide Pay Equity dashboard** added 2026-04-19 at the admin layer (`b104376`)
 - Connects to [[02-concepts/ai-features]] governance
 
-> ⚠️ **Tension:** The bias audit infrastructure (database tables, admin dashboard) exists but is **not operationalised**. The [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] finds no evidence of documented bias detection, demographic parity testing, or fairness constraints actually running against matching/scoring algorithms. The plumbing is there; the processes aren't.
+> ⚠️ **Tension:** The bias audit infrastructure (database tables, admin dashboard) exists but is **not operationalised**. An internal compliance review (2026-04-11) finds no evidence of documented bias detection, demographic parity testing, or fairness constraints actually running against matching/scoring algorithms. The plumbing is there; the processes aren't.
+> **Update (2026-04-19):** Recruiter-side benchmark + pay-equity endpoints are now real (previously hardcoded). Admin-side pay-equity dashboard exists. Operationalisation of bias detection against the matching algorithms remains outstanding.
 
 ## 4. SA National AI Policy (Draft — 2026)
 
@@ -109,14 +116,14 @@ The [[04-standards/sa-national-ai-policy]] (Gazette No. 54477, Cabinet-approved 
 
 ### Compliance Gaps Identified
 
-| Principle | Gap |
-|---|---|
-| **Fairness** | No bias detection running, no demographic parity testing, no impact assessments |
-| **Transparency** | No AI disclosure notices to candidates, no explainability of scores, no appeal mechanism |
-| **Privacy (POPIA)** | AI-specific consent missing — general consent doesn't cover AI processing; no data minimisation for AI endpoints |
-| **Accountability** | No designated AI accountability officer, no incident response for AI complaints |
-| **Human Oversight** | Automation engine lacks approval gates for critical stages; no global kill-switch |
-| **Inclusiveness** | No accessibility testing of AI interfaces, no multilingual AI explanations |
+| Principle | Gap | 2026-04-20 Status |
+|---|---|---|
+| **Fairness** | No bias detection running, no demographic parity testing, no impact assessments | Open — plumbing exists, processes still don't run |
+| **Transparency** | No AI disclosure notices to candidates, no explainability of scores, no appeal mechanism | **Partially resolved** — AI disclosure badges + consent checkbox now live in public job detail and QuickApplyDialog (2026-04-17) |
+| **Privacy (POPIA)** | AI-specific consent missing — general consent doesn't cover AI processing; no data minimisation for AI endpoints | **Consent partially resolved** — `ai_processing` now enforced at apply endpoint, demographic opt-in added, Privacy Policy page live. Data minimisation still open. |
+| **Accountability** | No designated AI accountability officer, no incident response for AI complaints | Open |
+| **Human Oversight** | Automation engine lacks approval gates for critical stages; no global kill-switch | Open |
+| **Inclusiveness** | No accessibility testing of AI interfaces, no multilingual AI explanations | **Partially improved** — WhatsApp Phase 6 (2026-04-19) adds bidirectional translation; multilingual AI conversation in WhatsApp now real, though explanations of AI scoring remain English-only |
 
 ### POPIA Section 71 — Not Yet Implemented
 
@@ -128,7 +135,7 @@ Section 71 requires that data subjects be **notified** when automated decisions 
 - **2026/27** — High-risk regulations take effect
 - **12–18 months** to achieve compliance from policy finalisation
 
-See [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] for the full gap analysis and prioritised action items.
+Full gap analysis and prioritised action items are tracked in the internal SA AI Policy compliance review (2026-04-11).
 
 ## Open Questions
 
@@ -147,7 +154,8 @@ See [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] for the full gap an
 ## References
 
 - [[04-standards/sa-national-ai-policy]] — SA National AI Policy (draft) — risk classification, 6 principles, timeline
-- [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] — Full compliance gap analysis
+- Internal source: SA AI Policy compliance review (2026-04-11) — full gap analysis
 - [[02-concepts/ai-features]] — AI bias auditing and risk classification
 - [[02-concepts/rbac]] — `data:pii_access` permission for sensitive data
 - [[03-workflows/recruiter-journey]] — Track C: Compliance & Governance
+- Internal source: repo sync 2026-04-20 — POPIA AI consent enforcement, Privacy Policy page, demographic opt-in, pay-equity dashboard

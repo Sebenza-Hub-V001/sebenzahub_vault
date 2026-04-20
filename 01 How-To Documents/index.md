@@ -2,42 +2,36 @@
 title: "Training Manuals"
 type: overview
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-20
 tags: [how-tos, training, documentation]
 status: active
 ---
 
 # Training Manuals
 
-End-user how-to guides for each Sebenza Hub user type. These are written **for users**, not for the engineering team — they teach people how to use the platform to achieve a real outcome (get hired, source candidates, fill a vacancy, run the platform).
-
-For internal reference material and feature inventories, see the entity, workflow, and dashboard pages in the wiki.
+End-user how-to guides for each Sebenza Hub user type. These are written **for users**, not for the engineering team — they teach people how to use the platform to achieve a real outcome (get hired, source candidates, fill a vacancy).
 
 ## Available Manuals
 
-| Manual | Audience | Status |
-|--------|----------|--------|
-| [[16-how-tos/individual/index\|Individual Manual]] | Job seekers | First complete draft (Ch 20 partial) |
-| Recruiter Manual | Recruitment agencies | Not started |
-| Business Manual | Employers / corporate HR | Not started |
-| Admin Manual | Platform operators | Not started |
+| Manual | Audience | Chapters | Features covered | Status |
+|--------|----------|----------|------------------|--------|
+| [[01 How-To Documents/individual/index\|Individual Manual]] | Job seekers | 23 | 85 (all Individual features #1–85) | Complete draft |
+| [[01 How-To Documents/recruiter/index\|Recruiter Manual]] | Recruitment agencies | 35 (incl. 4.5) | 131 (all Recruiter features #86–216) | Complete draft |
+| [[01 How-To Documents/corporate/index\|Corporate Manual]] | Employers / corporate HR | 9 | 17 Corporate + 9 cross-product (#217–246 where applicable) | Complete draft |
+| Admin Manual | Platform operators | — | 7 admin-only features (#247–253) | Not started — admin-only features are out of public-manual scope; belong in an internal runbook |
+
+Every chapter that covers a feature tags it with a **Tier** badge (`_Tier: Free_`, `_Tier: Standard_`, `_Tier: Premium_`, or `_Tier: Metered — ..._`) on the heading, so users always know what plan a feature is on. Each feature-heavy chapter ends with a "Features covered in this chapter" table listing the features, their tier, and source catalogue number.
 
 ## Conventions
 
 - **One chapter per file.** Numbered `NN-slug.md`. Numbers are stable once published.
 - **Each chapter ends with a checklist.** Users self-verify before moving on.
-- **Cross-link to wiki pages**, do not duplicate them. The guide narrates; the wiki documents.
-- **Screenshots** live alongside chapters in `assets/` per guide (e.g. `16-how-tos/individual/assets/`).
-- **Status frontmatter:** `draft` (work in progress), `review` (ready for user testing), `published` (cleared for release).
-
-## Planning
-
-Each guide has a corresponding planning page in `08-questions/`:
-
-- [[08-questions/individual-training-manual-plan]]
+- **Feature format (from 2026-04-20 rollout).** Every catalogue feature gets a `### Feature Name — _Tier: X_` heading followed by **What this feature is.** → **Why it matters.** → **How to use it.** in that order.
+- **Cross-references between chapters use `[[01 How-To Documents/<book>/<slug>]]`.** Links out to concept/workflow pages use `[[02-concepts/...]]` or `[[03-workflows/...]]`. Nothing in a how-to page links to any other wiki folder — that would leak internal state into the public manual site.
+- **Screenshots** are embedded from `13-raw/screenshots/` and ship as image assets with the published page. They are not navigation.
 
 ## References
 
-- [[01-entities/individual-user]]
 - [[03-workflows/individual-journey]]
-- [[15-dashboards/individual-dashboard]]
+- [[03-workflows/recruiter-journey]]
+- [[03-workflows/business-journey]]

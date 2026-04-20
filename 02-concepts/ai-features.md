@@ -2,9 +2,9 @@
 title: "AI Features"
 type: concept
 created: 2026-04-07
-updated: 2026-04-11
-tags: [ai, machine-learning, openai, anthropic, google, compliance, regulation, risk-classification]
-sources: [repo-audit-2026-04-07, ai-enhancement-opportunities-2026-04-07, sa-ai-policy-compliance-review]
+updated: 2026-04-20
+tags: [ai, machine-learning, openai, anthropic, google, compliance, regulation, risk-classification, rag, whatsapp-ai]
+sources: [repo-audit-2026-04-07, ai-enhancement-opportunities-2026-04-07, sa-ai-policy-compliance-review, repo-sync-2026-04-20]
 status: active
 confidence: high
 ---
@@ -17,8 +17,8 @@ Sebenza Hub integrates **three AI providers** — OpenAI, Anthropic Claude, and 
 
 | Provider | SDK | Primary Use |
 |----------|-----|-------------|
-| OpenAI | `openai 4.77.0` | Job matching, CV analysis, content generation |
-| Anthropic Claude | `@anthropic-ai/sdk 0.78.0` | Complex reasoning, analysis |
+| OpenAI | `openai 4.77.0` | Job matching, CV analysis, content generation; Whisper for WhatsApp voice transcription |
+| Anthropic Claude | `@anthropic-ai/sdk 0.78.0` | Complex reasoning, analysis — model ID bumped to **Claude Opus 4.7** across components on 2026-04-18 |
 | Google Gemini | `@google/generative-ai 0.24.1` | Generative features |
 
 ## Features by User Type
@@ -59,6 +59,8 @@ Sebenza Hub integrates **three AI providers** — OpenAI, Anthropic Claude, and 
 | **Reputation Score** | AI-calculated reputation metrics |
 | **Competitive Benchmarking** | Percentile ranking vs sector peers |
 | **Profile Coach** | AI suggestions to improve recruiter profile |
+| **Smart Match** | Match candidates to a specific job posting (added 2026-04-16) |
+| **AI Candidate Search v2** | Natural language search + keyword filtering + enriched result fields (2026-04-16) |
 
 ### Business AI Features
 
@@ -76,8 +78,22 @@ Sebenza Hub integrates **three AI providers** — OpenAI, Anthropic Claude, and 
 |---------|-------------|
 | **AI Monitoring** | Track usage, costs, quality across all AI features |
 | **Bias Auditing** | Monitor AI decisions for demographic bias |
-| **AI Governance** | Policy management for AI features |
+| **AI Governance** | Policy management for AI features (unified with billing registry on 2026-04-13) |
 | **Model Metrics** | Track accuracy, latency, cost per model |
+| **Pay Equity Dashboard** | Platform-wide pay equity surfaces (added 2026-04-19) |
+
+### WhatsApp / Linda AI Features (Phase 0–6, 2026-04-19)
+
+See [[02-concepts/whatsapp-integration]] for full detail. Linda is now a first-class AI feature of the platform:
+
+| Feature | Description |
+|---------|-------------|
+| **Intent AI Fallback** | LLM intent classification on unmatched messages, default-on |
+| **RAG FAQ** | Answers grounded in `wiki_pages` table content |
+| **Escalation Summary** | Auto-summarises conversation context when escalating to human |
+| **Voice Transcription** | Whisper transcribes voice notes before NLU |
+| **AI Reply Drafts** | Agent composer suggests replies from conversation context |
+| **Bidirectional Translation** | User writes local language ↔ agent reads/replies English |
 
 ## Infrastructure
 
@@ -120,7 +136,7 @@ Admin can monitor AI fairness through:
 
 This connects to the broader [[02-concepts/compliance]] framework.
 
-> ⚠️ **Tension:** The bias audit infrastructure (tables, endpoints, admin dashboard) exists in the codebase, but the [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] finds it is **not operationalised** — no documented fairness constraints, no demographic parity testing, no algorithm impact assessments are running. Candidates receive no AI disclosure notices, cannot see how scores are calculated, and have no appeal mechanism.
+> ⚠️ **Tension:** The bias audit infrastructure (tables, endpoints, admin dashboard) exists in the codebase, but an internal SA AI Policy compliance review (2026-04-11) finds it is **not operationalised** — no documented fairness constraints, no demographic parity testing, no algorithm impact assessments are running. Candidates receive no AI disclosure notices, cannot see how scores are calculated, and have no appeal mechanism.
 
 ## SA National AI Policy — Risk Classification
 
@@ -133,14 +149,15 @@ Under the [[04-standards/sa-national-ai-policy]] (draft, 2026), Sebenza Hub's AI
 | **Low** | AI Cost Controls, Safety Rules | Standard compliance |
 
 **Key compliance gaps for high-risk features:**
-- No AI disclosure notices to candidates
-- No POPIA Section 71 compliance (automated decision-making notification + right to challenge)
-- No data minimisation for AI endpoints (full profiles sent to Claude)
-- No designated AI accountability officer
+- ~~No AI disclosure notices to candidates~~ **Partially resolved (2026-04-17):** AI-assisted review badge on public job detail; AI screening disclosure + consent checkbox in QuickApplyDialog; `POST /api/applications` enforces `ai_processing` consent.
+- No POPIA Section 71 compliance (automated decision-making notification + right to challenge) — still outstanding
+- No data minimisation for AI endpoints (full profiles sent to Claude) — still outstanding
+- No designated AI accountability officer — still outstanding
+- **AI-intelligence endpoints now role-gated** (2026-04-17, `f31a58a`) — 5 previously-open endpoints require recruiter role
 - No global kill-switch to disable AI features
 - Automation engine lacks human approval gates for critical pipeline stages
 
-**Timeline:** High-risk regulations expected 2026/27 (~12–18 months). See [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] for the full gap analysis and 10 prioritised action items.
+**Timeline:** High-risk regulations expected 2026/27 (~12–18 months). The full gap analysis and 10 prioritised action items are tracked in the internal SA AI Policy compliance review (2026-04-11).
 
 ## AI Enhancement Opportunities
 
@@ -174,8 +191,9 @@ Audit findings show **83% of pages don't use AI** despite 42 backend functions b
 ## References
 
 - [[04-standards/sa-national-ai-policy]] — SA National AI Policy (draft) — risk classification for AI features
-- [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] — Full compliance gap analysis
+- Internal source: SA AI Policy compliance review (2026-04-11) — full compliance gap analysis
 - [[02-concepts/application-lifecycle]] — AI in the hiring pipeline
 - [[02-concepts/compliance]] — AI bias and governance
 - [[03-workflows/individual-journey]] — AI tools in the Individual journey (Step 8)
 - [[03-workflows/recruiter-journey]] — AI tools across the recruiter workflow
+- Internal source: repo sync 2026-04-20 — WhatsApp AI Phase 0–6, smart match, role-gated AI endpoints, Opus 4.7

@@ -2,9 +2,9 @@
 title: "Sebenza Hub"
 type: entity
 created: 2026-04-07
-updated: 2026-04-11
+updated: 2026-04-20
 tags: [platform, product, saas, recruitment]
-sources: [repo-audit-2026-04-07, database-erd-2026-04-10, whatsapp-bot-training-manual-v2-2026-04-11]
+sources: [repo-audit-2026-04-07, database-erd-2026-04-10, whatsapp-bot-training-manual-v2-2026-04-11, repo-sync-2026-04-20]
 status: active
 confidence: high
 ---
@@ -38,7 +38,7 @@ See [[02-concepts/tech-stack]] for full details.
 | ORM | Drizzle ORM |
 | UI | Radix UI + Tailwind CSS |
 | Auth | Passwordless magic link (Resend) |
-| AI | OpenAI + Anthropic Claude + Google Gemini |
+| AI | OpenAI + Anthropic Claude (Opus 4.7) + Google Gemini |
 | Storage | Cloudflare R2 |
 | Queue | BullMQ (Redis) |
 | Hosting | Railway |
@@ -49,7 +49,7 @@ See [[02-concepts/tech-stack]] for full details.
 
 | Component | Count | Notes |
 |-----------|-------|-------|
-| Database tables | 794 | 29 domains, 1208 FK relationships |
+| Database tables | 820 | +26 since April 10 (794); 29 domains, 1208 FK relationships |
 | API endpoints | 3,700+ | Actual: 3,741 (verified April 2026) |
 | Dashboard pages | 250+ | Actual: 251 |
 | AI features | 150+ | Actual: 152 (corrected from inflated 250+) |
@@ -59,8 +59,8 @@ See [[02-concepts/tech-stack]] for full details.
 | E2E test suites | 66 | Comprehensive recruiter + public flow E2E added |
 | Test templates | 95+ | Actual: 96 seed data (corrected from inflated 300+) |
 | Subscription plans | 18 | |
-| Migration files | 28 | |
-| NPM dependencies | 149 | 0 known vulnerabilities (all 25 fixed) |
+| Migration files | 37 | +9 since April 11; migrations 0028–0036 (WhatsApp AI, flow templates, pay equity, magic link) |
+| NPM dependencies | 149 | 0 known vulnerabilities (3 Dependabot patches 2026-04-18 on top of prior clean slate) |
 
 ## Four User Types
 
@@ -127,3 +127,4 @@ See [[02-concepts/tech-stack]] for full details.
 - Source: [[09-sources/repo-audit-2026-04-07]]
 - Source: [[09-sources/features-inventory-2026-04-07]]
 - Source: [[09-sources/database-erd-2026-04-10]]
+- Source: [[09-sources/repo-sync-2026-04-20]] — 151 commits covering WhatsApp AI expansion, Flow Builder maturation, POPIA AI-consent enforcement, Individual-dashboard de-hardcode, pay-equity rollout

@@ -116,6 +116,6 @@ Only Admin can force role changes via separate admin endpoints.
 
 - [[02-concepts/authentication]] — How users get authenticated before RBAC kicks in
 - [[02-concepts/multi-tenancy]] — Organization model that RBAC operates within
-- [[01-entities/admin-user]] — Admin role that bypasses RBAC
-- [[01-entities/business-user]] — Team permission management
-- Source: [[09-sources/repo-audit-2026-04-07]]
+- Admin role bypasses all RBAC checks (see Admin user documentation in the internal wiki).
+- Team permission management is a Business/Corporate concern (see Business user documentation in the internal wiki).
+- Source: repo audit 2026-04-07 (internal wiki)

@@ -2,9 +2,9 @@
 title: "Recruiter (Talent Agency)"
 type: entity
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-20
 tags: [user-type, recruiter, agency, talent]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, repo-sync-2026-04-20]
 status: active
 confidence: high
 ---
@@ -203,6 +203,15 @@ Recruiter sources Individual → Submits to Business client job
 
 Fee structures: percentage-based, fixed, or hybrid. Payment terms: upfront, 50/50, or on-placement.
 
+## 2026-04-19 Additions
+
+- **Team management** (`28771d5`, `0eec7f8`, `02ad802`) — Team acceptance flow, owner designation (`memberships.is_owner`), invitation enhancements, dedicated recruiter team page.
+- **Smart match** (`358bda8`, 2026-04-16) — Match candidates against a specific job posting from inside the job detail view.
+- **AI Candidate Search v2** (`4330f08`) — Natural-language search extended with keyword filtering and enriched result fields.
+- **Real benchmark + pay-equity endpoints** (`4b6a5b1`) — Recruiter compliance surfaces now backed by real data instead of hardcoded samples.
+- **AI-intelligence endpoints role-gated** (`f31a58a`) — 5 AI endpoints now require recruiter role (were previously open to any authenticated user).
+- **Fraud watchlist improvements** (`0813262`) — Watchlist entry updates require a reason; usage tracking + quotas added.
+
 ## Open Questions
 
 - How is the recruiter verification process managed? Is it manual (admin) or automated?
@@ -227,3 +236,4 @@ Fee structures: percentage-based, fixed, or hybrid. Payment terms: upfront, 50/5
 - Source: [[09-sources/repo-audit-2026-04-07]]
 - Source: [[09-sources/recruitment-features-2026-04-07]]
 - Source: [[09-sources/recruiter-journey-gap-analysis-2026-04-08]]
+- Source: [[09-sources/repo-sync-2026-04-20]] — Team management, smart match, real benchmark endpoints, role-gated AI

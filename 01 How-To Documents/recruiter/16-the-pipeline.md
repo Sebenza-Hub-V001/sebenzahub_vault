@@ -2,8 +2,8 @@
 title: "Chapter 16 — The Pipeline (Kanban)"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, pipeline, kanban, daily-workflow]
+updated: 2026-04-20
+tags: [how-to, recruiter, pipeline, kanban, daily-workflow, engagement-scoring, requirement-analyzer]
 status: draft
 user-types: [recruiter]
 ---
@@ -12,11 +12,19 @@ user-types: [recruiter]
 
 If you only opened one page in Sebenza Hub every morning, it should be the Pipeline. This is where every candidate for every active job sits, organised by stage, with everything you need to move them forward visible at a glance. Most successful recruiters spend 60% of their platform time here.
 
-This chapter walks through how to read the Pipeline, how to move candidates through it efficiently, and the daily routine that turns it into a habit instead of a chore.
+This chapter walks through how to read the Pipeline, how to move candidates through it efficiently, the daily routine that turns it into a habit instead of a chore, and the two AI signals that ride alongside the Kanban — engagement scoring and requirement-restriction analysis.
 
 ## Where it lives
 
 `/dashboard/recruiter/pipeline` — the master Kanban board for your entire agency.
+
+### Pipeline View — _Tier: Free_
+
+**What this feature is.** The Pipeline View is a visual recruitment funnel with stage tracking — sourced, screened, interviewed, offered, placed — for every candidate on every active job in your agency.
+
+**Why it matters.** Every recruiter needs a Kanban of their pipeline; making it free means no one on your team has a reason to fall back to a spreadsheet. That's how Sebenza Hub becomes the daily tool, not just an ATS you log into when you remember.
+
+**How to use it.** Open `/dashboard/recruiter/pipeline`. Read the columns left-to-right (New → Placed). Drag and drop a card to advance a candidate. The rest of this chapter is the playbook for using it well.
 
 ## The Kanban view
 
@@ -51,6 +59,22 @@ The Pipeline tells you four things in 30 seconds:
 2. **Where are people stuck?** Cards with high *stage age* (e.g. 7+ days in Screening) are problems. They're ghosting either you or the platform.
 3. **Where's your next placement coming from?** Cards in Offer with strong match scores are your imminent revenue. If that column is empty, your forecast is empty.
 4. **What did you ignore yesterday?** Sort by last activity ascending — the cards at the top haven't been touched in days. They need attention now.
+
+### Candidate Engagement Scorer — _Tier: Standard_
+
+**What this feature is.** The Engagement Scorer rates each candidate's engagement throughout the pipeline — responsiveness, enthusiasm, reciprocation — and flags those whose signals predict drop-off.
+
+**Why it matters.** You lose candidates silently in week 2 of a 4-week process. By the time you notice they've gone quiet, they've usually accepted somewhere else. Engagement scoring surfaces the cooling-off candidates while there's still time to intervene.
+
+**How to use it.** The score sits on each candidate card next to the AI match score. Filter the Pipeline by **Engagement: declining** once a day — anyone in that bucket gets a personal call or WhatsApp, not another templated email. If you're already messaging via the Unified Inbox (Chapter 22), the sentiment indicator there is the same signal in real-time.
+
+### Requirement Restriction Analyzer — _Tier: Standard_
+
+**What this feature is.** AI scans a job's requirements and flags criteria that are unnecessarily restricting your candidate pool — "5+ years" when 3 would do, "degree required" when work-sample would do, location bands narrower than the role actually needs.
+
+**Why it matters.** Every nice-to-have you treat as a must-have cuts the funnel. The Analyzer shows the hiring manager — in concrete numbers — how much each constraint is costing them, which is the conversation you can't have on gut feel alone.
+
+**How to use it.** Open any job that's stalling for volume in the Pipeline and click **Analyze requirements**. The platform reports which criteria are doing the heaviest rejecting and what the candidate count would look like with each one relaxed. Take the report into your next client check-in (Chapter 10) when you need them to soften a requirement.
 
 ## Filters that matter
 
@@ -136,14 +160,24 @@ If a stage move doesn't reflect reality, fix it. If your team is moving cards in
 - [ ] You have a daily morning ritual of 15 minutes on the Pipeline
 - [ ] You're using reject reason codes consistently
 - [ ] You haven't added 12 custom stages on day one (resist the urge)
+- [ ] You filter by Engagement: declining at least once a day
+- [ ] You've run Requirement Restriction Analyzer on any job that's stuck for volume
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 101 | Pipeline View | Free |
+| 129 | Candidate Engagement Scorer | Standard |
+| 131 | Requirement Restriction Analyzer | Standard |
 
 ## Next chapter
 
-[[16-how-tos/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
+[[01 How-To Documents/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Stage definitions and status enum
-- [[16-how-tos/recruiter/15-screening-config|Chapter 15 — Screening configuration at the job level]]
-- [[16-how-tos/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
-- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (NPS feeds back here)]]
+- [[01 How-To Documents/recruiter/15-screening-config|Chapter 15 — Screening configuration at the job level]]
+- [[01 How-To Documents/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
+- [[01 How-To Documents/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (NPS feeds back here)]]

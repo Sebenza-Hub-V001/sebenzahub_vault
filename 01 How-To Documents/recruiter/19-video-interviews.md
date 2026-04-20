@@ -2,15 +2,15 @@
 title: "Chapter 19 — Video interviews and AI video analysis"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, video, interviews, ai-analysis]
+updated: 2026-04-20
+tags: [how-to, recruiter, video, interviews, ai-analysis, sentiment, behavioral, conversational-ai, authenticity]
 status: draft
 user-types: [recruiter]
 ---
 
 # Chapter 19 — Video interviews and AI video analysis
 
-Video interviews used to mean "Zoom call instead of in-person". On Sebenza Hub, video interviews are a structured product with two distinct modes — async and live — and an AI analysis layer that turns watched footage into searchable, comparable data. This chapter explains both modes, when to use which, and how to read the AI output without putting too much weight on it.
+Video interviews used to mean "Zoom call instead of in-person". On Sebenza Hub, video interviews are a structured product with two distinct modes — async and live — wrapped in an AI analysis layer that turns watched footage into searchable, comparable data. This chapter walks through the platform itself, the conversational AI that can run a first-round interview without a human, and the eight analysis features that read the resulting recordings.
 
 ## Where it lives
 
@@ -18,6 +18,16 @@ Video interviews used to mean "Zoom call instead of in-person". On Sebenza Hub, 
 |---|---|
 | `/dashboard/recruiter/video-interviews` | Set up, manage, and review video interviews |
 | `/dashboard/recruiter/video-analysis` | View AI analysis results for completed videos |
+
+## The platform itself
+
+### Video Interviews — _Tier: Standard_
+
+**What this feature is.** A built-in video interview platform with recording, transcripts, and shareable links — async and live both.
+
+**Why it matters.** Recruiters currently juggle Zoom + Calendly + Loom + a folder of recordings somewhere. One built-in platform cuts tool sprawl and keeps every video artefact tied to the candidate record where you (and the hiring manager) can find it later.
+
+**How to use it.** Open `/dashboard/recruiter/video-interviews` to set up either mode. The rest of this chapter walks through the modes, the conversational AI option, and the analysis features.
 
 ## The two modes
 
@@ -34,6 +44,14 @@ The candidate records themselves answering preset questions on their own time. N
 A real-time video call with one or more interviewers. The same Zoom / Teams / Meet integration from Chapter 18, but recorded and stored on the platform with the rest of the candidate's record.
 
 Use for: standard interview rounds where back-and-forth conversation matters.
+
+### AI Conversational Interview — _Tier: Premium_
+
+**What this feature is.** A fully AI-conducted conversational interview — no human interviewer required. The AI talks to the candidate, asks role-relevant questions, adapts to answers, and produces a transcript, scores, and a hiring recommendation.
+
+**Why it matters.** First-round interviews are high-volume and low-signal — most of them just confirm what the CV already said. The AI can run them 24/7 without burning recruiter time, freeing your senior staff for the final-round human judgement where it actually matters.
+
+**How to use it.** From the candidate's record, click **Schedule** → **AI Conversational Interview**. Pick the question pack (auto-generated from the JD or one of yours). The candidate gets a link, talks to the AI in their browser, and you get the transcript and scores within minutes of completion. Use it for high-volume entry-level and mid-level roles; use a human for senior and above.
 
 ## Setting up an async interview
 
@@ -87,20 +105,77 @@ Once a live interview is recorded, you can:
 
 ## AI video analysis — `/dashboard/recruiter/video-analysis`
 
-This is where it gets interesting. The platform's AI analyses video recordings (async or live) and produces:
+This is where it gets interesting. The platform layers eight distinct AI analyses over recorded interviews — each one optimised for a specific question you'd otherwise ask yourself by re-watching the video. They split into three tiers of work: the headline analysis, the deep-dive analyses, and the post-interview tools.
 
-- **Communication clarity** score (0–100) — based on speech rhythm, vocabulary range, structure
-- **Confidence indicators** — pace consistency, filler word frequency, eye contact patterns
-- **Content coverage** — does the candidate's answer actually address the question? (Surprisingly often, no.)
-- **Sentiment** — overall affect during the response
-- **Topic detection** — what subjects the candidate spent time on
-- **Comparison view** — side-by-side AI scores across multiple candidates for the same question
+### AI Video Interview Analysis — _Tier: Premium_
 
-### How to read AI video analysis
+**What this feature is.** The headline analysis: AI evaluates a recorded video interview for communication clarity, presentation quality, content coverage, and overall response quality, with timestamped moments.
+
+**Why it matters.** Video debrief between panel members is subjective; AI analysis adds an objective reference that anchors the discussion. Especially useful for distributed panels who can't all attend live.
+
+**How to use it.** Runs automatically on every recorded interview (with consent). Open the **Analysis** tab on the recording. Use the timestamped clarity and content-coverage signals to jump to the parts of the video worth re-watching.
+
+### Scorecard Analysis — _Tier: Premium_
+
+**What this feature is.** AI analysis of completed interview scorecards across many interviews — pattern detection, bias signals, scoring consistency between interviewers.
+
+**Why it matters.** Over 100 interviews, patterns emerge — one interviewer always scores women 0.5 points lower; another inflates scores for alma mater matches. Analysis surfaces these systematic distortions so you can coach the outliers and recalibrate the panel.
+
+**How to use it.** Open `/dashboard/recruiter/scorecard-analysis`. Filter by role family or by interviewer. The report flags consistent distortions with confidence scores. Take it into your monthly panel calibration session.
+
+### Video Sentiment Timeline — _Tier: Premium_
+
+**What this feature is.** A chronological sentiment and engagement map throughout the video — energy, confidence, mood shifts plotted minute by minute.
+
+**Why it matters.** Minute 18 of an interview often reveals something minute 2 didn't. Timeline analysis surfaces the moment the candidate's energy dropped (or spiked) — a signal panels rarely catch live because they're focused on what's being said.
+
+**How to use it.** Open the **Sentiment** tab on any recorded interview. Hover the timeline to see the spoken context at each inflection point. Re-watch the dips before deciding.
+
+### Video Behavioral Analysis — _Tier: Premium_
+
+**What this feature is.** Behavioural competency mapping from the video — STAR (Situation, Task, Action, Result) response detection, emotional intelligence signals, specific-example rate.
+
+**Why it matters.** Behavioural evidence is what separates "I could do that" from "I have done that". Automated mapping forces the evidence question that interviewers often forget to push on under time pressure.
+
+**How to use it.** Open the **Behavioural** tab. The AI marks each behavioural question with whether the candidate gave a STAR-format answer or vagued out. Targets coaching feedback for the candidate (Chapter 28 covers shareable feedback).
+
+### Video Communication Deep Dive — _Tier: Premium_
+
+**What this feature is.** Exhaustive analysis of speech patterns, vocabulary range, filler-word rate, and overall communication style.
+
+**Why it matters.** Communication quality predicts on-the-job performance in most roles. The deep dive gives a defensible, quantified view rather than "he came across well" — useful when the hiring manager wants justification for ranking one strong candidate over another.
+
+**How to use it.** Open the **Communication** tab. Use it as supporting evidence in panel debriefs, not as a primary criterion. **Bias warning** — non-native English speakers, candidates with strong regional accents, and candidates with speech-affecting disabilities consistently score lower on this metric. Read the substance, not the score.
+
+### Video Follow-Up Questions — _Tier: Premium_
+
+**What this feature is.** AI generates targeted follow-up questions and coaching notes for the interviewer after they've reviewed the video.
+
+**Why it matters.** Most interviewers can't remember what they should have asked. Follow-ups close the loops the first interview left open — critical for making confident hire / no-hire decisions on borderline candidates.
+
+**How to use it.** After watching a recording, open **Follow-ups**. The AI proposes 3–5 questions to ask in the next round (or as a quick async video). Send the candidate the questions or use them as the spine of round two.
+
+### Video Hiring Recommendation — _Tier: Premium_
+
+**What this feature is.** A comprehensive AI hiring recommendation combining the scorecard, behavioural analysis, communication scores, and risk assessment into a suggested decision.
+
+**Why it matters.** Recommendation isn't replacement — it's a defensible baseline the panel argues with. Often surfaces risks a human panel overlooks in the positivity bias of a good conversation.
+
+**How to use it.** Appears at the top of the candidate's video record. Read the recommendation, read the reasoning, then form your own view. **Never** submit the recommendation directly to the client — it's an internal tool.
+
+### Answer Authenticity Detection — _Tier: Premium_
+
+**What this feature is.** Detects rehearsed vs genuine responses, contradictions across the interview, and consistency patterns.
+
+**Why it matters.** Coached candidates can perform an interview; authentic candidates live it. Authenticity signals separate the two — especially useful for trust-sensitive roles (finance, compliance, leadership) where pattern-matched answers are red flags.
+
+**How to use it.** Open the **Authenticity** tab. The AI flags responses that pattern-match to common rehearsed templates and surfaces internal contradictions. Treat flags as conversation prompts for the next interview, not as auto-rejects — well-prepared candidates aren't dishonest candidates.
+
+### How to read AI video analysis (general principles)
 
 The AI is **good at**:
 
-- Spotting candidates who didn't actually answer the question (they talked but said nothing)
+- Spotting candidates who didn't actually answer the question
 - Identifying communication clarity differences across a large pool
 - Generating searchable transcripts
 - Time-stamping the moments where specific topics were discussed
@@ -168,15 +243,32 @@ If you're a high-volume video user, the Premium plan is significantly more cost-
 - [ ] You understand the bias risks in AI video analysis
 - [ ] You have a habit of watching videos personally before rejecting on AI score
 - [ ] You're aware of your plan's video hour limits
+- [ ] You've used AI Conversational Interview at least once on a high-volume role
+- [ ] You read the Sentiment Timeline and Behavioural tabs before relying on the headline recommendation
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 147 | AI Conversational Interview | Premium |
+| 148 | AI Video Interview Analysis | Premium |
+| 151 | Scorecard Analysis | Premium |
+| 153 | Video Sentiment Timeline | Premium |
+| 154 | Video Behavioral Analysis | Premium |
+| 155 | Video Communication Deep Dive | Premium |
+| 156 | Video Follow-Up Questions | Premium |
+| 157 | Video Hiring Recommendation | Premium |
+| 161 | Answer Authenticity Detection | Premium |
+| 213 | Video Interviews | Standard |
 
 ## Next chapter
 
-[[16-how-tos/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
+[[01 How-To Documents/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities and bias warnings
 - [[02-concepts/compliance]] — POPIA consent for recording
-- [[16-how-tos/recruiter/18-interview-scheduling|Chapter 18 — Interview scheduling]]
-- [[16-how-tos/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
-- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[01 How-To Documents/recruiter/18-interview-scheduling|Chapter 18 — Interview scheduling]]
+- [[01 How-To Documents/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
+- [[01 How-To Documents/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

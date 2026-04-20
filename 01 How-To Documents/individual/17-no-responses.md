@@ -2,8 +2,8 @@
 title: "Chapter 17 — I'm not getting responses"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, troubleshooting]
+updated: 2026-04-20
+tags: [how-to, individual, troubleshooting, linkedin, networking, rejection, weakness, ai-feedback]
 status: active
 user-types: [individual]
 ---
@@ -47,6 +47,10 @@ The pattern in the data tells you what to fix. Three common patterns:
 
 Pick the most likely cause based on your actual data, not your worst-case fear.
 
+### AI Application Feedback (callback to Chapter 11)
+
+You don't have to guess application by application — **AI Application Feedback** runs after each application and tells you exactly how well your CV/profile matched that specific job, with concrete improvement suggestions. If you've been ignoring those notifications, go back into the last 10 applications and read the feedback. The pattern across them is often clearer than Analytics on its own. Full walk-through is in Chapter 11.
+
 ## Cause A — Wrong jobs (targeting)
 
 If you're not even getting screened, the AI doesn't think you're a fit and neither do recruiters. The fix is on the targeting side, not the application side.
@@ -87,9 +91,9 @@ If you're getting screened but rejected at the screening stage, the CV is the bo
 4. **Switch to an ATS-friendly template.** If you're using a fancy template with tables and columns, replace it with a Modern or Professional template from CV Templates (Chapter 5). Many ATS systems can't read decorative layouts.
 5. **Have a human read your CV.** Ideally someone who hires for the kind of role you're going after. AI feedback is good but not perfect.
 
-## Cause C — Profile gaps
+## Cause C — Profile gaps and discoverability
 
-If your CV is good but your profile fields are incomplete, you might be invisible in recruiter searches. Recruiters search the profile, not the CV file.
+If your CV is good but your profile fields are incomplete, you might be invisible in recruiter searches. Recruiters search the profile, not the CV file. The same logic applies to your LinkedIn profile — most South African recruiters source there as much as they source on Sebenza Hub.
 
 ### Diagnostic questions
 
@@ -98,6 +102,7 @@ If your CV is good but your profile fields are incomplete, you might be invisibl
 - Do you have credentials uploaded?
 - Is your profile set to public?
 - When did you last update your profile?
+- When did you last update your LinkedIn profile?
 
 ### Fixes
 
@@ -106,10 +111,59 @@ If your CV is good but your profile fields are incomplete, you might be invisibl
 3. **Verify 2–5 high-value skills.** A verified badge is a strong filter signal recruiters use.
 4. **Upload credentials.** Even old ones — degrees and certifications you take for granted aren't visible to the platform until you upload them.
 5. **Add a video profile** (Chapter 7) if you're applying to client-facing or leadership roles. It's a small signal but it does shift response rates.
+6. **Run LinkedIn Optimizer** — see below.
 
-## Cause D — Coaching helps when you're stuck on diagnosis
+### LinkedIn Optimizer — _Tier: Standard_
+
+**What this feature is.** LinkedIn Optimizer analyses your LinkedIn profile for recruiter-search discoverability — headline keywords, skills, experience phrasing, About section — and gives you specific rewrites you can paste straight in. It's not a beautifier; it's an SEO tool for the recruiter's search bar.
+
+**Why it matters.** Around 70% of South African recruiters source on LinkedIn. If you're not surfacing in their searches, you don't exist as far as they're concerned — no matter how good your Sebenza Hub profile is. The fix is mechanical: the right keywords in the right places.
+
+**How to use it.** Connect or paste your LinkedIn profile into the Optimizer. Read the suggested rewrites. Apply the headline and About-section changes first — they have the biggest impact on search rank. Re-run after a week to see what else has shifted. If you're getting recruiter views but no responses, the headline is usually the problem. If you're getting no views at all, it's the keyword density across the whole profile.
+
+## Cause D — Interview performance (callback to Chapter 13)
+
+If applications convert to first interviews but you stall there, the problem isn't your CV or profile — it's the interview itself. Go to Chapter 13 and work through the prep + simulator + scoring loop. **Interview Comparison** specifically (Premium) is the tool that tells you whether the same kind of question is killing you across multiple interviews.
+
+## Cause E — Coaching helps when you're stuck on diagnosis
 
 If you've done the above and you're still stuck, try **AI Coaching** (`/dashboard/individual/coaching`). It's a structured conversation tool that asks you about your situation, your goals, and your constraints, and then suggests specific next steps. It's most useful when you don't yet know what your real problem is — not when you already do.
+
+## Cause F — You're answering "weakness" questions badly
+
+If you're getting to interviews but not progressing past the first round, and you suspect you're tanking on a specific question type, the "what's your biggest weakness?" question is the most common silent killer. Most candidates either dodge it (signals defensiveness) or disclose a real dealbreaker. Both lose.
+
+### Weakness Alchemist — _Tier: Standard_
+
+**What this feature is.** Weakness Alchemist takes your honest weaknesses and reframes them into interview-safe answers that show self-awareness and growth without becoming a liability. It's not about hiding the weakness — it's about pairing it with the work you've done on it.
+
+**Why it matters.** "What's your biggest weakness?" is answered badly by 90% of candidates, and it's one of the few questions where a rehearsed answer beats an authentic one. A clean reframing is real competitive edge for not very much effort.
+
+**How to use it.** Open Weakness Alchemist and input two or three real weaknesses — not made-up ones. The tool returns reframed versions you can use in interviews. Pick the one that feels most honest to you (the others will sound rehearsed when you say them out loud). Practise it until it sounds natural, then forget about it until the question comes up.
+
+## Cause G — A specific recent rejection has you stuck
+
+Sometimes the issue isn't a pattern — it's a single rejection that's left you spiralling and unable to keep going. That's a real problem, and the platform has a tool for it.
+
+### Rejection Recovery Coach — _Tier: Standard_
+
+**What this feature is.** Rejection Recovery Coach generates a personalised recovery plan after a specific rejection — what to learn from it, how to follow up with the recruiter or hiring manager, and how to keep the relationship warm for future roles at the same company. It's part processing, part action plan.
+
+**Why it matters.** Job searches are 90% rejection. The candidates who keep their momentum after a hard "no" outperform the ones who go silent for two weeks. This isn't just a wellness tool — it's a retention mechanism for *you*, in your own search.
+
+**How to use it.** Run it after any rejection that's hit you harder than the rest. Don't run it after every rejection — that turns into noise. Use it specifically when you're stuck and need a structured way out.
+
+## Cause H — You're not networking and the market is tight
+
+Cold applications are slow. Referrals are fast. If your conversion rate is broken and the market is sluggish, the highest-leverage thing you can do is reach out to people who can refer you in. Most candidates won't do this because they don't know what to say.
+
+### Networking Message Writer — _Tier: Standard_
+
+**What this feature is.** Networking Message Writer drafts professional networking messages and LinkedIn connection requests for specific targets — referrers, recruiters, hiring managers. You give it the target and the context (the role, your angle, any shared connection), and it produces a clean message you can send.
+
+**Why it matters.** 60%+ of senior hires happen through networking, but most candidates never reach out because they don't know what to say. Getting the first message right turns cold profiles into warm referrals. The lift is large because so few candidates do this at all.
+
+**How to use it.** Identify 5–10 people at companies you'd actually want to work for. For each, generate a tailored message — not a generic "I'd love to connect." Send the message. Don't expect a response from every one (rates are typically 20–40%); the ones who do reply are now warm referrers for current and future roles. Run this monthly during an active search.
 
 ## When the problem isn't you
 
@@ -142,18 +196,34 @@ Pick the one cause that best matches your data. Make the fix. Apply 10+ jobs ove
 ## Checklist
 
 - [ ] Reviewed Application Analytics and identified the actual pattern
-- [ ] Picked one cause (A, B, C, or D) based on the data
-- [ ] Took the recommended action for that cause
+- [ ] Read AI Application Feedback on your last 10 applications
+- [ ] Picked one cause based on the data
+- [ ] If targeting: tightened target role and trusted Auto Match
+- [ ] If CV: re-ran CV Review and acted on it
+- [ ] If profile: ran LinkedIn Optimizer and applied headline + About changes
+- [ ] If weakness questions: rehearsed an answer using Weakness Alchemist
+- [ ] If a specific rejection is sticking: ran Rejection Recovery Coach
+- [ ] If market is slow: sent 5–10 networking messages with Networking Message Writer
 - [ ] Resisted the urge to change everything at once
 - [ ] Set a date 2 weeks out to re-evaluate
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | AI Application Feedback (callback to Chapter 11) | Standard |
+| 2 | LinkedIn Optimizer | Standard |
+| 3 | Weakness Alchemist | Standard |
+| 4 | Rejection Recovery Coach | Standard |
+| 5 | Networking Message Writer | Standard |
+
 ## Next chapter
 
-[[16-how-tos/individual/18-no-direction|Chapter 18 — "I don't know what to apply for"]]
+[[01 How-To Documents/individual/18-no-direction|Chapter 18 — "I don't know what to apply for"]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Track A: AI Assistance scenarios
-- [[16-how-tos/individual/06-cv-review|Chapter 6]] — CV Review
-- [[16-how-tos/individual/07-skills-credentials-video|Chapter 7]] — Profile completeness
-- [[16-how-tos/individual/12-tracking-applications|Chapter 12]] — Application Analytics
+- [[01 How-To Documents/individual/06-cv-review|Chapter 6]] — CV Review
+- [[01 How-To Documents/individual/07-skills-credentials-video|Chapter 7]] — Profile completeness
+- [[01 How-To Documents/individual/12-tracking-applications|Chapter 12]] — Application Analytics

@@ -2,8 +2,8 @@
 title: "Chapter 15 — Configuring screening at the job level"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, screening, knockouts, automation]
+updated: 2026-04-20
+tags: [how-to, recruiter, screening, knockouts, automation, screening-roles, screening-criteria-generator]
 status: draft
 user-types: [recruiter]
 ---
@@ -11,6 +11,24 @@ user-types: [recruiter]
 # Chapter 15 — Configuring screening at the job level
 
 You posted a job in Chapter 11. Now we go back to one section of that form — the **vetting / screening configuration** — and treat it properly. Screening configuration is the most leveraged 15 minutes of work you do per role: a well-tuned screen rejects 70%+ of unqualified applicants automatically, leaving you with a focused shortlist instead of an inbox full of noise.
+
+Two features carry this chapter: **Screening Roles**, which codifies your hiring rules so they apply consistently across every job, and the **Screening Criteria Generator**, which writes those rules from a job description in 30 seconds.
+
+### Screening Roles — _Tier: Standard_
+
+**What this feature is.** Screening Roles let you configure must-have criteria, knockout questions, and scoring weights as a reusable package per role family. The whole team applies the same rules the same way every time a role of that type opens.
+
+**Why it matters.** Without codified criteria, every screening is subjective and inconsistent — one recruiter rejects on five years' experience, another waves through three. Screening Roles turn hiring standards into rules a junior recruiter can apply with the same rigour as a senior one.
+
+**How to use it.** Configure your screening roles once per role family (Senior Backend Dev, Mid-Sales, Graduate Programme, etc.) under `/dashboard/recruiter/settings` → Screening Roles. When you post a job (Chapter 11), pick the matching screening role and the knockouts, scoring weights, and chatbot template auto-populate.
+
+### Screening Criteria Generator — _Tier: Standard_
+
+**What this feature is.** AI generates the must-haves, nice-to-haves, and scoring weights directly from a job description. Paste the JD, get a draft screening configuration you edit instead of write.
+
+**Why it matters.** Half the time you spend "setting up" screening is figuring out criteria from scratch. Generation turns that into a 30-second AI step, which is the difference between every role getting a real screening config and most roles getting whatever the recruiter could be bothered to write.
+
+**How to use it.** From the job's *Vetting* section, click **Generate from JD**. The AI returns proposed knockouts, weights, and assessment recommendations. Review, edit, accept. Save the result as a new Screening Role if you'll reuse it.
 
 ## The four screening layers
 
@@ -158,15 +176,24 @@ Sebenza Hub's `/dashboard/recruiter/requirement-check` is built for exactly this
 - [ ] You understand AI auto-scoring is for ranking, not gating
 - [ ] You've previewed the candidate's-eye view of the application before publishing
 - [ ] You'll review the screening config after 20 applications come in
+- [ ] You've defined a Screening Role for each role family you recruit for repeatedly
+- [ ] You've used the Screening Criteria Generator at least once instead of writing criteria from scratch
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 117 | Screening Roles | Standard |
+| 133 | Screening Criteria Generator | Standard |
 
 ## Next chapter
 
-[[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline (Kanban): your daily workspace]]
+[[01 How-To Documents/recruiter/16-the-pipeline|Chapter 16 — The Pipeline (Kanban): your daily workspace]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI scoring and chatbot capabilities
 - [[02-concepts/application-lifecycle]] — Where screening sits in the full lifecycle
-- [[16-how-tos/recruiter/11-posting-a-job|Chapter 11 — Posting a job]]
-- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-how-tos/recruiter/17-screening-tools|Chapter 17 — Screening tools]]
+- [[01 How-To Documents/recruiter/11-posting-a-job|Chapter 11 — Posting a job]]
+- [[01 How-To Documents/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[01 How-To Documents/recruiter/17-screening-tools|Chapter 17 — Screening tools]]

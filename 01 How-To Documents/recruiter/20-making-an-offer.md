@@ -2,15 +2,35 @@
 title: "Chapter 20 — Making an offer"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, offers, approvals, negotiation]
+updated: 2026-04-20
+tags: [how-to, recruiter, offers, approvals, negotiation, predictive-performance, team-fit, acceptance-predictor]
 status: draft
 user-types: [recruiter]
 ---
 
 # Chapter 20 — Making an offer: templates, approvals, predictor, negotiation
 
-Making an offer is the moment everything converges — the candidate, the client, the engagement terms, the compensation package, the legal compliance, the approval chain — into one document that either gets accepted (revenue) or declined (back to the pipeline). Sebenza Hub has 11 distinct pages dedicated to the offer lifecycle. This chapter walks through them in the order you'll actually use them.
+Making an offer is the moment everything converges — the candidate, the client, the engagement terms, the compensation package, the legal compliance, the approval chain — into one document that either gets accepted (revenue) or declined (back to the pipeline). Sebenza Hub has 11 distinct pages dedicated to the offer lifecycle, plus three predictive AI features that tell you the offer's chance of acceptance, the candidate's likely on-the-job performance, and how they'll integrate with the existing team. This chapter walks through them in the order you'll actually use them.
+
+## The offer feature stack
+
+Six features cover the offer surface — the management tool, the letter generator, the negotiation workspace, and three predictive models you should consult before sending. The page-level pages (offers, templates, approvals, etc.) sit underneath these.
+
+### Offer Management — _Tier: Standard_
+
+**What this feature is.** The full offer workflow — generate, customise, and track job offers with version history, approval flow, and candidate acceptance recording.
+
+**Why it matters.** Offer admin lives in Word + email today, which creates version chaos. In-platform offers keep the audit trail intact and stop the "which version did she sign?" panic that kills agency credibility.
+
+**How to use it.** `/dashboard/recruiter/offers` is the master list. Every offer in your agency, with status, owner, and value visible at a glance. The rest of this chapter is the playbook for working it.
+
+### Offer Letter Generator — _Tier: Standard_
+
+**What this feature is.** Generates professional offer letters from templates, merging the job and candidate data already in Sebenza Hub.
+
+**Why it matters.** Every offer letter today is retyped from last week's. Generation eliminates the wrong-salary, wrong-start-date typos that are the #1 cause of offer disputes — and the embarrassment that goes with them.
+
+**How to use it.** From an offer record, click **Generate letter**. Pick the template (perm, contract, exec, conditional). Review the merged document. Send via the platform so the audit trail captures view and acceptance timestamps.
 
 ## The 11 offer pages, mapped
 
@@ -45,17 +65,29 @@ Open `/dashboard/recruiter/offer-benchmarking`, enter the role title, location, 
 
 If your client's proposed offer is below the 25th percentile, you have a problem you need to address with the client *before* sending the offer to the candidate. An offer that's significantly below market gets declined — you'll have wasted weeks of work.
 
-### Offer Predictor
+### Offer Acceptance Predictor — _Tier: Premium_
 
-Open `/dashboard/recruiter/offer-predictor`, enter the proposed offer details, and the AI returns an **acceptance probability** (0–100%) based on:
+**What this feature is.** AI predicts the probability a candidate will accept the offer, factoring salary, competitor activity, candidate signals (engagement, salary expectations), and start-date alignment.
 
-- The candidate's stated salary expectations
-- The candidate's recent activity (engaged with you vs ghosting)
-- Market benchmarks for similar roles
-- The competitiveness of the package
-- Notice period and start date alignment with the candidate's situation
+**Why it matters.** Extended offers that get declined waste 4–6 weeks of pipeline work and damage hiring-manager confidence. Predicting acceptance upstream lets you sequence offers to the most likely yes first — and lets you fix the offer before sending if the score is low.
 
-The predictor isn't infallible — it's a probabilistic estimate. But if it returns 30% acceptance probability, take the warning seriously. Either improve the offer or have a frank conversation with the candidate before sending.
+**How to use it.** Open `/dashboard/recruiter/offer-predictor`, enter the proposed offer details, get an acceptance probability (0–100%) with reasoning. If it returns under 50%, either improve the package, have a frank pre-offer conversation with the candidate, or pull the offer entirely. A 70%+ score is "go ahead".
+
+### Predictive Performance Modeling — _Tier: Premium_
+
+**What this feature is.** Predicts the candidate's on-the-job performance trajectory at 30, 90, 180, and 365 days based on signals from interviews, assessments, and reference patterns.
+
+**Why it matters.** Hires that look great in month 1 often fade by month 6. Trajectory prediction identifies the sustainer hires versus the burnout hires before the offer goes out — which protects your guarantee period (Chapter 21) and your placement-retention reputation.
+
+**How to use it.** Available on every shortlisted candidate's profile under **Predictive Performance**. Read the trajectory before approving the offer. A flat or declining trajectory means dig deeper in the next interview round, don't paper over with a higher salary.
+
+### Team Fit Simulation — _Tier: Premium_
+
+**What this feature is.** Simulates how the candidate would integrate into the existing team dynamics, surfacing friction points and complementary strengths.
+
+**Why it matters.** A great candidate on the wrong team becomes an attrition risk inside 6 months. Simulation surfaces fit issues upstream — especially valuable for senior roles where the cost of mis-fit is highest and the "they didn't gel with the team" exit is hardest to predict.
+
+**How to use it.** Open the candidate's profile, click **Team Fit Simulation**, select the team they'd join. The output flags likely friction points and complementary strengths. Share the friction-point summary with the hiring manager before the offer; it's the conversation that turns a 6-month attrition into a 4-year hire.
 
 ## Step 2 — Create the offer
 
@@ -149,7 +181,13 @@ Use it to spot problems. If an offer has been sent for 4 days and not viewed, th
 
 ## Step 7 — Negotiation (if needed)
 
-`/dashboard/recruiter/offer-negotiation` is the negotiation workspace. When a candidate counters, you log the counter, the system tracks:
+### Offer Negotiation — _Tier: Standard_
+
+**What this feature is.** A dedicated workspace for managing and tracking offer negotiations between candidate and client — round-by-round counters, package details per round, and AI-suggested negotiation tactics.
+
+**Why it matters.** Offers die in negotiation more than any other stage. Visible negotiation tracking keeps the process from stalling in email silence — and the audit trail protects you when one side later disputes what was agreed.
+
+**How to use it.** Open `/dashboard/recruiter/offer-negotiation`. When a candidate counters, log the counter; the platform tracks:
 
 - Each round of back-and-forth
 - The package details at each round
@@ -207,21 +245,34 @@ Watch the decline reasons. If "competing offer" is your top decline reason, your
 ## Checklist
 
 - [ ] You've benchmarked the role before proposing terms
-- [ ] You've run the offer through the predictor and addressed any acceptance probability under 60%
-- [ ] You're using a template, not writing letters from scratch
+- [ ] You've run Offer Acceptance Predictor and addressed any score under 60%
+- [ ] You've read the Predictive Performance trajectory before approving the offer
+- [ ] You've run Team Fit Simulation for senior roles and shared friction points with the hiring manager
+- [ ] You're using the Offer Letter Generator, not writing letters from scratch
 - [ ] The offer has gone through the approval chain you set up in Chapter 7
 - [ ] You've reviewed and addressed any compliance warnings
-- [ ] You know how to handle a counter-offer using Negotiation and Offer Compare
+- [ ] You know how to handle a counter-offer in the Offer Negotiation workspace
 - [ ] You'll log the decline reason if the offer gets declined
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 126 | Offer Acceptance Predictor | Premium |
+| 160 | Predictive Performance Modeling | Premium |
+| 162 | Team Fit Simulation | Premium |
+| 187 | Offer Management | Standard |
+| 189 | Offer Letter Generator | Standard |
+| 207 | Offer Negotiation | Standard |
 
 ## Next chapter
 
-[[16-how-tos/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement and revenue]]
+[[01 How-To Documents/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement and revenue]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Offer status enum
 - [[02-concepts/compliance]] — EE and B-BBEE compliance considerations
-- [[16-how-tos/recruiter/07-team-setup|Chapter 7 — Team setup (approval chains)]]
-- [[16-how-tos/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
-- [[16-how-tos/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement and revenue]]
+- [[01 How-To Documents/recruiter/07-team-setup|Chapter 7 — Team setup (approval chains)]]
+- [[01 How-To Documents/recruiter/09-engagement-terms|Chapter 9 — Engagement terms]]
+- [[01 How-To Documents/recruiter/21-recording-a-placement|Chapter 21 — Recording a placement and revenue]]

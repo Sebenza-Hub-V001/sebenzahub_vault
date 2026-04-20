@@ -2,9 +2,9 @@
 title: "WhatsApp Bot — Linda"
 type: entity
 created: 2026-04-07
-updated: 2026-04-11
-tags: [whatsapp, chatbot, ai, messaging, candidate-experience, automation, linda]
-sources: [whatsapp-bot-training-manual-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11]
+updated: 2026-04-20
+tags: [whatsapp, chatbot, ai, messaging, candidate-experience, automation, linda, flow-builder, rag, translation]
+sources: [whatsapp-bot-training-manual-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11, repo-sync-2026-04-20]
 status: active
 confidence: high
 user-types: [individual, recruiter, admin]
@@ -31,6 +31,12 @@ Linda introduces herself by name in every first interaction: *"I'm Linda, your A
 | **Frustration detection** | Auto-escalates to human after 3+ negative messages |
 | **Broadcast campaigns** | Bulk outreach to candidate segments |
 | **Re-engagement** | Automated flows for dormant candidates |
+| **Intent AI fallback** | Unmatched messages routed through LLM intent classification (default-on since 2026-04-19) |
+| **RAG FAQ answers** | Open-ended questions answered from `wiki_pages`-backed retrieval |
+| **Voice transcription** | Voice notes transcribed via Whisper before NLU |
+| **Escalation summary** | Full conversation auto-summarised when handed off to a human agent |
+| **Auto-translation** | Bidirectional — user writes local language, agent reads English, replies flow back translated |
+| **Magic-link auth** | Phone-lookup auth; email captured if phone miss, then linked |
 
 ## Candidate Experience Flow
 
@@ -83,19 +89,32 @@ The admin WhatsApp interface is the most feature-rich section of the admin dashb
 
 ## Flow Builder
 
-The visual flow builder enables no-code automation with **9 node types**:
+The visual flow builder is now the **authoritative conversation runtime** — active flows override the hardcoded state machine. No-code automation with the original 9 node types plus **10 additional action nodes** added in Phase 2 (2026-04-19).
 
+**Original nodes (Phase 1):**
 1. **Message** — Send text/media
 2. **Question** — Collect input
 3. **Condition** — Branch based on response
 4. **Action** — Trigger platform action
-5. **Delay** — Wait period
+5. **Delay** — Wait period (fully operational with server-side timers as of Phase 2)
 6. **API Call** — Hit external endpoint
 7. **Assign Agent** — Route to human
 8. **Tag** — Label the conversation
 9. **End** — Terminate flow
 
-Each node tracks entries, exits, and drop-offs. Flows can be versioned and activated/deactivated.
+**Phase 3 backend (2026-04-19):** versioning, event subscription from platform events, simulator, analytics tables.
+
+**Editor features:**
+- Two tabs — **My Flows** (editable) and **Permanent** (read-only docs of hardcoded bot flows, with Duplicate-to-My-Flows).
+- Template preview + edit before use.
+- Drag-reorder of nodes in the template dialog.
+- Editable node positions + per-connection conditions.
+- Live-instance badges showing running flow count.
+- Simulator + analytics dialogs directly in the editor.
+
+**Triggers — 7 cron-based with dedupe ledger** (2026-04-19). Backend platform events are wired into the flow runtime (application received, status changed, etc.), so flows can fire from system activity, not just inbound messages.
+
+**Starter content:** Seeded auto-responders, intents, FAQs, and 5+ flow templates ship with the app.
 
 ## Contact CRM Lifecycle
 
@@ -131,7 +150,32 @@ Contacts are scored on:
 5 dedicated route files: `whatsapp-routes.ts`, `whatsapp-apply-routes.ts`, `whatsapp-campaigns-routes.ts`, `whatsapp-bot-routes.ts`, `whatsapp-admin-routes.ts`
 
 ### API Endpoints
-71+ WhatsApp-related endpoints covering core messaging, templates, campaigns, apply flows, and bot operations.
+71+ WhatsApp-related endpoints covering core messaging, templates, campaigns, apply flows, and bot operations. Flow Builder Phase 3 added dedicated endpoints for simulator, analytics, versioning, and event subscription (2026-04-19).
+
+## AI Expansion (Phase 0–6, 2026-04-19)
+
+Linda gained real AI intelligence on 2026-04-19 via a staged 7-phase rollout (migration `0034_whatsapp_ai_expansion` + `0035_enable_whatsapp_intent_ai`):
+
+| Phase | Capability | Commit |
+|-------|-----------|--------|
+| 0 | Shared helpers + schema foundation | `4a10b2d` |
+| 1 | Intent AI fallback **enabled by default** | `db1262c` |
+| 2 | RAG-powered FAQ answers from `wiki_pages` | `49e40e9` |
+| 3 | Auto-summarise conversation on escalation | `61d0e0c` |
+| 4 | Transcribe voice notes via Whisper | `9d38c8d` |
+| 5 | AI-suggested reply drafts in agent composer | `c689d31` |
+| 6 | Bidirectional auto-translation user ↔ agent | `f6b8c51` |
+
+Phase 1 is the most impactful runtime change: unmatched messages previously dumped candidates back to the menu; now they flow through LLM intent classification first. Analytics bug fixed (`10ce572`) — `intent_confidence` now reports real values rather than fabricated numbers.
+
+## WhatsApp Magic-Link Auth
+
+Added 2026-04-19 (migration `0033_users_phone_index_and_wa_magic_link`). Flow:
+1. User messages Linda; phone number looked up against `users.phone`.
+2. On miss, Linda captures email.
+3. Magic link sent to email; confirmation links the WhatsApp number to the account.
+
+Preceded by account-type picker (Individual / Recruiter / Business) in the greeting flow for new users.
 
 ## Sentiment Analysis
 
@@ -191,6 +235,10 @@ Recruiter Dashboard > WhatsApp Apply provides a full application management suit
 - ~~Is the "Linda" branding visible in the codebase, or just in documentation?~~ **Resolved (2026-04-11):** Yes — `shared/schema.ts` sets `botName` default to `"Linda"`, and `server/whatsapp-bot.ts` uses the name in all 6 SA-language greetings. Commit `cfb71f7`.
 - What AI model powers the Live Assist co-pilot mode?
 - How does Application Inbox AI scoring integrate with the main platform's match scoring?
+- Does RAG-on-`wiki_pages` draw from the product wiki (this vault) or a codebase-internal `wiki_pages` table? If the latter, what seeds it?
+- Which AI provider (OpenAI / Claude / Gemini) powers each of Phase 1–6 operations?
+- What's the fallback rate now that intent AI is default-on — has it improved vs pre-Phase-1?
+- Are any of the 7 cron-based flow triggers active in production yet, or seeded-only?
 
 ## References
 
@@ -203,3 +251,4 @@ Recruiter Dashboard > WhatsApp Apply provides a full application management suit
 - [[02-concepts/compliance]] — POPIA consent in WhatsApp
 - Source: [[09-sources/whatsapp-bot-training-manual-2026-04-07]]
 - Source: [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]]
+- Source: [[09-sources/repo-sync-2026-04-20]] — Phase 0–6 AI expansion, Flow Builder Phase 2/3, magic-link auth

@@ -2,8 +2,8 @@
 title: "Chapter 6 — Running CV Review"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, cv, ai]
+updated: 2026-04-20
+tags: [how-to, individual, cv, ai, cv-review, bullet-writer]
 status: active
 user-types: [individual]
 ---
@@ -31,12 +31,20 @@ The feedback is *specific*. It points at the exact bullet point or section it ha
 
 ## Step 1 — Run the review
 
+### AI CV Review — _Tier: Metered — Standard: 3/mo · Premium: unlimited_
+
+**What this feature is.** AI CV Review is a section-by-section scoring of your CV — summary, experience, education, skills — with specific suggestions to strengthen weak bullets, add metrics, and remove fluff. Each run produces a numerical score plus a structured report you can act on directly.
+
+**Why it matters.** Most candidates rewrite their CV before every senior application, and the metering matches that cadence. The jump from a 62 to an 88 on your CV score is usually 2–3 rewrites with this tool — Standard's 3/month covers a focused rewrite cycle, Premium goes unlimited for people who tailor per-application.
+
+**How to use it.**
+
 1. Go to **CV Review** (`/dashboard/individual/cv-review`).
 2. Pick the CV you want reviewed. If you have more than one CV from Chapter 5, start with your default.
 3. Click **Run review**. The AI takes about 30 seconds to a minute to process.
 4. The review appears as a structured report with sections you can expand and collapse.
 
-> **Heads up:** CV Review may require credits or a paid plan depending on your subscription tier. If you hit a paywall, that's why.
+Standard gives you 3 reviews per month, Premium is unlimited. Free tier users can't run the review at all — the upgrade prompt appears when you click Run.
 
 ## Step 2 — Read the review properly
 
@@ -56,6 +64,23 @@ Open My CVs in another tab. Edit the CV directly. Common changes you'll make:
 - **Quantify bullet points.** Where you wrote "Managed customer support team," add the team size, the volume of tickets, or the metric you owned. If you don't remember the exact number, use a defensible estimate.
 - **Add missing keywords.** If the AI says your CV is missing terms a recruiter would search for, work them in *naturally* — don't keyword-stuff. One mention each, in context.
 - **Fix the ATS-breaking formatting.** Tables, text boxes, headers/footers, columns, and fancy fonts can confuse ATS parsers. The AI will tell you which ones to remove.
+
+The bullet-quantification step is the one most people fumble. There's a separate tool for that.
+
+### Resume Bullet Writer — _Tier: Standard_
+
+**What this feature is.** Resume Bullet Writer rewrites vague experience bullets — "Managed social media" — into impact bullets — "Grew LinkedIn followers 340% in 6 months, driving 42 qualified inbound leads" — using your actual details. You feed it the weak bullet plus any context you have, and it returns a tighter, results-led version.
+
+**Why it matters.** The difference between a CV that gets interviews and one that doesn't is the bullets — specifically whether they show impact in numbers. Most candidates know their bullets are weak but freeze when asked to rewrite them. This tool unsticks that, transforming average CVs into ones that actually generate interviews.
+
+**How to use it.**
+
+1. Inside CV Review, when a bullet gets flagged as weak, look for the **Rewrite this bullet** action — that opens Bullet Writer with the bullet pre-loaded.
+2. Add any extra context the AI doesn't have (the actual numbers, the team size, the specific outcome). The more truth you give it, the better the rewrite.
+3. Pick from the suggested rewrites, or use one as a starting point and edit. Paste the final version back into your CV.
+4. Repeat for every weak bullet in the same review pass — don't switch contexts back and forth.
+
+You can also call Bullet Writer directly from My CVs without going through Review, but pairing the two is faster.
 
 ## Step 4 — Re-run the review
 
@@ -97,14 +122,22 @@ Be aware of the limits:
 - [ ] Ran CV Review on at least one CV
 - [ ] Read the feedback properly, end to end
 - [ ] Made at least three substantive edits based on the feedback
+- [ ] Used Bullet Writer to rewrite at least two weak bullets
 - [ ] Re-ran the review and confirmed the issues are addressed
 - [ ] You feel comfortable that your CV would survive a 15-second recruiter scan
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | AI CV Review | Metered — Standard: 3/mo · Premium: unlimited |
+| 2 | Resume Bullet Writer | Standard |
+
 ## Next chapter
 
-[[16-how-tos/individual/07-skills-credentials-video|Chapter 7 — Adding skills, credentials, and a video intro]]
+[[01 How-To Documents/individual/07-skills-credentials-video|Chapter 7 — Adding skills, credentials, and a video intro]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities
-- [[16-how-tos/individual/05-uploading-a-cv|Chapter 5]] — Where your CV came from
+- [[01 How-To Documents/individual/05-uploading-a-cv|Chapter 5]] — Where your CV came from

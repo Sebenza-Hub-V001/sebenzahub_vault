@@ -2,15 +2,15 @@
 title: "Chapter 24 — WhatsApp at scale"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, whatsapp, communication, popia]
+updated: 2026-04-20
+tags: [how-to, recruiter, whatsapp, communication, popia, whatsapp-apply, campaigns]
 status: draft
 user-types: [recruiter]
 ---
 
 # Chapter 24 — WhatsApp at scale: Apply, Command Center, Campaigns
 
-WhatsApp is how South Africans communicate. Email response rates here are 20–30%. WhatsApp response rates are 60–80%. If you're recruiting in South Africa and not using WhatsApp seriously, you're competing with one hand tied behind your back. Sebenza Hub takes WhatsApp seriously — there are **16 dedicated WhatsApp tabs** in the recruiter dashboard, more than any other single feature category. This chapter explains the three you'll use most.
+WhatsApp is how South Africans communicate. Email response rates here are 20–30%. WhatsApp response rates are 60–80%. If you're recruiting in South Africa and not using WhatsApp seriously, you're competing with one hand tied behind your back. Sebenza Hub takes WhatsApp seriously — there are **16 dedicated WhatsApp tabs** in the recruiter dashboard, more than any other single feature category. This chapter explains the three you'll use most: **WhatsApp-First Apply** (the application channel), the Command Center (your conversation hub), and **WhatsApp Campaigns** (bulk outreach). Two related features — WhatsApp Job Distribution (Chapter 11) and WhatsApp Messages (Chapter 22) — get brief callbacks below.
 
 ## Where it lives
 
@@ -34,6 +34,14 @@ WhatsApp for recruiting is **not** the same as personal WhatsApp on your phone. 
 > ⚠️ **The biggest WhatsApp risk for recruiters is messaging without consent.** Sending an unsolicited "we have a role for you" WhatsApp to a candidate who hasn't opted in violates POPIA, violates WhatsApp's terms, and can get your account suspended. Always check the `whatsappConsent` flag on a contact before sending.
 
 ## 1. WhatsApp Apply
+
+### WhatsApp-First Apply — _Tier: Premium_
+
+**What this feature is.** A WhatsApp-based job application flow in 6 SA languages with structured screening questions — candidates apply by chatting, not by filling a web form.
+
+**Why it matters.** Millions of SA candidates have WhatsApp and a smartphone but no email discipline. WhatsApp-first unlocks a pool that competitors on email-only workflows literally can't reach — entry-level, hospitality, retail, blue-collar trades, informal sectors.
+
+**How to use it.** Enable on a job from its screening configuration (Chapter 15). The job listing shows an **Apply via WhatsApp** button alongside the standard apply button. The rest of this section walks through how the flow runs.
 
 WhatsApp Apply lets candidates apply for a job by sending a WhatsApp message instead of filling out an application form. For high-volume roles where the candidate pool is mobile-first (entry-level, hospitality, retail, blue-collar trades), this is a step change in application volume.
 
@@ -89,6 +97,14 @@ When you go on leave, mark yourself unavailable in the Command Center settings. 
 
 ## 3. WhatsApp Campaigns — `/dashboard/recruiter/whatsapp-campaigns`
 
+### WhatsApp Campaigns — _Tier: Premium_
+
+**What this feature is.** Send recruitment campaigns and updates via WhatsApp to segmented candidate audiences — talent pools, custom filters, uploaded lists.
+
+**Why it matters.** WhatsApp is the dominant channel for reaching SA candidates, especially blue-collar and younger demographics. Campaign capability turns recruitment into a marketing discipline that reaches people where they actually read.
+
+**How to use it.** Build the campaign in `/dashboard/recruiter/whatsapp-campaigns` (full walkthrough below). Always use a WhatsApp-approved template. Always include opt-out language. Always send in business hours, never weekends.
+
 Campaigns are bulk WhatsApp messages sent to a target audience — your equivalent of an email blast, but on the channel where people actually read.
 
 ### What you can broadcast
@@ -127,6 +143,13 @@ When a candidate opts out, the platform:
 4. Logs the opt-out in the audit trail
 
 You cannot manually re-add someone who opted out. They have to explicitly opt back in via a fresh message.
+
+## Cross-references to other WhatsApp features
+
+Two WhatsApp features live in adjacent chapters — they're part of the same channel strategy but their primary home is elsewhere:
+
+- **WhatsApp Job Distribution (Chapter 11).** Pushes new job postings out via WhatsApp to candidates in your relevant talent pools. Covered in detail in the job-posting chapter; mentioned here because every WhatsApp campaign benefits from a healthy distribution-list base built by that feature.
+- **WhatsApp Messages (Chapter 22).** Generates mobile-friendly WhatsApp messages for individual outreach (not bulk). Covered in the Unified Inbox chapter; relevant here as the per-conversation tool that pairs with Campaigns for bulk and Command Center for management.
 
 ## Best practices for WhatsApp recruitment
 
@@ -191,19 +214,28 @@ You'll touch most of these only when configuring or troubleshooting. Day-to-day,
 
 - [ ] You understand the difference between template messages and session messages
 - [ ] You only message candidates with `whatsappConsent: true`
-- [ ] You've enabled WhatsApp Apply on at least one high-volume role (or know how to)
+- [ ] You've enabled WhatsApp-First Apply on at least one high-volume role (or know how to)
 - [ ] You can find and reply to a WhatsApp conversation in the Command Center
 - [ ] You've read and understood the cost-per-message reality
 - [ ] You always include opt-out language in campaigns
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 173 | WhatsApp-First Apply | Premium |
+| 244 | WhatsApp Campaigns | Premium |
+| 88 | WhatsApp Job Distribution | (covered in detail in Chapter 11) |
+| 245 | WhatsApp Messages | Standard (covered in detail in Chapter 22) |
+
 ## Next chapter
 
-[[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
+[[01 How-To Documents/recruiter/25-reading-your-analytics|Chapter 25 — Reading your analytics]]
 
 ## References
 
 - [[02-concepts/whatsapp-integration]] — WhatsApp Business API architecture
 - [[02-concepts/compliance]] — POPIA consent requirements for messaging
-- [[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
-- [[16-how-tos/recruiter/23-templates-sequences-chatbot|Chapter 23 — Templates, sequences, and the chatbot]]
-- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[01 How-To Documents/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
+- [[01 How-To Documents/recruiter/23-templates-sequences-chatbot|Chapter 23 — Templates, sequences, and the chatbot]]
+- [[01 How-To Documents/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

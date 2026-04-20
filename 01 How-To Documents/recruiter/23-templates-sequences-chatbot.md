@@ -2,8 +2,8 @@
 title: "Chapter 23 — Email templates, sequences, and the chatbot"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, templates, sequences, automation, chatbot]
+updated: 2026-04-20
+tags: [how-to, recruiter, templates, sequences, automation, chatbot, re-engagement]
 status: draft
 user-types: [recruiter]
 ---
@@ -11,6 +11,8 @@ user-types: [recruiter]
 # Chapter 23 — Email templates, sequences, and the chatbot
 
 The Unified Inbox (Chapter 22) is where you read and reply. **This** chapter is where you stop typing the same things over and over. Templates turn repeated messages into one-click sends. Sequences turn multi-touch outreach into automated flows. The chatbot handles the "always-on" channel candidates expect today. Together, these three tools recover hours per week from your day.
+
+The primary feature for this chapter is **Email Sequences** — the multi-touch automation engine. Two related features get brief callbacks: Candidate Re-Engagement (covered in detail in Chapter 13) feeds candidates into your dormant sequences; the AI Screening Chatbot (Chapter 17) is the conversational layer of this same automation philosophy applied to the screening stage.
 
 ## Where it lives
 
@@ -68,6 +70,14 @@ These cover 80% of your daily messaging. The other 20% is genuinely personal and
 
 ## 2. Sequences
 
+### Email Sequences — _Tier: Premium_
+
+**What this feature is.** Automated multi-touch email campaigns with conditional branches based on candidate response — Day 0 first touch, Day 4 follow-up, Day 10 final touch, branching on responded / opened-but-didn't-respond / cold.
+
+**Why it matters.** 60% of candidate responses happen after email 3. Sequences automate the multi-touch follow-ups recruiters know they should do but stop doing manually after the first week of a busy desk — which raises reply rates by 2–3×.
+
+**How to use it.** Build a sequence in `/dashboard/recruiter/sequences` (full walkthrough below). Enroll candidates from the Pipeline, from a talent pool (Chapter 14), or via a workflow automation rule. Always set the exit rules so the sequence pauses the moment a candidate replies.
+
 A **sequence** is a multi-step series of messages sent automatically over time. Where a template is a single message, a sequence is a campaign — Day 0 first touch, Day 4 follow-up, Day 10 final touch, with exit rules that pause the sequence when the candidate responds.
 
 ### Why sequences matter
@@ -113,9 +123,17 @@ Once a sequence exists, you enroll candidates in it from:
 
 Active sequences count against your plan limit (Chapter 4.5). Each plan caps how many sequences can be running concurrently. The right strategy: keep 3–5 always-on sequences for your common scenarios (passive outreach, post-interview follow-up, dormant re-engagement) and rotate one-off sequences in and out as needed.
 
+### Cross-reference: Candidate Re-Engagement (Chapter 13)
+
+The dormant re-engagement sequence is one of the highest-ROI sequences you'll run, and it's powered by the **Candidate Re-Engagement** feature (Standard tier) covered in detail in Chapter 13. It generates the messaging strategy for past candidates who fit a new role; you wire that strategy into a sequence here.
+
 ## 3. The chatbot — `/dashboard/recruiter/chatbot`
 
 The chatbot is the conversational AI you can deploy on your career site (Chapter 29). It greets visitors, answers FAQs, helps them search jobs, captures applications, and routes complex queries to a recruiter.
+
+### Cross-reference: AI Screening Chatbot (Chapter 17)
+
+This career-site chatbot is distinct from the **AI Screening Chatbot** (Standard tier) used inside the screening flow itself, which is covered in Chapter 17. The career-site chatbot is for visitors browsing jobs; the screening chatbot qualifies candidates after they apply. Different conversations, different configurations.
 
 ### What the chatbot does well
 
@@ -190,20 +208,28 @@ There's a temptation to automate everything. Resist. Over-automation creates a f
 ## Checklist
 
 - [ ] You've built at least 5 of the 10 essential templates
-- [ ] You've created at least one sequence with proper exit rules
+- [ ] You've created at least one Email Sequence with proper exit rules
 - [ ] You understand which features are metered (active sequences, AI automation runs)
 - [ ] If you have a career site, the chatbot is configured for your common FAQs
 - [ ] You have at least 2 workflow automation rules active
 - [ ] You're not over-automating personal outreach
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 171 | Email Sequences | Premium |
+| 172 | Candidate Re-Engagement | Standard (covered in detail in Chapter 13) |
+| 119 | AI Screening Chatbot | Standard (covered in detail in Chapter 17) |
+
 ## Next chapter
 
-[[16-how-tos/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
+[[01 How-To Documents/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI tone analysis and template suggestions
 - [[02-concepts/compliance]] — POPIA opt-out requirements for sequences
-- [[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
-- [[16-how-tos/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
-- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[01 How-To Documents/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
+- [[01 How-To Documents/recruiter/24-whatsapp-at-scale|Chapter 24 — WhatsApp at scale]]
+- [[01 How-To Documents/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

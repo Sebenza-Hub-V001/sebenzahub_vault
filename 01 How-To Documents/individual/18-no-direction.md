@@ -2,8 +2,8 @@
 title: "Chapter 18 — I don't know what to apply for"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, troubleshooting, career]
+updated: 2026-04-20
+tags: [how-to, individual, troubleshooting, career, ai-coaching, career-path, story-builder, search-strategy]
 status: active
 user-types: [individual]
 ---
@@ -29,115 +29,102 @@ All of these are real. None of them are "you should already know."
 
 ## The four tools that actually help
 
-Sebenza Hub has four features that, used in order, can move you from drift to direction:
+Sebenza Hub has four features that, used in sequence, can move you from drift to direction:
 
-1. **Career Path** — visualises where your current experience can go next
-2. **Career Pulse** — gives you a real-time read on your career health
-3. **Tests** — surfaces strengths you can lean into
-4. **AI Coaching** — structured conversation to help you decide
+1. **AI Career Coaching** — structured conversation to surface what you actually want
+2. **Career Story Builder** — turns the fragments of your past into one coherent narrative
+3. **Career Path Mapping** — projects where that narrative could plausibly go next
+4. **Job Search Strategy** — converts the chosen direction into a concrete 30/60/90 plan
 
 Use them in roughly this order. None of them gives you a single answer; together they narrow the field enough to make a decision.
 
-## Tool 1 — Career Path
+## Tool 1 — AI Career Coaching (start here)
 
-Open **Career Path** (`/dashboard/individual/career-path`). The platform takes your current role, experience, and skills and maps out plausible *next* roles you could realistically move into.
+Open **Coaching** (`/dashboard/individual/coaching`). This is the most important tool in this chapter, and people skip it because it feels too soft. Use it first — the other three tools are sharper once coaching has surfaced what you actually want.
 
-What you'll see:
+### AI Career Coaching — _Tier: Metered (Standard: 5/mo · Premium: 25/mo)_
 
-- **Lateral moves** — same level, different role or industry
-- **Promotions** — next level in your current track
-- **Pivots** — adjacent careers that share skills with yours
-- **Stretch options** — roles you'd need to grow into
+**What this feature is.** A conversational AI coach that takes ad-hoc career questions — pivots, interview tactics, CV tweaks, salary strategy — with full context on your profile and target roles. It works the way a paid human career coach works, just on demand.
 
-For each option, the tool typically shows:
+**Why it matters.** Career coaches in Johannesburg charge R1,500–R3,000/hour and most candidates can't justify it. AI Career Coaching delivers most of the value at a fraction of the cost, which means you actually have the conversation instead of putting it off for another six months. Metering keeps the cost honest — you get enough sessions to make real progress without burning credits on small talk.
 
-- The skills you already have for that path
-- The skills you'd need to add
-- Typical salary range
-- Time horizon to make the move
+**How to use it.**
 
-### How to use it
-
-Don't pick the first option that looks appealing. Look at five or six and notice your reaction to each. Some will be exciting, some will be depressing, some will surprise you. **Your gut reactions are data.** Write them down.
-
-After looking at the options, ask yourself:
-
-- Which path felt energising even just to read about?
-- Which path felt like duty or obligation?
-- Are there options you didn't see that should be there?
-- Are there options the AI is showing you that don't make sense for *you*?
-
-The goal isn't to commit to a path on day one. The goal is to surface possibilities you weren't actively considering.
-
-## Tool 2 — Career Pulse
-
-Open **Career Pulse** (`/dashboard/individual/career-pulse`). This is a real-time signal about your career health. It looks at indicators like:
-
-- How active your search is
-- How your profile compares to others in your role
-- Market demand for your skills
-- Salary trajectory vs market
-- Application success patterns
-- Learning activity
-
-It's diagnostic, not prescriptive. It tells you where you stand, not what to do. But the patterns it surfaces can shift your sense of where you actually are versus where you think you are.
-
-For example: you might believe your skills are in demand but Career Pulse shows the demand has been declining for two years. That's something to factor into the path decision.
-
-## Tool 3 — Tests
-
-Open **Tests** (`/dashboard/individual/tests`). These are skill assessments. Most people use them to verify skills they already know they have (Chapter 7), but they also have a less obvious use: finding out where you're stronger than you thought.
-
-If you're stuck on direction, take 2–3 tests in areas you're uncertain about. The results are concrete data — you either passed at the level you expected or you didn't. Both outcomes are useful:
-
-- Pass at a high level → that's a strength to lean into when picking a direction
-- Pass at a lower level → you have headroom but it's not yet a differentiator
-- Fail → not where to point yourself, at least not yet
-
-Test results also feed back into your Auto Match (Chapter 9) and your profile, so the work is double-counted.
-
-## Tool 4 — AI Coaching
-
-Open **Coaching** (`/dashboard/individual/coaching`). This is the most important tool in this chapter, and people skip it because it feels too soft.
-
-It's a structured conversation. The AI asks you questions about:
-
-- Where you are now
-- What you've enjoyed and not enjoyed in past roles
-- What constraints you're working with (location, money, timing, family)
-- What you want more of and less of
-- What you're afraid of
-
-It then helps you narrow toward a few specific paths, and often suggests concrete next steps — roles to look at, skills to develop, conversations to have.
-
-### How to use it well
-
-Treat it like a conversation with a coach who's never met you before:
-
-- **Be honest.** The tool can't help you if you only share the polished version. If you hate your industry, say so. If you're scared of change, say so.
-- **Don't expect a single answer.** Coaching is iterative. One session narrows things; three sessions over a couple of weeks narrows them further.
-- **Take notes.** The insights from coaching sessions fade fast. Write down what felt true.
-- **Bring the data from the other three tools.** When the coach asks "what energises you?", reference what you saw in Career Path. When it asks "what are you good at?", reference your Test results.
+1. Open **Coaching** and start a session. Be honest about where you are now, what you've enjoyed, what you haven't, what constraints you're working with, and what you're afraid of.
+2. Don't expect a single answer. Run two or three sessions over a couple of weeks — the second and third are sharper because you've sat with what came up in the first.
+3. Take notes between sessions. The insights fade fast.
+4. Bring data from the next three tools back into coaching as you go.
 
 ### What coaching can't do
 
 It can't make the decision for you. It can structure the question, surface options, challenge your assumptions, and suggest next steps. The decision is yours. Don't wait for the AI to tell you what to do — it won't.
 
+## Tool 2 — Career Story Builder (who you are)
+
+Once coaching has surfaced themes, the next problem is articulation. Most people stuck on direction can't explain their own past coherently, which makes any future direction feel arbitrary.
+
+### Career Story Builder — _Tier: Standard_
+
+**What this feature is.** Career Story Builder crafts a coherent narrative from your experience — roles, gaps, pivots, freelance, full-time — and produces a story you can use in interviews, cover letters, and "tell me about yourself" openers.
+
+**Why it matters.** Fragmented career histories scare recruiters and, more importantly, scare *you* into picking directions that "make the CV look sensible" rather than directions that fit. A coherent story makes the same facts look intentional and strategic, which frees you to choose the next chapter on real grounds rather than defensive ones.
+
+**How to use it.**
+
+1. Open **Career Story** (linked from Coaching or accessible under your profile tools).
+2. Let it pull from your CV and profile, then review the draft narrative it produces.
+3. Edit until it actually sounds like you and like a story you could defend in an interview.
+4. Save it — you'll reuse it in Cover Letter Generator (Chapter 11) and elevator pitch work (Chapter 21).
+
+## Tool 3 — Career Path Mapping (where you could go)
+
+Now that you have a story, look at where it can plausibly go.
+
+### Career Path Mapping — _Tier: Standard_
+
+**What this feature is.** Career Path Mapping draws a 5–10 year progression from your current role, with intermediate steps, typical timelines, the skills required at each step, and projected salary at each level. It surfaces lateral moves, promotions, pivots, and stretch options.
+
+**Why it matters.** Career ambition without a map is wishful thinking. Turning "I want to be a Head of Engineering" into "here are the four steps, seven years, and six skills to get there" turns drift into a sequence you can actually execute against — and lets you compare two paths side by side rather than guessing.
+
+**How to use it.**
+
+1. Open **Career Path** (`/dashboard/individual/career-path`).
+2. Browse five or six options. Don't pick the first that looks appealing — note your gut reaction to each. Excitement, dread, surprise are all data.
+3. For the two or three you'd seriously consider, compare the skills you already have against the skills you'd need to add.
+4. Pick the path you can give a positive reason for — not the one left after eliminating others.
+
+## Tool 4 — Job Search Strategy (what to do this week)
+
+You have a direction. Now turn it into action — without this last step the previous three are just a journal entry.
+
+### Job Search Strategy — _Tier: Standard_
+
+**What this feature is.** Job Search Strategy generates a personalised action plan: which industries and companies to target, which skills to level up, and how to spend the next 30, 60, and 90 days. It converts insight into a checklist.
+
+**Why it matters.** Unemployed and stuck candidates often work on the wrong things — updating their CV for the fifth time instead of networking, taking a fourth course instead of applying. A plan beats "try harder" every time, and a plan tied to a specific direction beats a generic plan.
+
+**How to use it.**
+
+1. Open **Job Search Strategy** and feed in the direction you settled on after Career Path.
+2. Review the 30/60/90 plan it produces. Edit anything that doesn't fit your real life (school runs, current job hours, energy levels).
+3. Put the week-1 actions on your calendar today, not "soon".
+4. Re-generate the plan when something material changes — a new constraint, a new opportunity, a course completed.
+
 ## A practical sequence
 
 Block 90 minutes for this. Do it once, properly:
 
-1. **15 min** — Career Path. Browse options. Note your gut reactions.
-2. **10 min** — Career Pulse. Read the signals. Adjust your sense of where you stand.
-3. **20 min** — Tests. Take one or two in uncertain areas. Read the results.
-4. **30 min** — AI Coaching. Bring everything you learned in the first three steps. Have the conversation.
-5. **15 min** — Write down: three roles or directions you'd be willing to pursue, in priority order. Don't try to pick one — three is fine.
+1. **30 min** — AI Career Coaching. Be honest. Take notes.
+2. **15 min** — Career Story Builder. Get the narrative draft into a shape you'd defend.
+3. **20 min** — Career Path Mapping. Browse five options. Note gut reactions.
+4. **15 min** — Job Search Strategy. Generate a 30/60/90 plan for the strongest path.
+5. **10 min** — Write down: three roles or directions you'd be willing to pursue, in priority order. Don't try to pick one — three is fine.
 
 After the session, sit with it for a few days. Then come back and:
 
 1. Update your **target job title** in onboarding/profile to reflect option #1
 2. Update your **skills list** to emphasise what option #1 needs
-3. Set up a **saved search** for option #1
+3. Set up a **saved search** for option #1 (Chapter 10)
 4. Apply to a couple of jobs in that direction and see how it feels
 
 If option #1 doesn't feel right after a couple of applications, try option #2. The point of having three is that you can iterate without going back to square one.
@@ -146,7 +133,7 @@ If option #1 doesn't feel right after a couple of applications, try option #2. T
 
 - **Don't quit the platform and "think about it" for six months.** Drift compounds.
 - **Don't pick a direction by elimination only.** ("I hate everything else, so this must be right.") Pick something you can give a positive reason for.
-- **Don't follow advice that's not for you.** Generic career advice ("learn to code", "become a manager") rarely fits real situations. Use the data from Career Pulse and your own gut, not Twitter.
+- **Don't follow advice that's not for you.** Generic career advice ("learn to code", "become a manager") rarely fits real situations. Use the data from these four tools and your own gut, not Twitter.
 - **Don't decide while you're at your worst.** If you've just been laid off or had a bad week, give it a few days before locking in a direction.
 
 ## When to come back to this chapter
@@ -158,19 +145,28 @@ If option #1 doesn't feel right after a couple of applications, try option #2. T
 
 ## Checklist
 
-- [ ] Explored Career Path and noted at least two viable next roles
-- [ ] Read Career Pulse and adjusted your sense of where you stand
-- [ ] Took at least one Test that surfaced new information
-- [ ] Had at least one AI Coaching session, honestly
+- [ ] Ran at least one honest AI Career Coaching session
+- [ ] Built a Career Story you'd defend in an interview
+- [ ] Browsed Career Path Mapping and noted at least two viable next roles
+- [ ] Generated a Job Search Strategy 30/60/90 plan for option #1
 - [ ] Wrote down three directions in priority order
 - [ ] Updated your job preferences based on what you learned
 - [ ] You have a plan you can act on this week
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 22 | AI Career Coaching | Metered (Standard: 5/mo · Premium: 25/mo) |
+| 44 | Career Story Builder | Standard |
+| 25 | Career Path Mapping | Standard |
+| 36 | Job Search Strategy | Standard |
+
 ## Next chapter
 
-[[16-how-tos/individual/19-level-up|Chapter 19 — "I need to level up my skills"]]
+[[01 How-To Documents/individual/19-level-up|Chapter 19 — "I need to level up my skills"]]
 
 ## References
 
 - [[03-workflows/individual-journey]] — Career Development track
-- [[16-how-tos/individual/21-career-dna|Chapter 21]] — Once you know your direction, Career DNA tunes the matching
+- [[01 How-To Documents/individual/21-career-dna|Chapter 21]] — Once you know your direction, Career DNA tunes the matching

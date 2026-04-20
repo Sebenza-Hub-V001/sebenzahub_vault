@@ -2,8 +2,8 @@
 title: "Chapter 12 — Tracking applications and follow-ups"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, applications, tracking]
+updated: 2026-04-20
+tags: [how-to, individual, applications, tracking, application-tracking, analytics-dashboard]
 status: active
 user-types: [individual]
 ---
@@ -13,6 +13,20 @@ user-types: [individual]
 You've started applying. Within a couple of weeks you'll have somewhere between five and twenty live applications, each one in a different stage, with different people, on different timelines. Without a system, you will lose track. With a system, you'll know exactly where things stand and when to nudge.
 
 This is the chapter where Sebenza Hub stops being a job board and starts being a CRM for your own job hunt. Use it.
+
+## The base feature: Application Tracking
+
+Before you get into the kanban boards and analytics, the foundation is the simple status list — every application you've made, where it sits today, what the recruiter has done with it.
+
+### Application Tracking — _Tier: Free_
+
+**What this feature is.** Application Tracking is a status list of every job you've applied to, showing the recruiter's pipeline stage for each one — received, reviewed, shortlisted, interviewed, rejected, offered. The same record is visible to both you and the recruiter, so the status you see is the actual status, not a guess.
+
+**Why it matters.** Job seekers apply to dozens of roles in parallel, and losing track means missed interviews and rescinded offers. Keeping tracking on the Free tier is a trust signal — Sebenza Hub gets paid when you get hired, not when you click apply, and the tracker is the proof of that. Without this, the platform would be just another job board.
+
+**How to use it.** Open **My Applications** (`/dashboard/individual/applications`) — the flat list view. Sort by date, status, or company. Click into any application to see full detail and history. This view is your daily ground truth; everything else in this chapter is built on top of it.
+
+> **Cross-reference:** The **Application Portal** (kanban view of the same data) is covered in Chapter 11 as a Standard feature. This chapter focuses on what you do with the data once you can see it.
 
 ## The pages you'll be living in
 
@@ -131,6 +145,14 @@ A few things to know:
 
 ## Application Analytics
 
+### Analytics Dashboard (Individual) — _Tier: Standard_
+
+**What this feature is.** The Analytics Dashboard tracks trends over time across your job hunt: application-to-response ratio, interview-to-offer conversion, skill-test percentiles, and how many recruiters have viewed your profile. Every metric is benchmarked so a number means something — "12% response rate" tells you whether you're above or below the typical Standard candidate in your role band.
+
+**Why it matters.** Data turns a frustrating, vibes-based job search into a diagnosable problem. "You got 40 profile views but no responses — your CV isn't matching" is far more actionable than guessing why nothing's working. Most candidates spend months making the same mistakes invisibly; the dashboard makes the mistakes visible enough to fix.
+
+**How to use it.**
+
 Open **Application Analytics** (`/dashboard/individual/application-analytics`) once you have at least 10 applications. Before that, the data is too thin to be useful.
 
 It shows:
@@ -168,11 +190,20 @@ This takes less than 20 minutes and prevents the "I have no idea where any of my
 
 ## Checklist
 
+- [ ] Visited My Applications and confirmed every application is showing the correct status
 - [ ] Visited the Application Tracker and identified each application's stage
 - [ ] Set follow-up reminders for any application stuck in `Applied` for more than a week
 - [ ] Added a personal note to at least one application
 - [ ] Replied to any messages in your Inbox
+- [ ] (Standard+) Opened Application Analytics once you have 10+ applications
 - [ ] You have a weekly tracking ritual you'll actually stick to
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | Application Tracking | Free |
+| 2 | Analytics Dashboard (Individual) | Standard |
 
 ## Part 3 complete
 
@@ -180,10 +211,10 @@ You've found jobs, applied to them, and put a tracking system in place. You know
 
 ## Next chapter
 
-[[16-how-tos/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]
+[[01 How-To Documents/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Status enum, full pipeline
 - [[03-workflows/individual-journey]] — Step 5 (Track Applications)
-- [[16-how-tos/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]
+- [[01 How-To Documents/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]

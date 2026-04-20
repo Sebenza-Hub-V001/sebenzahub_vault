@@ -2,15 +2,15 @@
 title: "Chapter 21 — Recording a placement and revenue"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, placement, revenue, kpi]
+updated: 2026-04-20
+tags: [how-to, recruiter, placement, revenue, kpi, background-checks, placement-analytics]
 status: draft
 user-types: [recruiter]
 ---
 
 # Chapter 21 — Recording a placement and revenue
 
-The candidate accepted the offer. This is the moment your work pays off — both literally (you've earned a placement fee) and structurally (the placement record is what feeds your KPI Dashboard, your retention tracking, your trust badges, and your client revenue history). This chapter walks through what happens when an acceptance lands and what *you* need to do to make sure the platform records it correctly.
+The candidate accepted the offer. This is the moment your work pays off — both literally (you've earned a placement fee) and structurally (the placement record is what feeds your KPI Dashboard, your retention tracking, your trust badges, and your client revenue history). This chapter walks through what happens when an acceptance lands, the analytics layer that turns placements into a defensible track record, and the late-stage background check that often gets ordered around acceptance.
 
 ## Where it lives
 
@@ -133,7 +133,25 @@ If a candidate signals they're unhappy at the 30-day check-in, act fast:
 
 A failed placement during guarantee is bad. A failed placement that surprises you because you weren't checking in is worse — it kills trust with the client.
 
+## Background Checks (often triggered at acceptance)
+
+### Background Checks — _Tier: Premium_
+
+**What this feature is.** Automated background verification and screening — ID, credit, criminal, qualification, employment, professional registration — through SA-relevant providers, with results flowing directly into the candidate record.
+
+**Why it matters.** SA corporate hires almost always require background checks; integration means the result flows into the pipeline instead of arriving as an emailed PDF that someone has to file. The Premium tier reflects the external verification cost.
+
+**How to use it.** From the placement record, click **Order checks** → pick the checks the client requires. Confirm POPIA consent (the platform handles the consent capture flow). Results land on the placement and the candidate record, with access logged in the audit trail. **Don't** export, email, or store these outside the platform — the data is sensitive.
+
 ## How placements feed your KPI Dashboard
+
+### Placement Analytics — _Tier: Standard_
+
+**What this feature is.** Tracks placement success rates, time-to-fill, time-to-start, fill rate, retention, and per-client / per-recruiter / per-sector performance metrics.
+
+**Why it matters.** Agencies' entire valuation is placement metrics. Dedicated analytics make those numbers visible at the desk, recruiter, and firm level — which is the difference between managing the business and guessing about it.
+
+**How to use it.** Open `/dashboard/recruiter/placement-analytics` (or the **Analytics** tab on `/placements`). The metrics that matter most: time-to-fill trend, retention rate at 90/180/365 days, submission-to-placement ratio, average fee per placement. Review weekly during high-activity months, monthly otherwise.
 
 `/dashboard/recruiter/kpi-dashboard` aggregates every placement into rolling metrics:
 
@@ -175,18 +193,26 @@ You'll have many submissions per placement — typically 10–20 submissions for
 - [ ] The actual start date (not the offer date) is set on the placement
 - [ ] You've created a post-hire onboarding checklist
 - [ ] You've verified the revenue line matches the engagement terms
+- [ ] Background checks have been ordered if the client requires them (and not before)
 - [ ] You have a 30 / 90 / 180 / 365-day check-in cadence planned
 - [ ] You know your submission-to-placement ratio and what's healthy for your sector
-- [ ] You review your KPI Dashboard at least weekly
+- [ ] You review your Placement Analytics and KPI Dashboard at least weekly
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 199 | Background Checks | Premium |
+| 208 | Placement Analytics | Standard |
 
 ## Next chapter
 
-[[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox and message management]]
+[[01 How-To Documents/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox and message management]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Where placement sits in the lifecycle
-- [[16-how-tos/recruiter/09-engagement-terms|Chapter 9 — Engagement terms (fee structure feeds revenue)]]
-- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (placements feed badges)]]
-- [[16-how-tos/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
-- [[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
+- [[01 How-To Documents/recruiter/09-engagement-terms|Chapter 9 — Engagement terms (fee structure feeds revenue)]]
+- [[01 How-To Documents/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (placements feed badges)]]
+- [[01 How-To Documents/recruiter/20-making-an-offer|Chapter 20 — Making an offer]]
+- [[01 How-To Documents/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]

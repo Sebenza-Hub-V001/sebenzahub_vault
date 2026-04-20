@@ -146,7 +146,7 @@ Screening:
 Shortlist candidates → move to Interview stage
 ```
 
-See [[01-entities/screening-system]] for details.
+Screening system details are covered in the internal wiki.
 
 ## Step 6: Interview
 
@@ -191,7 +191,7 @@ If negotiation → counter-offer rounds
 If declined → back to pipeline
 ```
 
-See [[01-entities/offer-system]] for full lifecycle details.
+Full offer-lifecycle details are in the internal wiki.
 
 ---
 
@@ -479,25 +479,21 @@ COMPLIANCE:     │      EE/POPIA   │       │       Audit     │       Offe
 
 | Stage | Interacts With |
 |-------|---------------|
-| Job posted | [[01-entities/individual-user]] (sees listing) + [[01-entities/recruiter-user]] (sees mandate) |
+| Job posted | Individual (sees listing) + Recruiter (sees mandate) |
 | Direct application | Individual |
 | Recruiter submission | Recruiter (vendor) |
 | Interview | Individual (candidate) |
 | Offer | Individual + internal approvers |
-| Vendor management | [[01-entities/recruiter-user]] |
-| Platform moderated | [[01-entities/admin-user]] |
+| Vendor management | Recruiter |
+| Platform moderated | Admin |
 
 ## References
 
-- [[01-entities/business-user]] — Full feature list and data model
-- [[01-entities/recruiter-user]] — Vendor agencies
-- [[01-entities/individual-user]] — Candidates
-- [[01-entities/offer-system]] — Offer lifecycle
-- [[01-entities/screening-system]] — Screening tools
 - [[02-concepts/application-lifecycle]] — Pipeline stages
 - [[02-concepts/multi-tenancy]] — Organization model
 - [[02-concepts/rbac]] — Permission system
 - [[02-concepts/compliance]] — POPIA, B-BBEE, Employment Equity
 - [[02-concepts/ai-features]] — AI tools for Business
 - [[02-concepts/billing-system]] — Billing architecture
-- [[09-sources/business-journey-gap-analysis-2026-04-08]] — Gap analysis that prompted this rewrite
+- Full feature lists for Business, Recruiter, Individual user types, the offer lifecycle, and the screening system are covered in the internal wiki.
+- Internal source: business journey gap analysis (2026-04-08) — gap analysis that prompted this rewrite

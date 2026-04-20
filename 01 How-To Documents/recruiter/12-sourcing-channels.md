@@ -2,8 +2,8 @@
 title: "Chapter 12 — Sourcing channels"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, sourcing, ai-search, talent-discovery]
+updated: 2026-04-20
+tags: [how-to, recruiter, sourcing, ai-search, talent-discovery, candidate-search, talent-pool, market-pulse, linkedin]
 status: draft
 user-types: [recruiter]
 ---
@@ -26,15 +26,101 @@ All eight tools answer the same question — "where is the next candidate for th
 
 The right order for any new role is **inside-out**: search your existing data first (cheap, instant, candidates already know you), then expand to cold sourcing (slower, more expensive, candidates are starting from zero with you).
 
-## 1. AI Search — your database, in plain English
+## 1. Search your existing database
+
+Before any cold sourcing, search what you already have. Sebenza Hub layers four search features for the database — pick the right one for the depth you need.
+
+### Basic Candidate Search — _Tier: Free_
+
+**What this feature is.** Basic Candidate Search uses simple filters — keyword, location, role type, experience level — to query your candidate database. The starting-point search every recruiter has access to.
+
+**Why it matters.** Every recruiter needs candidate search to evaluate the platform at all. Free basic search is the conversion tool — power users hit its limits within a week and upgrade to Advanced.
+
+**How to use it.** Open `/dashboard/recruiter/candidates`, set the filters, run the search. If you find yourself wishing for boolean operators or skill weighting, you've outgrown Basic — move to Advanced.
+
+### Advanced Candidate Search — _Tier: Standard_
+
+**What this feature is.** Advanced Candidate Search adds full-text search, AI-powered match scoring across skills, experience, education, and certifications, plus boolean operators for power users.
+
+**Why it matters.** Basic search surfaces 500 possible matches; Advanced narrows to the 20 actual candidates worth contacting. For any desk doing real volume, the time savings alone justify the Standard tier.
+
+**How to use it.** Same `/dashboard/recruiter/candidates` page — Advanced filters appear once you're on Standard. Use boolean (`Python AND (fintech OR banking) NOT junior`) for precision, or AI Hybrid Search below for natural language.
+
+### Full Candidate Database Access — _Tier: Premium_
+
+**What this feature is.** Full Candidate Database Access removes the visibility cap on the candidate database — Premium users can search and contact passive candidates not actively applying, in addition to the active pool.
+
+**Why it matters.** Passive candidates are the top 20% of the market; active ones are the bottom 80%. Full access is the feature agencies running retained-search desks pay for, because the senior candidates worth placing are almost never actively looking.
+
+**How to use it.** With Premium active, the candidate search includes a **Passive** filter alongside the standard active filter. Treat passive results with care — outreach has to be more personalised, and consent rules still apply (Chapter 27).
+
+### AI Hybrid Search — _Tier: Standard_
+
+**What this feature is.** AI Hybrid Search combines AI semantic understanding with keyword matching — it finds candidates whose profiles use different words for the same concept ("Python dev" vs "backend engineer") while still respecting hard filters like location and seniority.
+
+**Why it matters.** Pure keyword search misses semantic matches; pure semantic search returns too-broad results. Hybrid gets the best of both — it's the default search mode for any senior recruiter on the platform.
+
+**How to use it.** Toggle **Hybrid** at the top of the candidate search. The query box accepts natural language; the filter sidebar still applies hard constraints.
+
+### AI Job Search Parser — _Tier: Standard_
+
+**What this feature is.** AI Job Search Parser takes a natural-language query — *"senior Python dev in Cape Town open to hybrid"* — and translates it into structured filters automatically (skill: Python, seniority: senior, location: Cape Town, remote: hybrid).
+
+**Why it matters.** Junior recruiters never learn boolean syntax; senior recruiters forget which field is "location" vs "city". NL parsing removes the syntax tax and makes search faster for everyone — and surfaces a structured view of what the AI heard, so you can spot misinterpretations.
+
+**How to use it.** Open AI Search at `/dashboard/recruiter/ai-search`, type your request in plain English, and the parsed filters appear above the results. Adjust the filters if the AI got something wrong, then re-run.
+
+### Smart Search Suggestions — _Tier: Standard_
+
+**What this feature is.** Smart Search Suggestions surface AI-generated tweaks to improve a search — synonym additions, filter relaxations, alternative keywords — when the current query returns 0 or too few results.
+
+**Why it matters.** Most "0 results" searches are caused by one filter being too tight, but it's not always obvious which one. Suggestions tell you exactly which constraint to drop, converting dead-ends into live results without having to start the search over.
+
+**How to use it.** Suggestions appear automatically below the results panel when the result count is low. Click any suggestion to apply it and re-run the search.
+
+## 2. Saved searches and search-ops intelligence
+
+Once you have searches you run repeatedly, the platform layers diagnostic and intelligence features on top so the searches don't decay or blindside you when the market shifts.
+
+### Search Health Score — _Tier: Premium_
+
+**What this feature is.** Search Health Score grades each saved search on effectiveness — too narrow, too broad, missing common synonyms, gone stale — and prompts fixes so the same search keeps delivering good candidates as the database evolves.
+
+**Why it matters.** Recruiters set up a saved search once and never revisit it. Without scoring, the same search that returned 30 great candidates in January returns 5 mediocre ones by August and nobody notices. Health scoring catches the decay.
+
+**How to use it.** Open **Saved searches** in the candidate search page. Each saved search shows a health score; click into any one with a low score to see specific fixes (add synonym, broaden seniority, drop an outdated certification filter).
+
+### Search Market Pulse — _Tier: Premium_
+
+**What this feature is.** Search Market Pulse runs a market-pulse analysis on your saved-search criteria — candidate supply, demand pressure, median salary movement, geographic hotspots — over the last 30/90/180 days.
+
+**Why it matters.** Desks fail because the market moved, not because recruiters got worse at their jobs. Pulse surfaces those shifts early so the desk can pivot — a Cape Town fintech desk seeing a 22% supply drop should know in week 2, not in month 4 when billings crash.
+
+**How to use it.** From any saved search, click **Market pulse**. The report shows trend lines and highlights material shifts. Set up a monthly pulse review for your top 3–5 saved searches.
+
+### Competitive Heat Map — _Tier: Premium_
+
+**What this feature is.** Competitive Heat Map shows the competitive landscape for a given search profile — which other agencies and corporates are recruiting for similar candidates, in which locations, at what salary bands.
+
+**Why it matters.** You can't compete on offer if you don't know what competitors are offering. Heat mapping is the "market intelligence" that senior recruiters currently buy separately from specialist vendors — having it inline with your search saves both the cost and the context-switch.
+
+**How to use it.** From a search, click **Competitive heat map**. The map renders by location and shows competing employers, salary bands, and demand pressure. Use the insights when you advise a client on offer structure or talent timing.
+
+### Talent Pool Generator — _Tier: Standard_
+
+**What this feature is.** Talent Pool Generator turns a free-text criterion — *"12 SA civil engineers with Aconex experience in Cape Town"* — into a saved talent-pool shortlist in one prompt-driven step.
+
+**Why it matters.** Building pools manually is tedious and inconsistent across team members. AI generation compresses hours of search-save-tag work into a single prompt, and produces pools that are uniformly tagged and named so the team can actually find them again.
+
+**How to use it.** Open `/dashboard/recruiter/talent-pool`, click **Generate pool**, type the criteria. The pool appears with all matching candidates pre-loaded. Chapter 14 covers what to do with pools after generation.
+
+## 3. AI Search — putting it together
 
 **Page:** `/dashboard/recruiter/ai-search`
 
-AI Search lets you query your own candidate database in natural language. Instead of building Boolean filters or scrolling lists, you type a request and the AI retrieves the closest matches:
+The AI Search page brings the Hybrid Search, Search Parser, and Smart Suggestions features together into a single natural-language interface against your database. You type a request, the parser extracts structure, hybrid search runs, suggestions appear if the result set is thin.
 
-> *"Senior Python developers in Cape Town with fintech experience and at least 7 years"*
-
-The AI parses your request, searches across CVs, profiles, skills, sectors, locations, and seniority indicators, and returns a ranked list. Each result shows:
+Each result shows:
 
 - The candidate's name (or anonymised ID if blind hiring is on)
 - Match score (0–100)
@@ -56,9 +142,9 @@ The AI parses your request, searches across CVs, profiles, skills, sectors, loca
 
 - **Specific beats broad.** "Senior PHP developer" returns hundreds of mediocre matches. "Senior PHP developer with WooCommerce and PSP integration experience in Johannesburg" returns five excellent matches.
 - **Use the explain panel.** Each result has a "why this match" explanation — learn to read it. Sometimes AI Search includes a candidate for a reason that's wrong (an old CV, a stale skill tag), and the explanation reveals the bug.
-- **Save your searches.** Recurring needs (e.g. "senior backend devs in Cape Town") should be saved searches that surface new candidates as they're added to your database.
+- **Save your searches.** Recurring needs (e.g. "senior backend devs in Cape Town") should be saved searches that surface new candidates as they're added to your database — and then run a Search Health Score check on them quarterly.
 
-## 2. Talent Discovery — passive candidates outside your database
+## 4. Talent Discovery — passive candidates outside your database
 
 **Page:** `/dashboard/recruiter/talent-discovery`
 
@@ -84,19 +170,21 @@ The AI doesn't violate POPIA — it surfaces publicly-available signals. But eve
 - **High-volume junior roles** — far too slow and expensive per candidate. Use direct applications and AI Search.
 - **Roles where you need someone yesterday** — passive sourcing is a slow burn. It pays off over weeks, not days.
 
-## 3. Candidate Sourcing — multi-channel cold outreach
+## 5. Multi-channel cold outreach
 
-**Page:** `/dashboard/recruiter/candidate-sourcing`
+### Candidate Sourcing — _Tier: Standard_
 
-Candidate Sourcing is the multi-channel campaign tool. Where Talent Discovery helps you *identify* passive candidates, Candidate Sourcing helps you *reach them at scale* across email, LinkedIn, WhatsApp, and any integrated channel.
+**What this feature is.** Candidate Sourcing is the multi-channel sourcing and outreach toolset — LinkedIn, niche job boards, community channels — for reaching candidates outside your existing database. Where Talent Discovery helps you *identify* passive candidates, Candidate Sourcing helps you *reach them at scale*.
 
-The flow:
+**Why it matters.** Sourcing is the top-of-funnel activity that determines what recruiters can place. Built-in sourcing tools replace 3–4 separate point tools (LinkedIn Recruiter, separate sequence software, niche-board accounts) and keep the data unified in one Sebenza Hub pipeline.
 
-1. Build a target audience (filters or imported list)
-2. Craft a multi-step sequence (Day 0 cold message, Day 4 follow-up, Day 10 final touch)
-3. Pick channels per step (Day 0 email, Day 4 LinkedIn message, Day 10 WhatsApp if consent)
-4. Launch the sequence
-5. Track responses; reply rates feed back into your candidate engagement scores
+**How to use it.**
+
+1. Open `/dashboard/recruiter/candidate-sourcing`.
+2. Build a target audience (filters or imported list).
+3. Craft a multi-step sequence (Day 0 cold message, Day 4 follow-up, Day 10 final touch).
+4. Pick channels per step (Day 0 email, Day 4 LinkedIn message, Day 10 WhatsApp if consent).
+5. Launch the sequence; reply rates feed back into your candidate engagement scores.
 
 ### When to use it
 
@@ -108,6 +196,16 @@ The flow:
 
 - **Single-candidate outreach** — overkill. Just email them.
 - **Without POPIA-compliant consent** for the channels you're using. WhatsApp messages without opt-in are a legal risk; email is generally fine for B2B but check your scenario.
+
+## 6. LinkedIn as a sync target
+
+### LinkedIn Sync — _Tier: Premium_
+
+**What this feature is.** LinkedIn Sync pulls candidate profiles and leads from LinkedIn into Sebenza Hub, including enrichment of existing records (current role, latest activity, recent connections). It keeps your two systems in parity without you maintaining both manually.
+
+**Why it matters.** LinkedIn is still the top source for senior candidates. Sync means you don't have to choose between "the data lives on LinkedIn" and "the data lives in Sebenza Hub" — it lives in both, with Sebenza Hub as the system of record. The Premium tier reflects the LinkedIn API cost.
+
+**How to use it.** Connect your LinkedIn account in `/dashboard/recruiter/settings` → **Integrations**. Once connected, sync runs automatically — new leads from LinkedIn appear in your candidate database, and existing candidate records are enriched with current LinkedIn data. Chapter 13 covers the LinkedIn-specific lead-gen flow on top of this sync.
 
 ## The "first hour" sourcing routine
 
@@ -142,18 +240,38 @@ Watch your usage on `/dashboard/recruiter/billing` → Usage history. If you're 
 
 - [ ] You know which tool to reach for first on a new role (AI Search)
 - [ ] You've run at least one AI Search query to see how it performs against your data
+- [ ] You understand the difference between Basic, Advanced, Full DB Access, and Hybrid search
+- [ ] You've set up at least one saved search and run a Search Health Score check on it
 - [ ] You understand the difference between Talent Discovery (identify) and Candidate Sourcing (reach)
+- [ ] LinkedIn Sync is connected (Premium) or you've noted it for when you upgrade
 - [ ] You know your plan's caps on AI Search queries and active sequences
 - [ ] You're tagging new candidates so future searches find them
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | Basic Candidate Search | Free |
+| 2 | Advanced Candidate Search | Standard |
+| 3 | Full Candidate Database Access | Premium |
+| 4 | AI Hybrid Search | Standard |
+| 5 | AI Job Search Parser | Standard |
+| 6 | Smart Search Suggestions | Standard |
+| 7 | Search Health Score | Premium |
+| 8 | Search Market Pulse | Premium |
+| 9 | Competitive Heat Map | Premium |
+| 10 | Talent Pool Generator | Standard |
+| 11 | Candidate Sourcing | Standard |
+| 12 | LinkedIn Sync | Premium |
+
 ## Next chapter
 
-[[16-how-tos/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
+[[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities behind these tools
 - [[02-concepts/compliance]] — POPIA implications for cold outreach
-- [[16-how-tos/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
-- [[16-how-tos/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
-- [[16-how-tos/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
+- [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
+- [[01 How-To Documents/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+- [[01 How-To Documents/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

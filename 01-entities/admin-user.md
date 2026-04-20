@@ -2,9 +2,9 @@
 title: "Admin (Platform Operator)"
 type: entity
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-20
 tags: [user-type, admin, platform, operations]
-sources: [repo-audit-2026-04-07]
+sources: [repo-audit-2026-04-07, repo-sync-2026-04-20]
 status: active
 confidence: high
 ---
@@ -69,7 +69,10 @@ All Admin features live under `/admin/*`.
 | Job Aggregator | `/job-aggregator` | Aggregate jobs from Adzuna, CareerJet — see [[01-entities/job-aggregation]] |
 | Data Migration | `/data-migration` | Bulk data import/export tools |
 | Compliance Reports | `/compliance-reports` | Generate POPIA, B-BBEE, EE reports |
+| Pay Equity Dashboard | `/pay-equity` | Platform-wide pay equity surfaces (added 2026-04-19) |
 | WhatsApp | `/whatsapp` | WhatsApp integration administration — see [[01-entities/whatsapp-bot]] |
+| Hard-delete Users | (endpoint) | Hard-delete endpoint + `deleteUser` storage method (added 2026-04-19) |
+| Fraud Watchlist | `/fraud` | Watchlist entry updates now require a reason; usage tracking + quotas added (2026-04-16) |
 
 ## Data Model
 
@@ -146,3 +149,4 @@ The RBAC system (`/server/rbac.ts`) defines 40+ permissions across categories:
 - [[02-concepts/seo-strategy]] — SEO management
 - [[06-comparisons/user-type-comparison]] — Feature comparison
 - Source: [[09-sources/repo-audit-2026-04-07]]
+- Source: [[09-sources/repo-sync-2026-04-20]] — Platform pay-equity dashboard, hard-delete users, fraud watchlist quota tracking

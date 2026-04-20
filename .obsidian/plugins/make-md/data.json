@@ -44,11 +44,11 @@
     "//04-standards",
     "//16. Features",
     "//Tags",
-    "//13-raw/13-raw/data",
-    "//13-raw",
     "//13-raw/13-raw/screenshots",
     "//01 How-To Documents",
-    "/"
+    "/",
+    "//05-procedures",
+    "//01 How-To Documents/01 How-To Documents/individual"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

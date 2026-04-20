@@ -2,8 +2,8 @@
 title: "Chapter 6 — AI profile assets: DNA Card, Reputation Score, Trust Tier"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, ai, trust, reputation, badges]
+updated: 2026-04-20
+tags: [how-to, recruiter, ai, trust, reputation, badges, brand, marketing, content, market-analysis]
 status: draft
 user-types: [recruiter]
 ---
@@ -125,6 +125,73 @@ When a client opens the agency directory and clicks your profile, the layout (to
 
 The first three things they see are all AI-generated. Spending an hour on your description while ignoring your trust tier badges is the wrong priority order. **Earn the badges first; polish the narrative second.**
 
+## Turn the profile into a brand page
+
+The badges and scores above are the credibility layer. The next set of features is the *publishing* layer — they turn the same profile data into a public brand page, exportable content, written case studies, and a market analysis you can hand to clients.
+
+### AI Brand Page Generator — _Tier: Standard_
+
+**What this feature is.** AI Brand Page Generator builds the layout and copy of your employer brand page from your profile fields, website data, and any uploaded assets. It produces section structure, headlines, body copy, and image placement — a working brand page in minutes, not weeks.
+
+**Why it matters.** Brand pages sit empty because writing them is tedious. Generation populates them with baseline-quality content that's infinitely better than blank — and brand pages with content convert browsers to applicants at 2–3× the rate of skeleton pages.
+
+**How to use it.**
+
+1. Open `/dashboard/recruiter/profile` → **Brand page** tab.
+2. Click **Generate brand page**. The AI assembles a draft from your profile data.
+3. Edit any section — swap copy, reorder blocks, replace images.
+4. Preview, then publish. The page goes live at your public URL.
+
+### Public Company Page — _Tier: Standard_
+
+**What this feature is.** The Public Company Page is the externally accessible version of your brand page, served at a clean slug URL (e.g. `sebenzahub.co.za/agency/your-name`) that you can drop into emails, social bios, and proposals.
+
+**Why it matters.** Branded URLs get shared; system URLs don't. The slug matters for organic discovery, candidate trust, and the handful of moments when someone Googles your agency and lands on a Sebenza Hub-hosted page that you control.
+
+**How to use it.** In the Brand page tab, set your **public slug** to something short and recognisable (e.g. your agency name, no spaces). Toggle **Make public**. Test the URL in an incognito window to confirm it loads without a login.
+
+### Brand Content Export — _Tier: Standard_
+
+**What this feature is.** Brand Content Export lets you download the brand page content — copy, images, structured data — for use on your own website, LinkedIn, press releases, or proposals. Available in Markdown, HTML, and PDF.
+
+**Why it matters.** Brand work done on Sebenza Hub shouldn't be locked into Sebenza Hub. Export turns the platform into a content workshop for your wider recruitment marketing — the same blocks you publish here can populate your careers site or a client pitch deck without rewriting.
+
+**How to use it.** From the Brand page tab, click **Export** and pick a format. For LinkedIn, export the Markdown version and paste it into a Featured Article. For client decks, the PDF export drops in cleanly.
+
+## Build credibility content
+
+Brand pages bring people in. The content below is what convinces them to engage.
+
+### Case Study Builder — _Tier: Premium_
+
+**What this feature is.** Case Study Builder generates full recruitment case studies from your placement history — the brief, the search approach, the candidate journey, the result — with names anonymised and details client-safe. Each case study is a 1–2 page narrative built from data you've already captured.
+
+**Why it matters.** Case studies sell retained-search engagements. Building them manually takes half a day each, which is why most agencies have one outdated case study from 2022 and nothing newer. Generation makes case-study marketing scalable for the first time — you can publish a fresh one per quarter without it becoming a part-time job.
+
+**How to use it.**
+
+1. Go to **Brand page** → **Case studies** → **+ New case study**.
+2. Pick a placement from your history (the dropdown lists eligible recent placements).
+3. Tick which details to anonymise (candidate name, client name, exact salary).
+4. Generate. Edit the narrative until it reads true to your memory of the search.
+5. Publish to your brand page or export for external use.
+
+### Employer Brand Content — _Tier: Standard_
+
+**What this feature is.** Employer Brand Content generates blog posts, careers-site copy, social posts, and short campaign assets for talent attraction — tailored to your sector focus and brand tone.
+
+**Why it matters.** Recruitment marketing is a full-time role most agencies can't afford. Content generation lets a recruiter moonlight as the marketer without the quality collapse — you get on-brand content monthly instead of "we should do a blog one day" forever.
+
+**How to use it.** In the Brand page tab, open **Content** → **Generate**. Pick the format (blog post, social, careers-site block), give it a topic prompt, and pick a tone. Edit the draft, schedule or publish.
+
+### Recruiter Market Analysis — _Tier: Premium_
+
+**What this feature is.** Recruiter Market Analysis generates a market intelligence report for the sectors you specialise in — hot roles, salary movement, candidate supply trends, client hiring signals — drawn from platform-wide data filtered to your focus areas.
+
+**Why it matters.** Recruiters pitch themselves on market knowledge. Automated analysis keeps that knowledge current without you having to read three industry newsletters a week, and gives you a credible, branded report you can send to every client cold — the highest-leverage outbound asset on the platform for established recruiters.
+
+**How to use it.** Open **Brand page** → **Market analysis** → **Generate**. Pick your sectors and the analysis window (last quarter, last 6 months). The report renders as both a viewable page and an exportable PDF you can attach to client outreach.
+
 ## Checklist
 
 - [ ] Trust tier is at least **Silver** (LinkedIn verified + B-BBEE certificate uploaded)
@@ -133,14 +200,28 @@ The first three things they see are all AI-generated. Spending an hour on your d
 - [ ] Reputation Score is visible on your profile
 - [ ] Capacity Signal is set per sector and you have a weekly habit of updating it
 - [ ] Competitive Benchmarking has been run for your primary sector
+- [ ] AI Brand Page generated and published at a clean public slug
+- [ ] At least one case study generated and published
+- [ ] Recruiter Market Analysis generated for your top sector
+
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 1 | AI Brand Page Generator | Standard |
+| 2 | Public Company Page | Standard |
+| 3 | Brand Content Export | Standard |
+| 4 | Case Study Builder | Premium |
+| 5 | Employer Brand Content | Standard |
+| 6 | Recruiter Market Analysis | Premium |
 
 ## Next chapter
 
-[[16-how-tos/recruiter/07-team-setup|Chapter 7 — Team setup: members, roles, and approval chains]]
+[[01 How-To Documents/recruiter/07-team-setup|Chapter 7 — Team setup: members, roles, and approval chains]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities behind these assets
 - [[02-concepts/compliance]] — B-BBEE certification details
-- [[16-how-tos/recruiter/05-agency-profile|Chapter 5 — Your agency profile]]
-- [[16-how-tos/recruiter/07-team-setup|Chapter 7 — Team setup]]
+- [[01 How-To Documents/recruiter/05-agency-profile|Chapter 5 — Your agency profile]]
+- [[01 How-To Documents/recruiter/07-team-setup|Chapter 7 — Team setup]]

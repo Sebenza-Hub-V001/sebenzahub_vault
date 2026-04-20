@@ -2,8 +2,8 @@
 title: "Chapter 29 — Career Site, Brand Page, and Job Boards"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, career-site, brand, job-boards]
+updated: 2026-04-20
+tags: [how-to, recruiter, career-site, brand, job-boards, employer-brand]
 status: draft
 user-types: [recruiter]
 ---
@@ -22,6 +22,8 @@ Up to this point the guide has been about *running* recruitment work. This chapt
 | `/dashboard/recruiter/location-intel` | Geographic talent intelligence |
 
 ## 1. Brand Page — `/dashboard/recruiter/brand`
+
+Two-line callbacks first: the Brand Page assembles itself from the Employer Brand Profile you set up in [[01 How-To Documents/recruiter/05-agency-profile|Chapter 5]], and the public-facing slug URL it lives on is the Public Company Page covered in [[01 How-To Documents/recruiter/06-ai-profile-assets|Chapter 6]]. This chapter is about *using* those two as a sales tool, not setting them up.
 
 Your Brand Page is the public-facing identity of your agency on Sebenza Hub. It's the URL you put in your email signature, on your business cards, and at the bottom of every job listing. It's also what shows up when a corporate client searches the agency directory.
 
@@ -59,6 +61,23 @@ A polished Brand Page closes deals. A blank or half-finished one loses them.
 
 ## 2. Career Site — `/dashboard/recruiter/career-site`
 
+### Career Site Builder — _Tier: Premium_
+
+**What this feature is.** Career Site Builder lets you build and publish a fully branded careers page — your logo, colours, custom subdomain, full job listings, application flow, optional chatbot widget, and a talent network capture form — all without writing a line of code.
+
+**Why it matters.** Corporate clients want a branded careers site but don't want to commission one. Offering it as part of your agency engagement lands clients who'd otherwise go to specialist ATS vendors, and gives candidates a branded landing surface that converts measurably better than generic platform listings.
+
+**How to use it.**
+
+1. Open `/dashboard/recruiter/career-site`.
+2. **Branding** — upload logo, set primary colours, pick a layout template.
+3. **Domain** — use the platform default or connect a custom subdomain (`careers.youragency.co.za`).
+4. **Jobs** — pick which jobs appear; default is all active.
+5. **Content blocks** — add team bios, culture stories, day-in-the-life articles.
+6. **Chatbot** — enable for FAQs and routing.
+7. **Analytics** — track visits, conversions, and per-job interest.
+8. **Publish.**
+
 The Career Site is your branded jobs page — where candidates land to browse your current roles. It's distinct from your Brand Page (which is for clients) — it's optimised for candidates, with job listings front and centre and a candidate-friendly application flow.
 
 ### What's on it
@@ -70,17 +89,6 @@ The Career Site is your branded jobs page — where candidates land to browse yo
 - A chatbot widget (Chapter 23) for FAQs and routing
 - Optional: team stories, culture content, employer brand assets
 - A "join our talent network" form (for candidates not interested in current roles but who want to be on your radar)
-
-### Configuring it
-
-1. Open `/dashboard/recruiter/career-site`.
-2. **Branding** — upload your logo, set primary colours, choose a layout template
-3. **Domain** — use the platform's default URL or connect a custom subdomain (`careers.youragency.co.za`)
-4. **Jobs** — pick which jobs appear (default: all active jobs)
-5. **Content blocks** — add team bios, culture stories, day-in-the-life articles
-6. **Chatbot** — enable and configure the chatbot for the site
-7. **Analytics** — track visits, conversions, and which jobs get the most interest
-8. **Publish**
 
 ### Why a custom Career Site beats just using the Sebenza Hub job board
 
@@ -190,6 +198,14 @@ These aren't separate features. They're one system for inbound growth.
 - **Use Location Intel before making promises.** Don't commit to filling a role in a city you haven't checked talent density for. The 5-minute check saves you from a 6-month embarrassment.
 - **Your team bios on the Brand Page are sales assets.** Write them like a sales page, not like a CV. Specialisations, sectors, recent wins.
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 202 | Career Site Builder | Premium |
+| 176 | Employer Brand Profile (callback to Ch 5) | Standard |
+| 178 | Public Company Page (callback to Ch 6) | Standard |
+
 ## Checklist
 
 - [ ] You've reviewed your Brand Page and confirmed it represents your agency well
@@ -201,11 +217,11 @@ These aren't separate features. They're one system for inbound growth.
 
 ## Next chapter
 
-[[16-how-tos/recruiter/30-marketing-referrals-nps|Chapter 30 — Recruitment Marketing, Referrals, and Candidate NPS]]
+[[01 How-To Documents/recruiter/30-marketing-referrals-nps|Chapter 30 — Recruitment Marketing, Referrals, and Candidate NPS]]
 
 ## References
 
-- [[16-how-tos/recruiter/05-agency-profile|Chapter 5 — Your agency profile (feeds Brand Page)]]
-- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
-- [[16-how-tos/recruiter/11-posting-a-job|Chapter 11 — Posting a job (publishes to boards)]]
-- [[16-how-tos/recruiter/30-marketing-referrals-nps|Chapter 30 — Marketing, Referrals, and NPS]]
+- [[01 How-To Documents/recruiter/05-agency-profile|Chapter 5 — Your agency profile (feeds Brand Page)]]
+- [[01 How-To Documents/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets]]
+- [[01 How-To Documents/recruiter/11-posting-a-job|Chapter 11 — Posting a job (publishes to boards)]]
+- [[01 How-To Documents/recruiter/30-marketing-referrals-nps|Chapter 30 — Marketing, Referrals, and NPS]]

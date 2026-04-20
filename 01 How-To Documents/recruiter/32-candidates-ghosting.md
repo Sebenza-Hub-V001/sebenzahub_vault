@@ -2,8 +2,8 @@
 title: "Chapter 32 — \"Candidates are ghosting between stages\""
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, troubleshooting, ghosting, engagement]
+updated: 2026-04-20
+tags: [how-to, recruiter, troubleshooting, ghosting, engagement, scenario, sequences, re-engagement]
 status: draft
 user-types: [recruiter]
 ---
@@ -86,6 +86,8 @@ A declining engagement score is the strongest leading indicator. A candidate who
 
 **Action:** When you see the decline, intervene. Phone call beats another email.
 
+**Try: #129 Candidate Engagement Scorer _(Standard)_.** Why this helps in this scenario: it's the underlying feature that produces the Engagement Score — responsiveness, enthusiasm, reciprocation rolled into one drop-off-risk number per candidate. Full coverage in [[01 How-To Documents/recruiter/26-diversity-panel-ai|Chapter 26]].
+
 ### Sentiment analysis (Chapter 22)
 
 The Unified Inbox flags messages with declining or negative sentiment. A candidate whose sentiment has shifted from positive to neutral is on the path.
@@ -126,6 +128,8 @@ Every inbound candidate message gets a response within 30 seconds, even if the r
 
 After every interaction, send a "what happens next and when" message. "I'll be in touch by Wednesday with the next step" — and then deliver on Wednesday or apologise for the delay.
 
+**Try: #171 Email Sequences _(Premium)_.** Why this helps in this scenario: automated multi-touch sequences with conditional branches (responded / opened-but-no-reply / cold) handle the status-update cadence so silence stops being your default state. Full setup in [[01 How-To Documents/recruiter/23-templates-sequences-chatbot|Chapter 23]].
+
 ### 3. Fast follow-ups
 
 Schedule a follow-up the moment you finish a conversation. Not "I'll remember to follow up" — actually create the task in the platform. Manual memory fails; system memory doesn't.
@@ -150,6 +154,8 @@ Last attempt, ideally on a different channel. If you've been emailing, try Whats
 
 Move the candidate to a re-engagement pool (Chapter 13). Don't keep messaging. Pursuing harder makes you look desperate. Let them come back to you when they're ready.
 
+**Try: #172 Candidate Re-Engagement _(Standard)_.** Why this helps in this scenario: AI-generated re-engagement strategies and tailored messaging for past candidates — the cheapest source of qualified people you have, because they already know you. Lives alongside Talent Rediscovery in [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13]].
+
 The fact that you handled the ghost gracefully — without pressure, without guilt, without final-attempt drama — is what makes them reachable in three months when their situation changes.
 
 ## What NOT to do
@@ -167,6 +173,14 @@ The fact that you handled the ghost gracefully — without pressure, without gui
 - **Document why each ghost happened** in their record. Patterns emerge — you may discover that your ghost rate is concentrated at one stage or one client, which points to a fixable cause.
 - **A graceful let-go preserves the future relationship.** Pursue too hard and you lose them forever; let go cleanly and they often come back.
 
+## Features referenced in this chapter
+
+| # | Feature | Tier | Used at step |
+|---|---------|------|--------------|
+| 129 | Candidate Engagement Scorer | Standard | Detection — Engagement Score |
+| 171 | Email Sequences | Premium | Prevention — status updates |
+| 172 | Candidate Re-Engagement | Standard | Recovery — after Day 8 |
+
 ## Checklist
 
 - [ ] You're using the Engagement Score as a leading indicator
@@ -178,12 +192,12 @@ The fact that you handled the ghost gracefully — without pressure, without gui
 
 ## Next chapter
 
-[[16-how-tos/recruiter/33-client-unhappy-calibre|Chapter 33 — "My client is unhappy with the calibre"]]
+[[01 How-To Documents/recruiter/33-client-unhappy-calibre|Chapter 33 — "My client is unhappy with the calibre"]]
 
 ## References
 
-- [[16-how-tos/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
-- [[16-how-tos/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
-- [[16-how-tos/recruiter/26-diversity-panel-ai|Chapter 26 — Engagement Score]]
-- [[16-how-tos/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — Re-engagement]]
-- [[16-how-tos/recruiter/33-client-unhappy-calibre|Chapter 33 — Client unhappy with calibre]]
+- [[01 How-To Documents/recruiter/16-the-pipeline|Chapter 16 — The Pipeline]]
+- [[01 How-To Documents/recruiter/22-unified-inbox|Chapter 22 — Unified Inbox]]
+- [[01 How-To Documents/recruiter/26-diversity-panel-ai|Chapter 26 — Engagement Score]]
+- [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — Re-engagement]]
+- [[01 How-To Documents/recruiter/33-client-unhappy-calibre|Chapter 33 — Client unhappy with calibre]]

@@ -2,14 +2,14 @@
 title: "Wiki Index"
 type: overview
 created: 2026-04-06
-updated: 2026-04-10
+updated: 2026-04-20
 tags: [index, navigation]
 status: active
 ---
 
 # Wiki Index
 
-> Last updated: 2026-04-12 | Pages: 85 | Sources: 14 (+11 raw docs) | Presentations: 0 | How-To's: 1 (in progress) | AI Features: 152 | Endpoints: 3,741 | Tables: 794
+> Last updated: 2026-04-20 | Pages: 86 | Sources: 15 (+11 raw docs) | Presentations: 0 | How-To's: 1 (in progress) | AI Features: 152 | Endpoints: 3,741 | Tables: 820 | Migrations: 37
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -62,6 +62,7 @@ status: active
 - [[09-sources/dashboard-layouts-2026-04-08]] — Dashboard layouts restructured to follow user journeys (223 total pages)
 - [[09-sources/database-erd-2026-04-10]] — Full database ERD: 794 tables, 29 domains, 1208 FK relationships
 - [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] — SA National AI Policy compliance gap analysis (6 principles, 10 priority actions)
+- [[09-sources/repo-sync-2026-04-20]] — 151-commit repo sync: WhatsApp AI Phase 0–6, Flow Builder maturation, POPIA AI-consent enforcement, 9-area Individual-dashboard de-hardcode, pay-equity rollout
 
 ## Raw Source Documents
 - `13-raw/data/features-inventory.md` — Platform feature inventory (325 pages, 3586 endpoints, 755 tables)

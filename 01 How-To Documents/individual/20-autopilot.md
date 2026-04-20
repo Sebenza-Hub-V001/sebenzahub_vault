@@ -2,8 +2,8 @@
 title: "Chapter 20 — Autopilot and auto-apply"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, individual, autopilot, advanced]
+updated: 2026-04-20
+tags: [how-to, individual, autopilot, advanced, auto-apply, cover-letter]
 status: active
 user-types: [individual]
 ---
@@ -73,7 +73,7 @@ Until the open question is resolved and the operational specifics here are docum
 1. **Don't enable any Autopilot feature** unless you've already had success with manual applications and know exactly what you want it to do.
 2. **If you must enable something**, start with the most restrictive setting available, watch it for a week, and only loosen it after you've reviewed every single action.
 3. **Check back on this chapter periodically** — once we have the operational details, the chapter will tell you which exact settings to use and what the safeguards already are.
-4. **Read [[16-how-tos/individual/21-career-dna|Chapter 21]] first** — Career DNA and Opportunity Weights tighten the AI matching that Autopilot uses, which makes the entire thing safer.
+4. **Read [[01 How-To Documents/individual/21-career-dna|Chapter 21]] first** — Career DNA and Opportunity Weights tighten the AI matching that Autopilot uses, which makes the entire thing safer.
 
 ## What we'll cover in a future update
 
@@ -83,6 +83,16 @@ This chapter will be expanded with operational specifics once they're finalised:
 
 Until then, treat the principles in this chapter as the safe defaults: conservative settings, daily review, full audit of every action Autopilot takes on your behalf.
 
+## Features Autopilot leans on
+
+Autopilot itself is a workflow setting on top of features you already met earlier in the manual. The three it most directly automates are:
+
+- **Application Portal** — Autopilot uses the same submission machinery any manual application does. When it submits, the result lands in your tracker just like a hand-sent application. See [[01 How-To Documents/individual/11-applying-to-jobs|Chapter 11]] for how the portal works.
+- **Quick Apply** — Where a job supports Quick Apply, Autopilot uses it under the hood. The same defaults you set for Quick Apply (which CV, which cover letter template) apply when Autopilot fires. Tighten those defaults *before* enabling Autopilot. Covered in [[01 How-To Documents/individual/11-applying-to-jobs|Chapter 11]].
+- **AI Cover Letter Generator** — If auto-cover-letter is on, this is the feature drafting the letter. The metering caps on Standard (5/mo) and Premium (unlimited) still apply. See [[01 How-To Documents/individual/11-applying-to-jobs|Chapter 11]] for the manual workflow and tone controls.
+
+If any of those three feel shaky to you in manual use, do not let Autopilot scale them.
+
 ## Checklist
 
 - [ ] You understand that Autopilot is high-risk if misused
@@ -91,11 +101,22 @@ Until then, treat the principles in this chapter as the safe defaults: conservat
 - [ ] You have a daily review ritual planned for actions Autopilot took
 - [ ] You're aware this chapter is partial and will be updated
 
+## Features covered in this chapter
+
+This chapter is a workflow chapter — the underlying features all live in earlier chapters. Cross-references only:
+
+| # | Feature | Tier | Covered in |
+|---|---------|------|------------|
+| 14 | Application Portal | Standard | [[01 How-To Documents/individual/11-applying-to-jobs\|Chapter 11]] |
+| 15 | Quick Apply | Standard | [[01 How-To Documents/individual/11-applying-to-jobs\|Chapter 11]] |
+| 27 | AI Cover Letter Generator | Metered (Standard: 5/mo · Premium: unlimited) | [[01 How-To Documents/individual/11-applying-to-jobs\|Chapter 11]] |
+
 ## Next chapter
 
-[[16-how-tos/individual/21-career-dna|Chapter 21 — Career DNA and Opportunity Weights]]
+[[01 How-To Documents/individual/21-career-dna|Chapter 21 — Career DNA and Opportunity Weights]]
 
 ## References
 
-- [[16-how-tos/individual/21-career-dna|Chapter 21]] — Career DNA tunes the matching Autopilot relies on
-- [[16-how-tos/individual/12-tracking-applications|Chapter 12]] — How to audit what Autopilot has done
+- [[01 How-To Documents/individual/21-career-dna|Chapter 21]] — Career DNA tunes the matching Autopilot relies on
+- [[01 How-To Documents/individual/12-tracking-applications|Chapter 12]] — How to audit what Autopilot has done
+- [[01 How-To Documents/individual/11-applying-to-jobs|Chapter 11]] — Application Portal, Quick Apply, AI Cover Letter Generator

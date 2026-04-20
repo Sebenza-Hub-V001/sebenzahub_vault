@@ -2,8 +2,8 @@
 title: "Chapter 34 — Predictive Hiring, Rapid Workflow, and the path to Platinum trust"
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-tags: [how-to, recruiter, advanced, predictive, rapid-workflow, platinum]
+updated: 2026-04-20
+tags: [how-to, recruiter, advanced, predictive, rapid-workflow, platinum, automation, fraud-detection, hiring-manager-portal, api]
 status: draft
 user-types: [recruiter]
 ---
@@ -53,6 +53,14 @@ Predictive Hiring is a forecasting tool, not a crystal ball. The forecasts are p
 
 ## 2. Rapid Workflow — `/dashboard/recruiter/rapid-workflow`
 
+### Rapid Workflow — _Tier: Standard_
+
+**What this feature is.** Rapid Workflow is the streamlined quick-action recruitment lane for high-volume, lower-complexity roles — and the same compression engine you reach for in genuine urgency. It cuts clicks by ~60% on the simple cases by parallelising sourcing and screening, collapsing approval chains, and shortening the offer window.
+
+**Why it matters.** High-volume desks drown in admin and lose deals to slower competitors. Rapid Workflow reclaims time for the harder cases and lets you say yes to "I need someone yesterday" without burning two weeks of normal process.
+
+**How to use it.** Open `/dashboard/recruiter/rapid-workflow` and follow the checklist below — confirm urgency is real, pull from existing pools, get explicit client buy-in to the compressed cadence, schedule the panel within 48 hours, offer within 24 hours of panel.
+
 Rapid Workflow is for the moment a client says: "I need someone yesterday." Standard recruitment timelines (30–45 days) don't apply. This is for genuine emergencies — the senior developer who quit unexpectedly, the contract role that starts in 2 weeks, the executive who needs to be in place before a board meeting.
 
 Rapid Workflow compresses the standard process by removing non-essential steps and parallelising what's normally sequential.
@@ -97,7 +105,57 @@ Rapid Workflow uses more credits than standard process — expedited background 
 
 Many agencies charge a **rapid placement premium** (10–25% above standard fee) for Rapid Workflow placements. The client is paying for speed; they should pay for the operational lift it requires.
 
-## 3. The path to Platinum trust tier
+## 3. Hands-off automation — Workflow Automation and Auto-Pilot Rules
+
+The next two features sit at the highest end of the productivity curve. They turn the recruiter from operator into supervisor — but they only work safely once your underlying process is clean. Don't reach for them in month one.
+
+### Workflow Automation — _Tier: Premium_
+
+**What this feature is.** Workflow Automation is the rules engine for repetitive hiring tasks — automatic stage transitions, notifications, bulk actions, scheduled follow-ups — driven by custom triggers you define against pipeline events.
+
+**Why it matters.** Every recruiter has 10 admin patterns they repeat daily. Automating those reclaims 5–8 hours per week per recruiter — pure margin to the bottom line — and removes the consistency drift that creeps in when humans do the same task at different times of day.
+
+**How to use it.** Open `/dashboard/recruiter/workflow-automation`. Start with one rule, not ten. Common first rules: "when candidate moved to Interview, send scheduling link"; "when offer accepted, trigger background check"; "when candidate inactive 7 days, send re-engagement message." Add rules incrementally and audit weekly for unexpected behaviour.
+
+### Auto-Pilot Rules — _Tier: Premium_
+
+**What this feature is.** Auto-Pilot Rules is the more aggressive cousin — it executes the full hands-off pipeline actions (auto-advance, auto-reject, auto-message based on signals) for high-volume desks where the recruiter literally supervises a stream of decisions rather than making each one.
+
+**Why it matters.** High-volume desks (call centres, graduate programmes, BPO) generate hundreds of decisions a day. Auto-Pilot turns the recruiter from operator into supervisor — the ultimate productivity lever, and the only way to run 500-applicant roles without burning a junior recruiter's week.
+
+**How to use it.** Open `/dashboard/recruiter/auto-pilot`. Configure auto-advance and auto-reject rules with explicit thresholds (match score, knockout responses, engagement signals). Always run in shadow mode for 1–2 weeks before flipping live — the page shows what the rule *would* have done so you can audit the decisions before they're real. Once live, review the auto-decision audit weekly.
+
+## 4. Fraud Detection — `/dashboard/recruiter/fraud-detection`
+
+### Fraud Detection — _Tier: Premium_
+
+**What this feature is.** Fraud Detection is the AI screening layer that flags fraudulent applications and profiles at intake — fake CVs, identity mismatches, duplicate accounts, applications with stolen or AI-generated content.
+
+**Why it matters.** Fraud applications poison pipelines and waste expensive background checks; one fraudulent placement is a brand-damaging incident with a real client. Detection at intake saves both the direct verification cost and the catastrophic-risk cost of hiring a fraud.
+
+**How to use it.** Runs automatically on every application. Open `/dashboard/recruiter/fraud-detection` weekly to review flagged candidates. The page surfaces the specific signal (duplicate phone number, CV identical to one already in your database, identity field mismatch) so you can decide whether to reject, investigate, or escalate. Pair with Background Checks (Premium) for high-stakes roles.
+
+## 5. Hiring Manager Portal — `/dashboard/recruiter/hiring-manager-portal`
+
+### Hiring Manager Portal — _Tier: Premium_
+
+**What this feature is.** The Hiring Manager Portal is a stripped-down, no-training-needed interface where your client's hiring managers review candidates, leave feedback, and approve or reject — without touching the full ATS or needing a recruiter login.
+
+**Why it matters.** Hiring managers won't learn a full ATS — they ghost the process and your placements stall waiting for feedback that never arrives. A simplified portal means they actually engage, which compresses time-to-fill by days per role and shows up directly in your KPI Dashboard.
+
+**How to use it.** From the client record (Chapter 10), click **Invite Hiring Manager**. They get an email link, set a password, and land directly on the candidate review surface for their open roles. They never see other clients' candidates, your full pipeline, or anything outside their requisitions. Track engagement in the portal usage analytics — managers who never log in are a churn risk to flag at the next account check-in.
+
+## 6. API Access — `/dashboard/recruiter/api`
+
+### API Access — _Tier: Premium_
+
+**What this feature is.** API Access is programmatic, token-authenticated access to the Sebenza Hub API — candidates, jobs, pipelines, events — with rate limits, scopes, and audit logging on every call.
+
+**Why it matters.** Enterprise customers need to integrate Sebenza Hub with the rest of their stack — HRIS, BI tools, internal Slack workflows, custom reporting. API access is the enabler of that ecosystem and the reason the largest deals don't churn: once you're plumbed into a client's tech stack, the switching cost is real.
+
+**How to use it.** Open `/dashboard/recruiter/api`. Generate an API token with the minimum scopes needed for the integration (least privilege — never use a full-admin token for a reporting export). Document the integration in your client's audit pack. Rotate tokens quarterly and revoke immediately on any team-member exit.
+
+## 7. The path to Platinum trust tier
 
 Trust tier was introduced in Chapter 6. The 7-badge formula:
 
@@ -181,6 +239,17 @@ Twenty years in recruitment will teach you a few things, and this guide is an at
 
 You now have everything you need to use the platform properly. The rest is execution. Good luck.
 
+## Features covered in this chapter
+
+| # | Feature | Tier |
+|---|---------|------|
+| 210 | Rapid Workflow | Standard |
+| 214 | Workflow Automation | Premium |
+| 246 | Auto-Pilot Rules | Premium |
+| 203 | Fraud Detection | Premium |
+| 204 | Hiring Manager Portal | Premium |
+| 243 | API Access | Premium |
+
 ## Checklist
 
 - [ ] You understand what Predictive Hiring is and when to use it
@@ -191,11 +260,11 @@ You now have everything you need to use the platform properly. The rest is execu
 
 ## End of guide
 
-You've reached the end. The plan and source pages remain in the wiki — use [[16-how-tos/recruiter/index|the guide index]] to jump back to any chapter.
+You've reached the end. The plan and source pages remain in the wiki — use [[01 How-To Documents/recruiter/index|the guide index]] to jump back to any chapter.
 
 ## References
 
-- [[16-how-tos/recruiter/index|Manual index]]
-- [[16-how-tos/recruiter/06-ai-profile-assets|Chapter 6 — Trust tier playbook]]
-- [[16-how-tos/recruiter/25-reading-your-analytics|Chapter 25 — Predictive analytics]]
+- [[01 How-To Documents/recruiter/index|Manual index]]
+- [[01 How-To Documents/recruiter/06-ai-profile-assets|Chapter 6 — Trust tier playbook]]
+- [[01 How-To Documents/recruiter/25-reading-your-analytics|Chapter 25 — Predictive analytics]]
 - [[03-workflows/recruiter-journey]] — The full journey doc this guide is built on
