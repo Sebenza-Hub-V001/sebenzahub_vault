@@ -62,7 +62,11 @@ You thought "senior backend developer" meant tech lead level. The client meant i
 
 **Try: #124 Culture Fit Assessment _(Standard)_.** Why this helps in this scenario: a 6-dimension AI cultural-alignment score per candidate gives the panel a defensible reason for the calibre call beyond "gut feel" — and surfaces fit gaps you missed at intake. Run it on the next round before you ship the shortlist.
 
+![[13-raw/screenshots/r-ch33-culture-fit-disagreement.png]]
+
 **Try: #123 Predictive Hiring _(Premium)_.** Why this helps in this scenario: it predicts on-the-job success and retention risk for each shortlisted candidate against the client's historical hiring patterns — so you can rank by likely outcomes, not just CV match. Lives at `/dashboard/recruiter/predictive-hiring` (covered in [[01 How-To Documents/recruiter/34-advanced-and-platinum|Chapter 34]]).
+
+![[13-raw/screenshots/r-ch33-predictive-vs-actual-performance.png]]
 
 ### Pattern 3 — The client's expectations are unrealistic
 

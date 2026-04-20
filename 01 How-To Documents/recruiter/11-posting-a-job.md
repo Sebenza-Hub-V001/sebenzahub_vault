@@ -12,6 +12,8 @@ user-types: [recruiter]
 
 Every placement starts with a job. A well-written job post attracts the right candidates and filters out the wrong ones; a sloppy one floods you with applications you have to manually reject. Sebenza Hub gives you a structured job creation flow plus the **AI JD Writer**, which generates a first draft from a brief if you give it one. This chapter walks through the full flow.
 
+![[13-raw/screenshots/r-ch11-job-list-status.png]]
+
 ## Where it lives
 
 `/dashboard/recruiter/jobs` — the master list of every job in your agency. Click **+ New job** to create one. The AI JD Writer lives at `/dashboard/recruiter/ai-writer` and can also be invoked from inside the new-job form.
@@ -53,6 +55,8 @@ Inside the new-job form there's a **Generate with AI** button. Click it and past
 2. Paste the client brief (one paragraph is enough — title, seniority, must-haves, salary band, location).
 3. The output drops into the form fields. **Always edit.** The AI is good at structure and weak on company-specific nuance — your client knows their team and culture, and the AI doesn't.
 4. The generator is metered (Chapter 4.5) — don't burn quota by regenerating from scratch endlessly. Generate once, then use the section regenerator below for surgical fixes.
+
+![[13-raw/screenshots/r-ch11-ai-jd-generator-output.png]]
 
 ### AI Company Description — _Tier: Standard_
 
@@ -141,6 +145,8 @@ A first draft passes a vibe check; what catches you out is the bias phrase you d
 
 **How to use it.** In the JD form, click **Run inclusivity check**. Each flagged phrase shows the issue and a suggested rewrite — accept, edit, or dismiss with reason. Aim for an inclusivity score of 80+ before publishing.
 
+![[13-raw/screenshots/r-ch11-bias-detection-highlights.png]]
+
 ### JD Compliance Check — _Tier: Standard_
 
 **What this feature is.** JD Compliance Check runs the JD against South African labour law — BCEA, EEA, LRA — and flags discriminatory requirements, missing protected-class language, and clauses that contravene SA employment standards.
@@ -149,6 +155,8 @@ A first draft passes a vibe check; what catches you out is the bias phrase you d
 
 **How to use it.** Click **Run compliance check**. Issues are categorised by severity (block / warning / info). Block-level issues prevent publish until resolved. Most warnings are about phrasing — fix or document the exception.
 
+![[13-raw/screenshots/r-ch11-jd-compliance-flags.png]]
+
 ### JD Salary Benchmark — _Tier: Standard_
 
 **What this feature is.** JD Salary Benchmark compares the salary range you've entered against market data for the same role, seniority, and location — drawing from Sebenza Hub's platform-wide compensation data and external benchmarks.
@@ -156,6 +164,8 @@ A first draft passes a vibe check; what catches you out is the bias phrase you d
 **Why it matters.** Under-priced roles don't fill and over-priced roles blow client budgets. Catching pricing errors in the JD-writing flow — before you publish and before the client gets attached to a number — is the cheapest place to fix them.
 
 **How to use it.** With the salary range filled in, click **Benchmark salary**. The output shows the market median, P25–P75 range, and where your range sits. If you're under, push back to the client now — not after a month of zero applications.
+
+![[13-raw/screenshots/r-ch11-salary-benchmark-chart.png]]
 
 ### JD SEO Analysis — _Tier: Standard_
 
@@ -177,6 +187,8 @@ The JD is written and validated. Time to publish — and decide which channels c
 
 **How to use it.** You've already built the posting in Steps 1–3. Save as draft first, preview the public-facing version, then click **Publish**. The status flips to **active** and the published timestamp is recorded. If you're at your monthly cap, the publish button is blocked until you close, archive, or upgrade — plan ahead so you don't get caught on a Friday afternoon trying to post an urgent role.
 
+![[13-raw/screenshots/r-ch11-publish-channel-selector.png]]
+
 ### Job Board Integrations — _Tier: Standard_
 
 **What this feature is.** Job Board Integrations publishes a single posting to Pnet, CareerJunction, and other South African job boards in one click — no double-entry, no separate logins.
@@ -184,6 +196,8 @@ The JD is written and validated. Time to publish — and decide which channels c
 **Why it matters.** External boards are still where most SA candidates search. Removing double-entry keeps application data unified in one Sebenza Hub pipeline instead of fragmented across four board inboxes — which is the whole point of having an ATS.
 
 **How to use it.** In the JD form's **Distribution** section, tick the boards you want to publish to. First-time setup connects each board's account once via Chapter 29. After that, every new job has the toggles ready to flip.
+
+![[13-raw/screenshots/r-ch11-job-board-integrations-panel.png]]
 
 ### CSV/Pnet/CJ/Adzuna Export — _Tier: Standard_
 
@@ -218,6 +232,8 @@ Posting is the start. Knowing whether it's actually going to fill — early enou
 **Why it matters.** Recruiters often don't realise a role is going to struggle until week 3, when there are still no good shortlist candidates and the client is asking why. Up-front insights flag the red flags on day 1 — so you can renegotiate the salary band or relax the experience requirement before the role goes stale.
 
 **How to use it.** Open any active job and click the **AI Insights** tab. The panel shows current pipeline health, projected time-to-fill, and any flagged risks with suggested fixes. Re-check weekly during the first month of any role.
+
+![[13-raw/screenshots/r-ch11-job-ai-insights-dashboard.png]]
 
 ## Pro tips
 

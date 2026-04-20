@@ -14,6 +14,8 @@ This is the chapter where you actually apply. By now your profile is solid, your
 
 This walkthrough takes you through one application end-to-end and explains what each choice does. You'll do it slowly the first time and quickly after that.
 
+![[13-raw/screenshots/i-ch11-apply-flow-nav.png]]
+
 ## Before you click Apply
 
 Open the job in front of you and ask three questions:
@@ -39,6 +41,8 @@ Before you apply, run the JD through the decoder. This is the single highest-lev
 1. Open the job listing. Click **Decode JD** (also available at `/dashboard/individual/jd-decoder` if you want to paste a JD from elsewhere).
 2. Read the breakdown — typically: must-haves vs nice-to-haves, the hidden values signal, any red flags, and a suggested pitch angle.
 3. Use the output to inform every later step: which CV to pick, which bullets to emphasise, what the cover letter should lead with.
+
+![[13-raw/screenshots/i-ch11-jd-decoder-output.png]]
 
 Don't treat Decoder as a deciding vote on whether to apply — that's still your call. Treat it as a brief that makes the rest of the application sharper.
 
@@ -97,6 +101,8 @@ A bad cover letter hurts more than no cover letter. If you don't have anything s
 4. **Treat the output as a first draft, not a final version.** Read it and rewrite anything that sounds generic. The AI doesn't know your real motivation — the "why this company" line will always be the weakest part. Overwrite it with something true.
 5. A two-paragraph cover letter that mentions one specific thing about the role beats a three-paragraph AI letter that could apply to any company. Trim hard.
 
+![[13-raw/screenshots/i-ch11-cover-letter-draft.png]]
+
 ## Step 3 — Answer screening questions
 
 Some jobs include screening questions. They might be:
@@ -143,6 +149,8 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **How to use it.** On any listing flagged as Quick Apply enabled, look for the **Quick Apply** button next to the standard Apply button. Confirm the CV pick, click once, done. If the role asks for screening questions or a cover letter, it falls back to the standard application form — Quick Apply only fires when the employer's form is minimal enough to skip.
 
+![[13-raw/screenshots/i-ch11-quick-apply-confirmation.png]]
+
 ### Application Portal — _Tier: Standard_
 
 **What this feature is.** The Application Portal is a visual kanban-style pipeline view of every application, with draggable stages, per-application notes, contact info, and next-action reminders. It turns a flat list into a project-management view of your job hunt.
@@ -150,6 +158,8 @@ You'll see a confirmation, and the application appears in My Applications immedi
 **Why it matters.** When you're juggling 40+ applications across 6 stages, the flat list becomes unmanageable — you forget who you replied to, you miss follow-up windows, you double-apply. The Portal turns job hunting into a project you can actually run. This is a natural upgrade trigger for career-transition users who hit the wall around application 25.
 
 **How to use it.** Open **Application Portal** (`/dashboard/individual/application-portal`). Drag applications between columns as their state changes, click into any card to add notes or set a follow-up reminder, and use the column counts as a quick health check. Chapter 12 covers the day-to-day rhythm in more detail — for now, just know it's where your applications go to be managed once the Submit button has been clicked.
+
+![[13-raw/screenshots/i-ch11-application-portal-kanban.png]]
 
 ### AI Application Feedback — _Tier: Standard_
 
@@ -159,6 +169,8 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **How to use it.** Runs automatically when you submit — here's what you'll see. Open the application from My Applications. Under the **Feedback** tab you'll find: the recalculated match score, what worked, what didn't, and 2–3 specific suggestions ("emphasise the SQL experience earlier", "your summary doesn't match this role's seniority"). Read the feedback for the first 5–10 applications carefully — patterns will emerge fast, and once you see them, you stop making the same mistake.
 
+![[13-raw/screenshots/i-ch11-ai-feedback-card.png]]
+
 ### Priority Applications — _Tier: Premium_
 
 **What this feature is.** Priority Applications puts your application at the top of the recruiter's review queue for that posting, visually flagged as priority. The recruiter sees you first, before they get into the long tail of standard applicants.
@@ -166,6 +178,8 @@ You'll see a confirmation, and the application appears in My Applications immedi
 **Why it matters.** In a 300-applicant posting, being one of the top 20 visible candidates is the entire game. Most great candidates lose at the queue, not at the interview. This is high-intent monetisation — actively-searching Premium users paying for a real shot at a response on the roles they care most about. Use it sparingly, on roles where you're a genuine fit; it doesn't fix a weak application, it just makes a strong one visible.
 
 **How to use it.** Premium users see a **Mark as priority** toggle on the application form. Toggle it on for high-priority roles only — burning the priority flag on every application defeats the purpose. There's no hard cap on usage, but the signal degrades if you use it on everything.
+
+![[13-raw/screenshots/i-ch11-priority-badge.png]]
 
 ## What happens next (timeline expectations)
 

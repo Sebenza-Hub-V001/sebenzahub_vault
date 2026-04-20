@@ -69,6 +69,8 @@ Pools are dynamic by default — they re-evaluate based on the criteria, so a ne
 5. Save. The pool now lists every matching candidate in your database.
 6. (Optional) Pin the pool to your dashboard for quick access.
 
+![[13-raw/screenshots/r-ch14-talent-pools-list.png]]
+
 ### Pools as metered features
 
 **Active pools count against your plan limit** (Chapter 4.5). Each plan tier caps how many pools you can keep active simultaneously. The right strategy:
@@ -103,6 +105,8 @@ Manual tagging and manual pool curation become impossible past about 1,000 candi
 
 **How to use it.** Runs automatically on every new candidate. Review the auto-applied tags on a candidate's profile if you want to verify or adjust; otherwise it just works.
 
+![[13-raw/screenshots/r-ch14-auto-tag-candidate.png]]
+
 ### AI Talent Pool Clustering — _Tier: Premium_
 
 **What this feature is.** AI Talent Pool Clustering scans your candidate database and automatically clusters candidates into natural pools based on skills, experience patterns, and role-fit signals — surfacing groupings humans wouldn't have thought to create.
@@ -111,6 +115,8 @@ Manual tagging and manual pool curation become impossible past about 1,000 candi
 
 **How to use it.** Open `/dashboard/recruiter/talent-pool` and click **Discover clusters**. Review the suggested pools; accept the ones that look useful, dismiss the rest. Accepted clusters become regular pools you can name and pin.
 
+![[13-raw/screenshots/r-ch14-talent-pool-clustering.png]]
+
 ### Talent Pool Analysis — _Tier: Premium_
 
 **What this feature is.** Talent Pool Analysis runs an AI-powered breakdown of any pool — average experience, skill distribution, demographic spread, gap vs target — and produces a one-screen summary you can send to a client or use internally for pitching.
@@ -118,6 +124,8 @@ Manual tagging and manual pool curation become impossible past about 1,000 candi
 **Why it matters.** Agencies sell "we have 400 CFOs in our pool" but usually can't characterise the pool's quality. Analysis turns a pool into a defensible claim — exact average tenure, exact skill coverage, exact diversity profile. Especially valuable for client pitches where credibility hinges on specifics.
 
 **How to use it.** Open any pool → **Analyse**. The report shows distribution charts and a written summary. Export to PDF for client decks.
+
+![[13-raw/screenshots/r-ch14-talent-pool-analysis.png]]
 
 ## Talent CRM
 
@@ -177,6 +185,8 @@ Pools and CRM tell you *who's there*. The next step is usually picking between t
 
 **How to use it.** From any pool or candidate list, multi-select 2–5 candidates and click **Compare**. The comparison renders side-by-side; export to PDF for client meetings.
 
+![[13-raw/screenshots/r-ch14-side-by-side-comparison.png]]
+
 ## Migrating data in and out
 
 The platform has to handle both arrival (you've just signed up with 5,000 candidates from your old system) and departure (a client wants their data, an audit needs an export).
@@ -194,6 +204,8 @@ The platform has to handle both arrival (you've just signed up with 5,000 candid
 3. Map your columns to Sebenza Hub fields (the platform suggests mappings; review and adjust).
 4. Run the dedupe check. Decide whether duplicates merge or skip.
 5. Confirm and import. Auto-Tag runs on the imported records.
+
+![[13-raw/screenshots/r-ch14-csv-bulk-import.png]]
 
 ### Bulk Export — _Tier: Standard_
 

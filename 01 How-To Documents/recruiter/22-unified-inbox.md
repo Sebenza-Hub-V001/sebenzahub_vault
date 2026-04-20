@@ -50,6 +50,8 @@ Three panels, left to right:
 
 The context pane is what makes the Unified Inbox different from a normal email client. You're never replying to a faceless message — you're always seeing the candidate's match score, their stage in the Pipeline, your recent notes about them, and their last interaction. Context is right there.
 
+![[13-raw/screenshots/r-ch22-unified-inbox-multichannel.png]]
+
 ## The smart messaging assistant
 
 While composing a reply, an AI assistant offers help in real time:
@@ -69,6 +71,8 @@ The tone analysis is the most underrated feature. Recruiters who type fast under
 
 **How to use it.** Click **AI Compose** in the Unified Inbox composer. Tell the AI what kind of email (cold outreach, interview invite, gentle nudge, polite rejection). Edit the draft before sending — never send the first AI draft verbatim, the candidate can tell.
 
+![[13-raw/screenshots/r-ch22-ai-email-composer-suggestions.png]]
+
 ### Email Templates — _Tier: Standard_
 
 **What this feature is.** Customisable email templates with variable substitution — candidate name, role, dates, links — saved per recruiter and per agency.
@@ -77,6 +81,8 @@ The tone analysis is the most underrated feature. Recruiters who type fast under
 
 **How to use it.** Build the 10 essential templates in `/dashboard/recruiter/email-templates` (full list in Chapter 23). Insert into any composer with one click. Add a personal-touch line before sending so the message doesn't read like a form letter.
 
+![[13-raw/screenshots/r-ch22-email-templates-library.png]]
+
 ### Outreach Draft Generator — _Tier: Standard_
 
 **What this feature is.** Generates personalised candidate outreach messages based on the candidate's profile and the open role — references specific projects, skills, or background details.
@@ -84,6 +90,8 @@ The tone analysis is the most underrated feature. Recruiters who type fast under
 **Why it matters.** Generic outreach is deleted without reading. Personalised drafts that reference specific projects or skills lift open rates by 3–5×, which is the difference between a sourcing campaign that works and one that wastes everyone's time.
 
 **How to use it.** From any candidate's record, click **Generate outreach**. The AI reads the profile and the linked job, drafts a tailored message. Review, tweak the personalisation hook, send.
+
+![[13-raw/screenshots/r-ch22-outreach-draft-generator.png]]
 
 ### Pitch Generator — _Tier: Standard_
 
@@ -100,6 +108,8 @@ The tone analysis is the most underrated feature. Recruiters who type fast under
 **Why it matters.** LinkedIn-style outreach doesn't translate to WhatsApp — length and tone are totally different. Channel-specific generation ensures the message format matches the channel, which is the difference between a reply and a block.
 
 **How to use it.** From the Unified Inbox or a candidate's record, click **Generate WhatsApp message**. The AI writes 2–4 sentences in conversational tone, ready to send. For bulk WhatsApp campaigns instead of individual messages, see Chapter 24.
+
+![[13-raw/screenshots/r-ch22-whatsapp-messages-in-inbox.png]]
 
 ## Filtering and triage
 

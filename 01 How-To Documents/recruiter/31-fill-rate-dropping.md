@@ -41,6 +41,8 @@ Offer → Placed      85%           75%       slight drop
 
 In this example, the drop is between Screening and Interview. That's where you investigate, not at sourcing or offers.
 
+![[13-raw/screenshots/r-ch31-fill-rate-trend-diagnostic.png]]
+
 The funnel **localises** the problem. Without it, you're guessing.
 
 ### Step 3 — Run Requirement Check on stuck jobs
@@ -57,6 +59,8 @@ You're looking for patterns across multiple jobs, not just one. If three jobs al
 **Try: #97 Job AI Insights _(Standard)_.** Why this helps in this scenario: it surfaces day-1 red flags on each affected job — wrong salary, wrong location, over-restrictive criteria — without you having to deduce them from the funnel. Full detail: covered alongside job posting in [[01 How-To Documents/recruiter/11-posting-a-job|Chapter 11]].
 
 **Try: #131 Requirement Restriction Analyzer _(Standard)_.** Why this helps in this scenario: it scores each requirement on the Job Description for how much it shrinks the candidate pool, so you can show the client exactly which "nice-to-have" is killing the fill rate. Pair with the client conversation in [[01 How-To Documents/recruiter/33-client-unhappy-calibre|Chapter 33]].
+
+![[13-raw/screenshots/r-ch31-requirement-restriction-flags.png]]
 
 ### Step 4 — Check sourcing channel effectiveness
 

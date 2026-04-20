@@ -22,6 +22,8 @@ Two features carry this chapter: **Screening Roles**, which codifies your hiring
 
 **How to use it.** Configure your screening roles once per role family (Senior Backend Dev, Mid-Sales, Graduate Programme, etc.) under `/dashboard/recruiter/settings` → Screening Roles. When you post a job (Chapter 11), pick the matching screening role and the knockouts, scoring weights, and chatbot template auto-populate.
 
+![[13-raw/screenshots/r-ch15-screening-roles-config.png]]
+
 ### Screening Criteria Generator — _Tier: Standard_
 
 **What this feature is.** AI generates the must-haves, nice-to-haves, and scoring weights directly from a job description. Paste the JD, get a draft screening configuration you edit instead of write.
@@ -29,6 +31,8 @@ Two features carry this chapter: **Screening Roles**, which codifies your hiring
 **Why it matters.** Half the time you spend "setting up" screening is figuring out criteria from scratch. Generation turns that into a 30-second AI step, which is the difference between every role getting a real screening config and most roles getting whatever the recruiter could be bothered to write.
 
 **How to use it.** From the job's *Vetting* section, click **Generate from JD**. The AI returns proposed knockouts, weights, and assessment recommendations. Review, edit, accept. Save the result as a new Screening Role if you'll reuse it.
+
+![[13-raw/screenshots/r-ch15-criteria-generator-output.png]]
 
 ## The four screening layers
 
@@ -54,6 +58,8 @@ A knockout should be:
 - **Hard.** Truly disqualifying, not nice-to-have. If you'd accept "no", it shouldn't be a knockout.
 - **Clear.** No ambiguity. "Do you have 5+ years of Postgres experience?" is clear; "Are you familiar with databases?" is not.
 - **Verifiable.** The candidate can answer honestly. Don't ask things only an interview could discover.
+
+![[13-raw/screenshots/r-ch15-knockout-questions-editor.png]]
 
 ### Examples that work
 

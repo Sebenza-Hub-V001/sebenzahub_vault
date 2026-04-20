@@ -10,6 +10,8 @@ user-types: [business]
 
 # Chapter 1 — What Sebenza Hub is for corporates
 
+![[13-raw/screenshots/c-ch01-corporate-dashboard-hero.png]]
+
 Sebenza Hub is a South African recruitment platform built for three audiences: job seekers, recruitment agencies, and **corporate hiring teams**. As a **Corporate** customer — typically an enterprise of around 500+ employees with an in-house Talent Acquisition or HR function — you use it as your applicant tracking system, your internal mobility board, your vendor management layer for the agencies you contract, and your workforce-planning tool. It's where requisitions, candidates, hires, and headcount strategy all live in one place.
 
 ## Who Corporate is for
@@ -37,6 +39,8 @@ Specifically:
 - **HRIS integration that doesn't lose data.** Bidirectional sync with the major SA HRIS systems so hires don't get manually re-keyed and demographic data flows correctly into EE reports. See [[01 How-To Documents/corporate/08-integrations-and-reporting|Chapter 8]].
 - **Workforce planning aligned to budget.** Headcount forecasting, capacity modelling, and budget alignment integrated with the requisition system — so the plan and the execution share one source of truth. See [[01 How-To Documents/corporate/09-workforce-planning|Chapter 9]].
 - **SA compliance built in.** POPIA-compliant candidate data handling, B-BBEE and EE reporting, and an immutable audit trail. See [[02-concepts/compliance]].
+
+![[13-raw/screenshots/c-ch01-three-user-types-diagram.png]]
 
 ## How Corporate differs from the Recruiter product
 

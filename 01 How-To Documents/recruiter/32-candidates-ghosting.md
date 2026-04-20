@@ -88,6 +88,8 @@ A declining engagement score is the strongest leading indicator. A candidate who
 
 **Try: #129 Candidate Engagement Scorer _(Standard)_.** Why this helps in this scenario: it's the underlying feature that produces the Engagement Score — responsiveness, enthusiasm, reciprocation rolled into one drop-off-risk number per candidate. Full coverage in [[01 How-To Documents/recruiter/26-diversity-panel-ai|Chapter 26]].
 
+![[13-raw/screenshots/r-ch32-engagement-score-heatmap.png]]
+
 ### Sentiment analysis (Chapter 22)
 
 The Unified Inbox flags messages with declining or negative sentiment. A candidate whose sentiment has shifted from positive to neutral is on the path.
@@ -115,6 +117,8 @@ Different stages produce different ghosting causes:
 | **Offer accepted → start date** | "Buyer's remorse" — they're regretting the move |
 
 The cause changes by stage, so the fix changes too. Ghosting at the final stage is a different problem than ghosting at first response.
+
+![[13-raw/screenshots/r-ch32-dropoff-funnel-stages.png]]
 
 ## The prevention rituals
 

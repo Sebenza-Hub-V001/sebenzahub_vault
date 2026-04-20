@@ -14,6 +14,8 @@ Sebenza Hub gives you three ways to find jobs. Each one suits a different mode o
 
 What follows is short: the three modes, when each is best, and how to read the signals (match scores, ghost-risk scores) that show up alongside listings.
 
+![[13-raw/screenshots/i-ch09-search-modes-nav.png]]
+
 ## The three modes
 
 | Mode | Route | Best for |
@@ -37,6 +39,8 @@ Use them roughly like this:
 **Why it matters.** This is the front door. Friction here loses you to Pnet, CareerJunction, or LinkedIn before you've even begun, so it's free on every plan. For Sebenza Hub it's also the SEO surface — every indexed job page is an acquisition funnel. For you it means you can do the obvious "what's out there in Cape Town?" search without paying anything.
 
 **How to use it.** Open **All Jobs** (`/dashboard/individual/all-jobs`), type a keyword (a role, a skill, a company), set the location, and scroll. The basic filters live in the sidebar. If your search returns hundreds of results and you need to cut them down, that's the cue to switch to Advanced Search (next section).
+
+![[13-raw/screenshots/i-ch09-all-jobs-results.png]]
 
 This is the full job listing on the platform — both jobs **posted directly** by Recruiters and Businesses on Sebenza Hub *and* jobs **aggregated externally** from sources like Adzuna and CareerJet. The mix is important to understand, because the two types behave differently:
 
@@ -83,6 +87,8 @@ What you get back:
 - A **match score** (0–100) per job
 - A list of **matched skills** (what you have that the job wants) and **missing skills** (what you lack)
 
+![[13-raw/screenshots/i-ch09-auto-match-ranked-list.png]]
+
 ### Why your profile quality matters here
 
 Auto Match is only as good as the input. If your profile is thin, your matches will be vague. If your skills list is over-rated, your matches will be wrong. **Most "Auto Match isn't useful" complaints are actually profile-quality complaints.** Go back to Part 2 if your matches feel off.
@@ -117,6 +123,8 @@ Available filters typically include:
 - **Company name** (if you're targeting specific employers)
 - **Posted within** (last 24 hours, last week, last month)
 
+![[13-raw/screenshots/i-ch09-manual-search-filters.png]]
+
 ### When to use Manual Search
 
 - You know exactly the role, location, or company you want
@@ -146,6 +154,8 @@ Rough interpretation:
 | **<40** | Weak fit on paper. The AI thinks you're missing major requirements. |
 
 A low score isn't always a no. The AI doesn't know your context — that you're willing to change industry, that you have a referral, that you're prepared to take a step back. But a low score is a signal worth taking seriously, especially when you're choosing where to spend your effort.
+
+![[13-raw/screenshots/i-ch09-match-score-explanation.png]]
 
 ### Ghost Risk Score (0–100)
 

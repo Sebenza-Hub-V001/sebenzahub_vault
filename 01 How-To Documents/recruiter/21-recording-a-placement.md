@@ -57,6 +57,8 @@ Open `/dashboard/recruiter/placements` and find the new entry. Check that:
 
 The platform sets the initial status, but you'll update it as the candidate moves through their first months in the role.
 
+![[13-raw/screenshots/r-ch21-placement-recording-form.png]]
+
 ## Step 2 — Record the start date and notice period
 
 The candidate may have a notice period at their current employer (typically 30 calendar days for SA, 90 days for senior roles). The actual start date is when they show up at the client, not when they accept the offer.
@@ -143,6 +145,8 @@ A failed placement during guarantee is bad. A failed placement that surprises yo
 
 **How to use it.** From the placement record, click **Order checks** → pick the checks the client requires. Confirm POPIA consent (the platform handles the consent capture flow). Results land on the placement and the candidate record, with access logged in the audit trail. **Don't** export, email, or store these outside the platform — the data is sensitive.
 
+![[13-raw/screenshots/r-ch21-background-checks-integration.png]]
+
 ## How placements feed your KPI Dashboard
 
 ### Placement Analytics — _Tier: Standard_
@@ -152,6 +156,8 @@ A failed placement during guarantee is bad. A failed placement that surprises yo
 **Why it matters.** Agencies' entire valuation is placement metrics. Dedicated analytics make those numbers visible at the desk, recruiter, and firm level — which is the difference between managing the business and guessing about it.
 
 **How to use it.** Open `/dashboard/recruiter/placement-analytics` (or the **Analytics** tab on `/placements`). The metrics that matter most: time-to-fill trend, retention rate at 90/180/365 days, submission-to-placement ratio, average fee per placement. Review weekly during high-activity months, monthly otherwise.
+
+![[13-raw/screenshots/r-ch21-placement-analytics-dashboard.png]]
 
 `/dashboard/recruiter/kpi-dashboard` aggregates every placement into rolling metrics:
 

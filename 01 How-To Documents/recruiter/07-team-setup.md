@@ -55,6 +55,8 @@ These roles are checked across **40+ granular permissions** organised by categor
 
 The invitee receives an email with a magic link. They click it, set up their account (or log in if they already have one on a different agency), and they're added to your team. Their first session lands on the recruiter dashboard with the permissions of the role you assigned.
 
+![[13-raw/screenshots/r-ch07-team-invite-form.png]]
+
 > **Important:** A user can belong to multiple agency organisations. If you invite someone who already has a Sebenza Hub Recruiter account at another agency, they can accept and switch between agencies via a context picker in the top nav. They don't need a new email address.
 
 ## Custom role definitions
@@ -69,6 +71,8 @@ The six built-in roles cover most needs, but if your agency has an unusual struc
 6. Save.
 
 The custom role is now available in the team invitation dropdown. Existing members can also be reassigned to it from the team list.
+
+![[13-raw/screenshots/r-ch07-role-permissions.png]]
 
 Custom roles are scoped to your organisation only — they don't affect other agencies on the platform. If you delete a custom role, members assigned to it fall back to the built-in role it inherited from.
 
@@ -106,6 +110,8 @@ Roles and permissions decide who *can* do what. The next feature is what your te
 3. Use **Share with team** to give specific members visibility on a private candidate.
 4. The dashboard's **Team activity** feed surfaces what's happened across the agency in the last 24 hours.
 
+![[13-raw/screenshots/r-ch07-collaboration-mention-feed.png]]
+
 ## Coaching, benchmarks, and recruiter performance
 
 Once you have more than one recruiter, you need a way to manage performance that isn't just "going off vibes." The next three features turn team management into a data conversation.
@@ -118,6 +124,8 @@ Once you have more than one recruiter, you need a way to manage performance that
 
 **How to use it.** As a Manager or Admin, open `/dashboard/recruiter/coach-insights`. Pick a team member to see their personalised insight cards (e.g. "candidate response rate dropped 18% over 30 days — investigate template fatigue"). Use the cards as the agenda for your weekly 1:1s.
 
+![[13-raw/screenshots/r-ch07-coach-insights-dashboard.png]]
+
 ### Recruiter Benchmark — _Tier: Premium_
 
 **What this feature is.** Recruiter Benchmark compares each recruiter's performance against industry standards on placement rate, time-to-fill, and candidate quality — both inside your agency and against anonymised platform-wide data for similar sectors and seniority.
@@ -125,6 +133,8 @@ Once you have more than one recruiter, you need a way to manage performance that
 **Why it matters.** Recruiters benchmark themselves against rumour and LinkedIn posts, which is how good people convince themselves they're underperforming and weak people convince themselves they're crushing it. Data benchmarking turns "am I any good?" into a concrete answer — and gives you the evidence that retains your top performers when competitors come knocking.
 
 **How to use it.** From the team management page, open **Benchmarks**. Each recruiter has their own benchmark card showing their numbers against agency average and platform average. Share the card with the recruiter directly — transparency is the point.
+
+![[13-raw/screenshots/r-ch07-recruiter-benchmark-chart.png]]
 
 ### Recruiter DNA — _Tier: Premium_
 

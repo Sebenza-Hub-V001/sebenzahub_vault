@@ -14,6 +14,8 @@ You have a CV in the system. Before you start applying to jobs, run it through C
 
 Plan on about 20 minutes — most of that spent actually acting on the feedback, which is the point.
 
+![[13-raw/screenshots/i-ch06-cv-review-nav.png]]
+
 ## What CV Review actually checks
 
 CV Review reads your CV and returns structured feedback across four areas:
@@ -44,11 +46,15 @@ The feedback is *specific*. It points at the exact bullet point or section it ha
 3. Click **Run review**. The AI takes about 30 seconds to a minute to process.
 4. The review appears as a structured report with sections you can expand and collapse.
 
+![[13-raw/screenshots/i-ch06-cv-review-select-dialog.png]]
+
 Standard gives you 3 reviews per month, Premium is unlimited. Free tier users can't run the review at all — the upgrade prompt appears when you click Run.
 
 ## Step 2 — Read the review properly
 
 The instinct most people have when they see AI feedback is to skim, feel mildly attacked, and close the tab. Don't do that. Read the feedback the way you'd read notes from a friend in HR who already gets paid to do this: assume the criticism is right unless you have a specific reason to disagree.
+
+![[13-raw/screenshots/i-ch06-cv-review-score-card.png]]
 
 Work through it section by section. For each piece of feedback, ask:
 
@@ -79,6 +85,8 @@ The bullet-quantification step is the one most people fumble. There's a separate
 2. Add any extra context the AI doesn't have (the actual numbers, the team size, the specific outcome). The more truth you give it, the better the rewrite.
 3. Pick from the suggested rewrites, or use one as a starting point and edit. Paste the final version back into your CV.
 4. Repeat for every weak bullet in the same review pass — don't switch contexts back and forth.
+
+![[13-raw/screenshots/i-ch06-bullet-writer-before-after.png]]
 
 You can also call Bullet Writer directly from My CVs without going through Review, but pairing the two is faster.
 

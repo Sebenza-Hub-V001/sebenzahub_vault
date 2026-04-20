@@ -47,6 +47,8 @@ Write down three numbers:
 
 Your floor should be at least at the 25th percentile for your role and experience. Your target should be near the median or slightly above. Your ceiling should be at the 75th percentile or above only if you have a strong reason (a competing offer, an unusually rare skill, or evidence the role is paid above market at this specific company).
 
+![[13-raw/screenshots/i-ch16-salary-insights-chart.png]]
+
 ## Step 2 — Talk through strategy with Salary Negotiation Coach
 
 ### Salary Negotiation Coach — _Tier: Standard_
@@ -62,6 +64,8 @@ Your floor should be at least at the 25th percentile for your role and experienc
 - "What's a good way to bring up the signing bonus without sounding greedy?"
 
 Use the conversation to crystallise *your* strategy. Don't just take the first answer — push back, ask follow-ups, ask the coach to challenge your reasoning. The output you want is clarity in your own head, not a transcript.
+
+![[13-raw/screenshots/i-ch16-negotiation-coach-chat.png]]
 
 ## Step 3 — Force yourself through Salary Negotiation Coaching
 
@@ -81,6 +85,8 @@ Use the conversation to crystallise *your* strategy. Don't just take the first a
 
 By the end you have a one-page prep document. Print it or have it on a second screen during the live call.
 
+![[13-raw/screenshots/i-ch16-structured-prep-workflow.png]]
+
 ## Step 4 — Rehearse live with Negotiation Coach
 
 ### Negotiation Coach — _Tier: Premium_
@@ -96,6 +102,8 @@ By the end you have a one-page prep document. Print it or have it on a second sc
 - "Your counter was clear, but you didn't anchor it on the market data"
 
 Take the feedback seriously even when it's uncomfortable. The whole point is to find your tells before the hiring manager does. (If you've already used **Negotiation Roleplay** from Chapter 15, treat Negotiation Coach as the salary-focused complement — Roleplay covers the broader deal structure; Coach drills the salary-specific language.)
+
+![[13-raw/screenshots/i-ch16-live-coach-feedback.png]]
 
 ## Step 5 — Decide what to ask for
 

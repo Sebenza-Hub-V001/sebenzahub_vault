@@ -41,6 +41,8 @@ Each feature in this chapter assumes the previous one is done:
 4. They receive a magic-link invite. Once they click it, they appear in your Team Members list.
 5. Repeat for every recruiter, hiring manager, and HRBP who needs access. Don't invite occasional interviewers as full team members — use the interviewer scorecard flow instead (covered in Chapter 4) to keep your seat count clean.
 
+![[13-raw/screenshots/c-ch03-team-members-invite-dialog.png]]
+
 If you're on Standard and 5 seats isn't enough, upgrade to Premium before you add the sixth person — the system will block the invite otherwise. If you're close to the limit, decide whether each new person is a recurring user (give them a seat) or a one-off contributor (use the lighter interviewer flow instead).
 
 ## Lock down who can do what
@@ -59,6 +61,8 @@ If you're on Standard and 5 seats isn't enough, upgrade to Premium before you ad
 4. Adjust the defaults to match your control framework. Common changes: hide salary fields from interviewers, restrict offer creation to Recruiters and above, restrict candidate exports to Admins only.
 5. Assign each team member their role from the Team Members list. A team member can only have one role — to give someone temporary elevated access, change their role for the duration and change it back after.
 
+![[13-raw/screenshots/c-ch03-rbac-permissions-matrix.png]]
+
 Document the resulting permission model in your internal wiki and share it with Risk/Audit before go-live. RBAC is only as good as the discipline you bring to assigning roles.
 
 ## Enforce single sign-on
@@ -73,6 +77,9 @@ Document the resulting permission model in your internal wiki and share it with 
 
 1. Talk to IT first. You'll need an admin in your IdP (Azure AD / Okta / Google Workspace) to create a new application for Sebenza Hub.
 2. Go to **Settings → SSO Configuration** and choose your protocol (SAML 2.0 for most enterprises, OAuth for Google Workspace).
+
+![[13-raw/screenshots/c-ch03-sso-configuration-form.png]]
+
 3. Sebenza Hub will display the SP metadata — Entity ID, ACS URL, and a downloadable certificate. Send these to IT to configure the IdP side.
 4. IT sends back the IdP metadata (URL or XML). Paste it into the SSO Configuration screen.
 5. Map IdP groups to Sebenza roles. The standard mapping: `sebenza-admins → Admin`, `sebenza-recruiters → Recruiter`, `sebenza-hiring-managers → Hiring Manager`, etc. This is how new joiners get auto-provisioned with the right role.
@@ -98,6 +105,8 @@ Keep one **break-glass owner account** on magic-link login outside the SSO domai
 5. Pick a font family from the supported list. If your corporate font isn't available, pick the closest match.
 6. Preview the result on a sample job listing and your career page before publishing.
 
+![[13-raw/screenshots/c-ch03-company-branding-upload-preview.png]]
+
 Re-do this if your brand refreshes. Outdated branding on a job listing is more damaging than no branding at all.
 
 ## Remove Sebenza branding entirely
@@ -113,6 +122,9 @@ Re-do this if your brand refreshes. Outdated branding on a job listing is more d
 1. Talk to IT. White-labelling requires DNS changes (CNAME for the custom domain, SPF / DKIM / DMARC for the branded email sender) and a TLS certificate.
 2. Go to **Settings → White-Label**.
 3. Enter the custom domain you want to use (e.g. `jobs.yourcompany.co.za`).
+
+![[13-raw/screenshots/c-ch03-white-label-custom-domain.png]]
+
 4. Sebenza Hub displays the DNS records IT needs to add. Send them across.
 5. Once DNS propagates, Sebenza provisions the TLS certificate automatically. This usually takes under an hour.
 6. Configure the branded email sender (e.g. `careers@yourcompany.co.za`). IT needs to add SPF and DKIM records for the Sebenza mail relay.
@@ -134,6 +146,8 @@ Keep the original Sebenza-domain URLs working as fallbacks during the transition
 2. Configure notification routing: which events trigger a notification, to which channels (email, in-app). Most teams start with @-mentions only and add more events as they tune.
 3. In your team kickoff for a new requisition, agree to leave hiring decisions as comments on the candidate record — not in Slack. The first week is the hardest; after that the habit forms.
 4. For interviewers who are not full team members, use the scorecard-only flow (covered in Chapter 4). They can leave structured feedback without consuming a Team Member seat.
+
+![[13-raw/screenshots/c-ch03-team-collaboration-feed.png]]
 
 The activity feed becomes useful once there's a few weeks of decisions in it. Don't expect it to be useful on day one.
 

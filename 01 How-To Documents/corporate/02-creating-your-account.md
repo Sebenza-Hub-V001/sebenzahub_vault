@@ -27,6 +27,10 @@ Open the Sebenza Hub homepage and click **Sign up** (or **Get started**). You'll
 
 Enter your work email address and click **Send magic link**. There's no password — Sebenza Hub uses magic-link login, where you click a link in your email instead of typing one. This is more secure than a password (no password to leak, no password to forget) and faster after the first time. SSO can replace this entirely once configured. See [[02-concepts/authentication]] for how the auth model works.
 
+![[13-raw/screenshots/ch02-magic-link-email.png]]
+
+(Shared auth screenshot — same magic-link email screen is used across Individual, Recruiter, and Corporate signups.)
+
 ## Step 2 — Click the magic link
 
 Check your inbox. You should see an email from Sebenza Hub within a minute or two. If you don't, check spam and any quarantine — corporate mail systems frequently filter automated mail.
@@ -40,6 +44,8 @@ Click the link in the email. It opens in your browser and logs you in.
 The first time you log in, Sebenza Hub doesn't know whether you're a job seeker, a recruitment agency, or an in-house corporate hiring team. You'll be redirected to the onboarding role picker.
 
 Choose **Business**.
+
+![[13-raw/screenshots/c-ch02-role-selection-business.png]]
 
 > Warning. **This is the most important click in the guide.** Once you select Business and complete onboarding, your role is **locked** to this account. You cannot later switch this same login to a Recruiter account or an Individual account. If you accidentally pick the wrong role, the cleanest fix is to use a different email address and start over.
 

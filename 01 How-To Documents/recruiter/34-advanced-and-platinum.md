@@ -61,6 +61,8 @@ Predictive Hiring is a forecasting tool, not a crystal ball. The forecasts are p
 
 **How to use it.** Open `/dashboard/recruiter/rapid-workflow` and follow the checklist below — confirm urgency is real, pull from existing pools, get explicit client buy-in to the compressed cadence, schedule the panel within 48 hours, offer within 24 hours of panel.
 
+![[13-raw/screenshots/r-ch34-rapid-workflow-quick-actions.png]]
+
 Rapid Workflow is for the moment a client says: "I need someone yesterday." Standard recruitment timelines (30–45 days) don't apply. This is for genuine emergencies — the senior developer who quit unexpectedly, the contract role that starts in 2 weeks, the executive who needs to be in place before a board meeting.
 
 Rapid Workflow compresses the standard process by removing non-essential steps and parallelising what's normally sequential.
@@ -117,6 +119,8 @@ The next two features sit at the highest end of the productivity curve. They tur
 
 **How to use it.** Open `/dashboard/recruiter/workflow-automation`. Start with one rule, not ten. Common first rules: "when candidate moved to Interview, send scheduling link"; "when offer accepted, trigger background check"; "when candidate inactive 7 days, send re-engagement message." Add rules incrementally and audit weekly for unexpected behaviour.
 
+![[13-raw/screenshots/r-ch34-workflow-automation-rule-builder.png]]
+
 ### Auto-Pilot Rules — _Tier: Premium_
 
 **What this feature is.** Auto-Pilot Rules is the more aggressive cousin — it executes the full hands-off pipeline actions (auto-advance, auto-reject, auto-message based on signals) for high-volume desks where the recruiter literally supervises a stream of decisions rather than making each one.
@@ -124,6 +128,8 @@ The next two features sit at the highest end of the productivity curve. They tur
 **Why it matters.** High-volume desks (call centres, graduate programmes, BPO) generate hundreds of decisions a day. Auto-Pilot turns the recruiter from operator into supervisor — the ultimate productivity lever, and the only way to run 500-applicant roles without burning a junior recruiter's week.
 
 **How to use it.** Open `/dashboard/recruiter/auto-pilot`. Configure auto-advance and auto-reject rules with explicit thresholds (match score, knockout responses, engagement signals). Always run in shadow mode for 1–2 weeks before flipping live — the page shows what the rule *would* have done so you can audit the decisions before they're real. Once live, review the auto-decision audit weekly.
+
+![[13-raw/screenshots/r-ch34-auto-pilot-rules-config.png]]
 
 ## 4. Fraud Detection — `/dashboard/recruiter/fraud-detection`
 
@@ -135,6 +141,8 @@ The next two features sit at the highest end of the productivity curve. They tur
 
 **How to use it.** Runs automatically on every application. Open `/dashboard/recruiter/fraud-detection` weekly to review flagged candidates. The page surfaces the specific signal (duplicate phone number, CV identical to one already in your database, identity field mismatch) so you can decide whether to reject, investigate, or escalate. Pair with Background Checks (Premium) for high-stakes roles.
 
+![[13-raw/screenshots/r-ch34-fraud-detection-alerts.png]]
+
 ## 5. Hiring Manager Portal — `/dashboard/recruiter/hiring-manager-portal`
 
 ### Hiring Manager Portal — _Tier: Premium_
@@ -145,6 +153,8 @@ The next two features sit at the highest end of the productivity curve. They tur
 
 **How to use it.** From the client record (Chapter 10), click **Invite Hiring Manager**. They get an email link, set a password, and land directly on the candidate review surface for their open roles. They never see other clients' candidates, your full pipeline, or anything outside their requisitions. Track engagement in the portal usage analytics — managers who never log in are a churn risk to flag at the next account check-in.
 
+![[13-raw/screenshots/r-ch34-hiring-manager-portal.png]]
+
 ## 6. API Access — `/dashboard/recruiter/api`
 
 ### API Access — _Tier: Premium_
@@ -154,6 +164,8 @@ The next two features sit at the highest end of the productivity curve. They tur
 **Why it matters.** Enterprise customers need to integrate Sebenza Hub with the rest of their stack — HRIS, BI tools, internal Slack workflows, custom reporting. API access is the enabler of that ecosystem and the reason the largest deals don't churn: once you're plumbed into a client's tech stack, the switching cost is real.
 
 **How to use it.** Open `/dashboard/recruiter/api`. Generate an API token with the minimum scopes needed for the integration (least privilege — never use a full-admin token for a reporting export). Document the integration in your client's audit pack. Rotate tokens quarterly and revoke immediately on any team-member exit.
+
+![[13-raw/screenshots/r-ch34-api-key-management.png]]
 
 ## 7. The path to Platinum trust tier
 

@@ -61,6 +61,8 @@ These cover 80% of your daily messaging. The other 20% is genuinely personal and
    - `{{recruiter.firstName}}` (you)
 7. Save and tag the template (e.g. `screening`, `interview`, `rejection`) so it's findable.
 
+![[13-raw/screenshots/r-ch23-template-variable-editor.png]]
+
 ### Template hygiene
 
 - **Sound human.** Templates that read like form letters are worse than no template. Add a personal touch placeholder line that the recruiter fills in before sending.
@@ -77,6 +79,8 @@ These cover 80% of your daily messaging. The other 20% is genuinely personal and
 **Why it matters.** 60% of candidate responses happen after email 3. Sequences automate the multi-touch follow-ups recruiters know they should do but stop doing manually after the first week of a busy desk — which raises reply rates by 2–3×.
 
 **How to use it.** Build a sequence in `/dashboard/recruiter/sequences` (full walkthrough below). Enroll candidates from the Pipeline, from a talent pool (Chapter 14), or via a workflow automation rule. Always set the exit rules so the sequence pauses the moment a candidate replies.
+
+![[13-raw/screenshots/r-ch23-email-sequences-builder.png]]
 
 A **sequence** is a multi-step series of messages sent automatically over time. Where a template is a single message, a sequence is a campaign — Day 0 first touch, Day 4 follow-up, Day 10 final touch, with exit rules that pause the sequence when the candidate responds.
 
@@ -111,6 +115,8 @@ The exit rule is crucial. A sequence that keeps sending after a candidate replie
    - **Exit on opt-out** (mandatory under POPIA)
 6. Save.
 
+![[13-raw/screenshots/r-ch23-sequence-conditional-branches.png]]
+
 ### Enrolling candidates in a sequence
 
 Once a sequence exists, you enroll candidates in it from:
@@ -126,6 +132,8 @@ Active sequences count against your plan limit (Chapter 4.5). Each plan caps how
 ### Cross-reference: Candidate Re-Engagement (Chapter 13)
 
 The dormant re-engagement sequence is one of the highest-ROI sequences you'll run, and it's powered by the **Candidate Re-Engagement** feature (Standard tier) covered in detail in Chapter 13. It generates the messaging strategy for past candidates who fit a new role; you wire that strategy into a sequence here.
+
+![[13-raw/screenshots/r-ch23-sequence-analytics.png]]
 
 ## 3. The chatbot — `/dashboard/recruiter/chatbot`
 

@@ -26,6 +26,8 @@ Before you get into the kanban boards and analytics, the foundation is the simpl
 
 **How to use it.** Open **My Applications** (`/dashboard/individual/applications`) — the flat list view. Sort by date, status, or company. Click into any application to see full detail and history. This view is your daily ground truth; everything else in this chapter is built on top of it.
 
+![[13-raw/screenshots/i-ch12-my-applications-list.png]]
+
 > **Cross-reference:** The **Application Portal** (kanban view of the same data) is covered in Chapter 11 as a Standard feature. This chapter focuses on what you do with the data once you can see it.
 
 ## The pages you'll be living in
@@ -82,6 +84,8 @@ This view is the most useful one when you have more than three or four applicati
 - Spot stuck applications (anything in `New` or `Screening` for too long)
 - Notice when you have nothing in interview stage (a sign you need to apply more, or apply better)
 - Notice when you have *many* in interview stage (a sign to slow down on new applications and focus on prep)
+
+![[13-raw/screenshots/i-ch12-application-tracker-kanban.png]]
 
 Look at it once or twice a week, not every day.
 
@@ -166,6 +170,8 @@ It shows:
 
 Use it to course-correct. If your response rate is below 5% across 20 applications, something is wrong — that's your cue to revisit Chapter 17 (troubleshooting). If response rates are fine but you're stuck at the screening stage, the problem is the CV or the cover letter rather than the targeting.
 
+![[13-raw/screenshots/i-ch12-analytics-dashboard.png]]
+
 Don't open Analytics every day. Look at it every two or three weeks, when you have enough new data to learn from.
 
 ## Application Portal and Candidate Hub
@@ -174,6 +180,8 @@ These are two more pages in the Track section that you'll touch occasionally:
 
 - **Application Portal** (`/dashboard/individual/portal`) — When an employer needs you to upload extra documents, fill in a pre-screening form, or answer a follow-up question, the request shows up here. Check it weekly.
 - **Candidate Hub** (`/dashboard/individual/candidate-hub`) — A central landing page that aggregates everything: profile status, active applications, upcoming interviews, new matches, and recommended actions ("what needs attention now"). If you only had time to look at one page per session, this would be it.
+
+![[13-raw/screenshots/i-ch12-candidate-hub-overview.png]]
 
 ## A weekly tracking ritual
 

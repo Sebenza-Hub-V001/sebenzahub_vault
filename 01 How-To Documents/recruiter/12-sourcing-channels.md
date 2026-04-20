@@ -38,6 +38,8 @@ Before any cold sourcing, search what you already have. Sebenza Hub layers four 
 
 **How to use it.** Open `/dashboard/recruiter/candidates`, set the filters, run the search. If you find yourself wishing for boolean operators or skill weighting, you've outgrown Basic — move to Advanced.
 
+![[13-raw/screenshots/r-ch12-candidate-search-results.png]]
+
 ### Advanced Candidate Search — _Tier: Standard_
 
 **What this feature is.** Advanced Candidate Search adds full-text search, AI-powered match scoring across skills, experience, education, and certifications, plus boolean operators for power users.
@@ -62,6 +64,8 @@ Before any cold sourcing, search what you already have. Sebenza Hub layers four 
 
 **How to use it.** Toggle **Hybrid** at the top of the candidate search. The query box accepts natural language; the filter sidebar still applies hard constraints.
 
+![[13-raw/screenshots/r-ch12-ai-hybrid-search.png]]
+
 ### AI Job Search Parser — _Tier: Standard_
 
 **What this feature is.** AI Job Search Parser takes a natural-language query — *"senior Python dev in Cape Town open to hybrid"* — and translates it into structured filters automatically (skill: Python, seniority: senior, location: Cape Town, remote: hybrid).
@@ -77,6 +81,8 @@ Before any cold sourcing, search what you already have. Sebenza Hub layers four 
 **Why it matters.** Most "0 results" searches are caused by one filter being too tight, but it's not always obvious which one. Suggestions tell you exactly which constraint to drop, converting dead-ends into live results without having to start the search over.
 
 **How to use it.** Suggestions appear automatically below the results panel when the result count is low. Click any suggestion to apply it and re-run the search.
+
+![[13-raw/screenshots/r-ch12-smart-search-suggestions.png]]
 
 ## 2. Saved searches and search-ops intelligence
 
@@ -98,6 +104,8 @@ Once you have searches you run repeatedly, the platform layers diagnostic and in
 
 **How to use it.** From any saved search, click **Market pulse**. The report shows trend lines and highlights material shifts. Set up a monthly pulse review for your top 3–5 saved searches.
 
+![[13-raw/screenshots/r-ch12-market-pulse-chart.png]]
+
 ### Competitive Heat Map — _Tier: Premium_
 
 **What this feature is.** Competitive Heat Map shows the competitive landscape for a given search profile — which other agencies and corporates are recruiting for similar candidates, in which locations, at what salary bands.
@@ -106,6 +114,8 @@ Once you have searches you run repeatedly, the platform layers diagnostic and in
 
 **How to use it.** From a search, click **Competitive heat map**. The map renders by location and shows competing employers, salary bands, and demand pressure. Use the insights when you advise a client on offer structure or talent timing.
 
+![[13-raw/screenshots/r-ch12-competitive-heat-map.png]]
+
 ### Talent Pool Generator — _Tier: Standard_
 
 **What this feature is.** Talent Pool Generator turns a free-text criterion — *"12 SA civil engineers with Aconex experience in Cape Town"* — into a saved talent-pool shortlist in one prompt-driven step.
@@ -113,6 +123,8 @@ Once you have searches you run repeatedly, the platform layers diagnostic and in
 **Why it matters.** Building pools manually is tedious and inconsistent across team members. AI generation compresses hours of search-save-tag work into a single prompt, and produces pools that are uniformly tagged and named so the team can actually find them again.
 
 **How to use it.** Open `/dashboard/recruiter/talent-pool`, click **Generate pool**, type the criteria. The pool appears with all matching candidates pre-loaded. Chapter 14 covers what to do with pools after generation.
+
+![[13-raw/screenshots/r-ch12-talent-pool-generator-dialog.png]]
 
 ## 3. AI Search — putting it together
 
@@ -206,6 +218,8 @@ The AI doesn't violate POPIA — it surfaces publicly-available signals. But eve
 **Why it matters.** LinkedIn is still the top source for senior candidates. Sync means you don't have to choose between "the data lives on LinkedIn" and "the data lives in Sebenza Hub" — it lives in both, with Sebenza Hub as the system of record. The Premium tier reflects the LinkedIn API cost.
 
 **How to use it.** Connect your LinkedIn account in `/dashboard/recruiter/settings` → **Integrations**. Once connected, sync runs automatically — new leads from LinkedIn appear in your candidate database, and existing candidate records are enriched with current LinkedIn data. Chapter 13 covers the LinkedIn-specific lead-gen flow on top of this sync.
+
+![[13-raw/screenshots/r-ch12-linkedin-sync.png]]
 
 ## The "first hour" sourcing routine
 

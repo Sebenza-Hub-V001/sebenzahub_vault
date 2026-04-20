@@ -24,6 +24,8 @@ POPIA — the Protection of Personal Information Act — is South Africa's data 
 
 **How to use it.** You don't *do* POPIA Compliance once — you live in it. Day-to-day: respect the `whatsappConsent` flag, only collect data relevant to the role, and run the DSAR workflow (below) when a candidate requests their data. Quarterly: audit retention against the policy you set at `/dashboard/recruiter/compliance` → Retention.
 
+![[13-raw/screenshots/r-ch27-popia-consent-dashboard.png]]
+
 ## The five POPIA principles you need to remember
 
 POPIA has many sections; for recruiters, these five rules cover 90% of practical compliance:
@@ -94,6 +96,8 @@ Open `/dashboard/recruiter/compliance` and trigger a **Data Subject Access Repor
 - Every interaction with you logged in the activity timeline
 - Their consent records (what they consented to and when)
 
+![[13-raw/screenshots/r-ch27-dsar-request-screen.png]]
+
 This is the "everything we hold" answer.
 
 ### Step 4 — Review for sensitive third-party content
@@ -155,6 +159,8 @@ POPIA requires that you don't keep data "longer than necessary." Sebenza Hub hel
 
 Configure your retention policy at `/dashboard/recruiter/compliance` → Retention. Don't set it to "forever" — that's a POPIA violation waiting to happen.
 
+![[13-raw/screenshots/r-ch27-consent-audit-log.png]]
+
 ## Common POPIA mistakes recruiters make
 
 | Mistake | What to do instead |
@@ -180,6 +186,8 @@ POPIA is the legal floor; how candidates *feel* about your data handling is the 
 **Why it matters.** Candidate experience is a leading indicator of employer brand and referral inflow, and a candidate who feels mishandled is the one most likely to lodge a POPIA or EE complaint. NPS turns the soft signal into a measurable KPI you can act on before it becomes a regulator's letter.
 
 **How to use it.** Surveys run automatically. Open `/dashboard/recruiter/feedback` weekly. Reply to every detractor (0–6) within 24 hours personally, not via template. Promoters (9–10) become referral asks (Chapter 30). Patterns of detractor responses around data handling — "you kept asking for documents I didn't think were relevant" — point straight at POPIA principles 2 and 3 and tell you what to fix.
+
+![[13-raw/screenshots/r-ch27-candidate-nps-results.png]]
 
 ## Pro tips
 

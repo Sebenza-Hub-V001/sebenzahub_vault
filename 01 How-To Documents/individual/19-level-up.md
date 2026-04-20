@@ -16,6 +16,8 @@ Job-related learning is different from general curiosity learning. The goal is n
 
 The learning surface inside Sebenza Hub is large — roughly twenty features. To keep it navigable, this chapter groups them into six stages: **Diagnose**, **Plan**, **Consume**, **Practice**, **Test & Prove**, and **Track**. Work through them in order the first time. After that, return to whichever stage your current goal lives in.
 
+![[13-raw/screenshots/i-ch19-learning-stages-overview.png]]
+
 ## Stage 1 — Diagnose
 
 Before you pick a course, find out what's actually missing.
@@ -30,6 +32,9 @@ Before you pick a course, find out what's actually missing.
 
 1. Open **Skill Gap Analysis** (`/dashboard/individual/skill-gap`).
 2. Confirm your target role; let it score the gap.
+
+![[13-raw/screenshots/i-ch19-skill-gap-chart.png]]
+
 3. Pick the top two or three Critical-bucket skills. Ignore the rest for now.
 
 The list usually splits into three buckets:
@@ -71,6 +76,9 @@ Don't start consuming until you know the schedule and the sequence.
 1. Open **Study Planner** (`/dashboard/individual/study-planner`).
 2. Set realistic availability windows (mornings, lunch, evenings, weekends).
 3. Let it slot the plan in. Reasonable patterns: 30–45 min weekdays + a longer weekend session if working full-time; 90–120 min/day if between jobs; 20 min daily if family-heavy.
+
+![[13-raw/screenshots/i-ch19-study-planner-weekly-grid.png]]
+
 4. Treat the slots as appointments, not suggestions.
 
 ### Credential Roadmap — _Tier: Premium_
@@ -93,6 +101,8 @@ The platform has multiple learning surfaces. Pick by what fits the skill, not by
 
 **How to use it.** Open **Learning Hub** (`/dashboard/individual/learning-hub`). Search by the exact skill name from your gap analysis, not by a topic area.
 
+![[13-raw/screenshots/i-ch19-learning-hub-catalogue.png]]
+
 ### Learning Paths — _Tier: Standard_
 
 **What this feature is.** Curated multi-course sequences that take you from current to target skill level for a specific role transition.
@@ -110,6 +120,8 @@ The platform has multiple learning surfaces. Pick by what fits the skill, not by
 **Why it matters.** Mobile, commuter-friendly learning is how you maintain momentum on busy days. Free keeps the streak unbroken without draining credits.
 
 **How to use it.** Open **Micro Learning** (`/dashboard/individual/micro-learning`). Use it for skills you've touched but want to deepen — and on days you only have ten minutes.
+
+![[13-raw/screenshots/i-ch19-micro-learning-card.png]]
 
 ### Job-Linked Learning — _Tier: Standard_
 
@@ -139,6 +151,8 @@ Reading is not learning. Retrieval is. Practice is where knowledge becomes durab
 
 **How to use it.** Open **Skill Battle**, pick a topic, choose AI or peer opponent, play. Use it on the days motivation is low.
 
+![[13-raw/screenshots/i-ch19-skill-battle-leaderboard.png]]
+
 ### Weakness Drills — _Tier: Standard_
 
 **What this feature is.** Focused drill sessions that target only the topics you've tested weakest on, adjusting difficulty as you improve.
@@ -147,6 +161,8 @@ Reading is not learning. Retrieval is. Practice is where knowledge becomes durab
 
 **How to use it.** After any test (Stage 5), open **Weakness Drills** — your weak areas are pre-loaded. Do one drill session per weak topic per week.
 
+![[13-raw/screenshots/i-ch19-weakness-drill-session.png]]
+
 ### Adaptive Practice — _Tier: Premium_
 
 **What this feature is.** AI-driven system that adjusts question difficulty in real time to keep you in the optimal learning zone.
@@ -154,6 +170,8 @@ Reading is not learning. Retrieval is. Practice is where knowledge becomes durab
 **Why it matters.** Fixed-difficulty drills either bore you or crush you. Adaptive keeps sessions productive for longer and drives better outcomes — worth the Premium slot if you're studying daily.
 
 **How to use it.** Toggle **Adaptive** on in any practice session. Sit back and let the engine titrate difficulty.
+
+![[13-raw/screenshots/i-ch19-adaptive-difficulty-meter.png]]
 
 ### Test Coach Chat — _Tier: Standard_
 
@@ -191,6 +209,8 @@ A skill you can't prove is a skill recruiters can't trust. Test what you've lear
 
 **How to use it.** Runs automatically after every test. Open the report, write down the two weakest sub-topics, send them to Weakness Drills.
 
+![[13-raw/screenshots/i-ch19-test-feedback-breakdown.png]]
+
 ### Test Behavior Insights — _Tier: Premium_
 
 **What this feature is.** Analyses test-taking patterns — time per question, skip rates, confidence calibration — to identify process issues.
@@ -215,6 +235,8 @@ A skill you can't prove is a skill recruiters can't trust. Test what you've lear
 
 **How to use it.** Open **Test Portfolio**, pick which results to publish, copy the share URL into your LinkedIn featured section and CV.
 
+![[13-raw/screenshots/i-ch19-test-portfolio-public-page.png]]
+
 ## Stage 6 — Track and stay engaged
 
 The system only works if you keep showing up. These features close the motivation loop.
@@ -227,6 +249,8 @@ The system only works if you keep showing up. These features close the motivatio
 
 **How to use it.** Open **Skill Tree** (`/dashboard/individual/skill-tree`) once a week. Pick the next unlocked node, check what unlocks it, route that into your study plan.
 
+![[13-raw/screenshots/i-ch19-skill-tree-visualisation.png]]
+
 ### Learning Analytics — _Tier: Standard_
 
 **What this feature is.** Tracks courses started, completed, time spent, skills developed, and ties progress back to job-readiness scores.
@@ -235,6 +259,8 @@ The system only works if you keep showing up. These features close the motivatio
 
 **How to use it.** Open **Learning Analytics** weekly. The number to watch isn't hours studied — it's job-readiness score and verified skills added.
 
+![[13-raw/screenshots/i-ch19-learning-analytics-dashboard.png]]
+
 ### Learning Challenges — _Tier: Free_
 
 **What this feature is.** Gamified short challenges (e.g., "30-day SQL daily drill") with streaks, badges, and peer comparison.
@@ -242,6 +268,8 @@ The system only works if you keep showing up. These features close the motivatio
 **Why it matters.** Free gamified learning pulls you back to the platform daily — the highest-value retention mechanic short of job applications themselves. Useful when motivation flags.
 
 **How to use it.** Pick one challenge tied to a Critical-bucket skill. Don't run multiple challenges at once — one streak protects another from collapsing.
+
+![[13-raw/screenshots/i-ch19-challenge-streak-state.png]]
 
 ## Make the learning visible on your profile
 

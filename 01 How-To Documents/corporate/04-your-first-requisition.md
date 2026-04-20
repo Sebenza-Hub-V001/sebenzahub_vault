@@ -37,10 +37,16 @@ Most Corporate customers start on **Standard** with Basic Applicant Tracking and
 **How to use it.**
 
 1. Go to **Requisitions → Create new**.
+
+![[13-raw/screenshots/c-ch04-create-requisition-form.png]]
+
 2. Fill in the role details: title, department, location, employment type (permanent / contract — see [[01 How-To Documents/corporate/05-contract-workers|Chapter 5]] for contract), salary band, hiring manager.
 3. Select sourcing channels — internal job board only (see [[01 How-To Documents/corporate/06-internal-mobility|Chapter 6]]), external job boards, or your engaged recruitment agencies (see [[01 How-To Documents/corporate/07-vendor-management|Chapter 7]]).
 4. Publish the requisition. Candidates start landing in the **Applied** stage.
 5. Open the requisition's Pipeline view to see all candidates grouped by stage. Drag a candidate to the next stage to advance them, or click in for the full record.
+
+![[13-raw/screenshots/c-ch04-basic-ats-pipeline-view.png]]
+
 6. At each stage, leave structured notes (covered in Chapter 3 — Team Collaboration). Use scorecards for interview feedback so the decision rationale is preserved.
 7. When you're ready to offer, advance the candidate to **Offered**. The offer letter workflow is built in.
 8. When the candidate accepts, advance to **Hired**. This triggers the onboarding checklist (see below).
@@ -59,10 +65,16 @@ The default stages cover most office-based hiring. If you find them limiting (e.
 
 1. Go to **Settings → Pipeline Templates**.
 2. Create a template per role family (Engineering, Sales, Warehouse, Executive, etc.). For each, define the stages in order: e.g., Engineering = Applied → Recruiter Screen → Tech Screen → System Design → Onsite → Offer → Hired.
+
+![[13-raw/screenshots/c-ch04-full-ats-custom-stages-editor.png]]
+
 3. For each stage, set the automation rules:
    - **Auto-advance:** if no decision in N days and no scorecard logged, escalate to the hiring manager.
    - **Auto-reject:** if candidate doesn't respond to scheduling within N days, move to Rejected with a templated message.
    - **Auto-message:** when a candidate moves to a stage, send a templated update.
+
+![[13-raw/screenshots/c-ch04-automation-rules-builder.png]]
+
 4. Set SLA targets per stage (e.g., Recruiter Screen ≤ 3 days, Tech Screen scheduled ≤ 5 days). The system will alert when SLAs slip.
 5. When you create a new requisition, choose the appropriate pipeline template. The stages, automation rules, and SLA targets all inherit.
 6. Use the **Cross-Requisition Reporting** view (under Analytics) to see funnel conversion, time-in-stage, and source effectiveness across every active req. This is what feeds the board pack.
@@ -90,6 +102,8 @@ For deeper analytics on top of Full ATS, see [[01 How-To Documents/corporate/08-
 4. Create separate templates per role family if onboarding genuinely differs (engineering needs Jira / GitHub setup; sales needs CRM / quota provisioning).
 5. When a candidate hits **Hired**, the system asks which template to apply and the start date. Once confirmed, the checklist auto-shares with the new hire, manager, and HR.
 6. Track completion from the Onboarding dashboard. Overdue tasks alert the owner; consistently overdue patterns are a signal that the template is unrealistic and should be tuned.
+
+![[13-raw/screenshots/c-ch04-onboarding-checklist.png]]
 
 The first version of your template will be wrong — usually too ambitious for week one and too sparse for week three. Tune it based on completion data after the first three hires.
 

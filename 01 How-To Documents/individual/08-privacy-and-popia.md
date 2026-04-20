@@ -25,6 +25,8 @@ Both are under your control. The defaults are sensible but worth reviewing rathe
 
 You set this during onboarding. To change it now, go to **Settings** (`/dashboard/individual/settings`) and find Profile Visibility.
 
+![[13-raw/screenshots/i-ch08-popia-consent-toggles.png]]
+
 | Setting | What happens |
 |---------|--------------|
 | **Public** | Recruiters can find your profile in search, contact you via Inbox, and view your public profile preview. You're discoverable. |
@@ -94,6 +96,8 @@ You have the right to:
 | **Deletion** | Have your data removed (a "Data Subject Access Request" or DSAR) | Settings → Privacy → Request account deletion |
 | **Object to processing** | Say no to specific uses of your data | Settings → Privacy → Communication preferences |
 | **Withdraw consent** | Take back the consent you gave at onboarding | Settings → Privacy → Withdraw consent (this effectively closes your account) |
+
+![[13-raw/screenshots/i-ch08-dsar-request-form.png]]
 
 > ⚠️ **Withdrawing consent ends your use of the platform.** Sebenza Hub cannot legally continue processing your data without consent, so this is a one-way door — your account will be closed and your data deleted (subject to whatever the platform is required to retain for legal reasons).
 

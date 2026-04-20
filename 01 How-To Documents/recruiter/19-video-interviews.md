@@ -29,6 +29,8 @@ Video interviews used to mean "Zoom call instead of in-person". On Sebenza Hub, 
 
 **How to use it.** Open `/dashboard/recruiter/video-interviews` to set up either mode. The rest of this chapter walks through the modes, the conversational AI option, and the analysis features.
 
+![[13-raw/screenshots/r-ch19-video-interview-session.png]]
+
 ## The two modes
 
 ### Async (one-way) video interviews
@@ -52,6 +54,8 @@ Use for: standard interview rounds where back-and-forth conversation matters.
 **Why it matters.** First-round interviews are high-volume and low-signal — most of them just confirm what the CV already said. The AI can run them 24/7 without burning recruiter time, freeing your senior staff for the final-round human judgement where it actually matters.
 
 **How to use it.** From the candidate's record, click **Schedule** → **AI Conversational Interview**. Pick the question pack (auto-generated from the JD or one of yours). The candidate gets a link, talks to the AI in their browser, and you get the transcript and scores within minutes of completion. Use it for high-volume entry-level and mid-level roles; use a human for senior and above.
+
+![[13-raw/screenshots/r-ch19-ai-conversational-interview-chat.png]]
 
 ## Setting up an async interview
 
@@ -131,6 +135,8 @@ This is where it gets interesting. The platform layers eight distinct AI analyse
 
 **How to use it.** Open the **Sentiment** tab on any recorded interview. Hover the timeline to see the spoken context at each inflection point. Re-watch the dips before deciding.
 
+![[13-raw/screenshots/r-ch19-sentiment-timeline-chart.png]]
+
 ### Video Behavioral Analysis — _Tier: Premium_
 
 **What this feature is.** Behavioural competency mapping from the video — STAR (Situation, Task, Action, Result) response detection, emotional intelligence signals, specific-example rate.
@@ -139,6 +145,8 @@ This is where it gets interesting. The platform layers eight distinct AI analyse
 
 **How to use it.** Open the **Behavioural** tab. The AI marks each behavioural question with whether the candidate gave a STAR-format answer or vagued out. Targets coaching feedback for the candidate (Chapter 28 covers shareable feedback).
 
+![[13-raw/screenshots/r-ch19-behavioral-star-detection.png]]
+
 ### Video Communication Deep Dive — _Tier: Premium_
 
 **What this feature is.** Exhaustive analysis of speech patterns, vocabulary range, filler-word rate, and overall communication style.
@@ -146,6 +154,8 @@ This is where it gets interesting. The platform layers eight distinct AI analyse
 **Why it matters.** Communication quality predicts on-the-job performance in most roles. The deep dive gives a defensible, quantified view rather than "he came across well" — useful when the hiring manager wants justification for ranking one strong candidate over another.
 
 **How to use it.** Open the **Communication** tab. Use it as supporting evidence in panel debriefs, not as a primary criterion. **Bias warning** — non-native English speakers, candidates with strong regional accents, and candidates with speech-affecting disabilities consistently score lower on this metric. Read the substance, not the score.
+
+![[13-raw/screenshots/r-ch19-communication-deep-dive-metrics.png]]
 
 ### Video Follow-Up Questions — _Tier: Premium_
 
@@ -162,6 +172,8 @@ This is where it gets interesting. The platform layers eight distinct AI analyse
 **Why it matters.** Recommendation isn't replacement — it's a defensible baseline the panel argues with. Often surfaces risks a human panel overlooks in the positivity bias of a good conversation.
 
 **How to use it.** Appears at the top of the candidate's video record. Read the recommendation, read the reasoning, then form your own view. **Never** submit the recommendation directly to the client — it's an internal tool.
+
+![[13-raw/screenshots/r-ch19-hiring-recommendation-card.png]]
 
 ### Answer Authenticity Detection — _Tier: Premium_
 
@@ -198,6 +210,8 @@ Video AI analysis is the most demographically biased AI in the recruitment stack
 - Lower scores for women on certain "confidence" metrics
 
 **Use AI video analysis only as a sorting aid, never as a decision criterion.** The platform's Bias Auditing dashboard (managed by Sebenza Hub admins) tracks systemic bias in AI tools, but you are responsible for catching it on your individual roles.
+
+![[13-raw/screenshots/r-ch19-bias-audit-overlay.png]]
 
 A good rule: if you find yourself rejecting a candidate primarily because their AI video score was low, **stop and watch the video yourself**. Don't let the AI make the decision.
 

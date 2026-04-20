@@ -28,6 +28,8 @@ This chapter walks through adding a client, adding contacts, setting client tier
 
 `/dashboard/recruiter/clients` is the master list. Click **+ New client** to add one.
 
+![[13-raw/screenshots/r-ch08-client-list-view.png]]
+
 ## The minimum to add a client
 
 | Field | Required | What to put |
@@ -41,6 +43,8 @@ This chapter walks through adding a client, adding contacts, setting client tier
 | **Rating** | No | A 0–5 rating you assign internally — your subjective measure of how good a client they are to work with. Useful for filtering. |
 
 You can save with just the name. Everything else can be filled in later. But the more you add now, the more useful the client appears in searches, dashboards, and analytics.
+
+![[13-raw/screenshots/r-ch08-add-client-form.png]]
 
 ## Client tier — your most important categorisation
 
@@ -103,6 +107,8 @@ Direct hires for your own agency are a special case — create a "client" record
 Each client has a **Documents** tab where you can upload contracts, NDAs, proposals, SLAs, and invoices. Each document has a type (contract / proposal / nda / sla / invoice / other), an expiry date, and a status (active / expired / superseded / draft).
 
 Upload your **signed engagement contract** here as soon as it exists. It becomes the legal record you reference when fee disputes happen (Chapter 28 covers the audit trail). Don't store contracts in your email or your local Drive — store them on the client record so anyone with client access can find them.
+
+![[13-raw/screenshots/r-ch08-client-detail-requisitions.png]]
 
 ## The client list view
 

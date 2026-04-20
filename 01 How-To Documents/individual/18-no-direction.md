@@ -14,6 +14,8 @@ This is a different problem from "I'm not getting responses." The previous chapt
 
 It's a more uncomfortable problem because it doesn't feel like a "tool" issue. But Sebenza Hub has tools for it, and they're worth using before you drift for another six months.
 
+![[13-raw/screenshots/i-ch18-direction-tools-overview.png]]
+
 ## Why this happens
 
 Some of the common situations that land people here:
@@ -51,6 +53,9 @@ Open **Coaching** (`/dashboard/individual/coaching`). This is the most important
 **How to use it.**
 
 1. Open **Coaching** and start a session. Be honest about where you are now, what you've enjoyed, what you haven't, what constraints you're working with, and what you're afraid of.
+
+![[13-raw/screenshots/i-ch18-coaching-chat.png]]
+
 2. Don't expect a single answer. Run two or three sessions over a couple of weeks — the second and third are sharper because you've sat with what came up in the first.
 3. Take notes between sessions. The insights fade fast.
 4. Bring data from the next three tools back into coaching as you go.
@@ -74,6 +79,9 @@ Once coaching has surfaced themes, the next problem is articulation. Most people
 1. Open **Career Story** (linked from Coaching or accessible under your profile tools).
 2. Let it pull from your CV and profile, then review the draft narrative it produces.
 3. Edit until it actually sounds like you and like a story you could defend in an interview.
+
+![[13-raw/screenshots/i-ch18-career-story-draft.png]]
+
 4. Save it — you'll reuse it in Cover Letter Generator (Chapter 11) and elevator pitch work (Chapter 21).
 
 ## Tool 3 — Career Path Mapping (where you could go)
@@ -89,6 +97,9 @@ Now that you have a story, look at where it can plausibly go.
 **How to use it.**
 
 1. Open **Career Path** (`/dashboard/individual/career-path`).
+
+![[13-raw/screenshots/i-ch18-career-path-map.png]]
+
 2. Browse five or six options. Don't pick the first that looks appealing — note your gut reaction to each. Excitement, dread, surprise are all data.
 3. For the two or three you'd seriously consider, compare the skills you already have against the skills you'd need to add.
 4. Pick the path you can give a positive reason for — not the one left after eliminating others.
@@ -107,6 +118,8 @@ You have a direction. Now turn it into action — without this last step the pre
 
 1. Open **Job Search Strategy** and feed in the direction you settled on after Career Path.
 2. Review the 30/60/90 plan it produces. Edit anything that doesn't fit your real life (school runs, current job hours, energy levels).
+
+![[13-raw/screenshots/i-ch18-strategy-30-60-90-plan.png]]
 3. Put the week-1 actions on your calendar today, not "soon".
 4. Re-generate the plan when something material changes — a new constraint, a new opportunity, a course completed.
 

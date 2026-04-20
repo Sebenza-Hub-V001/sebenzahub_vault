@@ -14,6 +14,8 @@ The single most reliable signal that someone is going to be a strong candidate i
 
 Sebenza Hub has two AI tools for this: **AI Company Research** for the company itself, and **Interviewer Intelligence** for the specific people you'll be sitting in front of. Use the company tool every time. Use the interviewer tool once interviews get serious.
 
+![[13-raw/screenshots/i-ch14-company-research-landing.png]]
+
 ## When to do company research
 
 There are two distinct moments:
@@ -43,6 +45,8 @@ Before you even add a job to favourites, glance at the company. You're looking f
 - **B-BBEE level** (where known) — relevant in South Africa
 - **Recent news and announcements**
 - **Talking points** — specific things you can naturally raise in conversation
+
+![[13-raw/screenshots/i-ch14-company-report.png]]
 
 Things to look for in 5 minutes:
 
@@ -93,6 +97,8 @@ If you know the names of the interviewer(s) — and you usually do once the inte
 
 You're not building a dossier. You're building enough context to ask one good question and to read the room.
 
+![[13-raw/screenshots/i-ch14-interviewer-intel-card.png]]
+
 If you're not on Premium, do the same lookups manually on LinkedIn. It takes longer but the principle is the same.
 
 ### Step 4 — Recent news and momentum
@@ -124,6 +130,8 @@ These questions:
 - Get you genuinely useful information about whether you want the job
 
 Write the two questions down before the interview. Memorise them. Use them. (If you generated questions using **Questions to Ask** from Chapter 13, layer the company-specific intel on top of those.)
+
+![[13-raw/screenshots/i-ch14-talking-points.png]]
 
 ## Using research during the interview
 

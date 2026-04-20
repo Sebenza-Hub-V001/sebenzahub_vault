@@ -25,6 +25,8 @@ In short: a saved search is a query that finds jobs in the future. A favourite i
 
 Use both. They serve different purposes.
 
+![[13-raw/screenshots/i-ch10-saved-searches-favourites-nav.png]]
+
 ## Saved Searches
 
 ### Saved Searches — _Tier: Standard_
@@ -36,6 +38,8 @@ Use both. They serve different purposes.
 **How to use it.**
 
 Go to **Saved Searches** (`/dashboard/individual/saved-searches`) to manage them. To create one, run a search you like in **Manual Search** (Chapter 9), then save the criteria.
+
+![[13-raw/screenshots/i-ch10-saved-search-create-dialog.png]]
 
 ### Why saved searches are valuable
 
@@ -85,6 +89,8 @@ Saved searches are not set-and-forget. They get better as you tune them.
 **How to use it.**
 
 Go to **Favourites** (`/dashboard/individual/favourites`) to see your bookmarked jobs. To add one, click the favourite icon (usually a star or heart) on any job listing.
+
+![[13-raw/screenshots/i-ch10-favourites-list.png]]
 
 ### Why bookmark instead of applying immediately
 
@@ -152,6 +158,8 @@ Whatever channels you have, the same restraint applies — don't turn everything
 | Interview invitations and reminders | Email + SMS |
 | Offer deadlines | Email + SMS |
 | Marketing / platform updates | Email only, low frequency |
+
+![[13-raw/screenshots/i-ch10-notifications-settings.png]]
 
 ## Common mistakes
 

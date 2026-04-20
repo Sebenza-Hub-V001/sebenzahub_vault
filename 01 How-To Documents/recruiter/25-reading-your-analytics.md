@@ -10,6 +10,8 @@ user-types: [recruiter]
 
 # Chapter 25 — Reading your analytics: KPI Dashboard and the four key reports
 
+![[13-raw/screenshots/r-ch25-kpi-dashboard-hero.png]]
+
 You can run an agency on instinct for a year, maybe two. After that, the things you don't measure start killing you quietly — fill rates dropping, fees shrinking, clients churning, recruiters underperforming — and instinct can't catch any of it. This chapter is about the four reports that, used weekly, tell you everything you need to know about whether your agency is healthy.
 
 ## Where it lives
@@ -83,6 +85,8 @@ The Recruitment Analytics page is where you go monthly to understand *patterns*,
 
 **How to use it.** Open `/dashboard/recruiter/analytics` on the first Monday of every month. Walk through the questions below against the conversion funnel, source effectiveness, recruiter performance, and client performance views. Don't skim — write down one decision you're making this month based on what you see.
 
+![[13-raw/screenshots/r-ch25-recruiter-analytics-funnel.png]]
+
 ### Placement Analytics — _Tier: Standard_
 
 Two-line callback: per-client placement success rates, time-to-fill, and per-recruiter performance live in the same Recruitment Analytics surface — covered in detail in [[01 How-To Documents/recruiter/21-recording-a-placement|Chapter 21]] alongside the placement record itself.
@@ -96,6 +100,8 @@ Two-line callback: per-client placement success rates, time-to-fill, and per-rec
 - **Client performance** — placements per client, revenue per client, retention per client
 - **Sector breakdown** — where you're winning and where you're not
 - **Trend over 12 months** — long-arc patterns that weekly views miss
+
+![[13-raw/screenshots/r-ch25-cost-per-hire-breakdown.png]]
 
 ### Questions to ask monthly
 
@@ -126,6 +132,8 @@ If you can't answer one of these from the data, that's a sign your data hygiene 
 - **Client churn risk** — clients whose engagement signals predict they'll leave
 - **Recruiter capacity warnings** — team members heading toward overload or underutilisation
 
+![[13-raw/screenshots/r-ch25-predictive-analytics-forecast.png]]
+
 ### Use it to make decisions, not just to watch
 
 Predictive Analytics is only useful if you act on it:
@@ -147,6 +155,8 @@ The Requirement Check is the ad-hoc tool you reach for when one specific role is
 - **What's the median match score of applicants vs the role's required skills?**
 - **Where are candidates dropping out (own choice, your reject, employer reject)?**
 - **Specific signals** — "85% of applicants fail the SQL knockout question" or "median candidate is 8 years experience but the JD requires 12+, so the realistic pool is small" or "salary band is below market median for this role and location"
+
+![[13-raw/screenshots/r-ch25-source-quality-scoring.png]]
 
 ### What to do with the diagnosis
 

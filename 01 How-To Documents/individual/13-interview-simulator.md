@@ -14,6 +14,8 @@ The Interview Simulator is an AI tool that runs mock interviews with you and giv
 
 The most important advice in this chapter is at the top: **start using it before you have an interview booked.** Most people only open it the day they get an invitation, panic, do one mock interview, and run out of time to actually improve. If you start in the week you submit your first applications, by the time interviews start landing you'll already have the muscle memory.
 
+![[13-raw/screenshots/i-ch13-simulator-landing.png]]
+
 This chapter covers the full prep-to-post-interview loop. Sebenza Hub layers more than a dozen features around the simulator itself — preparation tools that turn a JD into a study plan, practice tools, scoring tools that grade your answers, and post-interview tools that capture what to do better next time. They're grouped into four phases below.
 
 ## What the simulator actually does
@@ -52,6 +54,8 @@ Don't open the simulator cold. Spend 20–40 minutes pulling the prep material f
 
 **How to use it.** Generate the kit once you have an interview booked. Read it the night before. Don't try to memorise it — read it for orientation, then sleep.
 
+![[13-raw/screenshots/i-ch13-prep-kit-output.png]]
+
 ### Mock Interview Generator — _Tier: Standard_
 
 **What this feature is.** Mock Interview Generator produces interview scenarios and question sets tailored to a specific role, company, and seniority. Use it to build a question pack you can practise against — either inside the simulator or offline on paper.
@@ -76,6 +80,8 @@ Don't open the simulator cold. Spend 20–40 minutes pulling the prep material f
 
 **How to use it.** Open the toolkit at least once before your first simulator session and pick the two or three exercises that resonate. Use them in the 10 minutes before any high-stakes interview — real or mock.
 
+![[13-raw/screenshots/i-ch13-anxiety-toolkit.png]]
+
 ### STAR Response Builder — _Tier: Standard_
 
 **What this feature is.** STAR Response Builder helps you craft structured Situation/Task/Action/Result answers to common behavioural questions, drawing on real examples from your CV. You give it a question; it walks you through the four parts.
@@ -83,6 +89,8 @@ Don't open the simulator cold. Spend 20–40 minutes pulling the prep material f
 **Why it matters.** STAR is the standard format for behavioural interviews, but candidates consistently ramble or omit the Result. Guided building produces crisp, memorable answers — the kind recruiters actually remember after they've spoken to seven other candidates.
 
 **How to use it.** Pick three or four behavioural questions you expect (from Prep Extractor or Mock Interview Generator). For each, run it through STAR Response Builder. The output is your answer skeleton — memorise the Situation and Result, leave the middle flexible. Don't read STAR-built answers verbatim in the real interview; you'll sound rehearsed.
+
+![[13-raw/screenshots/i-ch13-star-builder.png]]
 
 ### Questions to Ask — _Tier: Standard_
 
@@ -139,6 +147,8 @@ Why video matters: most interviews are now video calls, and a huge part of how y
 - **Don't re-record video answers ten times.** Take one or two attempts. The simulator's job is to give you feedback on a realistic answer, not a polished one.
 - **Stay in character as your professional self.** No "let me try this again as a joke" answers.
 
+![[13-raw/screenshots/i-ch13-simulator-session.png]]
+
 ### AI Interview — _Tier: Metered — Standard: 2/mo · Premium: 10/mo_
 
 **What this feature is.** AI Interview is a chat-based AI interview that asks role-relevant behavioural and technical questions and produces a score and feedback report at the end. It's lighter-weight than the full Interview Simulator — text-only, structured, and useful for quick reps when you don't have time to set up video.
@@ -146,6 +156,8 @@ Why video matters: most interviews are now video calls, and a huge part of how y
 **Why it matters.** Practice interviews are the highest-leverage activity for improving outcomes, and most candidates don't practise. The monthly meter aligns cost with how heavy your job-search is — Premium opens it up to 10 sessions a month for active searchers.
 
 **How to use it.** Use AI Interview when you want a quick chat-based rep — over lunch, on the train, between meetings. Save the full Interview Simulator (with video) for the deeper sessions where delivery matters. Watch your monthly usage so you don't run out before a real interview lands.
+
+![[13-raw/screenshots/i-ch13-ai-interview-chat.png]]
 
 ---
 
@@ -160,6 +172,8 @@ After each session you get scored. Read the feedback the way you read CV Review 
 **Why it matters.** A raw transcript is just text — without scoring you have no actionable feedback. Scoring turns each session into a measurable point on a curve, so you can see whether your structure is improving even when the overall feel is still uncomfortable.
 
 **How to use it.** Read the dimension scores, not just the headline number. If structure is your weakest dimension, the fix is STAR Response Builder. If clarity is the weakest, slow down and re-state the question before answering. Don't try to fix every dimension in one session — pick one to focus on next time.
+
+![[13-raw/screenshots/i-ch13-scoring-breakdown.png]]
 
 ### Mock Interview Scoring — _Tier: Standard_
 
@@ -220,6 +234,8 @@ The real interview is over. There's still work to do.
 
 **How to use it.** Within two hours of leaving the interview, jot down two or three things the interviewer said that you can reference. Feed those into Thank You Note Generator. Edit the draft so it sounds like you, not a template. Send it through the Inbox or the recruiter's email.
 
+![[13-raw/screenshots/i-ch13-thank-you-note.png]]
+
 ### Interview Reflection — _Tier: Standard_
 
 **What this feature is.** Interview Reflection is an AI-guided post-interview debrief that captures what went well, what didn't, and what to do differently next time. It's a structured 5-minute exercise, not a journal entry.
@@ -235,6 +251,8 @@ The real interview is over. There's still work to do.
 **Why it matters.** A candidate might bomb question Q4 in every interview without noticing. Cross-interview analysis surfaces the blind spots that single-interview reflection can't see — the pattern only becomes visible at three or four interviews.
 
 **How to use it.** Open Interview Comparison once you've sat at least three real interviews. Look for the recurring pattern — the same dimension scoring low, the same question type going wrong, the same kind of company giving you trouble. The pattern is your highest-leverage thing to fix before the next round.
+
+![[13-raw/screenshots/i-ch13-interview-comparison.png]]
 
 ---
 

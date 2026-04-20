@@ -18,6 +18,8 @@ This chapter walks through every section, and along the way introduces five feat
 
 Open `/dashboard/recruiter/profile`. Everything in this chapter is on that one page, organised into expandable sections.
 
+![[13-raw/screenshots/r-ch05-agency-profile-landing.png]]
+
 ## The container — your employer brand profile
 
 Before you start filling fields, understand what you're building.
@@ -44,6 +46,8 @@ Before you start filling fields, understand what you're building.
 2. Paste your live agency URL.
 3. Wait for the import (usually 30–60 seconds). The AI populates the Branding, Contact, and Credentials sections with what it found.
 4. Review every field before saving. The AI is good but not perfect — verify founded year, agency size, and the description in particular.
+
+![[13-raw/screenshots/r-ch05-website-import-populated.png]]
 
 ## The six sections
 
@@ -100,6 +104,8 @@ The fields above prove you've done the work. The Social Proof Summary turns them
 
 **How to use it.** Once you have at least 5 recorded placements, click **Generate social proof** in the Credentials section. Pick the version you want to publish (sector-specific or all-sector) and pin it to your brand page header.
 
+![[13-raw/screenshots/r-ch05-social-proof-summary.png]]
+
 ### 4. Commercial terms
 
 Your fee structure and how you do business. Clients filter and shortlist on these fields.
@@ -149,6 +155,8 @@ The brand profile is the agency. The bio is the person clients will actually dea
 3. Pick from two or three drafts. Edit until it sounds like you, not like marketing copy.
 4. Save. The bio appears under your name on the public brand page and in any pitch the platform generates.
 
+![[13-raw/screenshots/r-ch05-recruiter-bio-output.png]]
+
 ## The AI Profile Coach
 
 As you fill in sections, the **AI Profile Coach** generates suggestions in the right-hand panel. It catches:
@@ -171,6 +179,8 @@ Once the profile is populated, you have one final asset to generate: a personal 
 **Why it matters.** Candidates and clients Google recruiters before engaging. A strong DNA card sets you apart from anyone else with a similar job title — it's the single most differentiated artefact on your public profile and the asset most likely to convert a profile view into an inbound enquiry. Chapter 6 covers how the broader DNA Card and trust signals on your profile are calculated; this is the recruiter-personal version.
 
 **How to use it.** After your profile is populated and you have at least 5 placements on record, click **Generate DNA Card** in the Narrative section. The card auto-refreshes monthly as your platform activity evolves — you don't need to manually update it.
+
+![[13-raw/screenshots/r-ch05-recruiter-dna-card.png]]
 
 ## What you can save vs what's required
 

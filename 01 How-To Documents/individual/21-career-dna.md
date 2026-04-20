@@ -14,6 +14,8 @@ By the time you reach this chapter, the platform already knows what you can do (
 
 These two settings don't show up in the basic onboarding flow. They live in **Settings** (`/dashboard/individual/settings`) and they change how Auto Match (Chapter 9) ranks jobs for you. Configured well, they make the difference between matches that are *technically* fits and matches that are *actually* what you want.
 
+![[13-raw/screenshots/i-ch21-career-dna-settings.png]]
+
 ## Career DNA — what kind of professional you are
 
 Career DNA is a set of personal-style attributes the platform uses to colour your profile beyond skills and titles. It captures things like:
@@ -143,6 +145,9 @@ Career DNA tunes how the platform sees you. The next step is tuning how *people*
 
 1. Open **Elevator Pitch** (`/dashboard/individual/elevator-pitch`).
 2. Pick the variant you need next: 30-sec for networking, 60-sec for screens, 2-min for formal interviews.
+
+![[13-raw/screenshots/i-ch21-elevator-pitch-variants.png]]
+
 3. Edit the draft until it actually sounds like you say it out loud — read it aloud twice.
 4. Save the version you'll use; revisit after every Career DNA tune-up.
 
@@ -158,6 +163,8 @@ The dashboard, billing, and support features sit alongside the advanced tooling 
 
 **How to use it.** Open `/dashboard/individual` after every login. Read the next-best-actions tile before doing anything else; it's calibrated to your current state.
 
+![[13-raw/screenshots/i-ch21-basic-dashboard.png]]
+
 ### Billing & Subscription Management — _Tier: Free (all paying users)_
 
 **What this feature is.** Self-service for payment methods, invoices, plan changes, cancellations, and coupon application.
@@ -166,6 +173,8 @@ The dashboard, billing, and support features sit alongside the advanced tooling 
 
 **How to use it.** Open **Billing** (`/dashboard/individual/billing`) when changing tier, updating a card, or pulling an invoice for tax. Cancel from here directly — no phone calls required.
 
+![[13-raw/screenshots/i-ch21-billing-subscription.png]]
+
 ### Email Support — _Tier: Free_
 
 **What this feature is.** Standard email support with a 24–48 hour response SLA on business days.
@@ -173,6 +182,8 @@ The dashboard, billing, and support features sit alongside the advanced tooling 
 **Why it matters.** It's the baseline. If a feature behaves unexpectedly or your data looks wrong, this is the channel that exists for every user, on every plan.
 
 **How to use it.** From any page, **Help → Contact Support**. Include screenshots and the URL of the page you were on. Free-tier users will hear back within 1–2 business days.
+
+![[13-raw/screenshots/i-ch21-support-contact-form.png]]
 
 ### Priority Support — _Tier: Standard_
 

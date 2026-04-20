@@ -74,6 +74,8 @@ Open **Settings** → **Market Radar**. For each watch:
 
 Save. Repeat for each watch.
 
+![[13-raw/screenshots/i-ch22-market-radar-watches.png]]
+
 ## Don't over-watch
 
 The temptation with Market Radar is to set 20 watches and feel comprehensive. Don't. Two principles:
@@ -116,11 +118,18 @@ Market Radar tells you what's moving *out there*. Career Pulse tells you where *
 **How to use it.**
 
 1. Open **Career Pulse** (`/dashboard/individual/career-pulse`). Generate a fresh report.
+
+![[13-raw/screenshots/i-ch22-career-pulse-report.png]]
+
 2. Read it slowly — every section is structured to surface a specific blind spot.
+
+![[13-raw/screenshots/i-ch22-demand-salary-trend.png]]
 3. Cross-reference with what your Market Radar has been telling you. If the two disagree, the disagreement is the most useful signal in either report.
 4. Re-generate quarterly, or after any major shift in your situation.
 
 A worked example: you might believe your skills are in demand, but Career Pulse shows demand has been declining for two years. That's something to factor into the next direction decision (Chapter 18) and into the Career DNA tune-up (Chapter 21).
+
+![[13-raw/screenshots/i-ch22-hottest-cities-heatmap.png]]
 
 ## When to turn Market Radar off
 

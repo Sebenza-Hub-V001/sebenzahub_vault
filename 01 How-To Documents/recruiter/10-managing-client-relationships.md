@@ -25,6 +25,8 @@ The agencies that fail aren't the ones that can't source candidates — it's the
 
 There's also Documents (covered in Chapter 8) and Revenue (covered briefly here). Together these are your CRM.
 
+![[13-raw/screenshots/r-ch10-client-crm-view.png]]
+
 ## Client Pipeline — opportunities, not jobs
 
 The Client Pipeline is *not* the same as the candidate Pipeline (Chapter 16). The candidate pipeline tracks individuals moving through hiring stages. The client pipeline tracks **opportunities** moving through deal stages — discussions about future mandates, RFPs, retainer negotiations, expansion conversations.
@@ -68,6 +70,8 @@ The hardest part of using Call Notes well is that nobody wants to type up a long
 > Sarah confirmed they're opening 4 senior dev roles in October. Wants 2 in Cape Town, 2 remote. I committed to send a sourcing approach by Friday. She mentioned the previous agency was too slow on shortlists.
 
 That note is 30 seconds of typing. It captures the commitment, the context, the implicit warning ("too slow"), and the date. In three months when you're trying to remember why you took on those roles, this note is gold.
+
+![[13-raw/screenshots/r-ch10-activity-timeline.png]]
 
 ## Client Meetings — schedule the rhythm
 

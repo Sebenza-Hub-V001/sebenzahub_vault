@@ -12,6 +12,8 @@ user-types: [recruiter]
 
 You've just finished onboarding and landed on `/dashboard/recruiter/profile`. Before you start clicking around, take ten minutes to understand the dashboard layout. The recruiter side of Sebenza Hub has 101 pages — knowing how they're organised will save you hours of hunting.
 
+![[13-raw/screenshots/r-ch04-dashboard-full-view.png]]
+
 ## The three sections of the sidebar
 
 The left sidebar is divided into three sections, in this order from top to bottom:
@@ -39,6 +41,8 @@ The path follows the actual sequence of work in an agency:
 
 Some groups have a single page; others have many. **Source Candidates** has 8 pages (each is a different sourcing channel); **Make Offer** has 11 (the offer lifecycle is rich). Don't try to learn them all on day one — the guide takes you through them in order in Parts 2–5.
 
+![[13-raw/screenshots/r-ch04-recruitment-path-sidebar.png]]
+
 ## The four Parallel Tracks
 
 Below the divider you'll find:
@@ -49,6 +53,8 @@ Below the divider you'll find:
 - **Brand & Growth** (5 pages) — Career Site, Brand Page, Job Boards, Recruitment Marketing, Location Intel. You'll set these up in your first month and revisit when you're growing or entering new markets.
 
 The Parallel Tracks are not optional, but they don't need attention every day. They activate at specific moments — when you're drowning in messages, when fill rates drop, when an audit lands, when you're trying to win a new client.
+
+![[13-raw/screenshots/r-ch04-parallel-tracks-sidebar.png]]
 
 ## Supporting
 
@@ -80,6 +86,8 @@ Two features are wired into the dashboard from day one — one tells you how you
 
 **How to use it.** Bookmark `/dashboard/recruiter/billing` from day one. Check the *Usage history* tab weekly during your first month so you learn which metered features you actually consume. The *Plan recommendation* card flags when your usage pattern suggests an upgrade.
 
+![[13-raw/screenshots/r-ch04-billing-usage-page.png]]
+
 ## Notifications — set them once, on day one
 
 The dashboard is also where you tell Sebenza Hub how to reach you when something needs your attention. Configure notification channels now so interview reminders, offer deadlines, and candidate replies never sit in a tab you forgot to open.
@@ -107,6 +115,8 @@ The dashboard is also where you tell Sebenza Hub how to reach you when something
 **Why it matters.** Different people prefer different channels, and a senior recruiter on a busy day needs every channel available to reach high-priority candidates and clients. Multi-channel routing is the power-user setting that turns notifications from noise into signal.
 
 **How to use it.** In **Notifications**, switch the view to **Per-event channels** and pick the channel for each event type. Set quiet hours to suppress non-urgent channels overnight.
+
+![[13-raw/screenshots/r-ch04-notifications-settings.png]]
 
 ## Your first 30 minutes
 

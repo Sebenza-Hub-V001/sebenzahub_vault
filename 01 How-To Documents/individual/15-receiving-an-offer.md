@@ -23,6 +23,8 @@ When an employer creates an offer, you see it in two places:
 
 Open the application and you'll see the offer details. The platform's offer system tracks offers as a structured record — not just a PDF letter — so you can see and compare each component.
 
+![[13-raw/screenshots/i-ch15-offer-record.png]]
+
 ## What's actually in an offer
 
 A typical offer has more parts than people realise. Read every line:
@@ -113,6 +115,8 @@ If you do decide to negotiate, work through the four tools below in order: Advis
 
 **How to use it.** Feed the offer details (base, bonus, benefits, equity if any) into Negotiation Advisor along with your context — current package, other live offers, must-have constraints. The Advisor returns a recommended counter-offer with reasoning. Read the reasoning, not just the number — if you can't articulate *why* the counter is justified, you won't be able to defend it in the conversation.
 
+![[13-raw/screenshots/i-ch15-negotiation-advisor.png]]
+
 ### Negotiation Playbook — _Tier: Premium_
 
 **What this feature is.** Negotiation Playbook turns the Advisor's recommendation into a multi-round plan — opening position, fallback positions, trade-off priorities (base vs equity vs flexibility), and phrasing for each likely objection. It treats negotiation as the multi-round game it actually is, not as a one-shot ask.
@@ -120,6 +124,8 @@ If you do decide to negotiate, work through the four tools below in order: Advis
 **Why it matters.** Negotiation has predictable pushbacks: "the budget is fixed", "we're already at the top of the band", "we'd need to involve approval". A playbook means you have a planned response to each, instead of improvising under pressure with the offer on the line.
 
 **How to use it.** Generate the Playbook after you've finalised your counter with the Advisor. Read the trade-off priorities — these tell you what to give up if they push back. Memorise the opening line and the two or three fallback responses. Don't read scripts verbatim in the actual conversation; the point of the Playbook is that you don't get caught flat-footed.
+
+![[13-raw/screenshots/i-ch15-playbook-document.png]]
 
 ### Negotiation Scenario — _Tier: Premium_
 
@@ -129,6 +135,8 @@ If you do decide to negotiate, work through the four tools below in order: Advis
 
 **How to use it.** Pick the scenarios closest to the situation you're actually in (e.g. lowball offer, or competing-offer split). Write out your response — full sentences, not bullet points. Read the feedback. Note where you over-promised, under-asked, or got defensive. Carry those lessons into the live conversation.
 
+![[13-raw/screenshots/i-ch15-scenario-practice.png]]
+
 ### Negotiation Roleplay — _Tier: Premium_
 
 **What this feature is.** Negotiation Roleplay is an interactive AI session where you negotiate against a simulated hiring manager that pushes back realistically. It's the live-fire equivalent of the written Scenario — you say something, the AI responds in character, and the conversation evolves the way a real one does.
@@ -136,6 +144,8 @@ If you do decide to negotiate, work through the four tools below in order: Advis
 **Why it matters.** Reading about negotiation builds knowledge; live coaching builds skill. You only get good at negotiation by doing it, and Roleplay delivers that practice safely before the real conversation where mistakes cost thousands of rand a year for the rest of your tenure.
 
 **How to use it.** Use Roleplay the day before (or the morning of) the negotiation conversation. Set the scenario to match your real situation — your offer, your target, your fallback. Push through the awkward moments instead of restarting. The point isn't to find the "right" answer; it's to make the discomfort familiar so you don't freeze in the real thing. (For pure-salary negotiation drills, Chapter 16's **Salary Negotiation Coach** is a lighter-weight, conversational alternative if Premium isn't on the table.)
+
+![[13-raw/screenshots/i-ch15-roleplay-chat.png]]
 
 If you've done Advisor → Playbook → Scenario → Roleplay, you're more prepared than 95% of candidates walking into a salary conversation. Time to have it.
 

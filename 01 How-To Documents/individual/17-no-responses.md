@@ -47,6 +47,8 @@ The pattern in the data tells you what to fix. Three common patterns:
 
 Pick the most likely cause based on your actual data, not your worst-case fear.
 
+![[13-raw/screenshots/i-ch17-application-analytics.png]]
+
 ### AI Application Feedback (callback to Chapter 11)
 
 You don't have to guess application by application — **AI Application Feedback** runs after each application and tells you exactly how well your CV/profile matched that specific job, with concrete improvement suggestions. If you've been ignoring those notifications, go back into the last 10 applications and read the feedback. The pattern across them is often clearer than Analytics on its own. Full walk-through is in Chapter 11.
@@ -121,6 +123,8 @@ If your CV is good but your profile fields are incomplete, you might be invisibl
 
 **How to use it.** Connect or paste your LinkedIn profile into the Optimizer. Read the suggested rewrites. Apply the headline and About-section changes first — they have the biggest impact on search rank. Re-run after a week to see what else has shifted. If you're getting recruiter views but no responses, the headline is usually the problem. If you're getting no views at all, it's the keyword density across the whole profile.
 
+![[13-raw/screenshots/i-ch17-linkedin-optimizer.png]]
+
 ## Cause D — Interview performance (callback to Chapter 13)
 
 If applications convert to first interviews but you stall there, the problem isn't your CV or profile — it's the interview itself. Go to Chapter 13 and work through the prep + simulator + scoring loop. **Interview Comparison** specifically (Premium) is the tool that tells you whether the same kind of question is killing you across multiple interviews.
@@ -141,6 +145,8 @@ If you're getting to interviews but not progressing past the first round, and yo
 
 **How to use it.** Open Weakness Alchemist and input two or three real weaknesses — not made-up ones. The tool returns reframed versions you can use in interviews. Pick the one that feels most honest to you (the others will sound rehearsed when you say them out loud). Practise it until it sounds natural, then forget about it until the question comes up.
 
+![[13-raw/screenshots/i-ch17-weakness-alchemist.png]]
+
 ## Cause G — A specific recent rejection has you stuck
 
 Sometimes the issue isn't a pattern — it's a single rejection that's left you spiralling and unable to keep going. That's a real problem, and the platform has a tool for it.
@@ -153,6 +159,8 @@ Sometimes the issue isn't a pattern — it's a single rejection that's left you 
 
 **How to use it.** Run it after any rejection that's hit you harder than the rest. Don't run it after every rejection — that turns into noise. Use it specifically when you're stuck and need a structured way out.
 
+![[13-raw/screenshots/i-ch17-rejection-recovery-plan.png]]
+
 ## Cause H — You're not networking and the market is tight
 
 Cold applications are slow. Referrals are fast. If your conversion rate is broken and the market is sluggish, the highest-leverage thing you can do is reach out to people who can refer you in. Most candidates won't do this because they don't know what to say.
@@ -164,6 +172,8 @@ Cold applications are slow. Referrals are fast. If your conversion rate is broke
 **Why it matters.** 60%+ of senior hires happen through networking, but most candidates never reach out because they don't know what to say. Getting the first message right turns cold profiles into warm referrals. The lift is large because so few candidates do this at all.
 
 **How to use it.** Identify 5–10 people at companies you'd actually want to work for. For each, generate a tailored message — not a generic "I'd love to connect." Send the message. Don't expect a response from every one (rates are typically 20–40%); the ones who do reply are now warm referrers for current and future roles. Run this monthly during an active search.
+
+![[13-raw/screenshots/i-ch17-networking-message-draft.png]]
 
 ## When the problem isn't you
 

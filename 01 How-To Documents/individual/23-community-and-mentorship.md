@@ -29,6 +29,8 @@ The Individual dashboard has six community pages:
 
 You don't need all of them. You probably need two: **Interview Vault** and **Mentor Connect**.
 
+![[13-raw/screenshots/i-ch23-community-hub.png]]
+
 ## The two community features that actually help your job hunt
 
 ### Interview Vault
@@ -66,6 +68,8 @@ Filter for someone who:
 - Is geographically and culturally close enough that their advice transfers
 
 Don't just pick the most senior person available. A senior executive with 30 years of experience may be too far removed from your day-to-day to give relevant advice. A mid-career person five years ahead of you is often more useful.
+
+![[13-raw/screenshots/i-ch23-mentor-connect-match.png]]
 
 #### Asking for a mentor relationship
 
@@ -108,9 +112,14 @@ Community and mentorship work best when you have something concrete to point at.
 **How to use it.**
 
 1. Open **Portfolio** (`/dashboard/individual/portfolio`).
+
+![[13-raw/screenshots/i-ch23-portfolio-builder-editor.png]]
+
 2. Pick three to six pieces of work you'd actually defend in conversation. Quality over volume — a sparse portfolio of strong work beats a dense one of weak work.
 3. Write a one-paragraph context note for each piece: what it was, what you did, what changed because of it.
 4. Publish. Add the URL to your profile, your CV, your LinkedIn, your email signature, and the first message you send any new mentor.
+
+![[13-raw/screenshots/i-ch23-published-portfolio-page.png]]
 5. Refresh quarterly. Old portfolios date you faster than old CVs.
 
 If you're using Mentor Connect, attach the portfolio link to your introduction message. Mentors decide whether to engage based on what you've actually built — they're scanning for that link before they read the rest.

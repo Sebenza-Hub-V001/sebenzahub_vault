@@ -43,6 +43,8 @@ WhatsApp for recruiting is **not** the same as personal WhatsApp on your phone. 
 
 **How to use it.** Enable on a job from its screening configuration (Chapter 15). The job listing shows an **Apply via WhatsApp** button alongside the standard apply button. The rest of this section walks through how the flow runs.
 
+![[13-raw/screenshots/r-ch24-whatsapp-apply-6-languages.png]]
+
 WhatsApp Apply lets candidates apply for a job by sending a WhatsApp message instead of filling out an application form. For high-volume roles where the candidate pool is mobile-first (entry-level, hospitality, retail, blue-collar trades), this is a step change in application volume.
 
 ### How it works
@@ -57,6 +59,8 @@ WhatsApp Apply lets candidates apply for a job by sending a WhatsApp message ins
    - "Can you start within 30 days?"
 5. Their answers are captured as a structured application in your Pipeline.
 6. The candidate gets a confirmation and is opted in to further WhatsApp communication for this role.
+
+![[13-raw/screenshots/r-ch24-whatsapp-command-center.png]]
 
 ### When to use it
 
@@ -105,6 +109,8 @@ When you go on leave, mark yourself unavailable in the Command Center settings. 
 
 **How to use it.** Build the campaign in `/dashboard/recruiter/whatsapp-campaigns` (full walkthrough below). Always use a WhatsApp-approved template. Always include opt-out language. Always send in business hours, never weekends.
 
+![[13-raw/screenshots/r-ch24-whatsapp-campaign-builder.png]]
+
 Campaigns are bulk WhatsApp messages sent to a target audience — your equivalent of an email blast, but on the channel where people actually read.
 
 ### What you can broadcast
@@ -127,6 +133,8 @@ Campaigns are bulk WhatsApp messages sent to a target audience — your equivale
 6. Estimate the cost (visible before you click send)
 7. Send
 
+![[13-raw/screenshots/r-ch24-audience-segmentation.png]]
+
 ### The cost reality
 
 WhatsApp template messages cost real money — typically R0.30 to R1.00 per message depending on the template type and the carrier. A campaign to 500 people costs R150–R500. The Premium plan includes a generous monthly allowance; Standard has a smaller one; Free essentially has none. Watch your usage page.
@@ -143,6 +151,8 @@ When a candidate opts out, the platform:
 4. Logs the opt-out in the audit trail
 
 You cannot manually re-add someone who opted out. They have to explicitly opt back in via a fresh message.
+
+![[13-raw/screenshots/r-ch24-campaign-analytics-dashboard.png]]
 
 ## Cross-references to other WhatsApp features
 

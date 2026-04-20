@@ -28,10 +28,17 @@ This chapter covers a single feature in depth.
    - **Engagement terms** — placement fee structure (% of first-year package, flat fee, retained), guarantee period (typical SA market: 90 days), exclusivity (none / sector-specific / role-specific), and payment terms (typical: 30 days from start date).
    - **Compliance docs** — POPIA candidate-data-handling agreement (mandatory), B-BBEE certificate, tax clearance, professional indemnity insurance certificate.
 2. When publishing a requisition to agencies (see [[01 How-To Documents/corporate/04-your-first-requisition|Chapter 4]]), choose which vendors get it. For each selected vendor, raise a **PO** (auto-generated from the engagement terms) so commercial expectations are explicit upfront.
+
+![[13-raw/screenshots/c-ch07-po-creation-form.png]]
+
 3. Vendor submissions land in the requisition pipeline tagged with the source vendor. Each candidate is attributed back to the agency that sent them, which is what makes performance measurement work.
 4. The **Vendor Performance** dashboard shows per-vendor: submission volume, submit-to-interview rate, interview-to-offer rate, offer-acceptance rate, time-to-fill, and per-placement cost. Use this for the quarterly vendor review — the agencies in the bottom quartile either improve or get rotated out.
+
+![[13-raw/screenshots/c-ch07-agency-performance-comparison.png]]
 5. When a placement happens, the system links the placement record to the source vendor and the PO. Invoice approval becomes a one-click confirmation against a real placement, not a forensic exercise across email threads.
 6. The **Compliance Status** dashboard shows every vendor's MSA expiry, POPIA agreement status, B-BBEE certificate status, and tax clearance status with a red-yellow-green light. Vendors with expired compliance are blocked from new POs until they refresh.
+
+![[13-raw/screenshots/c-ch07-vendor-compliance-status.png]]
 
 **The duplicate-submission problem.** Two agencies submitting the same candidate is one of the most contentious issues in SA agency hiring. Vendor Management dedupes candidates across vendors at submission time and surfaces the conflict — the system records the first submission as authoritative, and the second agency is notified before they invest more effort. This single feature usually pays for the platform within the first quarter.
 

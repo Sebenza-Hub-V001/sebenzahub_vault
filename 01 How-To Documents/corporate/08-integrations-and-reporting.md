@@ -25,6 +25,9 @@ This is the longest chapter in the book because it's the one that earns the plat
 **How to use it.**
 
 1. Go to **Analytics → Dashboard**. The default view shows organisation-level metrics for the current quarter.
+
+![[13-raw/screenshots/c-ch08-analytics-dashboard-hero.png]]
+
 2. Filter by department, role family, or hiring manager to drill into the part of the funnel you care about.
 3. Use the **Bottleneck View** to see which stages have the longest dwell time. Long dwell at "Recruiter Screen" usually means under-resourced TA; long dwell at "Hiring Manager Review" usually means manager engagement is the issue.
 4. Set up the dashboard as a saved view for your weekly team meeting and your monthly leadership update. The same view becomes the conversation starter both times.
@@ -45,6 +48,8 @@ This is the longest chapter in the book because it's the one that earns the plat
 3. For BI integration, configure a scheduled export under **Settings → Data Export**. You can export to S3, Azure Blob, or a direct BI connector (PowerBI, Tableau). Frequency is configurable — daily for active datasets, weekly for slower-moving ones.
 4. Cohort analysis is the highest-leverage view in this module. Common starter question: "Of candidates we hired in Q1, what percentage are still here at 12 months?" If the answer is below 80%, your hiring quality has a problem worth investigating before scaling further.
 
+![[13-raw/screenshots/c-ch08-advanced-analytics-drilldown.png]]
+
 ## Ship it to the board
 
 ### Custom Reports — _Tier: Premium_
@@ -56,6 +61,9 @@ This is the longest chapter in the book because it's the one that earns the plat
 **How to use it.**
 
 1. Go to **Reports → Build new** and choose your data source (requisitions, candidates, placements, vendor performance, EE demographics).
+
+![[13-raw/screenshots/c-ch08-custom-reports-builder.png]]
+
 2. Drag in the dimensions and metrics you want. Apply filters (e.g., "completed hires only", "this fiscal year", "Engineering and Product departments").
 3. Choose the output format — table, chart (bar / line / pie), or pivot.
 4. Save the report and configure scheduled delivery: recipients, format (PDF / XLSX), and cadence (weekly / monthly / quarterly). The report lands in inboxes on schedule with no manual step.
@@ -102,6 +110,9 @@ The notifications block governs how Sebenza Hub talks to your team. Match the ch
 1. Go to **Settings → Notifications → Channels** and enable WhatsApp and Push.
 2. WhatsApp setup requires a Sebenza-managed sender or your own WhatsApp Business number; the system walks you through provisioning.
 3. Define channel rules per event class: routine events on email only, time-critical on email + SMS, urgent (interview cancelled, offer rejected, requisition critical) on all channels.
+
+![[13-raw/screenshots/c-ch08-notification-channels-matrix.png]]
+
 4. Train recruiters on the channel rules so the noise level is predictable. Multi-channel done badly is just more spam; done well, it's the signal that gets through when it matters.
 
 ## Wire to your HRIS
@@ -115,6 +126,9 @@ The notifications block governs how Sebenza Hub talks to your team. Match the ch
 **How to use it.**
 
 1. Go to **Settings → Integrations → HRIS** and choose your HRIS vendor.
+
+![[13-raw/screenshots/c-ch08-hris-integration-config.png]]
+
 2. Provide the API credentials your HRIS team supplies. The exact mechanism varies by vendor (OAuth for Workday, API key for BambooHR, certificate-based for SuccessFactors).
 3. Configure the field mapping: which Sebenza fields correspond to which HRIS fields. The system ships with default mappings per HRIS that cover most cases; customise where your HRIS has non-standard fields.
 4. Choose the sync direction per object: hires (Sebenza → HRIS), org structure and active employee list (HRIS → Sebenza), open requisitions (depends on which system is the source of truth).
@@ -130,6 +144,9 @@ The notifications block governs how Sebenza Hub talks to your team. Match the ch
 **How to use it.**
 
 1. Go to **Settings → API** and generate a token. Scope the token to the specific permissions your integration needs — read-only on candidates is very different from read-write on offers.
+
+![[13-raw/screenshots/c-ch08-api-key-management.png]]
+
 2. Read the API documentation linked from the same page. Endpoints are versioned; rate limits are per token.
 3. For event-driven integrations, configure webhooks for the events you care about: candidate.hired, offer.accepted, requisition.published. Webhooks deliver to your endpoint with retry logic and a signed payload.
 4. Treat tokens like secrets. Rotate them on a schedule (typically 90 days) and revoke immediately on staff changes that affect integration ownership.

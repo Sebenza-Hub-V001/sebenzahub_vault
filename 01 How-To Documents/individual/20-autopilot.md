@@ -14,6 +14,8 @@ user-types: [individual]
 
 ## What Autopilot is
 
+![[13-raw/screenshots/i-ch20-autopilot-settings.png]]
+
 Autopilot is a Sebenza Hub feature that lets the platform act on your behalf in the job application process. The configuration lives in your `individualSettings` and includes options for:
 
 - **Auto-apply** — submitting applications to matching jobs without you clicking each one
@@ -42,8 +44,12 @@ The risks specifically:
 Even before the operational details are documented, these principles will hold up regardless of what Autopilot does specifically:
 
 1. **Set the highest possible match-score threshold.** If Autopilot can be configured with a minimum match score (say, 80+), use the highest setting. You'd rather have it do nothing than do something wrong.
+
+![[13-raw/screenshots/i-ch20-threshold-sliders.png]]
 2. **Restrict Autopilot to a narrow set of filters** — one specific role, one location, one experience level. Never let it loose across "all jobs in my field."
 3. **Always review what Autopilot has done.** Set a daily check-in to look at applications it submitted. If it submitted anything you wouldn't have, tighten the rules immediately.
+
+![[13-raw/screenshots/i-ch20-auto-applied-review-queue.png]]
 4. **Disable auto-apply for any job with a non-trivial ghost-risk score** if the option exists.
 5. **Don't let auto-cover-letter run unattended on senior or specialised roles.** These need a human voice.
 6. **Cap the daily volume.** Even if the platform doesn't enforce a cap, set one for yourself — somewhere between 3 and 8 auto-applications per day is plausible. More than that and quality collapses.
