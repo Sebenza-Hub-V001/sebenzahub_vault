@@ -46,6 +46,15 @@ Before you apply, run the JD through the decoder. This is the single highest-lev
 
 Don't treat Decoder as a deciding vote on whether to apply — that's still your call. Treat it as a brief that makes the rest of the application sharper.
 
+## Native applications vs external (aggregated) jobs
+
+Sebenza Hub shows two kinds of jobs in the search results:
+
+- **Native jobs** — posted directly into the platform by recruiters and employers using Sebenza Hub. You apply *through* Sebenza Hub, the application is tracked end-to-end, and everything in the rest of this chapter applies normally.
+- **External (aggregated) jobs** — listings from PNet, Adzuna, CareerJet and other South African job boards that Sebenza Hub indexes so you can find them in one search. You **cannot apply through Sebenza Hub** for these — when you click Apply, the platform redirects you to the original posting on the source site (the job card will show a *"This job is listed on PNet / Adzuna / CareerJet"* note before redirecting). Apply on the source site, then come back and log the application manually in My Applications so it's tracked alongside everything else.
+
+The rest of this chapter assumes a native application. For external jobs you skip straight to "log it in My Applications" and most of the AI tools (JD Decoder, AI Application Feedback) won't fire because the application doesn't live inside Sebenza Hub.
+
 ## The application form
 
 Click **Apply** on the job listing. The form opens. Most jobs ask for the same set of things:

@@ -1,5 +1,30 @@
 # Activity Log
 
+## [2026-04-25] sync | How-To refresh against the latest product code
+- Source: `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2` at `origin/main` (commits up to e8f086e)
+- Trigger: Wes asked for a How-To refresh — "CV Templates have changed completely; do the rest too."
+- **Major rewrite — Individual Ch 5** ([[01 How-To Documents/individual/05-uploading-a-cv|05-uploading-a-cv]]):
+  - The route `/dashboard/individual/cv-templates` now opens the **new CV Builder** at `client/src/pages/individuals/cv-builder/` — four tabs (Gallery · Signatures · Content · Favourites), Tweaks bar, Export menu (PDF/DOCX/Print). The chapter previously described a flat "5 templates and a wizard" — now describes the full builder, including the 10 role-native Signatures (Boardroom Dossier, The Ledger, README.md Terminal, Gazette Record, Patient Chart, Safety Placard, Polaroid Lookbook, Till Receipt, ID Card · Pictograms, Reference Booklet).
+  - Tier corrections: CV storage caps now **Free 1 / Standard 5 / Premium unlimited** (was 1 / 3 / unlimited). **Soft Skills Detection is Premium** (was incorrectly listed as Standard). Verified against `server/seed-feature-entitlements.ts`.
+  - New behaviour: upload now asks **"Replace profile information?"** before the file picker (destructive default). Added a section explaining the prompt.
+  - New behaviour: async parse pipeline — file is enqueued, page polls `/api/ai-jobs/:jobId` every 2s, dedup fast-path returns cached parse if the same file was uploaded before. Documented.
+  - New capability: re-parse existing CVs (`server/cv-reparse.ts`, commit 76a06e7) — useful for CVs uploaded before the PDF text extractor was improved. Documented as a My CVs action.
+- **Major rewrite — Individual Ch 6** ([[01 How-To Documents/individual/06-cv-review|06-cv-review]]):
+  - The CV Review page is now a 14-tab dashboard, not a single-shot review. Tabs: Overview · ATS Scanner · Keywords · Achievements · Red Flags · Readability · Benchmark · Before/After · Recruiter Lens · JD Match · Action Plan · Narrative · Bias Shield · Interview Prep · History. Documented all 14, with a "which tabs to run for which situation" matrix.
+  - Tier corrections: AI CV Review caps now **Standard 10/mo · Premium 50/mo** (was 3/mo · unlimited).
+  - Bullet Writer flow updated: fastest path is the new **Before/After** tab inside the review page (pre-loaded weak bullets + side-by-side rewrites), not the standalone tool.
+- **Targeted fix — Individual Ch 11** ([[01 How-To Documents/individual/11-applying|11-applying]]): added a "Native applications vs external (aggregated) jobs" section. The platform now redirects external listings (PNet, Adzuna, CareerJet) to the source site instead of trying to apply through Sebenza Hub — `client/src/pages/individuals/components/QuickApplyDialog.tsx`. Without this note, a user clicking Apply on an aggregated job would be confused.
+- Spot-checked but no action needed:
+  - AI progress messaging system (commits eaa9f3f, 6d79766) — useful UX polish, but not chapter-changing.
+  - Mobile employer pages (commit e1e89cc) — feature parity with desktop, no new workflows.
+  - Capacitor native build infrastructure (commit 4f228f8) — iOS/Android scaffolding exists but no shipping app yet. Hold the "get the app" mention in account-creation chapters until the app is in the stores.
+  - Trial / background-check schema columns (commit 3d7d470) — backend only, no UI yet. Update once the trial onboarding ships.
+  - WhatsApp-only external job redirect (commit b0da16f) — duplicate of the web behaviour already noted in Ch 11.
+- Lint:
+  - **Layer 1** check on edited chapters (5, 6, 11): only matches are the pre-existing `![[13-raw/screenshots/...]]` image embeds, which the established policy treats as asset references rather than navigation (see [2026-04-20] entry).
+  - **Layer 2** check on the concept/workflow targets I reference (`02-concepts/ai-features`, `03-workflows/individual-journey`): clean.
+- Pages touched: 3 — Ch 5, Ch 6, Ch 11.
+
 ## [2026-04-20] ingest | Feature Catalogue — 253 features rolled into the How-To manuals
 - Source: `13-raw/Features Document.pdf` (253 features across Individual 85 · Recruiter 131 · Corporate 17 · Cross-Product 13 · Platform admin-only 7)
 - Reference: `c:\tmp\features-catalogue.md` (compact reference built from the PDF for agent use)

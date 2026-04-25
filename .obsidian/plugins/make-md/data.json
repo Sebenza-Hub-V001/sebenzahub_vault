@@ -48,7 +48,9 @@
     "//01 How-To Documents",
     "/",
     "//05-procedures",
-    "//01 How-To Documents/01 How-To Documents/individual"
+    "//01 How-To Documents/01 How-To Documents/recruiter",
+    "//01 How-To Documents/01 How-To Documents/individual",
+    "//00 Welcome"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
