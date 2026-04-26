@@ -1,5 +1,5 @@
 ---
-title: "Chapter 12 — Trial and billing lifecycle"
+title: "Chapter 4 — Trial and billing lifecycle"
 type: concept
 created: 2026-04-26
 updated: 2026-04-26
@@ -8,9 +8,9 @@ status: active
 user-types: [business]
 ---
 
-# Chapter 12 — Trial and billing lifecycle
+# Chapter 4 — Trial and billing lifecycle
 
-Every new Business account starts on a **30-day Premium trial**, then lives the rest of its lifespan on whichever paid plan you convert to (or on the Free tier if you let the trial expire). This chapter walks through the lifecycle end-to-end so finance, the account owner, and the TA leader all share the same picture of what happens when.
+Every new Business account starts on a **30-day Premium trial**, then lives the rest of its lifespan on whichever paid plan you convert to (or on the Free tier if you let the trial expire). This chapter walks through the lifecycle end-to-end so finance, the account owner, and the TA leader all share the same picture of what happens when. The Billing page lives at `/dashboard/business/billing` in the **Configure Organization** sidebar group — Admin / owner only.
 
 ## Day 0 — signup
 
@@ -88,6 +88,10 @@ After confirmation, the platform:
 - [ ] Billing contact has been identified and has card details ready ahead of conversion
 - [ ] The plan tier you'll convert to has been agreed (Standard vs Premium) based on actual feature needs
 - [ ] You converted before day 30 rather than letting the account drop to Free
+
+## Next chapter
+
+[[01 How-To Documents/corporate/05-posting-jobs|Chapter 5 — Posting jobs]]
 
 ## References
 

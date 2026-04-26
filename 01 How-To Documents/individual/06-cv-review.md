@@ -133,7 +133,7 @@ You're done when the review either shows no major issues or only flags things yo
 ## How often to re-run CV Review
 
 - **Always** after a major rewrite
-- **Always** before tailoring a CV for a specific application — pair the JD Match tab with a duplicate of your default CV (Chapter 11)
+- **Always** before tailoring a CV for a specific application — pair the JD Match tab with a duplicate of your default CV (Chapter 12)
 - **Periodically** as your experience grows — every few months, or after you've added a new role
 - **Once before any interview** — Interview Prep is most valuable when the recruiter call is in two days, not two months
 

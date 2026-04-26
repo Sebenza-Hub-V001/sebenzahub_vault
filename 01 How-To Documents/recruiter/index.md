@@ -51,10 +51,10 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 12. [[01 How-To Documents/recruiter/12-sourcing-channels|Sourcing channels: AI Search, Talent Discovery, Sourcing]]
 13. [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|LinkedIn Leads and Talent Rediscovery]]
 14. [[01 How-To Documents/recruiter/14-talent-pools-crm|Talent Pools and Talent CRM]]
-15. [[01 How-To Documents/recruiter/15-screening-config|Configuring screening at the job level]]
 
 ## Part 5 — Screen, Interview, Offer, Place
 
+15. [[01 How-To Documents/recruiter/15-screening-config|Configuring screening at the job level]]
 16. [[01 How-To Documents/recruiter/16-the-pipeline|The Pipeline (Kanban)]]
 17. [[01 How-To Documents/recruiter/17-screening-tools|Screening tools]]
 18. [[01 How-To Documents/recruiter/18-interview-scheduling|Interview scheduling and interview kits]]

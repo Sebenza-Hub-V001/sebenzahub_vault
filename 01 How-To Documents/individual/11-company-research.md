@@ -1,5 +1,5 @@
 ---
-title: "Chapter 14 — Researching a company"
+title: "Chapter 11 — Researching a company"
 type: concept
 created: 2026-04-09
 updated: 2026-04-20
@@ -8,13 +8,13 @@ status: active
 user-types: [individual]
 ---
 
-# Chapter 14 — Researching a company before an interview
+# Chapter 11 — Researching a company
 
-The single most reliable signal that someone is going to be a strong candidate is that they did the work to understand the company before the interview. It's also one of the easiest ways to pull ahead — most people skip it.
+There are two moments in a job hunt where company research pays off. The first is **before you apply** — five minutes to filter out bad fits so you don't waste effort on the wrong roles. The second is **before an interview** — twenty to forty-five minutes of deeper work so you can have a real conversation. Most candidates skip both. Doing them puts you ahead.
 
 Sebenza Hub has two AI tools for this: **AI Company Research** for the company itself, and **Interviewer Intelligence** for the specific people you'll be sitting in front of. Use the company tool every time. Use the interviewer tool once interviews get serious.
 
-![[i-ch14-company-research-landing.png]]
+![[i-ch11-company-research-landing.png]]
 
 ## When to do company research
 
@@ -46,7 +46,7 @@ Before you even add a job to favourites, glance at the company. You're looking f
 - **Recent news and announcements**
 - **Talking points** — specific things you can naturally raise in conversation
 
-![[i-ch14-company-report.png]]
+![[i-ch11-company-report.png]]
 
 Things to look for in 5 minutes:
 
@@ -63,7 +63,7 @@ Once you have an interview booked, do real research. Block 30 minutes and do it 
 
 ### Step 1 — Re-run AI Company Research with depth
 
-Re-open AI Company Research for the company. This time read everything — don't just skim the basics. Pay attention to the talking-points section: it's tuned for interview use, not for triage. Take notes (use Application Notes from Chapter 12 — they belong on the application record).
+Re-open AI Company Research for the company. This time read everything — don't just skim the basics. Pay attention to the talking-points section: it's tuned for interview use, not for triage. Take notes (use Application Notes from Chapter 13 — they belong on the application record).
 
 ### Step 2 — Read the original job description carefully
 
@@ -96,7 +96,7 @@ If you know the names of the interviewer(s) — and you usually do once the inte
 
 You're not building a dossier. You're building enough context to ask one good question and to read the room.
 
-![[i-ch14-interviewer-intel-card.png]]
+![[i-ch11-interviewer-intel-card.png]]
 
 If the interviewer's online footprint is small, the result will be thin — fall back to manual LinkedIn lookups for those.
 
@@ -130,7 +130,7 @@ These questions:
 
 Write the two questions down before the interview. Memorise them. Use them. (If you generated questions using the **Q's to Ask** tab on Interview Scheduling, layer the company-specific intel on top of those.)
 
-![[i-ch14-talking-points.png]]
+![[i-ch11-talking-points.png]]
 
 ## Using research during the interview
 
@@ -153,7 +153,7 @@ Some companies — especially smaller South African businesses — have almost n
 
 ## Connecting research to the rest of your prep
 
-Company research feeds back into the Interview Simulator (Chapter 13). Once you have the company context, run a final mock interview *with that context loaded* — pretending you're interviewing for *this company*, not a generic role. The simulator's questions get sharper, your answers get more specific, and the practice transfers more directly.
+Company research feeds back into the Interview Simulator (Chapter 14). Once you have the company context, run a final mock interview *with that context loaded* — pretending you're interviewing for *this company*, not a generic role. The simulator's questions get sharper, your answers get more specific, and the practice transfers more directly.
 
 ## Checklist
 
@@ -178,4 +178,4 @@ Company research feeds back into the Interview Simulator (Chapter 13). Once you 
 ## References
 
 - [[03-workflows/individual-journey]] — Step 6 (Interview)
-- [[01 How-To Documents/individual/13-interview-simulator|Chapter 13]] — Where this research feeds back into prep
+- [[01 How-To Documents/individual/14-interview-simulator|Chapter 14]] — Where this research feeds back into prep

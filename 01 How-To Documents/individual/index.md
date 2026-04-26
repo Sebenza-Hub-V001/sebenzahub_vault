@@ -43,13 +43,13 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 
 9. [[01 How-To Documents/individual/09-search-modes|Browse vs Auto Match vs Manual Search]]
 10. [[01 How-To Documents/individual/10-saved-searches-and-favourites|Saved searches and favourites]]
-11. [[01 How-To Documents/individual/11-applying|Applying to a job: walkthrough]]
-12. [[01 How-To Documents/individual/12-tracking-applications|Tracking applications and follow-ups]]
+11. [[01 How-To Documents/individual/11-company-research|Researching a company before applying]]
+12. [[01 How-To Documents/individual/12-applying|Applying to a job: walkthrough]]
+13. [[01 How-To Documents/individual/13-tracking-applications|Tracking applications and follow-ups]]
 
 ## Part 4 — Interview and Offer
 
-13. [[01 How-To Documents/individual/13-interview-simulator|Using the Interview Simulator]]
-14. [[01 How-To Documents/individual/14-company-research|Researching a company before an interview]]
+14. [[01 How-To Documents/individual/14-interview-simulator|Using the Interview Simulator]]
 15. [[01 How-To Documents/individual/15-receiving-an-offer|Receiving and responding to an offer]]
 16. [[01 How-To Documents/individual/16-salary-negotiator|Salary Negotiator]]
 

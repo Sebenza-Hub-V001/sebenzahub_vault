@@ -13,7 +13,7 @@
   - The CV Review page is now a 14-tab dashboard, not a single-shot review. Tabs: Overview · ATS Scanner · Keywords · Achievements · Red Flags · Readability · Benchmark · Before/After · Recruiter Lens · JD Match · Action Plan · Narrative · Bias Shield · Interview Prep · History. Documented all 14, with a "which tabs to run for which situation" matrix.
   - Tier corrections: AI CV Review caps now **Standard 10/mo · Premium 50/mo** (was 3/mo · unlimited).
   - Bullet Writer flow updated: fastest path is the new **Before/After** tab inside the review page (pre-loaded weak bullets + side-by-side rewrites), not the standalone tool.
-- **Targeted fix — Individual Ch 11** ([[01 How-To Documents/individual/11-applying|11-applying]]): added a "Native applications vs external (aggregated) jobs" section. The platform now redirects external listings (PNet, Adzuna, CareerJet) to the source site instead of trying to apply through Sebenza Hub — `client/src/pages/individuals/components/QuickApplyDialog.tsx`. Without this note, a user clicking Apply on an aggregated job would be confused.
+- **Targeted fix — Individual Ch 11** ([[01 How-To Documents/individual/12-applying|11-applying]]): added a "Native applications vs external (aggregated) jobs" section. The platform now redirects external listings (PNet, Adzuna, CareerJet) to the source site instead of trying to apply through Sebenza Hub — `client/src/pages/individuals/components/QuickApplyDialog.tsx`. Without this note, a user clicking Apply on an aggregated job would be confused.
 - Spot-checked but no action needed:
   - AI progress messaging system (commits eaa9f3f, 6d79766) — useful UX polish, but not chapter-changing.
   - Mobile employer pages (commit e1e89cc) — feature parity with desktop, no new workflows.
@@ -266,13 +266,13 @@
   - Varied "This chapter is X" opening pattern in Ch 6, Ch 9, Ch 17 (was used in 6 chapters; trimmed to 3)
   - Removed misleading [[Chapter 7]] cross-link in [[01 How-To Documents/individual/03-onboarding]] (job preferences live in Settings, not Ch 7)
   - Hedged unverified factual claim in [[01 How-To Documents/individual/08-privacy-and-popia]] about per-organisation blocking (was asserting nonexistence; now invites users to check Settings)
-  - Hedged unsupported "at least a third" silent-application statistic in [[01 How-To Documents/individual/11-applying]] to "a meaningful fraction"
+  - Hedged unsupported "at least a third" silent-application statistic in [[01 How-To Documents/individual/12-applying]] to "a meaningful fraction"
 - No structural changes; no chapters rewritten; no content cut
 
 ## [2026-04-09] update | Individual How-To Guide — Parts 3, 4, 5, 6 drafted (how-to complete)
 - Drafted full bodies for chapters 9–23 (with Ch 20 as a partial pending the Autopilot open question):
-  - Part 3 (Find and Apply): [[01 How-To Documents/individual/09-search-modes]], [[01 How-To Documents/individual/10-saved-searches-and-favourites]], [[01 How-To Documents/individual/11-applying]], [[01 How-To Documents/individual/12-tracking-applications]]
-  - Part 4 (Interview and Offer): [[01 How-To Documents/individual/13-interview-simulator]], [[01 How-To Documents/individual/14-company-research]], [[01 How-To Documents/individual/15-receiving-an-offer]], [[01 How-To Documents/individual/16-salary-negotiator]]
+  - Part 3 (Find and Apply): [[01 How-To Documents/individual/09-search-modes]], [[01 How-To Documents/individual/10-saved-searches-and-favourites]], [[01 How-To Documents/individual/12-applying]], [[01 How-To Documents/individual/13-tracking-applications]]
+  - Part 4 (Interview and Offer): [[01 How-To Documents/individual/14-interview-simulator]], [[01 How-To Documents/individual/11-company-research]], [[01 How-To Documents/individual/15-receiving-an-offer]], [[01 How-To Documents/individual/16-salary-negotiator]]
   - Part 5 (Troubleshooting): [[01 How-To Documents/individual/17-no-responses]], [[01 How-To Documents/individual/18-no-direction]], [[01 How-To Documents/individual/19-level-up]]
   - Part 6 (Advanced): [[01 How-To Documents/individual/20-autopilot]] (partial — blocked on operational details), [[01 How-To Documents/individual/21-career-dna]], [[01 How-To Documents/individual/22-market-radar]], [[01 How-To Documents/individual/23-community-and-mentorship]]
 - Plan checklist updated: Parts 3–6 marked complete; Ch 20 noted as partial

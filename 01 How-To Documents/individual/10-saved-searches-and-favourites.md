@@ -112,7 +112,7 @@ Once you've set up saved searches and started using favourites, your job hunt ha
 
 - **Daily** — Open the digest emails from your saved searches. Spend two minutes scanning. Add anything promising to favourites. Don't apply yet.
 - **Mid-week** — Open Auto Match for ten minutes. Add anything good to favourites.
-- **Weekly application session** (60–90 minutes) — Open Favourites. Triage. Apply to the top three to five with care (Chapter 11). Remove the rest from Favourites — if you didn't apply, you weren't going to.
+- **Weekly application session** (60–90 minutes) — Open Favourites. Triage. Apply to the top three to five with care (Chapter 12). Remove the rest from Favourites — if you didn't apply, you weren't going to.
 - **Every two weeks** — Tune your saved searches. Adjust frequencies, tighten or loosen filters.
 
 This rhythm beats scrolling-as-job-hunt by a wide margin. It produces fewer applications but better ones, and it's sustainable — you can run it for months without burning out.
@@ -192,7 +192,7 @@ Whatever channels you have, the same restraint applies — don't turn everything
 
 ## Next chapter
 
-[[01 How-To Documents/individual/11-applying|Chapter 11 — Applying to a job: walkthrough]]
+[[01 How-To Documents/individual/12-applying|Chapter 12 — Applying to a job: walkthrough]]
 
 ## References
 

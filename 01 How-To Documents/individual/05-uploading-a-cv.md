@@ -208,7 +208,7 @@ You don't have to do this on day one. But the moment you find yourself rewriting
 
 Once a CV is saved and the AI features have run:
 
-- The file becomes selectable when you apply to jobs (Chapter 11)
+- The file becomes selectable when you apply to jobs (Chapter 12)
 - Parsed fields populate your profile
 - Inferred skills (and, on Premium, soft skills) feed into **Auto Match** (Chapter 9) to score job recommendations
 - Both sets of skills power **CV Review** (Chapter 6), the next chapter
@@ -220,8 +220,8 @@ Skipping this chapter and going straight to job applications means none of those
 ## What you do *not* need to do yet
 
 - **CV Review** — that's the next chapter, and it's much more useful once you've already uploaded something
-- **Cover letters** — those are per-application (Chapter 11)
-- **Tailoring per individual job** — overkill at this stage; that's also a Chapter 11 concern
+- **Cover letters** — those are per-application (Chapter 12)
+- **Tailoring per individual job** — overkill at this stage; that's also a Chapter 12 concern
 - **Picking a Signature for every CV** — start with a Gallery template; you can always restyle later
 
 ## Checklist

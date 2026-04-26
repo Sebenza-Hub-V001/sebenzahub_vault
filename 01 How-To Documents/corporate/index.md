@@ -2,7 +2,7 @@
 title: "Corporate Training Manual"
 type: overview
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-26
 tags: [how-to, corporate, index, business]
 status: active
 user-types: [business]
@@ -10,23 +10,22 @@ user-types: [business]
 
 # Corporate Training Manual
 
-A complete guide for in-house enterprise hiring teams on Sebenza Hub. Read Chapters 1–4 in order if you're new — they take you from signup through your first requisition. Use Chapters 5–13 as references for the parts of the platform you reach for at specific moments: contract hiring, internal mobility, vendor management, integrations, workforce planning, AI tooling, compliance, billing, and the internal knowledge base.
+A complete guide for in-house enterprise hiring teams on Sebenza Hub. The manual mirrors the order you encounter features in the Business dashboard sidebar — read it front-to-back the first time, then dip back in by chapter for the parts you reach for at specific moments.
 
-> **Status:** Expanded draft. 13 chapters covering the full Business surface, from signup to AI tooling, compliance, billing, and the knowledge base.
+> **Status:** 15 chapters covering the full Business surface, sequenced to match the dashboard's journey order.
 
 ## How to use this guide
 
-- **Brand new corporate?** Start with Chapter 1. Plan on roughly two hours to read through Chapters 1–4, plus the time you spend setting things up alongside each chapter.
-- **Already onboarded?** Jump to Chapter 3 (organisation setup) or Chapter 4 (your first requisition).
-- **Running contract hiring?** Chapter 5.
-- **Running internal mobility, succession, performance?** Chapter 6.
-- **Managing external recruitment agencies?** Chapter 7.
-- **Wiring Sebenza into your stack and tuning reporting?** Chapter 8.
-- **Doing workforce planning?** Chapter 9.
-- **Looking at the AI surface?** Chapter 10.
-- **Compliance, audit, EE, B-BBEE, POPIA?** Chapter 11.
-- **Trial running out, finance asking about billing?** Chapter 12.
-- **Setting up the internal knowledge base?** Chapter 13.
+- **Brand new corporate?** Start with Chapter 1. Plan on roughly two hours to read through Chapters 1–4 (set-up and trial), then a chapter a day as you actually use each part of the platform.
+- **Already onboarded?** Jump to Chapter 3 (organisation setup) or Chapter 5 (posting your first role).
+- **Worried about the trial running out?** Chapter 4.
+- **Running a requisition end-to-end?** Chapters 5–9: posting, applications, screening, interviewing, offers.
+- **Managing external recruitment agencies and active sourcing?** Chapter 10.
+- **Tuning candidate communication and approval routing?** Chapter 11.
+- **Compliance, audit, EE, B-BBEE, POPIA?** Chapter 12.
+- **Contract workers, internal mobility, performance, succession, workforce planning, HRIS?** Chapter 13.
+- **Reading the data and shipping board reports?** Chapter 14.
+- **Setting up the internal Knowledge Base?** Chapter 15.
 
 Every chapter ends with a **Checklist** — tick it off before moving on.
 
@@ -37,31 +36,27 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 1. [[01 How-To Documents/corporate/01-what-sebenza-hub-is-for-corporates|What Sebenza Hub is for corporates]]
 2. [[01 How-To Documents/corporate/02-creating-your-account|Creating your account]]
 3. [[01 How-To Documents/corporate/03-setting-up-your-org|Setting up your organisation: team, RBAC, SSO, branding, notifications]]
+4. [[01 How-To Documents/corporate/04-trial-and-billing-lifecycle|Trial and billing lifecycle]]
 
-## Part 2 — Run Hiring
+## Part 2 — The Hiring Journey
 
-4. [[01 How-To Documents/corporate/04-your-first-requisition|Your first requisition: ATS, background checks, AI triage, and onboarding]]
-5. [[01 How-To Documents/corporate/05-contract-workers|Contract workers]]
+5. [[01 How-To Documents/corporate/05-posting-jobs|Posting jobs: requisitions, AI JD Writer, screening criteria, distribution]]
+6. [[01 How-To Documents/corporate/06-receiving-applications|Receiving applications: triage, pipeline, candidate database]]
+7. [[01 How-To Documents/corporate/07-screening-and-evaluating|Screening and evaluating: bot, video, scorecards, background checks, AI summary]]
+8. [[01 How-To Documents/corporate/08-interviewing|Interviewing: scheduling, self-scheduling, kits, AI questions]]
+9. [[01 How-To Documents/corporate/09-making-offers|Making offers: letters, templates, approvals, predictive hiring]]
 
-## Part 3 — Talent Inside the Organisation
+## Part 3 — Parallel Tracks
 
-6. [[01 How-To Documents/corporate/06-internal-mobility|Internal mobility, succession planning, and performance]]
+10. [[01 How-To Documents/corporate/10-vendor-management-and-sourcing|Vendor management and sourcing: agencies, Talent CRM, AI Search]]
+11. [[01 How-To Documents/corporate/11-communication-and-automation|Communication and automation: unified inbox, templates, brand voice, approvals]]
+12. [[01 How-To Documents/corporate/12-compliance-and-audit-trail|Compliance and audit trail: POPIA, B-BBEE, EE, audit]]
+13. [[01 How-To Documents/corporate/13-workforce-and-hr|Workforce and HR: HRIS, planning, internal mobility, performance, succession, contract, team DNA]]
 
-## Part 4 — Managing the Outside
+## Part 4 — Insights and Knowledge
 
-7. [[01 How-To Documents/corporate/07-vendor-management|Vendor management: external recruitment agencies]]
-
-## Part 5 — Integrate, Report, Plan
-
-8. [[01 How-To Documents/corporate/08-integrations-and-reporting|Integrations and reporting: analytics, diversity, predictive, notifications, HRIS, API, support]]
-9. [[01 How-To Documents/corporate/09-workforce-planning|Workforce planning]]
-
-## Part 6 — AI, Compliance, Billing, Knowledge
-
-10. [[01 How-To Documents/corporate/10-ai-tooling-for-corporates|AI tooling for corporates]]
-11. [[01 How-To Documents/corporate/11-compliance-and-audit-trail|Compliance and audit trail]]
-12. [[01 How-To Documents/corporate/12-trial-and-billing-lifecycle|Trial and billing lifecycle]]
-13. [[01 How-To Documents/corporate/13-knowledge-base|Knowledge base]]
+14. [[01 How-To Documents/corporate/14-analytics-and-reporting|Analytics and reporting: recruitment, predictive, diversity, custom reports]]
+15. [[01 How-To Documents/corporate/15-knowledge-base|Knowledge base]]
 
 ## References
 

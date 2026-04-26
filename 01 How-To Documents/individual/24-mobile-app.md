@@ -80,7 +80,7 @@ The mobile app receives push notifications for:
 - Recruiter messages
 - Interview invitations
 - Application status changes
-- Reminders you've set up (Chapter 12)
+- Reminders you've set up (Chapter 13)
 - Market Radar alerts if you've configured them (Chapter 22)
 
 Tune notification frequency and channels in **Profile → Notifications** in the app, or on the web in **Settings → Notifications**. The two share the same underlying preferences.
@@ -111,4 +111,4 @@ If you mostly use the platform from your phone, that's fine — just keep one we
 
 - [[01 How-To Documents/individual/02-creating-your-account|Chapter 2]] — Magic-link login (same flow on web and mobile)
 - [[01 How-To Documents/individual/04-first-10-minutes|Chapter 4]] — The full web dashboard
-- [[01 How-To Documents/individual/12-tracking-applications|Chapter 12]] — The Inbox lives here on the web
+- [[01 How-To Documents/individual/13-tracking-applications|Chapter 13]] — The Inbox lives here on the web

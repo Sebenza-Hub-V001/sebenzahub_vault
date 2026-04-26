@@ -82,7 +82,7 @@ Once coaching has surfaced themes, the next problem is articulation. Most people
 
 ![[i-ch18-career-story-draft.png]]
 
-4. Save it — you'll reuse it in the Cover Letter tab (Chapter 11) and the Elevator Pitch tab (Chapter 21).
+4. Save it — you'll reuse it in the Cover Letter tab (Chapter 12) and the Elevator Pitch tab (Chapter 21).
 
 ## Tool 3 — Career Path Mapping (where you could go)
 

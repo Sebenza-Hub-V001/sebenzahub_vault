@@ -1,5 +1,5 @@
 ---
-title: "Chapter 13 — Knowledge base"
+title: "Chapter 15 — Knowledge base"
 type: concept
 created: 2026-04-26
 updated: 2026-04-26
@@ -8,7 +8,7 @@ status: active
 user-types: [business]
 ---
 
-# Chapter 13 — Knowledge base
+# Chapter 15 — Knowledge base
 
 Most corporate hiring teams have a quiet documentation problem: hiring managers ask the same five questions every quarter, the answer lives in a half-remembered email or a Confluence page nobody can find, and the recruiter retypes the answer one more time. The Knowledge Base inside Sebenza Hub is where you write those answers down once, link them together, and keep them in the same platform as the candidates the questions are about.
 
@@ -24,9 +24,9 @@ The Knowledge Base is a per-organisation set of wikis you can use for whatever i
 
 - **Departments** — what each team does, how they hire, the seniority bands they use.
 - **Policies** — the EE plan, the leave policy, the disciplinary process, the WFH stance.
-- **Workforce plans** — the long-form context around the numbers in Workforce Planning (Chapter 9).
+- **Workforce plans** — the long-form context around the numbers in Workforce Planning (Chapter 13).
 - **Vendors** — who each agency is, what they're good at, who their primary contact is, what to watch out for.
-- **Onboarding processes** — the role-by-role version of the onboarding checklists in Chapter 4.
+- **Onboarding processes** — the role-by-role version of onboarding for each role family.
 - **Compliance frameworks** — the long-form context around POPIA, B-BBEE, and EE that doesn't fit on the dedicated compliance pages.
 
 The system supports a set of page types out of the box: summary, entity, concept, comparison, synthesis, department, policy, process, vendor, and custom. Pick the closest one when you create a page; the type drives a colour-coded tag in the viewer and helps the AI features behave appropriately.
@@ -72,7 +72,7 @@ A few patterns that work in practice for corporate operations:
 
 The Knowledge Base is **internal**. There is no public-facing publishing surface — these are pages your team can read, not pages your candidates will see. If you want a candidate-facing FAQ, that lives on your career page (covered in branding setup, Chapter 3) and is separate.
 
-It also is not the place for documents that need to be filed, signed, or have a legal lifecycle of their own — contracts, signed offer letters, EE submissions. Those live where they belong (Offer Letters in Chapter 4, EE submissions in Chapter 11). The Knowledge Base is for the running prose around them.
+It also is not the place for documents that need to be filed, signed, or have a legal lifecycle of their own — contracts, signed offer letters, EE submissions. Those live where they belong (Offer Letters in Chapter 9, EE submissions in Chapter 12). The Knowledge Base is for the running prose around them.
 
 ## Checklist
 
@@ -93,7 +93,7 @@ It also is not the place for documents that need to be filed, signed, or have a 
 ## References
 
 - [[01 How-To Documents/corporate/03-setting-up-your-org|Chapter 3 — Setting up your organisation]]
-- [[01 How-To Documents/corporate/04-your-first-requisition|Chapter 4 — Your first requisition]]
-- [[01 How-To Documents/corporate/07-vendor-management|Chapter 7 — Vendor management]]
-- [[01 How-To Documents/corporate/09-workforce-planning|Chapter 9 — Workforce planning]]
-- [[01 How-To Documents/corporate/11-compliance-and-audit-trail|Chapter 11 — Compliance and audit trail]]
+- [[01 How-To Documents/corporate/05-posting-jobs|Chapter 5 — Posting jobs]]
+- [[01 How-To Documents/corporate/10-vendor-management-and-sourcing|Chapter 10 — Vendor management and sourcing]]
+- [[01 How-To Documents/corporate/12-compliance-and-audit-trail|Chapter 12 — Compliance and audit trail]]
+- [[01 How-To Documents/corporate/13-workforce-and-hr|Chapter 13 — Workforce and HR]]

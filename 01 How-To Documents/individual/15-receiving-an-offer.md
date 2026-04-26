@@ -195,7 +195,7 @@ The Salary Negotiator's **Offer Matrix** tab handles competing-offer scenarios s
 Acceptance is not the end of the platform's involvement. After acceptance:
 
 - The application moves to `Hired`
-- You may be asked for additional documents (qualifications, ID, references) via the Application Portal at `/dashboard/individual/portal` (Chapter 12)
+- You may be asked for additional documents (qualifications, ID, references) via the Application Portal at `/dashboard/individual/portal` (Chapter 13)
 - The employer may send onboarding information through the Inbox
 - The platform's offer record stays in your history for reference
 
@@ -227,4 +227,4 @@ You can also leave a post-interview experience survey if the platform invites yo
 ## References
 
 - [[03-workflows/individual-journey]] — Step 7 (Receive & Accept Offer)
-- [[01 How-To Documents/individual/12-tracking-applications|Chapter 12]] — Application Portal for post-acceptance documents
+- [[01 How-To Documents/individual/13-tracking-applications|Chapter 13]] — Application Portal for post-acceptance documents

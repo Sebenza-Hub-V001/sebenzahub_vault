@@ -107,7 +107,7 @@ Don't read this — *do* it. Open your dashboard in another tab and spend a lite
 2. **My CVs** (`/dashboard/individual/cvs`) — empty for now; this is where Chapter 5 starts
 3. **All Jobs** (`/dashboard/individual/all-jobs`) — scroll through to get a feel for the volume
 4. **Auto Match** (`/dashboard/individual/auto-match`) — probably empty or sparse because your profile is thin
-5. **My Applications** (`/dashboard/individual/applications`) — empty for now; this is where Chapter 12 lives
+5. **My Applications** (`/dashboard/individual/applications`) — empty for now; this is where Chapter 13 lives
 6. **Messages** (`/dashboard/individual/inbox`) — empty; this is where recruiters reach you
 7. **Settings** (`/dashboard/individual/settings`) — note where it lives, but don't change anything yet
 

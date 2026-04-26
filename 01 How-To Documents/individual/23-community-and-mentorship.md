@@ -50,7 +50,7 @@ How to use it well:
 
 1. **Search for the company you're interviewing with** before each interview
 2. **Read every entry**, even the older ones — patterns matter more than individual data points
-3. **Cross-check against Company Research** (Chapter 14) — Interview Vault tells you the *process*; Company Research tells you the *context*
+3. **Cross-check against Company Research** (Chapter 11) — Interview Vault tells you the *process*; Company Research tells you the *context*
 4. **Contribute back after your own interview**, regardless of the outcome. The vault only works because people share. Sharing your bad interviews is at least as valuable as sharing your good ones.
 
 ### Mentor Connect (find a mentor)
@@ -209,5 +209,5 @@ You've reached the end. Use [[01 How-To Documents/individual/index|the guide ind
 ## References
 
 - [[01 How-To Documents/individual/index]] — Manual index
-- [[01 How-To Documents/individual/14-company-research|Chapter 14]] — Pairs with Interview Vault for interview prep
+- [[01 How-To Documents/individual/11-company-research|Chapter 11]] — Pairs with Interview Vault for interview prep
 - [[01 How-To Documents/individual/19-level-up|Chapter 19]] — Mentorship in the learning context

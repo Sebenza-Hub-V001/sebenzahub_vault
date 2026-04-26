@@ -43,15 +43,15 @@ The pattern in the data tells you what to fix. Three common patterns:
 |---------|-------------------|
 | Almost all applications stuck at `Applied`, no responses | The problem is *targeting* — you're applying to wrong-fit roles, or your profile/CV isn't surfacing |
 | Some movement to screening but lots of rejection there | The problem is the *CV* — it gets seen but not selected |
-| Get to interviews but rarely past the first round | The problem is *interview performance* — see Chapter 13 |
+| Get to interviews but rarely past the first round | The problem is *interview performance* — see Chapter 14 |
 
 Pick the most likely cause based on your actual data, not your worst-case fear.
 
 ![[i-ch17-application-analytics.png]]
 
-### AI Application Feedback (callback to Chapter 11)
+### AI Application Feedback (callback to Chapter 12)
 
-You don't have to guess application by application — **AI Application Feedback** runs after each application and tells you exactly how well your CV/profile matched that specific job, with concrete improvement suggestions. If you've been ignoring those notifications, go back into the last 10 applications and read the feedback. The pattern across them is often clearer than Analytics on its own. Full walk-through is in Chapter 11.
+You don't have to guess application by application — **AI Application Feedback** runs after each application and tells you exactly how well your CV/profile matched that specific job, with concrete improvement suggestions. If you've been ignoring those notifications, go back into the last 10 applications and read the feedback. The pattern across them is often clearer than Analytics on its own. Full walk-through is in Chapter 12.
 
 ## Cause A — Wrong jobs (targeting)
 
@@ -125,9 +125,9 @@ If your CV is good but your profile fields are incomplete, you might be invisibl
 
 ![[i-ch17-linkedin-optimizer.png]]
 
-## Cause D — Interview performance (callback to Chapter 13)
+## Cause D — Interview performance (callback to Chapter 14)
 
-If applications convert to first interviews but you stall there, the problem isn't your CV or profile — it's the interview itself. Go to Chapter 13 and work through the simulator + STAR + Anxiety loop. The Interview Scheduling page also keeps a Past Interviews tab that lets you compare scoring across sessions, which surfaces the same kind of question killing you across multiple interviews.
+If applications convert to first interviews but you stall there, the problem isn't your CV or profile — it's the interview itself. Go to Chapter 14 and work through the simulator + STAR + Anxiety loop. The Interview Scheduling page also keeps a Past Interviews tab that lets you compare scoring across sessions, which surfaces the same kind of question killing you across multiple interviews.
 
 ## Cause E — Coaching helps when you're stuck on diagnosis
 
@@ -221,7 +221,7 @@ Pick the one cause that best matches your data. Make the fix. Apply 10+ jobs ove
 
 | # | Feature |
 |---|---------|
-| 1 | AI Application Feedback (callback to Chapter 11) |
+| 1 | AI Application Feedback (callback to Chapter 12) |
 | 2 | LinkedIn Optimizer (Coaching tab) |
 | 3 | Weakness Alchemist (Coaching tab) |
 | 4 | Rejection Recovery (Coaching tab) |
@@ -236,4 +236,4 @@ Pick the one cause that best matches your data. Make the fix. Apply 10+ jobs ove
 - [[03-workflows/individual-journey]] — Track A: AI Assistance scenarios
 - [[01 How-To Documents/individual/06-cv-review|Chapter 6]] — CV Review
 - [[01 How-To Documents/individual/07-skills-credentials-video|Chapter 7]] — Profile completeness
-- [[01 How-To Documents/individual/12-tracking-applications|Chapter 12]] — Application Analytics
+- [[01 How-To Documents/individual/13-tracking-applications|Chapter 13]] — Application Analytics

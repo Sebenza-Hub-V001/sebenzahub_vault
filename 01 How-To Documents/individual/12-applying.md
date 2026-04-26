@@ -1,5 +1,5 @@
 ---
-title: "Chapter 11 — Applying to a job"
+title: "Chapter 12 — Applying to a job"
 type: concept
 created: 2026-04-09
 updated: 2026-04-20
@@ -8,13 +8,13 @@ status: active
 user-types: [individual]
 ---
 
-# Chapter 11 — Applying to a job: walkthrough
+# Chapter 12 — Applying to a job: walkthrough
 
 This is the chapter where you actually apply. By now your profile is solid, your CV has been reviewed, and you've found a few jobs worth your attention. Time to send the first application.
 
 This walkthrough takes you through one application end-to-end and explains what each choice does. You'll do it slowly the first time and quickly after that.
 
-![[i-ch11-apply-flow-nav.png]]
+![[i-ch12-apply-flow-nav.png]]
 
 ## Before you click Apply
 
@@ -42,7 +42,7 @@ Before you apply, run the JD through the decoder. This is the single highest-lev
 2. Read the breakdown — typically: must-haves vs nice-to-haves, the hidden values signal, any red flags, and a suggested pitch angle.
 3. Use the output to inform every later step: which CV to pick, which bullets to emphasise, what the cover letter should lead with.
 
-![[i-ch11-jd-decoder-output.png]]
+![[i-ch12-jd-decoder-output.png]]
 
 Don't treat Decoder as a deciding vote on whether to apply — that's still your call. Treat it as a brief that makes the rest of the application sharper.
 
@@ -110,7 +110,7 @@ A bad cover letter hurts more than no cover letter. If you don't have anything s
 4. **Treat the output as a first draft, not a final version.** Read it and rewrite anything that sounds generic. The AI doesn't know your real motivation — the "why this company" line will always be the weakest part. Overwrite it with something true.
 5. A two-paragraph cover letter that mentions one specific thing about the role beats a three-paragraph AI letter that could apply to any company. Trim hard.
 
-![[i-ch11-cover-letter-draft.png]]
+![[i-ch12-cover-letter-draft.png]]
 
 ## Step 3 — Answer screening questions
 
@@ -158,7 +158,7 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **How to use it.** On any listing flagged as Quick Apply enabled, look for the **Quick Apply** button next to the standard Apply button. Confirm the CV pick, click once, done. If the role asks for screening questions or a cover letter, it falls back to the standard application form — Quick Apply only fires when the employer's form is minimal enough to skip.
 
-![[i-ch11-quick-apply-confirmation.png]]
+![[i-ch12-quick-apply-confirmation.png]]
 
 ### Application Portal — _Tier: see Pricing_
 
@@ -166,9 +166,9 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **Why it matters.** When you're juggling 40+ applications across 6 stages, the flat list becomes unmanageable — you forget who you replied to, you miss follow-up windows, you double-apply. The Portal turns job hunting into a project you can actually run. This is a natural upgrade trigger for career-transition users who hit the wall around application 25.
 
-**How to use it.** Open **Application Portal** (`/dashboard/individual/portal`). Drag applications between columns as their state changes, click into any card to add notes or set a follow-up reminder, and use the column counts as a quick health check. Chapter 12 covers the day-to-day rhythm in more detail — for now, just know it's where your applications go to be managed once the Submit button has been clicked.
+**How to use it.** Open **Application Portal** (`/dashboard/individual/portal`). Drag applications between columns as their state changes, click into any card to add notes or set a follow-up reminder, and use the column counts as a quick health check. Chapter 13 covers the day-to-day rhythm in more detail — for now, just know it's where your applications go to be managed once the Submit button has been clicked.
 
-![[i-ch11-application-portal-kanban.png]]
+![[i-ch12-application-portal-kanban.png]]
 
 ### AI Application Feedback — _Tier: see Pricing_
 
@@ -178,7 +178,7 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **How to use it.** Runs automatically when you submit — here's what you'll see. Open the application from My Applications. Under the **Feedback** tab you'll find: the recalculated match score, what worked, what didn't, and 2–3 specific suggestions ("emphasise the SQL experience earlier", "your summary doesn't match this role's seniority"). Read the feedback for the first 5–10 applications carefully — patterns will emerge fast, and once you see them, you stop making the same mistake.
 
-![[i-ch11-ai-feedback-card.png]]
+![[i-ch12-ai-feedback-card.png]]
 
 ### Priority Applications — _Tier: see Pricing_
 
@@ -188,7 +188,7 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **How to use it.** Premium users see a **Mark as priority** toggle on the application form. Toggle it on for high-priority roles only — burning the priority flag on every application defeats the purpose. There's no hard cap on usage, but the signal degrades if you use it on everything.
 
-![[i-ch11-priority-badge.png]]
+![[i-ch12-priority-badge.png]]
 
 ## What happens next (timeline expectations)
 
@@ -203,14 +203,14 @@ The platform doesn't control how fast employers respond. Realistically:
 | Rejection notification | Anywhere from days to never (some employers ghost) |
 | No response at all | Common — a meaningful fraction of applications go silent |
 
-If you don't hear back after 7–14 days, that's your cue to set a follow-up reminder (Chapter 12) — not to spiral.
+If you don't hear back after 7–14 days, that's your cue to set a follow-up reminder (Chapter 13) — not to spiral.
 
 ## How to apply *well* — meta-rules
 
 - **Apply to fewer jobs, better.** Five thoughtful applications outperform fifty rushed ones, every single time.
 - **Apply in focused blocks.** As Chapter 10 suggested — favourite throughout the week, apply in one focused session.
 - **Treat each application as a small project.** Re-read the JD. Customise the CV pick. Decide on the cover letter. Submit. Move on.
-- **Track what you do.** Chapter 12 covers tracking; even simple notes ("Applied because of the remote setup, mention the SQL skill explicitly if interviewed") will help you when you actually get the interview.
+- **Track what you do.** Chapter 13 covers tracking; even simple notes ("Applied because of the remote setup, mention the SQL skill explicitly if interviewed") will help you when you actually get the interview.
 - **Don't apply when tired or distracted.** A bad submission is hard to take back. Save the tab and come back fresh.
 
 ## What if you change your mind after applying?
@@ -242,7 +242,7 @@ You can withdraw an application at any time before the offer stage. Go to **My A
 
 ## Next chapter
 
-[[01 How-To Documents/individual/12-tracking-applications|Chapter 12 — Tracking applications and follow-ups]]
+[[01 How-To Documents/individual/13-tracking-applications|Chapter 13 — Tracking applications and follow-ups]]
 
 ## References
 

@@ -2,7 +2,7 @@
 title: "Chapter 2 — Creating your account"
 type: concept
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-26
 tags: [how-to, corporate, signup, authentication]
 status: active
 user-types: [business]
@@ -50,7 +50,7 @@ Choose **Business**.
 If you also need to:
 
 - **Test the candidate experience** as a job seeker, create a separate Individual account on a different email.
-- **Engage external recruitment agencies**, they sign up themselves on the Recruiter product. You manage them from inside your Corporate account in Chapter 7 — you don't create their accounts.
+- **Engage external recruitment agencies**, they sign up themselves on the Recruiter product. You manage them from inside your Corporate account in Chapter 10 — you don't create their accounts.
 
 These are not the same account, and they cannot share a login.
 
@@ -70,7 +70,7 @@ Every new Business account starts on a **30-day Premium trial** automatically. Y
 - **An in-app TrialBanner.** Once you log in, a banner at the top of every page shows how many days you have left. It stays visible until you convert or the trial ends.
 - **Reminder emails.** You'll get an email at **7 days before expiry** and a final one at **1 day before expiry** so the end date doesn't surprise anyone.
 - **Caps on hard-cost items.** Three features have per-trial usage caps to prevent abuse: **Background Checks** (2 per trial), **Bulk Export** (5 per trial), and **WhatsApp Campaigns** (50 messages per trial). Hit the cap and you get an in-app upgrade prompt; everything else keeps working.
-- **What happens at the end.** If you do nothing, the trial expires and your account drops to the Free tier — you keep your data, your team, your requisitions, your candidate records, and your audit trail, but Premium-only features become read-only or hidden until you upgrade. To stay on Premium, convert from the **Billing** page (covered in [[01 How-To Documents/corporate/12-trial-and-billing-lifecycle|Chapter 12]]) before the trial ends.
+- **What happens at the end.** If you do nothing, the trial expires and your account drops to the Free tier — you keep your data, your team, your requisitions, your candidate records, and your audit trail, but Premium-only features become read-only or hidden until you upgrade. To stay on Premium, convert from the **Billing** page (covered in [[01 How-To Documents/corporate/04-trial-and-billing-lifecycle|Chapter 4]]) before the trial ends.
 
 The trial is designed so you can run a real evaluation: stand up your team, post a real requisition, run a real pipeline, and see whether the platform fits your operation. Treat the thirty days as a procurement window — don't wait until day 28 to start.
 
@@ -98,4 +98,4 @@ The trial is designed so you can run a real evaluation: stand up your team, post
 
 - [[02-concepts/authentication]] — How magic-link and SSO authentication work
 - [[01 How-To Documents/corporate/03-setting-up-your-org|Chapter 3 — Setting up your organisation]]
-- [[01 How-To Documents/corporate/12-trial-and-billing-lifecycle|Chapter 12 — Trial and billing lifecycle]]
+- [[01 How-To Documents/corporate/04-trial-and-billing-lifecycle|Chapter 4 — Trial and billing lifecycle]]

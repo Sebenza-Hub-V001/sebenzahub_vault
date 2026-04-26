@@ -1,5 +1,5 @@
 ---
-title: "Chapter 13 — Using the Interview Simulator"
+title: "Chapter 14 — Using the Interview Simulator"
 type: concept
 created: 2026-04-09
 updated: 2026-04-26
@@ -8,7 +8,7 @@ status: active
 user-types: [individual]
 ---
 
-# Chapter 13 — Using the Interview Simulator
+# Chapter 14 — Using the Interview Simulator
 
 Interview practice is the single highest-leverage activity for improving outcomes once interviews start landing. Sebenza Hub gives you four surfaces that work together: a dedicated **Interview Simulator** for full mock sessions, a **Mock Interview** chat inside Coaching for lighter reps, a **STAR Builder** for behavioural-answer structure, and an **Anxiety Toolkit** for the day itself. This chapter walks through each one and how to combine them.
 
@@ -34,7 +34,7 @@ The Interview Scheduling page is where the day-of and post-interview tools live 
 
 **Why it matters.** Practice under realistic conditions is the only way to build interview fluency. Reading about STAR doesn't teach you to use it under pressure — answering 30 questions across five sessions does.
 
-![[i-ch13-simulator-landing.png]]
+![[i-ch14-simulator-landing.png]]
 
 **How to use it.** Open `/dashboard/individual/interview-simulator`. The page has four tabs:
 
@@ -51,7 +51,7 @@ Treat each session like a real interview, even though nobody is watching:
 - **Stay in character as your professional self.** No "let me try this again as a joke" answers.
 - **Take one or two attempts per question, not ten.** The simulator's job is to give you feedback on a realistic answer, not a polished one.
 
-![[i-ch13-simulator-session.png]]
+![[i-ch14-simulator-session.png]]
 
 A useful sequence over a week:
 
@@ -70,7 +70,7 @@ A useful sequence over a week:
 
 **How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Mock Interview** tab. Describe the role and start the conversation. Use this for quick reps; save the full Interview Simulator for the deeper sessions where dimension scoring matters.
 
-![[i-ch13-ai-interview-chat.png]]
+![[i-ch14-ai-interview-chat.png]]
 
 ## STAR Builder (inside Coaching)
 
@@ -82,7 +82,7 @@ A useful sequence over a week:
 
 **How to use it.** Open **Coaching** → **STAR Builder** tab. Pick three or four behavioural questions you expect for the role. For each, walk through the four prompts and let the tool produce an answer skeleton. Memorise the Situation and Result; leave the middle flexible. Don't read STAR-built answers verbatim in the real interview — you'll sound rehearsed.
 
-![[i-ch13-star-builder.png]]
+![[i-ch14-star-builder.png]]
 
 ## Anxiety Toolkit (inside Coaching)
 
@@ -94,7 +94,7 @@ A useful sequence over a week:
 
 **How to use it.** Open **Coaching** → **Anxiety Toolkit** tab at least once before your first simulator session and pick the two or three exercises that resonate. Use them in the 10 minutes before any high-stakes interview — real or mock.
 
-![[i-ch13-anxiety-toolkit.png]]
+![[i-ch14-anxiety-toolkit.png]]
 
 ## Day-of and post-interview tools (inside Interview Scheduling)
 
@@ -102,7 +102,7 @@ Once you have a real interview booked, open **Interview Scheduling** (`/dashboar
 
 - **AI Prep Kit** — auto-research the company, generate likely questions, and prepare a single bundled brief tied to the interview record.
 
-![[i-ch13-prep-kit-output.png]]
+![[i-ch14-prep-kit-output.png]]
 
 - **STAR** — quick STAR scaffolding directly against this interview.
 - **Interviewer** — research the named interviewer (where data exists) for rapport-building points.
@@ -111,11 +111,11 @@ Once you have a real interview booked, open **Interview Scheduling** (`/dashboar
 - **Anxiety** — same toolkit as above, scoped to this interview.
 - **Thank You** — write a personalised post-interview thank-you note referencing real talking points.
 
-![[i-ch13-thank-you-note.png]]
+![[i-ch14-thank-you-note.png]]
 
 - **Self-Assessment / Follow-Up Planner / Reflection Journal / Past Interviews** — captured after the interview so the lessons compound across sessions.
 
-![[i-ch13-interview-comparison.png]]
+![[i-ch14-interview-comparison.png]]
 
 The point of these tabs isn't that you'll use every one — it's that the day-of and post-interview steps are gathered in one place rather than scattered across the platform. Read the Prep Kit the night before. Send the Thank You note within two hours of leaving. Run the Reflection Journal within 24 hours, while the conversation is still fresh.
 
@@ -129,7 +129,7 @@ Across the simulator and the chat, the feedback usually breaks into three dimens
 | **Structure** | Was your answer well-organised? Did you use a recognisable framework like STAR? |
 | **Delivery** | Pace, filler words, tone, confidence without arrogance. |
 
-![[i-ch13-scoring-breakdown.png]]
+![[i-ch14-scoring-breakdown.png]]
 
 The most common failure modes:
 
@@ -174,10 +174,10 @@ Don't enable that automation until you've gone through Chapter 20.
 
 ## Next chapter
 
-[[01 How-To Documents/individual/14-company-research|Chapter 14 — Researching a company]]
+[[01 How-To Documents/individual/11-company-research|Chapter 11 — Researching a company]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities
 - [[03-workflows/individual-journey]] — Step 6 (Interview)
-- [[01 How-To Documents/individual/14-company-research|Chapter 14 — Researching a company]]
+- [[01 How-To Documents/individual/11-company-research|Chapter 11 — Researching a company]]

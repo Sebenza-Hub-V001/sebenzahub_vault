@@ -1,5 +1,5 @@
 ---
-title: "Chapter 12 — Tracking applications and follow-ups"
+title: "Chapter 13 — Tracking applications and follow-ups"
 type: concept
 created: 2026-04-09
 updated: 2026-04-20
@@ -8,7 +8,7 @@ status: active
 user-types: [individual]
 ---
 
-# Chapter 12 — Tracking applications and follow-ups
+# Chapter 13 — Tracking applications and follow-ups
 
 You've started applying. Within a couple of weeks you'll have somewhere between five and twenty live applications, each one in a different stage, with different people, on different timelines. Without a system, you will lose track. With a system, you'll know exactly where things stand and when to nudge.
 
@@ -26,9 +26,9 @@ Before you get into the kanban boards and analytics, the foundation is the simpl
 
 **How to use it.** Open **My Applications** (`/dashboard/individual/applications`) — the flat list view. Sort by date, status, or company. Click into any application to see full detail and history. This view is your daily ground truth; everything else in this chapter is built on top of it.
 
-![[i-ch12-my-applications-list.png]]
+![[i-ch13-my-applications-list.png]]
 
-> **Cross-reference:** The **Application Portal** (the multi-tab control centre with kanban, wellbeing, momentum, and ghost detection) is introduced in Chapter 11. This chapter focuses on what you do with the data once you can see it.
+> **Cross-reference:** The **Application Portal** (the multi-tab control centre with kanban, wellbeing, momentum, and ghost detection) is introduced in Chapter 12. This chapter focuses on what you do with the data once you can see it.
 
 ## The pages you'll be living in
 
@@ -45,7 +45,7 @@ The other six pages are useful but not essential right away:
 - **Application Analytics** — patterns and success rates (covered below)
 - **Notes & Tags** — per-application personal notes
 - **Reminders** — follow-up reminders (covered below)
-- **Application Portal** — multi-tab applications control centre (introduced in Chapter 11; deeper section below)
+- **Application Portal** — multi-tab applications control centre (introduced in Chapter 12; deeper section below)
 - **Candidate Hub** — eight-tab career command centre (deeper section below)
 - **Experience Surveys** — post-interview feedback you give to the platform
 
@@ -85,7 +85,7 @@ This view is the most useful one when you have more than three or four applicati
 - Notice when you have nothing in interview stage (a sign you need to apply more, or apply better)
 - Notice when you have *many* in interview stage (a sign to slow down on new applications and focus on prep)
 
-![[i-ch12-application-tracker-kanban.png]]
+![[i-ch13-application-tracker-kanban.png]]
 
 Look at it once or twice a week, not every day.
 
@@ -124,7 +124,7 @@ The platform can remind you to follow up on an application after a set period of
 | **10–14 days** | Polite check-in for most other roles |
 | **3–4 weeks** | Final follow-up. If still silent, consider it dead. |
 
-Set the reminder when you submit the application (Chapter 11 ends; Chapter 12 begins). Don't try to remember.
+Set the reminder when you submit the application (Chapter 12 ends; Chapter 13 begins). Don't try to remember.
 
 ### How to follow up well
 
@@ -170,7 +170,7 @@ It shows:
 
 Use it to course-correct. If your response rate is below 5% across 20 applications, something is wrong — that's your cue to revisit Chapter 17 (troubleshooting). If response rates are fine but you're stuck at the screening stage, the problem is the CV or the cover letter rather than the targeting.
 
-![[i-ch12-analytics-dashboard.png]]
+![[i-ch13-analytics-dashboard.png]]
 
 Don't open Analytics every day. Look at it every two or three weeks, when you have enough new data to learn from.
 
@@ -197,7 +197,7 @@ If you only had time to look at one page per session, the Candidate Hub is the o
 
 A reasonable rhythm: open the **Candidate Hub** to plan the session, then drop into the **Application Portal** to do the work.
 
-![[i-ch12-candidate-hub-overview.png]]
+![[i-ch13-candidate-hub-overview.png]]
 
 ## A weekly tracking ritual
 
@@ -235,10 +235,10 @@ You've found jobs, applied to them, and put a tracking system in place. You know
 
 ## Next chapter
 
-[[01 How-To Documents/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]
+[[01 How-To Documents/individual/14-interview-simulator|Chapter 14 — Using the Interview Simulator]]
 
 ## References
 
 - [[02-concepts/application-lifecycle]] — Status enum, full pipeline
 - [[03-workflows/individual-journey]] — Step 5 (Track Applications)
-- [[01 How-To Documents/individual/13-interview-simulator|Chapter 13 — Using the Interview Simulator]]
+- [[01 How-To Documents/individual/14-interview-simulator|Chapter 14 — Using the Interview Simulator]]

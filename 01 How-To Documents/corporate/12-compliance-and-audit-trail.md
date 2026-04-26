@@ -1,5 +1,5 @@
 ---
-title: "Chapter 11 — Compliance and audit trail"
+title: "Chapter 12 — Compliance and audit trail"
 type: concept
 created: 2026-04-26
 updated: 2026-04-26
@@ -8,7 +8,7 @@ status: active
 user-types: [business]
 ---
 
-# Chapter 11 — Compliance and audit trail
+# Chapter 12 — Compliance and audit trail
 
 SA hiring is a regulated activity. POPIA governs what you can do with candidate personal information; B-BBEE governs how the demographics of who you employ are scored against your scorecard; Employment Equity governs whether the demographics of who you hire match the plan you filed with the Department of Employment and Labour. None of these are optional. All of them assume you can produce evidence on request — not next quarter, today.
 
@@ -46,7 +46,7 @@ Sebenza Hub gives you four pages dedicated to that evidence: POPIA Compliance, B
 **When to use it.**
 
 - **Once a year, at plan setup.** Load the EE plan you've filed, with the per-level targets agreed with the EE Committee.
-- **Monthly.** Review actuals against plan. The Diversity Analytics view in Chapter 8 is the operational lens; this page is the regulatory lens. They should agree.
+- **Monthly.** Review actuals against plan. The Diversity Analytics view in [[01 How-To Documents/corporate/14-analytics-and-reporting|Chapter 14]] is the operational lens; this page is the regulatory lens. They should agree.
 - **At report submission time.** Generate the EEA-format outputs and compare them to what you'd report manually before submitting.
 
 ## Audit Trail
@@ -95,10 +95,11 @@ What they do, that the spreadsheet-based incumbents don't, is make the data cont
 
 ## Next chapter
 
-[[01 How-To Documents/corporate/12-trial-and-billing-lifecycle|Chapter 12 — Trial and billing lifecycle]]
+[[01 How-To Documents/corporate/13-workforce-and-hr|Chapter 13 — Workforce and HR]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, B-BBEE, EE context
-- [[01 How-To Documents/corporate/04-your-first-requisition|Chapter 4 — Your first requisition]]
-- [[01 How-To Documents/corporate/08-integrations-and-reporting|Chapter 8 — Integrations and reporting]]
+- [[01 How-To Documents/corporate/06-receiving-applications|Chapter 6 — Receiving applications]]
+- [[01 How-To Documents/corporate/07-screening-and-evaluating|Chapter 7 — Screening and evaluating]]
+- [[01 How-To Documents/corporate/14-analytics-and-reporting|Chapter 14 — Analytics and reporting]]
