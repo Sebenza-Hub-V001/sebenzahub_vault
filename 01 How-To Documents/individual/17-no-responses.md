@@ -47,7 +47,7 @@ The pattern in the data tells you what to fix. Three common patterns:
 
 Pick the most likely cause based on your actual data, not your worst-case fear.
 
-![[13-raw/screenshots/i-ch17-application-analytics.png]]
+![[i-ch17-application-analytics.png]]
 
 ### AI Application Feedback (callback to Chapter 11)
 
@@ -115,19 +115,19 @@ If your CV is good but your profile fields are incomplete, you might be invisibl
 5. **Add a video profile** (Chapter 7) if you're applying to client-facing or leadership roles. It's a small signal but it does shift response rates.
 6. **Run LinkedIn Optimizer** — see below.
 
-### LinkedIn Optimizer — _Tier: Standard_
+### LinkedIn Optimizer — _Tier: see Pricing_
 
 **What this feature is.** LinkedIn Optimizer analyses your LinkedIn profile for recruiter-search discoverability — headline keywords, skills, experience phrasing, About section — and gives you specific rewrites you can paste straight in. It's not a beautifier; it's an SEO tool for the recruiter's search bar.
 
 **Why it matters.** Around 70% of South African recruiters source on LinkedIn. If you're not surfacing in their searches, you don't exist as far as they're concerned — no matter how good your Sebenza Hub profile is. The fix is mechanical: the right keywords in the right places.
 
-**How to use it.** Connect or paste your LinkedIn profile into the Optimizer. Read the suggested rewrites. Apply the headline and About-section changes first — they have the biggest impact on search rank. Re-run after a week to see what else has shifted. If you're getting recruiter views but no responses, the headline is usually the problem. If you're getting no views at all, it's the keyword density across the whole profile.
+**How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **LinkedIn** tab. Paste or connect your LinkedIn profile. Read the suggested rewrites. Apply the headline and About-section changes first — they have the biggest impact on search rank. Re-run after a week to see what else has shifted. If you're getting recruiter views but no responses, the headline is usually the problem. If you're getting no views at all, it's the keyword density across the whole profile.
 
-![[13-raw/screenshots/i-ch17-linkedin-optimizer.png]]
+![[i-ch17-linkedin-optimizer.png]]
 
 ## Cause D — Interview performance (callback to Chapter 13)
 
-If applications convert to first interviews but you stall there, the problem isn't your CV or profile — it's the interview itself. Go to Chapter 13 and work through the prep + simulator + scoring loop. **Interview Comparison** specifically (Premium) is the tool that tells you whether the same kind of question is killing you across multiple interviews.
+If applications convert to first interviews but you stall there, the problem isn't your CV or profile — it's the interview itself. Go to Chapter 13 and work through the simulator + STAR + Anxiety loop. The Interview Scheduling page also keeps a Past Interviews tab that lets you compare scoring across sessions, which surfaces the same kind of question killing you across multiple interviews.
 
 ## Cause E — Coaching helps when you're stuck on diagnosis
 
@@ -137,43 +137,43 @@ If you've done the above and you're still stuck, try **AI Coaching** (`/dashboar
 
 If you're getting to interviews but not progressing past the first round, and you suspect you're tanking on a specific question type, the "what's your biggest weakness?" question is the most common silent killer. Most candidates either dodge it (signals defensiveness) or disclose a real dealbreaker. Both lose.
 
-### Weakness Alchemist — _Tier: Standard_
+### Weakness Alchemist — _Tier: see Pricing_
 
 **What this feature is.** Weakness Alchemist takes your honest weaknesses and reframes them into interview-safe answers that show self-awareness and growth without becoming a liability. It's not about hiding the weakness — it's about pairing it with the work you've done on it.
 
 **Why it matters.** "What's your biggest weakness?" is answered badly by 90% of candidates, and it's one of the few questions where a rehearsed answer beats an authentic one. A clean reframing is real competitive edge for not very much effort.
 
-**How to use it.** Open Weakness Alchemist and input two or three real weaknesses — not made-up ones. The tool returns reframed versions you can use in interviews. Pick the one that feels most honest to you (the others will sound rehearsed when you say them out loud). Practise it until it sounds natural, then forget about it until the question comes up.
+**How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Weakness Alchemist** tab. Input two or three real weaknesses — not made-up ones. The tool returns reframed versions you can use in interviews. Pick the one that feels most honest to you (the others will sound rehearsed when you say them out loud). Practise it until it sounds natural, then forget about it until the question comes up.
 
-![[13-raw/screenshots/i-ch17-weakness-alchemist.png]]
+![[i-ch17-weakness-alchemist.png]]
 
 ## Cause G — A specific recent rejection has you stuck
 
 Sometimes the issue isn't a pattern — it's a single rejection that's left you spiralling and unable to keep going. That's a real problem, and the platform has a tool for it.
 
-### Rejection Recovery Coach — _Tier: Standard_
+### Rejection Recovery — _Tier: see Pricing_
 
-**What this feature is.** Rejection Recovery Coach generates a personalised recovery plan after a specific rejection — what to learn from it, how to follow up with the recruiter or hiring manager, and how to keep the relationship warm for future roles at the same company. It's part processing, part action plan.
+**What this feature is.** Rejection Recovery generates a personalised recovery plan after a specific rejection — what to learn from it, how to follow up with the recruiter or hiring manager, and how to keep the relationship warm for future roles at the same company. It's part processing, part action plan.
 
 **Why it matters.** Job searches are 90% rejection. The candidates who keep their momentum after a hard "no" outperform the ones who go silent for two weeks. This isn't just a wellness tool — it's a retention mechanism for *you*, in your own search.
 
-**How to use it.** Run it after any rejection that's hit you harder than the rest. Don't run it after every rejection — that turns into noise. Use it specifically when you're stuck and need a structured way out.
+**How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Rejection Recovery** tab. Run it after any rejection that's hit you harder than the rest. Don't run it after every rejection — that turns into noise. Use it specifically when you're stuck and need a structured way out.
 
-![[13-raw/screenshots/i-ch17-rejection-recovery-plan.png]]
+![[i-ch17-rejection-recovery-plan.png]]
 
 ## Cause H — You're not networking and the market is tight
 
 Cold applications are slow. Referrals are fast. If your conversion rate is broken and the market is sluggish, the highest-leverage thing you can do is reach out to people who can refer you in. Most candidates won't do this because they don't know what to say.
 
-### Networking Message Writer — _Tier: Standard_
+### Message Crafter — _Tier: see Pricing_
 
-**What this feature is.** Networking Message Writer drafts professional networking messages and LinkedIn connection requests for specific targets — referrers, recruiters, hiring managers. You give it the target and the context (the role, your angle, any shared connection), and it produces a clean message you can send.
+**What this feature is.** Message Crafter drafts professional networking messages and LinkedIn connection requests for specific targets — referrers, recruiters, hiring managers. You give it the target and the context (the role, your angle, any shared connection), and it produces a clean message you can send.
 
 **Why it matters.** 60%+ of senior hires happen through networking, but most candidates never reach out because they don't know what to say. Getting the first message right turns cold profiles into warm referrals. The lift is large because so few candidates do this at all.
 
-**How to use it.** Identify 5–10 people at companies you'd actually want to work for. For each, generate a tailored message — not a generic "I'd love to connect." Send the message. Don't expect a response from every one (rates are typically 20–40%); the ones who do reply are now warm referrers for current and future roles. Run this monthly during an active search.
+**How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Message Crafter** tab. Identify 5–10 people at companies you'd actually want to work for. For each, generate a tailored message — not a generic "I'd love to connect." Send the message. Don't expect a response from every one (rates are typically 20–40%); the ones who do reply are now warm referrers for current and future roles. Run this monthly during an active search.
 
-![[13-raw/screenshots/i-ch17-networking-message-draft.png]]
+![[i-ch17-networking-message-draft.png]]
 
 ## When the problem isn't you
 
@@ -211,21 +211,21 @@ Pick the one cause that best matches your data. Make the fix. Apply 10+ jobs ove
 - [ ] If targeting: tightened target role and trusted Auto Match
 - [ ] If CV: re-ran CV Review and acted on it
 - [ ] If profile: ran LinkedIn Optimizer and applied headline + About changes
-- [ ] If weakness questions: rehearsed an answer using Weakness Alchemist
-- [ ] If a specific rejection is sticking: ran Rejection Recovery Coach
-- [ ] If market is slow: sent 5–10 networking messages with Networking Message Writer
+- [ ] If weakness questions: rehearsed an answer using the Weakness Alchemist tab in Coaching
+- [ ] If a specific rejection is sticking: ran the Rejection Recovery tab in Coaching
+- [ ] If market is slow: sent 5–10 networking messages using the Message Crafter tab in Coaching
 - [ ] Resisted the urge to change everything at once
 - [ ] Set a date 2 weeks out to re-evaluate
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | AI Application Feedback (callback to Chapter 11) | Standard |
-| 2 | LinkedIn Optimizer | Standard |
-| 3 | Weakness Alchemist | Standard |
-| 4 | Rejection Recovery Coach | Standard |
-| 5 | Networking Message Writer | Standard |
+| # | Feature |
+|---|---------|
+| 1 | AI Application Feedback (callback to Chapter 11) |
+| 2 | LinkedIn Optimizer (Coaching tab) |
+| 3 | Weakness Alchemist (Coaching tab) |
+| 4 | Rejection Recovery (Coaching tab) |
+| 5 | Message Crafter (Coaching tab) |
 
 ## Next chapter
 

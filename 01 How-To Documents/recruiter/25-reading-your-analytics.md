@@ -10,7 +10,7 @@ user-types: [recruiter]
 
 # Chapter 25 — Reading your analytics: KPI Dashboard and the four key reports
 
-![[13-raw/screenshots/r-ch25-kpi-dashboard-hero.png]]
+![[r-ch25-kpi-dashboard-hero.png]]
 
 You can run an agency on instinct for a year, maybe two. After that, the things you don't measure start killing you quietly — fill rates dropping, fees shrinking, clients churning, recruiters underperforming — and instinct can't catch any of it. This chapter is about the four reports that, used weekly, tell you everything you need to know about whether your agency is healthy.
 
@@ -85,7 +85,7 @@ The Recruitment Analytics page is where you go monthly to understand *patterns*,
 
 **How to use it.** Open `/dashboard/recruiter/analytics` on the first Monday of every month. Walk through the questions below against the conversion funnel, source effectiveness, recruiter performance, and client performance views. Don't skim — write down one decision you're making this month based on what you see.
 
-![[13-raw/screenshots/r-ch25-recruiter-analytics-funnel.png]]
+![[r-ch25-recruiter-analytics-funnel.png]]
 
 ### Placement Analytics — _Tier: Standard_
 
@@ -101,7 +101,7 @@ Two-line callback: per-client placement success rates, time-to-fill, and per-rec
 - **Sector breakdown** — where you're winning and where you're not
 - **Trend over 12 months** — long-arc patterns that weekly views miss
 
-![[13-raw/screenshots/r-ch25-cost-per-hire-breakdown.png]]
+![[r-ch25-cost-per-hire-breakdown.png]]
 
 ### Questions to ask monthly
 
@@ -132,7 +132,7 @@ If you can't answer one of these from the data, that's a sign your data hygiene 
 - **Client churn risk** — clients whose engagement signals predict they'll leave
 - **Recruiter capacity warnings** — team members heading toward overload or underutilisation
 
-![[13-raw/screenshots/r-ch25-predictive-analytics-forecast.png]]
+![[r-ch25-predictive-analytics-forecast.png]]
 
 ### Use it to make decisions, not just to watch
 
@@ -156,7 +156,7 @@ The Requirement Check is the ad-hoc tool you reach for when one specific role is
 - **Where are candidates dropping out (own choice, your reject, employer reject)?**
 - **Specific signals** — "85% of applicants fail the SQL knockout question" or "median candidate is 8 years experience but the JD requires 12+, so the realistic pool is small" or "salary band is below market median for this role and location"
 
-![[13-raw/screenshots/r-ch25-source-quality-scoring.png]]
+![[r-ch25-source-quality-scoring.png]]
 
 ### What to do with the diagnosis
 
@@ -167,6 +167,14 @@ The Requirement Check usually surfaces one of three problems:
 3. **The role is fine but the sourcing is too narrow** — add more channels, run a passive candidate sequence, expand the geographic search
 
 The output is actionable, not just observational. Use it that way.
+
+## AI cost in ZAR
+
+The Predictive, A/B Testing, and Usage Analytics tabs on the analytics page now show **ZAR alongside USD on every metered AI line**. The underlying model layer charges in fractions of a US dollar; you plan and budget in rand. Both numbers are visible at a glance so you don't have to do mental conversions while reading the dashboard.
+
+Practically: when you're sizing an experiment, comparing two prompt strategies, or sanity-checking a recruiter's monthly AI spend, the ZAR figure is the one to anchor on.
+
+> **Cost-per-request is volume-weighted, not arithmetic mean.** When the dashboard shows "average cost per AI call" or "average cost per screening run", that average is weighted by the number of calls, not a simple mean of per-call cost. One unusually expensive run won't drag your displayed average up the way an arithmetic mean would. The number you see is closer to "what an additional call typically costs you right now" — useful for forecasting, not skewed by outliers.
 
 ## Other analytics pages worth knowing about
 

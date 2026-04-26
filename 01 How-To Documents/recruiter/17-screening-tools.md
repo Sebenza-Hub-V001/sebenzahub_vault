@@ -27,13 +27,14 @@ The screening surface is spread across many pages, but the ones you'll touch mos
 
 | Page | What it does |
 |---|---|
-| `/dashboard/recruiter/screening` | Master screening workspace per job |
+| `/dashboard/recruiter/pipeline` (filter by job) | Master screening workspace per job |
+| `/dashboard/recruiter/candidate-summary` | One-page AI summary per candidate |
 | `/dashboard/recruiter/screening-chatbot` | Conversational AI screen |
 | `/dashboard/recruiter/tests` | Competency test library and runs |
 | `/dashboard/recruiter/scorecards` | Structured evaluation forms |
 | `/dashboard/recruiter/culture-fit` | Culture alignment assessments |
 | `/dashboard/recruiter/blind-hiring` | Demographic redaction toggle |
-| `/dashboard/recruiter/references` | Reference check tracking and forms |
+| `/dashboard/recruiter/reference-checks` | Reference check tracking and forms |
 | `/dashboard/recruiter/background-checks` | Third-party verification |
 
 ## 1. CV and JD matching
@@ -48,7 +49,7 @@ Four features score CVs against jobs. They run constantly in the background and 
 
 **How to use it.** Runs automatically on every new application that passes knockouts. Open the job's screening workspace to see the ranked list and the AI's reasoning per candidate. Override the rank where the reasoning misses context.
 
-![[13-raw/screenshots/r-ch17-ai-candidate-screening-shortlist.png]]
+![[r-ch17-ai-candidate-screening-shortlist.png]]
 
 ### AI Resume vs JD Scoring — _Tier: Standard_
 
@@ -58,7 +59,7 @@ Four features score CVs against jobs. They run constantly in the background and 
 
 **How to use it.** Click **Score against JD** on any candidate card. Useful when re-running an existing candidate against a new role, or when the hiring manager asks for a written rationale.
 
-![[13-raw/screenshots/r-ch17-resume-vs-jd-scoring-card.png]]
+![[r-ch17-resume-vs-jd-scoring-card.png]]
 
 ### AI Candidate-Job Matching — _Tier: Metered — Standard: 100/mo · Premium: unlimited_
 
@@ -76,7 +77,7 @@ Four features score CVs against jobs. They run constantly in the background and 
 
 **How to use it.** From the screening workspace, select multiple candidates → **Batch screen**. The report ranks them and groups them into advance / maybe / reject buckets you can act on with bulk actions.
 
-![[13-raw/screenshots/r-ch17-batch-screening-report.png]]
+![[r-ch17-batch-screening-report.png]]
 
 ## 2. Predictive and fit
 
@@ -90,7 +91,7 @@ Three features look beyond what the CV says toward what's likely to happen if yo
 
 **How to use it.** Visible on every shortlisted candidate's profile under **Predictive**. Read the score and the contributing factors before submitting to the client. Use it as a tie-breaker between two equally strong candidates, not as a gate.
 
-![[13-raw/screenshots/r-ch17-predictive-hiring-risk-score.png]]
+![[r-ch17-predictive-hiring-risk-score.png]]
 
 ### Culture Fit Assessment — _Tier: Standard_
 
@@ -100,7 +101,7 @@ Three features look beyond what the CV says toward what's likely to happen if yo
 
 **How to use it.** Open `/dashboard/recruiter/culture-fit` for any shortlisted candidate. The output gives an alignment score, strengths the candidate brings, and risks where misalignment may cause friction. **Use the work-style framing**, not the "do they fit in" framing — culture fit used badly is how you build homogeneous, biased pipelines that fail diversity audits (Chapter 28).
 
-![[13-raw/screenshots/r-ch17-culture-fit-radar-chart.png]]
+![[r-ch17-culture-fit-radar-chart.png]]
 
 ### Location Intelligence — _Tier: Standard_
 
@@ -110,7 +111,7 @@ Three features look beyond what the CV says toward what's likely to happen if yo
 
 **How to use it.** Surfaces automatically on the candidate card as a **Location risk** flag. For roles where on-site attendance matters, treat a high flag as a conversation point in the screening call, not an auto-reject — many candidates have plans to relocate they haven't mentioned.
 
-![[13-raw/screenshots/r-ch17-location-intelligence-map.png]]
+![[r-ch17-location-intelligence-map.png]]
 
 ## 3. Screening flow
 
@@ -124,7 +125,7 @@ Three features move candidates through the screen — the chatbot does the conve
 
 **How to use it.** Configure templates per role family in `/dashboard/recruiter/screening-chatbot`. Enable the chatbot for a job from the screening config (Chapter 15). Review transcripts in the chatbot workspace and override the AI's recommendation when context warrants. Skip the chatbot for executive roles — at that level it feels patronising.
 
-![[13-raw/screenshots/r-ch17-screening-chatbot-conversation.png]]
+![[r-ch17-screening-chatbot-conversation.png]]
 
 ### Screening Next Steps — _Tier: Standard_
 
@@ -134,7 +135,7 @@ Three features move candidates through the screen — the chatbot does the conve
 
 **How to use it.** Appears as a **Suggested action** button on every candidate card after screening completes. Treat it as a default you can confirm in one click — but the override is always there.
 
-![[13-raw/screenshots/r-ch17-screening-next-steps-recommendation.png]]
+![[r-ch17-screening-next-steps-recommendation.png]]
 
 ### Screening Market Intelligence — _Tier: Premium_
 
@@ -156,7 +157,7 @@ Eight features cover competency testing — building tests, generating questions
 
 **How to use it.** Open `/dashboard/recruiter/tests` → **+ New test**. Pick the format, add questions, set the timer, attach to a job. Save as a template if you'll reuse it.
 
-![[13-raw/screenshots/r-ch17-test-builder-branching-logic.png]]
+![[r-ch17-test-builder-branching-logic.png]]
 
 ### AI Question Generator — _Tier: Standard_
 
@@ -174,7 +175,7 @@ Eight features cover competency testing — building tests, generating questions
 
 **How to use it.** Open the template library inside `/dashboard/recruiter/tests`. Pick the closest match, clone, edit the few questions that need tailoring, attach to the job.
 
-![[13-raw/screenshots/r-ch17-test-templates-library.png]]
+![[r-ch17-test-templates-library.png]]
 
 ### AI Test Recommender — _Tier: Standard_
 
@@ -216,7 +217,7 @@ Eight features cover competency testing — building tests, generating questions
 
 **How to use it.** Toggle **Anti-cheat** on when configuring the test. Candidates see a consent prompt before starting. Flagged events appear on the result with a confidence score; review the recording for any flagged candidate before deciding.
 
-![[13-raw/screenshots/r-ch17-anti-cheat-monitoring-live.png]]
+![[r-ch17-anti-cheat-monitoring-live.png]]
 
 ## 5. References
 
@@ -236,7 +237,7 @@ Five features cover the reference workflow end-to-end — tracking, the public f
 
 **Why it matters.** References drop off the end of the pipeline because no one owns the follow-up. Tracking makes them a visible step in the process, which is the only way they get completed in time to support the offer.
 
-**How to use it.** Open `/dashboard/recruiter/references`. Sort by status. Anything in **overdue** for 5+ days gets a personal nudge from you to the candidate ("could you remind your referee?") rather than another automated email.
+**How to use it.** Open `/dashboard/recruiter/reference-checks`. Sort by status. Anything in **overdue** for 5+ days gets a personal nudge from you to the candidate ("could you remind your referee?") rather than another automated email.
 
 ### Public Reference Form — _Tier: Standard_
 
@@ -254,7 +255,7 @@ Five features cover the reference workflow end-to-end — tracking, the public f
 
 **How to use it.** When sending a reference request, click **Generate questions from JD**. The AI returns 5–8 role-specific questions you can edit before sending.
 
-![[13-raw/screenshots/r-ch17-ai-reference-questions.png]]
+![[r-ch17-ai-reference-questions.png]]
 
 ### Reference Check Summary — _Tier: Standard_
 
@@ -264,7 +265,7 @@ Five features cover the reference workflow end-to-end — tracking, the public f
 
 **How to use it.** Appears automatically on the candidate's record once 2+ reference responses are in. Forward the summary (not the raw transcripts) to the hiring manager unless they specifically ask for the full text.
 
-![[13-raw/screenshots/r-ch17-reference-check-summary.png]]
+![[r-ch17-reference-check-summary.png]]
 
 ## 6. Bias reduction
 
@@ -278,7 +279,7 @@ One feature, but a structural one: blind hiring removes demographic data from th
 
 **How to use it.** Enable from `/dashboard/recruiter/blind-hiring` per role or per evaluator. What's still visible: skills, experience, scorecards, test results. **Commit fully** (blind through to interview) or use it as a discrete first-pass filter — turning it off mid-process just pushes the bias forward to a later stage.
 
-![[13-raw/screenshots/r-ch17-blind-hiring-before-after.png]]
+![[r-ch17-blind-hiring-before-after.png]]
 
 ## How to combine the tools — a defensible sequence
 

@@ -25,11 +25,11 @@ In short: a saved search is a query that finds jobs in the future. A favourite i
 
 Use both. They serve different purposes.
 
-![[13-raw/screenshots/i-ch10-saved-searches-favourites-nav.png]]
+![[i-ch10-saved-searches-favourites-nav.png]]
 
 ## Saved Searches
 
-### Saved Searches — _Tier: Standard_
+### Saved Searches — _Tier: see Pricing_
 
 **What this feature is.** Saved Searches stores any search query — keywords plus all its filters — and re-runs it on a schedule, sending you notifications whenever new jobs match. You can also re-run a saved search on demand from the Saved Searches page.
 
@@ -39,7 +39,7 @@ Use both. They serve different purposes.
 
 Go to **Saved Searches** (`/dashboard/individual/saved-searches`) to manage them. To create one, run a search you like in **Manual Search** (Chapter 9), then save the criteria.
 
-![[13-raw/screenshots/i-ch10-saved-search-create-dialog.png]]
+![[i-ch10-saved-search-create-dialog.png]]
 
 ### Why saved searches are valuable
 
@@ -80,7 +80,7 @@ Saved searches are not set-and-forget. They get better as you tune them.
 
 ## Favourites
 
-### Favourites — _Tier: Free_
+### Favourites — _Tier: see Pricing_
 
 **What this feature is.** Favourites lets you bookmark a job listing to a shortlist for later review. Bookmarks are retained across sessions, exportable, and accessible from any device — so the job you spotted on your phone at lunch is still there when you sit down at the laptop in the evening.
 
@@ -90,7 +90,7 @@ Saved searches are not set-and-forget. They get better as you tune them.
 
 Go to **Favourites** (`/dashboard/individual/favourites`) to see your bookmarked jobs. To add one, click the favourite icon (usually a star or heart) on any job listing.
 
-![[13-raw/screenshots/i-ch10-favourites-list.png]]
+![[i-ch10-favourites-list.png]]
 
 ### Why bookmark instead of applying immediately
 
@@ -121,7 +121,7 @@ This rhythm beats scrolling-as-job-hunt by a wide margin. It produces fewer appl
 
 Saved searches generate alerts. Those alerts have to reach you somewhere. Sebenza Hub's notification system has three tiers — what you can use depends on your plan.
 
-### Email Notifications — _Tier: Free_
+### Email Notifications — _Tier: see Pricing_
 
 **What this feature is.** Email is the baseline notification channel. New job matches, application status changes, recruiter messages, interview scheduling — all of it can be delivered by email on every plan. Frequency is configurable per category (real-time, daily digest, weekly digest, off).
 
@@ -129,7 +129,7 @@ Saved searches generate alerts. Those alerts have to reach you somewhere. Sebenz
 
 **How to use it.** Go to **Settings** → **Notifications**, find the Email block, and toggle which event types you want emailed. For saved-search alerts specifically, set the frequency on each saved search itself (real-time vs daily digest vs weekly digest).
 
-### SMS Notifications — _Tier: Standard_
+### SMS Notifications — _Tier: see Pricing_
 
 **What this feature is.** SMS delivers time-critical alerts straight to your phone — interview reminders, offer-deadline warnings, 2FA codes. It's reserved for things you genuinely cannot afford to miss, not for new-match noise.
 
@@ -137,7 +137,7 @@ Saved searches generate alerts. Those alerts have to reach you somewhere. Sebenz
 
 **How to use it.** Same Settings → Notifications page, SMS block. Restrict it deliberately — interview reminders and offer deadlines, nothing else. Turning SMS on for new matches will exhaust you within a week.
 
-### All Notification Channels — _Tier: Premium_
+### All Notification Channels — _Tier: see Pricing_
 
 **What this feature is.** Premium unlocks the full set: email, SMS, push notifications, and WhatsApp — with per-event channel rules so you can route, say, recruiter messages to WhatsApp and saved-search alerts to email digests.
 
@@ -159,7 +159,7 @@ Whatever channels you have, the same restraint applies — don't turn everything
 | Offer deadlines | Email + SMS |
 | Marketing / platform updates | Email only, low frequency |
 
-![[13-raw/screenshots/i-ch10-notifications-settings.png]]
+![[i-ch10-notifications-settings.png]]
 
 ## Common mistakes
 
@@ -182,13 +182,13 @@ Whatever channels you have, the same restraint applies — don't turn everything
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | Saved Searches | Standard |
-| 2 | Favourites | Free |
-| 3 | Email Notifications | Free |
-| 4 | SMS Notifications | Standard |
-| 5 | All Notification Channels | Premium |
+| # | Feature |
+|---|---------|
+| 1 | Saved Searches |
+| 2 | Favourites |
+| 3 | Email Notifications |
+| 4 | SMS Notifications |
+| 5 | All Notification Channels |
 
 ## Next chapter
 

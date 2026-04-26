@@ -34,7 +34,8 @@ You start with the Internal Job Board because it's the operational front door â€
 4. When you create a requisition, choose **Internal first**, **Internal + External**, or **External only**. Most roles should be Internal + External; a smaller number (executive search, niche specialist) will be External only.
 5. Internal applicants flow into a parallel pipeline tagged "Internal". They get reviewed under the same scorecard process as external candidates but with the additional context of their internal performance history (see Performance Management below).
 
-![[13-raw/screenshots/c-ch06-internal-job-board-list.png]]
+![[c-ch06-internal-job-board-list.png]]
+
 6. Run a quarterly review of internal-vs-external hire ratio. If less than 20% of hires are internal, the programme has a discoverability problem (employees don't know what's posted) or a credibility problem (employees who applied previously felt punished for it). Both are fixable; both require attention.
 
 **The credibility test.** The first internal applicant who feels they were treated worse than an external candidate will tell five colleagues, and the programme dies. Train hiring managers explicitly: internal candidates get a real interview, real feedback, and real follow-through. Without that, the board exists but the programme doesn't.
@@ -53,7 +54,7 @@ You start with the Internal Job Board because it's the operational front door â€
 2. For each critical role, map one to three potential successors from your existing employee base. For each successor, capture: their readiness band (Ready Now / Ready 1â€“2 Years / Ready 3+ Years), their development gaps, and the development actions in flight.
 3. Link succession candidates to their performance history (see Performance Management below) so the readiness assessment is anchored in real data, not vibes.
 
-![[13-raw/screenshots/c-ch06-succession-planning-chart.png]]
+![[c-ch06-succession-planning-chart.png]]
 
 4. Review the plan quarterly with the relevant business leaders. Things change: people leave, gaps close, new critical roles emerge, readiness bands shift.
 5. When a critical role opens, run the succession plan first. The successor either gets the role, gets a development plan toward it (with an interim leader), or â€” if you discover at this point that nobody is actually ready â€” you've learned that your succession plan was wishful thinking and you go external. Either way, you've learned something.
@@ -75,7 +76,7 @@ You start with the Internal Job Board because it's the operational front door â€
 3. For each review cycle, define the inputs: self-review, manager review, peer feedback (optional), upward feedback (optional). Light is better than heavy â€” every additional input increases the time tax and reduces the response rate.
 4. Run the cycle. Managers complete reviews against the framework; the system aggregates ratings; the result is a per-employee competency profile.
 
-![[13-raw/screenshots/c-ch06-performance-management-review.png]]
+![[c-ch06-performance-management-review.png]]
 
 5. Use the **Hiring-to-Performance Report** (under Analytics) to compare interview scorecard ratings against actual first-year performance. Patterns emerge: certain interviewers are systematically over-rating; certain scorecard dimensions are predictive while others aren't; certain sourcing channels produce stronger performers. Tune accordingly.
 6. Feed performance data into Succession Planning by linking the employee's performance profile to their succession candidate record. Readiness assessments become defensible.

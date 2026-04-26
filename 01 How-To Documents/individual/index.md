@@ -65,6 +65,7 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 21. [[01 How-To Documents/individual/21-career-dna|Career DNA and Opportunity Weights]]
 22. [[01 How-To Documents/individual/22-market-radar|Market Radar]]
 23. [[01 How-To Documents/individual/23-community-and-mentorship|Community and mentorship]]
+24. [[01 How-To Documents/individual/24-mobile-app|Using the mobile app]]
 
 ## References
 

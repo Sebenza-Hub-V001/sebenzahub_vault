@@ -61,7 +61,7 @@ These cover 80% of your daily messaging. The other 20% is genuinely personal and
    - `{{recruiter.firstName}}` (you)
 7. Save and tag the template (e.g. `screening`, `interview`, `rejection`) so it's findable.
 
-![[13-raw/screenshots/r-ch23-template-variable-editor.png]]
+![[r-ch23-template-variable-editor.png]]
 
 ### Template hygiene
 
@@ -80,7 +80,7 @@ These cover 80% of your daily messaging. The other 20% is genuinely personal and
 
 **How to use it.** Build a sequence in `/dashboard/recruiter/sequences` (full walkthrough below). Enroll candidates from the Pipeline, from a talent pool (Chapter 14), or via a workflow automation rule. Always set the exit rules so the sequence pauses the moment a candidate replies.
 
-![[13-raw/screenshots/r-ch23-email-sequences-builder.png]]
+![[r-ch23-email-sequences-builder.png]]
 
 A **sequence** is a multi-step series of messages sent automatically over time. Where a template is a single message, a sequence is a campaign — Day 0 first touch, Day 4 follow-up, Day 10 final touch, with exit rules that pause the sequence when the candidate responds.
 
@@ -115,7 +115,7 @@ The exit rule is crucial. A sequence that keeps sending after a candidate replie
    - **Exit on opt-out** (mandatory under POPIA)
 6. Save.
 
-![[13-raw/screenshots/r-ch23-sequence-conditional-branches.png]]
+![[r-ch23-sequence-conditional-branches.png]]
 
 ### Enrolling candidates in a sequence
 
@@ -133,7 +133,7 @@ Active sequences count against your plan limit (Chapter 4.5). Each plan caps how
 
 The dormant re-engagement sequence is one of the highest-ROI sequences you'll run, and it's powered by the **Candidate Re-Engagement** feature (Standard tier) covered in detail in Chapter 13. It generates the messaging strategy for past candidates who fit a new role; you wire that strategy into a sequence here.
 
-![[13-raw/screenshots/r-ch23-sequence-analytics.png]]
+![[r-ch23-sequence-analytics.png]]
 
 ## 3. The chatbot — `/dashboard/recruiter/chatbot`
 
@@ -171,6 +171,21 @@ This career-site chatbot is distinct from the **AI Screening Chatbot** (Standard
 ### Chatbot tone
 
 Your chatbot represents your agency 24/7. Make sure it sounds like you, not like a generic Zendesk bot. Specific phrasings, your agency's voice, your sense of humour. Bland chatbots are forgettable; distinctive chatbots are memorable.
+
+### Meet Linda — the agent layer behind the bots
+
+**Linda** is the platform's agent layer. Think of her as the "operating system" that the screening chatbot, the career-site chatbot, and WhatsApp generation can all run on top of. When Linda is engaged for a conversation, the bot moves from canned tree-walking to adaptive multi-turn handling — she can hold context across turns, reach for the right tool when a candidate asks something the static tree can't answer, and hand off to a human cleanly when she's outside her remit.
+
+Two things to know:
+
+- **Linda engages where it adds value, not everywhere.** Simple FAQ matches still resolve through the conversation tree. Linda steps in when a candidate's question requires looking at their record, comparing two roles, scheduling, or chaining several actions together. Both the screening chatbot and the career-site chatbot can leverage her for richer multi-turn handling.
+- **Every tool Linda invokes is logged.** Each tool call — the function name, the inputs, the outputs — lands in your Audit Trail (Chapter 28). When you review a chatbot conversation, you can see not just what was said but exactly what Linda did on the backend to produce the answer. That's how you defend an AI-assisted decision later.
+
+You don't configure Linda directly — she's wired into the chatbots and message generators by the platform team. What you configure is the bot's tone, FAQ corpus, and escalation triggers. Linda then operates within those constraints.
+
+### Slack routing for WhatsApp events
+
+If your team lives in Slack, WhatsApp conversation events can be routed there with full message context — not just a "you have a new message" ping but the actual candidate, role, and message body, so a teammate can pick up the thread without first opening Sebenza Hub. Configure the Slack integration once in your account settings and pick the events you care about (new candidate WhatsApp, opt-out, escalation).
 
 ## 4. Workflow automation — `/dashboard/recruiter/workflow-automation`
 

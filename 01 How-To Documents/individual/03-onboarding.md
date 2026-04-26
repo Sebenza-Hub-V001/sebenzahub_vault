@@ -25,10 +25,14 @@ The first screen asks you to pick your role:
 
 Pick **Individual**.
 
-> ⚠️ **Your role is locked after this screen.** You cannot switch from Individual to Recruiter (or any other role) on the same account later. If you need both — for example, you're a job seeker who later starts a small recruitment agency — you'll need a separate account with a different email. Make sure Individual is what you want before moving on.
-> ![[13-raw/screenshots/ch03-role-selection.png]]
+![[ch03-role-selection.png]]
 
-![[13-raw/screenshots/ch03-onboarding-quick-start.png]]
+> ⚠️ **Your role is locked after this screen.** You cannot switch from Individual to Recruiter (or any other role) on the same account later. If you need both — for example, you're a job seeker who later starts a small recruitment agency — you'll need a separate account with a different email. Make sure Individual is what you want before moving on.
+
+The same onboarding flow runs in the Sebenza Hub mobile app. If you started on the web, you can finish onboarding from your phone (or vice versa) — your progress moves with the account.
+
+![[ch03-onboarding-quick-start.png]]
+
 ## Step 2 — Fill in the onboarding form
 
 The Individual onboarding form asks for six things. Here they are, with the reason each one matters.
@@ -47,7 +51,7 @@ Your phone is used for WhatsApp and SMS notifications if you opt in to them late
 
 ### 4. Your job title and experience level
 
-You can pick from a list of more than 300 standard job titles, or type a custom one if your role isn't on the list. Pick the title that best matches what you're looking for *next*, not necessarily what you currently do — Sebenza Hub uses this to drive job recommendations.
+Pick from the standard job-title list or type a custom one if your role isn't on it. Pick the title that best matches what you're looking for *next*, not necessarily what you currently do — Sebenza Hub uses this to drive job recommendations.
 
 Then pick your experience level:
 

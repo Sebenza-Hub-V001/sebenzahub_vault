@@ -58,7 +58,7 @@ Recruitment Marketing is the campaign tool for reaching candidates and prospecti
 7. Set tracking goals (clicks, applications, replies, calls booked)
 8. Launch
 
-![[13-raw/screenshots/r-ch30-campaign-builder.png]]
+![[r-ch30-campaign-builder.png]]
 
 ### Measuring marketing
 
@@ -82,7 +82,7 @@ The number that matters most: **placements attributable to the campaign**. A cam
 
 **How to use it.** Open `/dashboard/recruiter/referrals`, click **Configure programme**, and set the incentive tiers, the legal terms, the referrer journey, and the payout flow as described below.
 
-![[13-raw/screenshots/r-ch30-referral-program-dashboard.png]]
+![[r-ch30-referral-program-dashboard.png]]
 
 ### Referral Tracking — _Tier: Standard_
 
@@ -92,7 +92,7 @@ The number that matters most: **placements attributable to the campaign**. A cam
 
 **How to use it.** Tracking runs automatically once the programme is live. Spot-check it monthly: open `/dashboard/recruiter/referrals` → **Tracking**, sort by status, and confirm any referral that's been at "interviewed" for 14+ days has either advanced or been closed with a reason.
 
-![[13-raw/screenshots/r-ch30-referral-tracking-attribution.png]]
+![[r-ch30-referral-tracking-attribution.png]]
 
 A structured referral programme is the highest-leverage growth tool you have. The math: every successful placement is a candidate who now knows you, trusts you, and probably has 5–20 colleagues with similar skills you'd love to recruit. If even 1 in 10 placed candidates refers a single colleague who eventually places, your candidate acquisition cost drops dramatically.
 
@@ -160,7 +160,7 @@ The classic NPS interpretation:
 - **7–8: Passives** — neutral. They tolerate you but won't promote you. Ask what would have made them a 9 — usually a small, fixable thing.
 - **0–6: Detractors** — at risk of damaging your brand. Reply within 24 hours with a personal message and address whatever went wrong.
 
-![[13-raw/screenshots/r-ch30-nps-results-chart.png]]
+![[r-ch30-nps-results-chart.png]]
 
 ### The detractor playbook
 
@@ -188,7 +188,7 @@ Candidate NPS is one of the four sub-scores in your Reputation Score (Chapter 6)
 
 **How to use it.** From a rejected candidate's record, click **Generate Coaching Report**. Review the AI draft for tone and accuracy — never send it raw, but the AI does 90% of the work. Send via the platform so the timestamp and version are logged. Track the candidate's NPS response after delivery; coaching-report recipients consistently score higher.
 
-![[13-raw/screenshots/r-ch30-coaching-report-document.png]]
+![[r-ch30-coaching-report-document.png]]
 
 ## 5. Reference Checks — `/dashboard/recruiter/reference-checks`
 

@@ -16,10 +16,10 @@ This chapter covers what each role can do, how to invite people, how to set up a
 
 ## Where it lives
 
-Team setup is split across two pages:
+Team setup lives at:
 
-- `/dashboard/recruiter/settings` → **Team Members** tab — invite, list, deactivate
-- `/dashboard/recruiter/roles` — define custom roles and configure permissions
+- `/dashboard/recruiter/team` — invite, list, and deactivate team members
+- `/dashboard/recruiter/approval-workflows` — configure approval chains for offers and other regulated actions
 
 ## The six built-in roles
 
@@ -34,7 +34,7 @@ Every membership in your agency has one of these six roles. They're listed from 
 | **Viewer** | Read-only access to everything within their scope. Use for stakeholders who need visibility but shouldn't change anything (executives, auditors, advisors). |
 | **Member** | The default for newly invited users. Limited to viewing their own assigned candidates and jobs. Effectively a constrained Recruiter — useful when you're hiring junior staff or contractors. |
 
-These roles are checked across **40+ granular permissions** organised by category: Jobs, Candidates, Pipeline, Interviews, Offers, Clients, Billing, Analytics, Team, Communications, Data, Audit. You don't usually need to think about individual permissions — the role bundles them sensibly. But if you do need a custom permission set, that's what custom role definitions are for.
+Each role bundles a sensible set of permissions across the platform — Jobs, Candidates, Pipeline, Interviews, Offers, Clients, Billing, Analytics, Team, Communications, Data, Audit. When you invite someone, you pick the role at invitation time. The role you assign sets what they can do; you don't need to tick individual permissions.
 
 ## Inviting a team member
 
@@ -46,35 +46,17 @@ These roles are checked across **40+ granular permissions** organised by categor
 
 **How to use it.**
 
-1. Go to `/dashboard/recruiter/settings` → **Team Members**.
+1. Go to `/dashboard/recruiter/team`.
 2. Click **Invite member**.
 3. Enter their full name and email address.
 4. Pick a role from the dropdown.
-5. (Optional) Assign a custom permission set instead of the default role permissions.
-6. Click **Send invitation**.
+5. Click **Send invitation**.
 
 The invitee receives an email with a magic link. They click it, set up their account (or log in if they already have one on a different agency), and they're added to your team. Their first session lands on the recruiter dashboard with the permissions of the role you assigned.
 
-![[13-raw/screenshots/r-ch07-team-invite-form.png]]
+![[r-ch07-team-invite-form.png]]
 
 > **Important:** A user can belong to multiple agency organisations. If you invite someone who already has a Sebenza Hub Recruiter account at another agency, they can accept and switch between agencies via a context picker in the top nav. They don't need a new email address.
-
-## Custom role definitions
-
-The six built-in roles cover most needs, but if your agency has an unusual structure (e.g. a "Sourcing Specialist" who can source and screen but never directly contact candidates), you can build a custom role:
-
-1. Go to `/dashboard/recruiter/roles`.
-2. Click **New role definition**.
-3. Name the role (e.g. "Sourcing Specialist").
-4. Pick which built-in role it inherits from (start point for permissions).
-5. Tick or untick individual permissions to customise.
-6. Save.
-
-The custom role is now available in the team invitation dropdown. Existing members can also be reassigned to it from the team list.
-
-![[13-raw/screenshots/r-ch07-role-permissions.png]]
-
-Custom roles are scoped to your organisation only — they don't affect other agencies on the platform. If you delete a custom role, members assigned to it fall back to the built-in role it inherited from.
 
 ## Approval chains (for offers and other regulated actions)
 
@@ -110,21 +92,11 @@ Roles and permissions decide who *can* do what. The next feature is what your te
 3. Use **Share with team** to give specific members visibility on a private candidate.
 4. The dashboard's **Team activity** feed surfaces what's happened across the agency in the last 24 hours.
 
-![[13-raw/screenshots/r-ch07-collaboration-mention-feed.png]]
+![[r-ch07-collaboration-mention-feed.png]]
 
-## Coaching, benchmarks, and recruiter performance
+## Benchmarks and recruiter performance
 
-Once you have more than one recruiter, you need a way to manage performance that isn't just "going off vibes." The next three features turn team management into a data conversation.
-
-### Recruiter Coach Insights — _Tier: Premium_
-
-**What this feature is.** Recruiter Coach Insights is an AI coaching layer for individual recruiter performance. It looks at each recruiter's pipeline activity, response times, conversion rates, and outcomes, then surfaces what's working, what's slipping, and what to focus on next week.
-
-**Why it matters.** Managers can't coach 15 recruiters equally well — there isn't enough manager time, and the weakest recruiters end up under-coached precisely because they're the hardest conversations. Coach Insights augments the manager and raises the performance floor across the team.
-
-**How to use it.** As a Manager or Admin, open `/dashboard/recruiter/coach-insights`. Pick a team member to see their personalised insight cards (e.g. "candidate response rate dropped 18% over 30 days — investigate template fatigue"). Use the cards as the agenda for your weekly 1:1s.
-
-![[13-raw/screenshots/r-ch07-coach-insights-dashboard.png]]
+Once you have more than one recruiter, you need a way to manage performance that isn't just "going off vibes." The next two features turn team management into a data conversation.
 
 ### Recruiter Benchmark — _Tier: Premium_
 
@@ -134,7 +106,7 @@ Once you have more than one recruiter, you need a way to manage performance that
 
 **How to use it.** From the team management page, open **Benchmarks**. Each recruiter has their own benchmark card showing their numbers against agency average and platform average. Share the card with the recruiter directly — transparency is the point.
 
-![[13-raw/screenshots/r-ch07-recruiter-benchmark-chart.png]]
+![[r-ch07-recruiter-benchmark-chart.png]]
 
 ### Recruiter DNA — _Tier: Premium_
 
@@ -181,7 +153,7 @@ You're the Owner. No team members. No approval chain. Don't waste time setting u
 
 Even if you're a solo recruiter today, do these two things now — you'll thank yourself later:
 
-1. **Confirm you're the Owner** in `/dashboard/recruiter/settings` → Team Members. The role should say "Owner". If for some reason it doesn't (rare bug, or you accepted an existing invite by mistake), fix it immediately.
+1. **Confirm you're the Owner** in `/dashboard/recruiter/team`. The role should say "Owner". If for some reason it doesn't (rare bug, or you accepted an existing invite by mistake), fix it immediately.
 2. **Decide who your "in case of bus" person is** — the person you'd want to inherit access if something happened to you. Even if you don't add them as an Admin yet, write down who that person is and how they'd take over. Sebenza Hub has account recovery procedures for incapacitated owners, but they're slow; planning ahead saves a week of friction.
 
 ## Note on team size and your plan
@@ -196,7 +168,7 @@ Your subscription plan caps how many team members you can invite. If you hit the
 - [ ] You know where to set up approval chains when you grow into needing them
 - [ ] You've identified your "in case of bus" person, even if not yet invited
 - [ ] You know which seat-metering tier you're on and how many seats you have left
-- [ ] (Premium) You've reviewed Coach Insights, Benchmarks, and Recruiter DNA at least once
+- [ ] (Premium) You've reviewed Benchmarks and Recruiter DNA at least once
 
 ## Features covered in this chapter
 
@@ -204,9 +176,8 @@ Your subscription plan caps how many team members you can invite. If you hit the
 |---|---------|------|
 | 1 | Team Members | Metered — Standard: 5 · Premium: unlimited |
 | 2 | Team Collaboration | Standard |
-| 3 | Recruiter Coach Insights | Premium |
-| 4 | Recruiter Benchmark | Premium |
-| 5 | Recruiter DNA | Premium |
+| 3 | Recruiter Benchmark | Premium |
+| 4 | Recruiter DNA | Premium |
 
 ## Next chapter
 

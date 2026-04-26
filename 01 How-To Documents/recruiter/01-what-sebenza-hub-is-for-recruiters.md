@@ -23,7 +23,7 @@ Specifically, as a Recruiter you get:
 - **A real client CRM.** Corporate clients, engagement terms, fee structures, contracts, call notes, satisfaction tracking — the commercial side of running an agency, not an afterthought.
 - **AI built into every step.** AI JD writing, candidate-CV scoring, screening chatbots, video interview analysis, offer acceptance prediction, candidate one-page summaries.
 - **Compliance you can actually pass an audit with.** POPIA, B-BBEE, Employment Equity, and an immutable audit trail — built for South African regulatory reality, not retrofitted from US software.
-- **Communication at scale.** Unified inbox across email, SMS, and WhatsApp; sequences and templates; WhatsApp Business API integration with 16 dedicated tabs for managing WA conversations and campaigns.
+- **Communication at scale.** Unified inbox across email, SMS, and WhatsApp; sequences and templates; WhatsApp Business API integration with WhatsApp Apply, a Command Center, and Campaigns in your sidebar, plus admin-level deeper controls for templates, broadcasts, opt-outs, and quality.
 - **Brand and growth.** Public agency brand page, custom career site, job board integrations (Pnet, CareerJunction, Adzuna), recruitment marketing campaigns, structured referral programmes.
 
 ## Who this guide is for

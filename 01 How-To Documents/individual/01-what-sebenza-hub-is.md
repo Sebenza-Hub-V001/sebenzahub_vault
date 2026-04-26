@@ -19,7 +19,7 @@ Most job boards do one thing: they show you listings. Sebenza Hub does that too,
 Specifically, as an Individual you get:
 
 - **A complete profile** that recruiters and employers can find you through. Your CV is just one part of it; you also have skills, credentials, a video introduction, and a portfolio.
-- **Three ways to find jobs**: browse the full market, let AI match you automatically, or run precise searches with your own filters. Listings come from jobs posted directly on Sebenza Hub *and* from external aggregators (Adzuna, CareerJet), so you see more of the market in one place.
+- **Three ways to find jobs**: browse the full market, let AI match you automatically, or run precise searches with your own filters. Listings come from jobs posted directly on Sebenza Hub *and* from external aggregators (PNet, Adzuna, CareerJet), so you see more of the market in one place.
 - **An application tracker** so you always know where each application stands — who's read it, who's interviewing you, and who's gone quiet.
 - **AI tools** that activate when you need them: CV review, mock interviews, salary negotiation, career coaching.
 - **Learning paths and skill verification** for when the job you want needs skills you don't have yet.

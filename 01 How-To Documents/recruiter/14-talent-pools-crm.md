@@ -69,7 +69,7 @@ Pools are dynamic by default — they re-evaluate based on the criteria, so a ne
 5. Save. The pool now lists every matching candidate in your database.
 6. (Optional) Pin the pool to your dashboard for quick access.
 
-![[13-raw/screenshots/r-ch14-talent-pools-list.png]]
+![[r-ch14-talent-pools-list.png]]
 
 ### Pools as metered features
 
@@ -105,7 +105,7 @@ Manual tagging and manual pool curation become impossible past about 1,000 candi
 
 **How to use it.** Runs automatically on every new candidate. Review the auto-applied tags on a candidate's profile if you want to verify or adjust; otherwise it just works.
 
-![[13-raw/screenshots/r-ch14-auto-tag-candidate.png]]
+![[r-ch14-auto-tag-candidate.png]]
 
 ### AI Talent Pool Clustering — _Tier: Premium_
 
@@ -115,7 +115,7 @@ Manual tagging and manual pool curation become impossible past about 1,000 candi
 
 **How to use it.** Open `/dashboard/recruiter/talent-pool` and click **Discover clusters**. Review the suggested pools; accept the ones that look useful, dismiss the rest. Accepted clusters become regular pools you can name and pin.
 
-![[13-raw/screenshots/r-ch14-talent-pool-clustering.png]]
+![[r-ch14-talent-pool-clustering.png]]
 
 ### Talent Pool Analysis — _Tier: Premium_
 
@@ -125,7 +125,7 @@ Manual tagging and manual pool curation become impossible past about 1,000 candi
 
 **How to use it.** Open any pool → **Analyse**. The report shows distribution charts and a written summary. Export to PDF for client decks.
 
-![[13-raw/screenshots/r-ch14-talent-pool-analysis.png]]
+![[r-ch14-talent-pool-analysis.png]]
 
 ## Talent CRM
 
@@ -185,7 +185,7 @@ Pools and CRM tell you *who's there*. The next step is usually picking between t
 
 **How to use it.** From any pool or candidate list, multi-select 2–5 candidates and click **Compare**. The comparison renders side-by-side; export to PDF for client meetings.
 
-![[13-raw/screenshots/r-ch14-side-by-side-comparison.png]]
+![[r-ch14-side-by-side-comparison.png]]
 
 ## Migrating data in and out
 
@@ -205,7 +205,7 @@ The platform has to handle both arrival (you've just signed up with 5,000 candid
 4. Run the dedupe check. Decide whether duplicates merge or skip.
 5. Confirm and import. Auto-Tag runs on the imported records.
 
-![[13-raw/screenshots/r-ch14-csv-bulk-import.png]]
+![[r-ch14-csv-bulk-import.png]]
 
 ### Bulk Export — _Tier: Standard_
 

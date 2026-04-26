@@ -14,7 +14,7 @@ This is the chapter where you actually apply. By now your profile is solid, your
 
 This walkthrough takes you through one application end-to-end and explains what each choice does. You'll do it slowly the first time and quickly after that.
 
-![[13-raw/screenshots/i-ch11-apply-flow-nav.png]]
+![[i-ch11-apply-flow-nav.png]]
 
 ## Before you click Apply
 
@@ -30,7 +30,7 @@ If you can't answer yes to all three, close the tab. Your time is better spent o
 
 Before you apply, run the JD through the decoder. This is the single highest-leverage prep step you can take.
 
-### JD Decoder — _Tier: Standard_
+### JD Decoder — _Tier: see Pricing_
 
 **What this feature is.** JD Decoder reads a job description and extracts the hidden signals — what the company actually values, which requirements are hard vs soft, the red flags, and how to pitch your response. It surfaces patterns most candidates miss because they read JDs at face value.
 
@@ -38,11 +38,11 @@ Before you apply, run the JD through the decoder. This is the single highest-lev
 
 **How to use it.**
 
-1. Open the job listing. Click **Decode JD** (also available at `/dashboard/individual/jd-decoder` if you want to paste a JD from elsewhere).
+1. Open the job listing. Click **Decode JD**, or open **Coaching** (`/dashboard/individual/coaching`) and switch to the **JD Decoder** tab if you want to paste a JD from elsewhere.
 2. Read the breakdown — typically: must-haves vs nice-to-haves, the hidden values signal, any red flags, and a suggested pitch angle.
 3. Use the output to inform every later step: which CV to pick, which bullets to emphasise, what the cover letter should lead with.
 
-![[13-raw/screenshots/i-ch11-jd-decoder-output.png]]
+![[i-ch11-jd-decoder-output.png]]
 
 Don't treat Decoder as a deciding vote on whether to apply — that's still your call. Treat it as a brief that makes the rest of the application sharper.
 
@@ -96,11 +96,11 @@ Cover letters split into three categories:
 
 A bad cover letter hurts more than no cover letter. If you don't have anything specific to say, leaving it blank is better than writing generic filler.
 
-### AI Cover Letter Generator — _Tier: Metered — Standard: 5/mo · Premium: unlimited_
+### AI Cover Letter Generator — _Tier: see Pricing_
 
 **What this feature is.** The AI Cover Letter Generator drafts a tailored cover letter for a specific job posting using your profile and the JD. You can pick the tone — formal, conversational, or enthusiastic — and the output uses real details from your profile rather than generic filler.
 
-**Why it matters.** Most candidates skip cover letters because they're tedious, then lose to the candidates who sent one. Standard's 5/month matches how often a serious candidate applies to roles requiring a real cover letter; Premium goes unlimited for high-volume applicants. The point is removing the activation energy, not replacing your judgement.
+**Why it matters.** Most candidates skip cover letters because they're tedious, then lose to the candidates who sent one. The metering matches how often a serious candidate applies to roles requiring a real cover letter, with the higher tier sized for high-volume applicants. See Pricing for the current per-month allowance. The point is removing the activation energy, not replacing your judgement.
 
 **How to use it.**
 
@@ -110,7 +110,7 @@ A bad cover letter hurts more than no cover letter. If you don't have anything s
 4. **Treat the output as a first draft, not a final version.** Read it and rewrite anything that sounds generic. The AI doesn't know your real motivation — the "why this company" line will always be the weakest part. Overwrite it with something true.
 5. A two-paragraph cover letter that mentions one specific thing about the role beats a three-paragraph AI letter that could apply to any company. Trim hard.
 
-![[13-raw/screenshots/i-ch11-cover-letter-draft.png]]
+![[i-ch11-cover-letter-draft.png]]
 
 ## Step 3 — Answer screening questions
 
@@ -134,7 +134,7 @@ If the form doesn't ask for one, don't volunteer it.
 
 ## Step 5 — Submit
 
-### Apply to Jobs — _Tier: Free_
+### Apply to Jobs — _Tier: see Pricing_
 
 **What this feature is.** Apply to Jobs is the core action — submitting an application to any job posting using your stored CV and profile. The application status is recorded and visible to both you and the recruiter, end-to-end.
 
@@ -150,7 +150,7 @@ If the form doesn't ask for one, don't volunteer it.
 
 You'll see a confirmation, and the application appears in My Applications immediately.
 
-### Quick Apply — _Tier: Standard_
+### Quick Apply — _Tier: see Pricing_
 
 **What this feature is.** Quick Apply is a one-click application that uses your saved profile and default CV, skipping the per-job form for any employer that accepts it. It cuts the time from "I want this" to "submitted" from minutes to seconds.
 
@@ -158,19 +158,19 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **How to use it.** On any listing flagged as Quick Apply enabled, look for the **Quick Apply** button next to the standard Apply button. Confirm the CV pick, click once, done. If the role asks for screening questions or a cover letter, it falls back to the standard application form — Quick Apply only fires when the employer's form is minimal enough to skip.
 
-![[13-raw/screenshots/i-ch11-quick-apply-confirmation.png]]
+![[i-ch11-quick-apply-confirmation.png]]
 
-### Application Portal — _Tier: Standard_
+### Application Portal — _Tier: see Pricing_
 
 **What this feature is.** The Application Portal is a visual kanban-style pipeline view of every application, with draggable stages, per-application notes, contact info, and next-action reminders. It turns a flat list into a project-management view of your job hunt.
 
 **Why it matters.** When you're juggling 40+ applications across 6 stages, the flat list becomes unmanageable — you forget who you replied to, you miss follow-up windows, you double-apply. The Portal turns job hunting into a project you can actually run. This is a natural upgrade trigger for career-transition users who hit the wall around application 25.
 
-**How to use it.** Open **Application Portal** (`/dashboard/individual/application-portal`). Drag applications between columns as their state changes, click into any card to add notes or set a follow-up reminder, and use the column counts as a quick health check. Chapter 12 covers the day-to-day rhythm in more detail — for now, just know it's where your applications go to be managed once the Submit button has been clicked.
+**How to use it.** Open **Application Portal** (`/dashboard/individual/portal`). Drag applications between columns as their state changes, click into any card to add notes or set a follow-up reminder, and use the column counts as a quick health check. Chapter 12 covers the day-to-day rhythm in more detail — for now, just know it's where your applications go to be managed once the Submit button has been clicked.
 
-![[13-raw/screenshots/i-ch11-application-portal-kanban.png]]
+![[i-ch11-application-portal-kanban.png]]
 
-### AI Application Feedback — _Tier: Standard_
+### AI Application Feedback — _Tier: see Pricing_
 
 **What this feature is.** After each application, AI Application Feedback scores how well your CV and profile matched the job, then gives concrete suggestions to improve future applications for that type of role. Each feedback entry is tied to a specific application so you can see the pattern across your hunt.
 
@@ -178,9 +178,9 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **How to use it.** Runs automatically when you submit — here's what you'll see. Open the application from My Applications. Under the **Feedback** tab you'll find: the recalculated match score, what worked, what didn't, and 2–3 specific suggestions ("emphasise the SQL experience earlier", "your summary doesn't match this role's seniority"). Read the feedback for the first 5–10 applications carefully — patterns will emerge fast, and once you see them, you stop making the same mistake.
 
-![[13-raw/screenshots/i-ch11-ai-feedback-card.png]]
+![[i-ch11-ai-feedback-card.png]]
 
-### Priority Applications — _Tier: Premium_
+### Priority Applications — _Tier: see Pricing_
 
 **What this feature is.** Priority Applications puts your application at the top of the recruiter's review queue for that posting, visually flagged as priority. The recruiter sees you first, before they get into the long tail of standard applicants.
 
@@ -188,7 +188,7 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **How to use it.** Premium users see a **Mark as priority** toggle on the application form. Toggle it on for high-priority roles only — burning the priority flag on every application defeats the purpose. There's no hard cap on usage, but the signal degrades if you use it on everything.
 
-![[13-raw/screenshots/i-ch11-priority-badge.png]]
+![[i-ch11-priority-badge.png]]
 
 ## What happens next (timeline expectations)
 
@@ -225,20 +225,20 @@ You can withdraw an application at any time before the offer stage. Go to **My A
 - [ ] Reviewed the AI Application Feedback on a submitted application
 - [ ] You picked the right CV for the role rather than defaulting
 - [ ] You decided consciously whether to write a cover letter (rather than just skipping by default)
-- [ ] You used Quick Apply at least once on a high-fit role (Standard+)
+- [ ] You used Quick Apply at least once on a high-fit role (paid tiers)
 - [ ] You know how to withdraw an application if you change your mind
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | JD Decoder | Standard |
-| 2 | AI Cover Letter Generator | Metered — Standard: 5/mo · Premium: unlimited |
-| 3 | Apply to Jobs | Free |
-| 4 | Quick Apply | Standard |
-| 5 | Application Portal | Standard |
-| 6 | AI Application Feedback | Standard |
-| 7 | Priority Applications | Premium |
+| # | Feature |
+|---|---------|
+| 1 | JD Decoder |
+| 2 | AI Cover Letter Generator |
+| 3 | Apply to Jobs |
+| 4 | Quick Apply |
+| 5 | Application Portal |
+| 6 | AI Application Feedback |
+| 7 | Priority Applications |
 
 ## Next chapter
 

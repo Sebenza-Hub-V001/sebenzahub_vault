@@ -25,7 +25,7 @@ The agencies that fail aren't the ones that can't source candidates — it's the
 
 There's also Documents (covered in Chapter 8) and Revenue (covered briefly here). Together these are your CRM.
 
-![[13-raw/screenshots/r-ch10-client-crm-view.png]]
+![[r-ch10-client-crm-view.png]]
 
 ## Client Pipeline — opportunities, not jobs
 
@@ -71,7 +71,7 @@ The hardest part of using Call Notes well is that nobody wants to type up a long
 
 That note is 30 seconds of typing. It captures the commitment, the context, the implicit warning ("too slow"), and the date. In three months when you're trying to remember why you took on those roles, this note is gold.
 
-![[13-raw/screenshots/r-ch10-activity-timeline.png]]
+![[r-ch10-activity-timeline.png]]
 
 ## Client Meetings — schedule the rhythm
 

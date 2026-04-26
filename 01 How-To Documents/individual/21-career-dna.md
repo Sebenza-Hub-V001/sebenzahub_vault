@@ -12,24 +12,32 @@ user-types: [individual]
 
 By the time you reach this chapter, the platform already knows what you can do (skills), where you are (location), what level you work at (experience), and what kind of role you want (target title). What it still doesn't know is *how you actually want to work* and *what you'll trade off when two jobs are otherwise similar*. Career DNA and Opportunity Weights are how you tell it.
 
-These two settings don't show up in the basic onboarding flow. They live in **Settings** (`/dashboard/individual/settings`) and they change how Auto Match (Chapter 9) ranks jobs for you. Configured well, they make the difference between matches that are *technically* fits and matches that are *actually* what you want.
+These two settings don't show up in the basic onboarding flow. Open **Settings** (`/dashboard/individual/settings`) and switch to the **Career DNA** tab. The settings on this tab change how Auto Match (Chapter 9) ranks jobs for you. Configured well, they make the difference between matches that are *technically* fits and matches that are *actually* what you want.
 
-![[13-raw/screenshots/i-ch21-career-dna-settings.png]]
+![[i-ch21-career-dna-settings.png]]
 
 ## Career DNA — what kind of professional you are
 
-Career DNA is a set of personal-style attributes the platform uses to colour your profile beyond skills and titles. It captures things like:
+Career DNA is a set of personal-style attributes the platform uses to colour your profile beyond skills and titles. The Career DNA tab in Settings captures the following:
 
 | Attribute | What it covers |
 |-----------|----------------|
-| **Work values** | What you're most motivated by — impact, compensation, growth, stability, autonomy, recognition |
-| **Communication style** | Direct, diplomatic, written-first, verbal-first |
-| **Work pace** | Fast-paced, steady, varied, deadline-driven |
+| **Work values** (eight 0–10 sliders) | Impact, compensation, growth, stability, autonomy, creativity, work-life balance, recognition |
+| **Communication style** | Direct, diplomatic, mixed |
+| **Work pace** | Fast, steady, flexible |
+| **Decision style** | Independent, collaborative, consultative |
 | **Team preference** | Solo, small team, large team, cross-functional |
-| **Leadership style** | Hands-on, delegating, coaching, strategic, none-of-the-above |
-| **Risk tolerance** | Low (stable, predictable) to high (startup, ambiguous) |
+| **Feedback style** | Direct, gentle, balanced |
+| **Learning style** | Hands-on, structured, exploratory |
+| **Risk tolerance** | Low (stable, predictable), moderate, high (startup, ambiguous) |
+| **Leadership style** | Individual contributor, team lead, manager, executive |
+| **Conflict approach** | Avoidant, collaborative, direct |
+| **Energy pattern** | Consistent, peaks-and-troughs, deadline-driven |
+| **Stress response** | Adaptable, methodical, action-first |
 
-The exact attribute set may evolve, but the principle stays the same: Career DNA describes the *kind* of work environment that suits you, not just the role you're qualified for.
+You don't have to fill every field — defaults are sensible. But each one you set thoughtfully is one more dimension on which the matching can sharpen.
+
+Career DNA describes the *kind* of work environment that suits you, not just the role you're qualified for.
 
 ### Why this matters for matching
 
@@ -61,18 +69,20 @@ The patterns from the loved job should map directly into your Career DNA setting
 
 Opportunity Weights are a separate set of sliders that tell the AI how to score trade-offs *between* attributes when comparing jobs. Career DNA describes who you are; Opportunity Weights describe how you'd choose between two jobs that score differently on different dimensions.
 
-Typical dimensions:
+The Career DNA tab also exposes Opportunity Weights as a set of percentage sliders. The eight dimensions are:
 
 | Dimension | Higher weight means |
 |-----------|---------------------|
 | **Salary** | The platform prioritises higher-paying roles, even if other dimensions are weaker |
+| **Role match** | The platform prioritises roles that closely match your stated target title and seniority |
 | **Culture fit** | The platform prioritises roles that match your Career DNA, even if salary is lower |
-| **Growth / learning** | The platform prioritises roles where you'd learn new things or move up |
-| **Stability** | The platform prioritises established companies, predictable roles |
-| **Location / commute** | The platform prioritises proximity or remote work |
-| **Mission / purpose** | The platform prioritises roles whose stated mission aligns with your values |
+| **Growth potential** | The platform prioritises roles where you'd learn new things or move up |
+| **Location** | The platform prioritises proximity or remote work |
+| **Work-life balance** | The platform prioritises roles with sustainable hours, flexible patterns, or remote options |
+| **Benefits** | The platform prioritises roles with strong medical, retirement, leave, or training packages |
+| **Company reputation** | The platform prioritises established or highly regarded employers |
 
-You set a weight (typically 0–10 or 0–100%) for each. The total is normalised — the weights are *relative*, not absolute. A weight of 8 on salary and 8 on culture means you value them equally; an 8 on salary and 2 on culture means salary matters four times as much.
+Each slider is a percentage; the total is normalised across the eight, so the weights are *relative*, not absolute. A weight of 20% on salary and 20% on growth potential means you value them equally; 20% on salary and 5% on growth means salary matters four times as much.
 
 ### How to set them honestly
 
@@ -135,18 +145,18 @@ Sometimes people set Career DNA and Opportunity Weights well, get great matches,
 
 Career DNA tunes how the platform sees you. The next step is tuning how *people* see you. Once your DNA is honest, your "tell me about yourself" opener should reflect it.
 
-### Elevator Pitch Builder — _Tier: Standard_
+### Elevator Pitch — _Tier: see Pricing_
 
-**What this feature is.** Generates a 30-second, 60-second, and 2-minute pitch from your experience, profile, and Career DNA. Tuned for networking events, LinkedIn intros, recruiter screens, and the opening of every interview.
+**What this feature is.** The Elevator Pitch tab inside Coaching generates a 30-second, 60-second, and 2-minute pitch from your experience, profile, and Career DNA. Tuned for networking events, LinkedIn intros, recruiter screens, and the opening of every interview.
 
 **Why it matters.** The first 60 seconds of every interview and every networking introduction sets the frame. A rehearsed pitch that's actually about who you are — not a recital of your CV — converts cold networking into referrals and lukewarm interviews into conversations. It's one of the lowest-cost, highest-impact tools in the whole manual.
 
 **How to use it.**
 
-1. Open **Elevator Pitch** (`/dashboard/individual/elevator-pitch`).
+1. Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Elevator Pitch** tab.
 2. Pick the variant you need next: 30-sec for networking, 60-sec for screens, 2-min for formal interviews.
 
-![[13-raw/screenshots/i-ch21-elevator-pitch-variants.png]]
+![[i-ch21-elevator-pitch-variants.png]]
 
 3. Edit the draft until it actually sounds like you say it out loud — read it aloud twice.
 4. Save the version you'll use; revisit after every Career DNA tune-up.
@@ -155,17 +165,17 @@ Career DNA tunes how the platform sees you. The next step is tuning how *people*
 
 The dashboard, billing, and support features sit alongside the advanced tooling in Part 6. They're not headline features but they're load-bearing for actually running your time on the platform.
 
-### Basic Dashboard — _Tier: Free_
+### Profile (your default landing page) — _Tier: see Pricing_
 
-**What this feature is.** The main dashboard tile showing applications submitted, profile strength percentage, recent activity, and your next-best-actions.
+**What this feature is.** Profile (`/dashboard/individual/profile`) is the page you land on after every login. It shows your personal info, contact details, role preferences, documents, and privacy settings, plus shortcut tiles into the parts of the platform you'll touch most often.
 
-**Why it matters.** Without a dashboard, returning users don't know what to do next and engagement collapses. This is the first screen after login — keep it tidy and use it as your daily entry point rather than starting from a feature page.
+**Why it matters.** Without a clear landing page, returning users don't know what to do next. Profile is the orientation surface — keep your details current here and use it as the starting point for every session rather than diving straight into a feature page.
 
-**How to use it.** Open `/dashboard/individual` after every login. Read the next-best-actions tile before doing anything else; it's calibrated to your current state.
+**How to use it.** Open `/dashboard/individual/profile` after every login. Read the recommendations tile before doing anything else; it's calibrated to your current state and points at whichever action will move your hunt forward today.
 
-![[13-raw/screenshots/i-ch21-basic-dashboard.png]]
+![[i-ch21-basic-dashboard.png]]
 
-### Billing & Subscription Management — _Tier: Free (all paying users)_
+### Billing & Subscription Management — _Tier: see Pricing_
 
 **What this feature is.** Self-service for payment methods, invoices, plan changes, cancellations, and coupon application.
 
@@ -173,9 +183,9 @@ The dashboard, billing, and support features sit alongside the advanced tooling 
 
 **How to use it.** Open **Billing** (`/dashboard/individual/billing`) when changing tier, updating a card, or pulling an invoice for tax. Cancel from here directly — no phone calls required.
 
-![[13-raw/screenshots/i-ch21-billing-subscription.png]]
+![[i-ch21-billing-subscription.png]]
 
-### Email Support — _Tier: Free_
+### Email Support — _Tier: see Pricing_
 
 **What this feature is.** Standard email support with a 24–48 hour response SLA on business days.
 
@@ -183,9 +193,9 @@ The dashboard, billing, and support features sit alongside the advanced tooling 
 
 **How to use it.** From any page, **Help → Contact Support**. Include screenshots and the URL of the page you were on. Free-tier users will hear back within 1–2 business days.
 
-![[13-raw/screenshots/i-ch21-support-contact-form.png]]
+![[i-ch21-support-contact-form.png]]
 
-### Priority Support — _Tier: Standard_
+### Priority Support — _Tier: see Pricing_
 
 **What this feature is.** Faster response times and a dedicated support queue for paying customers.
 
@@ -193,7 +203,7 @@ The dashboard, billing, and support features sit alongside the advanced tooling 
 
 **How to use it.** Same Contact Support flow as above — your tier routes you automatically. Expect responses inside one business day.
 
-### Dedicated Support — _Tier: Premium_
+### Dedicated Support — _Tier: see Pricing_
 
 **What this feature is.** A named account contact, scheduled check-ins, and a priority support channel reserved for Premium individuals.
 
@@ -213,14 +223,16 @@ The dashboard, billing, and support features sit alongside the advanced tooling 
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 35 | Elevator Pitch Builder | Standard |
-| 47 | Basic Dashboard | Free |
-| 49 | Billing & Subscription Management | Free (all paying users) |
-| 237 | Email Support | Free |
-| 238 | Priority Support | Standard |
-| 239 | Dedicated Support | Premium |
+| # | Feature |
+|---|---------|
+| 1 | Career DNA (Settings tab) |
+| 2 | Opportunity Weights (Settings tab) |
+| 3 | Elevator Pitch (Coaching tab) |
+| 4 | Profile (your landing page) |
+| 5 | Billing & Subscription Management |
+| 6 | Email Support |
+| 7 | Priority Support |
+| 8 | Dedicated Support |
 
 ## Next chapter
 

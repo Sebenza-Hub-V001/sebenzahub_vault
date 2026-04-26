@@ -16,37 +16,71 @@ Spend ten minutes here. Don't try to do anything yet. Just look around.
 
 ## The shape of the dashboard
 
-The Individual dashboard has 51 pages, but they're organised into four logical groups in the sidebar. Once you see the grouping, the dashboard stops feeling overwhelming.
+The Individual dashboard groups its pages into nine sidebar sections. The first four (the Hiring Path) carry you from a fresh profile to an accepted offer; the next two are parallel tracks for when the basics aren't enough; and the last three are supporting infrastructure. Once you see the grouping, the dashboard stops feeling overwhelming.
 
-### Group 1 — HIRING PATH
+### Hiring Path — the spine of the platform
 
-This is the spine of everything you do on Sebenza Hub. It runs in the natural order of a job search, top to bottom:
+#### Build Profile (8 entries)
 
-1. **Build Profile** (7 pages) — your CVs, credentials, skill verifications, video profile, portfolio
-2. **Search & Apply** (6 pages) — All Jobs, Auto Match, Manual Search, Saved Searches, Favourites, Company Research
-3. **Track Applications** (9 pages) — My Applications, Tracker, Analytics, Notes, Reminders, Inbox, and a few specialised portals
-4. **Interview** (2 pages) — Scheduling and the Interview Simulator
-5. **Offers** (2 pages) — Salary Insights and Salary Negotiator
+Profile, My CVs, CV Templates, CV Review, Credentials, Skill Verifications, Video Profile, Portfolio Builder.
 
-If you only ever used these five sections, you would still get hired. Everything below the Hiring Path is *support* for when these aren't enough.
-![[13-raw/screenshots/ch04-sidebar-hiring-path.png]]<center></center>
-### Group 2 — PARALLEL TRACKS
+Everything in this section feeds your applications. Chapters 5–7 work through it.
 
-These activate when something on the Hiring Path needs help. They're not steps you reach in order; they're tools you reach for.
+#### Search & Apply (6 entries)
 
-- **AI Assistance** (3 pages) — AI Coaching, CV Review, Cover Letter
-- **Learning** (12 pages) — Learning Paths, Skill Tree, Skill Gap, courses, Study Planner, Mentorship, more
-- **Community** (6 pages) — Forum, Trending, Leaderboard, Interview Vault, Mentor Connect, Badges
-- **Career Development** (5 pages) — Skill Gap, Career Path, Career Pulse, Tests, Analytics
+All Jobs, Auto Match, Manual Search, Saved Searches, Favourites, Company Research.
 
-You'll touch most of these eventually, but you don't have to touch any of them today. This guide will tell you when each one becomes relevant.
-![[13-raw/screenshots/ch04-sidebar-parallel-tracks.png]]
+This is where you go from a profile to a list of jobs worth applying to. Chapters 9, 10, and 14.
 
-### Group 3 — SUPPORTING
+#### Track Applications (10 entries)
 
-- **Knowledge Base** (3 pages) — your personal wiki
-- **Account** (2 pages) — Billing and Settings
-![[13-raw/screenshots/ch04-sidebar-supporting.png]]
+My Applications, Cover Letter, App Tracker, App Analytics, Notes & Tags, Reminders, Application Portal, Candidate Hub, Experience Surveys, Messages.
+
+Once you've applied, this is the section you live in. Chapters 11 and 12.
+
+#### Interview & Offer (4 entries)
+
+Interview Scheduling, Interview Simulator, Salary Negotiator, Salary Insights.
+
+Where the platform stops being a job board and starts being a coach. Chapters 13, 15, 16.
+
+If you only ever used these four sections, you would still get hired. Everything below is *support* for when these aren't enough.
+
+![[ch04-sidebar-hiring-path.png]]
+
+### Parallel Tracks — when the Hiring Path needs help
+
+#### Career Development (5 entries)
+
+AI Coaching, Skill Gap, Career Path, Tests, Analytics.
+
+The diagnostic and coaching toolkit. Chapters 17, 18, 19 lean on it.
+
+#### Learning (11 entries)
+
+Learning Dashboard, Learning Paths, Skill Tree, Micro Learning, Job-Linked Learning, Challenges, Peer Teaching, SETA Learnerships, Certifications, Study Planner, Learning Analytics.
+
+The level-up surface. Chapter 19.
+
+![[ch04-sidebar-parallel-tracks.png]]
+
+### Advanced (Optional) — for power users
+
+Career Pulse, Community Forum, Trending, Leaderboard, Interview Vault, Mentor Connect, Mentorship, Badges.
+
+Community plus the senior-level Career Pulse market report. Chapters 22 and 23.
+
+### Knowledge Base
+
+A single entry — **My Wikis** — for your personal knowledge base. Optional.
+
+### Account
+
+Billing, AI Transparency, Settings.
+
+The Settings page is where Career DNA, Autopilot, and Market Radar live as tabs (covered in Chapters 20, 21, 22). AI Transparency (`/dashboard/individual/ai-transparency`) is where you can see what AI features have been used on your account, what data they processed, and how the platform records that — read it once, then come back when you have a specific question.
+
+![[ch04-sidebar-supporting.png]]
 
 ### Visual cue: the divider
 
@@ -74,16 +108,18 @@ Don't read this — *do* it. Open your dashboard in another tab and spend a lite
 3. **All Jobs** (`/dashboard/individual/all-jobs`) — scroll through to get a feel for the volume
 4. **Auto Match** (`/dashboard/individual/auto-match`) — probably empty or sparse because your profile is thin
 5. **My Applications** (`/dashboard/individual/applications`) — empty for now; this is where Chapter 12 lives
-6. **Inbox** (`/dashboard/individual/inbox`) — empty; this is where recruiters reach you
+6. **Messages** (`/dashboard/individual/inbox`) — empty; this is where recruiters reach you
 7. **Settings** (`/dashboard/individual/settings`) — note where it lives, but don't change anything yet
-![[13-raw/screenshots/ch04-sidebar-tour-highlights.png]]
+
+![[ch04-sidebar-tour-highlights.png]]
 
 Do not touch:
 
 - **Billing** — you don't need to spend money to use the basics
-- **Autopilot** (in Settings) — wait until Chapter 20
-- **Career DNA** (in Settings) — wait until Chapter 21
-- **Wiki** — this is a personal knowledge base, not part of the hiring flow
+- **Settings → Automation tab (Autopilot)** — wait until Chapter 20
+- **Settings → Career DNA tab** — wait until Chapter 21
+- **Settings → Automation tab (Market Radar)** — wait until Chapter 22
+- **My Wikis** — this is a personal knowledge base, not part of the hiring flow
 
 ## What recruiters see right now
 
@@ -101,7 +137,11 @@ Roughly:
 - **Standard** — the upgrade triggered the moment you start job-hunting seriously: AI CV review, AI cover letters, AI matching, advanced search, saved searches, skill gap analysis, salary insights, career coaching, mock interviews, learning paths, most of the career-development AI.
 - **Premium** — unlimited quotas on the metered features plus the high-end tools: negotiation coach and scenarios, career pulse report, interviewer intelligence, cross-interview comparison, credential roadmap, adaptive practice, test behaviour insights, priority applications.
 
-Every feature in this guide has a **Tier** badge on its heading (e.g. `_Tier: Standard_`) so you always know what you're paying for at the moment a feature is described. Metered features show their quota (e.g. `_Tier: Metered — Standard: 5/mo · Premium: 25/mo_`). If you hit a paywall in a chapter and the tier badge is missing, that's a documentation gap — please let us know.
+Every feature in this guide has a `_Tier: see Pricing_` badge on its heading. Specific quotas, prices, and what's included on each tier change over time, so the live source of truth is the Pricing page on the Sebenza Hub website and the Billing page in your dashboard. Read those when you're deciding whether to upgrade — the badges in this manual exist only to remind you that a feature is paid.
+
+## A note on AI progress feedback
+
+When you trigger an AI action — generating a cover letter, running CV Review, asking the coach a question — the platform shows multi-phase progress messages: drafting, validating, scoring, finalising. This is deliberate. AI calls take 10–60 seconds, and silence makes them feel broken. The phase labels also tell you roughly where you are in the work, so you know when it's safe to switch tabs and when you should stick with it. If a phase ever stalls for more than two minutes, refresh the page and try again — long stalls usually indicate a transient backend issue, not a stuck job.
 
 ## What to do next
 

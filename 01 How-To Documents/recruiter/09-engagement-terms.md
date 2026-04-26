@@ -18,7 +18,7 @@ This chapter explains how to set up engagements and the three categories you mus
 
 Engagements are managed inside each client's detail page. Open `/dashboard/recruiter/clients`, click a client, then go to the **Engagements** tab. Click **+ New engagement**.
 
-![[13-raw/screenshots/r-ch09-engagement-terms-form.png]]
+![[r-ch09-engagement-terms-form.png]]
 
 ## The three categories of an engagement
 
@@ -94,7 +94,7 @@ A single client can have many engagements over time. Common patterns:
 
 Don't delete old engagements when you sign new ones — set them to *expired* so the history is preserved. Your audit trail (Chapter 28) and your KPI Dashboard (Chapter 25) both depend on engagement history being intact.
 
-![[13-raw/screenshots/r-ch09-signed-agreement-view.png]]
+![[r-ch09-signed-agreement-view.png]]
 
 ## How engagements feed the rest of the platform
 

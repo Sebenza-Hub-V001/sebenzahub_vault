@@ -24,7 +24,7 @@ POPIA — the Protection of Personal Information Act — is South Africa's data 
 
 **How to use it.** You don't *do* POPIA Compliance once — you live in it. Day-to-day: respect the `whatsappConsent` flag, only collect data relevant to the role, and run the DSAR workflow (below) when a candidate requests their data. Quarterly: audit retention against the policy you set at `/dashboard/recruiter/compliance` → Retention.
 
-![[13-raw/screenshots/r-ch27-popia-consent-dashboard.png]]
+![[r-ch27-popia-consent-dashboard.png]]
 
 ## The five POPIA principles you need to remember
 
@@ -96,7 +96,7 @@ Open `/dashboard/recruiter/compliance` and trigger a **Data Subject Access Repor
 - Every interaction with you logged in the activity timeline
 - Their consent records (what they consented to and when)
 
-![[13-raw/screenshots/r-ch27-dsar-request-screen.png]]
+![[r-ch27-dsar-request-screen.png]]
 
 This is the "everything we hold" answer.
 
@@ -159,7 +159,7 @@ POPIA requires that you don't keep data "longer than necessary." Sebenza Hub hel
 
 Configure your retention policy at `/dashboard/recruiter/compliance` → Retention. Don't set it to "forever" — that's a POPIA violation waiting to happen.
 
-![[13-raw/screenshots/r-ch27-consent-audit-log.png]]
+![[r-ch27-consent-audit-log.png]]
 
 ## Common POPIA mistakes recruiters make
 
@@ -187,7 +187,7 @@ POPIA is the legal floor; how candidates *feel* about your data handling is the 
 
 **How to use it.** Surveys run automatically. Open `/dashboard/recruiter/feedback` weekly. Reply to every detractor (0–6) within 24 hours personally, not via template. Promoters (9–10) become referral asks (Chapter 30). Patterns of detractor responses around data handling — "you kept asking for documents I didn't think were relevant" — point straight at POPIA principles 2 and 3 and tell you what to fix.
 
-![[13-raw/screenshots/r-ch27-candidate-nps-results.png]]
+![[r-ch27-candidate-nps-results.png]]
 
 ## Pro tips
 

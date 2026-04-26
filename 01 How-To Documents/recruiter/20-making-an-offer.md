@@ -24,7 +24,7 @@ Six features cover the offer surface — the management tool, the letter generat
 
 **How to use it.** `/dashboard/recruiter/offers` is the master list. Every offer in your agency, with status, owner, and value visible at a glance. The rest of this chapter is the playbook for working it.
 
-![[13-raw/screenshots/r-ch20-offer-management-list.png]]
+![[r-ch20-offer-management-list.png]]
 
 ### Offer Letter Generator — _Tier: Standard_
 
@@ -34,7 +34,7 @@ Six features cover the offer surface — the management tool, the letter generat
 
 **How to use it.** From an offer record, click **Generate letter**. Pick the template (perm, contract, exec, conditional). Review the merged document. Send via the platform so the audit trail captures view and acceptance timestamps.
 
-![[13-raw/screenshots/r-ch20-offer-letter-generator-output.png]]
+![[r-ch20-offer-letter-generator-output.png]]
 
 ## The 11 offer pages, mapped
 
@@ -77,7 +77,7 @@ If your client's proposed offer is below the 25th percentile, you have a problem
 
 **How to use it.** Open `/dashboard/recruiter/offer-predictor`, enter the proposed offer details, get an acceptance probability (0–100%) with reasoning. If it returns under 50%, either improve the package, have a frank pre-offer conversation with the candidate, or pull the offer entirely. A 70%+ score is "go ahead".
 
-![[13-raw/screenshots/r-ch20-acceptance-predictor-probability.png]]
+![[r-ch20-acceptance-predictor-probability.png]]
 
 ### Predictive Performance Modeling — _Tier: Premium_
 
@@ -87,7 +87,7 @@ If your client's proposed offer is below the 25th percentile, you have a problem
 
 **How to use it.** Available on every shortlisted candidate's profile under **Predictive Performance**. Read the trajectory before approving the offer. A flat or declining trajectory means dig deeper in the next interview round, don't paper over with a higher salary.
 
-![[13-raw/screenshots/r-ch20-predictive-performance-trajectory.png]]
+![[r-ch20-predictive-performance-trajectory.png]]
 
 ### Team Fit Simulation — _Tier: Premium_
 
@@ -97,7 +97,7 @@ If your client's proposed offer is below the 25th percentile, you have a problem
 
 **How to use it.** Open the candidate's profile, click **Team Fit Simulation**, select the team they'd join. The output flags likely friction points and complementary strengths. Share the friction-point summary with the hiring manager before the offer; it's the conversation that turns a 6-month attrition into a 4-year hire.
 
-![[13-raw/screenshots/r-ch20-team-fit-simulation.png]]
+![[r-ch20-team-fit-simulation.png]]
 
 ## Step 2 — Create the offer
 

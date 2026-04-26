@@ -59,7 +59,7 @@ Candidate enters the standard sourcing pool
 3. Tag the source so you can later measure which lead sources actually convert. ("PyConZA 2025 attendee list", "LinkedIn group X", etc.)
 4. Set the default nurture sequence (or create a new one).
 
-![[13-raw/screenshots/r-ch13-linkedin-leads-import.png]]
+![[r-ch13-linkedin-leads-import.png]]
 
 ### Nurturing leads
 
@@ -95,7 +95,7 @@ Past candidates are the cheapest source of qualified hires you have. Sebenza Hub
 
 **How to use it.** Open any active job → **AI Recommendations** tab. Review the ranked candidates with their match reasoning. Move the strong ones into the pipeline; dismiss the wrong ones (the dismissals train the model).
 
-![[13-raw/screenshots/r-ch13-ai-candidate-recommendations.png]]
+![[r-ch13-ai-candidate-recommendations.png]]
 
 ### Candidate Re-Engagement — _Tier: Standard_
 
@@ -105,7 +105,7 @@ Past candidates are the cheapest source of qualified hires you have. Sebenza Hub
 
 **How to use it.** From any past candidate's profile, click **Re-engage**. Pick the open role you want to talk about; the AI suggests a message that references the prior interaction (e.g. "you came second on the Naspers role in March 2024"). Edit, send, log.
 
-![[13-raw/screenshots/r-ch13-candidate-reengagement.png]]
+![[r-ch13-candidate-reengagement.png]]
 
 ### Talent Rediscovery — _Tier: Premium_
 
@@ -122,7 +122,7 @@ It surfaces candidates already in your database who:
 
 **How to use it.** Open `/dashboard/recruiter/talent-rediscovery`. The page shows your dormant candidates ranked by re-engagement potential, with the open job they best fit. Spend 15–20 minutes per week here; aim to re-engage 5–10 candidates per week. Then use Candidate Re-Engagement above to send the actual outreach.
 
-![[13-raw/screenshots/r-ch13-talent-rediscovery-view.png]]
+![[r-ch13-talent-rediscovery-view.png]]
 
 ### Why it works (the pattern Rediscovery exploits)
 

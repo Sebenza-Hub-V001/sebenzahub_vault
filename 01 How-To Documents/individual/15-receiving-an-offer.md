@@ -23,7 +23,7 @@ When an employer creates an offer, you see it in two places:
 
 Open the application and you'll see the offer details. The platform's offer system tracks offers as a structured record — not just a PDF letter — so you can see and compare each component.
 
-![[13-raw/screenshots/i-ch15-offer-record.png]]
+![[i-ch15-offer-record.png]]
 
 ## What's actually in an offer
 
@@ -105,49 +105,47 @@ Negotiate if:
 
 **Don't negotiate just for the sake of it.** Negotiation is a real conversation, not a formality. If the offer is genuinely fair and you're going to accept either way, just accept.
 
-If you do decide to negotiate, work through the four tools below in order: Advisor (analyse), Playbook (plan), Scenario (practise on paper), Roleplay (rehearse live). They build on each other — skipping any one of them is fine, but the more you skip the more you're winging it.
+If you do decide to negotiate, the **Salary Negotiator** (`/dashboard/individual/salary-negotiator`) is where the structured prep lives. It's a single page with multiple tabs that handle different parts of the negotiation, in roughly the order you'll need them:
 
-### Negotiation Advisor — _Tier: Premium_
+### Salary Negotiator (the negotiation toolkit) — _Tier: see Pricing_
 
-**What this feature is.** Negotiation Advisor analyses your specific offer against market data, your leverage, and your BATNA (best alternative to a negotiated agreement), then recommends a specific counter — what number to ask for, which components to push on, and which to leave alone.
+**What this feature is.** The Salary Negotiator brings together every tool you need for a structured negotiation — analysis, planning, scripts, simulation — into one page. Instead of jumping between four separate tools, you walk through the tabs in order.
 
-**Why it matters.** Most candidates either accept the first offer or counter blindly with "I'd like more." A data-backed counter grounded in market context typically extracts the 10–20% most offers leave on the table. The Advisor is what tells you whether the offer is actually low or whether it just feels low.
+**Why it matters.** Negotiation rewards preparation more than improvisation. A walk through these tabs typically takes 30–60 minutes and beats winging it by a wide margin — most offers leave 10–20% on the table for candidates who arrive ready.
 
-**How to use it.** Feed the offer details (base, bonus, benefits, equity if any) into Negotiation Advisor along with your context — current package, other live offers, must-have constraints. The Advisor returns a recommended counter-offer with reasoning. Read the reasoning, not just the number — if you can't articulate *why* the counter is justified, you won't be able to defend it in the conversation.
+**How to use it.** Open `/dashboard/individual/salary-negotiator`. Work through the tabs in this order:
 
-![[13-raw/screenshots/i-ch15-negotiation-advisor.png]]
+1. **Market Intel** — pull the salary range for your role, level, and location, so every later tab has a real benchmark to anchor on.
+2. **Strategy Builder** — turns the offer details and your context (current package, competing offers, must-haves) into a recommended counter and the reasoning behind it.
 
-### Negotiation Playbook — _Tier: Premium_
+![[i-ch15-negotiation-advisor.png]]
 
-**What this feature is.** Negotiation Playbook turns the Advisor's recommendation into a multi-round plan — opening position, fallback positions, trade-off priorities (base vs equity vs flexibility), and phrasing for each likely objection. It treats negotiation as the multi-round game it actually is, not as a one-shot ask.
+3. **Offer Analyzer** — breaks the offer into components (base, bonus, equity, benefits) and shows you which ones are above and below market.
+4. **Cost of Living** — adjusts the comparison for the city you'd be living in (Joburg vs Cape Town vs remote).
+5. **Take-Home** — converts the headline number to actual rand-in-pocket after tax and benefits, which is what you're really comparing.
+6. **Offer Matrix** — useful when you have more than one offer running. Lays them side by side with weighted scoring.
+7. **Counter-Offer** — drafts the actual counter-offer message you'll send, grounded in everything above.
 
-**Why it matters.** Negotiation has predictable pushbacks: "the budget is fixed", "we're already at the top of the band", "we'd need to involve approval". A playbook means you have a planned response to each, instead of improvising under pressure with the offer on the line.
+![[i-ch15-playbook-document.png]]
 
-**How to use it.** Generate the Playbook after you've finalised your counter with the Advisor. Read the trade-off priorities — these tell you what to give up if they push back. Memorise the opening line and the two or three fallback responses. Don't read scripts verbatim in the actual conversation; the point of the Playbook is that you don't get caught flat-footed.
+8. **Script Library** — phrases and openers for common moments in the conversation. Pick what feels natural; don't recite verbatim.
+9. **Objection Handler** — predicts the pushbacks you're most likely to hear ("budget is fixed", "already at the top of the band") and gives you a response to each.
+10. **Readiness** — a self-assessment that tells you whether you're actually prepared or just feel prepared.
+11. **Simulator** — practise the conversation against a simulated hiring manager that pushes back realistically. Use this the day before the real call.
 
-![[13-raw/screenshots/i-ch15-playbook-document.png]]
+![[i-ch15-scenario-practice.png]]
 
-### Negotiation Scenario — _Tier: Premium_
+12. **Msg Analyzer** — paste a message you're about to send (or one you've received) and get feedback on tone, concessions, and what to change.
+13. **My Style** — a profile of your negotiation tendencies built from past sessions, so the simulator and script library can lean toward what works for you.
+14. **History** — every negotiation session you've run, so you can compare counters and outcomes across roles.
 
-**What this feature is.** Negotiation Scenario generates realistic written negotiation situations — a lowball offer, a non-negotiable base, split loyalties between two competing offers — for offline practice. You read the scenario, draft your response, and the tool gives feedback on what you wrote.
+You don't have to use every tab. The minimum is **Market Intel → Strategy Builder → Counter-Offer → Simulator**: pull the data, get a recommended counter, draft the message, rehearse the conversation. The other tabs are there when you need them.
 
-**Why it matters.** Most candidates face two or three real negotiations in their entire career, which means every live negotiation is also their first practice. Scenario practice lets you encounter the awkward moments in writing, with no real money at stake, before you have to handle them on a call.
+### Pair it with the Salary Coach in Coaching
 
-**How to use it.** Pick the scenarios closest to the situation you're actually in (e.g. lowball offer, or competing-offer split). Write out your response — full sentences, not bullet points. Read the feedback. Note where you over-promised, under-asked, or got defensive. Carry those lessons into the live conversation.
+If you'd rather think out loud first, open **Coaching** → **Salary Coach** tab and describe your offer in plain language. The conversational coach is lighter-weight than the Salary Negotiator's structured tabs and useful before you commit to a specific counter. Once you've got clarity, drop into the Salary Negotiator to formalise it. Chapter 16 covers the Salary Coach and the standalone Salary Insights page in more depth.
 
-![[13-raw/screenshots/i-ch15-scenario-practice.png]]
-
-### Negotiation Roleplay — _Tier: Premium_
-
-**What this feature is.** Negotiation Roleplay is an interactive AI session where you negotiate against a simulated hiring manager that pushes back realistically. It's the live-fire equivalent of the written Scenario — you say something, the AI responds in character, and the conversation evolves the way a real one does.
-
-**Why it matters.** Reading about negotiation builds knowledge; live coaching builds skill. You only get good at negotiation by doing it, and Roleplay delivers that practice safely before the real conversation where mistakes cost thousands of rand a year for the rest of your tenure.
-
-**How to use it.** Use Roleplay the day before (or the morning of) the negotiation conversation. Set the scenario to match your real situation — your offer, your target, your fallback. Push through the awkward moments instead of restarting. The point isn't to find the "right" answer; it's to make the discomfort familiar so you don't freeze in the real thing. (For pure-salary negotiation drills, Chapter 16's **Salary Negotiation Coach** is a lighter-weight, conversational alternative if Premium isn't on the table.)
-
-![[13-raw/screenshots/i-ch15-roleplay-chat.png]]
-
-If you've done Advisor → Playbook → Scenario → Roleplay, you're more prepared than 95% of candidates walking into a salary conversation. Time to have it.
+![[i-ch15-roleplay-chat.png]]
 
 ### Option C — Decline
 
@@ -190,14 +188,14 @@ A few principles:
 - **Don't accept one and then renege when the other comes through.** Reneging is a real reputational hit, especially in tight industries.
 - **Use Salary Insights to anchor both conversations** — that way you're negotiating against the market, not against the other offer.
 
-Negotiation Advisor handles competing-offer scenarios specifically — feed it both offers and it'll structure the trade-off for you.
+The Salary Negotiator's **Offer Matrix** tab handles competing-offer scenarios specifically — feed it both offers and it'll lay them side by side with weighted scoring.
 
 ## What happens after you accept
 
 Acceptance is not the end of the platform's involvement. After acceptance:
 
 - The application moves to `Hired`
-- You may be asked for additional documents (qualifications, ID, references) via the Application Portal (Chapter 12)
+- You may be asked for additional documents (qualifications, ID, references) via the Application Portal at `/dashboard/individual/portal` (Chapter 12)
 - The employer may send onboarding information through the Inbox
 - The platform's offer record stays in your history for reference
 
@@ -209,21 +207,18 @@ You can also leave a post-interview experience survey if the platform invites yo
 - [ ] Slept on it before responding
 - [ ] Checked the salary against Salary Insights
 - [ ] Decided consciously whether to accept, negotiate, or decline
-- [ ] If negotiating: ran Negotiation Advisor to get a data-backed counter
-- [ ] If negotiating: built a Playbook with fallbacks before the conversation
-- [ ] If negotiating: practised at least one Scenario or Roleplay session before the live call
+- [ ] If negotiating: ran Market Intel and Strategy Builder in the Salary Negotiator to get a data-backed counter
+- [ ] If negotiating: drafted the message in Counter-Offer and reviewed Objection Handler responses
+- [ ] If negotiating: practised at least one Simulator session before the live call
 - [ ] Responded through the Inbox in writing (not just verbally)
 - [ ] If you accepted, you've started thinking about onboarding
 - [ ] If you declined, you did so politely and without burning the bridge
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | Negotiation Advisor | Premium |
-| 2 | Negotiation Playbook | Premium |
-| 3 | Negotiation Scenario | Premium |
-| 4 | Negotiation Roleplay | Premium |
+| # | Feature |
+|---|---------|
+| 1 | Salary Negotiator (multi-tab toolkit) |
 
 ## Next chapter
 

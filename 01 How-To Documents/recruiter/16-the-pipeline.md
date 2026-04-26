@@ -10,7 +10,7 @@ user-types: [recruiter]
 
 # Chapter 16 — The Pipeline (Kanban): your daily workspace
 
-![[13-raw/screenshots/r-ch16-pipeline-kanban-hero.png]]
+![[r-ch16-pipeline-kanban-hero.png]]
 
 If you only opened one page in Sebenza Hub every morning, it should be the Pipeline. This is where every candidate for every active job sits, organised by stage, with everything you need to move them forward visible at a glance. Most successful recruiters spend 60% of their platform time here.
 
@@ -53,7 +53,7 @@ Each column shows a stack of candidate cards. Each card shows:
 
 You can drag and drop a card from one column to another to advance the candidate. The status updates instantly, the audit trail records the move, and any automation rules tied to the new stage fire (e.g. an "interview scheduled" auto-message).
 
-![[13-raw/screenshots/r-ch16-drag-between-stages.png]]
+![[r-ch16-drag-between-stages.png]]
 
 ## How to read the Pipeline at a glance
 
@@ -72,7 +72,7 @@ The Pipeline tells you four things in 30 seconds:
 
 **How to use it.** The score sits on each candidate card next to the AI match score. Filter the Pipeline by **Engagement: declining** once a day — anyone in that bucket gets a personal call or WhatsApp, not another templated email. If you're already messaging via the Unified Inbox (Chapter 22), the sentiment indicator there is the same signal in real-time.
 
-![[13-raw/screenshots/r-ch16-engagement-score-card.png]]
+![[r-ch16-engagement-score-card.png]]
 
 ### Requirement Restriction Analyzer — _Tier: Standard_
 
@@ -82,7 +82,7 @@ The Pipeline tells you four things in 30 seconds:
 
 **How to use it.** Open any job that's stalling for volume in the Pipeline and click **Analyze requirements**. The platform reports which criteria are doing the heaviest rejecting and what the candidate count would look like with each one relaxed. Take the report into your next client check-in (Chapter 10) when you need them to soften a requirement.
 
-![[13-raw/screenshots/r-ch16-requirement-restriction-warning.png]]
+![[r-ch16-requirement-restriction-warning.png]]
 
 ## Filters that matter
 
@@ -146,7 +146,7 @@ You can customise the stages in `/dashboard/recruiter/settings` → Pipeline. Co
 
 Don't go overboard with stages. Five to seven is the sweet spot; more than ten and the Kanban becomes unreadable.
 
-![[13-raw/screenshots/r-ch16-stage-config-settings.png]]
+![[r-ch16-stage-config-settings.png]]
 
 ## Pipeline as the source of truth
 

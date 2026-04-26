@@ -88,7 +88,7 @@ A declining engagement score is the strongest leading indicator. A candidate who
 
 **Try: #129 Candidate Engagement Scorer _(Standard)_.** Why this helps in this scenario: it's the underlying feature that produces the Engagement Score — responsiveness, enthusiasm, reciprocation rolled into one drop-off-risk number per candidate. Full coverage in [[01 How-To Documents/recruiter/26-diversity-panel-ai|Chapter 26]].
 
-![[13-raw/screenshots/r-ch32-engagement-score-heatmap.png]]
+![[r-ch32-engagement-score-heatmap.png]]
 
 ### Sentiment analysis (Chapter 22)
 
@@ -118,7 +118,7 @@ Different stages produce different ghosting causes:
 
 The cause changes by stage, so the fix changes too. Ghosting at the final stage is a different problem than ghosting at first response.
 
-![[13-raw/screenshots/r-ch32-dropoff-funnel-stages.png]]
+![[r-ch32-dropoff-funnel-stages.png]]
 
 ## The prevention rituals
 

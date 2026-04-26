@@ -20,9 +20,9 @@ Two features carry this chapter: **Screening Roles**, which codifies your hiring
 
 **Why it matters.** Without codified criteria, every screening is subjective and inconsistent — one recruiter rejects on five years' experience, another waves through three. Screening Roles turn hiring standards into rules a junior recruiter can apply with the same rigour as a senior one.
 
-**How to use it.** Configure your screening roles once per role family (Senior Backend Dev, Mid-Sales, Graduate Programme, etc.) under `/dashboard/recruiter/settings` → Screening Roles. When you post a job (Chapter 11), pick the matching screening role and the knockouts, scoring weights, and chatbot template auto-populate.
+**How to use it.** Configure your screening roles once per role family (Senior Backend Dev, Mid-Sales, Graduate Programme, etc.) under `/dashboard/recruiter/roles`. When you post a job (Chapter 11), pick the matching screening role and the knockouts, scoring weights, and chatbot template auto-populate.
 
-![[13-raw/screenshots/r-ch15-screening-roles-config.png]]
+![[r-ch15-screening-roles-config.png]]
 
 ### Screening Criteria Generator — _Tier: Standard_
 
@@ -32,7 +32,7 @@ Two features carry this chapter: **Screening Roles**, which codifies your hiring
 
 **How to use it.** From the job's *Vetting* section, click **Generate from JD**. The AI returns proposed knockouts, weights, and assessment recommendations. Review, edit, accept. Save the result as a new Screening Role if you'll reuse it.
 
-![[13-raw/screenshots/r-ch15-criteria-generator-output.png]]
+![[r-ch15-criteria-generator-output.png]]
 
 ## The four screening layers
 
@@ -59,7 +59,7 @@ A knockout should be:
 - **Clear.** No ambiguity. "Do you have 5+ years of Postgres experience?" is clear; "Are you familiar with databases?" is not.
 - **Verifiable.** The candidate can answer honestly. Don't ask things only an interview could discover.
 
-![[13-raw/screenshots/r-ch15-knockout-questions-editor.png]]
+![[r-ch15-knockout-questions-editor.png]]
 
 ### Examples that work
 

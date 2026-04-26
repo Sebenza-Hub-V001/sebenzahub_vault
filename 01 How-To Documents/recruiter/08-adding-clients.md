@@ -28,7 +28,7 @@ This chapter walks through adding a client, adding contacts, setting client tier
 
 `/dashboard/recruiter/clients` is the master list. Click **+ New client** to add one.
 
-![[13-raw/screenshots/r-ch08-client-list-view.png]]
+![[r-ch08-client-list-view.png]]
 
 ## The minimum to add a client
 
@@ -44,7 +44,7 @@ This chapter walks through adding a client, adding contacts, setting client tier
 
 You can save with just the name. Everything else can be filled in later. But the more you add now, the more useful the client appears in searches, dashboards, and analytics.
 
-![[13-raw/screenshots/r-ch08-add-client-form.png]]
+![[r-ch08-add-client-form.png]]
 
 ## Client tier — your most important categorisation
 
@@ -108,7 +108,7 @@ Each client has a **Documents** tab where you can upload contracts, NDAs, propos
 
 Upload your **signed engagement contract** here as soon as it exists. It becomes the legal record you reference when fee disputes happen (Chapter 28 covers the audit trail). Don't store contracts in your email or your local Drive — store them on the client record so anyone with client access can find them.
 
-![[13-raw/screenshots/r-ch08-client-detail-requisitions.png]]
+![[r-ch08-client-detail-requisitions.png]]
 
 ## The client list view
 

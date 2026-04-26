@@ -14,7 +14,7 @@ Sebenza Hub gives you three ways to find jobs. Each one suits a different mode o
 
 What follows is short: the three modes, when each is best, and how to read the signals (match scores, ghost-risk scores) that show up alongside listings.
 
-![[13-raw/screenshots/i-ch09-search-modes-nav.png]]
+![[i-ch09-search-modes-nav.png]]
 
 ## The three modes
 
@@ -32,7 +32,7 @@ Use them roughly like this:
 
 ## All Jobs
 
-### Basic Job Search — _Tier: Free_
+### Basic Job Search — _Tier: see Pricing_
 
 **What this feature is.** Basic Job Search is keyword, category, and location search across every active listing on the platform — with simple filters like job type and salary range. It's the same search box you saw on the public landing page, just connected to your profile once you log in.
 
@@ -40,7 +40,7 @@ Use them roughly like this:
 
 **How to use it.** Open **All Jobs** (`/dashboard/individual/all-jobs`), type a keyword (a role, a skill, a company), set the location, and scroll. The basic filters live in the sidebar. If your search returns hundreds of results and you need to cut them down, that's the cue to switch to Advanced Search (next section).
 
-![[13-raw/screenshots/i-ch09-all-jobs-results.png]]
+![[i-ch09-all-jobs-results.png]]
 
 This is the full job listing on the platform — both jobs **posted directly** by Recruiters and Businesses on Sebenza Hub *and* jobs **aggregated externally** from sources like Adzuna and CareerJet. The mix is important to understand, because the two types behave differently:
 
@@ -62,7 +62,7 @@ Both types have their place. Aggregated jobs roughly double the volume you can s
 
 ## Auto Match
 
-### AI Auto Match — _Tier: Standard_
+### AI Auto Match — _Tier: see Pricing_
 
 **What this feature is.** AI Auto Match is the engine that scans new jobs against your profile and surfaces the ones that fit best — each one comes with an explainable match score (e.g. 87%) and a list of reasons. It runs continuously in the background; every time a new job is posted or aggregated, it gets scored against you.
 
@@ -87,7 +87,7 @@ What you get back:
 - A **match score** (0–100) per job
 - A list of **matched skills** (what you have that the job wants) and **missing skills** (what you lack)
 
-![[13-raw/screenshots/i-ch09-auto-match-ranked-list.png]]
+![[i-ch09-auto-match-ranked-list.png]]
 
 ### Why your profile quality matters here
 
@@ -101,7 +101,7 @@ Auto Match is only as good as the input. If your profile is thin, your matches w
 
 ## Manual Search
 
-### Advanced Job Search — _Tier: Standard_
+### Advanced Job Search — _Tier: see Pricing_
 
 **What this feature is.** Advanced Job Search is multi-criteria filtering across salary bands, experience level, industry, remote/hybrid, B-BBEE status, company size, and province-level geography — with boolean operators and the ability to save result views. It's the precision tool, where you set the filters yourself instead of letting the AI infer them.
 
@@ -123,7 +123,7 @@ Available filters typically include:
 - **Company name** (if you're targeting specific employers)
 - **Posted within** (last 24 hours, last week, last month)
 
-![[13-raw/screenshots/i-ch09-manual-search-filters.png]]
+![[i-ch09-manual-search-filters.png]]
 
 ### When to use Manual Search
 
@@ -155,7 +155,7 @@ Rough interpretation:
 
 A low score isn't always a no. The AI doesn't know your context — that you're willing to change industry, that you have a referral, that you're prepared to take a step back. But a low score is a signal worth taking seriously, especially when you're choosing where to spend your effort.
 
-![[13-raw/screenshots/i-ch09-match-score-explanation.png]]
+![[i-ch09-match-score-explanation.png]]
 
 ### Ghost Risk Score (0–100)
 
@@ -202,11 +202,11 @@ Spend 20 minutes doing this:
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | Basic Job Search | Free |
-| 2 | Advanced Job Search | Standard |
-| 3 | AI Auto Match | Standard |
+| # | Feature |
+|---|---------|
+| 1 | Basic Job Search |
+| 2 | Advanced Job Search |
+| 3 | AI Auto Match |
 
 ## Next chapter
 

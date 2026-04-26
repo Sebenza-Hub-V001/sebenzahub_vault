@@ -12,7 +12,7 @@ user-types: [recruiter]
 
 Every placement starts with a job. A well-written job post attracts the right candidates and filters out the wrong ones; a sloppy one floods you with applications you have to manually reject. Sebenza Hub gives you a structured job creation flow plus the **AI JD Writer**, which generates a first draft from a brief if you give it one. This chapter walks through the full flow.
 
-![[13-raw/screenshots/r-ch11-job-list-status.png]]
+![[r-ch11-job-list-status.png]]
 
 ## Where it lives
 
@@ -56,7 +56,7 @@ Inside the new-job form there's a **Generate with AI** button. Click it and past
 3. The output drops into the form fields. **Always edit.** The AI is good at structure and weak on company-specific nuance — your client knows their team and culture, and the AI doesn't.
 4. The generator is metered (Chapter 4.5) — don't burn quota by regenerating from scratch endlessly. Generate once, then use the section regenerator below for surgical fixes.
 
-![[13-raw/screenshots/r-ch11-ai-jd-generator-output.png]]
+![[r-ch11-ai-jd-generator-output.png]]
 
 ### AI Company Description — _Tier: Standard_
 
@@ -145,7 +145,7 @@ A first draft passes a vibe check; what catches you out is the bias phrase you d
 
 **How to use it.** In the JD form, click **Run inclusivity check**. Each flagged phrase shows the issue and a suggested rewrite — accept, edit, or dismiss with reason. Aim for an inclusivity score of 80+ before publishing.
 
-![[13-raw/screenshots/r-ch11-bias-detection-highlights.png]]
+![[r-ch11-bias-detection-highlights.png]]
 
 ### JD Compliance Check — _Tier: Standard_
 
@@ -155,7 +155,7 @@ A first draft passes a vibe check; what catches you out is the bias phrase you d
 
 **How to use it.** Click **Run compliance check**. Issues are categorised by severity (block / warning / info). Block-level issues prevent publish until resolved. Most warnings are about phrasing — fix or document the exception.
 
-![[13-raw/screenshots/r-ch11-jd-compliance-flags.png]]
+![[r-ch11-jd-compliance-flags.png]]
 
 ### JD Salary Benchmark — _Tier: Standard_
 
@@ -165,7 +165,7 @@ A first draft passes a vibe check; what catches you out is the bias phrase you d
 
 **How to use it.** With the salary range filled in, click **Benchmark salary**. The output shows the market median, P25–P75 range, and where your range sits. If you're under, push back to the client now — not after a month of zero applications.
 
-![[13-raw/screenshots/r-ch11-salary-benchmark-chart.png]]
+![[r-ch11-salary-benchmark-chart.png]]
 
 ### JD SEO Analysis — _Tier: Standard_
 
@@ -187,7 +187,7 @@ The JD is written and validated. Time to publish — and decide which channels c
 
 **How to use it.** You've already built the posting in Steps 1–3. Save as draft first, preview the public-facing version, then click **Publish**. The status flips to **active** and the published timestamp is recorded. If you're at your monthly cap, the publish button is blocked until you close, archive, or upgrade — plan ahead so you don't get caught on a Friday afternoon trying to post an urgent role.
 
-![[13-raw/screenshots/r-ch11-publish-channel-selector.png]]
+![[r-ch11-publish-channel-selector.png]]
 
 ### Job Board Integrations — _Tier: Standard_
 
@@ -197,7 +197,7 @@ The JD is written and validated. Time to publish — and decide which channels c
 
 **How to use it.** In the JD form's **Distribution** section, tick the boards you want to publish to. First-time setup connects each board's account once via Chapter 29. After that, every new job has the toggles ready to flip.
 
-![[13-raw/screenshots/r-ch11-job-board-integrations-panel.png]]
+![[r-ch11-job-board-integrations-panel.png]]
 
 ### CSV/Pnet/CJ/Adzuna Export — _Tier: Standard_
 
@@ -214,6 +214,20 @@ The JD is written and validated. Time to publish — and decide which channels c
 **Why it matters.** WhatsApp is the dominant channel for blue-collar and entry-level SA talent and increasingly for mid-tier roles too. Recruiters who reach via WhatsApp tap candidate pools their LinkedIn-only competitors literally can't see.
 
 **How to use it.** In **Distribution**, toggle **WhatsApp** and pick the audience segment(s). Standard WhatsApp template message charges apply per recipient (passed through with metering, see Chapter 4.5). Chapter 24 covers WhatsApp at scale in detail.
+
+### External Job Application Redirection — _Tier: Standard_
+
+Some jobs are hosted on the client's own ATS or careers site, but you still want them in your Sebenza Hub catalogue for visibility, search, and analytics. The platform supports this without losing tracking on the candidates who apply.
+
+To mark a job as externally hosted:
+
+1. In the job form's **Application** section, toggle **External application**.
+2. Paste the **redirect URL** — the exact page on the client's site where the candidate completes their application.
+3. Save and publish as normal.
+
+When a candidate clicks **Apply** on the public job listing, they are redirected to the external URL instead of the in-platform apply flow. Sebenza Hub still records the redirect as a tracked application event — so you can see how many candidates clicked through, which sources they came from, and (if the client's ATS supports the return webhook) capture the application data when they land back on the candidate record. For listings that don't pass data back, you'll see redirect clicks but not full application detail.
+
+Use this when: the client mandates their own application form; a regulated role requires their compliance flow; or you need the visibility on Sebenza Hub but the actual capture happens elsewhere.
 
 ## Step 5 — Save as draft, then publish
 
@@ -233,7 +247,7 @@ Posting is the start. Knowing whether it's actually going to fill — early enou
 
 **How to use it.** Open any active job and click the **AI Insights** tab. The panel shows current pipeline health, projected time-to-fill, and any flagged risks with suggested fixes. Re-check weekly during the first month of any role.
 
-![[13-raw/screenshots/r-ch11-job-ai-insights-dashboard.png]]
+![[r-ch11-job-ai-insights-dashboard.png]]
 
 ## Pro tips
 

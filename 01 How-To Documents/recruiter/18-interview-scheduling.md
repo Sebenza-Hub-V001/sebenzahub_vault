@@ -74,7 +74,7 @@ The most powerful and most underused mode. Two features cover this: Self-Schedul
 
 **How to use it.** Set up self-scheduling links per interview type (30-min screen, 60-min technical, 90-min panel) in `/dashboard/recruiter/self-scheduling`. Add the link to every outreach email and template.
 
-![[13-raw/screenshots/r-ch18-self-scheduling-calendar.png]]
+![[r-ch18-self-scheduling-calendar.png]]
 
 #### Scheduling Links — _Tier: Standard_
 
@@ -84,7 +84,7 @@ The most powerful and most underused mode. Two features cover this: Self-Schedul
 
 **How to use it.** Generated automatically when you create a self-scheduling type. Each link is a unique URL you paste into emails, WhatsApp, or your email signature.
 
-![[13-raw/screenshots/r-ch18-scheduling-links-share-dialog.png]]
+![[r-ch18-scheduling-links-share-dialog.png]]
 
 ### 4. Sequence-driven scheduling
 
@@ -102,7 +102,7 @@ An **interview kit** is a structured guide for an interview: the questions to as
 
 **How to use it.** When building an interview kit, click **Generate questions** for each section. Specify role, seniority, focus area (technical depth / behavioural / culture). The AI returns 5–10 questions per section. Review, edit, attach to the kit.
 
-![[13-raw/screenshots/r-ch18-ai-interview-questions-output.png]]
+![[r-ch18-ai-interview-questions-output.png]]
 
 ### Anatomy of a good kit
 
@@ -140,7 +140,7 @@ Every kit attaches to a scorecard. Two features cover this — Scorecards is the
 
 **How to use it.** Build templates in `/dashboard/recruiter/scorecards`. 5–8 criteria per scorecard (technical depth, communication clarity, problem-solving, culture fit, motivation). Define what each rating level means — vague rating definitions let bias creep back in. Attach to the relevant interview kit. Every interviewer fills the scorecard *during* the interview, not after.
 
-![[13-raw/screenshots/r-ch18-scorecard-template-editor.png]]
+![[r-ch18-scorecard-template-editor.png]]
 
 ### Scorecard Suggestions — _Tier: Standard_
 
@@ -150,7 +150,7 @@ Every kit attaches to a scorecard. Two features cover this — Scorecards is the
 
 **How to use it.** Open any scorecard template and click **Get suggestions**. The AI flags ambiguous criteria and proposes rewrites. Apply selectively — keep your own language where it carries meaning your team understands.
 
-![[13-raw/screenshots/r-ch18-scorecard-rubric-filled.png]]
+![[r-ch18-scorecard-rubric-filled.png]]
 
 ## Panel templates and multi-interviewer rounds
 

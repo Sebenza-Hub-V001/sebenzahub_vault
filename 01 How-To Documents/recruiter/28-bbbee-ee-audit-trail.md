@@ -31,7 +31,7 @@ POPIA (Chapter 27) protects individual privacy. **This** chapter is about the ot
 
 **How to use it.** Generate quarterly per client, not annually. The PDF output is submission-ready; send it to your client to include in their own filing. Cross-reference with the Diversity dashboard (Chapter 26) to spot pipeline drops before they show up in the year-end report.
 
-![[13-raw/screenshots/r-ch28-ee-report-eea2-output.png]]
+![[r-ch28-ee-report-eea2-output.png]]
 
 The Employment Equity Act requires designated employers (50+ employees, or specific revenue thresholds) to report annually on workforce demographics, pipeline representation, and progress against EE targets. The Department of Employment and Labour audits these reports and can fine non-compliance.
 
@@ -69,7 +69,7 @@ A client whose EE numbers improve year-over-year — and who can show you helped
 
 **How to use it.** Generate quarterly per client. Open `/dashboard/recruiter/bbbee`, pick the client and time range, send the PDF to the client for inclusion in their B-BBEE certification renewal evidence pack.
 
-![[13-raw/screenshots/r-ch28-bbbee-scorecard-tracker.png]]
+![[r-ch28-bbbee-scorecard-tracker.png]]
 
 B-BBEE (Broad-Based Black Economic Empowerment) is a separate framework — it scores companies on transformation across multiple "pillars" (ownership, management control, skills development, enterprise development, socio-economic development). Companies need a B-BBEE level (1 best, 8 worst) to qualify for government tenders, supply major corporates, and access procurement preferences.
 
@@ -115,13 +115,13 @@ When your client renews their B-BBEE certification (annually), they need to prov
 
 **How to use it.** From `/dashboard/recruiter/bbbee` click **Generate Transformation Statement**. Pick the client or tender, the relevant pillars to emphasise, and the tone. Edit the draft, sign off, attach to the proposal.
 
-![[13-raw/screenshots/r-ch28-transformation-statement-output.png]]
+![[r-ch28-transformation-statement-output.png]]
 
 ### Blind Hiring (callback)
 
 Two-line callback: the Blind Hiring toggle that strips identifying information during screening — covered in [[01 How-To Documents/recruiter/17-screening-tools|Chapter 17]] — is the operational lever that *produces* the transformation numbers your B-BBEE and EE reports show. Compliance reporting without bias-reduction at intake is just measuring the leak.
 
-![[13-raw/screenshots/r-ch28-blind-hiring-toggle.png]]
+![[r-ch28-blind-hiring-toggle.png]]
 
 ## 3. Audit Trail — `/dashboard/recruiter/audit-trail`
 
@@ -137,8 +137,13 @@ The Audit Trail is the immutable activity log for your entire agency. Every acti
 - Settings changed
 - Data exports
 - DSAR fulfilments
+- **AI agent activity** — every tool call invoked by Linda or any other agent on the platform, with full input and output detail (the prompt the agent received, the function it called, the data that came back, the response it produced)
 
 The trail is immutable — once written, it cannot be altered. Even an Admin user cannot edit historical entries. This is the architecture that makes the audit defensible to a third party.
+
+### Why AI tool-call logging matters
+
+When a candidate or client asks "how did the AI make that recommendation?", you can answer specifically. Open the audit trail filtered to the relevant record and you'll see the full chain: the inputs the agent had, each tool it called, what each tool returned, and how the final output was assembled. That transforms AI-assisted decisions from a black box into a defensible, reviewable record — which is the only way an AI-assisted screening decision survives scrutiny under POPIA, the EEA, or a CCMA referral.
 
 ### How to search the audit trail
 
@@ -151,7 +156,7 @@ The trail is immutable — once written, it cannot be altered. Even an Admin use
    - **Specific record ID** (e.g. all activity on candidate Thandi M's record)
 3. Each entry shows: timestamp, user, action, object, before/after state where applicable, IP address.
 
-![[13-raw/screenshots/r-ch28-audit-trail-timeline.png]]
+![[r-ch28-audit-trail-timeline.png]]
 
 ### Three scenarios where the audit trail saves you
 

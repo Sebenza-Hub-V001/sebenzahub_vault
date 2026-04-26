@@ -14,7 +14,7 @@ The single most reliable signal that someone is going to be a strong candidate i
 
 Sebenza Hub has two AI tools for this: **AI Company Research** for the company itself, and **Interviewer Intelligence** for the specific people you'll be sitting in front of. Use the company tool every time. Use the interviewer tool once interviews get serious.
 
-![[13-raw/screenshots/i-ch14-company-research-landing.png]]
+![[i-ch14-company-research-landing.png]]
 
 ## When to do company research
 
@@ -31,7 +31,7 @@ These are very different sessions. The first is triage. The second is preparatio
 
 Before you even add a job to favourites, glance at the company. You're looking for red flags or clear deal-breakers, not full understanding.
 
-### AI Company Research — _Tier: Standard_
+### AI Company Research — _Tier: see Pricing_
 
 **What this feature is.** AI Company Research is a pre-interview briefing on a target company. It pulls together recent news, strategy, leadership, culture signals, and interview-ready talking points so you arrive informed instead of guessing. It works for both the 5-minute pre-application skim and the 45-minute pre-interview deep dive.
 
@@ -46,7 +46,7 @@ Before you even add a job to favourites, glance at the company. You're looking f
 - **Recent news and announcements**
 - **Talking points** — specific things you can naturally raise in conversation
 
-![[13-raw/screenshots/i-ch14-company-report.png]]
+![[i-ch14-company-report.png]]
 
 Things to look for in 5 minutes:
 
@@ -81,25 +81,24 @@ Notes from this read are gold for your answers. If the JD says "we move fast and
 
 If you know the names of the interviewer(s) — and you usually do once the interview is scheduled — look them up. Sebenza Hub has a dedicated tool for exactly this.
 
-### Interviewer Intelligence — _Tier: Premium_
+### Interviewer Intelligence — _Tier: see Pricing_
 
 **What this feature is.** Interviewer Intelligence researches the specific person who will be interviewing you — their career background, publications, interview history, and rapport-building points. It pulls together the kind of profile most candidates only assemble after an hour of LinkedIn stalking, and it surfaces angles you'd miss on your own.
 
 **Why it matters.** An interview with a partner who went to UCT Law goes very differently from one with a Wits engineering grad. Tailored intelligence turns a generic pitch into a warm conversation — and at senior levels, that warmth is often the deciding factor between two technically strong candidates.
 
-**How to use it.** Once you know who's interviewing you, run Interviewer Intelligence on each name. Read what comes back. You're looking for:
+**How to use it.** Open **Interview Scheduling** (`/dashboard/individual/interview-scheduling`), open the booked interview, and switch to the **Interviewer** tab. Enter each interviewer's name. The platform pulls together what it can find. You're looking for:
 
 - Their role at the company and how long they've been there
 - What they did before (often more revealing than what they do now)
 - Anything they've published — blog posts, talks, LinkedIn posts
 - Shared connections, alma maters, prior employers — natural rapport hooks
-- Their interview style, where the data exists
 
 You're not building a dossier. You're building enough context to ask one good question and to read the room.
 
-![[13-raw/screenshots/i-ch14-interviewer-intel-card.png]]
+![[i-ch14-interviewer-intel-card.png]]
 
-If you're not on Premium, do the same lookups manually on LinkedIn. It takes longer but the principle is the same.
+If the interviewer's online footprint is small, the result will be thin — fall back to manual LinkedIn lookups for those.
 
 ### Step 4 — Recent news and momentum
 
@@ -129,9 +128,9 @@ These questions:
 - Show you're already thinking about the role in context, not as an abstract job
 - Get you genuinely useful information about whether you want the job
 
-Write the two questions down before the interview. Memorise them. Use them. (If you generated questions using **Questions to Ask** from Chapter 13, layer the company-specific intel on top of those.)
+Write the two questions down before the interview. Memorise them. Use them. (If you generated questions using the **Q's to Ask** tab on Interview Scheduling, layer the company-specific intel on top of those.)
 
-![[13-raw/screenshots/i-ch14-talking-points.png]]
+![[i-ch14-talking-points.png]]
 
 ## Using research during the interview
 
@@ -160,17 +159,17 @@ Company research feeds back into the Interview Simulator (Chapter 13). Once you 
 
 - [ ] Ran AI Company Research on at least one upcoming interview
 - [ ] Re-read the original JD carefully
-- [ ] Looked up at least one of the interviewers (Interviewer Intelligence on Premium, or LinkedIn manually)
+- [ ] Looked up at least one of the interviewers (Interviewer Intelligence on Interview Scheduling, or LinkedIn manually)
 - [ ] Wrote down at least two specific questions to ask
 - [ ] Updated Application Notes with what you learned
 - [ ] Did a final Interview Simulator session with the company context
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | AI Company Research | Standard |
-| 2 | Interviewer Intelligence | Premium |
+| # | Feature |
+|---|---------|
+| 1 | AI Company Research |
+| 2 | Interviewer Intelligence |
 
 ## Next chapter
 

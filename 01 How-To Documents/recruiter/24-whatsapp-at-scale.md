@@ -10,7 +10,7 @@ user-types: [recruiter]
 
 # Chapter 24 — WhatsApp at scale: Apply, Command Center, Campaigns
 
-WhatsApp is how South Africans communicate. Email response rates here are 20–30%. WhatsApp response rates are 60–80%. If you're recruiting in South Africa and not using WhatsApp seriously, you're competing with one hand tied behind your back. Sebenza Hub takes WhatsApp seriously — there are **16 dedicated WhatsApp tabs** in the recruiter dashboard, more than any other single feature category. This chapter explains the three you'll use most: **WhatsApp-First Apply** (the application channel), the Command Center (your conversation hub), and **WhatsApp Campaigns** (bulk outreach). Two related features — WhatsApp Job Distribution (Chapter 11) and WhatsApp Messages (Chapter 22) — get brief callbacks below.
+WhatsApp is how South Africans communicate. Email response rates here are 20–30%. WhatsApp response rates are 60–80%. If you're recruiting in South Africa and not using WhatsApp seriously, you're competing with one hand tied behind your back. Sebenza Hub takes WhatsApp seriously — your recruiter sidebar surfaces **three WhatsApp pages**: WhatsApp Apply, the Command Center, and Campaigns. Behind those, the platform team manages the deeper WhatsApp surface (templates, opt-outs, broadcasts, quality, costs) on the admin side; you'll feel its effects without configuring it yourself. This chapter explains the three you'll use most: **WhatsApp-First Apply** (the application channel), the Command Center (your conversation hub), and **WhatsApp Campaigns** (bulk outreach). Two related features — WhatsApp Job Distribution (Chapter 11) and WhatsApp Messages (Chapter 22) — get brief callbacks below.
 
 ## Where it lives
 
@@ -20,7 +20,7 @@ WhatsApp is how South Africans communicate. Email response rates here are 20–3
 | `/dashboard/recruiter/whatsapp-bot` | The WhatsApp Command Center — manage all WA conversations |
 | `/dashboard/recruiter/whatsapp-campaigns` | Bulk WhatsApp campaigns |
 
-These three are the day-to-day surfaces. The other 13 WhatsApp tabs handle template approvals, opt-out management, broadcast configuration, integration settings, and analytics — most are configure-once-and-forget.
+These three are your day-to-day surfaces. Deeper WhatsApp configuration — template approvals, opt-out management, broadcast lists, integration settings, quality monitoring, and per-message cost tracking — runs on the admin side and is not part of your recruiter sidebar. Most of it is configure-once-and-forget at the platform level; you'll see the effects without touching the controls.
 
 ## Before anything else: WhatsApp Business API and POPIA
 
@@ -43,7 +43,7 @@ WhatsApp for recruiting is **not** the same as personal WhatsApp on your phone. 
 
 **How to use it.** Enable on a job from its screening configuration (Chapter 15). The job listing shows an **Apply via WhatsApp** button alongside the standard apply button. The rest of this section walks through how the flow runs.
 
-![[13-raw/screenshots/r-ch24-whatsapp-apply-6-languages.png]]
+![[r-ch24-whatsapp-apply-6-languages.png]]
 
 WhatsApp Apply lets candidates apply for a job by sending a WhatsApp message instead of filling out an application form. For high-volume roles where the candidate pool is mobile-first (entry-level, hospitality, retail, blue-collar trades), this is a step change in application volume.
 
@@ -60,7 +60,7 @@ WhatsApp Apply lets candidates apply for a job by sending a WhatsApp message ins
 5. Their answers are captured as a structured application in your Pipeline.
 6. The candidate gets a confirmation and is opted in to further WhatsApp communication for this role.
 
-![[13-raw/screenshots/r-ch24-whatsapp-command-center.png]]
+![[r-ch24-whatsapp-command-center.png]]
 
 ### When to use it
 
@@ -99,6 +99,8 @@ If your agency has multiple recruiters, conversations can be auto-routed:
 
 When you go on leave, mark yourself unavailable in the Command Center settings. Your active conversations auto-reassign to the team member who covers your desk, with a brief context note.
 
+> **The Command Center now runs on Linda.** WhatsApp Command Center conversations are powered by Linda, the platform's agent layer (introduced in Chapter 23). That means adaptive multi-turn handling — Linda can hold context across a longer conversation, fetch the candidate's record when needed, and hand off to a human when she's out of her depth. Every tool she invokes is recorded in the Audit Trail (Chapter 28), so the WhatsApp side of your activity is as defensible as anything else on the platform.
+
 ## 3. WhatsApp Campaigns — `/dashboard/recruiter/whatsapp-campaigns`
 
 ### WhatsApp Campaigns — _Tier: Premium_
@@ -109,7 +111,7 @@ When you go on leave, mark yourself unavailable in the Command Center settings. 
 
 **How to use it.** Build the campaign in `/dashboard/recruiter/whatsapp-campaigns` (full walkthrough below). Always use a WhatsApp-approved template. Always include opt-out language. Always send in business hours, never weekends.
 
-![[13-raw/screenshots/r-ch24-whatsapp-campaign-builder.png]]
+![[r-ch24-whatsapp-campaign-builder.png]]
 
 Campaigns are bulk WhatsApp messages sent to a target audience — your equivalent of an email blast, but on the channel where people actually read.
 
@@ -133,7 +135,7 @@ Campaigns are bulk WhatsApp messages sent to a target audience — your equivale
 6. Estimate the cost (visible before you click send)
 7. Send
 
-![[13-raw/screenshots/r-ch24-audience-segmentation.png]]
+![[r-ch24-audience-segmentation.png]]
 
 ### The cost reality
 
@@ -152,7 +154,7 @@ When a candidate opts out, the platform:
 
 You cannot manually re-add someone who opted out. They have to explicitly opt back in via a fresh message.
 
-![[13-raw/screenshots/r-ch24-campaign-analytics-dashboard.png]]
+![[r-ch24-campaign-analytics-dashboard.png]]
 
 ## Cross-references to other WhatsApp features
 
@@ -189,28 +191,22 @@ Three sentences. Maybe four. WhatsApp is not email. If you're writing more than 
 
 Always reference something specific to the candidate. "We met at PyConZA", "you mentioned wanting to leave [current company] when we last spoke", "your Postgres background fits this perfectly." Generic messages get the same fate as generic emails — ignored.
 
-## The 16 WhatsApp tabs (briefly)
+## What lives on the admin side
 
-For completeness, the full list of WhatsApp-related dashboard pages:
+For completeness, here's the deeper WhatsApp surface that supports the three pages above. None of these are in your recruiter sidebar — the platform team manages them centrally:
 
-- **WhatsApp Apply** — application via WhatsApp (covered above)
-- **WhatsApp Command Center** — manage conversations (covered above)
-- **WhatsApp Campaigns** — bulk messaging (covered above)
 - **WhatsApp Templates** — template library and approval status
 - **WhatsApp Opt-Outs** — suppression list management
 - **WhatsApp Broadcasts** — broadcast lists for one-to-many
 - **WhatsApp Auto-Responses** — automated replies to common questions
-- **WhatsApp Webhooks** — integration configuration
-- **WhatsApp Numbers** — manage your business numbers
+- **WhatsApp Numbers** — managed business numbers
 - **WhatsApp Quality** — quality rating from WhatsApp
 - **WhatsApp Costs** — per-message cost tracking
 - **WhatsApp Analytics** — performance metrics
 - **WhatsApp Compliance** — POPIA/consent audit
 - **WhatsApp Settings** — global configuration
-- **WhatsApp Test Sandbox** — test templates before sending live
-- **WhatsApp Help** — documentation and support
 
-You'll touch most of these only when configuring or troubleshooting. Day-to-day, the three covered in detail above are 95% of the work.
+You'll feel the effects of these without configuring them. If you need a new template approved or an opt-out manually reset, raise it via support and the admin team handles it.
 
 ## Pro tips
 

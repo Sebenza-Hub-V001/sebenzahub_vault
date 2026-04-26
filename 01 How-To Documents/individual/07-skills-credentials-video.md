@@ -14,7 +14,7 @@ A good CV gets you read. A complete profile gets you *picked*. This chapter is a
 
 You don't have to do all of this in one sitting. Treat the chapter as a checklist you work through over a few days. The order matters less than the fact that you eventually do all of it.
 
-![[13-raw/screenshots/i-ch07-profile-skills-nav.png]]
+![[i-ch07-profile-skills-nav.png]]
 
 ## Why this matters
 
@@ -23,6 +23,7 @@ Recruiters and Auto Match both filter on profile fields, not on the contents of 
 A complete profile also unlocks better matches. The more the platform knows about you, the better Auto Match's recommendations are in Chapter 9.
 
 ## Part A — Skills (with proficiency)
+
 
 You added 1–10 skills during onboarding (Chapter 3). Now expand and refine that list.
 
@@ -63,7 +64,7 @@ Come back to this once a quarter. People consistently over-rate skills they have
 
 Anyone can claim a skill. Verified skills are different — they carry a badge that's visible to recruiters and signals you've proven the skill against a standardised test.
 
-### Competency Tests — _Tier: Free_
+### Competency Tests — _Tier: see Pricing_
 
 **What this feature is.** Competency Tests are skills tests you can take either when a recruiter assigns one as part of an application or as a self-assessment from your profile. Scores are recorded on your profile and visible to recruiters reviewing you.
 
@@ -71,7 +72,7 @@ Anyone can claim a skill. Verified skills are different — they carry a badge t
 
 **How to use it.** Most tests come to you — when you apply to a role that uses one, the recruiter assigns it and you'll see it in your Inbox or Application Portal. To take a self-assessment, go to your **Profile** → **Skills** section, find a skill that has a test available, and click **Take test**. Tests are typically a mix of multiple choice and short structured tasks, timed, and run inside the browser. Your score sits next to the skill on your profile from then on.
 
-![[13-raw/screenshots/i-ch07-competency-test-interface.png]]
+![[i-ch07-competency-test-interface.png]]
 
 ### When to bother
 
@@ -89,7 +90,7 @@ Verify skills that are:
 4. Pass → a verified badge attaches to that skill on your profile.
 5. Fail → you can usually retake after a cooldown period.
 
-> The platform calls this "blockchain-style verification" because the result is tamper-evident — you can't fake a verified badge after the fact, and recruiters can trust them.
+Verified badges are tamper-evident — once issued, they can't be edited or back-dated, which is what makes them worth more to recruiters than self-rated skills.
 
 Plan to verify 2–5 skills, not all of them. Quality over quantity.
 
@@ -128,7 +129,7 @@ When a recruiter sees a credential with a trust badge attached, it removes a ste
 
 Once your existing credentials are loaded, the obvious next question is: *what should I get next?* Sebenza Hub answers that with two related tools — one diagnostic, one prescriptive.
 
-#### Credential Gap Analysis — _Tier: Standard_
+#### Credential Gap Analysis — _Tier: see Pricing_
 
 **What this feature is.** Credential Gap Analysis compares your credentials — qualifications, certifications, NQF levels — against the typical requirements for your target roles in the South African market. The output is a ranked list of gaps: which credentials you're missing, how often the missing credentials block applications in your target band, and what alternatives might count.
 
@@ -136,22 +137,12 @@ Once your existing credentials are loaded, the obvious next question is: *what s
 
 **How to use it.**
 
-1. Go to **Credential Gap Analysis** (`/dashboard/individual/credential-gap-analysis`).
-2. Confirm the target role(s) you're aiming for. The analysis pulls from your profile preferences, but you can adjust them per run.
+1. Open **Credentials** (`/dashboard/individual/credentials`) and switch to the **Match** tab — that's where the gap analysis lives.
+2. Confirm the target role(s), industry, and experience level you're aiming for. The analysis pulls from your profile preferences, but you can adjust them per run.
 3. Run the analysis. Results come back with each gap categorised as critical, useful, or nice-to-have.
 4. Cross-reference with your own market research — the AI doesn't know about regional nuances or specific employers' quirks.
 
-![[13-raw/screenshots/i-ch07-credential-gap-output.png]]
-
-#### Credential Roadmap — _Tier: Premium_
-
-**What this feature is.** Credential Roadmap is a visual, time-sequenced plan of which credentials to pursue and in what order. It includes providers, timelines, cost estimates, and the projected job-market payoff at each step — so the path from your current state to your target role becomes a concrete sequence rather than an open-ended ambition.
-
-**Why it matters.** Credentials take months or years and can't be redone — choosing the wrong sequence is expensive in both money and time. A roadmap turns lifelong-learning anxiety into a plan with milestones you can actually measure against. This is Premium because it's the kind of thing serious career-changers will pay for once and follow for two years.
-
-**How to use it.** Open **Credential Roadmap** (`/dashboard/individual/credential-roadmap`) — it builds on top of the gap analysis. Pick the target role, set a realistic time horizon (12 months, 24 months, longer), and the platform generates a sequenced plan. Treat it as a draft: validate provider costs and timelines yourself before committing, and revisit the roadmap every six months as your situation and the market shift.
-
-![[13-raw/screenshots/i-ch07-credential-roadmap-timeline.png]]
+![[i-ch07-credential-gap-output.png]]
 
 ## Part D — Video Profile (optional but powerful)
 
@@ -186,7 +177,7 @@ That's it. Don't read from a script — practise three times and then record. Si
 2. Either record directly in the browser or upload a video file you've recorded elsewhere.
 3. Preview it. If it makes you cringe in a fixable way, re-record. If it's just first-time-on-camera awkwardness, post it anyway — it's still better than no video.
 
-![[13-raw/screenshots/i-ch07-video-profile-recorder.png]]
+![[i-ch07-video-profile-recorder.png]]
 
 ## Part E — Portfolio (only if relevant)
 
@@ -222,17 +213,15 @@ The next chapter (Chapter 8) covers what's *visible* and what isn't, and the pri
 - [ ] Taken at least one Competency Test for a self-assessment
 - [ ] Uploaded all current credentials (certs, degrees, licences) with expiry dates set
 - [ ] Run Credential Gap Analysis at least once to see what's missing
-- [ ] If on Premium and serious about a career step, generated a Credential Roadmap
 - [ ] Decided whether you need a Video Profile and recorded one if so
 - [ ] Decided whether you need a Portfolio and built one if so
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | Competency Tests | Free |
-| 2 | Credential Gap Analysis | Standard |
-| 3 | Credential Roadmap | Premium |
+| # | Feature |
+|---|---------|
+| 1 | Competency Tests |
+| 2 | Credential Gap Analysis |
 
 ## Next chapter
 

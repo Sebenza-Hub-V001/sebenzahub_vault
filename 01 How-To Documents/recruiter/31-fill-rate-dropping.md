@@ -41,7 +41,7 @@ Offer → Placed      85%           75%       slight drop
 
 In this example, the drop is between Screening and Interview. That's where you investigate, not at sourcing or offers.
 
-![[13-raw/screenshots/r-ch31-fill-rate-trend-diagnostic.png]]
+![[r-ch31-fill-rate-trend-diagnostic.png]]
 
 The funnel **localises** the problem. Without it, you're guessing.
 
@@ -60,13 +60,13 @@ You're looking for patterns across multiple jobs, not just one. If three jobs al
 
 **Try: #131 Requirement Restriction Analyzer _(Standard)_.** Why this helps in this scenario: it scores each requirement on the Job Description for how much it shrinks the candidate pool, so you can show the client exactly which "nice-to-have" is killing the fill rate. Pair with the client conversation in [[01 How-To Documents/recruiter/33-client-unhappy-calibre|Chapter 33]].
 
-![[13-raw/screenshots/r-ch31-requirement-restriction-flags.png]]
+![[r-ch31-requirement-restriction-flags.png]]
 
 ### Step 4 — Check sourcing channel effectiveness
 
 In `/dashboard/recruiter/analytics`, look at **source effectiveness** — which channels brought you placements last quarter vs this one. If your top channel has gone quiet (LinkedIn algorithm change, Talent Pool gone stale, AI Search returning weak matches), that's the cause.
 
-**Try: #114 Search Market Pulse _(Premium)_.** Why this helps in this scenario: it analyses your saved-search criteria against live SA market signals — candidate supply, demand shifts, salary movement, geographic hotspots — so you can see whether the channel went quiet or whether the market moved. Lives at `/dashboard/recruiter/location-intel` adjacent to Location Intel ([[01 How-To Documents/recruiter/29-career-site-brand|Chapter 29]]).
+**Try: #114 Search Market Pulse _(Premium)_.** Why this helps in this scenario: it analyses your saved-search criteria against live SA market signals — candidate supply, demand shifts, salary movement, geographic hotspots — so you can see whether the channel went quiet or whether the market moved. Run it from any saved search on `/dashboard/recruiter/candidates` (full walkthrough in [[01 How-To Documents/recruiter/12-sourcing-channels|Chapter 12]]).
 
 **Try: #134 Screening Market Intelligence _(Premium)_.** Why this helps in this scenario: it tells you what candidates for the affected role *currently* look like — salary bands, supply depth, competitor activity — so you know if your offer or sourcing footprint is now off-market. Surface inside the screening config covered in [[01 How-To Documents/recruiter/15-screening-config|Chapter 15]].
 

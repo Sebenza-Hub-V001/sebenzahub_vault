@@ -38,7 +38,7 @@ Your Brand Page is the public-facing identity of your agency on Sebenza Hub. It'
 - **Case studies** — challenge / approach / result format
 - **Client testimonials** — pulled from your collected testimonials
 
-![[13-raw/screenshots/r-ch29-brand-content-library.png]]
+![[r-ch29-brand-content-library.png]]
 - **Video introduction** (Chapter 5)
 - **Team members** — public bios of your team (optional, controlled by visibility settings)
 - **Active jobs** — featured listings of your current open roles
@@ -80,7 +80,7 @@ A polished Brand Page closes deals. A blank or half-finished one loses them.
 7. **Analytics** — track visits, conversions, and per-job interest.
 8. **Publish.**
 
-![[13-raw/screenshots/r-ch29-career-site-builder-editor.png]]
+![[r-ch29-career-site-builder-editor.png]]
 
 The Career Site is your branded jobs page — where candidates land to browse your current roles. It's distinct from your Brand Page (which is for clients) — it's optimised for candidates, with job listings front and centre and a candidate-friendly application flow.
 
@@ -94,7 +94,7 @@ The Career Site is your branded jobs page — where candidates land to browse yo
 - Optional: team stories, culture content, employer brand assets
 - A "join our talent network" form (for candidates not interested in current roles but who want to be on your radar)
 
-![[13-raw/screenshots/r-ch29-published-career-site-preview.png]]
+![[r-ch29-published-career-site-preview.png]]
 
 ### Why a custom Career Site beats just using the Sebenza Hub job board
 
@@ -103,7 +103,7 @@ The Career Site is your branded jobs page — where candidates land to browse yo
 - **Conversion** — single-click application, no platform signup friction
 - **Talent network** — captures candidates who aren't ready to apply now but want to hear from you later
 
-![[13-raw/screenshots/r-ch29-custom-domain-settings.png]]
+![[r-ch29-custom-domain-settings.png]]
 
 ### Career Site as a top-of-funnel feeder
 

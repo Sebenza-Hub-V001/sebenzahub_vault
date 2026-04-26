@@ -10,7 +10,7 @@ user-types: [business]
 
 # Chapter 1 — What Sebenza Hub is for corporates
 
-![[13-raw/screenshots/c-ch01-corporate-dashboard-hero.png]]
+![[c-ch01-corporate-dashboard-hero.png]]
 
 Sebenza Hub is a South African recruitment platform built for three audiences: job seekers, recruitment agencies, and **corporate hiring teams**. As a **Corporate** customer — typically an enterprise of around 500+ employees with an in-house Talent Acquisition or HR function — you use it as your applicant tracking system, your internal mobility board, your vendor management layer for the agencies you contract, and your workforce-planning tool. It's where requisitions, candidates, hires, and headcount strategy all live in one place.
 
@@ -40,7 +40,7 @@ Specifically:
 - **Workforce planning aligned to budget.** Headcount forecasting, capacity modelling, and budget alignment integrated with the requisition system — so the plan and the execution share one source of truth. See [[01 How-To Documents/corporate/09-workforce-planning|Chapter 9]].
 - **SA compliance built in.** POPIA-compliant candidate data handling, B-BBEE and EE reporting, and an immutable audit trail. See [[02-concepts/compliance]].
 
-![[13-raw/screenshots/c-ch01-three-user-types-diagram.png]]
+![[c-ch01-three-user-types-diagram.png]]
 
 ## How Corporate differs from the Recruiter product
 
@@ -55,6 +55,8 @@ If your business model is genuinely both — for example, a large group with an 
 1. **Sebenza Hub is built around South African compliance.** POPIA, B-BBEE, and Employment Equity are not optional add-ons — they shape how candidate data is stored, how demographic fields are captured, and what you can report. This is good news if you've been retrofitting US-built ATS software for SA reality.
 2. **Your role is locked after onboarding.** When you sign up and choose **Business** (the role value Corporate accounts use), you can't later convert that login into a Recruiter or Individual account. Chapter 2 covers this before you click anything.
 3. **The Corporate product is built around a multi-stakeholder team.** Almost every workflow assumes you have recruiters, hiring managers, HRBPs, and interviewers using the system — not a single admin. Set team members up properly in Chapter 3 before you try to run a requisition.
+
+Every new Business account also gets a **30-day Premium trial** with the full feature set — Chapter 2 explains what that includes and what happens when it ends.
 
 ## What you'll be able to do by the end of this guide
 

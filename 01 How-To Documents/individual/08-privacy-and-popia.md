@@ -25,7 +25,7 @@ Both are under your control. The defaults are sensible but worth reviewing rathe
 
 You set this during onboarding. To change it now, go to **Settings** (`/dashboard/individual/settings`) and find Profile Visibility.
 
-![[13-raw/screenshots/i-ch08-popia-consent-toggles.png]]
+![[i-ch08-popia-consent-toggles.png]]
 
 | Setting | What happens |
 |---------|--------------|
@@ -97,13 +97,13 @@ You have the right to:
 | **Object to processing** | Say no to specific uses of your data | Settings → Privacy → Communication preferences |
 | **Withdraw consent** | Take back the consent you gave at onboarding | Settings → Privacy → Withdraw consent (this effectively closes your account) |
 
-![[13-raw/screenshots/i-ch08-dsar-request-form.png]]
+![[i-ch08-dsar-request-form.png]]
 
 > ⚠️ **Withdrawing consent ends your use of the platform.** Sebenza Hub cannot legally continue processing your data without consent, so this is a one-way door — your account will be closed and your data deleted (subject to whatever the platform is required to retain for legal reasons).
 
-### One open thing about POPIA on Sebenza Hub
+### If the platform updates its terms
 
-The wiki notes an open question about whether users are re-prompted for consent when the consent text changes (see [[02-concepts/compliance]]). If you're ever asked to re-consent to updated terms, that's why — read the new text before you accept.
+If Sebenza Hub materially changes its privacy policy or POPIA consent text, you may be asked to re-consent the next time you sign in. When that prompt appears, read the new text before you accept — the changes are usually small, but it's the moment when you have the most leverage to opt out of anything you don't agree with.
 
 ## Notification settings
 

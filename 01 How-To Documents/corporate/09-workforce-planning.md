@@ -24,11 +24,12 @@ This chapter covers a single feature in depth.
 
 1. Go to **Workforce Planning → Build plan** at the start of your fiscal year (or whenever you're ready). Import your existing org structure from the HRIS (see [[01 How-To Documents/corporate/08-integrations-and-reporting|Chapter 8]]) so the starting headcount is correct.
 
-![[13-raw/screenshots/c-ch09-workforce-planning-dashboard.png]]
+![[c-ch09-workforce-planning-dashboard.png]]
 
 2. For each department / role family / location, set the **target headcount by quarter** for the planning horizon (typically 12 months, with the next quarter at fine grain and outer quarters at coarser grain).
 
-![[13-raw/screenshots/c-ch09-headcount-forecast-chart.png]]
+![[c-ch09-headcount-forecast-chart.png]]
+
 3. For each planned slot, capture:
    - **Role family** (Engineering, Sales, Operations, etc.)
    - **Seniority band** (junior / mid / senior / lead)
@@ -39,7 +40,8 @@ This chapter covers a single feature in depth.
 5. As requisitions are created and hires happen, the system updates the **plan vs actual** view automatically. Each filled slot moves the actual headcount line; each open requisition counts as committed spend against budget.
 6. Run scenario modelling for the planning conversations. The system supports common scenarios — revenue +20% / -10% / flat — and shows the resulting headcount and budget implications. Use these as the spine of the quarterly business review with the CFO.
 
-![[13-raw/screenshots/c-ch09-capacity-vs-budget-alignment.png]]
+![[c-ch09-capacity-vs-budget-alignment.png]]
+
 7. Review the plan monthly with the relevant business leaders. Things change: roles get cancelled, urgent hires get added, end dates on contracts shift. The plan needs to absorb those changes in real time, not at year-end.
 
 **The integration that makes this work.** Workforce Planning is only as useful as its integration with the rest of the system. The HRIS connection (Chapter 8) gives you the starting headcount; the requisition system (Chapter 4) draws against planned slots; Contract Workers (Chapter 5) captures the contingent budget; Internal Mobility (Chapter 6) closes loops on internal-vs-external sourcing; Vendor Management (Chapter 7) attributes external-hire spend back to the budget line. Without these wired up, Workforce Planning is just another deck.

@@ -18,17 +18,17 @@ This is the chapter where Sebenza Hub stops being a job board and starts being a
 
 Before you get into the kanban boards and analytics, the foundation is the simple status list — every application you've made, where it sits today, what the recruiter has done with it.
 
-### Application Tracking — _Tier: Free_
+### Application Tracking — _Tier: see Pricing_
 
 **What this feature is.** Application Tracking is a status list of every job you've applied to, showing the recruiter's pipeline stage for each one — received, reviewed, shortlisted, interviewed, rejected, offered. The same record is visible to both you and the recruiter, so the status you see is the actual status, not a guess.
 
-**Why it matters.** Job seekers apply to dozens of roles in parallel, and losing track means missed interviews and rescinded offers. Keeping tracking on the Free tier is a trust signal — Sebenza Hub gets paid when you get hired, not when you click apply, and the tracker is the proof of that. Without this, the platform would be just another job board.
+**Why it matters.** Job seekers apply to dozens of roles in parallel, and losing track means missed interviews and rescinded offers. Keeping tracking accessible on the entry tier is a trust signal — Sebenza Hub gets paid when you get hired, not when you click apply, and the tracker is the proof of that. Without this, the platform would be just another job board.
 
 **How to use it.** Open **My Applications** (`/dashboard/individual/applications`) — the flat list view. Sort by date, status, or company. Click into any application to see full detail and history. This view is your daily ground truth; everything else in this chapter is built on top of it.
 
-![[13-raw/screenshots/i-ch12-my-applications-list.png]]
+![[i-ch12-my-applications-list.png]]
 
-> **Cross-reference:** The **Application Portal** (kanban view of the same data) is covered in Chapter 11 as a Standard feature. This chapter focuses on what you do with the data once you can see it.
+> **Cross-reference:** The **Application Portal** (the multi-tab control centre with kanban, wellbeing, momentum, and ghost detection) is introduced in Chapter 11. This chapter focuses on what you do with the data once you can see it.
 
 ## The pages you'll be living in
 
@@ -45,8 +45,8 @@ The other six pages are useful but not essential right away:
 - **Application Analytics** — patterns and success rates (covered below)
 - **Notes & Tags** — per-application personal notes
 - **Reminders** — follow-up reminders (covered below)
-- **Application Portal** — where employers send document/form requests
-- **Candidate Hub** — central landing page that aggregates everything
+- **Application Portal** — multi-tab applications control centre (introduced in Chapter 11; deeper section below)
+- **Candidate Hub** — eight-tab career command centre (deeper section below)
 - **Experience Surveys** — post-interview feedback you give to the platform
 
 ## Understanding the pipeline stages
@@ -85,7 +85,7 @@ This view is the most useful one when you have more than three or four applicati
 - Notice when you have nothing in interview stage (a sign you need to apply more, or apply better)
 - Notice when you have *many* in interview stage (a sign to slow down on new applications and focus on prep)
 
-![[13-raw/screenshots/i-ch12-application-tracker-kanban.png]]
+![[i-ch12-application-tracker-kanban.png]]
 
 Look at it once or twice a week, not every day.
 
@@ -149,9 +149,9 @@ A few things to know:
 
 ## Application Analytics
 
-### Analytics Dashboard (Individual) — _Tier: Standard_
+### Analytics Dashboard (Individual) — _Tier: see Pricing_
 
-**What this feature is.** The Analytics Dashboard tracks trends over time across your job hunt: application-to-response ratio, interview-to-offer conversion, skill-test percentiles, and how many recruiters have viewed your profile. Every metric is benchmarked so a number means something — "12% response rate" tells you whether you're above or below the typical Standard candidate in your role band.
+**What this feature is.** The Analytics Dashboard tracks trends over time across your job hunt: application-to-response ratio, interview-to-offer conversion, skill-test percentiles, and how many recruiters have viewed your profile. Every metric is benchmarked so a number means something — "12% response rate" tells you whether you're above or below the typical candidate in your role band.
 
 **Why it matters.** Data turns a frustrating, vibes-based job search into a diagnosable problem. "You got 40 profile views but no responses — your CV isn't matching" is far more actionable than guessing why nothing's working. Most candidates spend months making the same mistakes invisibly; the dashboard makes the mistakes visible enough to fix.
 
@@ -170,18 +170,34 @@ It shows:
 
 Use it to course-correct. If your response rate is below 5% across 20 applications, something is wrong — that's your cue to revisit Chapter 17 (troubleshooting). If response rates are fine but you're stuck at the screening stage, the problem is the CV or the cover letter rather than the targeting.
 
-![[13-raw/screenshots/i-ch12-analytics-dashboard.png]]
+![[i-ch12-analytics-dashboard.png]]
 
 Don't open Analytics every day. Look at it every two or three weeks, when you have enough new data to learn from.
 
 ## Application Portal and Candidate Hub
 
-These are two more pages in the Track section that you'll touch occasionally:
+These two pages look similar at first glance and are easy to confuse. They are different surfaces for different uses, and you'll touch each weekly.
 
-- **Application Portal** (`/dashboard/individual/portal`) — When an employer needs you to upload extra documents, fill in a pre-screening form, or answer a follow-up question, the request shows up here. Check it weekly.
-- **Candidate Hub** (`/dashboard/individual/candidate-hub`) — A central landing page that aggregates everything: profile status, active applications, upcoming interviews, new matches, and recommended actions ("what needs attention now"). If you only had time to look at one page per session, this would be it.
+### Application Portal (`/dashboard/individual/portal`)
 
-![[13-raw/screenshots/i-ch12-candidate-hub-overview.png]]
+The Application Portal is your day-to-day applications control centre. It opens on three tabs — **Applications**, **Offers**, **Analytics** — with both list and kanban views of the applications tab. Above the tabs, the page surfaces:
+
+- A **wellbeing check-in** card so you can record how the search is going. The platform uses the trend over time to flag burnout signs (rejection streaks, late-night application bursts, weekly volume).
+- **Ghost-job alerts** for applications that look stale, dormant, or unlikely to move.
+- A **momentum gauge** with current streak, longest streak, and weekly application velocity over the last 8 weeks.
+- AI-drafted communications — follow-ups, status nudges, polite reminders — that you can edit before sending.
+
+Open the Portal whenever you need to act on a specific application: change a stage, draft a follow-up, log an offer. It's the surface where work happens.
+
+### Candidate Hub (`/dashboard/individual/candidate-hub`)
+
+The Candidate Hub is the wider career command centre. It uses eight tabs — **Overview**, **Intelligence**, **Applications**, **Practice Arena**, **Wellbeing**, **Skills**, **Profile & Docs**, **Achievements** — to pull together everything that's happening across your hunt: AI recommendations, recent application activity, momentum, weekly velocity, ghost alerts, practice prep, skill progress, profile completeness, and badges.
+
+If you only had time to look at one page per session, the Candidate Hub is the one — it's calibrated to surface "what needs attention now" rather than asking you to know where to look.
+
+A reasonable rhythm: open the **Candidate Hub** to plan the session, then drop into the **Application Portal** to do the work.
+
+![[i-ch12-candidate-hub-overview.png]]
 
 ## A weekly tracking ritual
 
@@ -203,15 +219,15 @@ This takes less than 20 minutes and prevents the "I have no idea where any of my
 - [ ] Set follow-up reminders for any application stuck in `Applied` for more than a week
 - [ ] Added a personal note to at least one application
 - [ ] Replied to any messages in your Inbox
-- [ ] (Standard+) Opened Application Analytics once you have 10+ applications
+- [ ] (paid tiers) Opened Application Analytics once you have 10+ applications
 - [ ] You have a weekly tracking ritual you'll actually stick to
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | Application Tracking | Free |
-| 2 | Analytics Dashboard (Individual) | Standard |
+| # | Feature |
+|---|---------|
+| 1 | Application Tracking |
+| 2 | Analytics Dashboard (Individual) |
 
 ## Part 3 complete
 

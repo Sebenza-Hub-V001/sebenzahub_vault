@@ -10,9 +10,9 @@ user-types: [business]
 
 # Corporate Training Manual
 
-A complete guide for in-house enterprise hiring teams on Sebenza Hub. Read Chapters 1–4 in order if you're new — they take you from signup through your first requisition. Use Chapters 5–9 as references for the parts of the platform you reach for at specific moments: contract hiring, internal mobility, vendor management, integrations, and workforce planning.
+A complete guide for in-house enterprise hiring teams on Sebenza Hub. Read Chapters 1–4 in order if you're new — they take you from signup through your first requisition. Use Chapters 5–13 as references for the parts of the platform you reach for at specific moments: contract hiring, internal mobility, vendor management, integrations, workforce planning, AI tooling, compliance, billing, and the internal knowledge base.
 
-> **Status:** First complete draft. All 9 chapters have body content.
+> **Status:** Expanded draft. 13 chapters covering the full Business surface, from signup to AI tooling, compliance, billing, and the knowledge base.
 
 ## How to use this guide
 
@@ -23,6 +23,10 @@ A complete guide for in-house enterprise hiring teams on Sebenza Hub. Read Chapt
 - **Managing external recruitment agencies?** Chapter 7.
 - **Wiring Sebenza into your stack and tuning reporting?** Chapter 8.
 - **Doing workforce planning?** Chapter 9.
+- **Looking at the AI surface?** Chapter 10.
+- **Compliance, audit, EE, B-BBEE, POPIA?** Chapter 11.
+- **Trial running out, finance asking about billing?** Chapter 12.
+- **Setting up the internal knowledge base?** Chapter 13.
 
 Every chapter ends with a **Checklist** — tick it off before moving on.
 
@@ -32,11 +36,11 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 
 1. [[01 How-To Documents/corporate/01-what-sebenza-hub-is-for-corporates|What Sebenza Hub is for corporates]]
 2. [[01 How-To Documents/corporate/02-creating-your-account|Creating your account]]
-3. [[01 How-To Documents/corporate/03-setting-up-your-org|Setting up your organisation: team, RBAC, SSO, branding, collaboration]]
+3. [[01 How-To Documents/corporate/03-setting-up-your-org|Setting up your organisation: team, RBAC, SSO, branding, notifications]]
 
 ## Part 2 — Run Hiring
 
-4. [[01 How-To Documents/corporate/04-your-first-requisition|Your first requisition: ATS and onboarding]]
+4. [[01 How-To Documents/corporate/04-your-first-requisition|Your first requisition: ATS, background checks, AI triage, and onboarding]]
 5. [[01 How-To Documents/corporate/05-contract-workers|Contract workers]]
 
 ## Part 3 — Talent Inside the Organisation
@@ -49,8 +53,15 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 
 ## Part 5 — Integrate, Report, Plan
 
-8. [[01 How-To Documents/corporate/08-integrations-and-reporting|Integrations and reporting: analytics, notifications, HRIS, API, support]]
+8. [[01 How-To Documents/corporate/08-integrations-and-reporting|Integrations and reporting: analytics, diversity, predictive, notifications, HRIS, API, support]]
 9. [[01 How-To Documents/corporate/09-workforce-planning|Workforce planning]]
+
+## Part 6 — AI, Compliance, Billing, Knowledge
+
+10. [[01 How-To Documents/corporate/10-ai-tooling-for-corporates|AI tooling for corporates]]
+11. [[01 How-To Documents/corporate/11-compliance-and-audit-trail|Compliance and audit trail]]
+12. [[01 How-To Documents/corporate/12-trial-and-billing-lifecycle|Trial and billing lifecycle]]
+13. [[01 How-To Documents/corporate/13-knowledge-base|Knowledge base]]
 
 ## References
 

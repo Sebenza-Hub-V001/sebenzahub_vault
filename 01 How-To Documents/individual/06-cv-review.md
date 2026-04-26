@@ -14,7 +14,7 @@ You have a CV in the system. Before you start applying to jobs, run it through C
 
 Plan on about 30 minutes the first time — most of that spent acting on the feedback, which is the point.
 
-![[13-raw/screenshots/i-ch06-cv-review-nav.png]]
+![[i-ch06-cv-review-nav.png]]
 
 ## What CV Review actually is
 
@@ -41,23 +41,26 @@ The fourteen lenses are:
 
 A **History** tab tracks every review run so you can see your score climb over time and confirm that yesterday's rewrites actually moved the needle.
 
+> **Re-running within a session window doesn't burn another credit.** If you re-open the same review tab on the same CV inside a session window, the platform reuses the cached result rather than calling the AI again. Credits are only consumed when you run a fresh analysis on a changed CV or after the session window has expired.
+
 ## Step 1 — Open the dashboard and pick the CV
 
-### AI CV Review — _Tier: Metered — Standard: 10/mo · Premium: 50/mo_
+### AI CV Review — _Tier: see Pricing_
 
 **What this feature is.** AI CV Review is the multi-lens scoring suite above. Each tab is a separate AI call against your CV — they share results but you only spend a credit on the tabs you actually run. Each run produces structured feedback you can act on directly inside the page.
 
-**Why it matters.** Most candidates rewrite their CV before every senior application, and the metering matches that cadence. A focused rewrite cycle is usually 3–5 review runs across different tabs — Standard's 10/month covers two full rewrite passes per month, Premium's 50/month covers people who tailor a fresh CV per application.
+**Why it matters.** Most candidates rewrite their CV before every senior application, and the metering matches that cadence. A focused rewrite cycle is usually 3–5 review runs across different tabs — paid tiers give you a monthly allowance that covers full rewrite passes, with the higher tier sized for people who tailor a fresh CV per application. See Pricing for the current per-month limits.
 
 **How to use it.**
 
 1. Go to **CV Review** (`/dashboard/individual/cv-review`).
 2. Pick the CV you want reviewed from the dropdown. If you have more than one CV from Chapter 5, start with your default.
+
+![[i-ch06-cv-review-select-dialog.png]]
+
 3. Type in your **target role** (e.g. *Senior Product Manager*) and **target industry** (e.g. *FinTech*). A few of the tabs — Keywords, Benchmark, JD Match — won't do anything useful without these. Start with them filled in.
 4. Click **Run Overview** to generate the baseline section-by-section score. The AI takes about 30 seconds to a minute. The Overview tab populates first; the score ring at the top of the page shows your overall number.
 5. From there, click into any of the other 13 tabs. Each one runs its own analysis on demand — you don't pay for analyses you don't open.
-
-![[13-raw/screenshots/i-ch06-cv-review-select-dialog.png]]
 
 Free tier users can't run the review at all — the upgrade prompt appears when you click Run.
 
@@ -65,7 +68,7 @@ Free tier users can't run the review at all — the upgrade prompt appears when 
 
 The instinct most people have when they see AI feedback is to skim, feel mildly attacked, and close the tab. Don't do that. Read the feedback the way you'd read notes from a friend in HR who already gets paid to do this: assume the criticism is right unless you have a specific reason to disagree.
 
-![[13-raw/screenshots/i-ch06-cv-review-score-card.png]]
+![[i-ch06-cv-review-score-card.png]]
 
 The Overview tab leads with **Quick Wins** — a small list of changes you can make in 30 seconds that move the score immediately. Do those first. Then work through the per-section scores. For each piece of feedback, ask:
 
@@ -101,20 +104,20 @@ Open My CVs in another tab (or the CV Builder if you want the live preview). Edi
 
 The bullet-quantification step is the one most people fumble. There's a separate tool for that.
 
-### Resume Bullet Writer — _Tier: Standard_
+### Bullet Transformer — _Tier: see Pricing_
 
-**What this feature is.** Resume Bullet Writer rewrites vague experience bullets — "Managed social media" — into impact bullets — "Grew LinkedIn followers 340% in 6 months, driving 42 qualified inbound leads" — using your actual details. You feed it the weak bullet plus any context you have, and it returns a tighter, results-led version.
+**What this feature is.** Bullet Transformer rewrites vague experience bullets — "Managed social media" — into impact bullets — "Grew LinkedIn followers 340% in 6 months, driving 42 qualified inbound leads" — using your actual details. You feed it the weak bullet plus any context you have, and it returns a tighter, results-led version.
 
 **Why it matters.** The difference between a CV that gets interviews and one that doesn't is the bullets — specifically whether they show impact in numbers. Most candidates know their bullets are weak but freeze when asked to rewrite them. This tool unsticks that, transforming average CVs into ones that actually generate interviews.
 
 **How to use it.**
 
 1. The fastest path is the **Before/After** tab in CV Review — it pre-loads the bullets it identified as weak and proposes rewrites side-by-side. Pick the rewrites you like, copy them out.
-2. For one-off bullets, open Bullet Writer directly from the **Coaching** area of your dashboard. Paste the weak bullet, add any extra context the AI doesn't have (the actual numbers, the team size, the specific outcome). The more truth you give it, the better the rewrite.
+2. For one-off bullets, open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Bullet Transformer** tab. Paste the weak bullet, add any extra context the AI doesn't have (the actual numbers, the team size, the specific outcome). The more truth you give it, the better the rewrite.
 3. Pick from the suggested rewrites, or use one as a starting point and edit. Paste the final version into your CV in My CVs.
 4. Repeat for every weak bullet in the same review pass — don't switch contexts back and forth.
 
-![[13-raw/screenshots/i-ch06-bullet-writer-before-after.png]]
+![[i-ch06-bullet-writer-before-after.png]]
 
 ## Step 5 — Re-run the review
 
@@ -162,17 +165,17 @@ Be aware of the limits:
 - [ ] Read the feedback properly, end to end
 - [ ] Ran at least three of the specialised tabs (ATS, Keywords, Achievements, Recruiter Lens, etc.)
 - [ ] Made at least three substantive edits based on the feedback
-- [ ] Used Bullet Writer (or the Before/After tab) to rewrite at least two weak bullets
+- [ ] Used Bullet Transformer (or the Before/After tab) to rewrite at least two weak bullets
 - [ ] Re-ran the Overview and confirmed the score moved
 - [ ] Looked at the Action Plan tab to plan the next round of changes
 - [ ] You feel comfortable that your CV would survive a 15-second recruiter scan
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | AI CV Review | Metered — Standard: 10/mo · Premium: 50/mo |
-| 2 | Resume Bullet Writer | Standard |
+| # | Feature |
+|---|---------|
+| 1 | AI CV Review |
+| 2 | Bullet Transformer |
 
 ## Next chapter
 

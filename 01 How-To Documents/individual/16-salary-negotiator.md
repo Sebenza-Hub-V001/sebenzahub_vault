@@ -2,7 +2,7 @@
 title: "Chapter 16 — Salary Negotiator"
 type: concept
 created: 2026-04-09
-updated: 2026-04-20
+updated: 2026-04-26
 tags: [how-to, individual, salary, negotiation, ai, salary-insights, coaching]
 status: active
 user-types: [individual]
@@ -12,24 +12,21 @@ user-types: [individual]
 
 You've decided to negotiate the offer. This chapter is about doing that *well*: building a real case grounded in market data, using the AI coaching tools to prepare specific talking points, and handling the conversation without burning the relationship.
 
-Sebenza Hub layers four features around the salary side of negotiation. Use them in order:
+Sebenza Hub gives you three surfaces for this work:
 
-1. **Salary Insights** — the data layer. Numbers you can defend.
-2. **Salary Negotiation Coach** — a conversational AI that helps you think through strategy for *your* offer.
-3. **Salary Negotiation Coaching** — a structured, step-by-step prep workflow you walk through before the live call.
-4. **Negotiation Coach** — an interactive live roleplay with realtime feedback on your language as you speak.
+1. **Salary Insights** (`/dashboard/individual/salary-insights`) — the data layer. The numbers you'll defend your counter with.
+2. **Salary Negotiator** (`/dashboard/individual/salary-negotiator`) — the multi-tab toolkit that turns those numbers into a counter, a message, and rehearsed conversation.
+3. **Salary Coach** and **Negotiation Sim** — two tabs inside **Coaching** (`/dashboard/individual/coaching`) for lighter-weight, conversational practice.
 
-These four are distinct features despite the overlapping names. The conversational coach (#2) is for thinking out loud; the structured coaching workflow (#3) is for forcing yourself through every prep step in order; the live Coach (#4) is the capstone — real-time feedback as you actually negotiate against a simulated hiring manager.
-
-If you're working through Chapter 15's Premium negotiation suite (Advisor → Playbook → Scenario → Roleplay), the tools in this chapter complement them. Chapter 15's tools focus on *deal structure and tactics*; this chapter's tools focus on *salary specifically* and on building skill at the conversation itself.
+Use them together. The Salary Negotiator is the structured workhorse; Salary Insights feeds it; the Coaching tabs are where you go when you want to think out loud rather than fill in fields.
 
 ## Step 1 — Open Salary Insights and find your number
 
-### Salary Insights — _Tier: Standard_
+### Salary Insights — _Tier: see Pricing_
 
 **What this feature is.** Salary Insights is ZAR-denominated salary benchmarking by role, seniority, city/province, industry, and company size, with negotiation guidance attached to the numbers. It's the data layer underneath every salary conversation you'll have on the platform.
 
-**Why it matters.** South African salary data is notoriously opaque — candidates regularly accept 20–30% below market because they don't know what the role actually pays. One well-grounded negotiation can pay for a year's Premium subscription many times over. Without this data, you're negotiating in the dark.
+**Why it matters.** South African salary data is notoriously opaque — candidates regularly accept 20–30% below market because they don't know what the role actually pays. One well-grounded negotiation can pay for a year's subscription many times over. Without this data, you're negotiating in the dark.
 
 **How to use it.** Open **Salary Insights** (`/dashboard/individual/salary-insights`) and search for the role + experience level + location combination that matches the offer. The platform shows:
 
@@ -47,65 +44,68 @@ Write down three numbers:
 
 Your floor should be at least at the 25th percentile for your role and experience. Your target should be near the median or slightly above. Your ceiling should be at the 75th percentile or above only if you have a strong reason (a competing offer, an unusually rare skill, or evidence the role is paid above market at this specific company).
 
-![[13-raw/screenshots/i-ch16-salary-insights-chart.png]]
+![[i-ch16-salary-insights-chart.png]]
 
-## Step 2 — Talk through strategy with Salary Negotiation Coach
+## Step 2 — Use the Salary Negotiator to build the counter
 
-### Salary Negotiation Coach — _Tier: Standard_
+### Salary Negotiator — _Tier: see Pricing_
 
-**What this feature is.** Salary Negotiation Coach is a conversational AI coach that walks through negotiation strategy for a specific offer — what to counter, how to frame it, and how to handle pushback. It's a chat interface, not a workflow: you describe your situation, it responds, you ask follow-up questions, and the strategy emerges from the conversation.
+**What this feature is.** The Salary Negotiator is a single page with multiple tabs covering every part of the negotiation process: market intel, strategy, offer analysis, scripts, simulator, and more. Instead of jumping between separate tools, you walk through the tabs in order.
 
-**Why it matters.** A 10-minute strategy conversation can add R30,000–R100,000 to an offer. Most candidates skip this step because they don't know what to ask — the conversational format means you don't need to know the right questions in advance. You just describe the offer, and the coach pulls the strategy out of you.
+**Why it matters.** Most candidates either skip preparation or pick at it randomly. Walking through the Negotiator's tabs forces you to confront every step that affects the conversation — market context, take-home pay, predictable objections, your own readiness — before you send a single message.
 
-**How to use it.** Open the coach and describe your offer in plain language: the numbers, what you want, what you're worried about. Ask questions as they come up:
+**How to use it.** Open `/dashboard/individual/salary-negotiator` and walk through the tabs in roughly this order:
+
+1. **Market Intel** — pulls the salary range for your role/level/location into the page so every later tab has a benchmark to anchor on.
+2. **Strategy Builder** — turns the offer details and your context (current package, competing offers, must-haves) into a recommended counter and the reasoning behind it.
+3. **Offer Analyzer** — breaks the offer into components (base, bonus, equity, benefits) and shows you which ones are above and below market.
+4. **Cost of Living** — adjusts the comparison for the city you'd be living in.
+5. **Take-Home** — converts the headline number to actual rand-in-pocket after tax and benefits, which is what you're really comparing.
+6. **Offer Matrix** — useful when you have more than one offer running. Lays them side by side with weighted scoring.
+7. **Counter-Offer** — drafts the actual counter-offer message you'll send, grounded in everything above.
+8. **Script Library** — phrases and openers for common moments in the conversation. Pick what feels natural; don't recite verbatim.
+9. **Objection Handler** — predicts the pushbacks you're most likely to hear ("budget is fixed", "already at the top of the band") and gives you a response to each.
+10. **Readiness** — a self-assessment that tells you whether you're actually prepared or just feel prepared.
+11. **Simulator** — practise the conversation against a simulated hiring manager that pushes back realistically. Use this the day before the real call.
+12. **Msg Analyzer** — paste a message you're about to send (or one you've received) and get feedback on tone, concessions, and what to change.
+13. **My Style** — a profile of your negotiation tendencies built from past sessions.
+14. **History** — every negotiation session you've run, so you can compare counters and outcomes.
+
+You don't have to use every tab. The minimum is **Market Intel → Strategy Builder → Counter-Offer → Simulator**. The other tabs are there when you need them.
+
+![[i-ch16-structured-prep-workflow.png]]
+
+## Step 3 — When you'd rather think out loud
+
+If structured tabs feel like overkill — or you want a second pair of eyes on a strategy you're already drafting — open **Coaching** (`/dashboard/individual/coaching`) and use one of two tabs:
+
+### Salary Coach — _Tier: see Pricing_
+
+**What this feature is.** The Salary Coach tab is a conversational AI that walks through negotiation strategy for a specific offer. You describe the situation; it asks follow-ups and helps you crystallise the counter. It's a chat interface, not a workflow.
+
+**Why it matters.** Sometimes you don't know which questions to ask the structured tools. The conversational format means you can describe the offer in plain language and let the coach pull the strategy out of you, then take what you've decided into the Salary Negotiator to formalise.
+
+**How to use it.** Open Coaching → **Salary Coach** tab. Describe the offer in plain language: the numbers, what you want, what you're worried about. Ask follow-ups:
 
 - "Is this a reasonable counter for a senior backend role in Cape Town?"
 - "How do I respond if they say the budget is fixed?"
 - "What's a good way to bring up the signing bonus without sounding greedy?"
 
-Use the conversation to crystallise *your* strategy. Don't just take the first answer — push back, ask follow-ups, ask the coach to challenge your reasoning. The output you want is clarity in your own head, not a transcript.
+Use the conversation to clarify your position. Then move into the Salary Negotiator to build the actual counter and message.
 
-![[13-raw/screenshots/i-ch16-negotiation-coach-chat.png]]
+![[i-ch16-negotiation-coach-chat.png]]
 
-## Step 3 — Force yourself through Salary Negotiation Coaching
+### Negotiation Sim — _Tier: see Pricing_
 
-### Salary Negotiation Coaching — _Tier: Standard_
+**What this feature is.** The Negotiation Sim tab is an interactive AI roleplay where you negotiate against a simulated hiring manager that pushes back realistically.
 
-**What this feature is.** Salary Negotiation Coaching is a structured, step-by-step prep workflow you walk through before a live call. Where the conversational Coach is open-ended chat, this is a guided sequence — counter strategy, scripts, and a "handleability assessment" that tells you whether you're actually ready or just feel ready.
+**Why it matters.** Reading about negotiation builds knowledge; live coaching builds skill. Practising the conversation against an AI that pushes back is the closest thing to the real thing without an actual offer on the line.
 
-**Why it matters.** Most candidates skip preparation because no one forces them through it. The structured workflow makes that impossible — you can't get to the end without producing the inputs. It's the discipline layer on top of the conversational coach's flexibility.
+**How to use it.** Open Coaching → **Negotiation Sim** tab. Set the scenario to match your real situation. Push through the awkward moments instead of restarting. The point isn't to find the "right" answer; it's to make the discomfort familiar so you don't freeze in the real thing. The Salary Negotiator's Simulator tab covers similar ground from inside the structured workflow — pick whichever entry point feels lower-friction.
 
-**How to use it.** Walk through the workflow start to finish. Do not skip steps even when you think you know the answer — the steps are designed to surface what you've missed. The workflow typically asks you to:
+![[i-ch16-live-coach-feedback.png]]
 
-- State your floor, target, and ceiling explicitly (from Salary Insights)
-- Write your opening counter line in your own words
-- Predict the three pushbacks you're most likely to face
-- Write your response to each pushback
-- Identify which non-cash items you'd accept as a fallback (start date, leave, training budget)
-
-By the end you have a one-page prep document. Print it or have it on a second screen during the live call.
-
-![[13-raw/screenshots/i-ch16-structured-prep-workflow.png]]
-
-## Step 4 — Rehearse live with Negotiation Coach
-
-### Negotiation Coach — _Tier: Premium_
-
-**What this feature is.** Negotiation Coach is an interactive AI session that roleplays the hiring manager *and* gives you realtime feedback on your language, concessions, and framing as you speak. It's the capstone of the salary-negotiation toolset — the difference between a candidate who knows the theory and one who's already made the mistakes safely.
-
-**Why it matters.** Reading about negotiation builds knowledge; live coaching builds skill. Realtime feedback means you catch yourself over-conceding, hedging unnecessarily, or breaking eye contact in the moment — not after the fact when the offer is already gone.
-
-**How to use it.** Use Negotiation Coach the day before the real conversation. Set the scenario to match your actual offer. Speak (or type) in real time as if it's the live call. The Coach responds in character as the hiring manager and surfaces feedback as you go — flagging things like:
-
-- "You apologised three times in that response — drop the apology"
-- "You gave up the signing bonus too early — keep it as a fallback"
-- "Your counter was clear, but you didn't anchor it on the market data"
-
-Take the feedback seriously even when it's uncomfortable. The whole point is to find your tells before the hiring manager does. (If you've already used **Negotiation Roleplay** from Chapter 15, treat Negotiation Coach as the salary-focused complement — Roleplay covers the broader deal structure; Coach drills the salary-specific language.)
-
-![[13-raw/screenshots/i-ch16-live-coach-feedback.png]]
-
-## Step 5 — Decide what to ask for
+## Step 4 — Decide what to ask for
 
 You have more levers than just base salary. Negotiate the package, not just the headline:
 
@@ -125,7 +125,7 @@ You have more levers than just base salary. Negotiate the package, not just the 
 
 A useful negotiating approach: ask for the base salary increase you want, *plus* one or two non-cash items. The non-cash items give the employer somewhere to land if they can't hit your salary number, and they often agree to some of them when they say no to others.
 
-## Step 6 — Have the conversation
+## Step 5 — Have the conversation
 
 Negotiate in writing, through the Inbox, unless the recruiter or hiring manager has explicitly invited a phone call. Written negotiation is calmer, easier to re-read, and creates a record everyone can refer back to.
 
@@ -180,21 +180,20 @@ For senior roles, executive roles, and roles in international or high-growth tec
 
 - [ ] Looked up market salary data for your role and location in Salary Insights
 - [ ] Wrote down your floor, target, and ceiling
-- [ ] Used Salary Negotiation Coach to talk through your strategy
-- [ ] Walked through Salary Negotiation Coaching to produce a one-page prep document
-- [ ] If on Premium: rehearsed at least one live session with Negotiation Coach
+- [ ] Worked through the Salary Negotiator's core tabs (Market Intel, Strategy Builder, Counter-Offer, Simulator)
+- [ ] Used the Salary Coach tab in Coaching at least once if you wanted to think out loud first
 - [ ] Identified non-cash items to bundle into the negotiation
 - [ ] Drafted your negotiation message in writing
 - [ ] You're prepared for both "yes" and "no"
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | Salary Insights | Standard |
-| 2 | Salary Negotiation Coach | Standard |
-| 3 | Salary Negotiation Coaching | Standard |
-| 4 | Negotiation Coach | Premium |
+| # | Feature |
+|---|---------|
+| 1 | Salary Insights |
+| 2 | Salary Negotiator (multi-tab toolkit) |
+| 3 | Salary Coach (Coaching tab) |
+| 4 | Negotiation Sim (Coaching tab) |
 
 ## Part 4 complete
 

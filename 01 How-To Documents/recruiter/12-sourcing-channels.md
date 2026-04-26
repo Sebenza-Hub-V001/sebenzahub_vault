@@ -38,7 +38,7 @@ Before any cold sourcing, search what you already have. Sebenza Hub layers four 
 
 **How to use it.** Open `/dashboard/recruiter/candidates`, set the filters, run the search. If you find yourself wishing for boolean operators or skill weighting, you've outgrown Basic — move to Advanced.
 
-![[13-raw/screenshots/r-ch12-candidate-search-results.png]]
+![[r-ch12-candidate-search-results.png]]
 
 ### Advanced Candidate Search — _Tier: Standard_
 
@@ -64,7 +64,7 @@ Before any cold sourcing, search what you already have. Sebenza Hub layers four 
 
 **How to use it.** Toggle **Hybrid** at the top of the candidate search. The query box accepts natural language; the filter sidebar still applies hard constraints.
 
-![[13-raw/screenshots/r-ch12-ai-hybrid-search.png]]
+![[r-ch12-ai-hybrid-search.png]]
 
 ### AI Job Search Parser — _Tier: Standard_
 
@@ -82,7 +82,7 @@ Before any cold sourcing, search what you already have. Sebenza Hub layers four 
 
 **How to use it.** Suggestions appear automatically below the results panel when the result count is low. Click any suggestion to apply it and re-run the search.
 
-![[13-raw/screenshots/r-ch12-smart-search-suggestions.png]]
+![[r-ch12-smart-search-suggestions.png]]
 
 ## 2. Saved searches and search-ops intelligence
 
@@ -104,7 +104,7 @@ Once you have searches you run repeatedly, the platform layers diagnostic and in
 
 **How to use it.** From any saved search, click **Market pulse**. The report shows trend lines and highlights material shifts. Set up a monthly pulse review for your top 3–5 saved searches.
 
-![[13-raw/screenshots/r-ch12-market-pulse-chart.png]]
+![[r-ch12-market-pulse-chart.png]]
 
 ### Competitive Heat Map — _Tier: Premium_
 
@@ -114,7 +114,7 @@ Once you have searches you run repeatedly, the platform layers diagnostic and in
 
 **How to use it.** From a search, click **Competitive heat map**. The map renders by location and shows competing employers, salary bands, and demand pressure. Use the insights when you advise a client on offer structure or talent timing.
 
-![[13-raw/screenshots/r-ch12-competitive-heat-map.png]]
+![[r-ch12-competitive-heat-map.png]]
 
 ### Talent Pool Generator — _Tier: Standard_
 
@@ -124,7 +124,7 @@ Once you have searches you run repeatedly, the platform layers diagnostic and in
 
 **How to use it.** Open `/dashboard/recruiter/talent-pool`, click **Generate pool**, type the criteria. The pool appears with all matching candidates pre-loaded. Chapter 14 covers what to do with pools after generation.
 
-![[13-raw/screenshots/r-ch12-talent-pool-generator-dialog.png]]
+![[r-ch12-talent-pool-generator-dialog.png]]
 
 ## 3. AI Search — putting it together
 
@@ -219,7 +219,7 @@ The AI doesn't violate POPIA — it surfaces publicly-available signals. But eve
 
 **How to use it.** Connect your LinkedIn account in `/dashboard/recruiter/settings` → **Integrations**. Once connected, sync runs automatically — new leads from LinkedIn appear in your candidate database, and existing candidate records are enriched with current LinkedIn data. Chapter 13 covers the LinkedIn-specific lead-gen flow on top of this sync.
 
-![[13-raw/screenshots/r-ch12-linkedin-sync.png]]
+![[r-ch12-linkedin-sync.png]]
 
 ## The "first hour" sourcing routine
 

@@ -38,16 +38,16 @@ Most Corporate customers start on **Standard** with Basic Applicant Tracking and
 
 1. Go to **Requisitions → Create new**.
 
-![[13-raw/screenshots/c-ch04-create-requisition-form.png]]
+![[c-ch04-create-requisition-form.png]]
 
 2. Fill in the role details: title, department, location, employment type (permanent / contract — see [[01 How-To Documents/corporate/05-contract-workers|Chapter 5]] for contract), salary band, hiring manager.
 3. Select sourcing channels — internal job board only (see [[01 How-To Documents/corporate/06-internal-mobility|Chapter 6]]), external job boards, or your engaged recruitment agencies (see [[01 How-To Documents/corporate/07-vendor-management|Chapter 7]]).
 4. Publish the requisition. Candidates start landing in the **Applied** stage.
 5. Open the requisition's Pipeline view to see all candidates grouped by stage. Drag a candidate to the next stage to advance them, or click in for the full record.
 
-![[13-raw/screenshots/c-ch04-basic-ats-pipeline-view.png]]
+![[c-ch04-basic-ats-pipeline-view.png]]
 
-6. At each stage, leave structured notes (covered in Chapter 3 — Team Collaboration). Use scorecards for interview feedback so the decision rationale is preserved.
+6. At each stage, leave structured notes and use @-mentions to pull the right person into the thread (covered in Chapter 3). Use scorecards for interview feedback so the decision rationale is preserved.
 7. When you're ready to offer, advance the candidate to **Offered**. The offer letter workflow is built in.
 8. When the candidate accepts, advance to **Hired**. This triggers the onboarding checklist (see below).
 
@@ -66,14 +66,14 @@ The default stages cover most office-based hiring. If you find them limiting (e.
 1. Go to **Settings → Pipeline Templates**.
 2. Create a template per role family (Engineering, Sales, Warehouse, Executive, etc.). For each, define the stages in order: e.g., Engineering = Applied → Recruiter Screen → Tech Screen → System Design → Onsite → Offer → Hired.
 
-![[13-raw/screenshots/c-ch04-full-ats-custom-stages-editor.png]]
+![[c-ch04-full-ats-custom-stages-editor.png]]
 
 3. For each stage, set the automation rules:
    - **Auto-advance:** if no decision in N days and no scorecard logged, escalate to the hiring manager.
    - **Auto-reject:** if candidate doesn't respond to scheduling within N days, move to Rejected with a templated message.
    - **Auto-message:** when a candidate moves to a stage, send a templated update.
 
-![[13-raw/screenshots/c-ch04-automation-rules-builder.png]]
+![[c-ch04-automation-rules-builder.png]]
 
 4. Set SLA targets per stage (e.g., Recruiter Screen ≤ 3 days, Tech Screen scheduled ≤ 5 days). The system will alert when SLAs slip.
 5. When you create a new requisition, choose the appropriate pipeline template. The stages, automation rules, and SLA targets all inherit.
@@ -82,6 +82,39 @@ The default stages cover most office-based hiring. If you find them limiting (e.
 Don't go wild with custom stages on day one. Start with the default 5-stage template, find the actual gaps from a month of running real reqs, then add the stages you genuinely need. Pipeline templates are easy to over-engineer.
 
 For deeper analytics on top of Full ATS, see [[01 How-To Documents/corporate/08-integrations-and-reporting|Chapter 8]].
+
+## Run a background check
+
+### Background Checks — _Tier: Standard · per-check fees_
+
+**What this feature is.** Background Checks is the page at `/dashboard/business/background-checks` where you order verification on a candidate before extending an offer — criminal record, credit, qualification, employment history, and reference checks — and where the results, timestamps, and consent records are kept for audit. The platform integrates with third-party verification providers; you order the package, the candidate completes consent, the provider runs the check, and the result lands back on the candidate record.
+
+**Why it matters.** SA hiring at any scale needs verification — qualifications get embellished, criminal records get hidden, and the cost of a bad senior hire is far higher than the cost of the check. Doing it inside the platform keeps the consent record, the result, and the audit trail tied to the candidate, which is what you need when an EE audit asks "what verification did you do before this hire?".
+
+**How to use it.**
+
+1. From the candidate record, click **Run background check** and pick the package — typically Criminal + Credit for permanent hires, plus Qualifications for senior or regulated roles.
+2. The candidate receives a consent request via email. They cannot proceed without explicit consent — this is a POPIA requirement and the platform records the consent against the candidate record with a timestamp.
+3. The verification provider runs the check. Turnaround varies: criminal record checks are typically 24–48 hours, qualification verification can take a week.
+4. The result lands on the candidate record with a status (clear / flagged / failed). Flagged results need a human review before you proceed; the system does not auto-reject.
+5. The Audit Trail (Chapter 11) records who ordered the check, when consent was captured, and when the result returned.
+
+**During the trial.** Background Checks have a per-trial cap of **2 checks**. After two, you'll be prompted to upgrade to a paid plan to run more. This protects against trial abuse — the verification API costs real money per call.
+
+**POPIA reality.** Background checks are processing of personal information by an Operator on your behalf. Your relationship with the verification provider is governed by the Sebenza-managed contract; the consent record on the candidate side is the part you have to do correctly, and the platform makes that part mechanical.
+
+## Use AI to triage your pipeline
+
+Sebenza Hub ships four AI features that compress the screening side of the pipeline. None of them replace human judgement — they cut the time you spend on the obvious yes/no calls so you can spend it on the real decisions.
+
+- **AI Search** (`/dashboard/business/ai-search`) — natural-language candidate search across your active pipelines and the platform's talent pool. Type "senior backend engineer in Cape Town with payment-systems experience" and get a ranked list with the rationale for each match. Replaces hours of manual database trawling.
+- **AI Candidate Summary** — on every candidate record, a one-paragraph summary that pulls the highlights from CV, application answers, and any captured screening conversation. Saves the recruiter from re-reading the same CV across stages.
+- **Screening Bot** (`/dashboard/business/screening-bot`) — a conversational pre-screen that runs at the **Applied** stage, asks the qualifying questions you'd otherwise ask on a first phone screen, and surfaces a structured result on the candidate record. Removes the worst time tax in volume hiring.
+- **Predictive Hiring** (`/dashboard/business/predictive-hiring`) — a model that scores candidates against role-fit and likely-to-accept signals, and flags pipeline patterns (e.g., "candidates from this source convert at half the rate"). Use it as input to your decisions, not as the decision.
+
+While the AI is working, you'll see a multi-phase **AI Progress Messaging** indicator — drafting, validating, scoring, finalising — so you know it's progressing rather than wondering if the page has hung. The message updates as each phase completes, which on longer operations (full-pipeline scoring, large search) is the difference between "I'll wait" and "I'll click away".
+
+Train your team to treat AI output as a starting position, not a verdict. The model is good at narrowing 200 candidates to a shortlist of 20; it is not good at picking the one you should hire.
 
 ## Hand off to onboarding
 
@@ -103,7 +136,7 @@ For deeper analytics on top of Full ATS, see [[01 How-To Documents/corporate/08-
 5. When a candidate hits **Hired**, the system asks which template to apply and the start date. Once confirmed, the checklist auto-shares with the new hire, manager, and HR.
 6. Track completion from the Onboarding dashboard. Overdue tasks alert the owner; consistently overdue patterns are a signal that the template is unrealistic and should be tuned.
 
-![[13-raw/screenshots/c-ch04-onboarding-checklist.png]]
+![[c-ch04-onboarding-checklist.png]]
 
 The first version of your template will be wrong — usually too ambitious for week one and too sparse for week three. Tune it based on completion data after the first three hires.
 
@@ -122,7 +155,9 @@ The first version of your template will be wrong — usually too ambitious for w
 |---|---------|------|
 | 1 | Basic Applicant Tracking | Standard |
 | 2 | Full Applicant Tracking | Premium |
-| 3 | Onboarding Checklists | Standard |
+| 3 | Background Checks | Standard · per-check fees · trial cap of 2 |
+| 4 | AI Search, AI Candidate Summary, Screening Bot, Predictive Hiring | Premium (see Chapter 10) |
+| 5 | Onboarding Checklists | Standard |
 
 ## Next chapter
 
@@ -134,4 +169,6 @@ The first version of your template will be wrong — usually too ambitious for w
 - [[01 How-To Documents/corporate/05-contract-workers|Chapter 5 — Contract workers]]
 - [[01 How-To Documents/corporate/06-internal-mobility|Chapter 6 — Internal mobility]]
 - [[01 How-To Documents/corporate/07-vendor-management|Chapter 7 — Vendor management]]
+- [[01 How-To Documents/corporate/10-ai-tooling-for-corporates|Chapter 10 — AI tooling for corporates]]
+- [[01 How-To Documents/corporate/11-compliance-and-audit-trail|Chapter 11 — Compliance and audit trail]]
 - [[03-workflows/business-journey]] — End-to-end corporate hiring journey

@@ -18,7 +18,7 @@ This chapter walks you through six features that work together the moment you pu
 
 Everything in this chapter writes into your Profile — the core record Sebenza Hub keeps about you.
 
-### Profile Management — _Tier: Free_
+### Profile Management — _Tier: see Pricing_
 
 **What this feature is.** Your profile is the home-base record holding your personal details, contact info, role preferences, documents, and privacy settings. It's not a separate thing you set up once and forget — every feature downstream of this chapter (matching, search, applications, AI tools) reads from it.
 
@@ -41,7 +41,7 @@ Both routes take 10–20 minutes. The build route takes longer but produces a mo
 
 ## Step 1A — Upload an existing CV
 
-### Resume Upload — _Tier: Free_
+### Resume Upload — _Tier: see Pricing_
 
 **What this feature is.** Resume Upload lets you drop an existing PDF or Word CV straight into your profile. The file is stored, indexed, and used as source material for everything downstream — parsing, matching, AI review, applications.
 
@@ -52,17 +52,18 @@ Both routes take 10–20 minutes. The build route takes longer but produces a mo
 1. Go to **Resume Upload** (`/dashboard/individual/resume-upload`).
 2. Click **Upload New Resume**. Before the file picker opens, the platform asks: *"Replace profile information?"* This is important — read the next paragraph before answering.
 3. Drag and drop your CV file, or click to browse. PDF, DOC and DOCX formats are supported.
-4. Watch the progress bar. Parsing happens asynchronously: the file is uploaded to a queue, the AI parser picks it up, and the page polls for status every couple of seconds — *Queued* → *Processing* → *Done*. Most CVs finish in 30–60 seconds; very long CVs can take a minute or two.
 
-![[13-raw/screenshots/ch05-resume-upload-dialog.png]]
+![[ch05-resume-upload-dialog.png]]
+
+4. Watch the progress bar. Parsing happens asynchronously: the file is uploaded to a queue, the AI parser picks it up, and the page polls for status every couple of seconds. The status messaging walks you through the phases — drafting, validating, scoring, finalising — so you can see the work in flight rather than staring at a silent spinner. Most CVs finish in 30–60 seconds; very long CVs can take a minute or two.
 
 **The "Replace profile?" prompt.** The default answer is *Yes, replace my profile* — and that's the right answer if your uploaded CV is a true reflection of who you are right now. The platform will delete your existing work experience, education and skills entries and rebuild them from the CV. If you've already entered partial data during onboarding and the CV doesn't include something you typed in (a side project, a recent qualification), choose *No, keep my current profile* — the platform will still parse the CV and store it, but your profile fields stay untouched. You can mix and match later inside Profile.
 
-**If you upload the same file twice, you'll see *"Resume already processed — we reused your previous AI analysis."*** That's the dedup fast-path doing its job: the platform recognises the file by content hash and reuses the previous parse without paying for the AI call again. If you genuinely want a fresh parse (because the parser has improved), open the CV in My CVs and use the **Re-parse** action instead.
+**Re-uploading the same file is fast.** The platform recognises the file by content hash and reuses the previous AI analysis instead of re-running the parse. If the parser has improved since your last upload, you'll see updated results the next time the underlying analysis is refreshed.
 
-Once the file lands and parsing completes, three AI features fire automatically — you don't start them, they start themselves. The next three sections describe what they do while you watch the progress spinner.
+Once the file lands and parsing completes, three AI features fire automatically — you don't start them, they start themselves. The next three sections describe what they do while you watch the progress messages.
 
-### AI Resume Parsing — _Tier: Standard_
+### AI Resume Parsing — _Tier: see Pricing_
 
 **What this feature is.** AI Resume Parsing takes your uploaded resume and extracts structured data — name, contact, experience, education, skills, certifications, languages, references — then pre-populates your profile fields with what it found. Everything downstream depends on this being clean.
 
@@ -77,9 +78,9 @@ Once the file lands and parsing completes, three AI features fire automatically 
 
 Accept the parts that are right. Edit the parts that are wrong *before* moving on. You will not get a second chance to do this cleanly — once parsed values are in your profile, fixing them later is more annoying than catching them now.
 
-If you uploaded a CV months ago and the parsing was poor, the platform now supports re-parsing existing CVs against the current pipeline. Open the CV in **My CVs** and use the **Re-parse** action — useful for CVs uploaded before the PDF extractor was improved.
+If you uploaded a CV months ago and the parsing was poor, the simplest fix is to re-upload the same file — the platform's parser improves over time, and a fresh upload runs against the current version.
 
-### AI Skill Inference — _Tier: Standard_
+### AI Skill Inference — _Tier: see Pricing_
 
 **What this feature is.** Skill Inference reads the experience descriptions on your CV and infers the skills you never explicitly listed. "Managed a team of 8" becomes *leadership*, *performance management*, *coaching*. "Built and deployed a pricing model" becomes *Python*, *statistics*, *business modelling*. These skills get added to your profile as inferred (not self-declared).
 
@@ -87,7 +88,7 @@ If you uploaded a CV months ago and the parsing was poor, the platform now suppo
 
 **How to use it.** It runs automatically after parsing. Open the **Skills** section of your profile after the upload completes. You'll see two groups: self-declared skills (the ones you typed in during onboarding) and inferred skills (the ones Sebenza Hub found in your CV text). Review the inferred ones — most will be correct, a few will be wrong or too generous. Remove anything you can't honestly back up in an interview. Leaving bad inferred skills on your profile is how you get matched into roles you'll fail at.
 
-### Soft Skills Detection — _Tier: Premium_
+### Soft Skills Detection — _Tier: see Pricing_
 
 **What this feature is.** Soft Skills Detection is a separate analysis that reads your CV content, self-descriptions, and any cover letter text to detect soft-skill signals — communication, collaboration, initiative, resilience, adaptability. It produces a soft-skills profile that sits alongside your technical skills.
 
@@ -97,7 +98,7 @@ If you uploaded a CV months ago and the parsing was poor, the platform now suppo
 
 ## Step 1B — Build a CV from scratch (or redesign one you uploaded)
 
-### CV Creation & Editing — _Tier: Metered — Free: 1 CV · Standard: 5 CVs · Premium: unlimited_
+### CV Creation & Editing — _Tier: see Pricing_
 
 **What this feature is.** The in-app CV Builder is two surfaces working in lockstep. **My CVs** (`/dashboard/individual/cvs`) is where the *content* lives — sections, bullets, dates, skills. **CV Builder** (`/dashboard/individual/cv-templates`) is where the *look* lives — template, layout, accent colours, fonts, density, export. Content stays in sync between the two: edit a bullet in My CVs and it appears in the Builder preview immediately.
 
@@ -106,6 +107,9 @@ If you uploaded a CV months ago and the parsing was poor, the platform now suppo
 **How to use it.**
 
 1. Create the CV in **My CVs** (`/dashboard/individual/cvs`). Click **New CV** and fill in the wizard — personal details, summary, work history, education, skills, certifications, languages, references. Most fields will already be pre-populated from onboarding and (if you uploaded a CV) from the parser. You're filling in the gaps.
+
+![[ch05-cv-builder-personal-info.png]]
+
 2. Save. The new CV appears as a card on the My CVs grid alongside any others.
 3. Open the **CV Builder** (`/dashboard/individual/cv-templates`) to design the look. The Builder has four tabs across the top:
    - **Gallery** — 5 polished templates (described below)
@@ -114,8 +118,6 @@ If you uploaded a CV months ago and the parsing was poor, the platform now suppo
    - **Favourites** — up to 5 saved looks you can reapply to any CV
 4. Pick a Gallery template *or* a Signature, then refine it in the **Tweaks** bar (accent colour, secondary accent, font, density). The preview updates live.
 5. Use the **Export** menu in the top-right when you're done: PDF (A4, recruiter-ready), DOCX (editable Word document), or Print.
-
-![[13-raw/screenshots/ch05-cv-builder-personal-info.png]]
 
 #### Gallery — five polished templates
 
@@ -188,17 +190,17 @@ Once your CV is built or uploaded, give it a name in My CVs that you'll recognis
 
 My CVs keeps a version history per CV (every save, every AI rewrite, every duplicate is a versioned snapshot you can restore from), so you can see older iterations of the same CV — but a clear name still saves you time when you're choosing which one to attach to an application.
 
-## Step 3 — Create a second CV (Standard and above)
+## Step 3 — Create a second CV (paid tiers)
 
-If you're applying to more than one type of role, create a second CV tailored to the second type. This is where the CV Creation & Editing metering kicks in: Free stops at 1, Standard gives you 5, Premium is unlimited.
+If you're applying to more than one type of role, create a second CV tailored to the second type. This is where the CV Creation & Editing metering kicks in — see Pricing for the exact CV count on each tier.
 
-Example setup for a mid-career candidate on Standard:
+Example setup for a mid-career candidate with multiple CVs available:
 
-- **CV 1: Standard** — your default, broad-coverage version
-- **CV 2: Senior IC** — emphasises your individual contributor work, downplays management
-- **CV 3: People Lead** — emphasises team-building, strategy, hiring; downplays technical depth
-- **CV 4: Public-sector** — same content, Gazette Record signature, trimmed of private-sector jargon
-- **CV 5: Industry-specific** — kept in reserve for that one role you really want
+- **CV 1** — your default, broad-coverage version
+- **CV 2** — emphasises your individual contributor work, downplays management
+- **CV 3** — emphasises team-building, strategy, hiring; downplays technical depth
+- **CV 4** — same content, Gazette Record signature, trimmed of private-sector jargon
+- **CV 5** — kept in reserve for that one role you really want
 
 You don't have to do this on day one. But the moment you find yourself rewriting your CV for one specific application, save the rewrite as a new version instead of overwriting the original. My CVs is built for exactly this — duplicate any existing CV from its card menu, rename it, and you're editing a fresh copy with the original safe.
 
@@ -228,23 +230,23 @@ Skipping this chapter and going straight to job applications means none of those
 - [ ] Decided whether to overwrite your profile from the CV (the prompt before upload)
 - [ ] Reviewed the AI-parsed fields and corrected any mistakes
 - [ ] Reviewed the inferred skills and removed anything you can't honestly back up
-- [ ] Reviewed the detected soft skills the same way (Premium only)
+- [ ] Reviewed the detected soft skills the same way (paid tiers only)
 - [ ] Opened CV Builder and chosen a Gallery template *or* a Signature
 - [ ] Tweaked accent colour and font to taste
 - [ ] Exported a PDF (and DOCX if you expect to be asked for it)
 - [ ] Saved the CV with a clear filename you'll recognise later
-- [ ] Optionally (Standard and above): created a second CV for a different type of role
+- [ ] Optionally (paid tiers): created a second CV for a different type of role
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 1 | Profile Management | Free |
-| 2 | CV Creation & Editing | Metered — Free: 1 · Standard: 5 · Premium: unlimited |
-| 3 | Resume Upload | Free |
-| 4 | AI Resume Parsing | Standard |
-| 5 | AI Skill Inference | Standard |
-| 6 | Soft Skills Detection | Premium |
+| # | Feature |
+|---|---------|
+| 1 | Profile Management |
+| 2 | CV Creation & Editing |
+| 3 | Resume Upload |
+| 4 | AI Resume Parsing |
+| 5 | AI Skill Inference |
+| 6 | Soft Skills Detection |
 
 ## Next chapter
 

@@ -14,9 +14,9 @@ The hiring path in this guide treats Sebenza Hub as a tool you use mostly alone 
 
 This is the last chapter of the guide. Treat the Community as something you opt into when it suits you, not as another box to tick.
 
-## What's in the Community section
+## What's in the Community and Mentorship section
 
-The Individual dashboard has six community pages:
+The Individual dashboard has seven pages here:
 
 | Page | What it is |
 |------|------------|
@@ -24,14 +24,15 @@ The Individual dashboard has six community pages:
 | **Trending** (`/community-trending`) | Popular topics and active threads |
 | **Leaderboard** (`/community-leaderboard`) | User rankings based on participation, badges, contributions |
 | **Interview Vault** (`/community-interviews`) | Shared interview experiences and questions, by company and role |
-| **Mentor Connect** (`/community-mentors`) | Find and connect with mentors |
+| **Mentor Connect** (`/community-mentors`) | Browse and reach out to mentors who've opted into discovery |
+| **Mentorship** (`/mentorship`) | The structured-programme experience for ongoing mentor relationships |
 | **Badges** (`/community-badges`) | Achievement badges and recognition |
 
-You don't need all of them. You probably need two: **Interview Vault** and **Mentor Connect**.
+You don't need all of them. The three that actually move your job hunt are **Interview Vault**, **Mentor Connect**, and **Mentorship** — Mentor Connect is for finding the relationship, Mentorship is for running it.
 
-![[13-raw/screenshots/i-ch23-community-hub.png]]
+![[i-ch23-community-hub.png]]
 
-## The two community features that actually help your job hunt
+## The community features that actually help your job hunt
 
 ### Interview Vault
 
@@ -52,9 +53,9 @@ How to use it well:
 3. **Cross-check against Company Research** (Chapter 14) — Interview Vault tells you the *process*; Company Research tells you the *context*
 4. **Contribute back after your own interview**, regardless of the outcome. The vault only works because people share. Sharing your bad interviews is at least as valuable as sharing your good ones.
 
-### Mentor Connect
+### Mentor Connect (find a mentor)
 
-**Mentor Connect** (`/dashboard/individual/community-mentors`) is the platform's mentorship matching system. You can browse experienced professionals who have opted in to mentor others, filtered by industry, role, seniority, or specific topic.
+**Mentor Connect** (`/dashboard/individual/community-mentors`) is the platform's mentor-discovery and matching surface. You can browse experienced professionals who have opted in to mentor others, filtered by industry, role, seniority, or specific topic, and reach out to start a conversation.
 
 A good mentor relationship is one of the highest-leverage things in any career. A bad one wastes everyone's time. The difference is almost entirely in how you approach it.
 
@@ -69,7 +70,7 @@ Filter for someone who:
 
 Don't just pick the most senior person available. A senior executive with 30 years of experience may be too far removed from your day-to-day to give relevant advice. A mid-career person five years ahead of you is often more useful.
 
-![[13-raw/screenshots/i-ch23-mentor-connect-match.png]]
+![[i-ch23-mentor-connect-match.png]]
 
 #### Asking for a mentor relationship
 
@@ -99,11 +100,30 @@ Bad mentees:
 - Don't follow through
 - Treat the mentor as a contact to mine for referrals (which usually backfires)
 
+### Mentorship (run the relationship)
+
+**Mentorship** (`/dashboard/individual/mentorship`) is the page where active mentor relationships live. Where Mentor Connect is the discovery surface, Mentorship is the structured-programme experience that takes over once you have a mentor in place.
+
+You'll find:
+
+- **Programmes** — multi-week mentorship arcs you and your mentor can opt into together (career change, skill build, interview prep, leadership transition)
+- **Session notes** — a shared place to capture what was discussed and what was committed to between sessions
+- **Goals and milestones** — what you're working toward and how close you are
+- **Recommended next sessions** — based on the goals and the cadence you've agreed
+
+How to use it well:
+
+- **Don't enter a programme without a goal.** "I want to be better" isn't a goal. "I want to land a Senior PM role at a fintech in the next 9 months" is.
+- **Treat the session notes as a contract with yourself.** What you said you'd do between sessions is what your mentor will check on — and what your future self can read back to see whether you actually did the work.
+- **Re-evaluate every 90 days.** If the relationship has stopped producing concrete movement, that's a reason to pause and reset, not a reason to grind on out of politeness.
+
+If you don't have a structured mentor yet but you know someone informally who agreed to talk monthly, the Mentorship page still works as a journal — track goals and notes there even without a programme attached.
+
 ## Bring something to share — your Portfolio
 
 Community and mentorship work best when you have something concrete to point at. A profile page is fine; a portfolio page is better. For senior engineers, designers, writers, analysts, and consultants, the portfolio often *is* the hiring decision — not the CV.
 
-### Portfolio Builder — _Tier: Standard_
+### Portfolio Builder — _Tier: see Pricing_
 
 **What this feature is.** Portfolio Builder creates a public, shareable portfolio page for projects, writing, designs, case studies, or test results, with a custom URL you can share.
 
@@ -111,15 +131,16 @@ Community and mentorship work best when you have something concrete to point at.
 
 **How to use it.**
 
-1. Open **Portfolio** (`/dashboard/individual/portfolio`).
+1. Open **Portfolio Builder** (`/dashboard/individual/portfolio-builder`).
 
-![[13-raw/screenshots/i-ch23-portfolio-builder-editor.png]]
+![[i-ch23-portfolio-builder-editor.png]]
 
 2. Pick three to six pieces of work you'd actually defend in conversation. Quality over volume — a sparse portfolio of strong work beats a dense one of weak work.
 3. Write a one-paragraph context note for each piece: what it was, what you did, what changed because of it.
 4. Publish. Add the URL to your profile, your CV, your LinkedIn, your email signature, and the first message you send any new mentor.
 
-![[13-raw/screenshots/i-ch23-published-portfolio-page.png]]
+![[i-ch23-published-portfolio-page.png]]
+
 5. Refresh quarterly. Old portfolios date you faster than old CVs.
 
 If you're using Mentor Connect, attach the portfolio link to your introduction message. Mentors decide whether to engage based on what you've actually built — they're scanning for that link before they read the rest.
@@ -174,9 +195,12 @@ Good luck.
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 57 | Portfolio Builder | Standard |
+| # | Feature |
+|---|---------|
+| 1 | Interview Vault |
+| 2 | Mentor Connect |
+| 3 | Mentorship |
+| 4 | Portfolio Builder |
 
 ## Manual complete
 

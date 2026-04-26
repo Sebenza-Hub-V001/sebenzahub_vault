@@ -26,7 +26,7 @@ This is the longest chapter in the book because it's the one that earns the plat
 
 1. Go to **Analytics → Dashboard**. The default view shows organisation-level metrics for the current quarter.
 
-![[13-raw/screenshots/c-ch08-analytics-dashboard-hero.png]]
+![[c-ch08-analytics-dashboard-hero.png]]
 
 2. Filter by department, role family, or hiring manager to drill into the part of the funnel you care about.
 3. Use the **Bottleneck View** to see which stages have the longest dwell time. Long dwell at "Recruiter Screen" usually means under-resourced TA; long dwell at "Hiring Manager Review" usually means manager engagement is the issue.
@@ -48,7 +48,36 @@ This is the longest chapter in the book because it's the one that earns the plat
 3. For BI integration, configure a scheduled export under **Settings → Data Export**. You can export to S3, Azure Blob, or a direct BI connector (PowerBI, Tableau). Frequency is configurable — daily for active datasets, weekly for slower-moving ones.
 4. Cohort analysis is the highest-leverage view in this module. Common starter question: "Of candidates we hired in Q1, what percentage are still here at 12 months?" If the answer is below 80%, your hiring quality has a problem worth investigating before scaling further.
 
-![[13-raw/screenshots/c-ch08-advanced-analytics-drilldown.png]]
+![[c-ch08-advanced-analytics-drilldown.png]]
+
+## Track diversity and equity outcomes
+
+### Diversity Analytics — _Tier: Standard_
+
+**What this feature is.** Diversity Analytics, at `/dashboard/business/diversity-analytics`, is the dedicated home for funnel views that slice your hiring data by the demographic dimensions Employment Equity and B-BBEE care about — race, gender, disability status, age band — across the funnel from application to hire. It is where you see the EE and B-BBEE conversion patterns rather than the operational time-to-hire numbers that live on the main Analytics Dashboard.
+
+**Why it matters.** EE and B-BBEE compliance is not just an annual reporting exercise — it's a hiring discipline. Diversity Analytics gives the TA leader and the HRBP a live view of the demographic funnel so the patterns are visible while there's still time to act, not after year-end when the report shows the gap. If your EE plan targets 30% representation in a specific category and your funnel is showing 8% at the offer stage, you want to see that in March, not the following March.
+
+**How to use it.**
+
+1. Open Diversity Analytics and review the funnel view by demographic dimension. Apply the same filters you use on the main dashboard (department, role family, hiring manager) to drill into specific parts of the operation.
+2. Compare the dimensions against your EE plan targets. The gap between target and actual is your operational signal.
+3. Use the per-stage view to find where the funnel narrows for a specific demographic. Funnels often look fine at applied and break at recruiter screen — that's where the intervention has to happen.
+4. The same data feeds the Employment Equity and B-BBEE compliance pages covered in Chapter 11. Diversity Analytics is the operational view; the compliance pages are the reporting view.
+
+## Predict where the pipeline is going
+
+### Predictive Analytics — _Tier: Premium_
+
+**What this feature is.** Predictive Analytics, at `/dashboard/business/predictive-analytics`, takes your historical hiring data and projects forward — likely time-to-fill on each open requisition, predicted offer-acceptance rate by candidate signal, source channels that historically convert best for the role family. It's the forward-looking layer on top of the descriptive analytics covered above.
+
+**Why it matters.** Standard analytics tell you what happened. Predictive Analytics tells you what's about to happen — which open reqs are likely to slip their target date, which candidates in the current pipeline are likely to accept, which sourcing channels to lean into for the next sprint. For a TA leader running 100+ concurrent reqs, the difference between reactive and proactive is exactly this view.
+
+**How to use it.**
+
+1. Review the per-requisition forecast at the start of each week. Reqs flagged as likely to slip get attention before they actually slip.
+2. Use the offer-acceptance prediction as input to the offer conversation — a candidate the model flags as low-likelihood to accept is one to overpay slightly or move on from quickly, not one to negotiate hard with.
+3. Treat the model output as a prior, not a verdict. The signal is useful at the population level; individual predictions can and will be wrong.
 
 ## Ship it to the board
 
@@ -62,7 +91,7 @@ This is the longest chapter in the book because it's the one that earns the plat
 
 1. Go to **Reports → Build new** and choose your data source (requisitions, candidates, placements, vendor performance, EE demographics).
 
-![[13-raw/screenshots/c-ch08-custom-reports-builder.png]]
+![[c-ch08-custom-reports-builder.png]]
 
 2. Drag in the dimensions and metrics you want. Apply filters (e.g., "completed hires only", "this fiscal year", "Engineering and Product departments").
 3. Choose the output format — table, chart (bar / line / pie), or pivot.
@@ -99,21 +128,23 @@ The notifications block governs how Sebenza Hub talks to your team. Match the ch
 3. SMS costs money per message — review the volume estimate the system shows before enabling, and don't SMS every event or you'll spend more than the platform costs.
 4. Candidates can opt out of non-critical SMS; respect the opt-out.
 
-### All Notification Channels — _Tier: Premium_
+### All Notification Channels — _Tier: Premium · WhatsApp via Sebenza-managed bot_
 
-**What this feature is.** All Notification Channels unlocks the full set — email, SMS, push (web and mobile), and WhatsApp — with per-event channel rules. Different events can route to different channels, and different users can have different channel preferences.
+**What this feature is.** Premium unlocks the full notification surface — email, SMS, push, and **WhatsApp via the Sebenza-managed bot**. The Business dashboard exposes the day-to-day controls in three places: **Unified Inbox** (`/dashboard/business/unified-inbox`) where multi-channel candidate threads land, **Email Templates** (`/dashboard/business/email-templates`) for the canned messages you send out, and **Approvals** (`/dashboard/business/approvals`) for in-platform routing. WhatsApp itself is configured by your Sebenza account manager, not by a self-service page in the Business sidebar.
 
-**Why it matters.** High-priority candidates (executive search, scarce-skill engineering, urgent backfills) need every channel available to reach them. Senior recruiters managing high-value pipelines need real-time push, not delayed email. Multi-channel is the power-user feature for organisations where some hires really do matter more than others.
+**Why it matters.** SA candidates respond to WhatsApp at rates email simply cannot match — interview confirmations, offer reminders, and scheduling exchanges that would die in an inbox get answered on WhatsApp. Routing the right events to the right channel is the difference between a pipeline that flows and one that stalls on candidate non-response. High-priority candidates (executive search, scarce-skill engineering, urgent backfills) deserve every channel; routine status updates do not.
 
 **How to use it.**
 
-1. Go to **Settings → Notifications → Channels** and enable WhatsApp and Push.
-2. WhatsApp setup requires a Sebenza-managed sender or your own WhatsApp Business number; the system walks you through provisioning.
-3. Define channel rules per event class: routine events on email only, time-critical on email + SMS, urgent (interview cancelled, offer rejected, requisition critical) on all channels.
+1. Talk to your Sebenza account manager about enabling WhatsApp. They configure the Sebenza-managed sender, the message templates that need WhatsApp Business API approval, and the per-organisation routing rules. You don't provision a number yourself from inside the dashboard.
+2. Once enabled, candidate-facing WhatsApp messages flow through the Unified Inbox alongside email — recruiters reply from the same thread regardless of channel, and the conversation is captured against the candidate record.
+3. From **Settings → Notifications**, tune which event classes route to which channel for internal users: routine events on email only, time-critical on email + SMS, urgent (interview cancelled, offer rejected) on all channels.
 
-![[13-raw/screenshots/c-ch08-notification-channels-matrix.png]]
+![[c-ch08-notification-channels-matrix.png]]
 
 4. Train recruiters on the channel rules so the noise level is predictable. Multi-channel done badly is just more spam; done well, it's the signal that gets through when it matters.
+
+**During the trial.** WhatsApp campaigns have a per-trial cap of **50 messages** to control external API spend. Plenty for a real evaluation; not enough to run a 5,000-candidate broadcast. After conversion, the cap is governed by your plan and consumption.
 
 ## Wire to your HRIS
 
@@ -127,7 +158,7 @@ The notifications block governs how Sebenza Hub talks to your team. Match the ch
 
 1. Go to **Settings → Integrations → HRIS** and choose your HRIS vendor.
 
-![[13-raw/screenshots/c-ch08-hris-integration-config.png]]
+![[c-ch08-hris-integration-config.png]]
 
 2. Provide the API credentials your HRIS team supplies. The exact mechanism varies by vendor (OAuth for Workday, API key for BambooHR, certificate-based for SuccessFactors).
 3. Configure the field mapping: which Sebenza fields correspond to which HRIS fields. The system ships with default mappings per HRIS that cover most cases; customise where your HRIS has non-standard fields.
@@ -145,7 +176,7 @@ The notifications block governs how Sebenza Hub talks to your team. Match the ch
 
 1. Go to **Settings → API** and generate a token. Scope the token to the specific permissions your integration needs — read-only on candidates is very different from read-write on offers.
 
-![[13-raw/screenshots/c-ch08-api-key-management.png]]
+![[c-ch08-api-key-management.png]]
 
 2. Read the API documentation linked from the same page. Endpoints are versioned; rate limits are per token.
 3. For event-driven integrations, configure webhooks for the events you care about: candidate.hired, offer.accepted, requisition.published. Webhooks deliver to your endpoint with retry logic and a signed payload.
@@ -208,15 +239,17 @@ Support tier is mostly a function of risk tolerance and operational hours. The h
 |---|---------|------|
 | 1 | Analytics Dashboard | Standard |
 | 2 | Advanced Analytics | Premium |
-| 3 | Custom Reports | Premium |
-| 4 | Email Notifications | Free |
-| 5 | SMS Notifications | Standard |
-| 6 | All Notification Channels | Premium |
-| 7 | HRIS Integration | Premium |
-| 8 | API Access | Premium |
-| 9 | Email Support | Free |
-| 10 | Priority Support | Standard |
-| 11 | Dedicated Support | Premium |
+| 3 | Diversity Analytics | Standard |
+| 4 | Predictive Analytics | Premium |
+| 5 | Custom Reports | Premium |
+| 6 | Email Notifications | Free |
+| 7 | SMS Notifications | Standard |
+| 8 | All Notification Channels | Premium · WhatsApp via Sebenza-managed bot |
+| 9 | HRIS Integration | Premium |
+| 10 | API Access | Premium |
+| 11 | Email Support | Free |
+| 12 | Priority Support | Standard |
+| 13 | Dedicated Support | Premium |
 
 ## Next chapter
 

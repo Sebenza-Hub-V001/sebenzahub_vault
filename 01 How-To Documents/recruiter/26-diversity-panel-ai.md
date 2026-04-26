@@ -10,7 +10,7 @@ user-types: [recruiter]
 
 # Chapter 26 — Diversity, panel analysis, and AI Intelligence
 
-![[13-raw/screenshots/r-ch26-diversity-pipeline-stages.png]]
+![[r-ch26-diversity-pipeline-stages.png]]
 
 This chapter covers the analytics tools that surface things you'd rather not know but absolutely need to: where your pipeline is biased, where your interviewers disagree, and what patterns AI is detecting in your candidate data. Used right, these three tools make you a better recruiter and a more defensible agency. Ignored, they're how good agencies become EE-audit defendants.
 
@@ -95,7 +95,7 @@ Your clients have EE plans with specific targets. The Diversity dashboard lets y
 
 **How to use it.** Runs automatically on every recorded interview. Open `/dashboard/recruiter/disagreements` weekly and review any flagged interview. Pair with the Diversity dashboard above when investigating a stage-level drop.
 
-![[13-raw/screenshots/r-ch26-video-bias-audit-flags.png]]
+![[r-ch26-video-bias-audit-flags.png]]
 
 ### Interviewer Effectiveness — _Tier: Premium_
 
@@ -105,7 +105,7 @@ Your clients have EE plans with specific targets. The Diversity dashboard lets y
 
 **How to use it.** Review the interviewer leaderboard in `/dashboard/recruiter/disagreements` quarterly. Coach the bottom quartile; consider removing the bottom 10% from active panels until they recalibrate.
 
-![[13-raw/screenshots/r-ch26-interviewer-effectiveness-scoring.png]]
+![[r-ch26-interviewer-effectiveness-scoring.png]]
 
 ### Interview Disagreement Analyzer — _Tier: Premium_
 
@@ -115,7 +115,7 @@ Your clients have EE plans with specific targets. The Diversity dashboard lets y
 
 **How to use it.** Runs on every scored panel. The page distinguishes calibration findings from bias findings — handle them differently as described below.
 
-![[13-raw/screenshots/r-ch26-disagreement-scorecard-overlay.png]]
+![[r-ch26-disagreement-scorecard-overlay.png]]
 
 When two interviewers score the same candidate differently, that's a calibration problem. When *one specific interviewer* consistently scores certain demographics differently, that's a bias problem. Panel Analysis surfaces both.
 
@@ -190,7 +190,7 @@ AI Intelligence is a sorting and surfacing aid, not a decision tool. The "skill 
 
 **How to use it.** Re-run quarterly. Use the output to allocate new mandates by strength, plan agency hiring against coverage gaps, and frame performance reviews on objective specialisation data.
 
-![[13-raw/screenshots/r-ch26-team-dna-composition.png]]
+![[r-ch26-team-dna-composition.png]]
 
 Team DNA is the analytics view of your *team*, not your candidates or clients. It shows:
 

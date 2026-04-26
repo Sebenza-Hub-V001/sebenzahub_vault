@@ -14,7 +14,7 @@ After you select **Recruiter** in Chapter 2, you land on the Agency Onboarding f
 
 This chapter walks through each field, why it matters, and what gets created behind the scenes.
 
-![[13-raw/screenshots/r-ch03-agency-onboarding-form.png]]
+![[r-ch03-agency-onboarding-form.png]]
 
 ## What you're creating
 
@@ -54,7 +54,7 @@ Pick the industries your agency recruits for. This is more important than it loo
 
 Pick the sectors you actively recruit in *now*. You can add more later as your business expands. Don't pad the list — being "Platinum in 12 sectors" is less credible than being "Platinum in 3 sectors."
 
-![[13-raw/screenshots/r-ch03-sector-multi-select.png]]
+![[r-ch03-sector-multi-select.png]]
 
 ## Step 4 — Verification proof URL (optional)
 
@@ -70,7 +70,7 @@ This is **optional at signup** but **required for trust tier upgrades** (Chapter
 
 The link should point to a document store (Google Drive, Dropbox, your own server). Set the link to "anyone with the link can view" — Sebenza Hub's verification team will need to access it. Don't put sensitive personal documents at this URL; only documents that establish the agency's identity and compliance status.
 
-![[13-raw/screenshots/r-ch03-verification-proof-url.png]]
+![[r-ch03-verification-proof-url.png]]
 
 ## Step 5 — Submit and land on your dashboard
 

@@ -16,13 +16,13 @@ Job-related learning is different from general curiosity learning. The goal is n
 
 The learning surface inside Sebenza Hub is large — roughly twenty features. To keep it navigable, this chapter groups them into six stages: **Diagnose**, **Plan**, **Consume**, **Practice**, **Test & Prove**, and **Track**. Work through them in order the first time. After that, return to whichever stage your current goal lives in.
 
-![[13-raw/screenshots/i-ch19-learning-stages-overview.png]]
+![[i-ch19-learning-stages-overview.png]]
 
 ## Stage 1 — Diagnose
 
 Before you pick a course, find out what's actually missing.
 
-### Skill Gap Analysis — _Tier: Standard_
+### Skill Gap Analysis — _Tier: see Pricing_
 
 **What this feature is.** Compares your current skills against the requirements of your target role and produces a ranked list of what's missing, weighted by how often each appears in JDs.
 
@@ -33,7 +33,7 @@ Before you pick a course, find out what's actually missing.
 1. Open **Skill Gap Analysis** (`/dashboard/individual/skill-gap`).
 2. Confirm your target role; let it score the gap.
 
-![[13-raw/screenshots/i-ch19-skill-gap-chart.png]]
+![[i-ch19-skill-gap-chart.png]]
 
 3. Pick the top two or three Critical-bucket skills. Ignore the rest for now.
 
@@ -45,19 +45,19 @@ The list usually splits into three buckets:
 | **Common** — appears in many JDs | Address second. These differentiate you. |
 | **Nice-to-have** — appears occasionally | Address only after the others, or skip entirely |
 
-### Credential Gap Analysis — _Tier: Standard_
+### Credential Gap Analysis — _Tier: see Pricing_
 
 **What this feature is.** Compares your credentials (qualifications, certifications, NQF levels) against the typical requirements of your target roles in South Africa.
 
 **Why it matters.** SA hiring is credential-heavy and many roles reject on NQF level alone. This tells you whether a R30,000 certification will actually unlock the next role or is vanity spend.
 
-**How to use it.** Open **Credential Gap Analysis** and review the missing credentials. Cross-reference with [[01 How-To Documents/individual/07-skills-credentials-video|Chapter 7]] — that's where credentials get added to your profile once earned.
+**How to use it.** Open **Credentials** (`/dashboard/individual/credentials`) and switch to the **Match** tab to run the gap analysis. Review the missing credentials. Cross-reference with [[01 How-To Documents/individual/07-skills-credentials-video|Chapter 7]] — that's where credentials get added to your profile once earned.
 
 ## Stage 2 — Plan
 
 Don't start consuming until you know the schedule and the sequence.
 
-### Study Plan Generator — _Tier: Standard_
+### Study Plan Generator — _Tier: see Pricing_
 
 **What this feature is.** Generates a study plan from your identified skill gaps — picks topics, sequences them, and estimates total duration.
 
@@ -65,7 +65,7 @@ Don't start consuming until you know the schedule and the sequence.
 
 **How to use it.** From the Skill Gap output, click **Generate Study Plan**. Review the topic sequence. Edit before saving — the AI doesn't know about your prior partial knowledge.
 
-### Study Planner — _Tier: Standard_
+### Study Planner — _Tier: see Pricing_
 
 **What this feature is.** Schedules the generated plan into daily and weekly tasks tied to the time you actually have available.
 
@@ -77,23 +77,15 @@ Don't start consuming until you know the schedule and the sequence.
 2. Set realistic availability windows (mornings, lunch, evenings, weekends).
 3. Let it slot the plan in. Reasonable patterns: 30–45 min weekdays + a longer weekend session if working full-time; 90–120 min/day if between jobs; 20 min daily if family-heavy.
 
-![[13-raw/screenshots/i-ch19-study-planner-weekly-grid.png]]
+![[i-ch19-study-planner-weekly-grid.png]]
 
 4. Treat the slots as appointments, not suggestions.
-
-### Credential Roadmap — _Tier: Premium_
-
-**What this feature is.** A visual, time-sequenced roadmap of which credentials to pursue in what order, with providers, timelines, costs, and expected job-market payoff.
-
-**Why it matters.** Credentials take months or years and can't be undone — picking wrong is expensive. A roadmap turns lifelong-learning anxiety into a concrete plan with milestones. See [[01 How-To Documents/individual/07-skills-credentials-video|Chapter 7]] for how earned credentials show up on your profile.
-
-**How to use it.** Open **Credential Roadmap**, confirm your target role, and review the recommended sequence. Adjust costs against your real budget. Pin the next credential as your active goal.
 
 ## Stage 3 — Consume content
 
 The platform has multiple learning surfaces. Pick by what fits the skill, not by what's most prominent on the dashboard.
 
-### Learning Hub — _Tier: Free_
+### Learning Hub — _Tier: see Pricing_
 
 **What this feature is.** Central catalogue of tutorials, courses, and learning resources, searchable by skill and role.
 
@@ -101,9 +93,9 @@ The platform has multiple learning surfaces. Pick by what fits the skill, not by
 
 **How to use it.** Open **Learning Hub** (`/dashboard/individual/learning-hub`). Search by the exact skill name from your gap analysis, not by a topic area.
 
-![[13-raw/screenshots/i-ch19-learning-hub-catalogue.png]]
+![[i-ch19-learning-hub-catalogue.png]]
 
-### Learning Paths — _Tier: Standard_
+### Learning Paths — _Tier: see Pricing_
 
 **What this feature is.** Curated multi-course sequences that take you from current to target skill level for a specific role transition.
 
@@ -113,7 +105,7 @@ The platform has multiple learning surfaces. Pick by what fits the skill, not by
 
 > **Heads up:** Learning Paths are curated centrally. If a path looks dated, supplement it with current external sources.
 
-### Micro Learning — _Tier: Free_
+### Micro Learning — _Tier: see Pricing_
 
 **What this feature is.** 2–10 minute bite-sized modules for one tool, one concept, or one technique.
 
@@ -121,9 +113,9 @@ The platform has multiple learning surfaces. Pick by what fits the skill, not by
 
 **How to use it.** Open **Micro Learning** (`/dashboard/individual/micro-learning`). Use it for skills you've touched but want to deepen — and on days you only have ten minutes.
 
-![[13-raw/screenshots/i-ch19-micro-learning-card.png]]
+![[i-ch19-micro-learning-card.png]]
 
-### Job-Linked Learning — _Tier: Standard_
+### Job-Linked Learning — _Tier: see Pricing_
 
 **What this feature is.** When you view a specific job, the platform surfaces courses tied to that job's exact skill requirements.
 
@@ -135,7 +127,7 @@ The platform has multiple learning surfaces. Pick by what fits the skill, not by
 
 Reading is not learning. Retrieval is. Practice is where knowledge becomes durable.
 
-### Practice Questions — _Tier: Standard_
+### Practice Questions — _Tier: see Pricing_
 
 **What this feature is.** Generates unlimited practice questions on specific topics with graded feedback and next-question routing.
 
@@ -143,7 +135,7 @@ Reading is not learning. Retrieval is. Practice is where knowledge becomes durab
 
 **How to use it.** From any topic in Learning Hub or Study Planner, click **Practice**. Do 10–20 questions, read the feedback, repeat tomorrow.
 
-### Skill Battle Generator — _Tier: Standard_
+### Skill Battle Generator — _Tier: see Pricing_
 
 **What this feature is.** Creates timed head-to-head skill challenges against peers or AI, with leaderboards and streaks.
 
@@ -151,9 +143,9 @@ Reading is not learning. Retrieval is. Practice is where knowledge becomes durab
 
 **How to use it.** Open **Skill Battle**, pick a topic, choose AI or peer opponent, play. Use it on the days motivation is low.
 
-![[13-raw/screenshots/i-ch19-skill-battle-leaderboard.png]]
+![[i-ch19-skill-battle-leaderboard.png]]
 
-### Weakness Drills — _Tier: Standard_
+### Weakness Drills — _Tier: see Pricing_
 
 **What this feature is.** Focused drill sessions that target only the topics you've tested weakest on, adjusting difficulty as you improve.
 
@@ -161,9 +153,9 @@ Reading is not learning. Retrieval is. Practice is where knowledge becomes durab
 
 **How to use it.** After any test (Stage 5), open **Weakness Drills** — your weak areas are pre-loaded. Do one drill session per weak topic per week.
 
-![[13-raw/screenshots/i-ch19-weakness-drill-session.png]]
+![[i-ch19-weakness-drill-session.png]]
 
-### Adaptive Practice — _Tier: Premium_
+### Adaptive Practice — _Tier: see Pricing_
 
 **What this feature is.** AI-driven system that adjusts question difficulty in real time to keep you in the optimal learning zone.
 
@@ -171,9 +163,9 @@ Reading is not learning. Retrieval is. Practice is where knowledge becomes durab
 
 **How to use it.** Toggle **Adaptive** on in any practice session. Sit back and let the engine titrate difficulty.
 
-![[13-raw/screenshots/i-ch19-adaptive-difficulty-meter.png]]
+![[i-ch19-adaptive-difficulty-meter.png]]
 
-### Test Coach Chat — _Tier: Standard_
+### Test Coach Chat — _Tier: see Pricing_
 
 **What this feature is.** Conversational AI tutor that answers questions and explains concepts on demand for the topic you're studying.
 
@@ -181,7 +173,7 @@ Reading is not learning. Retrieval is. Practice is where knowledge becomes durab
 
 **How to use it.** Open **Test Coach** while studying. Ask the actual question you're stuck on, in plain words. Iterate until you understand.
 
-### Spaced Repetition — _Tier: Standard_
+### Spaced Repetition — _Tier: see Pricing_
 
 **What this feature is.** AI-optimised review scheduling that surfaces previously-learned material at intervals tuned for long-term retention.
 
@@ -193,7 +185,7 @@ Reading is not learning. Retrieval is. Practice is where knowledge becomes durab
 
 A skill you can't prove is a skill recruiters can't trust. Test what you've learned and turn the results into evidence.
 
-### Anti-Cheat Proctoring — _Tier: Standard_
+### Anti-Cheat Proctoring — _Tier: see Pricing_
 
 **What this feature is.** During assessments, monitors focus-loss, copy-paste, multiple-face detection, and screen activity to flag potential cheating.
 
@@ -201,7 +193,7 @@ A skill you can't prove is a skill recruiters can't trust. Test what you've lear
 
 **How to use it.** Runs automatically on proctored tests. You'll be prompted to share camera and screen at the start; close other apps and find a quiet spot before you begin.
 
-### Test Feedback Analysis — _Tier: Standard_
+### Test Feedback Analysis — _Tier: see Pricing_
 
 **What this feature is.** After a test, delivers detailed AI feedback on exactly which sub-topics you struggled with and what to review next.
 
@@ -209,17 +201,9 @@ A skill you can't prove is a skill recruiters can't trust. Test what you've lear
 
 **How to use it.** Runs automatically after every test. Open the report, write down the two weakest sub-topics, send them to Weakness Drills.
 
-![[13-raw/screenshots/i-ch19-test-feedback-breakdown.png]]
+![[i-ch19-test-feedback-breakdown.png]]
 
-### Test Behavior Insights — _Tier: Premium_
-
-**What this feature is.** Analyses test-taking patterns — time per question, skip rates, confidence calibration — to identify process issues.
-
-**Why it matters.** Many test failures are process failures, not knowledge failures. Fixing how you take tests is high-leverage and ignored by most study regimes.
-
-**How to use it.** Open **Test Behavior** after several tests. Look for patterns ("you rush the first 10 questions", "you over-skip on numerical reasoning") and adjust your test technique deliberately on the next attempt.
-
-### Test-Learning Bridge — _Tier: Standard_
+### Test-Learning Bridge — _Tier: see Pricing_
 
 **What this feature is.** After a test, automatically links your weak areas to specific courses and modules in Learning Hub for immediate remediation.
 
@@ -227,7 +211,7 @@ A skill you can't prove is a skill recruiters can't trust. Test what you've lear
 
 **How to use it.** From the test report, click **Bridge to Learning**. Take the recommended modules before re-attempting the test.
 
-### Test Portfolio Showcase — _Tier: Standard_
+### Test Portfolio Showcase — _Tier: see Pricing_
 
 **What this feature is.** Generates a shareable public page of your verified test results — linkable on LinkedIn, your CV, or email signatures.
 
@@ -235,13 +219,13 @@ A skill you can't prove is a skill recruiters can't trust. Test what you've lear
 
 **How to use it.** Open **Test Portfolio**, pick which results to publish, copy the share URL into your LinkedIn featured section and CV.
 
-![[13-raw/screenshots/i-ch19-test-portfolio-public-page.png]]
+![[i-ch19-test-portfolio-public-page.png]]
 
 ## Stage 6 — Track and stay engaged
 
 The system only works if you keep showing up. These features close the motivation loop.
 
-### Skill Tree — _Tier: Standard_
+### Skill Tree — _Tier: see Pricing_
 
 **What this feature is.** Visual tree showing mastery levels across skills, with locked "next skill" nodes that require prerequisites.
 
@@ -249,9 +233,9 @@ The system only works if you keep showing up. These features close the motivatio
 
 **How to use it.** Open **Skill Tree** (`/dashboard/individual/skill-tree`) once a week. Pick the next unlocked node, check what unlocks it, route that into your study plan.
 
-![[13-raw/screenshots/i-ch19-skill-tree-visualisation.png]]
+![[i-ch19-skill-tree-visualisation.png]]
 
-### Learning Analytics — _Tier: Standard_
+### Learning Analytics — _Tier: see Pricing_
 
 **What this feature is.** Tracks courses started, completed, time spent, skills developed, and ties progress back to job-readiness scores.
 
@@ -259,9 +243,9 @@ The system only works if you keep showing up. These features close the motivatio
 
 **How to use it.** Open **Learning Analytics** weekly. The number to watch isn't hours studied — it's job-readiness score and verified skills added.
 
-![[13-raw/screenshots/i-ch19-learning-analytics-dashboard.png]]
+![[i-ch19-learning-analytics-dashboard.png]]
 
-### Learning Challenges — _Tier: Free_
+### Learning Challenges — _Tier: see Pricing_
 
 **What this feature is.** Gamified short challenges (e.g., "30-day SQL daily drill") with streaks, badges, and peer comparison.
 
@@ -269,7 +253,7 @@ The system only works if you keep showing up. These features close the motivatio
 
 **How to use it.** Pick one challenge tied to a Critical-bucket skill. Don't run multiple challenges at once — one streak protects another from collapsing.
 
-![[13-raw/screenshots/i-ch19-challenge-streak-state.png]]
+![[i-ch19-challenge-streak-state.png]]
 
 ## Make the learning visible on your profile
 
@@ -338,31 +322,29 @@ Mentorship connects you with experienced professionals who can give context the 
 
 ## Features covered in this chapter
 
-| # | Feature | Tier |
-|---|---------|------|
-| 24 | Skill Gap Analysis | Standard |
-| 45 | Credential Gap Analysis | Standard |
-| 60 | Study Planner | Standard |
-| 61 | Study Plan Generator | Standard |
-| 46 | Credential Roadmap | Premium |
-| 54 | Learning Hub | Free |
-| 55 | Learning Paths | Standard |
-| 56 | Micro Learning | Free |
-| 51 | Job-Linked Learning | Standard |
-| 62 | Practice Questions | Standard |
-| 66 | Skill Battle Generator | Standard |
-| 67 | Weakness Drills | Standard |
-| 69 | Adaptive Practice | Premium |
-| 70 | Test Coach Chat | Standard |
-| 71 | Spaced Repetition | Standard |
-| 20 | Anti-Cheat Proctoring | Standard |
-| 63 | Test Feedback Analysis | Standard |
-| 64 | Test Behavior Insights | Premium |
-| 68 | Test-Learning Bridge | Standard |
-| 65 | Test Portfolio Showcase | Standard |
-| 59 | Skill Tree | Standard |
-| 52 | Learning Analytics | Standard |
-| 53 | Learning Challenges | Free |
+| # | Feature |
+|---|---------|
+| 1 | Skill Gap Analysis |
+| 2 | Credential Gap Analysis |
+| 3 | Study Plan Generator |
+| 4 | Study Planner |
+| 5 | Learning Hub |
+| 6 | Learning Paths |
+| 7 | Micro Learning |
+| 8 | Job-Linked Learning |
+| 9 | Practice Questions |
+| 10 | Skill Battle Generator |
+| 11 | Weakness Drills |
+| 12 | Adaptive Practice |
+| 13 | Test Coach Chat |
+| 14 | Spaced Repetition |
+| 15 | Anti-Cheat Proctoring |
+| 16 | Test Feedback Analysis |
+| 17 | Test-Learning Bridge |
+| 18 | Test Portfolio Showcase |
+| 19 | Skill Tree |
+| 20 | Learning Analytics |
+| 21 | Learning Challenges |
 
 ## Part 5 complete
 
