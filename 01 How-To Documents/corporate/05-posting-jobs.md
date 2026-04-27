@@ -14,10 +14,10 @@ A requisition is the unit of work in a corporate hiring system: one approved rol
 
 The pages you'll use:
 
-- **Jobs** (`/dashboard/business/jobs`) — the requisition list and the create/edit form.
-- **AI JD Writer** (`/dashboard/business/ai-writer`) — drafts the job description from a few seed inputs.
-- **Screening Roles** (`/dashboard/business/screening-roles`) — defines the qualifying questions and screening criteria attached to the role.
-- **Content Repurpose** (`/dashboard/business/content-repurpose`) — turns the published role into channel-shaped variants for distribution.
+- **Jobs** ([https://www.sebenzahub.co.za/dashboard/business/jobs](https://www.sebenzahub.co.za/dashboard/business/jobs)) — the requisition list and the create/edit form.
+- **AI JD Writer** ([https://www.sebenzahub.co.za/dashboard/business/ai-writer](https://www.sebenzahub.co.za/dashboard/business/ai-writer)) — drafts the job description from a few seed inputs.
+- **Screening Roles** ([https://www.sebenzahub.co.za/dashboard/business/screening-roles](https://www.sebenzahub.co.za/dashboard/business/screening-roles)) — defines the qualifying questions and screening criteria attached to the role.
+- **Content Repurpose** ([https://www.sebenzahub.co.za/dashboard/business/content-repurpose](https://www.sebenzahub.co.za/dashboard/business/content-repurpose)) — turns the published role into channel-shaped variants for distribution.
 
 Read end-to-end the first time. After that, treat each section as reference — most teams will draft a JD with the AI, configure screening, publish, and only then think about distribution.
 
@@ -85,7 +85,7 @@ Don't go wild with custom stages on day one. Start with the default 5-stage temp
 
 ### AI JD Writer — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/ai-writer`, in the **Post Jobs** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/ai-writer](https://www.sebenzahub.co.za/dashboard/business/ai-writer), in the **Post Jobs** sidebar group.
 
 **What it does.** Given a role title, a department, and a few seed bullet points (responsibilities, must-have skills, level), the AI JD Writer produces a structured job description: summary, responsibilities, requirements, nice-to-haves, and a benefits block. Output respects your **Brand Voice** profile (covered in [[01 How-To Documents/corporate/11-communication-and-automation|Chapter 11]]) so the result reads like your company, not generic LLM prose.
 
@@ -97,7 +97,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Screening Roles — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/screening-roles`, in the **Post Jobs** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/screening-roles](https://www.sebenzahub.co.za/dashboard/business/screening-roles), in the **Post Jobs** sidebar group.
 
 **What it does.** Screening Roles is where you define the qualifying questions and minimum criteria that attach to a role — work eligibility, notice period, salary expectation, must-have qualifications, location preferences. The criteria flow into the application form candidates fill out and into the screening tools in [[01 How-To Documents/corporate/07-screening-and-evaluating|Chapter 7]] (notably the Screening Bot).
 
@@ -113,7 +113,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Content Repurpose — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/content-repurpose`, in the **Post Jobs** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/content-repurpose](https://www.sebenzahub.co.za/dashboard/business/content-repurpose), in the **Post Jobs** sidebar group.
 
 **What it does.** Takes a published job and produces channel-shaped variants: a LinkedIn post, a shorter X/Twitter version, a WhatsApp broadcast snippet, and an internal Slack message. Each variant respects the platform's character and formatting limits and your Brand Voice profile.
 
@@ -132,10 +132,10 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | Jobs (requisition register) | Standard (Basic) · Premium (Full ATS) | `/dashboard/business/jobs` |
-| 2 | AI JD Writer | Premium | `/dashboard/business/ai-writer` |
-| 3 | Screening Roles | Standard | `/dashboard/business/screening-roles` |
-| 4 | Content Repurpose | Premium | `/dashboard/business/content-repurpose` |
+| 1 | Jobs (requisition register) | Standard (Basic) · Premium (Full ATS) | [https://www.sebenzahub.co.za/dashboard/business/jobs](https://www.sebenzahub.co.za/dashboard/business/jobs) |
+| 2 | AI JD Writer | Premium | [https://www.sebenzahub.co.za/dashboard/business/ai-writer](https://www.sebenzahub.co.za/dashboard/business/ai-writer) |
+| 3 | Screening Roles | Standard | [https://www.sebenzahub.co.za/dashboard/business/screening-roles](https://www.sebenzahub.co.za/dashboard/business/screening-roles) |
+| 4 | Content Repurpose | Premium | [https://www.sebenzahub.co.za/dashboard/business/content-repurpose](https://www.sebenzahub.co.za/dashboard/business/content-repurpose) |
 
 ## Next chapter
 

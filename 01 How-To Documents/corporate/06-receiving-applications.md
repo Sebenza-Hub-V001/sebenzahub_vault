@@ -14,9 +14,9 @@ Once a requisition is live, applications start landing. The **Receive Applicatio
 
 The pages you'll use:
 
-- **Applications** (`/dashboard/business/applications`) — the flat list of every application across all requisitions, filterable and sortable. The triage view.
-- **Pipeline** (`/dashboard/business/pipeline`) — the per-requisition kanban: candidates grouped by stage, drag-to-advance.
-- **Candidates** (`/dashboard/business/candidates`) — the candidate database. Same person may have applied to multiple roles; this is the unified record.
+- **Applications** ([https://www.sebenzahub.co.za/dashboard/business/applications](https://www.sebenzahub.co.za/dashboard/business/applications)) — the flat list of every application across all requisitions, filterable and sortable. The triage view.
+- **Pipeline** ([https://www.sebenzahub.co.za/dashboard/business/pipeline](https://www.sebenzahub.co.za/dashboard/business/pipeline)) — the per-requisition kanban: candidates grouped by stage, drag-to-advance.
+- **Candidates** ([https://www.sebenzahub.co.za/dashboard/business/candidates](https://www.sebenzahub.co.za/dashboard/business/candidates)) — the candidate database. Same person may have applied to multiple roles; this is the unified record.
 
 ## Triage what's coming in
 
@@ -83,9 +83,9 @@ For active sourcing across the database with natural-language search, AI Search 
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | Applications | Standard | `/dashboard/business/applications` |
-| 2 | Pipeline | Standard | `/dashboard/business/pipeline` |
-| 3 | Candidates | Standard | `/dashboard/business/candidates` |
+| 1 | Applications | Standard | [https://www.sebenzahub.co.za/dashboard/business/applications](https://www.sebenzahub.co.za/dashboard/business/applications) |
+| 2 | Pipeline | Standard | [https://www.sebenzahub.co.za/dashboard/business/pipeline](https://www.sebenzahub.co.za/dashboard/business/pipeline) |
+| 3 | Candidates | Standard | [https://www.sebenzahub.co.za/dashboard/business/candidates](https://www.sebenzahub.co.za/dashboard/business/candidates) |
 
 ## Next chapter
 

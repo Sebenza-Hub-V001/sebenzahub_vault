@@ -16,7 +16,7 @@ Sebenza Hub gives you four pages dedicated to that evidence: POPIA Compliance, B
 
 ## POPIA Compliance
 
-**Where it lives.** `/dashboard/business/popia-compliance`, in the **Compliance & Governance** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/popia-compliance](https://www.sebenzahub.co.za/dashboard/business/popia-compliance), in the **Compliance & Governance** sidebar group.
 
 **What it does.** Centralises the POPIA controls that touch candidate data: consent records (who consented to what processing, and when), data subject access request (DSAR) handling, retention policy configuration (how long candidate records survive after a hire / a rejection / a year of inactivity), and the standard Operator paperwork register for the third parties that process candidate data on your behalf (background-check providers, your HRIS, your Sebenza-managed WhatsApp bot). It's the page you open when the Information Regulator asks "show me your POPIA controls".
 
@@ -28,7 +28,7 @@ Sebenza Hub gives you four pages dedicated to that evidence: POPIA Compliance, B
 
 ## B-BBEE
 
-**Where it lives.** `/dashboard/business/bbbee`, in the **Compliance & Governance** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/bbbee](https://www.sebenzahub.co.za/dashboard/business/bbbee), in the **Compliance & Governance** sidebar group.
 
 **What it does.** B-BBEE scoring is multi-element (ownership, management control, skills development, ESD, socio-economic development). The piece this page handles is the part hiring touches directly: **management control demographics** — the racial and gender composition of management, executive, and other reporting categories — and **employment of designated groups** — Black, female, and disabled headcount as the verification agency will measure it. It pulls live demographic data from the platform and projects forward against your hiring plan.
 
@@ -39,7 +39,7 @@ Sebenza Hub gives you four pages dedicated to that evidence: POPIA Compliance, B
 
 ## Employment Equity
 
-**Where it lives.** `/dashboard/business/employment-equity`, in the **Compliance & Governance** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/employment-equity](https://www.sebenzahub.co.za/dashboard/business/employment-equity), in the **Compliance & Governance** sidebar group.
 
 **What it does.** Manages the EE plan filed with the Department of Employment and Labour and the EE reports submitted annually. Captures the targets per occupational level and demographic dimension, tracks actuals against targets across the year, and produces the EEA2 / EEA4-style outputs the department expects. Pulls candidate and hire data from the same platform so the report doesn't disagree with your operational hiring data.
 
@@ -51,7 +51,7 @@ Sebenza Hub gives you four pages dedicated to that evidence: POPIA Compliance, B
 
 ## Audit Trail
 
-**Where it lives.** `/dashboard/business/audit-trail`, in the **Compliance & Governance** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/audit-trail](https://www.sebenzahub.co.za/dashboard/business/audit-trail), in the **Compliance & Governance** sidebar group.
 
 **What it does.** A read-only log of every consequential action across the platform — who logged in, who created or edited a requisition, who advanced or rejected a candidate, who exported data, who changed a permission, who ordered a background check, who triggered an AI tool call. Each entry is timestamped, attributed to a user, and immutable. It's the page that answers "who did what, when?" without anyone having to remember.
 
@@ -88,10 +88,10 @@ What they do, that the spreadsheet-based incumbents don't, is make the data cont
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | POPIA Compliance | Standard | `/dashboard/business/popia-compliance` |
-| 2 | B-BBEE | Standard | `/dashboard/business/bbbee` |
-| 3 | Employment Equity | Standard | `/dashboard/business/employment-equity` |
-| 4 | Audit Trail | Standard | `/dashboard/business/audit-trail` |
+| 1 | POPIA Compliance | Standard | [https://www.sebenzahub.co.za/dashboard/business/popia-compliance](https://www.sebenzahub.co.za/dashboard/business/popia-compliance) |
+| 2 | B-BBEE | Standard | [https://www.sebenzahub.co.za/dashboard/business/bbbee](https://www.sebenzahub.co.za/dashboard/business/bbbee) |
+| 3 | Employment Equity | Standard | [https://www.sebenzahub.co.za/dashboard/business/employment-equity](https://www.sebenzahub.co.za/dashboard/business/employment-equity) |
+| 4 | Audit Trail | Standard | [https://www.sebenzahub.co.za/dashboard/business/audit-trail](https://www.sebenzahub.co.za/dashboard/business/audit-trail) |
 
 ## Next chapter
 

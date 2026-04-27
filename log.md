@@ -83,6 +83,34 @@
 - **Volume:** 235 path references converted across 33 chapters in one session, vs 92 across 22 chapters for Individual. Heavy use of `replace_all` per unique route in the dense chapters (ch17, ch20, ch28, ch30) made this feasible without per-edit reads of every reference.
 - **Still to sweep:** corporate (15 chapters) — the smallest persona, ready to start when Wes gives the go-ahead.
 
+## [2026-04-27] sweep | Embed clickable URLs across the Corporate manual (Pass 3 of 3 — sweep complete)
+- Trigger: Wes approved the final pass; all three persona manuals are now URL-clickable end-to-end.
+- **Verified route map:** spawned a fresh Explore agent against the product codebase to enumerate every `/dashboard/business/*` route — 51 routes verified across the corporate dashboard before editing.
+- **Surprises worth knowing:**
+  - Corporate sidebar uses fewer "table-of-contents" pages than Recruiter — most chapters reference 3–7 dedicated routes per section group rather than 9–11.
+  - SSO has its own dedicated route (`/sso-config`), separate from Settings — so chapters referencing SSO setup point to the right place automatically.
+  - Workforce/HR is by far the densest section (7 dedicated routes) — `/hris-integration`, `/workforce-planning`, `/internal-job-board`, `/performance`, `/succession-planning`, `/contract-workers`, `/team-dna`. Chapter 13 is correspondingly the densest in the corporate manual (21 refs).
+  - Compliance has 4 dedicated routes (`/popia-compliance`, `/bbbee`, `/employment-equity`, `/audit-trail`) — symmetric with the Recruiter side.
+  - Knowledge Base wiki uses parameterised routes (`/wiki/:id`, `/wiki/:id/page/:slug`) for individual wikis and pages — these stay in code-style backticks because they're URL templates, not navigable URLs.
+- **Pages updated** (14 chapters with nav references; ch01 had none):
+  - Part 1: ch02 (sign-up + login URLs), ch03 (2 refs), ch04 (2 refs all to billing — single replace_all)
+  - Part 2: ch05 (11 refs across 4 routes), ch06 (6 refs across 3 routes), ch07 (12 refs across 4 routes), ch08 (12 refs across 4 routes), ch09 (15 refs across 5 routes)
+  - Part 3: ch10 (9 refs across 3 routes), ch11 (12 refs across 4 routes), ch12 (8 refs across 4 routes), ch13 (21 refs across 7 routes — densest corporate chapter)
+  - Part 4: ch14 (12 refs across 4 routes), ch15 (4 refs to /wiki — table refs left as parameterised templates)
+- **Format applied** (consistent with Individual and Recruiter passes): `[https://www.sebenzahub.co.za/dashboard/business/route](https://www.sebenzahub.co.za/dashboard/business/route)` — URL is both the link text and the href.
+- **Verification:** post-sweep grep for unconverted `` `/dashboard/business/` `` paths returned 2 matches, both intentional (URL templates with `:id` / `:slug` placeholders in ch15's feature table). Layer 1 cross-site-leak grep clean across the whole `01 How-To Documents/` tree.
+- **Volume:** 130 path references converted across 14 chapters in this session. Heavy `replace_all` per unique route made it efficient — most edits were single-route, single-call replacements.
+
+## [2026-04-27] sweep complete | All three persona manuals now have clickable URLs end-to-end
+- **Final tally across all three sweeps:**
+  - Individual: 22 chapters touched, ~92 path references converted
+  - Recruiter: 33 chapters touched, ~235 path references converted
+  - Corporate: 14 chapters touched, ~130 path references converted
+  - **Total: 69 chapters, ~457 navigation references made clickable**
+- Every nav reference in every how-to chapter now embeds the full production URL with the `https://www.sebenzahub.co.za` domain — visible AND clickable in both Obsidian and the published `sebenzahub-manual` site.
+- Standing rule (saved as a feedback memory at the start of this sweep) now applies forward: every new how-to chapter must include the full clickable URL alongside any sidebar instruction. Future-me has the reminder; future Wes shouldn't have to give this feedback again.
+- Lint clean across all three manuals: zero forbidden-folder leaks, zero remaining bare-path references (excluding the two intentional parameterised route templates in corporate/ch15).
+
 ## [2026-04-25] sync | How-To refresh against the latest product code
 - Source: `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2` at `origin/main` (commits up to e8f086e)
 - Trigger: Wes asked for a How-To refresh — "CV Templates have changed completely; do the rest too."

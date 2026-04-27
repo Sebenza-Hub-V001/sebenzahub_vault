@@ -14,19 +14,19 @@ The **Workforce & HR** sidebar group is everything that sits above and around th
 
 The pages you'll use:
 
-- **HRIS Integration** (`/dashboard/business/hris-integration`) — bidirectional sync with SuccessFactors / Workday / BambooHR / Sage HR.
-- **Workforce Planning** (`/dashboard/business/workforce-planning`) — headcount forecast, capacity model, budget alignment.
-- **Internal Job Board** (`/dashboard/business/internal-job-board`) — private employees-only board with manager routing.
-- **Performance** (`/dashboard/business/performance`) — review cycles and competency framework.
-- **Succession Planning** (`/dashboard/business/succession-planning`) — successor mapping for critical roles.
-- **Contract Workers** (`/dashboard/business/contract-workers`) — fixed-term, contractor, temp workforce as a first-class track.
-- **Team DNA** (`/dashboard/business/team-dna`) — the composition profile of teams, used in hiring and succession.
+- **HRIS Integration** ([https://www.sebenzahub.co.za/dashboard/business/hris-integration](https://www.sebenzahub.co.za/dashboard/business/hris-integration)) — bidirectional sync with SuccessFactors / Workday / BambooHR / Sage HR.
+- **Workforce Planning** ([https://www.sebenzahub.co.za/dashboard/business/workforce-planning](https://www.sebenzahub.co.za/dashboard/business/workforce-planning)) — headcount forecast, capacity model, budget alignment.
+- **Internal Job Board** ([https://www.sebenzahub.co.za/dashboard/business/internal-job-board](https://www.sebenzahub.co.za/dashboard/business/internal-job-board)) — private employees-only board with manager routing.
+- **Performance** ([https://www.sebenzahub.co.za/dashboard/business/performance](https://www.sebenzahub.co.za/dashboard/business/performance)) — review cycles and competency framework.
+- **Succession Planning** ([https://www.sebenzahub.co.za/dashboard/business/succession-planning](https://www.sebenzahub.co.za/dashboard/business/succession-planning)) — successor mapping for critical roles.
+- **Contract Workers** ([https://www.sebenzahub.co.za/dashboard/business/contract-workers](https://www.sebenzahub.co.za/dashboard/business/contract-workers)) — fixed-term, contractor, temp workforce as a first-class track.
+- **Team DNA** ([https://www.sebenzahub.co.za/dashboard/business/team-dna](https://www.sebenzahub.co.za/dashboard/business/team-dna)) — the composition profile of teams, used in hiring and succession.
 
 ## Wire to your HRIS
 
 ### HRIS Integration — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/hris-integration`, in the **Workforce & HR** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/hris-integration](https://www.sebenzahub.co.za/dashboard/business/hris-integration), in the **Workforce & HR** sidebar group.
 
 **What this feature is.** HRIS Integration provides bidirectional data flow between Sebenza Hub and the major SA HRIS systems — SAP SuccessFactors, Workday, BambooHR, Sage HR. Hires created in Sebenza flow into the HRIS automatically; org structure and headcount data flows back from the HRIS into Sebenza.
 
@@ -48,7 +48,7 @@ The pages you'll use:
 
 ### Workforce Planning — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/workforce-planning`, in the **Workforce & HR** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/workforce-planning](https://www.sebenzahub.co.za/dashboard/business/workforce-planning), in the **Workforce & HR** sidebar group.
 
 **What this feature is.** Workforce Planning is the strategic layer that sits above the requisition system: headcount forecasting (by department, role family, location, and time period), capacity modelling (current team output vs target), budget alignment (every planned hire mapped to a budget line and approved by Finance), and scenario modelling (what happens to capacity and budget if revenue grows 20%, contracts 10%, or stays flat). It's integrated with the requisition system, so as you hire, the plan updates in real time.
 
@@ -88,7 +88,7 @@ The pages you'll use:
 
 ### Internal Job Board — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/internal-job-board`, in the **Workforce & HR** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/internal-job-board](https://www.sebenzahub.co.za/dashboard/business/internal-job-board), in the **Workforce & HR** sidebar group.
 
 **What this feature is.** The Internal Job Board is a private, employees-only job board with role-visibility rules (e.g., "Director-level and above hidden from the general listing"), manager routing (so an employee's current manager is notified when they apply), and an internal-only application flow that runs through a parallel pipeline from external candidates.
 
@@ -112,7 +112,7 @@ The pages you'll use:
 
 ### Performance — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/performance`, in the **Workforce & HR** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/performance](https://www.sebenzahub.co.za/dashboard/business/performance), in the **Workforce & HR** sidebar group.
 
 **What this feature is.** Performance is the employee performance tracking and review tool inside Sebenza Hub — review cycles, ratings, manager and peer feedback, and competency scorecards — integrated with hiring history. The interview scorecards used to *hire* someone become traceable to how they actually *perform*, closing the loop on hiring quality.
 
@@ -136,7 +136,7 @@ The pages you'll use:
 
 ### Succession Planning — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/succession-planning`, in the **Workforce & HR** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/succession-planning](https://www.sebenzahub.co.za/dashboard/business/succession-planning), in the **Workforce & HR** sidebar group.
 
 **What this feature is.** Succession Planning is the workforce tool for identifying internal successors for key roles before those roles open up. You map each critical role to one or more potential successors, track their development progress, and run a structured annual review. When the role opens, the successor is already identified, partially developed, and ready to interview.
 
@@ -159,7 +159,7 @@ The pages you'll use:
 
 ### Contract Workers — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/contract-workers`, in the **Workforce & HR** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/contract-workers](https://www.sebenzahub.co.za/dashboard/business/contract-workers), in the **Workforce & HR** sidebar group.
 
 **What this feature is.** Contract Workers is a parallel hiring track inside the same platform — same candidate database, same pipelines, same RBAC, but with a distinct workflow tuned for contract hiring: contract type (fixed-term / consultant / temp), contract end-date tracking, payment terms, supplier of record (you, an EOR, a labour broker), and the compliance flags SA labour law actually cares about.
 
@@ -194,7 +194,7 @@ The pages you'll use:
 
 ### Team DNA — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/team-dna`, in the **Workforce & HR** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/team-dna](https://www.sebenzahub.co.za/dashboard/business/team-dna), in the **Workforce & HR** sidebar group.
 
 **What it does.** Team DNA is the composition profile of teams across the organisation — the mix of skills, seniority, tenure, and competency strengths that makes up each department, function, or sub-team. It's the lens you use to spot when a team is over-indexed in one capability and underweight in another, or when an open requisition is the chance to deliberately rebalance.
 
@@ -220,13 +220,13 @@ The pages you'll use:
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | HRIS Integration | Premium | `/dashboard/business/hris-integration` |
-| 2 | Workforce Planning | Premium | `/dashboard/business/workforce-planning` |
-| 3 | Internal Job Board | Premium | `/dashboard/business/internal-job-board` |
-| 4 | Performance | Premium | `/dashboard/business/performance` |
-| 5 | Succession Planning | Premium | `/dashboard/business/succession-planning` |
-| 6 | Contract Workers | Premium | `/dashboard/business/contract-workers` |
-| 7 | Team DNA | Premium | `/dashboard/business/team-dna` |
+| 1 | HRIS Integration | Premium | [https://www.sebenzahub.co.za/dashboard/business/hris-integration](https://www.sebenzahub.co.za/dashboard/business/hris-integration) |
+| 2 | Workforce Planning | Premium | [https://www.sebenzahub.co.za/dashboard/business/workforce-planning](https://www.sebenzahub.co.za/dashboard/business/workforce-planning) |
+| 3 | Internal Job Board | Premium | [https://www.sebenzahub.co.za/dashboard/business/internal-job-board](https://www.sebenzahub.co.za/dashboard/business/internal-job-board) |
+| 4 | Performance | Premium | [https://www.sebenzahub.co.za/dashboard/business/performance](https://www.sebenzahub.co.za/dashboard/business/performance) |
+| 5 | Succession Planning | Premium | [https://www.sebenzahub.co.za/dashboard/business/succession-planning](https://www.sebenzahub.co.za/dashboard/business/succession-planning) |
+| 6 | Contract Workers | Premium | [https://www.sebenzahub.co.za/dashboard/business/contract-workers](https://www.sebenzahub.co.za/dashboard/business/contract-workers) |
+| 7 | Team DNA | Premium | [https://www.sebenzahub.co.za/dashboard/business/team-dna](https://www.sebenzahub.co.za/dashboard/business/team-dna) |
 
 ## Next chapter
 

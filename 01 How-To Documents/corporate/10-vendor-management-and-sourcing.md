@@ -14,15 +14,15 @@ You don't only hire from people who apply. The **Vendor & Sourcing** sidebar gro
 
 The pages you'll use:
 
-- **Vendor Management** (`/dashboard/business/vendors`) — the agency registry, POs, performance, and compliance.
-- **Talent CRM** (`/dashboard/business/talent-crm`) — the durable database of candidates worth engaging with over time.
-- **AI Search** (`/dashboard/business/ai-search`) — natural-language candidate search across pipelines, the CRM, and the platform's broader base.
+- **Vendor Management** ([https://www.sebenzahub.co.za/dashboard/business/vendors](https://www.sebenzahub.co.za/dashboard/business/vendors)) — the agency registry, POs, performance, and compliance.
+- **Talent CRM** ([https://www.sebenzahub.co.za/dashboard/business/talent-crm](https://www.sebenzahub.co.za/dashboard/business/talent-crm)) — the durable database of candidates worth engaging with over time.
+- **AI Search** ([https://www.sebenzahub.co.za/dashboard/business/ai-search](https://www.sebenzahub.co.za/dashboard/business/ai-search)) — natural-language candidate search across pipelines, the CRM, and the platform's broader base.
 
 ## Manage your external agencies
 
 ### Vendor Management — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/vendors`, in the **Vendor & Sourcing** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/vendors](https://www.sebenzahub.co.za/dashboard/business/vendors), in the **Vendor & Sourcing** sidebar group.
 
 **What this feature is.** Vendor Management is the central registry for every external recruitment agency you engage with. Each vendor record holds the engagement terms (fee structure, exclusivity, guarantee period), the active POs, the performance metrics (submissions, interview rate, placement rate, time-to-fill), the compliance status (POPIA agreement signed, B-BBEE certificate on file, MSA in date), and the payment history. When you publish a requisition to one or more agencies, this is where the work happens.
 
@@ -59,7 +59,7 @@ The pages you'll use:
 
 ### Talent CRM — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/talent-crm`, in the **Vendor & Sourcing** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/talent-crm](https://www.sebenzahub.co.za/dashboard/business/talent-crm), in the **Vendor & Sourcing** sidebar group.
 
 **What it does.** Talent CRM is the durable, cross-requisition database of candidates worth staying in touch with over time — silver-medalists from previous interview rounds, candidates from outbound research, referrals that didn't have an open role at the time, alumni you'd consider rehiring. Each contact has a record with the relationship history, tags, last interaction, and a pipeline state independent of any single requisition.
 
@@ -77,7 +77,7 @@ The pages you'll use:
 
 ### AI Search — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/ai-search`, in the **Vendor & Sourcing** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/ai-search](https://www.sebenzahub.co.za/dashboard/business/ai-search), in the **Vendor & Sourcing** sidebar group.
 
 **What it does.** Natural-language search across your active pipelines, your Talent CRM, and the platform's broader candidate base. Type "senior backend engineer in Cape Town with payment-systems experience and Afrikaans" and get a ranked list with the rationale for each match. Filters layer on top — location, salary band, last activity, demographic for EE-aware sourcing — and each result links back to the candidate record.
 
@@ -106,9 +106,9 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | Vendor Management | Premium | `/dashboard/business/vendors` |
-| 2 | Talent CRM | Premium | `/dashboard/business/talent-crm` |
-| 3 | AI Search | Premium | `/dashboard/business/ai-search` |
+| 1 | Vendor Management | Premium | [https://www.sebenzahub.co.za/dashboard/business/vendors](https://www.sebenzahub.co.za/dashboard/business/vendors) |
+| 2 | Talent CRM | Premium | [https://www.sebenzahub.co.za/dashboard/business/talent-crm](https://www.sebenzahub.co.za/dashboard/business/talent-crm) |
+| 3 | AI Search | Premium | [https://www.sebenzahub.co.za/dashboard/business/ai-search](https://www.sebenzahub.co.za/dashboard/business/ai-search) |
 
 ## Next chapter
 

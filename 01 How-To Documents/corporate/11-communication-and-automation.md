@@ -14,16 +14,16 @@ The hiring conversation happens across email, WhatsApp, in-platform threads, and
 
 The pages you'll use:
 
-- **Unified Inbox** (`/dashboard/business/unified-inbox`) — multi-channel candidate threads, all in one view.
-- **Email Templates** (`/dashboard/business/email-templates`) — the canned messages your team sends out.
-- **Brand Voice** (`/dashboard/business/brand-voice`) — the per-organisation voice profile the AI features write against.
-- **Approvals** (`/dashboard/business/approvals`) — in-platform approval routing for non-offer decisions.
+- **Unified Inbox** ([https://www.sebenzahub.co.za/dashboard/business/unified-inbox](https://www.sebenzahub.co.za/dashboard/business/unified-inbox)) — multi-channel candidate threads, all in one view.
+- **Email Templates** ([https://www.sebenzahub.co.za/dashboard/business/email-templates](https://www.sebenzahub.co.za/dashboard/business/email-templates)) — the canned messages your team sends out.
+- **Brand Voice** ([https://www.sebenzahub.co.za/dashboard/business/brand-voice](https://www.sebenzahub.co.za/dashboard/business/brand-voice)) — the per-organisation voice profile the AI features write against.
+- **Approvals** ([https://www.sebenzahub.co.za/dashboard/business/approvals](https://www.sebenzahub.co.za/dashboard/business/approvals)) — in-platform approval routing for non-offer decisions.
 
 ## Bring multi-channel candidate conversations together
 
 ### Unified Inbox — _Tier: Premium · WhatsApp via Sebenza-managed bot_
 
-**Where it lives.** `/dashboard/business/unified-inbox`, in the **Communication & Automation** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/unified-inbox](https://www.sebenzahub.co.za/dashboard/business/unified-inbox), in the **Communication & Automation** sidebar group.
 
 **What it does.** Unified Inbox brings every candidate-facing channel — email, WhatsApp, and the platform-internal thread — into a single view, threaded against the candidate record. A recruiter replying in the inbox doesn't pick the channel; the system replies on whatever channel the candidate last used, and the conversation is captured against the candidate regardless.
 
@@ -45,7 +45,7 @@ The pages you'll use:
 
 ### Email Templates — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/email-templates`, in the **Communication & Automation** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/email-templates](https://www.sebenzahub.co.za/dashboard/business/email-templates), in the **Communication & Automation** sidebar group.
 
 **What it does.** Email Templates is the maintained library of canned messages the team sends — application acknowledgements, screening invitations, interview confirmations, rejections, offer-stage updates, follow-ups. Each template uses placeholders (candidate name, role, recruiter name, scheduling link) so a single template adapts to every candidate and requisition.
 
@@ -62,7 +62,7 @@ The pages you'll use:
 
 ### Brand Voice — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/brand-voice`, in the **Communication & Automation** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/brand-voice](https://www.sebenzahub.co.za/dashboard/business/brand-voice), in the **Communication & Automation** sidebar group.
 
 **What it does.** Brand Voice is the per-organisation profile that shapes every AI text feature — tone, formality level, banned words, signature phrases, and example paragraphs. Once it's tuned, AI JD Writer (covered in [[01 How-To Documents/corporate/05-posting-jobs|Chapter 5]]), Content Repurpose (also Chapter 5), AI Questions (covered in [[01 How-To Documents/corporate/08-interviewing|Chapter 8]]), and AI-generated candidate communication all sound like you wrote them.
 
@@ -76,7 +76,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Approvals — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/approvals`, in the **Communication & Automation** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/approvals](https://www.sebenzahub.co.za/dashboard/business/approvals), in the **Communication & Automation** sidebar group.
 
 **What it does.** Approvals is the in-platform routing for the non-offer decisions that need a sign-off — opening a requisition above-headcount, escalating a hire to executive review, approving a non-standard contract clause, releasing a candidate from a guarantee period. (Offer-letter approvals are handled separately on the Offer Approvals page, covered in [[01 How-To Documents/corporate/09-making-offers|Chapter 9]].)
 
@@ -100,10 +100,10 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | Unified Inbox | Premium · WhatsApp via Sebenza-managed bot | `/dashboard/business/unified-inbox` |
-| 2 | Email Templates | Standard | `/dashboard/business/email-templates` |
-| 3 | Brand Voice | Premium | `/dashboard/business/brand-voice` |
-| 4 | Approvals | Standard | `/dashboard/business/approvals` |
+| 1 | Unified Inbox | Premium · WhatsApp via Sebenza-managed bot | [https://www.sebenzahub.co.za/dashboard/business/unified-inbox](https://www.sebenzahub.co.za/dashboard/business/unified-inbox) |
+| 2 | Email Templates | Standard | [https://www.sebenzahub.co.za/dashboard/business/email-templates](https://www.sebenzahub.co.za/dashboard/business/email-templates) |
+| 3 | Brand Voice | Premium | [https://www.sebenzahub.co.za/dashboard/business/brand-voice](https://www.sebenzahub.co.za/dashboard/business/brand-voice) |
+| 4 | Approvals | Standard | [https://www.sebenzahub.co.za/dashboard/business/approvals](https://www.sebenzahub.co.za/dashboard/business/approvals) |
 
 ## Next chapter
 

@@ -14,17 +14,17 @@ The offer is the moment everything before it gets converted (or not). The **Make
 
 The pages you'll use:
 
-- **Offers** (`/dashboard/business/offers`) — the active offer list and per-offer detail.
-- **Offer Letters** (`/dashboard/business/offer-letters`) — the document the candidate signs.
-- **Offer Templates** (`/dashboard/business/offer-templates`) — the per-role-family template the letters are generated from.
-- **Offer Approvals** (`/dashboard/business/offer-approvals`) — the routing that gets the right approvers on the letter before it sends.
-- **Predictive Hiring** (`/dashboard/business/predictive-hiring`) — the AI prior on offer-acceptance and role-fit.
+- **Offers** ([https://www.sebenzahub.co.za/dashboard/business/offers](https://www.sebenzahub.co.za/dashboard/business/offers)) — the active offer list and per-offer detail.
+- **Offer Letters** ([https://www.sebenzahub.co.za/dashboard/business/offer-letters](https://www.sebenzahub.co.za/dashboard/business/offer-letters)) — the document the candidate signs.
+- **Offer Templates** ([https://www.sebenzahub.co.za/dashboard/business/offer-templates](https://www.sebenzahub.co.za/dashboard/business/offer-templates)) — the per-role-family template the letters are generated from.
+- **Offer Approvals** ([https://www.sebenzahub.co.za/dashboard/business/offer-approvals](https://www.sebenzahub.co.za/dashboard/business/offer-approvals)) — the routing that gets the right approvers on the letter before it sends.
+- **Predictive Hiring** ([https://www.sebenzahub.co.za/dashboard/business/predictive-hiring](https://www.sebenzahub.co.za/dashboard/business/predictive-hiring)) — the AI prior on offer-acceptance and role-fit.
 
 ## Run the offer
 
 ### Offers — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/offers`, in the **Make Offer** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/offers](https://www.sebenzahub.co.za/dashboard/business/offers), in the **Make Offer** sidebar group.
 
 **What it does.** Offers is the live list of every in-flight offer across the organisation. Each row shows the candidate, the role, the offer amount, the approval state, the letter status, and the time since the last action. Click in for the per-offer detail: full package, approval thread, communications history, signed documents.
 
@@ -40,7 +40,7 @@ The pages you'll use:
 
 ### Offer Letters — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/offer-letters`, in the **Make Offer** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/offer-letters](https://www.sebenzahub.co.za/dashboard/business/offer-letters), in the **Make Offer** sidebar group.
 
 **What it does.** Offer Letters generates the candidate-facing offer document from the per-role-family template, populated with the specific package, role, and start date. The candidate signs in-platform; the signed PDF lands on the candidate record and the audit trail captures every step.
 
@@ -57,7 +57,7 @@ The pages you'll use:
 
 ### Offer Templates — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/offer-templates`, in the **Make Offer** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/offer-templates](https://www.sebenzahub.co.za/dashboard/business/offer-templates), in the **Make Offer** sidebar group.
 
 **What it does.** Offer Templates is the maintained library of letter templates per role family or contract type — permanent, fixed-term, independent contractor, executive. Each template is the legally-approved language with placeholders for role / package / start date that the letter generator fills in.
 
@@ -73,7 +73,7 @@ The pages you'll use:
 
 ### Offer Approvals — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/offer-approvals`, in the **Make Offer** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/offer-approvals](https://www.sebenzahub.co.za/dashboard/business/offer-approvals), in the **Make Offer** sidebar group.
 
 **What it does.** Offer Approvals is the routing layer that gates an offer letter from going out until the right approvers (hiring manager, finance, HR, the next-level manager for above-band offers) have signed off. Approvers see the offer, the package, and the rationale; they approve, reject, or push back in-platform.
 
@@ -89,7 +89,7 @@ The pages you'll use:
 
 ### Predictive Hiring — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/predictive-hiring`, in the **Make Offer** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/predictive-hiring](https://www.sebenzahub.co.za/dashboard/business/predictive-hiring), in the **Make Offer** sidebar group.
 
 **What it does.** Scores candidates on role-fit and likely-to-accept signals using the platform's historical data, and flags pipeline patterns at the requisition level (e.g., "candidates from this source convert at half the rate"). Different from **Predictive Analytics** (covered in [[01 How-To Documents/corporate/14-analytics-and-reporting|Chapter 14]]): Predictive Hiring is about the next decision on this candidate; Predictive Analytics is about the trajectory of the requisition.
 
@@ -118,11 +118,11 @@ When the candidate accepts and the offer letter is signed, advance them to **Hir
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | Offers | Standard | `/dashboard/business/offers` |
-| 2 | Offer Letters | Standard | `/dashboard/business/offer-letters` |
-| 3 | Offer Templates | Standard | `/dashboard/business/offer-templates` |
-| 4 | Offer Approvals | Standard | `/dashboard/business/offer-approvals` |
-| 5 | Predictive Hiring | Premium | `/dashboard/business/predictive-hiring` |
+| 1 | Offers | Standard | [https://www.sebenzahub.co.za/dashboard/business/offers](https://www.sebenzahub.co.za/dashboard/business/offers) |
+| 2 | Offer Letters | Standard | [https://www.sebenzahub.co.za/dashboard/business/offer-letters](https://www.sebenzahub.co.za/dashboard/business/offer-letters) |
+| 3 | Offer Templates | Standard | [https://www.sebenzahub.co.za/dashboard/business/offer-templates](https://www.sebenzahub.co.za/dashboard/business/offer-templates) |
+| 4 | Offer Approvals | Standard | [https://www.sebenzahub.co.za/dashboard/business/offer-approvals](https://www.sebenzahub.co.za/dashboard/business/offer-approvals) |
+| 5 | Predictive Hiring | Premium | [https://www.sebenzahub.co.za/dashboard/business/predictive-hiring](https://www.sebenzahub.co.za/dashboard/business/predictive-hiring) |
 
 ## Next chapter
 

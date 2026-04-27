@@ -10,7 +10,7 @@ user-types: [business]
 
 # Chapter 4 — Trial and billing lifecycle
 
-Every new Business account starts on a **30-day Premium trial**, then lives the rest of its lifespan on whichever paid plan you convert to (or on the Free tier if you let the trial expire). This chapter walks through the lifecycle end-to-end so finance, the account owner, and the TA leader all share the same picture of what happens when. The Billing page lives at `/dashboard/business/billing` in the **Configure Organization** sidebar group — Admin / owner only.
+Every new Business account starts on a **30-day Premium trial**, then lives the rest of its lifespan on whichever paid plan you convert to (or on the Free tier if you let the trial expire). This chapter walks through the lifecycle end-to-end so finance, the account owner, and the TA leader all share the same picture of what happens when. The Billing page lives at [https://www.sebenzahub.co.za/dashboard/business/billing](https://www.sebenzahub.co.za/dashboard/business/billing) in the **Configure Organization** sidebar group — Admin / owner only.
 
 ## Day 0 — signup
 
@@ -55,7 +55,7 @@ If you let it expire and want Premium back later, you can subscribe at any time.
 
 ## Conversion: how it actually happens
 
-Conversion is a single action from the **Billing** page (`/dashboard/business/billing`):
+Conversion is a single action from the **Billing** page ([https://www.sebenzahub.co.za/dashboard/business/billing](https://www.sebenzahub.co.za/dashboard/business/billing)):
 
 1. Open the page. The TrialBanner and the page itself surface the conversion call-to-action.
 2. Pick the plan you want to convert to. The default offered is Premium (the trial set the expectation); Standard is available if your operation doesn't need the Premium-only features.

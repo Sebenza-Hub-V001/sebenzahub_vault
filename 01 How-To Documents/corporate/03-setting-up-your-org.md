@@ -12,7 +12,7 @@ user-types: [business]
 
 You've created the owner account in Chapter 2 and landed on the Corporate dashboard. Before you post a single requisition, spend an hour wiring up the organisation properly: invite the team, set permissions, lock down access with SSO, brand your candidate experience, and tune notifications. Skip this and you'll spend the next six months apologising to hiring managers, security, and brand.
 
-This chapter covers six features in the order you should set them up. One housekeeping note before you start: the **Billing** page (`/dashboard/business/billing`) sits in the same Configure Organization sidebar group and is gated to Admin / owner. If your finance contact is different from your TA owner, make sure they have an Admin seat now — they'll need it to convert the trial to a paid plan in [[01 How-To Documents/corporate/04-trial-and-billing-lifecycle|Chapter 4]].
+This chapter covers six features in the order you should set them up. One housekeeping note before you start: the **Billing** page ([https://www.sebenzahub.co.za/dashboard/business/billing](https://www.sebenzahub.co.za/dashboard/business/billing)) sits in the same Configure Organization sidebar group and is gated to Admin / owner. If your finance contact is different from your TA owner, make sure they have an Admin seat now — they'll need it to convert the trial to a paid plan in [[01 How-To Documents/corporate/04-trial-and-billing-lifecycle|Chapter 4]].
 
 ## Why this order matters
 
@@ -155,7 +155,7 @@ Keep the original Sebenza-domain URLs working as fallbacks during the transition
 
 1. Open **Settings → Notifications** and review the per-event email defaults. Most organisations turn off "candidate viewed your job posting" and similar low-signal events, and keep on @-mentions, scheduled interviews, offer status changes, and approval requests.
 2. Each team member can override their personal preferences from the same screen on their own login. Train the team to do this rather than mute everything.
-3. The **Unified Inbox** (`/dashboard/business/unified-inbox`, covered in [[01 How-To Documents/corporate/11-communication-and-automation|Chapter 11]]) is where multi-channel conversations land — email, WhatsApp, and the platform-internal thread. Train recruiters to leave hiring rationale as comments on the candidate record rather than in side-channel chat.
+3. The **Unified Inbox** ([https://www.sebenzahub.co.za/dashboard/business/unified-inbox](https://www.sebenzahub.co.za/dashboard/business/unified-inbox), covered in [[01 How-To Documents/corporate/11-communication-and-automation|Chapter 11]]) is where multi-channel conversations land — email, WhatsApp, and the platform-internal thread. Train recruiters to leave hiring rationale as comments on the candidate record rather than in side-channel chat.
 4. For interviewers who are not full team members, use the scorecard-only flow (covered in [[01 How-To Documents/corporate/07-screening-and-evaluating|Chapter 7]]). They can leave structured feedback without consuming a Team Member seat.
 
 ![[c-ch03-team-collaboration-feed.png]]

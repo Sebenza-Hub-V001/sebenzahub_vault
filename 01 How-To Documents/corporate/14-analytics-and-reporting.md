@@ -14,16 +14,16 @@ The **Analytics** sidebar group is where the operational signal becomes a number
 
 The pages you'll use:
 
-- **Recruitment Analytics** (`/dashboard/business/analytics`) — the live operational dashboard.
-- **Predictive Analytics** (`/dashboard/business/predictive-analytics`) — forward-looking projection of pipelines and offers.
-- **Diversity Analytics** (`/dashboard/business/diversity-analytics`) — the demographic funnel for EE / B-BBEE.
-- **Custom Reports** (`/dashboard/business/custom-reports`) — drag-and-drop report builder for the things the standard pages don't show.
+- **Recruitment Analytics** ([https://www.sebenzahub.co.za/dashboard/business/analytics](https://www.sebenzahub.co.za/dashboard/business/analytics)) — the live operational dashboard.
+- **Predictive Analytics** ([https://www.sebenzahub.co.za/dashboard/business/predictive-analytics](https://www.sebenzahub.co.za/dashboard/business/predictive-analytics)) — forward-looking projection of pipelines and offers.
+- **Diversity Analytics** ([https://www.sebenzahub.co.za/dashboard/business/diversity-analytics](https://www.sebenzahub.co.za/dashboard/business/diversity-analytics)) — the demographic funnel for EE / B-BBEE.
+- **Custom Reports** ([https://www.sebenzahub.co.za/dashboard/business/custom-reports](https://www.sebenzahub.co.za/dashboard/business/custom-reports)) — drag-and-drop report builder for the things the standard pages don't show.
 
 ## See your data live
 
 ### Recruitment Analytics — _Tier: Standard (Standard surface) · Premium (deeper drill-downs and BI export)_
 
-**Where it lives.** `/dashboard/business/analytics`, in the **Analytics** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/analytics](https://www.sebenzahub.co.za/dashboard/business/analytics), in the **Analytics** sidebar group.
 
 **What this feature is.** Recruitment Analytics surfaces the operational hiring metrics every TA leader is measured on: time-to-hire, funnel conversion (applied → interviewed → offered → hired), source analytics (which channels produce hires), and per-requisition performance. It's a live view, not a monthly extract. Premium unlocks the deeper drill-downs — cross-period comparisons (this quarter vs same quarter last year), cohort analysis, funnel decomposition by source / role / hiring manager / demographic, and ad-hoc filter combinations — plus BI export to PowerBI / Tableau for analysis you can't do in the dashboard.
 
@@ -48,7 +48,7 @@ The pages you'll use:
 
 ### Predictive Analytics — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/predictive-analytics`, in the **Analytics** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/predictive-analytics](https://www.sebenzahub.co.za/dashboard/business/predictive-analytics), in the **Analytics** sidebar group.
 
 **What this feature is.** Predictive Analytics takes your historical hiring data and projects forward — likely time-to-fill on each open requisition, predicted offer-acceptance rate by candidate signal, source channels that historically convert best for the role family. It's the forward-looking layer on top of the descriptive analytics covered above.
 
@@ -68,7 +68,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Diversity Analytics — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/diversity-analytics`, in the **Analytics** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/diversity-analytics](https://www.sebenzahub.co.za/dashboard/business/diversity-analytics), in the **Analytics** sidebar group.
 
 **What this feature is.** Diversity Analytics is the dedicated home for funnel views that slice your hiring data by the demographic dimensions Employment Equity and B-BBEE care about — race, gender, disability status, age band — across the funnel from application to hire. It is where you see the EE and B-BBEE conversion patterns rather than the operational time-to-hire numbers that live on Recruitment Analytics.
 
@@ -85,7 +85,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Custom Reports — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/custom-reports`, in the **Analytics** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/custom-reports](https://www.sebenzahub.co.za/dashboard/business/custom-reports), in the **Analytics** sidebar group.
 
 **What this feature is.** Custom Reports is a drag-and-drop report builder for the metrics, filters, and formats your board specifically wants — not the metrics Sebenza thought you'd want. Reports can be scheduled (auto-delivered to the right people on the right cadence) and exported as PDF, Excel, or pushed via API to a downstream system.
 
@@ -119,10 +119,10 @@ The most powerful report you can build in Custom Reports — and the one most te
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | Recruitment Analytics | Standard (surface) · Premium (drill-downs and BI export) | `/dashboard/business/analytics` |
-| 2 | Predictive Analytics | Premium | `/dashboard/business/predictive-analytics` |
-| 3 | Diversity Analytics | Standard | `/dashboard/business/diversity-analytics` |
-| 4 | Custom Reports | Premium | `/dashboard/business/custom-reports` |
+| 1 | Recruitment Analytics | Standard (surface) · Premium (drill-downs and BI export) | [https://www.sebenzahub.co.za/dashboard/business/analytics](https://www.sebenzahub.co.za/dashboard/business/analytics) |
+| 2 | Predictive Analytics | Premium | [https://www.sebenzahub.co.za/dashboard/business/predictive-analytics](https://www.sebenzahub.co.za/dashboard/business/predictive-analytics) |
+| 3 | Diversity Analytics | Standard | [https://www.sebenzahub.co.za/dashboard/business/diversity-analytics](https://www.sebenzahub.co.za/dashboard/business/diversity-analytics) |
+| 4 | Custom Reports | Premium | [https://www.sebenzahub.co.za/dashboard/business/custom-reports](https://www.sebenzahub.co.za/dashboard/business/custom-reports) |
 
 ## Next chapter
 

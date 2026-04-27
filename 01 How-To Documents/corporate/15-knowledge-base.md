@@ -16,7 +16,7 @@ This chapter covers the three Knowledge Base pages — the Dashboard (where you 
 
 ### Knowledge Base — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/wiki`, in the **Knowledge Base** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/wiki](https://www.sebenzahub.co.za/dashboard/business/wiki), in the **Knowledge Base** sidebar group.
 
 ## What it's for
 
@@ -86,9 +86,9 @@ It also is not the place for documents that need to be filed, signed, or have a 
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | Knowledge Base Dashboard | Standard | `/dashboard/business/wiki` |
-| 2 | Wiki Viewer | Standard | `/dashboard/business/wiki/:id` |
-| 3 | Wiki Page editor | Standard | `/dashboard/business/wiki/:id/page/:slug` |
+| 1 | Knowledge Base Dashboard | Standard | [https://www.sebenzahub.co.za/dashboard/business/wiki](https://www.sebenzahub.co.za/dashboard/business/wiki) |
+| 2 | Wiki Viewer | Standard | `/dashboard/business/wiki/:id` (per-wiki URL) |
+| 3 | Wiki Page editor | Standard | `/dashboard/business/wiki/:id/page/:slug` (per-page URL) |
 
 ## References
 

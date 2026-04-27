@@ -14,17 +14,17 @@ Once applications are landing in the pipeline (covered in [[01 How-To Documents/
 
 The pages you'll use:
 
-- **Screening Bot** (`/dashboard/business/screening-bot`) — conversational pre-screen at the Applied stage.
-- **Video Interviews** (`/dashboard/business/video-interviews`) — async one-way and live two-way video interviews.
-- **Scorecards** (`/dashboard/business/scorecards`) — structured interview feedback against a competency framework.
-- **Background Checks** (`/dashboard/business/background-checks`) — third-party verification before extending an offer.
+- **Screening Bot** ([https://www.sebenzahub.co.za/dashboard/business/screening-bot](https://www.sebenzahub.co.za/dashboard/business/screening-bot)) — conversational pre-screen at the Applied stage.
+- **Video Interviews** ([https://www.sebenzahub.co.za/dashboard/business/video-interviews](https://www.sebenzahub.co.za/dashboard/business/video-interviews)) — async one-way and live two-way video interviews.
+- **Scorecards** ([https://www.sebenzahub.co.za/dashboard/business/scorecards](https://www.sebenzahub.co.za/dashboard/business/scorecards)) — structured interview feedback against a competency framework.
+- **Background Checks** ([https://www.sebenzahub.co.za/dashboard/business/background-checks](https://www.sebenzahub.co.za/dashboard/business/background-checks)) — third-party verification before extending an offer.
 - **AI Candidate Summary** — embedded on every candidate record (no standalone page).
 
 ## Compress the first call with a bot
 
 ### Screening Bot — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/screening-bot`, in the **Screen & Evaluate** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/screening-bot](https://www.sebenzahub.co.za/dashboard/business/screening-bot), in the **Screen & Evaluate** sidebar group.
 
 **What it does.** A conversational pre-screen that runs at the **Applied** stage, asks the qualifying questions you'd otherwise ask on a first phone screen (notice period, salary expectation, must-have qualifications, work eligibility, location), and surfaces a structured result on the candidate record. You configure the question set per role family using **Screening Roles** (covered in [[01 How-To Documents/corporate/05-posting-jobs|Chapter 5]]); the bot handles tone and follow-up clarification.
 
@@ -41,7 +41,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Video Interviews — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/video-interviews`, in the **Screen & Evaluate** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/video-interviews](https://www.sebenzahub.co.za/dashboard/business/video-interviews), in the **Screen & Evaluate** sidebar group.
 
 **What it does.** Schedules and hosts video interviews against candidate records — both async one-way (the candidate records answers to set questions on their own time) and live two-way (synchronous panel interviews). Recordings, transcripts, and the link to the relevant scorecard are kept against the candidate record.
 
@@ -58,7 +58,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Scorecards — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/scorecards`, in the **Screen & Evaluate** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/scorecards](https://www.sebenzahub.co.za/dashboard/business/scorecards), in the **Screen & Evaluate** sidebar group.
 
 **What it does.** Scorecards are the structured feedback form interviewers fill out against a competency framework. Each scorecard ties the rating, written feedback, and interviewer to a specific candidate, requisition, and stage — and the aggregated view shows the panel's collective verdict before you make the offer call.
 
@@ -75,7 +75,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Background Checks — _Tier: Standard · per-check fees_
 
-**Where it lives.** `/dashboard/business/background-checks`, in the **Screen & Evaluate** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/background-checks](https://www.sebenzahub.co.za/dashboard/business/background-checks), in the **Screen & Evaluate** sidebar group.
 
 **What this feature is.** Background Checks is the page where you order verification on a candidate before extending an offer — criminal record, credit, qualification, employment history, and reference checks — and where the results, timestamps, and consent records are kept for audit. The platform integrates with third-party verification providers; you order the package, the candidate completes consent, the provider runs the check, and the result lands back on the candidate record.
 
@@ -117,10 +117,10 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | Screening Bot | Premium | `/dashboard/business/screening-bot` |
-| 2 | Video Interviews | Premium | `/dashboard/business/video-interviews` |
-| 3 | Scorecards | Standard | `/dashboard/business/scorecards` |
-| 4 | Background Checks | Standard · per-check fees · trial cap of 2 | `/dashboard/business/background-checks` |
+| 1 | Screening Bot | Premium | [https://www.sebenzahub.co.za/dashboard/business/screening-bot](https://www.sebenzahub.co.za/dashboard/business/screening-bot) |
+| 2 | Video Interviews | Premium | [https://www.sebenzahub.co.za/dashboard/business/video-interviews](https://www.sebenzahub.co.za/dashboard/business/video-interviews) |
+| 3 | Scorecards | Standard | [https://www.sebenzahub.co.za/dashboard/business/scorecards](https://www.sebenzahub.co.za/dashboard/business/scorecards) |
+| 4 | Background Checks | Standard · per-check fees · trial cap of 2 | [https://www.sebenzahub.co.za/dashboard/business/background-checks](https://www.sebenzahub.co.za/dashboard/business/background-checks) |
 | 5 | AI Candidate Summary | Premium | embedded on candidate records |
 
 ## Next chapter

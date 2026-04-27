@@ -14,16 +14,16 @@ Interviewing is where most hiring time disappears — calendar back-and-forth, p
 
 The pages you'll use:
 
-- **Scheduling** (`/dashboard/business/scheduling`) — recruiter-driven scheduling with calendar integration.
-- **Self-Scheduling** (`/dashboard/business/self-scheduling`) — candidate picks a slot from a configured availability window.
-- **Interview Kits** (`/dashboard/business/interview-kits`) — the maintained question bank and round structure per role family.
-- **AI Questions** (`/dashboard/business/ai-questions`) — generates the candidate-specific layer of questions on top of the kit.
+- **Scheduling** ([https://www.sebenzahub.co.za/dashboard/business/scheduling](https://www.sebenzahub.co.za/dashboard/business/scheduling)) — recruiter-driven scheduling with calendar integration.
+- **Self-Scheduling** ([https://www.sebenzahub.co.za/dashboard/business/self-scheduling](https://www.sebenzahub.co.za/dashboard/business/self-scheduling)) — candidate picks a slot from a configured availability window.
+- **Interview Kits** ([https://www.sebenzahub.co.za/dashboard/business/interview-kits](https://www.sebenzahub.co.za/dashboard/business/interview-kits)) — the maintained question bank and round structure per role family.
+- **AI Questions** ([https://www.sebenzahub.co.za/dashboard/business/ai-questions](https://www.sebenzahub.co.za/dashboard/business/ai-questions)) — generates the candidate-specific layer of questions on top of the kit.
 
 ## Schedule the interview
 
 ### Scheduling — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/scheduling`, in the **Interview** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/scheduling](https://www.sebenzahub.co.za/dashboard/business/scheduling), in the **Interview** sidebar group.
 
 **What it does.** Scheduling is the recruiter-driven interview calendar — see all upcoming and pending interviews across the team, pick a slot, invite the panel, and send the candidate a calendar invite with the meeting details. Integrates with your calendar provider so panel availability is real, not asserted.
 
@@ -40,7 +40,7 @@ The pages you'll use:
 
 ### Self-Scheduling — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/self-scheduling`, in the **Interview** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/self-scheduling](https://www.sebenzahub.co.za/dashboard/business/self-scheduling), in the **Interview** sidebar group.
 
 **What it does.** Self-Scheduling lets the recruiter open a window of availability for a specific interview round and lets the candidate pick a slot from it. The recruiter sets the constraints (which panel members, which time windows, max number of interviews per day); the candidate sees only the slots that fit those constraints; the chosen slot becomes a calendar invite for everyone.
 
@@ -55,7 +55,7 @@ The pages you'll use:
 
 ### Interview Kits — _Tier: Standard_
 
-**Where it lives.** `/dashboard/business/interview-kits`, in the **Interview** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/interview-kits](https://www.sebenzahub.co.za/dashboard/business/interview-kits), in the **Interview** sidebar group.
 
 **What it does.** Interview Kits is the maintained question bank and round structure per role family. Each kit defines the rounds (recruiter screen, technical, behavioural, panel, executive), the competencies each round is meant to assess, and the canonical question set the interviewer takes into the room. The kit is auto-attached to the calendar invite when an interview is scheduled.
 
@@ -72,7 +72,7 @@ The pages you'll use:
 
 ### AI Questions — _Tier: Premium_
 
-**Where it lives.** `/dashboard/business/ai-questions`, in the **Interview** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/ai-questions](https://www.sebenzahub.co.za/dashboard/business/ai-questions), in the **Interview** sidebar group.
 
 **What it does.** Generates interview questions tailored to the role and the specific candidate's CV — competency-based for the must-haves, scenario-based for the behavioural dimensions, and probing follow-ups for any CV gap or unusual signal. Output is structured so an interviewer can take it into the room as-is.
 
@@ -96,10 +96,10 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 | # | Feature | Tier | Route |
 |---|---------|------|-------|
-| 1 | Scheduling | Standard | `/dashboard/business/scheduling` |
-| 2 | Self-Scheduling | Premium | `/dashboard/business/self-scheduling` |
-| 3 | Interview Kits | Standard | `/dashboard/business/interview-kits` |
-| 4 | AI Questions | Premium | `/dashboard/business/ai-questions` |
+| 1 | Scheduling | Standard | [https://www.sebenzahub.co.za/dashboard/business/scheduling](https://www.sebenzahub.co.za/dashboard/business/scheduling) |
+| 2 | Self-Scheduling | Premium | [https://www.sebenzahub.co.za/dashboard/business/self-scheduling](https://www.sebenzahub.co.za/dashboard/business/self-scheduling) |
+| 3 | Interview Kits | Standard | [https://www.sebenzahub.co.za/dashboard/business/interview-kits](https://www.sebenzahub.co.za/dashboard/business/interview-kits) |
+| 4 | AI Questions | Premium | [https://www.sebenzahub.co.za/dashboard/business/ai-questions](https://www.sebenzahub.co.za/dashboard/business/ai-questions) |
 
 ## Next chapter
 

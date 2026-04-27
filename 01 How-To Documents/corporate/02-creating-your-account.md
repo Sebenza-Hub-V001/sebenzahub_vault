@@ -23,7 +23,11 @@ You need:
 
 ## Step 1 — Go to the signup page
 
-Open the Sebenza Hub homepage and click **Sign up** (or **Get started**). You'll land on an email entry page.
+Open the sign-up page directly: [https://www.sebenzahub.co.za/get-started](https://www.sebenzahub.co.za/get-started)
+
+(Or visit [https://www.sebenzahub.co.za](https://www.sebenzahub.co.za) and click **Sign up** / **Get started**. **Log In** at [https://www.sebenzahub.co.za/login](https://www.sebenzahub.co.za/login) also works the same way for new users.)
+
+You'll land on an email entry page.
 
 Enter your work email address and click **Send magic link**. There's no password — Sebenza Hub uses magic-link login, where you click a link in your email instead of typing one. This is more secure than a password (no password to leak, no password to forget) and faster after the first time. SSO can replace this entirely once configured. See [[02-concepts/authentication]] for how the auth model works.
 
