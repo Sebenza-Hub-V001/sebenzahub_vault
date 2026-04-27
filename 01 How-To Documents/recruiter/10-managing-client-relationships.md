@@ -18,8 +18,8 @@ The agencies that fail aren't the ones that can't source candidates — it's the
 
 | Tool | Page | What you'll use it for |
 |---|---|---|
-| **Client Pipeline** | `/dashboard/recruiter/client-pipeline` | Tracking opportunities at each client (potential mandates, in-flight roles, deals being negotiated) |
-| **Call Notes** | `/dashboard/recruiter/call-notes` | Logging every phone call, email, meeting, or message with a client |
+| **Client Pipeline** | [https://www.sebenzahub.co.za/dashboard/recruiter/client-pipeline](https://www.sebenzahub.co.za/dashboard/recruiter/client-pipeline) | Tracking opportunities at each client (potential mandates, in-flight roles, deals being negotiated) |
+| **Call Notes** | [https://www.sebenzahub.co.za/dashboard/recruiter/call-notes](https://www.sebenzahub.co.za/dashboard/recruiter/call-notes) | Logging every phone call, email, meeting, or message with a client |
 | **Client Meetings** | (inside each client page) | Scheduling check-ins, QBRs, contract reviews |
 | **Client Satisfaction** | (inside each client page → Feedback) | Sending NPS surveys and reading the responses |
 
@@ -98,7 +98,7 @@ A QBR that doesn't generate at least one new opportunity for the next quarter is
 
 ## Client Satisfaction (NPS) — the early warning system
 
-Client satisfaction surveys go out automatically at key moments — after a placement, after a quarter of work, after a major milestone. The platform sends them via the Feedback feature (`/dashboard/recruiter/feedback`).
+Client satisfaction surveys go out automatically at key moments — after a placement, after a quarter of work, after a major milestone. The platform sends them via the Feedback feature: [https://www.sebenzahub.co.za/dashboard/recruiter/feedback](https://www.sebenzahub.co.za/dashboard/recruiter/feedback).
 
 The score that matters most is **NPS** (Net Promoter Score), a 0–10 rating that asks "how likely are you to recommend us?" Industry interpretation:
 

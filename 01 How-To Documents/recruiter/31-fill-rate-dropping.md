@@ -20,7 +20,7 @@ When fill rate drops, these are the questions to answer in this order:
 
 ### Step 1 — Is the drop real or noise?
 
-Open `/dashboard/recruiter/kpi-dashboard` and look at the trend, not the snapshot.
+Open [https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard](https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard) and look at the trend, not the snapshot.
 
 - **One bad week** is noise. Don't react.
 - **Three weeks of consistent decline** is signal. Continue diagnosing.
@@ -29,7 +29,7 @@ Open `/dashboard/recruiter/kpi-dashboard` and look at the trend, not the snapsho
 
 ### Step 2 — Where in the funnel is the drop happening?
 
-Open the **Pipeline conversion funnel** in `/dashboard/recruiter/analytics`. Compare this period to your historical baseline:
+Open the **Pipeline conversion funnel** in [https://www.sebenzahub.co.za/dashboard/recruiter/analytics](https://www.sebenzahub.co.za/dashboard/recruiter/analytics). Compare this period to your historical baseline:
 
 ```
 Stage             Historical    Current    Change
@@ -47,7 +47,7 @@ The funnel **localises** the problem. Without it, you're guessing.
 
 ### Step 3 — Run Requirement Check on stuck jobs
 
-Open `/dashboard/recruiter/requirement-check` for each job that's been open longer than your average time-to-fill. The tool tells you:
+Open [https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check](https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check) for each job that's been open longer than your average time-to-fill. The tool tells you:
 
 - Which screening criterion is doing the most rejecting
 - Whether the median candidate matches the role's requirements
@@ -64,9 +64,9 @@ You're looking for patterns across multiple jobs, not just one. If three jobs al
 
 ### Step 4 — Check sourcing channel effectiveness
 
-In `/dashboard/recruiter/analytics`, look at **source effectiveness** — which channels brought you placements last quarter vs this one. If your top channel has gone quiet (LinkedIn algorithm change, Talent Pool gone stale, AI Search returning weak matches), that's the cause.
+In [https://www.sebenzahub.co.za/dashboard/recruiter/analytics](https://www.sebenzahub.co.za/dashboard/recruiter/analytics), look at **source effectiveness** — which channels brought you placements last quarter vs this one. If your top channel has gone quiet (LinkedIn algorithm change, Talent Pool gone stale, AI Search returning weak matches), that's the cause.
 
-**Try: #114 Search Market Pulse _(Premium)_.** Why this helps in this scenario: it analyses your saved-search criteria against live SA market signals — candidate supply, demand shifts, salary movement, geographic hotspots — so you can see whether the channel went quiet or whether the market moved. Run it from any saved search on `/dashboard/recruiter/candidates` (full walkthrough in [[01 How-To Documents/recruiter/12-sourcing-channels|Chapter 12]]).
+**Try: #114 Search Market Pulse _(Premium)_.** Why this helps in this scenario: it analyses your saved-search criteria against live SA market signals — candidate supply, demand shifts, salary movement, geographic hotspots — so you can see whether the channel went quiet or whether the market moved. Run it from any saved search on [https://www.sebenzahub.co.za/dashboard/recruiter/candidates](https://www.sebenzahub.co.za/dashboard/recruiter/candidates) (full walkthrough in [[01 How-To Documents/recruiter/12-sourcing-channels|Chapter 12]]).
 
 **Try: #134 Screening Market Intelligence _(Premium)_.** Why this helps in this scenario: it tells you what candidates for the affected role *currently* look like — salary bands, supply depth, competitor activity — so you know if your offer or sourcing footprint is now off-market. Surface inside the screening config covered in [[01 How-To Documents/recruiter/15-screening-config|Chapter 15]].
 

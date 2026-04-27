@@ -16,10 +16,10 @@ A working recruiter sends and receives 50–100 messages per day across email, W
 
 | Page | Purpose |
 |---|---|
-| `/dashboard/recruiter/unified-inbox` | All channels in one view |
-| `/dashboard/recruiter/inbox` | The native in-platform inbox (a subset — only platform messages) |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/unified-inbox](https://www.sebenzahub.co.za/dashboard/recruiter/unified-inbox) | All channels in one view |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/inbox](https://www.sebenzahub.co.za/dashboard/recruiter/inbox) | The native in-platform inbox (a subset — only platform messages) |
 
-You'll mostly live in `/unified-inbox`. The plain `/inbox` is for when you want to filter to platform-only conversations.
+You'll mostly live in the Unified Inbox. The plain Inbox is for when you want to filter to platform-only conversations.
 
 ## What flows into the Unified Inbox
 
@@ -79,7 +79,7 @@ The tone analysis is the most underrated feature. Recruiters who type fast under
 
 **Why it matters.** Template libraries enforce consistency across a team and free recruiters from rewriting the same message ten times a day. Templates plus variables are the foundation of any scaled outbound communication.
 
-**How to use it.** Build the 10 essential templates in `/dashboard/recruiter/email-templates` (full list in Chapter 23). Insert into any composer with one click. Add a personal-touch line before sending so the message doesn't read like a form letter.
+**How to use it.** Build the 10 essential templates at [https://www.sebenzahub.co.za/dashboard/recruiter/email-templates](https://www.sebenzahub.co.za/dashboard/recruiter/email-templates) (full list in Chapter 23). Insert into any composer with one click. Add a personal-touch line before sending so the message doesn't read like a form letter.
 
 ![[r-ch22-email-templates-library.png]]
 

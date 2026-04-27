@@ -16,14 +16,14 @@ Interview scheduling is one of the most underrated time sinks in recruitment. Th
 
 | Page | What it does |
 |---|---|
-| `/dashboard/recruiter/scheduling` | Main scheduling page — see and manage interviews |
-| `/dashboard/recruiter/self-scheduling` | Generate self-scheduling links candidates can use |
-| `/dashboard/recruiter/interview-kits` | Build and manage interview question kits |
-| `/dashboard/recruiter/hiring-manager` | The portal where corporate clients give feedback |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/scheduling](https://www.sebenzahub.co.za/dashboard/recruiter/scheduling) | Main scheduling page — see and manage interviews |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/self-scheduling](https://www.sebenzahub.co.za/dashboard/recruiter/self-scheduling) | Generate self-scheduling links candidates can use |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/interview-kits](https://www.sebenzahub.co.za/dashboard/recruiter/interview-kits) | Build and manage interview question kits |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/hiring-manager](https://www.sebenzahub.co.za/dashboard/recruiter/hiring-manager) | The portal where corporate clients give feedback |
 
 ## Calendar integration (set this up first)
 
-Before you schedule a single interview, integrate your calendar. Go to `/dashboard/recruiter/settings` → Integrations and connect:
+Before you schedule a single interview, integrate your calendar. Go to [https://www.sebenzahub.co.za/dashboard/recruiter/settings](https://www.sebenzahub.co.za/dashboard/recruiter/settings) → Integrations and connect:
 
 - **Google Calendar** — for Google Workspace users
 - **Outlook / Microsoft 365** — for Microsoft Exchange users
@@ -62,7 +62,7 @@ You pick 3–5 candidate-friendly times from your calendar, the system sends the
 - High-stakes interviews where you want to influence the time
 - Senior candidates you're courting (more attentive UX)
 
-### 3. Self-scheduling links — `/dashboard/recruiter/self-scheduling`
+### 3. Self-scheduling links — [https://www.sebenzahub.co.za/dashboard/recruiter/self-scheduling](https://www.sebenzahub.co.za/dashboard/recruiter/self-scheduling)
 
 The most powerful and most underused mode. Two features cover this: Self-Scheduling does the booking; Scheduling Links is the shareable URL layer that makes it work without an account.
 
@@ -72,7 +72,7 @@ The most powerful and most underused mode. Two features cover this: Self-Schedul
 
 **Why it matters.** Candidates prefer to self-book and interviewers prefer not to coordinate. Self-scheduling speeds the pipeline by 2–3 days while improving candidate experience — and it's what eliminates 80% of the scheduling email volume.
 
-**How to use it.** Set up self-scheduling links per interview type (30-min screen, 60-min technical, 90-min panel) in `/dashboard/recruiter/self-scheduling`. Add the link to every outreach email and template.
+**How to use it.** Set up self-scheduling links per interview type (30-min screen, 60-min technical, 90-min panel) in [https://www.sebenzahub.co.za/dashboard/recruiter/self-scheduling](https://www.sebenzahub.co.za/dashboard/recruiter/self-scheduling). Add the link to every outreach email and template.
 
 ![[r-ch18-self-scheduling-calendar.png]]
 
@@ -90,7 +90,7 @@ The most powerful and most underused mode. Two features cover this: Self-Schedul
 
 When automation rules (Chapter 23) detect a candidate has reached the Interview stage, they automatically email the candidate with a self-scheduling link. The recruiter never has to think about it. This is the goal state — it should handle 70%+ of your interviews if your sequences are configured.
 
-## Interview kits — `/dashboard/recruiter/interview-kits`
+## Interview kits — [https://www.sebenzahub.co.za/dashboard/recruiter/interview-kits](https://www.sebenzahub.co.za/dashboard/recruiter/interview-kits)
 
 An **interview kit** is a structured guide for an interview: the questions to ask, the criteria to evaluate, the time budget per section, and the scorecard to fill in afterwards. Kits make every interview consistent across interviewers, defensible to clients, and far more useful for downstream comparison.
 
@@ -119,7 +119,7 @@ Each section has its own scorecard criteria. The interviewer fills the scorecard
 
 ### Building a kit
 
-1. Open `/dashboard/recruiter/interview-kits`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/interview-kits](https://www.sebenzahub.co.za/dashboard/recruiter/interview-kits).
 2. Click **+ New interview kit**.
 3. Pick a template (e.g. "Senior Engineering Interview") or start blank.
 4. Add sections with time budgets and questions.
@@ -138,7 +138,7 @@ Every kit attaches to a scorecard. Two features cover this — Scorecards is the
 
 **Why it matters.** Scorecards force interviewers to evaluate on the same dimensions, which is the foundation of structured hiring. Without them, every interviewer hires "people like me" and you can't defend a shortlist to the client.
 
-**How to use it.** Build templates in `/dashboard/recruiter/scorecards`. 5–8 criteria per scorecard (technical depth, communication clarity, problem-solving, culture fit, motivation). Define what each rating level means — vague rating definitions let bias creep back in. Attach to the relevant interview kit. Every interviewer fills the scorecard *during* the interview, not after.
+**How to use it.** Build templates in [https://www.sebenzahub.co.za/dashboard/recruiter/scorecards](https://www.sebenzahub.co.za/dashboard/recruiter/scorecards). 5–8 criteria per scorecard (technical depth, communication clarity, problem-solving, culture fit, motivation). Define what each rating level means — vague rating definitions let bias creep back in. Attach to the relevant interview kit. Every interviewer fills the scorecard *during* the interview, not after.
 
 ![[r-ch18-scorecard-template-editor.png]]
 
@@ -165,7 +165,7 @@ For panel interviews:
 
 **Panel templates** save the typical setup. If you always run the same three-person panel for senior dev interviews, save the template once and reuse it.
 
-## The Hiring Manager Portal — `/dashboard/recruiter/hiring-manager`
+## The Hiring Manager Portal — [https://www.sebenzahub.co.za/dashboard/recruiter/hiring-manager](https://www.sebenzahub.co.za/dashboard/recruiter/hiring-manager)
 
 When the client (corporate hiring manager) needs to be in the loop, you give them access to the Hiring Manager Portal. They get:
 
@@ -182,7 +182,7 @@ Use the portal whenever a client wants to be involved in interviewing or feedbac
 
 Set these correctly *once* and they save you forever:
 
-- **Your time zone** in `/dashboard/recruiter/settings` → Profile
+- **Your time zone** in [https://www.sebenzahub.co.za/dashboard/recruiter/settings](https://www.sebenzahub.co.za/dashboard/recruiter/settings) → Profile
 - **Your working hours** (when you're available for interviews) in Settings → Calendar
 - **Buffer times** before and after meetings (to give yourself recovery time)
 - **Maximum interviews per day** (e.g. cap at 4 — beyond this you start fatiguing and scoring everyone the same)

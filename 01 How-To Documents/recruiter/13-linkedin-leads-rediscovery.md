@@ -23,7 +23,7 @@ Used well, these two together fill 30–40% of your senior roles. Used poorly, t
 
 ## 1. LinkedIn Leads
 
-**Page:** `/dashboard/recruiter/linkedin-leads`
+**Page:** [https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads](https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads)
 
 LinkedIn Leads is the integration point between LinkedIn and Sebenza Hub. It pulls in people who match a target profile, scores and enriches them with AI, and lets you nurture them through sequences before converting them into full candidate records.
 
@@ -51,7 +51,7 @@ Candidate enters the standard sourcing pool
 
 ### Setting up a lead source
 
-1. Open `/dashboard/recruiter/linkedin-leads` and click **+ New lead source**.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads](https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads) and click **+ New lead source**.
 2. Pick the import method:
    - **Manual paste** — paste a list of LinkedIn URLs you've collected
    - **CSV upload** — upload a spreadsheet of leads (e.g. exported from LinkedIn Sales Navigator)
@@ -120,7 +120,7 @@ It surfaces candidates already in your database who:
 - Engaged with your agency in the past but went quiet (no recent activity)
 - Are now a better match for an open role than they were when you first met them
 
-**How to use it.** Open `/dashboard/recruiter/talent-rediscovery`. The page shows your dormant candidates ranked by re-engagement potential, with the open job they best fit. Spend 15–20 minutes per week here; aim to re-engage 5–10 candidates per week. Then use Candidate Re-Engagement above to send the actual outreach.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/talent-rediscovery](https://www.sebenzahub.co.za/dashboard/recruiter/talent-rediscovery). The page shows your dormant candidates ranked by re-engagement potential, with the open job they best fit. Spend 15–20 minutes per week here; aim to re-engage 5–10 candidates per week. Then use Candidate Re-Engagement above to send the actual outreach.
 
 ![[r-ch13-talent-rediscovery-view.png]]
 

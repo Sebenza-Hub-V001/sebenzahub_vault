@@ -16,7 +16,7 @@ This chapter explains how to set up engagements and the three categories you mus
 
 ## Where it lives
 
-Engagements are managed inside each client's detail page. Open `/dashboard/recruiter/clients`, click a client, then go to the **Engagements** tab. Click **+ New engagement**.
+Engagements are managed inside each client's detail page. Open Clients: [https://www.sebenzahub.co.za/dashboard/recruiter/clients](https://www.sebenzahub.co.za/dashboard/recruiter/clients) — click a client, then go to the **Engagements** tab. Click **+ New engagement**.
 
 ![[r-ch09-engagement-terms-form.png]]
 

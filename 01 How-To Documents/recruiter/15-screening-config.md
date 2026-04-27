@@ -20,7 +20,7 @@ Two features carry this chapter: **Screening Roles**, which codifies your hiring
 
 **Why it matters.** Without codified criteria, every screening is subjective and inconsistent — one recruiter rejects on five years' experience, another waves through three. Screening Roles turn hiring standards into rules a junior recruiter can apply with the same rigour as a senior one.
 
-**How to use it.** Configure your screening roles once per role family (Senior Backend Dev, Mid-Sales, Graduate Programme, etc.) under `/dashboard/recruiter/roles`. When you post a job (Chapter 11), pick the matching screening role and the knockouts, scoring weights, and chatbot template auto-populate.
+**How to use it.** Configure your screening roles once per role family (Senior Backend Dev, Mid-Sales, Graduate Programme, etc.) under [https://www.sebenzahub.co.za/dashboard/recruiter/roles](https://www.sebenzahub.co.za/dashboard/recruiter/roles). When you post a job (Chapter 11), pick the matching screening role and the knockouts, scoring weights, and chatbot template auto-populate.
 
 ![[r-ch15-screening-roles-config.png]]
 
@@ -165,14 +165,14 @@ Once a job is live, you can adjust the screening config based on results:
 - **Too many low-quality applications?** Add a knockout, sharpen the chatbot questions, or add a test.
 - **Right volume but wrong fit?** Audit your AI auto-scoring against the candidates you actually shortlisted — maybe your job requirements are mis-tagged.
 
-Sebenza Hub's `/dashboard/recruiter/requirement-check` is built for exactly this kind of audit (Chapter 25). It tells you which screening criteria are doing the rejecting and whether the rejections look right.
+Sebenza Hub's Requirement Check at [https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check](https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check) is built for exactly this kind of audit (Chapter 25). It tells you which screening criteria are doing the rejecting and whether the rejections look right.
 
 ## Pro tips
 
 - **Test your knockouts on yourself.** Before publishing, walk through the application as a candidate would. If a knockout question confuses *you*, it'll confuse 50% of candidates and you'll lose people who would have been good.
 - **One iteration after the first 20 applications.** Don't tune the screen forever — set it, run 20 applications through it, then adjust once based on what you see. Don't tune it 5 more times after that.
 - **Document the screening rationale in your client engagement notes.** When a client questions why you rejected a particular candidate, "the knockout question on work permit auto-rejected them" is a defensible answer.
-- **Watch the diversity numbers.** A heavy screen reduces volume but can also unintentionally bias the funnel. Check `/dashboard/recruiter/diversity` after every job's first batch of applications.
+- **Watch the diversity numbers.** A heavy screen reduces volume but can also unintentionally bias the funnel. Check [https://www.sebenzahub.co.za/dashboard/recruiter/diversity](https://www.sebenzahub.co.za/dashboard/recruiter/diversity) after every job's first batch of applications.
 
 ## Checklist
 

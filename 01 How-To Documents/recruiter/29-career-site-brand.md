@@ -16,12 +16,12 @@ Up to this point the guide has been about *running* recruitment work. This chapt
 
 | Page | Purpose |
 |---|---|
-| `/dashboard/recruiter/brand` | Public agency brand page |
-| `/dashboard/recruiter/career-site` | Custom careers page with your jobs |
-| `/dashboard/recruiter/job-board-integrations` | Pnet, CareerJunction, Adzuna, etc. |
-| `/dashboard/recruiter/location-intel` | Geographic talent intelligence |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/brand](https://www.sebenzahub.co.za/dashboard/recruiter/brand) | Public agency brand page |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/career-site](https://www.sebenzahub.co.za/dashboard/recruiter/career-site) | Custom careers page with your jobs |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/job-board-integrations](https://www.sebenzahub.co.za/dashboard/recruiter/job-board-integrations) | Pnet, CareerJunction, Adzuna, etc. |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/location-intel](https://www.sebenzahub.co.za/dashboard/recruiter/location-intel) | Geographic talent intelligence |
 
-## 1. Brand Page — `/dashboard/recruiter/brand`
+## 1. Brand Page — [https://www.sebenzahub.co.za/dashboard/recruiter/brand](https://www.sebenzahub.co.za/dashboard/recruiter/brand)
 
 Two-line callbacks first: the Brand Page assembles itself from the Employer Brand Profile you set up in [[01 How-To Documents/recruiter/05-agency-profile|Chapter 5]], and the public-facing slug URL it lives on is the Public Company Page covered in [[01 How-To Documents/recruiter/06-ai-profile-assets|Chapter 6]]. This chapter is about *using* those two as a sales tool, not setting them up.
 
@@ -61,7 +61,7 @@ The Brand Page is a sales tool for **clients**. When you're pitching a new corpo
 
 A polished Brand Page closes deals. A blank or half-finished one loses them.
 
-## 2. Career Site — `/dashboard/recruiter/career-site`
+## 2. Career Site — [https://www.sebenzahub.co.za/dashboard/recruiter/career-site](https://www.sebenzahub.co.za/dashboard/recruiter/career-site)
 
 ### Career Site Builder — _Tier: Premium_
 
@@ -71,7 +71,7 @@ A polished Brand Page closes deals. A blank or half-finished one loses them.
 
 **How to use it.**
 
-1. Open `/dashboard/recruiter/career-site`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/career-site](https://www.sebenzahub.co.za/dashboard/recruiter/career-site).
 2. **Branding** — upload logo, set primary colours, pick a layout template.
 3. **Domain** — use the platform default or connect a custom subdomain (`careers.youragency.co.za`).
 4. **Jobs** — pick which jobs appear; default is all active.
@@ -115,7 +115,7 @@ Track conversion: visits → applications → screened → placed. The Career Si
 
 Use it to refine. If 200 people view a senior dev role and only 3 apply, the listing or the apply flow has friction. If 50 view it and 30 apply, you have a high-conversion job worth promoting more.
 
-## 3. Job Board Integrations — `/dashboard/recruiter/job-board-integrations`
+## 3. Job Board Integrations — [https://www.sebenzahub.co.za/dashboard/recruiter/job-board-integrations](https://www.sebenzahub.co.za/dashboard/recruiter/job-board-integrations)
 
 Job Boards are still where many South African candidates start. Integrating with the major SA job boards means your jobs reach those candidates without you copy-pasting listings everywhere.
 
@@ -159,7 +159,7 @@ Don't post every role to every board. Use this rule:
 
 Posting an executive role to Pnet is a waste of money — that's not where execs are looking. Posting an entry-level role to LinkedIn alone misses 90% of the candidate pool — they're on Pnet.
 
-## 4. Location Intel — `/dashboard/recruiter/location-intel`
+## 4. Location Intel — [https://www.sebenzahub.co.za/dashboard/recruiter/location-intel](https://www.sebenzahub.co.za/dashboard/recruiter/location-intel)
 
 Location Intel is geographic talent intelligence. It tells you, for any role and any location:
 

@@ -18,10 +18,10 @@ You can run an agency on instinct for a year, maybe two. After that, the things 
 
 | Page | What it shows |
 |---|---|
-| `/dashboard/recruiter/kpi-dashboard` | Headline metrics — placements, revenue, fill rate, time-to-fill |
-| `/dashboard/recruiter/analytics` | Detailed recruitment analytics dashboard |
-| `/dashboard/recruiter/predictive-analytics` | Forecasting — what's likely to happen next |
-| `/dashboard/recruiter/requirement-check` | Per-job pipeline audit — where candidates are dropping out |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard](https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard) | Headline metrics — placements, revenue, fill rate, time-to-fill |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/analytics](https://www.sebenzahub.co.za/dashboard/recruiter/analytics) | Detailed recruitment analytics dashboard |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/predictive-analytics](https://www.sebenzahub.co.za/dashboard/recruiter/predictive-analytics) | Forecasting — what's likely to happen next |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check](https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check) | Per-job pipeline audit — where candidates are dropping out |
 
 ## The four-report rhythm
 
@@ -73,7 +73,7 @@ Not every metric is honest. Watch out for:
 - **Average fee.** A few executive placements skew the average upward and hide a soft mid-market. Look at the median, not just the average.
 - **Pipeline value.** Inflated by jobs that aren't really moving. Cross-check with stage age in the Pipeline (Chapter 16) — pipeline value from stagnant jobs isn't real value.
 
-## 2. Recruitment Analytics — `/dashboard/recruiter/analytics`
+## 2. Recruitment Analytics — [https://www.sebenzahub.co.za/dashboard/recruiter/analytics](https://www.sebenzahub.co.za/dashboard/recruiter/analytics)
 
 The Recruitment Analytics page is where you go monthly to understand *patterns*, not just snapshots.
 
@@ -83,7 +83,7 @@ The Recruitment Analytics page is where you go monthly to understand *patterns*,
 
 **Why it matters.** Agency billing is tied to KPIs — fill rate, time-to-fill, conversion ratios. Without dedicated analytics those numbers get reconstructed from spreadsheets once a quarter, badly, after the damage is done. Standard analytics make them visible weekly so you can act on a slide before it becomes a quarter.
 
-**How to use it.** Open `/dashboard/recruiter/analytics` on the first Monday of every month. Walk through the questions below against the conversion funnel, source effectiveness, recruiter performance, and client performance views. Don't skim — write down one decision you're making this month based on what you see.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/analytics](https://www.sebenzahub.co.za/dashboard/recruiter/analytics) on the first Monday of every month. Walk through the questions below against the conversion funnel, source effectiveness, recruiter performance, and client performance views. Don't skim — write down one decision you're making this month based on what you see.
 
 ![[r-ch25-recruiter-analytics-funnel.png]]
 
@@ -115,7 +115,7 @@ Each month, walk through these questions and see if the data gives you a clear a
 
 If you can't answer one of these from the data, that's a sign your data hygiene is off — usually missing reject reasons or stale stage assignments. Fix the data and the answer becomes visible.
 
-## 3. Predictive Analytics — `/dashboard/recruiter/predictive-analytics`
+## 3. Predictive Analytics — [https://www.sebenzahub.co.za/dashboard/recruiter/predictive-analytics](https://www.sebenzahub.co.za/dashboard/recruiter/predictive-analytics)
 
 ### Predictive Analytics — _Tier: Premium_
 
@@ -123,7 +123,7 @@ If you can't answer one of these from the data, that's a sign your data hygiene 
 
 **Why it matters.** Basic analytics tell you where you've been; predictive tells you where you're going. The strategic agencies — and the corporate clients buying from them — pay for the forward view because it converts a quarterly surprise into a monthly intervention.
 
-**How to use it.** Mid-month, open `/dashboard/recruiter/predictive-analytics` and act on the warnings rather than just reading them. The page surfaces:
+**How to use it.** Mid-month, open [https://www.sebenzahub.co.za/dashboard/recruiter/predictive-analytics](https://www.sebenzahub.co.za/dashboard/recruiter/predictive-analytics) and act on the warnings rather than just reading them. The page surfaces:
 
 - **Next month's expected placements** (range, not single number)
 - **Next quarter's expected revenue**
@@ -145,7 +145,7 @@ Predictive Analytics is only useful if you act on it:
 
 The predictions are probabilistic — they're not certainties. Use them as an early warning system, not as predetermined outcomes.
 
-## 4. Requirement Check — `/dashboard/recruiter/requirement-check`
+## 4. Requirement Check — [https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check](https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check)
 
 The Requirement Check is the ad-hoc tool you reach for when one specific role is stuck. Open it for a job that isn't filling, and it audits the pipeline:
 
@@ -180,10 +180,10 @@ Practically: when you're sizing an experiment, comparing two prompt strategies, 
 
 The four reports above cover 90% of analytics needs. The remaining specialist pages:
 
-- `/dashboard/recruiter/team-dna` — team capability and capacity analysis (Chapter 26)
-- `/dashboard/recruiter/disagreements` (Panel Analysis) — interviewer calibration (Chapter 26)
-- `/dashboard/recruiter/engagement` — candidate engagement scores
-- `/dashboard/recruiter/diversity` — demographic analytics (Chapter 26)
+- [https://www.sebenzahub.co.za/dashboard/recruiter/team-dna](https://www.sebenzahub.co.za/dashboard/recruiter/team-dna) — team capability and capacity analysis (Chapter 26)
+- [https://www.sebenzahub.co.za/dashboard/recruiter/disagreements](https://www.sebenzahub.co.za/dashboard/recruiter/disagreements) (Panel Analysis) — interviewer calibration (Chapter 26)
+- [https://www.sebenzahub.co.za/dashboard/recruiter/engagement](https://www.sebenzahub.co.za/dashboard/recruiter/engagement) — candidate engagement scores
+- [https://www.sebenzahub.co.za/dashboard/recruiter/diversity](https://www.sebenzahub.co.za/dashboard/recruiter/diversity) — demographic analytics (Chapter 26)
 
 ## Pro tips
 

@@ -64,7 +64,7 @@ You thought "senior backend developer" meant tech lead level. The client meant i
 
 ![[r-ch33-culture-fit-disagreement.png]]
 
-**Try: #123 Predictive Hiring _(Premium)_.** Why this helps in this scenario: it predicts on-the-job success and retention risk for each shortlisted candidate against the client's historical hiring patterns — so you can rank by likely outcomes, not just CV match. Lives at `/dashboard/recruiter/predictive-hiring` (covered in [[01 How-To Documents/recruiter/34-advanced-and-platinum|Chapter 34]]).
+**Try: #123 Predictive Hiring _(Premium)_.** Why this helps in this scenario: it predicts on-the-job success and retention risk for each shortlisted candidate against the client's historical hiring patterns — so you can rank by likely outcomes, not just CV match. Lives at [https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring](https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring) (covered in [[01 How-To Documents/recruiter/34-advanced-and-platinum|Chapter 34]]).
 
 ![[r-ch33-predictive-vs-actual-performance.png]]
 
@@ -120,7 +120,7 @@ A written recovery plan does three things:
 2. **Forces specificity.** Vague feedback turns into concrete actions.
 3. **Creates accountability** for both sides. The client knows what's coming; you know what's expected.
 
-**Try: #167 Reference Check Summary _(Standard)_.** Why this helps in this scenario: when calibre is the complaint, attaching a 3-sentence AI summary of each shortlisted candidate's references (with red flags called out) shows the client you've verified what they're worried about. Run it on the next shortlist before submission, not after the complaint. Workflow lives at `/dashboard/recruiter/reference-checks` (Chapter 30).
+**Try: #167 Reference Check Summary _(Standard)_.** Why this helps in this scenario: when calibre is the complaint, attaching a 3-sentence AI summary of each shortlisted candidate's references (with red flags called out) shows the client you've verified what they're worried about. Run it on the next shortlist before submission, not after the complaint. Workflow lives at [https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks](https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks) (Chapter 30).
 
 ## When to push back vs accept
 

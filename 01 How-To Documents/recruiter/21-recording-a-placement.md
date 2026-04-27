@@ -16,10 +16,10 @@ The candidate accepted the offer. This is the moment your work pays off — both
 
 | Page | What it does |
 |---|---|
-| `/dashboard/recruiter/placements` | Master list of every placement with status and retention tracking |
-| `/dashboard/recruiter/submissions` | Submission tracking — every candidate sent to a client job |
-| `/dashboard/recruiter/onboarding` | Post-hire onboarding checklists you run with the placed candidate |
-| `/dashboard/recruiter/kpi-dashboard` | Where the placement shows up in your headline metrics |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/placements](https://www.sebenzahub.co.za/dashboard/recruiter/placements) | Master list of every placement with status and retention tracking |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/submissions](https://www.sebenzahub.co.za/dashboard/recruiter/submissions) | Submission tracking — every candidate sent to a client job |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/onboarding](https://www.sebenzahub.co.za/dashboard/recruiter/onboarding) | Post-hire onboarding checklists you run with the placed candidate |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard](https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard) | Where the placement shows up in your headline metrics |
 
 ## What happens automatically when an offer is accepted
 
@@ -42,7 +42,7 @@ That's 8 things happening from one button click. Most of it you don't need to th
 
 ## Step 1 — Verify the placement record
 
-Open `/dashboard/recruiter/placements` and find the new entry. Check that:
+Open [https://www.sebenzahub.co.za/dashboard/recruiter/placements](https://www.sebenzahub.co.za/dashboard/recruiter/placements) and find the new entry. Check that:
 
 - The **start date** is correct (the candidate's actual first day, not the offer date)
 - The **fee amount** matches your engagement terms
@@ -72,7 +72,7 @@ Set the `startDate` field on the placement to the *actual* start date. The platf
 
 ## Step 3 — Trigger post-hire onboarding
 
-Open `/dashboard/recruiter/onboarding` and create an onboarding checklist for the placement. The checklist tracks tasks that need to happen between offer acceptance and the candidate's first day:
+Open [https://www.sebenzahub.co.za/dashboard/recruiter/onboarding](https://www.sebenzahub.co.za/dashboard/recruiter/onboarding) and create an onboarding checklist for the placement. The checklist tracks tasks that need to happen between offer acceptance and the candidate's first day:
 
 | Task | Owner | When |
 |---|---|---|
@@ -155,11 +155,11 @@ A failed placement during guarantee is bad. A failed placement that surprises yo
 
 **Why it matters.** Agencies' entire valuation is placement metrics. Dedicated analytics make those numbers visible at the desk, recruiter, and firm level — which is the difference between managing the business and guessing about it.
 
-**How to use it.** Open the **Analytics** tab on `/dashboard/recruiter/placements` (or roll up to `/dashboard/recruiter/analytics` for the full view). The metrics that matter most: time-to-fill trend, retention rate at 90/180/365 days, submission-to-placement ratio, average fee per placement. Review weekly during high-activity months, monthly otherwise.
+**How to use it.** Open the **Analytics** tab on [https://www.sebenzahub.co.za/dashboard/recruiter/placements](https://www.sebenzahub.co.za/dashboard/recruiter/placements) (or roll up to [https://www.sebenzahub.co.za/dashboard/recruiter/analytics](https://www.sebenzahub.co.za/dashboard/recruiter/analytics) for the full view). The metrics that matter most: time-to-fill trend, retention rate at 90/180/365 days, submission-to-placement ratio, average fee per placement. Review weekly during high-activity months, monthly otherwise.
 
 ![[r-ch21-placement-analytics-dashboard.png]]
 
-`/dashboard/recruiter/kpi-dashboard` aggregates every placement into rolling metrics:
+[https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard](https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard) aggregates every placement into rolling metrics:
 
 - **Placements this month / quarter / year**
 - **Revenue generated** (with the breakdown by client, sector, recruiter)
@@ -177,7 +177,7 @@ These are the numbers your client QBR (Chapter 10) is built on, the numbers your
 
 ## Submissions vs placements
 
-Don't confuse `/dashboard/recruiter/submissions` with `/dashboard/recruiter/placements`:
+Don't confuse [https://www.sebenzahub.co.za/dashboard/recruiter/submissions](https://www.sebenzahub.co.za/dashboard/recruiter/submissions) with [https://www.sebenzahub.co.za/dashboard/recruiter/placements](https://www.sebenzahub.co.za/dashboard/recruiter/placements):
 
 - A **submission** is sending a candidate's profile to a client for consideration. It happens before the interview stage.
 - A **placement** is the result of a candidate being hired through your submission.

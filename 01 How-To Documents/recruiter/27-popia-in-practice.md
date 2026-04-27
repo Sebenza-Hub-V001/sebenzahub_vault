@@ -14,7 +14,7 @@ POPIA — the Protection of Personal Information Act — is South Africa's data 
 
 ## Where it lives
 
-`/dashboard/recruiter/compliance` is the master POPIA compliance page. From here you can access consent records, data inventory, retention policies, and the data subject access request workflow.
+[https://www.sebenzahub.co.za/dashboard/recruiter/compliance](https://www.sebenzahub.co.za/dashboard/recruiter/compliance) is the master POPIA compliance page. From here you can access consent records, data inventory, retention policies, and the data subject access request workflow.
 
 ### POPIA Compliance — _Tier: Standard_
 
@@ -22,7 +22,7 @@ POPIA — the Protection of Personal Information Act — is South Africa's data 
 
 **Why it matters.** POPIA non-compliance carries fines up to R10 million per breach, and the Information Regulator started enforcing seriously in 2023. Built-in compliance means agencies are POPIA-safe by default — not by an audit you intend to run "next quarter."
 
-**How to use it.** You don't *do* POPIA Compliance once — you live in it. Day-to-day: respect the `whatsappConsent` flag, only collect data relevant to the role, and run the DSAR workflow (below) when a candidate requests their data. Quarterly: audit retention against the policy you set at `/dashboard/recruiter/compliance` → Retention.
+**How to use it.** You don't *do* POPIA Compliance once — you live in it. Day-to-day: respect the `whatsappConsent` flag, only collect data relevant to the role, and run the DSAR workflow (below) when a candidate requests their data. Quarterly: audit retention against the policy you set at [https://www.sebenzahub.co.za/dashboard/recruiter/compliance](https://www.sebenzahub.co.za/dashboard/recruiter/compliance) → Retention.
 
 ![[r-ch27-popia-consent-dashboard.png]]
 
@@ -85,7 +85,7 @@ Send an acknowledgement that you've received the request and will respond within
 
 ### Step 3 — Gather the data
 
-Open `/dashboard/recruiter/compliance` and trigger a **Data Subject Access Report** for that candidate. The platform automatically compiles:
+Open [https://www.sebenzahub.co.za/dashboard/recruiter/compliance](https://www.sebenzahub.co.za/dashboard/recruiter/compliance) and trigger a **Data Subject Access Report** for that candidate. The platform automatically compiles:
 
 - Their candidate profile
 - Every job they've applied to and the application data
@@ -157,7 +157,7 @@ POPIA requires that you don't keep data "longer than necessary." Sebenza Hub hel
 - **Placed candidates** — retained for the duration of the guarantee period plus the legal record-keeping window
 - **Exited candidates (DSAR-deleted)** — only the deletion log remains
 
-Configure your retention policy at `/dashboard/recruiter/compliance` → Retention. Don't set it to "forever" — that's a POPIA violation waiting to happen.
+Configure your retention policy at [https://www.sebenzahub.co.za/dashboard/recruiter/compliance](https://www.sebenzahub.co.za/dashboard/recruiter/compliance) → Retention. Don't set it to "forever" — that's a POPIA violation waiting to happen.
 
 ![[r-ch27-consent-audit-log.png]]
 
@@ -185,7 +185,7 @@ POPIA is the legal floor; how candidates *feel* about your data handling is the 
 
 **Why it matters.** Candidate experience is a leading indicator of employer brand and referral inflow, and a candidate who feels mishandled is the one most likely to lodge a POPIA or EE complaint. NPS turns the soft signal into a measurable KPI you can act on before it becomes a regulator's letter.
 
-**How to use it.** Surveys run automatically. Open `/dashboard/recruiter/feedback` weekly. Reply to every detractor (0–6) within 24 hours personally, not via template. Promoters (9–10) become referral asks (Chapter 30). Patterns of detractor responses around data handling — "you kept asking for documents I didn't think were relevant" — point straight at POPIA principles 2 and 3 and tell you what to fix.
+**How to use it.** Surveys run automatically. Open [https://www.sebenzahub.co.za/dashboard/recruiter/feedback](https://www.sebenzahub.co.za/dashboard/recruiter/feedback) weekly. Reply to every detractor (0–6) within 24 hours personally, not via template. Promoters (9–10) become referral asks (Chapter 30). Patterns of detractor responses around data handling — "you kept asking for documents I didn't think were relevant" — point straight at POPIA principles 2 and 3 and tell you what to fix.
 
 ![[r-ch27-candidate-nps-results.png]]
 

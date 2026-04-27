@@ -18,8 +18,8 @@ This chapter covers what each role can do, how to invite people, how to set up a
 
 Team setup lives at:
 
-- `/dashboard/recruiter/team` — invite, list, and deactivate team members
-- `/dashboard/recruiter/approval-workflows` — configure approval chains for offers and other regulated actions
+- [https://www.sebenzahub.co.za/dashboard/recruiter/team](https://www.sebenzahub.co.za/dashboard/recruiter/team) — invite, list, and deactivate team members
+- [https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows](https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows) — configure approval chains for offers and other regulated actions
 
 ## The six built-in roles
 
@@ -46,7 +46,7 @@ Each role bundles a sensible set of permissions across the platform — Jobs, Ca
 
 **How to use it.**
 
-1. Go to `/dashboard/recruiter/team`.
+1. Go to [https://www.sebenzahub.co.za/dashboard/recruiter/team](https://www.sebenzahub.co.za/dashboard/recruiter/team).
 2. Click **Invite member**.
 3. Enter their full name and email address.
 4. Pick a role from the dropdown.
@@ -62,7 +62,7 @@ The invitee receives an email with a magic link. They click it, set up their acc
 
 Some actions in Sebenza Hub need a second pair of eyes before they go live. The most important is **offer creation** — sending an offer letter to a candidate is a binding act for your client and a commitment for your agency, so it almost always needs approval.
 
-Approval chains are configured at `/dashboard/recruiter/approval-workflows`. The basic shape:
+Approval chains are configured at [https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows](https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows). The basic shape:
 
 1. **Trigger:** an action that requires approval (typical: any offer above R500,000 base salary; any offer for a new client; any offer with non-standard payment terms).
 2. **Approver:** the role or specific user who must approve (typical: Manager, then Admin if above a threshold).
@@ -114,7 +114,7 @@ Once you have more than one recruiter, you need a way to manage performance that
 
 **Why it matters.** Agency leaders currently manage by feel and assign roles by who's available. DNA profiling turns that into a deliberate routing decision — the right role goes to the recruiter most likely to fill it well, not the one whose desk is least full. The result is faster fills, better retention, and clearer career conversations.
 
-**How to use it.** Open `/dashboard/recruiter/team-dna` (Manager or Admin only). The dashboard shows each recruiter's profile in radar form alongside their sweet-spot sectors and seniority bands. Use it when assigning new mandates and as a long-term coaching reference.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/team-dna](https://www.sebenzahub.co.za/dashboard/recruiter/team-dna) (Manager or Admin only). The dashboard shows each recruiter's profile in radar form alongside their sweet-spot sectors and seniority bands. Use it when assigning new mandates and as a long-term coaching reference.
 
 ## Practical role setups by agency size
 
@@ -153,12 +153,12 @@ You're the Owner. No team members. No approval chain. Don't waste time setting u
 
 Even if you're a solo recruiter today, do these two things now — you'll thank yourself later:
 
-1. **Confirm you're the Owner** in `/dashboard/recruiter/team`. The role should say "Owner". If for some reason it doesn't (rare bug, or you accepted an existing invite by mistake), fix it immediately.
+1. **Confirm you're the Owner** in [https://www.sebenzahub.co.za/dashboard/recruiter/team](https://www.sebenzahub.co.za/dashboard/recruiter/team). The role should say "Owner". If for some reason it doesn't (rare bug, or you accepted an existing invite by mistake), fix it immediately.
 2. **Decide who your "in case of bus" person is** — the person you'd want to inherit access if something happened to you. Even if you don't add them as an Admin yet, write down who that person is and how they'd take over. Sebenza Hub has account recovery procedures for incapacitated owners, but they're slow; planning ahead saves a week of friction.
 
 ## Note on team size and your plan
 
-Your subscription plan caps how many team members you can invite. If you hit the cap, the invite button greys out and you'll be prompted to either upgrade your plan or remove an existing member to free a seat. The exact cap per plan is visible in `/dashboard/recruiter/billing` → Plan details.
+Your subscription plan caps how many team members you can invite. If you hit the cap, the invite button greys out and you'll be prompted to either upgrade your plan or remove an existing member to free a seat. The exact cap per plan is visible in [https://www.sebenzahub.co.za/dashboard/recruiter/billing](https://www.sebenzahub.co.za/dashboard/recruiter/billing) → Plan details.
 
 ## Checklist
 

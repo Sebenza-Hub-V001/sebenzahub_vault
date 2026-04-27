@@ -16,12 +16,12 @@ Chapter 29 covered the *infrastructure* of brand and growth — your Brand Page,
 
 | Page | Purpose |
 |---|---|
-| `/dashboard/recruiter/recruitment-marketing` | Marketing campaigns to candidates and clients |
-| `/dashboard/recruiter/referrals` | Structured referral programmes |
-| `/dashboard/recruiter/feedback` (Candidate NPS) | NPS surveys and response tracking |
-| `/dashboard/recruiter/reference-checks` | Automated reference collection |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/recruitment-marketing](https://www.sebenzahub.co.za/dashboard/recruiter/recruitment-marketing) | Marketing campaigns to candidates and clients |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/referrals](https://www.sebenzahub.co.za/dashboard/recruiter/referrals) | Structured referral programmes |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/feedback](https://www.sebenzahub.co.za/dashboard/recruiter/feedback) (Candidate NPS) | NPS surveys and response tracking |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks](https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks) | Automated reference collection |
 
-## 1. Recruitment Marketing — `/dashboard/recruiter/recruitment-marketing`
+## 1. Recruitment Marketing — [https://www.sebenzahub.co.za/dashboard/recruiter/recruitment-marketing](https://www.sebenzahub.co.za/dashboard/recruiter/recruitment-marketing)
 
 Recruitment Marketing is the campaign tool for reaching candidates and prospective clients at scale across multiple channels. Where Sequences (Chapter 23) are 1:1 nurture flows, recruitment marketing campaigns are 1:many broadcasts with messaging, audience targeting, and analytics.
 
@@ -44,7 +44,7 @@ Recruitment Marketing is the campaign tool for reaching candidates and prospecti
 
 ### Building a campaign
 
-1. Open `/dashboard/recruiter/recruitment-marketing`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/recruitment-marketing](https://www.sebenzahub.co.za/dashboard/recruiter/recruitment-marketing).
 2. Click **+ New campaign**.
 3. Pick a campaign type (the platform pre-configures some defaults based on type).
 4. Define the audience:
@@ -72,7 +72,7 @@ Marketing without measurement is decoration. Every campaign produces:
 
 The number that matters most: **placements attributable to the campaign**. A campaign that gets 10,000 views and 0 placements is worse than a campaign with 100 views and 2 placements. Watch the conversion to the bottom of the funnel.
 
-## 2. Referrals — `/dashboard/recruiter/referrals`
+## 2. Referrals — [https://www.sebenzahub.co.za/dashboard/recruiter/referrals](https://www.sebenzahub.co.za/dashboard/recruiter/referrals)
 
 ### Referral Program — _Tier: Premium_
 
@@ -80,7 +80,7 @@ The number that matters most: **placements attributable to the campaign**. A cam
 
 **Why it matters.** Referrals are the highest-quality hiring channel you have, but losing track of a single promised commission destroys the programme's reputation in a quarter. Proper management turns referrals from a sometimes-thing into a predictable, compounding source of placements.
 
-**How to use it.** Open `/dashboard/recruiter/referrals`, click **Configure programme**, and set the incentive tiers, the legal terms, the referrer journey, and the payout flow as described below.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/referrals](https://www.sebenzahub.co.za/dashboard/recruiter/referrals), click **Configure programme**, and set the incentive tiers, the legal terms, the referrer journey, and the payout flow as described below.
 
 ![[r-ch30-referral-program-dashboard.png]]
 
@@ -90,7 +90,7 @@ The number that matters most: **placements attributable to the campaign**. A cam
 
 **Why it matters.** Referrals die in disputes about who referred whom and what they were owed. Tracking removes the ambiguity: every referral has a unique link, a verified referrer, and a status the referrer can see in real time. Disputed commissions disappear when both sides see the same record.
 
-**How to use it.** Tracking runs automatically once the programme is live. Spot-check it monthly: open `/dashboard/recruiter/referrals` → **Tracking**, sort by status, and confirm any referral that's been at "interviewed" for 14+ days has either advanced or been closed with a reason.
+**How to use it.** Tracking runs automatically once the programme is live. Spot-check it monthly: open [https://www.sebenzahub.co.za/dashboard/recruiter/referrals](https://www.sebenzahub.co.za/dashboard/recruiter/referrals) → **Tracking**, sort by status, and confirm any referral that's been at "interviewed" for 14+ days has either advanced or been closed with a reason.
 
 ![[r-ch30-referral-tracking-attribution.png]]
 
@@ -108,7 +108,7 @@ The Referrals page lets you:
 
 ### Setting up a referral programme
 
-1. Open `/dashboard/recruiter/referrals`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/referrals](https://www.sebenzahub.co.za/dashboard/recruiter/referrals).
 2. Click **Configure programme**.
 3. Set the incentive structure:
    - **Tier 1**: Reward when a referred candidate is hired (most common)
@@ -134,7 +134,7 @@ The right moments to ask:
 - **Don't make the referral process require effort.** A unique link they share is fine; a 5-page form is not.
 - **Don't underpay the incentive.** A R500 voucher for a referral that earns you a R30,000 fee is insulting and people notice.
 
-## 3. Candidate NPS — `/dashboard/recruiter/feedback`
+## 3. Candidate NPS — [https://www.sebenzahub.co.za/dashboard/recruiter/feedback](https://www.sebenzahub.co.za/dashboard/recruiter/feedback)
 
 Two-line callback: Candidate NPS is the same Standard-tier feature introduced in [[01 How-To Documents/recruiter/27-popia-in-practice|Chapter 27]] as a candidate-experience signal. Here it's used commercially — promoters become referrers, detractors become recovery work — but the surveys, page, and tier are identical.
 
@@ -190,7 +190,7 @@ Candidate NPS is one of the four sub-scores in your Reputation Score (Chapter 6)
 
 ![[r-ch30-coaching-report-document.png]]
 
-## 5. Reference Checks — `/dashboard/recruiter/reference-checks`
+## 5. Reference Checks — [https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks](https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks)
 
 Reference checks are the structured verification of a candidate's claims with their previous managers and colleagues. Sebenza Hub automates the collection so you don't have to chase referees manually.
 

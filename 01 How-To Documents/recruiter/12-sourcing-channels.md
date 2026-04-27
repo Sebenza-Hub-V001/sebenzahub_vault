@@ -36,7 +36,7 @@ Before any cold sourcing, search what you already have. Sebenza Hub layers four 
 
 **Why it matters.** Every recruiter needs candidate search to evaluate the platform at all. Free basic search is the conversion tool — power users hit its limits within a week and upgrade to Advanced.
 
-**How to use it.** Open `/dashboard/recruiter/candidates`, set the filters, run the search. If you find yourself wishing for boolean operators or skill weighting, you've outgrown Basic — move to Advanced.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/candidates](https://www.sebenzahub.co.za/dashboard/recruiter/candidates), set the filters, run the search. If you find yourself wishing for boolean operators or skill weighting, you've outgrown Basic — move to Advanced.
 
 ![[r-ch12-candidate-search-results.png]]
 
@@ -46,7 +46,7 @@ Before any cold sourcing, search what you already have. Sebenza Hub layers four 
 
 **Why it matters.** Basic search surfaces 500 possible matches; Advanced narrows to the 20 actual candidates worth contacting. For any desk doing real volume, the time savings alone justify the Standard tier.
 
-**How to use it.** Same `/dashboard/recruiter/candidates` page — Advanced filters appear once you're on Standard. Use boolean (`Python AND (fintech OR banking) NOT junior`) for precision, or AI Hybrid Search below for natural language.
+**How to use it.** Same [https://www.sebenzahub.co.za/dashboard/recruiter/candidates](https://www.sebenzahub.co.za/dashboard/recruiter/candidates) page — Advanced filters appear once you're on Standard. Use boolean (`Python AND (fintech OR banking) NOT junior`) for precision, or AI Hybrid Search below for natural language.
 
 ### Full Candidate Database Access — _Tier: Premium_
 
@@ -72,7 +72,7 @@ Before any cold sourcing, search what you already have. Sebenza Hub layers four 
 
 **Why it matters.** Junior recruiters never learn boolean syntax; senior recruiters forget which field is "location" vs "city". NL parsing removes the syntax tax and makes search faster for everyone — and surfaces a structured view of what the AI heard, so you can spot misinterpretations.
 
-**How to use it.** Open AI Search at `/dashboard/recruiter/ai-search`, type your request in plain English, and the parsed filters appear above the results. Adjust the filters if the AI got something wrong, then re-run.
+**How to use it.** Open AI Search at [https://www.sebenzahub.co.za/dashboard/recruiter/ai-search](https://www.sebenzahub.co.za/dashboard/recruiter/ai-search), type your request in plain English, and the parsed filters appear above the results. Adjust the filters if the AI got something wrong, then re-run.
 
 ### Smart Search Suggestions — _Tier: Standard_
 
@@ -122,13 +122,13 @@ Once you have searches you run repeatedly, the platform layers diagnostic and in
 
 **Why it matters.** Building pools manually is tedious and inconsistent across team members. AI generation compresses hours of search-save-tag work into a single prompt, and produces pools that are uniformly tagged and named so the team can actually find them again.
 
-**How to use it.** Open `/dashboard/recruiter/talent-pool`, click **Generate pool**, type the criteria. The pool appears with all matching candidates pre-loaded. Chapter 14 covers what to do with pools after generation.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool](https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool), click **Generate pool**, type the criteria. The pool appears with all matching candidates pre-loaded. Chapter 14 covers what to do with pools after generation.
 
 ![[r-ch12-talent-pool-generator-dialog.png]]
 
 ## 3. AI Search — putting it together
 
-**Page:** `/dashboard/recruiter/ai-search`
+**Page:** [https://www.sebenzahub.co.za/dashboard/recruiter/ai-search](https://www.sebenzahub.co.za/dashboard/recruiter/ai-search)
 
 The AI Search page brings the Hybrid Search, Search Parser, and Smart Suggestions features together into a single natural-language interface against your database. You type a request, the parser extracts structure, hybrid search runs, suggestions appear if the result set is thin.
 
@@ -158,7 +158,7 @@ Each result shows:
 
 ## 4. Talent Discovery — passive candidates outside your database
 
-**Page:** `/dashboard/recruiter/talent-discovery`
+**Page:** [https://www.sebenzahub.co.za/dashboard/recruiter/talent-discovery](https://www.sebenzahub.co.za/dashboard/recruiter/talent-discovery)
 
 Talent Discovery finds **passive candidates** — people who aren't actively job-hunting but match a profile you describe. They're the most valuable category for senior roles, where the best candidates are usually already employed and not looking.
 
@@ -192,7 +192,7 @@ The AI doesn't violate POPIA — it surfaces publicly-available signals. But eve
 
 **How to use it.**
 
-1. Open `/dashboard/recruiter/candidate-sourcing`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/candidate-sourcing](https://www.sebenzahub.co.za/dashboard/recruiter/candidate-sourcing).
 2. Build a target audience (filters or imported list).
 3. Craft a multi-step sequence (Day 0 cold message, Day 4 follow-up, Day 10 final touch).
 4. Pick channels per step (Day 0 email, Day 4 LinkedIn message, Day 10 WhatsApp if consent).
@@ -217,7 +217,7 @@ The AI doesn't violate POPIA — it surfaces publicly-available signals. But eve
 
 **Why it matters.** LinkedIn is still the top source for senior candidates. Sync means you don't have to choose between "the data lives on LinkedIn" and "the data lives in Sebenza Hub" — it lives in both, with Sebenza Hub as the system of record. The Premium tier reflects the LinkedIn API cost.
 
-**How to use it.** Connect your LinkedIn account in `/dashboard/recruiter/settings` → **Integrations**. Once connected, sync runs automatically — new leads from LinkedIn appear in your candidate database, and existing candidate records are enriched with current LinkedIn data. Chapter 13 covers the LinkedIn-specific lead-gen flow on top of this sync.
+**How to use it.** Connect your LinkedIn account in Settings ([https://www.sebenzahub.co.za/dashboard/recruiter/settings](https://www.sebenzahub.co.za/dashboard/recruiter/settings)) → **Integrations**. Once connected, sync runs automatically — new leads from LinkedIn appear in your candidate database, and existing candidate records are enriched with current LinkedIn data. Chapter 13 covers the LinkedIn-specific lead-gen flow on top of this sync.
 
 ![[r-ch12-linkedin-sync.png]]
 
@@ -241,7 +241,7 @@ Both Talent Discovery and Candidate Sourcing tap AI capacity that's metered agai
 - **Active sourcing sequences** (cap on concurrently-running campaigns)
 - **AI screening** (auto-scoring of new candidates surfaced by sourcing)
 
-Watch your usage on `/dashboard/recruiter/billing` → Usage history. If you're regularly running out, that's the signal to upgrade.
+Watch your usage on [https://www.sebenzahub.co.za/dashboard/recruiter/billing](https://www.sebenzahub.co.za/dashboard/recruiter/billing) → Usage history. If you're regularly running out, that's the signal to upgrade.
 
 ## Pro tips
 

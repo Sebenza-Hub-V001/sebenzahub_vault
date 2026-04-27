@@ -14,7 +14,7 @@ You've made it through 33 chapters. You know how to source, screen, interview, p
 
 These are not features you need on day one. They're features you grow into once your basic recruitment engine is humming.
 
-## 1. Predictive Hiring — `/dashboard/recruiter/predictive-hiring`
+## 1. Predictive Hiring — [https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring](https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring)
 
 Predictive Hiring is the AI tool that forecasts your clients' future hiring needs before the clients themselves know what they'll need. It analyses:
 
@@ -34,7 +34,7 @@ When the client confirms the need, you're already 4 weeks ahead of competing age
 
 ### How to use it
 
-1. Open `/dashboard/recruiter/predictive-hiring`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring](https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring).
 2. Pick a client.
 3. Review the forecasted needs:
    - Probable role types
@@ -51,7 +51,7 @@ This message is the killer move. Even if the prediction is wrong, you've signall
 
 Predictive Hiring is a forecasting tool, not a crystal ball. The forecasts are probabilistic — sometimes they're wrong. Use them as a planning aid, not a guarantee. Don't over-invest in pre-sourcing for a forecast that hasn't been confirmed; do invest enough that you're not starting cold when the brief lands.
 
-## 2. Rapid Workflow — `/dashboard/recruiter/rapid-workflow`
+## 2. Rapid Workflow — [https://www.sebenzahub.co.za/dashboard/recruiter/rapid-workflow](https://www.sebenzahub.co.za/dashboard/recruiter/rapid-workflow)
 
 ### Rapid Workflow — _Tier: Standard_
 
@@ -59,7 +59,7 @@ Predictive Hiring is a forecasting tool, not a crystal ball. The forecasts are p
 
 **Why it matters.** High-volume desks drown in admin and lose deals to slower competitors. Rapid Workflow reclaims time for the harder cases and lets you say yes to "I need someone yesterday" without burning two weeks of normal process.
 
-**How to use it.** Open `/dashboard/recruiter/rapid-workflow` and follow the checklist below — confirm urgency is real, pull from existing pools, get explicit client buy-in to the compressed cadence, schedule the panel within 48 hours, offer within 24 hours of panel.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/rapid-workflow](https://www.sebenzahub.co.za/dashboard/recruiter/rapid-workflow) and follow the checklist below — confirm urgency is real, pull from existing pools, get explicit client buy-in to the compressed cadence, schedule the panel within 48 hours, offer within 24 hours of panel.
 
 ![[r-ch34-rapid-workflow-quick-actions.png]]
 
@@ -117,11 +117,11 @@ The next feature sits at the highest end of the productivity curve. It turns the
 
 **Why it matters.** Every recruiter has 10 admin patterns they repeat daily. Automating those reclaims 5–8 hours per week per recruiter — pure margin to the bottom line — and removes the consistency drift that creeps in when humans do the same task at different times of day.
 
-**How to use it.** Open `/dashboard/recruiter/workflow-automation`. Start with one rule, not ten. Common first rules: "when candidate moved to Interview, send scheduling link"; "when offer accepted, trigger background check"; "when candidate inactive 7 days, send re-engagement message." Add rules incrementally and audit weekly for unexpected behaviour.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation](https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation). Start with one rule, not ten. Common first rules: "when candidate moved to Interview, send scheduling link"; "when offer accepted, trigger background check"; "when candidate inactive 7 days, send re-engagement message." Add rules incrementally and audit weekly for unexpected behaviour.
 
 ![[r-ch34-workflow-automation-rule-builder.png]]
 
-## 4. Hiring Manager Portal — `/dashboard/recruiter/hiring-manager`
+## 4. Hiring Manager Portal — [https://www.sebenzahub.co.za/dashboard/recruiter/hiring-manager](https://www.sebenzahub.co.za/dashboard/recruiter/hiring-manager)
 
 ### Hiring Manager Portal — _Tier: Premium_
 
@@ -129,7 +129,7 @@ The next feature sits at the highest end of the productivity curve. It turns the
 
 **Why it matters.** Hiring managers won't learn a full ATS — they ghost the process and your placements stall waiting for feedback that never arrives. A simplified portal means they actually engage, which compresses time-to-fill by days per role and shows up directly in your KPI Dashboard.
 
-**How to use it.** Open `/dashboard/recruiter/hiring-manager` (it appears as **Manager Portal** in your sidebar). From the client record (Chapter 10), click **Invite Hiring Manager**. They get an email link, set a password, and land directly on the candidate review surface for their open roles. They never see other clients' candidates, your full pipeline, or anything outside their requisitions. Track engagement in the portal usage analytics — managers who never log in are a churn risk to flag at the next account check-in.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/hiring-manager](https://www.sebenzahub.co.za/dashboard/recruiter/hiring-manager) (it appears as **Manager Portal** in your sidebar). From the client record (Chapter 10), click **Invite Hiring Manager**. They get an email link, set a password, and land directly on the candidate review surface for their open roles. They never see other clients' candidates, your full pipeline, or anything outside their requisitions. Track engagement in the portal usage analytics — managers who never log in are a churn risk to flag at the next account check-in.
 
 ![[r-ch34-hiring-manager-portal.png]]
 

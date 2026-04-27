@@ -16,7 +16,7 @@ This chapter walks through every section, and along the way introduces five feat
 
 ## Where it lives
 
-Open `/dashboard/recruiter/profile`. Everything in this chapter is on that one page, organised into expandable sections.
+Open [https://www.sebenzahub.co.za/dashboard/recruiter/profile](https://www.sebenzahub.co.za/dashboard/recruiter/profile). Everything in this chapter is on that one page, organised into expandable sections.
 
 ![[r-ch05-agency-profile-landing.png]]
 
@@ -42,7 +42,7 @@ Before you start filling fields, understand what you're building.
 
 **How to use it.**
 
-1. From `/dashboard/recruiter/profile`, click **Import from website** at the top of the page.
+1. From [https://www.sebenzahub.co.za/dashboard/recruiter/profile](https://www.sebenzahub.co.za/dashboard/recruiter/profile), click **Import from website** at the top of the page.
 2. Paste your live agency URL.
 3. Wait for the import (usually 30–60 seconds). The AI populates the Branding, Contact, and Credentials sections with what it found.
 4. Review every field before saving. The AI is good but not perfect — verify founded year, agency size, and the description in particular.

@@ -26,7 +26,7 @@ This chapter walks through adding a client, adding contacts, setting client tier
 
 ## Where it lives
 
-`/dashboard/recruiter/clients` is the master list. Click **+ New client** to add one.
+[https://www.sebenzahub.co.za/dashboard/recruiter/clients](https://www.sebenzahub.co.za/dashboard/recruiter/clients) is the master list. Click **+ New client** to add one.
 
 ![[r-ch08-client-list-view.png]]
 
@@ -98,7 +98,7 @@ A client with one contact is fragile. If your contact leaves, gets reorganised, 
 
 ## Linking clients to jobs
 
-When you create a job in `/jobs` (Chapter 11), you'll be asked which client it's for. The dropdown lists every active and prospect client you've added. **Always link a job to a client** — orphan jobs don't roll up into your KPI Dashboard, and you can't earn placement revenue against an unlinked job.
+When you create a job in Jobs ([https://www.sebenzahub.co.za/dashboard/recruiter/jobs](https://www.sebenzahub.co.za/dashboard/recruiter/jobs)) covered in Chapter 11, you'll be asked which client it's for. The dropdown lists every active and prospect client you've added. **Always link a job to a client** — orphan jobs don't roll up into your KPI Dashboard, and you can't earn placement revenue against an unlinked job.
 
 Direct hires for your own agency are a special case — create a "client" record for your own agency name (or a placeholder like "Internal Hires") so the linking still works.
 
@@ -112,7 +112,7 @@ Upload your **signed engagement contract** here as soon as it exists. It becomes
 
 ## The client list view
 
-`/dashboard/recruiter/clients` shows all clients in a table. The columns you'll filter and sort on most:
+[https://www.sebenzahub.co.za/dashboard/recruiter/clients](https://www.sebenzahub.co.za/dashboard/recruiter/clients) shows all clients in a table. The columns you'll filter and sort on most:
 
 - Name
 - Tier (filter by A/B/C)

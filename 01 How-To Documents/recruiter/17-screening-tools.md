@@ -27,15 +27,15 @@ The screening surface is spread across many pages, but the ones you'll touch mos
 
 | Page | What it does |
 |---|---|
-| `/dashboard/recruiter/pipeline` (filter by job) | Master screening workspace per job |
-| `/dashboard/recruiter/candidate-summary` | One-page AI summary per candidate |
-| `/dashboard/recruiter/screening-chatbot` | Conversational AI screen |
-| `/dashboard/recruiter/tests` | Competency test library and runs |
-| `/dashboard/recruiter/scorecards` | Structured evaluation forms |
-| `/dashboard/recruiter/culture-fit` | Culture alignment assessments |
-| `/dashboard/recruiter/blind-hiring` | Demographic redaction toggle |
-| `/dashboard/recruiter/reference-checks` | Reference check tracking and forms |
-| `/dashboard/recruiter/background-checks` | Third-party verification |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/pipeline](https://www.sebenzahub.co.za/dashboard/recruiter/pipeline) (filter by job) | Master screening workspace per job |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/candidate-summary](https://www.sebenzahub.co.za/dashboard/recruiter/candidate-summary) | One-page AI summary per candidate |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/screening-chatbot](https://www.sebenzahub.co.za/dashboard/recruiter/screening-chatbot) | Conversational AI screen |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/tests](https://www.sebenzahub.co.za/dashboard/recruiter/tests) | Competency test library and runs |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/scorecards](https://www.sebenzahub.co.za/dashboard/recruiter/scorecards) | Structured evaluation forms |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/culture-fit](https://www.sebenzahub.co.za/dashboard/recruiter/culture-fit) | Culture alignment assessments |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/blind-hiring](https://www.sebenzahub.co.za/dashboard/recruiter/blind-hiring) | Demographic redaction toggle |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks](https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks) | Reference check tracking and forms |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/background-checks](https://www.sebenzahub.co.za/dashboard/recruiter/background-checks) | Third-party verification |
 
 ## 1. CV and JD matching
 
@@ -99,7 +99,7 @@ Three features look beyond what the CV says toward what's likely to happen if yo
 
 **Why it matters.** Culture fit drives retention more than skill fit, yet it's usually assessed on gut feel alone. A structured 6-dimension view makes culture decisions defensible — especially in panel debriefs where someone always has a "vibe" objection that can't be substantiated.
 
-**How to use it.** Open `/dashboard/recruiter/culture-fit` for any shortlisted candidate. The output gives an alignment score, strengths the candidate brings, and risks where misalignment may cause friction. **Use the work-style framing**, not the "do they fit in" framing — culture fit used badly is how you build homogeneous, biased pipelines that fail diversity audits (Chapter 28).
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/culture-fit](https://www.sebenzahub.co.za/dashboard/recruiter/culture-fit) for any shortlisted candidate. The output gives an alignment score, strengths the candidate brings, and risks where misalignment may cause friction. **Use the work-style framing**, not the "do they fit in" framing — culture fit used badly is how you build homogeneous, biased pipelines that fail diversity audits (Chapter 28).
 
 ![[r-ch17-culture-fit-radar-chart.png]]
 
@@ -123,7 +123,7 @@ Three features move candidates through the screen — the chatbot does the conve
 
 **Why it matters.** Recruiters waste 20% of their time on calls that should have been filtered out at intake. A chatbot handles the no-go conversations 24/7 so the recruiter only speaks to viable candidates.
 
-**How to use it.** Configure templates per role family in `/dashboard/recruiter/screening-chatbot`. Enable the chatbot for a job from the screening config (Chapter 15). Review transcripts in the chatbot workspace and override the AI's recommendation when context warrants. Skip the chatbot for executive roles — at that level it feels patronising.
+**How to use it.** Configure templates per role family in [https://www.sebenzahub.co.za/dashboard/recruiter/screening-chatbot](https://www.sebenzahub.co.za/dashboard/recruiter/screening-chatbot). Enable the chatbot for a job from the screening config (Chapter 15). Review transcripts in the chatbot workspace and override the AI's recommendation when context warrants. Skip the chatbot for executive roles — at that level it feels patronising.
 
 ![[r-ch17-screening-chatbot-conversation.png]]
 
@@ -155,7 +155,7 @@ Eight features cover competency testing — building tests, generating questions
 
 **Why it matters.** Off-the-shelf tests don't match niche roles. Custom test building means you can screen for client-specific competencies without buying separate assessment software for every gap.
 
-**How to use it.** Open `/dashboard/recruiter/tests` → **+ New test**. Pick the format, add questions, set the timer, attach to a job. Save as a template if you'll reuse it.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/tests](https://www.sebenzahub.co.za/dashboard/recruiter/tests) → **+ New test**. Pick the format, add questions, set the timer, attach to a job. Save as a template if you'll reuse it.
 
 ![[r-ch17-test-builder-branching-logic.png]]
 
@@ -173,7 +173,7 @@ Eight features cover competency testing — building tests, generating questions
 
 **Why it matters.** Most roles don't need a custom test — a template is 90% of the way there. The library shortens setup from 30 minutes to 2 minutes, which is the difference between actually running tests and skipping them under time pressure.
 
-**How to use it.** Open the template library inside `/dashboard/recruiter/tests`. Pick the closest match, clone, edit the few questions that need tailoring, attach to the job.
+**How to use it.** Open the template library inside [https://www.sebenzahub.co.za/dashboard/recruiter/tests](https://www.sebenzahub.co.za/dashboard/recruiter/tests). Pick the closest match, clone, edit the few questions that need tailoring, attach to the job.
 
 ![[r-ch17-test-templates-library.png]]
 
@@ -237,7 +237,7 @@ Five features cover the reference workflow end-to-end — tracking, the public f
 
 **Why it matters.** References drop off the end of the pipeline because no one owns the follow-up. Tracking makes them a visible step in the process, which is the only way they get completed in time to support the offer.
 
-**How to use it.** Open `/dashboard/recruiter/reference-checks`. Sort by status. Anything in **overdue** for 5+ days gets a personal nudge from you to the candidate ("could you remind your referee?") rather than another automated email.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks](https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks). Sort by status. Anything in **overdue** for 5+ days gets a personal nudge from you to the candidate ("could you remind your referee?") rather than another automated email.
 
 ### Public Reference Form — _Tier: Standard_
 
@@ -277,7 +277,7 @@ One feature, but a structural one: blind hiring removes demographic data from th
 
 **Why it matters.** Blind hiring reduces bias measurably and is increasingly required by corporate clients with EE goals. One toggle replaces a manual CV-redaction workflow most teams do badly or skip entirely.
 
-**How to use it.** Enable from `/dashboard/recruiter/blind-hiring` per role or per evaluator. What's still visible: skills, experience, scorecards, test results. **Commit fully** (blind through to interview) or use it as a discrete first-pass filter — turning it off mid-process just pushes the bias forward to a later stage.
+**How to use it.** Enable from [https://www.sebenzahub.co.za/dashboard/recruiter/blind-hiring](https://www.sebenzahub.co.za/dashboard/recruiter/blind-hiring) per role or per evaluator. What's still visible: skills, experience, scorecards, test results. **Commit fully** (blind through to interview) or use it as a discrete first-pass filter — turning it off mid-process just pushes the bias forward to a later stage.
 
 ![[r-ch17-blind-hiring-before-after.png]]
 

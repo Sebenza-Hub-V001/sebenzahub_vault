@@ -137,7 +137,7 @@ The badges and scores above are the credibility layer. The next set of features 
 
 **How to use it.**
 
-1. Open `/dashboard/recruiter/brand`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/brand](https://www.sebenzahub.co.za/dashboard/recruiter/brand).
 2. Click **Generate brand page**. The AI assembles a draft from your profile data.
 3. Edit any section — swap copy, reorder blocks, replace images.
 4. Preview, then publish. The page goes live at your public URL.
@@ -150,7 +150,7 @@ The badges and scores above are the credibility layer. The next set of features 
 
 **Why it matters.** Branded URLs get shared; system URLs don't. The slug matters for organic discovery, candidate trust, and the handful of moments when someone Googles your agency and lands on a Sebenza Hub-hosted page that you control.
 
-**How to use it.** On `/dashboard/recruiter/brand`, set your **public slug** to something short and recognisable (e.g. your agency name, no spaces). Toggle **Make public**. Test the URL in an incognito window to confirm it loads without a login.
+**How to use it.** On [https://www.sebenzahub.co.za/dashboard/recruiter/brand](https://www.sebenzahub.co.za/dashboard/recruiter/brand), set your **public slug** to something short and recognisable (e.g. your agency name, no spaces). Toggle **Make public**. Test the URL in an incognito window to confirm it loads without a login.
 
 ![[r-ch06-public-company-page-slug.png]]
 
@@ -160,7 +160,7 @@ The badges and scores above are the credibility layer. The next set of features 
 
 **Why it matters.** Brand work done on Sebenza Hub shouldn't be locked into Sebenza Hub. Export turns the platform into a content workshop for your wider recruitment marketing — the same blocks you publish here can populate your careers site or a client pitch deck without rewriting.
 
-**How to use it.** From `/dashboard/recruiter/brand`, click **Export** and pick a format. For LinkedIn, export the Markdown version and paste it into a Featured Article. For client decks, the PDF export drops in cleanly.
+**How to use it.** From [https://www.sebenzahub.co.za/dashboard/recruiter/brand](https://www.sebenzahub.co.za/dashboard/recruiter/brand), click **Export** and pick a format. For LinkedIn, export the Markdown version and paste it into a Featured Article. For client decks, the PDF export drops in cleanly.
 
 ![[r-ch06-brand-content-export-dialog.png]]
 
@@ -176,7 +176,7 @@ Brand pages bring people in. The content below is what convinces them to engage.
 
 **How to use it.**
 
-1. Go to `/dashboard/recruiter/brand` → **Case studies** → **+ New case study**.
+1. Go to [https://www.sebenzahub.co.za/dashboard/recruiter/brand](https://www.sebenzahub.co.za/dashboard/recruiter/brand) → **Case studies** → **+ New case study**.
 2. Pick a placement from your history (the dropdown lists eligible recent placements).
 3. Tick which details to anonymise (candidate name, client name, exact salary).
 4. Generate. Edit the narrative until it reads true to your memory of the search.
@@ -190,7 +190,7 @@ Brand pages bring people in. The content below is what convinces them to engage.
 
 **Why it matters.** Recruitment marketing is a full-time role most agencies can't afford. Content generation lets a recruiter moonlight as the marketer without the quality collapse — you get on-brand content monthly instead of "we should do a blog one day" forever.
 
-**How to use it.** On `/dashboard/recruiter/brand`, open **Content** → **Generate**. Pick the format (blog post, social, careers-site block), give it a topic prompt, and pick a tone. Edit the draft, schedule or publish.
+**How to use it.** On [https://www.sebenzahub.co.za/dashboard/recruiter/brand](https://www.sebenzahub.co.za/dashboard/recruiter/brand), open **Content** → **Generate**. Pick the format (blog post, social, careers-site block), give it a topic prompt, and pick a tone. Edit the draft, schedule or publish.
 
 ![[r-ch06-employer-brand-content-editor.png]]
 
@@ -200,7 +200,7 @@ Brand pages bring people in. The content below is what convinces them to engage.
 
 **Why it matters.** Recruiters pitch themselves on market knowledge. Automated analysis keeps that knowledge current without you having to read three industry newsletters a week, and gives you a credible, branded report you can send to every client cold — the highest-leverage outbound asset on the platform for established recruiters.
 
-**How to use it.** Open `/dashboard/recruiter/brand` → **Market analysis** → **Generate**. Pick your sectors and the analysis window (last quarter, last 6 months). The report renders as both a viewable page and an exportable PDF you can attach to client outreach.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/brand](https://www.sebenzahub.co.za/dashboard/recruiter/brand) → **Market analysis** → **Generate**. Pick your sectors and the analysis window (last quarter, last 6 months). The report renders as both a viewable page and an exportable PDF you can attach to client outreach.
 
 ![[r-ch06-market-analysis-report.png]]
 

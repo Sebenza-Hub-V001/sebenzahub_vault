@@ -16,7 +16,7 @@ Every placement starts with a job. A well-written job post attracts the right ca
 
 ## Where it lives
 
-`/dashboard/recruiter/jobs` — the master list of every job in your agency. Click **+ New job** to create one. The AI JD Writer lives at `/dashboard/recruiter/ai-writer` and can also be invoked from inside the new-job form.
+[https://www.sebenzahub.co.za/dashboard/recruiter/jobs](https://www.sebenzahub.co.za/dashboard/recruiter/jobs) — the master list of every job in your agency. Click **+ New job** to create one. The AI JD Writer lives at [https://www.sebenzahub.co.za/dashboard/recruiter/ai-writer](https://www.sebenzahub.co.za/dashboard/recruiter/ai-writer) and can also be invoked from inside the new-job form.
 
 ## Before you click "New job"
 

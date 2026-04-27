@@ -18,10 +18,10 @@ The primary feature for this chapter is **Email Sequences** — the multi-touch 
 
 | Page | Purpose |
 |---|---|
-| `/dashboard/recruiter/email-templates` | Build and manage reusable message templates |
-| `/dashboard/recruiter/sequences` | Multi-step automated outreach flows |
-| `/dashboard/recruiter/chatbot` | Configure the chatbot deployed on your career site |
-| `/dashboard/recruiter/workflow-automation` | Rules that trigger templates and sequences automatically |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/email-templates](https://www.sebenzahub.co.za/dashboard/recruiter/email-templates) | Build and manage reusable message templates |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/sequences](https://www.sebenzahub.co.za/dashboard/recruiter/sequences) | Multi-step automated outreach flows |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/chatbot](https://www.sebenzahub.co.za/dashboard/recruiter/chatbot) | Configure the chatbot deployed on your career site |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation](https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation) | Rules that trigger templates and sequences automatically |
 
 ## 1. Email templates
 
@@ -48,7 +48,7 @@ These cover 80% of your daily messaging. The other 20% is genuinely personal and
 
 ### Building a template
 
-1. Open `/dashboard/recruiter/email-templates`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/email-templates](https://www.sebenzahub.co.za/dashboard/recruiter/email-templates).
 2. Click **+ New template**.
 3. Name the template (be descriptive — "Interview invite — Sandton office" beats "Template 7").
 4. Pick the channel (email, in-platform, WhatsApp).
@@ -78,7 +78,7 @@ These cover 80% of your daily messaging. The other 20% is genuinely personal and
 
 **Why it matters.** 60% of candidate responses happen after email 3. Sequences automate the multi-touch follow-ups recruiters know they should do but stop doing manually after the first week of a busy desk — which raises reply rates by 2–3×.
 
-**How to use it.** Build a sequence in `/dashboard/recruiter/sequences` (full walkthrough below). Enroll candidates from the Pipeline, from a talent pool (Chapter 14), or via a workflow automation rule. Always set the exit rules so the sequence pauses the moment a candidate replies.
+**How to use it.** Build a sequence in [https://www.sebenzahub.co.za/dashboard/recruiter/sequences](https://www.sebenzahub.co.za/dashboard/recruiter/sequences) (full walkthrough below). Enroll candidates from the Pipeline, from a talent pool (Chapter 14), or via a workflow automation rule. Always set the exit rules so the sequence pauses the moment a candidate replies.
 
 ![[r-ch23-email-sequences-builder.png]]
 
@@ -101,7 +101,7 @@ The exit rule is crucial. A sequence that keeps sending after a candidate replie
 
 ### Building a sequence
 
-1. Open `/dashboard/recruiter/sequences`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/sequences](https://www.sebenzahub.co.za/dashboard/recruiter/sequences).
 2. Click **+ New sequence**.
 3. Name the sequence (e.g. "Senior Dev — passive outreach").
 4. Add steps. For each step:
@@ -135,7 +135,7 @@ The dormant re-engagement sequence is one of the highest-ROI sequences you'll ru
 
 ![[r-ch23-sequence-analytics.png]]
 
-## 3. The chatbot — `/dashboard/recruiter/chatbot`
+## 3. The chatbot — [https://www.sebenzahub.co.za/dashboard/recruiter/chatbot](https://www.sebenzahub.co.za/dashboard/recruiter/chatbot)
 
 The chatbot is the conversational AI you can deploy on your career site (Chapter 29). It greets visitors, answers FAQs, helps them search jobs, captures applications, and routes complex queries to a recruiter.
 
@@ -158,7 +158,7 @@ This career-site chatbot is distinct from the **AI Screening Chatbot** (Standard
 
 ### Configuring the chatbot
 
-1. Open `/dashboard/recruiter/chatbot`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/chatbot](https://www.sebenzahub.co.za/dashboard/recruiter/chatbot).
 2. Build the conversation tree:
    - Welcome message
    - Common intents (apply / browse jobs / check application status / ask FAQ / talk to a recruiter)
@@ -187,7 +187,7 @@ You don't configure Linda directly — she's wired into the chatbots and message
 
 If your team lives in Slack, WhatsApp conversation events can be routed there with full message context — not just a "you have a new message" ping but the actual candidate, role, and message body, so a teammate can pick up the thread without first opening Sebenza Hub. Configure the Slack integration once in your account settings and pick the events you care about (new candidate WhatsApp, opt-out, escalation).
 
-## 4. Workflow automation — `/dashboard/recruiter/workflow-automation`
+## 4. Workflow automation — [https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation](https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation)
 
 Workflow automation is the glue that connects everything. It's a rule engine: **when X happens, do Y.**
 
@@ -205,7 +205,7 @@ Workflow automation is the glue that connects everything. It's a rule engine: **
 
 ### Building a workflow rule
 
-1. Open `/dashboard/recruiter/workflow-automation`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation](https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation).
 2. Click **+ New rule**.
 3. Pick a trigger (the "when").
 4. Add conditions (optional filters — e.g. only for Tier A clients, only for senior roles).

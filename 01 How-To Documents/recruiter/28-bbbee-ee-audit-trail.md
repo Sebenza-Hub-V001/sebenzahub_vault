@@ -16,12 +16,12 @@ POPIA (Chapter 27) protects individual privacy. **This** chapter is about the ot
 
 | Page | Purpose |
 |---|---|
-| `/dashboard/recruiter/bbbee` | B-BBEE compliance and reporting |
-| `/dashboard/recruiter/ee-reports` | Employment Equity reports |
-| `/dashboard/recruiter/audit-trail` | Immutable activity log |
-| `/dashboard/recruiter/approval-workflows` | Configure and review approval chains |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/bbbee](https://www.sebenzahub.co.za/dashboard/recruiter/bbbee) | B-BBEE compliance and reporting |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/ee-reports](https://www.sebenzahub.co.za/dashboard/recruiter/ee-reports) | Employment Equity reports |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/audit-trail](https://www.sebenzahub.co.za/dashboard/recruiter/audit-trail) | Immutable activity log |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows](https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows) | Configure and review approval chains |
 
-## 1. Employment Equity (EE) Reports — `/dashboard/recruiter/ee-reports`
+## 1. Employment Equity (EE) Reports — [https://www.sebenzahub.co.za/dashboard/recruiter/ee-reports](https://www.sebenzahub.co.za/dashboard/recruiter/ee-reports)
 
 ### Employment Equity Reporting — _Tier: Premium_
 
@@ -49,7 +49,7 @@ For each client (and aggregated across all clients), the report shows:
 
 ### Generating a report
 
-1. Open `/dashboard/recruiter/ee-reports`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/ee-reports](https://www.sebenzahub.co.za/dashboard/recruiter/ee-reports).
 2. Pick the time range (typically a financial year or calendar year).
 3. Pick the client (or "all clients").
 4. The report generates as a PDF in Department of Employment and Labour-ready format.
@@ -59,7 +59,7 @@ For each client (and aggregated across all clients), the report shows:
 
 A client whose EE numbers improve year-over-year — and who can show you helped — is a client who renews. A client whose numbers worsen blames the recruiter who placed them. EE Reports are the proof of your contribution. Generate them quarterly so you have the data when the client asks.
 
-## 2. B-BBEE — `/dashboard/recruiter/bbbee`
+## 2. B-BBEE — [https://www.sebenzahub.co.za/dashboard/recruiter/bbbee](https://www.sebenzahub.co.za/dashboard/recruiter/bbbee)
 
 ### B-BBEE Compliance Reporting — _Tier: Premium_
 
@@ -67,7 +67,7 @@ A client whose EE numbers improve year-over-year — and who can show you helped
 
 **Why it matters.** B-BBEE is a contract requirement for many SA clients. Built-in reporting replaces the consultant invoice that currently handles this and keeps you compliant without a specialist hire — and a Tier A client whose B-BBEE rating dropped because of your placements is one you lose at renewal.
 
-**How to use it.** Generate quarterly per client. Open `/dashboard/recruiter/bbbee`, pick the client and time range, send the PDF to the client for inclusion in their B-BBEE certification renewal evidence pack.
+**How to use it.** Generate quarterly per client. Open [https://www.sebenzahub.co.za/dashboard/recruiter/bbbee](https://www.sebenzahub.co.za/dashboard/recruiter/bbbee), pick the client and time range, send the PDF to the client for inclusion in their B-BBEE certification renewal evidence pack.
 
 ![[r-ch28-bbbee-scorecard-tracker.png]]
 
@@ -96,7 +96,7 @@ Beyond your own level, the platform tracks the B-BBEE status of every candidate 
 
 Same as EE Reports:
 
-1. Open `/dashboard/recruiter/bbbee`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/bbbee](https://www.sebenzahub.co.za/dashboard/recruiter/bbbee).
 2. Pick the client and time range.
 3. Generate the report.
 4. Send to the client.
@@ -113,7 +113,7 @@ When your client renews their B-BBEE certification (annually), they need to prov
 
 **Why it matters.** Every RFP in SA asks for a transformation statement, and "we'll repurpose last year's" produces stale, unconvincing copy that loses bids. Generation means a compliant, current, tailored statement is ready in seconds — which is the difference between making the shortlist and not.
 
-**How to use it.** From `/dashboard/recruiter/bbbee` click **Generate Transformation Statement**. Pick the client or tender, the relevant pillars to emphasise, and the tone. Edit the draft, sign off, attach to the proposal.
+**How to use it.** From [https://www.sebenzahub.co.za/dashboard/recruiter/bbbee](https://www.sebenzahub.co.za/dashboard/recruiter/bbbee) click **Generate Transformation Statement**. Pick the client or tender, the relevant pillars to emphasise, and the tone. Edit the draft, sign off, attach to the proposal.
 
 ![[r-ch28-transformation-statement-output.png]]
 
@@ -123,7 +123,7 @@ Two-line callback: the Blind Hiring toggle that strips identifying information d
 
 ![[r-ch28-blind-hiring-toggle.png]]
 
-## 3. Audit Trail — `/dashboard/recruiter/audit-trail`
+## 3. Audit Trail — [https://www.sebenzahub.co.za/dashboard/recruiter/audit-trail](https://www.sebenzahub.co.za/dashboard/recruiter/audit-trail)
 
 The Audit Trail is the immutable activity log for your entire agency. Every action that happens on the platform is recorded:
 
@@ -147,7 +147,7 @@ When a candidate or client asks "how did the AI make that recommendation?", you 
 
 ### How to search the audit trail
 
-1. Open `/dashboard/recruiter/audit-trail`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/audit-trail](https://www.sebenzahub.co.za/dashboard/recruiter/audit-trail).
 2. Filter by:
    - **Date range**
    - **User** (who performed the action)
@@ -199,7 +199,7 @@ This is the evidence trail for a CCMA referral or a civil claim.
 
 If the audit trail could be edited, it wouldn't be evidence. The platform enforces immutability at the database level — there is no API call, no admin override, no superuser shortcut to modify a historical entry. You can add new entries (correcting an error in a record creates a new audit entry, not a modification of the old one), but you can't unwrite the past.
 
-## 4. Approval Workflows — `/dashboard/recruiter/approval-workflows`
+## 4. Approval Workflows — [https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows](https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows)
 
 Approval workflows were introduced in Chapter 7 (Team setup) for offer approvals. This page is where you actually configure them and where approvers see their queue.
 
@@ -214,7 +214,7 @@ Approval workflows were introduced in Chapter 7 (Team setup) for offer approvals
 
 ### Configuring a workflow
 
-1. Open `/dashboard/recruiter/approval-workflows`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows](https://www.sebenzahub.co.za/dashboard/recruiter/approval-workflows).
 2. Click **+ New workflow**.
 3. Define the trigger (e.g. "any offer with base salary > R750k").
 4. Define the approval chain (e.g. "Manager → Admin if amount > R1.5m").

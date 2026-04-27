@@ -80,20 +80,20 @@ Click **Complete onboarding**. The system:
 2. Creates your agency organisation.
 3. Creates your owner membership.
 4. Sets your trust tier to **Bronze** (the default).
-5. Redirects you to **/dashboard/recruiter/profile** — the next step is to fill out the rich agency profile, which Chapter 5 covers.
+5. Redirects you to your agency profile: [https://www.sebenzahub.co.za/dashboard/recruiter/profile](https://www.sebenzahub.co.za/dashboard/recruiter/profile) — the next step is to fill out the rich agency profile, which Chapter 5 covers.
 
 Don't worry if the form asks for things you haven't decided yet. The minimum to get past this screen is the agency name and at least one sector. Everything else can be edited from your profile page later.
 
 ## What happens next
 
-You're now on the recruiter dashboard at `/dashboard/recruiter/profile`. Chapter 4 gives you a tour of what you're looking at — the dashboard layout, what each section means, and what to actually do in your first 30 minutes.
+You're now on the recruiter dashboard at [https://www.sebenzahub.co.za/dashboard/recruiter/profile](https://www.sebenzahub.co.za/dashboard/recruiter/profile). Chapter 4 gives you a tour of what you're looking at — the dashboard layout, what each section means, and what to actually do in your first 30 minutes.
 
 ## Checklist
 
 - [ ] You entered your agency's official registered name
 - [ ] You picked the sectors you actively recruit in (not aspirational sectors)
 - [ ] You either uploaded verification documents or noted that you'll need to before requesting a trust tier upgrade
-- [ ] You landed on `/dashboard/recruiter/profile` after submitting
+- [ ] You landed on [https://www.sebenzahub.co.za/dashboard/recruiter/profile](https://www.sebenzahub.co.za/dashboard/recruiter/profile) after submitting
 
 ## Next chapter
 

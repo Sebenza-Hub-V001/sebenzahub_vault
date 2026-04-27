@@ -22,7 +22,7 @@ Six features cover the offer surface — the management tool, the letter generat
 
 **Why it matters.** Offer admin lives in Word + email today, which creates version chaos. In-platform offers keep the audit trail intact and stop the "which version did she sign?" panic that kills agency credibility.
 
-**How to use it.** `/dashboard/recruiter/offers` is the master list. Every offer in your agency, with status, owner, and value visible at a glance. The rest of this chapter is the playbook for working it.
+**How to use it.** [https://www.sebenzahub.co.za/dashboard/recruiter/offers](https://www.sebenzahub.co.za/dashboard/recruiter/offers) is the master list. Every offer in your agency, with status, owner, and value visible at a glance. The rest of this chapter is the playbook for working it.
 
 ![[r-ch20-offer-management-list.png]]
 
@@ -40,17 +40,17 @@ Six features cover the offer surface — the management tool, the letter generat
 
 | Page | When you'll use it |
 |---|---|
-| `/dashboard/recruiter/offers` | The master list of all offers; daily check-in |
-| `/dashboard/recruiter/offer-templates` | Build reusable templates (set up once) |
-| `/dashboard/recruiter/offer-letters` | Generate the final letter document |
-| `/dashboard/recruiter/offer-benchmarking` | Check market data before proposing terms |
-| `/dashboard/recruiter/offer-predictor` | AI prediction of acceptance probability |
-| `/dashboard/recruiter/offer-approvals` | Routing offers through your approval chain |
-| `/dashboard/recruiter/offer-timeline` | Track the offer lifecycle for one candidate |
-| `/dashboard/recruiter/offer-negotiation` | Manage back-and-forth on terms |
-| `/dashboard/recruiter/offer-compare` | Side-by-side modelling of package alternatives |
-| `/dashboard/recruiter/offer-analytics` | Acceptance rates, time-to-accept, decline reasons |
-| `/dashboard/recruiter/offer-compliance` | Auto-validate against legal and policy requirements |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offers](https://www.sebenzahub.co.za/dashboard/recruiter/offers) | The master list of all offers; daily check-in |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-templates](https://www.sebenzahub.co.za/dashboard/recruiter/offer-templates) | Build reusable templates (set up once) |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-letters](https://www.sebenzahub.co.za/dashboard/recruiter/offer-letters) | Generate the final letter document |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-benchmarking](https://www.sebenzahub.co.za/dashboard/recruiter/offer-benchmarking) | Check market data before proposing terms |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-predictor](https://www.sebenzahub.co.za/dashboard/recruiter/offer-predictor) | AI prediction of acceptance probability |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-approvals](https://www.sebenzahub.co.za/dashboard/recruiter/offer-approvals) | Routing offers through your approval chain |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-timeline](https://www.sebenzahub.co.za/dashboard/recruiter/offer-timeline) | Track the offer lifecycle for one candidate |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-negotiation](https://www.sebenzahub.co.za/dashboard/recruiter/offer-negotiation) | Manage back-and-forth on terms |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-compare](https://www.sebenzahub.co.za/dashboard/recruiter/offer-compare) | Side-by-side modelling of package alternatives |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-analytics](https://www.sebenzahub.co.za/dashboard/recruiter/offer-analytics) | Acceptance rates, time-to-accept, decline reasons |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/offer-compliance](https://www.sebenzahub.co.za/dashboard/recruiter/offer-compliance) | Auto-validate against legal and policy requirements |
 
 You won't visit all 11 every day. The daily flow uses about four; the rest are setup, analysis, or specialist tools.
 
@@ -60,7 +60,7 @@ Two pages save you from making a bad offer:
 
 ### Offer Benchmarking
 
-Open `/dashboard/recruiter/offer-benchmarking`, enter the role title, location, seniority, and sector. The platform pulls market compensation data and shows you:
+Open [https://www.sebenzahub.co.za/dashboard/recruiter/offer-benchmarking](https://www.sebenzahub.co.za/dashboard/recruiter/offer-benchmarking), enter the role title, location, seniority, and sector. The platform pulls market compensation data and shows you:
 
 - The 25th, 50th, and 75th percentile total compensation for the role
 - Comparable benefits packages
@@ -75,7 +75,7 @@ If your client's proposed offer is below the 25th percentile, you have a problem
 
 **Why it matters.** Extended offers that get declined waste 4–6 weeks of pipeline work and damage hiring-manager confidence. Predicting acceptance upstream lets you sequence offers to the most likely yes first — and lets you fix the offer before sending if the score is low.
 
-**How to use it.** Open `/dashboard/recruiter/offer-predictor`, enter the proposed offer details, get an acceptance probability (0–100%) with reasoning. If it returns under 50%, either improve the package, have a frank pre-offer conversation with the candidate, or pull the offer entirely. A 70%+ score is "go ahead".
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/offer-predictor](https://www.sebenzahub.co.za/dashboard/recruiter/offer-predictor), enter the proposed offer details, get an acceptance probability (0–100%) with reasoning. If it returns under 50%, either improve the package, have a frank pre-offer conversation with the candidate, or pull the offer entirely. A 70%+ score is "go ahead".
 
 ![[r-ch20-acceptance-predictor-probability.png]]
 
@@ -101,7 +101,7 @@ If your client's proposed offer is below the 25th percentile, you have a problem
 
 ## Step 2 — Create the offer
 
-Open `/dashboard/recruiter/offers` and click **+ New offer**. The form pulls data from the candidate's application, the linked job, and the client engagement automatically — you're filling in gaps, not starting from scratch.
+Open [https://www.sebenzahub.co.za/dashboard/recruiter/offers](https://www.sebenzahub.co.za/dashboard/recruiter/offers) and click **+ New offer**. The form pulls data from the candidate's application, the linked job, and the client engagement automatically — you're filling in gaps, not starting from scratch.
 
 ### Required fields
 
@@ -127,14 +127,14 @@ Open `/dashboard/recruiter/offers` and click **+ New offer**. The form pulls dat
 
 ## Step 3 — Use a template
 
-Don't write offer letters from scratch. Use `/dashboard/recruiter/offer-templates` to build templates for common scenarios:
+Don't write offer letters from scratch. Use [https://www.sebenzahub.co.za/dashboard/recruiter/offer-templates](https://www.sebenzahub.co.za/dashboard/recruiter/offer-templates) to build templates for common scenarios:
 
 - Permanent perm offer template
 - Contract offer template
 - Executive offer template
 - Conditional offer (probation period or background check pending)
 
-Each template is parameterised — when you generate a letter from a template, the candidate name, salary, dates, and other fields are merged in automatically. The Offer Letters page (`/offer-letters`) is where the merged document is generated and stored.
+Each template is parameterised — when you generate a letter from a template, the candidate name, salary, dates, and other fields are merged in automatically. The Offer Letters page ([https://www.sebenzahub.co.za/dashboard/recruiter/offer-letters](https://www.sebenzahub.co.za/dashboard/recruiter/offer-letters)) is where the merged document is generated and stored.
 
 Templates save you from inconsistencies and from forgetting to include legally important language (probation clauses, restraint of trade, IP assignment, etc.).
 
@@ -147,7 +147,7 @@ Most offers need approval before they can be sent. The approval chain (set up in
 - Offers for a new client → Manager approval
 - Offers with non-standard terms → Admin approval
 
-Open `/dashboard/recruiter/offer-approvals` to see all offers awaiting approval. As an approver, you'll see each offer with the full context, the reason it routed to you, and an approve / reject / request-changes action.
+Open [https://www.sebenzahub.co.za/dashboard/recruiter/offer-approvals](https://www.sebenzahub.co.za/dashboard/recruiter/offer-approvals) to see all offers awaiting approval. As an approver, you'll see each offer with the full context, the reason it routed to you, and an approve / reject / request-changes action.
 
 The offer status during this phase is `pending_approval`. Once approved, it moves to `draft` (ready to send) or directly to `sent` if you approved and sent in one action.
 
@@ -177,7 +177,7 @@ Once approved, open the offer and click **Send**. The system:
 
 ## Step 6 — The offer timeline
 
-`/dashboard/recruiter/offer-timeline` shows you the lifecycle of a single offer at a glance:
+[https://www.sebenzahub.co.za/dashboard/recruiter/offer-timeline](https://www.sebenzahub.co.za/dashboard/recruiter/offer-timeline) shows you the lifecycle of a single offer at a glance:
 
 - Created (when, by whom)
 - Approved (by whom, when, at what amount)
@@ -197,7 +197,7 @@ Use it to spot problems. If an offer has been sent for 4 days and not viewed, th
 
 **Why it matters.** Offers die in negotiation more than any other stage. Visible negotiation tracking keeps the process from stalling in email silence — and the audit trail protects you when one side later disputes what was agreed.
 
-**How to use it.** Open `/dashboard/recruiter/offer-negotiation`. When a candidate counters, log the counter; the platform tracks:
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/offer-negotiation](https://www.sebenzahub.co.za/dashboard/recruiter/offer-negotiation). When a candidate counters, log the counter; the platform tracks:
 
 - Each round of back-and-forth
 - The package details at each round
@@ -211,7 +211,7 @@ Each round increments `negotiationRounds`. Rounds beyond 3 are usually a sign th
 
 ### Offer Compare
 
-While negotiating, `/dashboard/recruiter/offer-compare` lets you model different package alternatives side by side:
+While negotiating, [https://www.sebenzahub.co.za/dashboard/recruiter/offer-compare](https://www.sebenzahub.co.za/dashboard/recruiter/offer-compare) lets you model different package alternatives side by side:
 
 - Package A: Higher base, lower bonus
 - Package B: Lower base, higher bonus, equity
@@ -221,7 +221,7 @@ Show this to the client to support a counter-offer decision. Show simplified ver
 
 ## Step 8 — Compliance check
 
-`/dashboard/recruiter/offer-compliance` auto-validates every offer against:
+[https://www.sebenzahub.co.za/dashboard/recruiter/offer-compliance](https://www.sebenzahub.co.za/dashboard/recruiter/offer-compliance) auto-validates every offer against:
 
 - **Legal pay bands** — minimum wage, sectoral determinations
 - **Employment Equity targets** — alerts if this offer worsens demographic representation against the client's EE plan
@@ -234,7 +234,7 @@ A failing compliance check doesn't block the offer, but it surfaces a warning th
 
 When the candidate accepts, the offer status becomes `accepted`, the application moves to the Placed stage in the Pipeline, and the platform triggers placement creation (Chapter 21). When they decline, the status becomes `declined`, the decline reason is captured, and the candidate moves to a re-engagement pool for future opportunities.
 
-The decline reason goes into your Offer Analytics (`/dashboard/recruiter/offer-analytics`) which shows:
+The decline reason goes into your Offer Analytics ([https://www.sebenzahub.co.za/dashboard/recruiter/offer-analytics](https://www.sebenzahub.co.za/dashboard/recruiter/offer-analytics)) which shows:
 
 - Acceptance rate by job, by recruiter, by client, by sector
 - Time-to-accept (how long candidates take to respond)

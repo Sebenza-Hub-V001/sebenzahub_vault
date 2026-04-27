@@ -16,8 +16,8 @@ Video interviews used to mean "Zoom call instead of in-person". On Sebenza Hub, 
 
 | Page | What it does |
 |---|---|
-| `/dashboard/recruiter/video-interviews` | Set up, manage, and review video interviews |
-| `/dashboard/recruiter/video-analysis` | View AI analysis results for completed videos |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/video-interviews](https://www.sebenzahub.co.za/dashboard/recruiter/video-interviews) | Set up, manage, and review video interviews |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/video-analysis](https://www.sebenzahub.co.za/dashboard/recruiter/video-analysis) | View AI analysis results for completed videos |
 
 ## The platform itself
 
@@ -27,7 +27,7 @@ Video interviews used to mean "Zoom call instead of in-person". On Sebenza Hub, 
 
 **Why it matters.** Recruiters currently juggle Zoom + Calendly + Loom + a folder of recordings somewhere. One built-in platform cuts tool sprawl and keeps every video artefact tied to the candidate record where you (and the hiring manager) can find it later.
 
-**How to use it.** Open `/dashboard/recruiter/video-interviews` to set up either mode. The rest of this chapter walks through the modes, the conversational AI option, and the analysis features.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/video-interviews](https://www.sebenzahub.co.za/dashboard/recruiter/video-interviews) to set up either mode. The rest of this chapter walks through the modes, the conversational AI option, and the analysis features.
 
 ![[r-ch19-video-interview-session.png]]
 
@@ -59,7 +59,7 @@ Use for: standard interview rounds where back-and-forth conversation matters.
 
 ## Setting up an async interview
 
-1. Open `/dashboard/recruiter/video-interviews` and click **+ New async interview**.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/video-interviews](https://www.sebenzahub.co.za/dashboard/recruiter/video-interviews) and click **+ New async interview**.
 2. Pick the job you're hiring for.
 3. Add 3–5 questions. Each question gets:
    - A prompt (the question text the candidate sees)
@@ -107,7 +107,7 @@ Once a live interview is recorded, you can:
 - **Transcribe** automatically (the platform generates a searchable transcript)
 - **Run AI analysis** on the recording
 
-## AI video analysis — `/dashboard/recruiter/video-analysis`
+## AI video analysis — [https://www.sebenzahub.co.za/dashboard/recruiter/video-analysis](https://www.sebenzahub.co.za/dashboard/recruiter/video-analysis)
 
 This is where it gets interesting. The platform layers eight distinct AI analyses over recorded interviews — each one optimised for a specific question you'd otherwise ask yourself by re-watching the video. They split into three tiers of work: the headline analysis, the deep-dive analyses, and the post-interview tools.
 
@@ -125,7 +125,7 @@ This is where it gets interesting. The platform layers eight distinct AI analyse
 
 **Why it matters.** Over 100 interviews, patterns emerge — one interviewer always scores women 0.5 points lower; another inflates scores for alma mater matches. Analysis surfaces these systematic distortions so you can coach the outliers and recalibrate the panel.
 
-**How to use it.** Open `/dashboard/recruiter/disagreements` for panel-level pattern detection across interviews, or `/dashboard/recruiter/scorecards` to drill into a specific scorecard. Filter by role family or by interviewer. The report flags consistent distortions with confidence scores. Take it into your monthly panel calibration session.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/disagreements](https://www.sebenzahub.co.za/dashboard/recruiter/disagreements) for panel-level pattern detection across interviews, or [https://www.sebenzahub.co.za/dashboard/recruiter/scorecards](https://www.sebenzahub.co.za/dashboard/recruiter/scorecards) to drill into a specific scorecard. Filter by role family or by interviewer. The report flags consistent distortions with confidence scores. Take it into your monthly panel calibration session.
 
 ### Video Sentiment Timeline — _Tier: Premium_
 

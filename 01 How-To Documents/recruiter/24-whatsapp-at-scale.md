@@ -16,9 +16,9 @@ WhatsApp is how South Africans communicate. Email response rates here are 20–3
 
 | Page | Purpose |
 |---|---|
-| `/dashboard/recruiter/whatsapp-apply` | Let candidates apply via WhatsApp |
-| `/dashboard/recruiter/whatsapp-bot` | The WhatsApp Command Center — manage all WA conversations |
-| `/dashboard/recruiter/whatsapp-campaigns` | Bulk WhatsApp campaigns |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-apply](https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-apply) | Let candidates apply via WhatsApp |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-bot](https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-bot) | The WhatsApp Command Center — manage all WA conversations |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns](https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns) | Bulk WhatsApp campaigns |
 
 These three are your day-to-day surfaces. Deeper WhatsApp configuration — template approvals, opt-out management, broadcast lists, integration settings, quality monitoring, and per-message cost tracking — runs on the admin side and is not part of your recruiter sidebar. Most of it is configure-once-and-forget at the platform level; you'll see the effects without touching the controls.
 
@@ -74,7 +74,7 @@ WhatsApp Apply lets candidates apply for a job by sending a WhatsApp message ins
 - **Roles requiring portfolios or CVs** — file uploads via WhatsApp are clunky
 - **When you can't handle the volume** — WhatsApp Apply can generate 5–10× more applications. Make sure your screening can keep up.
 
-## 2. WhatsApp Command Center — `/dashboard/recruiter/whatsapp-bot`
+## 2. WhatsApp Command Center — [https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-bot](https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-bot)
 
 The Command Center is where you and your team manage all active WhatsApp conversations across all candidates. Think of it as the WhatsApp equivalent of the Unified Inbox, but with WhatsApp-specific features.
 
@@ -101,7 +101,7 @@ When you go on leave, mark yourself unavailable in the Command Center settings. 
 
 > **The Command Center now runs on Linda.** WhatsApp Command Center conversations are powered by Linda, the platform's agent layer (introduced in Chapter 23). That means adaptive multi-turn handling — Linda can hold context across a longer conversation, fetch the candidate's record when needed, and hand off to a human when she's out of her depth. Every tool she invokes is recorded in the Audit Trail (Chapter 28), so the WhatsApp side of your activity is as defensible as anything else on the platform.
 
-## 3. WhatsApp Campaigns — `/dashboard/recruiter/whatsapp-campaigns`
+## 3. WhatsApp Campaigns — [https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns](https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns)
 
 ### WhatsApp Campaigns — _Tier: Premium_
 
@@ -109,7 +109,7 @@ When you go on leave, mark yourself unavailable in the Command Center settings. 
 
 **Why it matters.** WhatsApp is the dominant channel for reaching SA candidates, especially blue-collar and younger demographics. Campaign capability turns recruitment into a marketing discipline that reaches people where they actually read.
 
-**How to use it.** Build the campaign in `/dashboard/recruiter/whatsapp-campaigns` (full walkthrough below). Always use a WhatsApp-approved template. Always include opt-out language. Always send in business hours, never weekends.
+**How to use it.** Build the campaign in [https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns](https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns) (full walkthrough below). Always use a WhatsApp-approved template. Always include opt-out language. Always send in business hours, never weekends.
 
 ![[r-ch24-whatsapp-campaign-builder.png]]
 
@@ -124,7 +124,7 @@ Campaigns are bulk WhatsApp messages sent to a target audience — your equivale
 
 ### Building a campaign
 
-1. Open `/dashboard/recruiter/whatsapp-campaigns`.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns](https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns).
 2. Click **+ New campaign**.
 3. Pick the audience:
    - A talent pool (Chapter 14)

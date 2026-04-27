@@ -18,7 +18,7 @@ This chapter walks through how to read the Pipeline, how to move candidates thro
 
 ## Where it lives
 
-`/dashboard/recruiter/pipeline` — the master Kanban board for your entire agency.
+[https://www.sebenzahub.co.za/dashboard/recruiter/pipeline](https://www.sebenzahub.co.za/dashboard/recruiter/pipeline) — the master Kanban board for your entire agency.
 
 ### Pipeline View — _Tier: Free_
 
@@ -26,7 +26,7 @@ This chapter walks through how to read the Pipeline, how to move candidates thro
 
 **Why it matters.** Every recruiter needs a Kanban of their pipeline; making it free means no one on your team has a reason to fall back to a spreadsheet. That's how Sebenza Hub becomes the daily tool, not just an ATS you log into when you remember.
 
-**How to use it.** Open `/dashboard/recruiter/pipeline`. Read the columns left-to-right (New → Placed). Drag and drop a card to advance a candidate. The rest of this chapter is the playbook for using it well.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/pipeline](https://www.sebenzahub.co.za/dashboard/recruiter/pipeline). Read the columns left-to-right (New → Placed). Drag and drop a card to advance a candidate. The rest of this chapter is the playbook for using it well.
 
 ## The Kanban view
 
@@ -137,7 +137,7 @@ That's 35 minutes a day on the Pipeline itself. Everything else (sourcing, clien
 
 ## Stage configuration
 
-You can customise the stages in `/dashboard/recruiter/settings` → Pipeline. Common customisations:
+You can customise the stages in Settings ([https://www.sebenzahub.co.za/dashboard/recruiter/settings](https://www.sebenzahub.co.za/dashboard/recruiter/settings)) → Pipeline. Common customisations:
 
 - **Add an "Internal Review" stage** between Screening and Interview, for the hand-off when a manager validates the recruiter's shortlist
 - **Add a "Client Review" stage** between Screening and Interview, for when the corporate client reviews your shortlist before agreeing to interview

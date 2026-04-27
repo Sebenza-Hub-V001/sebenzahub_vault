@@ -18,11 +18,11 @@ This chapter covers the analytics tools that surface things you'd rather not kno
 
 | Page | Purpose |
 |---|---|
-| `/dashboard/recruiter/diversity` | Demographic analytics across the funnel |
-| `/dashboard/recruiter/disagreements` (Panel Analysis) | Interviewer calibration and bias detection |
-| `/dashboard/recruiter/team-dna` | Team capability and specialisation |
-| `/dashboard/recruiter/candidate-summary` (AI Intelligence) | One-page AI summaries and pattern detection |
-| `/dashboard/recruiter/engagement` | Candidate engagement scores |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/diversity](https://www.sebenzahub.co.za/dashboard/recruiter/diversity) | Demographic analytics across the funnel |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/disagreements](https://www.sebenzahub.co.za/dashboard/recruiter/disagreements) (Panel Analysis) | Interviewer calibration and bias detection |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/team-dna](https://www.sebenzahub.co.za/dashboard/recruiter/team-dna) | Team capability and specialisation |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/candidate-summary](https://www.sebenzahub.co.za/dashboard/recruiter/candidate-summary) (AI Intelligence) | One-page AI summaries and pattern detection |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/engagement](https://www.sebenzahub.co.za/dashboard/recruiter/engagement) | Candidate engagement scores |
 
 ## 1. Diversity Analytics
 
@@ -32,7 +32,7 @@ This chapter covers the analytics tools that surface things you'd rather not kno
 
 **Why it matters.** South African corporates must report EE; a stage-level drop is both a compliance and a reputational risk. Stage-level analytics convert a year-end report into an in-flight dashboard, so you spot the leak in week 3, not at the audit.
 
-**How to use it.** Open `/dashboard/recruiter/diversity` monthly. Filter by client and by job. Look for the stage where representation drops fastest — that's where bias is entering. Once located, audit the screening tool (Chapter 17) or the interviewer (Panel Analysis below) responsible for that stage.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/diversity](https://www.sebenzahub.co.za/dashboard/recruiter/diversity) monthly. Filter by client and by job. Look for the stage where representation drops fastest — that's where bias is entering. Once located, audit the screening tool (Chapter 17) or the interviewer (Panel Analysis below) responsible for that stage.
 
 This is the most important tool in the chapter. South African recruitment is shaped by Employment Equity legislation; your clients live or die by their EE scorecards; your agency's reputation depends on whether your pipelines are honestly representative or quietly discriminatory.
 
@@ -93,7 +93,7 @@ Your clients have EE plans with specific targets. The Diversity dashboard lets y
 
 **Why it matters.** Bias audits are a board-level concern that consultants currently bill quarterly to produce. Built-in auditing turns a quarterly panic into an ongoing practice — and gives you the documented evidence trail that protects you when an EE Act or CCMA challenge lands.
 
-**How to use it.** Runs automatically on every recorded interview. Open `/dashboard/recruiter/disagreements` weekly and review any flagged interview. Pair with the Diversity dashboard above when investigating a stage-level drop.
+**How to use it.** Runs automatically on every recorded interview. Open [https://www.sebenzahub.co.za/dashboard/recruiter/disagreements](https://www.sebenzahub.co.za/dashboard/recruiter/disagreements) weekly and review any flagged interview. Pair with the Diversity dashboard above when investigating a stage-level drop.
 
 ![[r-ch26-video-bias-audit-flags.png]]
 
@@ -103,7 +103,7 @@ Your clients have EE plans with specific targets. The Diversity dashboard lets y
 
 **Why it matters.** Bad interviewers produce bad hires regardless of candidate quality. Effectiveness scoring surfaces training needs and identifies which panel members to remove from hiring loops before they cost you placements.
 
-**How to use it.** Review the interviewer leaderboard in `/dashboard/recruiter/disagreements` quarterly. Coach the bottom quartile; consider removing the bottom 10% from active panels until they recalibrate.
+**How to use it.** Review the interviewer leaderboard in [https://www.sebenzahub.co.za/dashboard/recruiter/disagreements](https://www.sebenzahub.co.za/dashboard/recruiter/disagreements) quarterly. Coach the bottom quartile; consider removing the bottom 10% from active panels until they recalibrate.
 
 ![[r-ch26-interviewer-effectiveness-scoring.png]]
 
@@ -148,7 +148,7 @@ For every panel interview where multiple interviewers scored, Panel Analysis dis
 
 In South Africa, bias in screening and interviewing is not just an ethical issue — it's a legal one. The Employment Equity Act and the CCMA take patterns of discrimination seriously. An agency that can show, via documented Panel Analysis review, that it actively monitored and addressed bias is far more defensible than one that can't.
 
-## 3. AI Intelligence — `/dashboard/recruiter/candidate-summary`
+## 3. AI Intelligence — [https://www.sebenzahub.co.za/dashboard/recruiter/candidate-summary](https://www.sebenzahub.co.za/dashboard/recruiter/candidate-summary)
 
 AI Intelligence does two things that save real time:
 
@@ -180,7 +180,7 @@ These are insights you'd never spot manually because they require querying acros
 
 AI Intelligence is a sorting and surfacing aid, not a decision tool. The "skill gap detected" message is useful — it doesn't mean reject those candidates. The "engagement declining" message is useful — it doesn't mean give up on them. Use the alerts to direct your attention; don't outsource your judgment.
 
-## 4. Team DNA — `/dashboard/recruiter/team-dna`
+## 4. Team DNA — [https://www.sebenzahub.co.za/dashboard/recruiter/team-dna](https://www.sebenzahub.co.za/dashboard/recruiter/team-dna)
 
 ### Team DNA Profiler — _Tier: Premium_
 
@@ -206,7 +206,7 @@ Team DNA is the analytics view of your *team*, not your candidates or clients. I
 - **Performance reviews.** Team DNA gives you objective context for performance conversations — "your strength is closing, your weakness is sourcing" beats "you need to do better."
 - **Client matching.** When pitching for a new client, you can show which of your recruiters specialises in their sector — proof you've got the right person on it from day one.
 
-## 5. Engagement Score — `/dashboard/recruiter/engagement`
+## 5. Engagement Score — [https://www.sebenzahub.co.za/dashboard/recruiter/engagement](https://www.sebenzahub.co.za/dashboard/recruiter/engagement)
 
 The Engagement Score is a composite per-candidate metric showing how engaged each candidate is *with you*. It rolls up:
 

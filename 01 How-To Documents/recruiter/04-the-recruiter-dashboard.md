@@ -10,7 +10,7 @@ user-types: [recruiter]
 
 # Chapter 4 — The recruiter dashboard: Recruitment Path and Parallel Tracks
 
-You've just finished onboarding and landed on `/dashboard/recruiter/profile`. Before you start clicking around, take ten minutes to understand the dashboard layout. The recruiter side of Sebenza Hub has roughly 100 pages organised into an 8-step Recruitment Path and four Parallel Tracks — knowing how they're grouped will save you hours of hunting.
+You've just finished onboarding and landed on [https://www.sebenzahub.co.za/dashboard/recruiter/profile](https://www.sebenzahub.co.za/dashboard/recruiter/profile). Before you start clicking around, take ten minutes to understand the dashboard layout. The recruiter side of Sebenza Hub has roughly 100 pages organised into an 8-step Recruitment Path and four Parallel Tracks — knowing how they're grouped will save you hours of hunting.
 
 ![[r-ch04-dashboard-full-view.png]]
 
@@ -80,11 +80,11 @@ Two features are wired into the dashboard from day one — one tells you how you
 
 ### Billing & Usage Limits — _Tier: Free (all paying users)_
 
-**What this feature is.** Billing & Usage Limits shows your current plan, invoices, payment methods, and — most importantly — real-time consumption of every metered feature against your monthly cap. Everything commercial about your account lives at `/dashboard/recruiter/billing`.
+**What this feature is.** Billing & Usage Limits shows your current plan, invoices, payment methods, and — most importantly — real-time consumption of every metered feature against your monthly cap. Everything commercial about your account lives at [https://www.sebenzahub.co.za/dashboard/recruiter/billing](https://www.sebenzahub.co.za/dashboard/recruiter/billing).
 
 **Why it matters.** No one wants a surprise bill. Transparent usage-vs-limit tracking is what stops you from hitting a paywall in the middle of a sprint and what tells you when an upgrade would save money compared to credit top-ups. Chapter 4.5 explains the commercial model in detail; this is where you watch it.
 
-**How to use it.** Bookmark `/dashboard/recruiter/billing` from day one. Check the *Usage history* tab weekly during your first month so you learn which metered features you actually consume. The *Plan recommendation* card flags when your usage pattern suggests an upgrade.
+**How to use it.** Bookmark [https://www.sebenzahub.co.za/dashboard/recruiter/billing](https://www.sebenzahub.co.za/dashboard/recruiter/billing) from day one. Check the *Usage history* tab weekly during your first month so you learn which metered features you actually consume. The *Plan recommendation* card flags when your usage pattern suggests an upgrade.
 
 ![[r-ch04-billing-usage-page.png]]
 
@@ -98,7 +98,7 @@ The dashboard is also where you tell Sebenza Hub how to reach you when something
 
 **Why it matters.** Email is the baseline notification channel everyone expects. Free access ensures no recruiter misses a critical update — interview time, offer acceptance, client reply — just because of their plan tier.
 
-**How to use it.** Go to `/dashboard/recruiter/settings` → **Notifications** and toggle the event types you want emailed. Defaults are sensible; tighten or loosen per your inbox tolerance.
+**How to use it.** Open Settings: [https://www.sebenzahub.co.za/dashboard/recruiter/settings](https://www.sebenzahub.co.za/dashboard/recruiter/settings) → **Notifications** and toggle the event types you want emailed. Defaults are sensible; tighten or loosen per your inbox tolerance.
 
 ### SMS Notifications — _Tier: Standard_
 
@@ -122,11 +122,11 @@ The dashboard is also where you tell Sebenza Hub how to reach you when something
 
 Don't try to use everything. Here's the right order for your first half-hour:
 
-1. **Stay on `/profile` and fill in the rich agency profile basics** (5–10 minutes; you can perfect it later). Chapter 5 walks through this in detail. The reason this comes first: nothing else looks credible until your profile is complete.
-2. **Skip to `/clients` and add at least one client** (2 minutes). Even if you're a solo agency and your "client" is yourself for direct hires, the system needs at least one client before you can post a job that has commercial meaning. Chapter 8 covers this properly.
-3. **Go to `/jobs` and create a job draft** (5 minutes). Don't publish it yet — just see how the form works. Chapter 11 walks through this properly. Save as draft.
-4. **Open `/pipeline`** (2 minutes). It will be empty. That's fine. This is where you'll spend most of your daily time once candidates start flowing in. Chapter 16 explains the Kanban view.
-5. **Visit `/settings`** (5 minutes) and check who's listed as a team member, what notifications are on, and whether your time zone is correct.
+1. **Stay on Profile** — [https://www.sebenzahub.co.za/dashboard/recruiter/profile](https://www.sebenzahub.co.za/dashboard/recruiter/profile) — and fill in the rich agency profile basics (5–10 minutes; you can perfect it later). Chapter 5 walks through this in detail. The reason this comes first: nothing else looks credible until your profile is complete.
+2. **Skip to Clients** — [https://www.sebenzahub.co.za/dashboard/recruiter/clients](https://www.sebenzahub.co.za/dashboard/recruiter/clients) — and add at least one client (2 minutes). Even if you're a solo agency and your "client" is yourself for direct hires, the system needs at least one client before you can post a job that has commercial meaning. Chapter 8 covers this properly.
+3. **Go to Jobs** — [https://www.sebenzahub.co.za/dashboard/recruiter/jobs](https://www.sebenzahub.co.za/dashboard/recruiter/jobs) — and create a job draft (5 minutes). Don't publish it yet — just see how the form works. Chapter 11 walks through this properly. Save as draft.
+4. **Open Pipeline** — [https://www.sebenzahub.co.za/dashboard/recruiter/pipeline](https://www.sebenzahub.co.za/dashboard/recruiter/pipeline) — (2 minutes). It will be empty. That's fine. This is where you'll spend most of your daily time once candidates start flowing in. Chapter 16 explains the Kanban view.
+5. **Visit Settings** — [https://www.sebenzahub.co.za/dashboard/recruiter/settings](https://www.sebenzahub.co.za/dashboard/recruiter/settings) — (5 minutes) and check who's listed as a team member, what notifications are on, and whether your time zone is correct.
 
 That's it. Don't sign up for AI Search, don't import LinkedIn leads, don't run a WhatsApp campaign. None of that is useful until your profile, clients, and jobs are real.
 
@@ -150,7 +150,7 @@ Two practical effects:
 - [ ] You understand the path is linear (Steps 1–8) and the tracks are situational
 - [ ] You've spent your first 30 minutes on profile + client + job draft, not on shiny AI tools
 - [ ] You've checked Settings for time zone and notifications
-- [ ] You've bookmarked `/dashboard/recruiter/billing` → *Usage history*
+- [ ] You've bookmarked [https://www.sebenzahub.co.za/dashboard/recruiter/billing](https://www.sebenzahub.co.za/dashboard/recruiter/billing) → *Usage history*
 - [ ] You've configured at least Email Notifications (and SMS if you're on Standard or above)
 
 ## Features covered in this chapter

@@ -59,6 +59,30 @@
 - **Pages NOT touched** (zero nav refs to convert): ch01-what-sebenza-hub-is, ch24-mobile-app, individual/index.md.
 - **Still to sweep:** recruiter (34 chapters) and corporate (15 chapters), pending Wes's spot-check of this Individual pass.
 
+## [2026-04-27] sweep | Embed clickable URLs across the Recruiter manual (Pass 2 of 3)
+- Trigger: Wes approved continuing the per-persona sweep with the Recruiter manual after the Individual pass.
+- **Verified route map:** spawned a fresh Explore agent against the product codebase to enumerate every `/dashboard/recruiter/*` route — ~85 routes verified across the recruiter dashboard before editing. The recruiter side is by far the largest persona (10 sidebar groups, ~100 pages).
+- **Surprises worth knowing for the corporate sweep:**
+  - The recruiter "Clients" workflow has THREE separate pages: `/clients`, `/client-pipeline` (opportunities), and `/call-notes` (activity log) — they are not tabs.
+  - The offer lifecycle sprawls across 11 dedicated routes (`/offers`, `/offer-letters`, `/offer-templates`, `/offer-benchmarking`, `/offer-approvals`, `/offer-timeline`, `/offer-negotiation`, `/offer-compare`, `/offer-analytics`, `/offer-compliance`, `/offer-predictor`) — chapter 20 references most of them.
+  - WhatsApp has three recruiter-side routes (`/whatsapp-apply`, `/whatsapp-bot`, `/whatsapp-campaigns`); the deeper templates / opt-outs / quality / cost surface lives on the admin side and is not in the recruiter sidebar.
+  - Hiring Manager Portal exists at both `/hiring-manager` and `/hiring-manager-portal` (alternate alias).
+  - "Reference Checks" is its own page at `/reference-checks` (separate from the chapter 17 background-checks workflow).
+  - The Career-Site Chatbot (`/chatbot`) and the AI Screening Chatbot (used inside screening flows) are different products on different routes.
+- **Pages updated** (33 chapters with nav references; ch01 had none, ch32 had none, recruiter/index.md had none worth a URL):
+  - Part 1: ch02 (sign-up + login URLs), ch03 (3 refs), ch04 (table + 5 inline + 5 abbreviated paths in "first 30 minutes"), ch04.5 (6 refs all to billing — single replace_all)
+  - Part 2: ch05 (2 refs), ch06 (6 refs all to brand — single replace_all), ch07 (7 refs across 4 routes)
+  - Part 3: ch08 (2 refs), ch09 (1 ref), ch10 (3 refs)
+  - Part 4: ch11 (2 refs), ch12 (9 refs across 7 routes), ch13 (3 refs), ch14 (7 refs across 3 routes — replace_all per route)
+  - Part 5: ch15 (3 refs), ch16 (3 refs), ch17 (15 refs across 9 routes — densest table edit), ch18 (12 refs across 6 routes), ch19 (6 refs), ch20 (22 refs across 11 routes — densest chapter; mass replace_all per route), ch21 (9 refs)
+  - Parts 6-7: ch22 (4 refs), ch23 (11 refs across 4 routes), ch24 (7 refs across 3 routes), ch25 (13 refs across 8 routes), ch26 (11 refs across 5 routes)
+  - Parts 8-9: ch27 (5 refs across 2 routes), ch28 (14 refs across 4 routes), ch29 (9 refs across 4 routes), ch30 (12 refs across 4 routes)
+  - Parts 10-11: ch31 (5 refs across 4 routes), ch33 (2 refs), ch34 (7 refs across 4 routes)
+- **Format applied** (same as Individual pass): `[https://www.sebenzahub.co.za/dashboard/recruiter/route](https://www.sebenzahub.co.za/dashboard/recruiter/route)` — URL is both the link text and the href, visible and clickable.
+- **Verification:** post-sweep grep for `` `/dashboard/recruiter/` `` returned zero matches; cross-grep for abbreviated paths (e.g. `` `/profile` ``, `` `/clients` ``, `` `/jobs` ``) also zero. Layer 1 cross-site-leak grep still clean.
+- **Volume:** 235 path references converted across 33 chapters in one session, vs 92 across 22 chapters for Individual. Heavy use of `replace_all` per unique route in the dense chapters (ch17, ch20, ch28, ch30) made this feasible without per-edit reads of every reference.
+- **Still to sweep:** corporate (15 chapters) — the smallest persona, ready to start when Wes gives the go-ahead.
+
 ## [2026-04-25] sync | How-To refresh against the latest product code
 - Source: `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2` at `origin/main` (commits up to e8f086e)
 - Trigger: Wes asked for a How-To refresh — "CV Templates have changed completely; do the rest too."

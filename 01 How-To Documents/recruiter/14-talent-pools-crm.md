@@ -22,14 +22,14 @@ Before pools and CRM, there's the candidate record itself. Everything in this ch
 
 **Why it matters.** Candidate record management is table stakes. Making it free ensures recruiters actually store their work in Sebenza Hub instead of in emails and spreadsheets — which is what builds the data moat that pools, AI Search, and Talent Rediscovery all depend on.
 
-**How to use it.** Open `/dashboard/recruiter/candidates`. Every candidate has a profile page with their CV, parsed skills, applications, notes, tags, and activity history. Edit any field, add notes, apply tags. The pools and CRM features below all act on the records you maintain here.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/candidates](https://www.sebenzahub.co.za/dashboard/recruiter/candidates). Every candidate has a profile page with their CV, parsed skills, applications, notes, tags, and activity history. Edit any field, add notes, apply tags. The pools and CRM features below all act on the records you maintain here.
 
 ## The two halves of database management
 
 | Concept | Purpose | Page |
 |---|---|---|
-| **Talent Pools** | Segmentation. Group candidates by skill, sector, seniority, geography, or any combination. Pools are containers. | `/dashboard/recruiter/talent-pool` |
-| **Talent CRM** | Relationship tracking. Notes, history, status, last contact, communication log. CRM is per-candidate. | `/dashboard/recruiter/talent-crm` |
+| **Talent Pools** | Segmentation. Group candidates by skill, sector, seniority, geography, or any combination. Pools are containers. | [https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool](https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool) |
+| **Talent CRM** | Relationship tracking. Notes, history, status, last contact, communication log. CRM is per-candidate. | [https://www.sebenzahub.co.za/dashboard/recruiter/talent-crm](https://www.sebenzahub.co.za/dashboard/recruiter/talent-crm) |
 
 You'll use them together: a pool is a *list* of candidates that matches a criterion; the CRM is what you do *with* each candidate inside that list.
 
@@ -55,7 +55,7 @@ Pools are dynamic by default — they re-evaluate based on the criteria, so a ne
 
 ### Creating a pool
 
-1. Go to `/dashboard/recruiter/talent-pool`.
+1. Go to [https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool](https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool).
 2. Click **+ New pool**.
 3. Name the pool descriptively. "Senior Devs CPT" is fine; "Pool 1" is not.
 4. Define the criteria:
@@ -113,7 +113,7 @@ Manual tagging and manual pool curation become impossible past about 1,000 candi
 
 **Why it matters.** Manual pool organisation is essentially a full-time job at scale. AI clustering does it in seconds and discovers clusters humans miss — for example, "SA mid-market finance generalists with fintech exposure" might be a cluster of 47 highly-placeable candidates that no recruiter on your team had ever explicitly grouped.
 
-**How to use it.** Open `/dashboard/recruiter/talent-pool` and click **Discover clusters**. Review the suggested pools; accept the ones that look useful, dismiss the rest. Accepted clusters become regular pools you can name and pin.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool](https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool) and click **Discover clusters**. Review the suggested pools; accept the ones that look useful, dismiss the rest. Accepted clusters become regular pools you can name and pin.
 
 ![[r-ch14-talent-pool-clustering.png]]
 
@@ -129,7 +129,7 @@ Manual tagging and manual pool curation become impossible past about 1,000 candi
 
 ## Talent CRM
 
-Where Pools is segmentation, **Talent CRM** is relationship management. Open `/dashboard/recruiter/talent-crm` and you see a CRM-style view of your candidate database with:
+Where Pools is segmentation, **Talent CRM** is relationship management. Open [https://www.sebenzahub.co.za/dashboard/recruiter/talent-crm](https://www.sebenzahub.co.za/dashboard/recruiter/talent-crm) and you see a CRM-style view of your candidate database with:
 
 - **Activity timeline** per candidate — every interaction, message, status change, application
 - **Notes** — your private observations, never visible to the candidate
@@ -199,7 +199,7 @@ The platform has to handle both arrival (you've just signed up with 5,000 candid
 
 **How to use it.**
 
-1. Open `/dashboard/recruiter/candidates` → **Import**.
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/candidates](https://www.sebenzahub.co.za/dashboard/recruiter/candidates) → **Import**.
 2. Upload the CSV.
 3. Map your columns to Sebenza Hub fields (the platform suggests mappings; review and adjust).
 4. Run the dedupe check. Decide whether duplicates merge or skip.
