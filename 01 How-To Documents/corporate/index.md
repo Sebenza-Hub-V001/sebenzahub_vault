@@ -2,7 +2,7 @@
 title: "Corporate Training Manual"
 type: overview
 created: 2026-04-20
-updated: 2026-04-26
+updated: 2026-04-27
 tags: [how-to, corporate, index, business]
 status: active
 user-types: [business]
@@ -14,9 +14,17 @@ A complete guide for in-house enterprise hiring teams on Sebenza Hub. The manual
 
 > **Status:** 15 chapters covering the full Business surface, sequenced to match the dashboard's journey order.
 
+## ⚡ Start here (15 minutes)
+
+If the full manual feels overwhelming on day one, do this first:
+
+➡️ **[[01 How-To Documents/corporate/00-quick-start|Quick Start — 15 minutes to your first requisition draft]]**
+
+Three actions, fifteen minutes, your org goes from empty shell to real organisation with a real requisition. Then come back here when you're ready to operationalise SSO, RBAC, vendor management, HRIS sync, and EE reporting.
+
 ## How to use this guide
 
-- **Brand new corporate?** Start with Chapter 1. Plan on roughly two hours to read through Chapters 1–4 (set-up and trial), then a chapter a day as you actually use each part of the platform.
+- **Brand new corporate?** Run the **Quick Start** above. Then come back and work through Chapter 1. Plan on roughly two hours to read through Chapters 1–4 (set-up and trial), then a chapter a day as you actually use each part of the platform.
 - **Already onboarded?** Jump to Chapter 3 (organisation setup) or Chapter 5 (posting your first role).
 - **Worried about the trial running out?** Chapter 4.
 - **Running a requisition end-to-end?** Chapters 5–9: posting, applications, screening, interviewing, offers.

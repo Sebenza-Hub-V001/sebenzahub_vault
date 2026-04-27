@@ -1,5 +1,27 @@
 # Activity Log
 
+## [2026-04-27] new chapters | Per-persona Quick Start pages to fight day-one overwhelm
+- Trigger: Wes flagged that the platform feels overwhelming for new users — wanted "very basic getting started where you only need to do the bare minimal." Asked for honest opinion + suggestions, then approved doing all of them.
+- **New pages:**
+  - [[01 How-To Documents/individual/00-quick-start]] — 5 minutes to your first CV review (sign up → upload CV → run CV Review)
+  - [[01 How-To Documents/recruiter/00-quick-start]] — 10 minutes to your first job posted (sign up + profile basics → add 1 client → save 1 job draft)
+  - [[01 How-To Documents/corporate/00-quick-start]] — 15 minutes to your first requisition draft (sign up + branding → optionally invite teammate → save 1 requisition draft)
+  - [[17. Features/In-App Activation Checklist]] — proposed product feature: persistent dashboard checklist mirroring the same 3 actions per persona, with server-side state detection and per-action telemetry
+- **Index restructures** (each adds an "⚡ Start here" callout pointing to the persona Quick Start, before the existing "How to use this guide" block — no chapter list changes):
+  - [[01 How-To Documents/individual/index]]
+  - [[01 How-To Documents/recruiter/index]]
+  - [[01 How-To Documents/corporate/index]]
+- **Design principles baked into the chapters:**
+  - Exactly three actions per persona — minimum viable activation, not a tour.
+  - Each action lists the chapter to read later for the full version (so the quick-start doesn't compete with the full manual, it points at it).
+  - Explicit "Stop here" + "Don't" lists to prevent the "everything at once" trap.
+  - "What to do next" decision table so users can self-route to the next-most-useful chapter.
+- **Companion product recommendation** ([[17. Features/In-App Activation Checklist]]): the docs fix is the smaller half. The bigger lever is in-product — a persistent dashboard checklist that mirrors the three actions per persona, detects completion server-side from real user state (cv count, client count, job count), and generates structured activation telemetry. Filed as a feature spec sketch, not yet a build commitment.
+- Lint:
+  - **Layer 1** clean: zero `[[forbidden-folder/...]]` links inside `01 How-To Documents/`.
+  - **Layer 2** clean: the three quick-starts only reference concept/workflow pages already in the published transitive set (`02-concepts/compliance`, `03-workflows/individual-journey`, `recruiter-journey`, `business-journey`); no new pages added to the public surface.
+- Pages touched: 8 (3 new chapters, 1 new feature spec, 3 index updates, 1 root index update).
+
 ## [2026-04-25] sync | How-To refresh against the latest product code
 - Source: `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2` at `origin/main` (commits up to e8f086e)
 - Trigger: Wes asked for a How-To refresh — "CV Templates have changed completely; do the rest too."

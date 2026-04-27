@@ -2,14 +2,14 @@
 title: "Wiki Index"
 type: overview
 created: 2026-04-06
-updated: 2026-04-20
+updated: 2026-04-27
 tags: [index, navigation]
 status: active
 ---
 
 # Wiki Index
 
-> Last updated: 2026-04-20 | Pages: 86 | Sources: 15 (+11 raw docs) | Presentations: 0 | How-To's: 1 (in progress) | AI Features: 152 | Endpoints: 3,741 | Tables: 820 | Migrations: 37
+> Last updated: 2026-04-27 | Pages: 89 | Sources: 15 (+11 raw docs) | Presentations: 0 | How-To's: 3 manuals + 3 quick-starts | AI Features: 152 | Endpoints: 3,741 | Tables: 820 | Migrations: 37
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -85,7 +85,10 @@ status: active
 
 ## How-To's
 - [[01 How-To Documents/index]] — End-user how-to guides (one per user type)
-- [[01 How-To Documents/individual/index]] — Individual (job seeker) how-to — all 23 chapters drafted (Ch 20 partial, blocked on Autopilot open question)
+- [[01 How-To Documents/individual/index]] — Individual (job seeker) how-to — all 24 chapters drafted (Ch 20 partial, blocked on Autopilot open question), plus a 5-minute Quick Start
+- [[01 How-To Documents/individual/00-quick-start|Individual Quick Start]] — 5 minutes to your first CV review
+- [[01 How-To Documents/recruiter/00-quick-start|Recruiter Quick Start]] — 10 minutes to your first job posted
+- [[01 How-To Documents/corporate/00-quick-start|Corporate Quick Start]] — 15 minutes to your first requisition draft
 
 ## Standards
 - [[04-standards/sa-national-ai-policy]] — Draft SA National AI Policy (Gazette 54477, 2026) — risk-based AI classification, 6 principles, recruitment = HIGH risk

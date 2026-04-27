@@ -2,7 +2,7 @@
 title: "Individual Training Manual"
 type: overview
 created: 2026-04-09
-updated: 2026-04-20
+updated: 2026-04-27
 tags: [how-to, individual, job-seeker, training]
 status: active
 user-types: [individual]
@@ -12,11 +12,19 @@ user-types: [individual]
 
 A complete guide for job seekers on Sebenza Hub. Read Parts 1–4 in order if you're brand new. Use Parts 5–6 as references when you get stuck or want to go deeper.
 
-> **Status:** First complete draft. All 23 chapters have body content. Every catalogue feature (#1–85) has a dedicated block with its tier, a "What this feature is" paragraph, a "Why it matters" paragraph, and step-by-step instructions. Chapter 20 (Autopilot) is intentionally thinner — it captures the principles and cross-references the relevant apply-flow features, with operational specifics to follow.
+> **Status:** First complete draft. All 24 chapters have body content. Every catalogue feature (#1–85) has a dedicated block with its tier, a "What this feature is" paragraph, a "Why it matters" paragraph, and step-by-step instructions. Chapter 20 (Autopilot) is intentionally thinner — it captures the principles and cross-references the relevant apply-flow features, with operational specifics to follow.
+
+## ⚡ Start here (5 minutes)
+
+If the full manual feels overwhelming, do this first:
+
+➡️ **[[01 How-To Documents/individual/00-quick-start|Quick Start — 5 minutes to your first CV review]]**
+
+Three actions, five minutes, one real piece of feedback on your CV. Then come back here when you want to do more.
 
 ## How to use this guide
 
-- **First-time user?** Start with Chapter 1 and work through Part 4. Plan on roughly an hour to read, plus the time you spend doing each step in the platform alongside the chapter.
+- **First-time user?** Run the **Quick Start** above. Then come back and work through Chapters 1–16 in order. Plan on roughly an hour to read, plus the time you spend doing each step in the platform alongside the chapter.
 - **Already signed up?** Skip to Part 2 (build your profile) or Part 3 (apply to jobs).
 - **Stuck on something specific?** Jump to Part 5.
 - **Want to use power features?** Part 6 covers Autopilot, Career DNA, and Market Radar.

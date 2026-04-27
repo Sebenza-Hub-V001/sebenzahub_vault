@@ -2,7 +2,7 @@
 title: "Recruiter Training Manual"
 type: concept
 created: 2026-04-09
-updated: 2026-04-20
+updated: 2026-04-27
 tags: [how-to, recruiter, index]
 status: active
 user-types: [recruiter]
@@ -14,9 +14,17 @@ A complete guide for recruitment agencies on Sebenza Hub. Read Parts 1–5 in or
 
 > **Status:** First complete draft. All 34 chapters have body content. Every catalogue feature (#86–216) has a dedicated block with its tier, a "What this feature is" paragraph, a "Why it matters" paragraph, and step-by-step instructions. Chapter 17 (Screening tools) is the densest — 24 features grouped into 6 subsections.
 
+## ⚡ Start here (10 minutes)
+
+If 34 chapters and 100 dashboard pages feel overwhelming, do this first:
+
+➡️ **[[01 How-To Documents/recruiter/00-quick-start|Quick Start — 10 minutes to your first job posted]]**
+
+Three actions, ten minutes, your account goes from empty shell to real agency with a real job. Then come back here when you want to do recruitment well, not just at all.
+
 ## How to use this guide
 
-- **Brand new agency?** Start with Chapter 1. Plan on roughly two hours to read through Parts 1–5, plus the time you spend setting things up alongside each chapter.
+- **Brand new agency?** Run the **Quick Start** above. Then come back and work through Chapters 1–21 in order. Plan on roughly two hours to read through Parts 1–5, plus the time you spend setting things up alongside each chapter.
 - **Already onboarded?** Jump to Part 2 (Build Your Agency) or Part 3 (Win Clients).
 - **Stuck on something specific?** Part 10 has scenario-driven troubleshooting.
 - **Power user?** Part 11 covers Predictive Hiring, Rapid Workflow, and the route to Platinum trust tier.
