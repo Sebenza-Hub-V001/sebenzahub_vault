@@ -45,12 +45,11 @@
     "//16. Features",
     "//Tags",
     "//13-raw/13-raw/screenshots",
-    "//01 How-To Documents",
     "/",
     "//05-procedures",
-    "//01 How-To Documents/01 How-To Documents/recruiter",
     "//01 How-To Documents/01 How-To Documents/individual",
-    "//00 Welcome"
+    "//00 Welcome",
+    "//01 How-To Documents"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
