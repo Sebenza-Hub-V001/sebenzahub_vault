@@ -12,20 +12,12 @@ user-types: [individual]
 
 A complete guide for job seekers on Sebenza Hub. Read Parts 1–4 in order if you're brand new. Use Parts 5–6 as references when you get stuck or want to go deeper.
 
-> **Status:** First complete draft. All 24 chapters have body content. Every catalogue feature (#1–85) has a dedicated block with its tier, a "What this feature is" paragraph, a "Why it matters" paragraph, and step-by-step instructions. Chapter 20 (Autopilot) is intentionally thinner — it captures the principles and cross-references the relevant apply-flow features, with operational specifics to follow.
-
-## ⚡ Start here (5 minutes)
-
-If the full manual feels overwhelming, do this first:
-
-➡️ **[[01 How-To Documents/individual/00-quick-start|Quick Start — 5 minutes to your first CV review]]**
-
-Three actions, five minutes, one real piece of feedback on your CV. Then come back here when you want to do more.
+> **Status:** First complete draft. All 24 chapters plus a Quick Start (Chapter 3.5) have body content. Every catalogue feature (#1–85) has a dedicated block with its tier, a "What this feature is" paragraph, a "Why it matters" paragraph, and step-by-step instructions. Chapter 20 (Autopilot) is intentionally thinner — it captures the principles and cross-references the relevant apply-flow features, with operational specifics to follow.
 
 ## How to use this guide
 
-- **First-time user?** Run the **Quick Start** above. Then come back and work through Chapters 1–16 in order. Plan on roughly an hour to read, plus the time you spend doing each step in the platform alongside the chapter.
-- **Already signed up?** Skip to Part 2 (build your profile) or Part 3 (apply to jobs).
+- **First-time user?** Work through Part 1 in order — the Quick Start at Chapter 3.5 gets you doing real things on the dashboard within five minutes of finishing onboarding. Then carry on through Part 4. Plan on roughly an hour to read, plus the time you spend doing each step in the platform alongside the chapter.
+- **Already signed up and onboarded?** Skip straight to **[[01 How-To Documents/individual/03.5-quick-start|Chapter 3.5 — Quick Start]]** for the bare-minimum 5-minute path, or to Part 2 (build your profile) / Part 3 (apply to jobs) if you want to go deeper.
 - **Stuck on something specific?** Jump to Part 5.
 - **Want to use power features?** Part 6 covers Autopilot, Career DNA, and Market Radar.
 
@@ -38,6 +30,7 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 1. [[01 How-To Documents/individual/01-what-sebenza-hub-is|What Sebenza Hub is and who it's for]]
 2. [[01 How-To Documents/individual/02-creating-your-account|Creating your account]]
 3. [[01 How-To Documents/individual/03-onboarding|Onboarding: the 6 things you need to fill in]]
+3.5. ⚡ [[01 How-To Documents/individual/03.5-quick-start|Quick Start — your first 3 actions]]
 4. [[01 How-To Documents/individual/04-first-10-minutes|Your first 10 minutes on the dashboard]]
 
 ## Part 2 — Build Your Profile

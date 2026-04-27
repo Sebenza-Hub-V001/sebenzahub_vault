@@ -12,20 +12,12 @@ user-types: [recruiter]
 
 A complete guide for recruitment agencies on Sebenza Hub. Read Parts 1–5 in order if you're new — they walk you from signup to your first placement. Use Parts 6–11 as references when you need a specific tool or when something starts going wrong.
 
-> **Status:** First complete draft. All 34 chapters have body content. Every catalogue feature (#86–216) has a dedicated block with its tier, a "What this feature is" paragraph, a "Why it matters" paragraph, and step-by-step instructions. Chapter 17 (Screening tools) is the densest — 24 features grouped into 6 subsections.
-
-## ⚡ Start here (10 minutes)
-
-If 34 chapters and 100 dashboard pages feel overwhelming, do this first:
-
-➡️ **[[01 How-To Documents/recruiter/00-quick-start|Quick Start — 10 minutes to your first job posted]]**
-
-Three actions, ten minutes, your account goes from empty shell to real agency with a real job. Then come back here when you want to do recruitment well, not just at all.
+> **Status:** First complete draft. All 34 chapters plus a Quick Start (Chapter 3.5) have body content. Every catalogue feature (#86–216) has a dedicated block with its tier, a "What this feature is" paragraph, a "Why it matters" paragraph, and step-by-step instructions. Chapter 17 (Screening tools) is the densest — 24 features grouped into 6 subsections.
 
 ## How to use this guide
 
-- **Brand new agency?** Run the **Quick Start** above. Then come back and work through Chapters 1–21 in order. Plan on roughly two hours to read through Parts 1–5, plus the time you spend setting things up alongside each chapter.
-- **Already onboarded?** Jump to Part 2 (Build Your Agency) or Part 3 (Win Clients).
+- **Brand new agency?** Work through Part 1 in order — the Quick Start at Chapter 3.5 gets your account from "I just signed up" to "real agency with a real job in flight" in ten minutes. Then carry on through Parts 2–5. Plan on roughly two hours to read through, plus the time you spend setting things up alongside each chapter.
+- **Already onboarded?** Skip straight to **[[01 How-To Documents/recruiter/03.5-quick-start|Chapter 3.5 — Quick Start]]** for the bare-minimum 10-minute path, or jump to Part 2 (Build Your Agency) or Part 3 (Win Clients).
 - **Stuck on something specific?** Part 10 has scenario-driven troubleshooting.
 - **Power user?** Part 11 covers Predictive Hiring, Rapid Workflow, and the route to Platinum trust tier.
 
@@ -38,6 +30,7 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 1. [[01 How-To Documents/recruiter/01-what-sebenza-hub-is-for-recruiters|What Sebenza Hub is for recruiters]]
 2. [[01 How-To Documents/recruiter/02-creating-your-account|Creating your account]]
 3. [[01 How-To Documents/recruiter/03-agency-onboarding|Agency onboarding: setting up your organisation]]
+3.5. ⚡ [[01 How-To Documents/recruiter/03.5-quick-start|Quick Start — your first 3 actions]]
 4. [[01 How-To Documents/recruiter/04-the-recruiter-dashboard|The recruiter dashboard: Recruitment Path and Parallel Tracks]]
 4.5. [[01 How-To Documents/recruiter/04.5-how-we-charge|How Sebenza Hub charges you]]
 

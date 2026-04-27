@@ -111,6 +111,27 @@
 - Standing rule (saved as a feedback memory at the start of this sweep) now applies forward: every new how-to chapter must include the full clickable URL alongside any sidebar instruction. Future-me has the reminder; future Wes shouldn't have to give this feedback again.
 - Lint clean across all three manuals: zero forbidden-folder leaks, zero remaining bare-path references (excluding the two intentional parameterised route templates in corporate/ch15).
 
+## [2026-04-27] reposition | Quick Starts moved from before-Ch1 to between-Ch3-and-Ch4 (per Wes feedback)
+- Trigger: Wes pushed back on the Quick Start sitting before "What Sebenza Hub is" (Ch1). The original placement made the Quick Start the very first thing a reader saw, and the first action was "sign up" — which assumed nothing was set up. Wes wanted the Quick Start to come *after* onboarding (Ch3), so by the time a reader reaches it they've understood the platform, created an account, and completed onboarding. The Quick Start can then drop the setup steps and become a cleaner "now do your first 3 productive actions" speed-run.
+- **Files moved (per persona):**
+  - `01 How-To Documents/individual/00-quick-start.md` → `01 How-To Documents/individual/03.5-quick-start.md`
+  - `01 How-To Documents/recruiter/00-quick-start.md` → `01 How-To Documents/recruiter/03.5-quick-start.md`
+  - `01 How-To Documents/corporate/00-quick-start.md` → `01 How-To Documents/corporate/03.5-quick-start.md`
+- **Numbering choice:** `03.5` matches the existing `04.5-how-we-charge` pattern in the recruiter manual. Slots cleanly into Part 1 between Ch3 (onboarding/org-setup) and Ch4 (the dashboard tour), so the reading order is now: Ch1 → Ch2 → Ch3 → Ch3.5 (Quick Start) → Ch4 (deep dashboard tour) → rest of manual.
+- **Content reshape (each persona):**
+  - **Individual Ch3.5:** dropped step 1 ("sign up and pick Job Seeker") since both signup and onboarding are now done. New steps: 1) Upload a CV (was step 2); 2) Run CV Review (was step 3); 3) Glance at Auto Match (new — gives a baseline view of what jobs the platform thinks fit you).
+  - **Recruiter Ch3.5:** dropped step 1 ("sign up and fill in agency profile basics") since signup (Ch2) and agency onboarding (Ch3) are done. New steps: 1) Add one client (was step 2); 2) Save one job draft (was step 3); 3) Open and bookmark the Pipeline (new — the daily workspace for once candidates start flowing in).
+  - **Corporate Ch3.5:** the biggest reshape, because Ch3 (org setup) already covers team invites, RBAC, branding, and notifications — most of the original Quick Start's content was redundant. New steps: 1) Save one requisition draft (was step 3, lifted up); 2) Open and bookmark the Pipeline (new); 3) Bookmark Billing with a day-23 trial reminder (new — the platform's biggest avoidable mistake is letting the trial expire mid-evaluation without finance noticing).
+- **Index updates (each persona's `index.md`):**
+  - Removed the `⚡ Start here (5/10/15 min)` callout block at the top of the manual — that callout made sense when the Quick Start was the very first chapter, but it's now superseded by the chapter being inline at 3.5.
+  - Added the Quick Start as a `3.5. ⚡ ...` entry inside Part 1, between Ch3 and Ch4.
+  - Reworded the "How to use this guide" bullets to reflect the new path: first-time users follow Part 1 in order (which now includes the Quick Start at 3.5); already-onboarded users can jump straight to Ch3.5 for the bare-minimum 5/10/10-minute path.
+- **Other touches:**
+  - Root `index.md` How-To's section updated to point at the new paths and reflect the new framing ("your first 3 actions after onboarding" instead of "X minutes to your first Y").
+  - `17. Features/In-App Activation Checklist.md` (the product feature spec) updated: file refs now point at `03.5-quick-start`, the persona action lists updated to match the reshaped chapters, narrative reframed as "post-onboarding path" instead of "day-one path".
+  - Log entries from the original 2026-04-27 sweep stay as-is — they're append-only history. Future readers see this entry and understand the supersession.
+- **Lint:** Layer 1 still clean across the whole `01 How-To Documents/` tree after the rename.
+
 ## [2026-04-25] sync | How-To refresh against the latest product code
 - Source: `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2` at `origin/main` (commits up to e8f086e)
 - Trigger: Wes asked for a How-To refresh — "CV Templates have changed completely; do the rest too."

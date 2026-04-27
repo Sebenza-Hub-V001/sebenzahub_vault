@@ -1,6 +1,6 @@
 ## Context
 
-Founders observed that new users find the platform overwhelming: 24 chapters / ~85 features for Individuals, 34 chapters / 100+ pages for Recruiters, 15 chapters / multi-stakeholder enterprise setup for Corporates. The wiki side has been addressed with three "Quick Start" pages (`00-quick-start.md` per persona) that reduce the day-one path to three concrete actions.
+Founders observed that new users find the platform overwhelming: 24 chapters / ~85 features for Individuals, 34 chapters / 100+ pages for Recruiters, 15 chapters / multi-stakeholder enterprise setup for Corporates. The wiki side has been addressed with three "Quick Start" pages (`03.5-quick-start.md` per persona — sitting between onboarding and the dashboard tour) that reduce the post-onboarding path to three concrete actions.
 
 The wiki fix is the smaller half. The bigger lever is **inside the product itself**: a persistent, dismissable activation checklist on the dashboard that mirrors the same three actions and tracks completion in real time. Docs help users who came looking for help; the in-app checklist catches the much larger group who never read docs and would otherwise click around blindly until they bounce.
 
@@ -12,9 +12,9 @@ A persistent component on the dashboard (top-right of the main content area, or 
 
 The list is **per persona**, not universal:
 
-- **Individual:** 1) Upload a CV. 2) Run CV Review. 3) View your match score on at least one job.
-- **Recruiter:** 1) Fill in agency profile basics. 2) Add one client. 3) Save one job draft.
-- **Corporate:** 1) Add company logo and brand colour. 2) Save one requisition draft. 3) (Optional) Invite one teammate.
+- **Individual:** 1) Upload a CV. 2) Run CV Review. 3) Glance at Auto Match.
+- **Recruiter:** 1) Add one client. 2) Save one job draft. 3) Open the Pipeline.
+- **Corporate:** 1) Save one requisition draft. 2) Open the Pipeline. 3) Bookmark Billing (with day-23 trial reminder).
 
 Each item links directly to the page where the action happens, so the checklist is itself the navigation.
 
@@ -53,9 +53,9 @@ The checklist is the persistent nudge. The complement is **active empty-state CT
 ## References
 
 - Wiki quick-start chapters that this would mirror in-product:
-  - [[01 How-To Documents/individual/00-quick-start]]
-  - [[01 How-To Documents/recruiter/00-quick-start]]
-  - [[01 How-To Documents/corporate/00-quick-start]]
+  - [[01 How-To Documents/individual/03.5-quick-start]]
+  - [[01 How-To Documents/recruiter/03.5-quick-start]]
+  - [[01 How-To Documents/corporate/03.5-quick-start]]
 - Source spines for the journeys the checklist front-loads:
   - [[03-workflows/individual-journey]]
   - [[03-workflows/recruiter-journey]]

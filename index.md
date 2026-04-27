@@ -86,9 +86,9 @@ status: active
 ## How-To's
 - [[01 How-To Documents/index]] — End-user how-to guides (one per user type)
 - [[01 How-To Documents/individual/index]] — Individual (job seeker) how-to — all 24 chapters drafted (Ch 20 partial, blocked on Autopilot open question), plus a 5-minute Quick Start
-- [[01 How-To Documents/individual/00-quick-start|Individual Quick Start]] — 5 minutes to your first CV review
-- [[01 How-To Documents/recruiter/00-quick-start|Recruiter Quick Start]] — 10 minutes to your first job posted
-- [[01 How-To Documents/corporate/00-quick-start|Corporate Quick Start]] — 15 minutes to your first requisition draft
+- [[01 How-To Documents/individual/03.5-quick-start|Individual Quick Start (Ch 3.5)]] — your first 3 actions after onboarding
+- [[01 How-To Documents/recruiter/03.5-quick-start|Recruiter Quick Start (Ch 3.5)]] — your first 3 actions after agency onboarding
+- [[01 How-To Documents/corporate/03.5-quick-start|Corporate Quick Start (Ch 3.5)]] — your first 3 actions after org setup
 
 ## Standards
 - [[04-standards/sa-national-ai-policy]] — Draft SA National AI Policy (Gazette 54477, 2026) — risk-based AI classification, 6 principles, recruitment = HIGH risk

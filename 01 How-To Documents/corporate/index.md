@@ -12,20 +12,12 @@ user-types: [business]
 
 A complete guide for in-house enterprise hiring teams on Sebenza Hub. The manual mirrors the order you encounter features in the Business dashboard sidebar — read it front-to-back the first time, then dip back in by chapter for the parts you reach for at specific moments.
 
-> **Status:** 15 chapters covering the full Business surface, sequenced to match the dashboard's journey order.
-
-## ⚡ Start here (15 minutes)
-
-If the full manual feels overwhelming on day one, do this first:
-
-➡️ **[[01 How-To Documents/corporate/00-quick-start|Quick Start — 15 minutes to your first requisition draft]]**
-
-Three actions, fifteen minutes, your org goes from empty shell to real organisation with a real requisition. Then come back here when you're ready to operationalise SSO, RBAC, vendor management, HRIS sync, and EE reporting.
+> **Status:** 15 chapters plus a Quick Start (Chapter 3.5) covering the full Business surface, sequenced to match the dashboard's journey order.
 
 ## How to use this guide
 
-- **Brand new corporate?** Run the **Quick Start** above. Then come back and work through Chapter 1. Plan on roughly two hours to read through Chapters 1–4 (set-up and trial), then a chapter a day as you actually use each part of the platform.
-- **Already onboarded?** Jump to Chapter 3 (organisation setup) or Chapter 5 (posting your first role).
+- **Brand new corporate?** Work through Part 1 in order — the Quick Start at Chapter 3.5 gets your first requisition into the system within ten minutes of finishing organisation setup. Then carry on through Chapter 4 (trial and billing) and the rest of the manual. Plan on roughly two hours to read through Chapters 1–4, then a chapter a day as you actually use each part of the platform.
+- **Already onboarded?** Skip straight to **[[01 How-To Documents/corporate/03.5-quick-start|Chapter 3.5 — Quick Start]]** for the bare-minimum 10-minute path, or jump to Chapter 3 (organisation setup) or Chapter 5 (posting your first role).
 - **Worried about the trial running out?** Chapter 4.
 - **Running a requisition end-to-end?** Chapters 5–9: posting, applications, screening, interviewing, offers.
 - **Managing external recruitment agencies and active sourcing?** Chapter 10.
@@ -44,6 +36,7 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 1. [[01 How-To Documents/corporate/01-what-sebenza-hub-is-for-corporates|What Sebenza Hub is for corporates]]
 2. [[01 How-To Documents/corporate/02-creating-your-account|Creating your account]]
 3. [[01 How-To Documents/corporate/03-setting-up-your-org|Setting up your organisation: team, RBAC, SSO, branding, notifications]]
+3.5. ⚡ [[01 How-To Documents/corporate/03.5-quick-start|Quick Start — your first 3 actions]]
 4. [[01 How-To Documents/corporate/04-trial-and-billing-lifecycle|Trial and billing lifecycle]]
 
 ## Part 2 — The Hiring Journey
