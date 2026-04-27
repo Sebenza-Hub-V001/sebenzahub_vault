@@ -22,6 +22,43 @@
   - **Layer 2** clean: the three quick-starts only reference concept/workflow pages already in the published transitive set (`02-concepts/compliance`, `03-workflows/individual-journey`, `recruiter-journey`, `business-journey`); no new pages added to the public surface.
 - Pages touched: 8 (3 new chapters, 1 new feature spec, 3 index updates, 1 root index update).
 
+## [2026-04-27] feedback | Embed full clickable production URLs in how-tos
+- Trigger: Wes (founder) flagged that he himself finds it difficult to navigate Sebenza Hub. Sidebar instructions like "click **My CVs**" assume the reader can find the sidebar entry — they often can't. He wants every navigation reference to include the full clickable URL using the production domain `https://www.sebenzahub.co.za`.
+- **Standing rule going forward** (saved as a feedback memory): every how-to chapter that tells a reader to navigate to a page must embed the full URL as a clickable link, with the URL itself as the link text so it's both visible and clickable. Sidebar instructions stay (they teach the layout), but they accompany the URL, not replace it.
+- **Format adopted:** `Open **My CVs** — click it in the sidebar, or go directly to: [https://www.sebenzahub.co.za/dashboard/individual/cvs](https://www.sebenzahub.co.za/dashboard/individual/cvs)`
+- **Verified production routes** (grepped from the React Router config in `Sebenza_Hub_Claude_V2`):
+  - Sign-up: `/get-started`
+  - Login: `/login`
+  - Individual: `/dashboard/individual/profile`, `/dashboard/individual/cvs`, `/dashboard/individual/cv-review`
+  - Recruiter: `/dashboard/recruiter/profile`, `/dashboard/recruiter/clients`, `/dashboard/recruiter/jobs`
+  - Business: `/dashboard/business/home`, `/dashboard/business/team`, `/dashboard/business/settings`, `/dashboard/business/jobs`, `/dashboard/business/billing`
+- **Pages updated** with verified clickable URLs in every navigation reference:
+  - [[01 How-To Documents/individual/00-quick-start]]
+  - [[01 How-To Documents/recruiter/00-quick-start]]
+  - [[01 How-To Documents/corporate/00-quick-start]]
+- **Not yet swept:** the existing 73 how-to chapters across individual / recruiter / corporate. They still use sidebar-only or bare-path references. This is a deliberate scope hold pending Wes's confirmation — the sweep is mechanical but large, and worth a single dedicated session.
+- Lint: Layer 1 still clean after edits — external `https://` links don't trip the cross-site-leak grep.
+
+## [2026-04-27] sweep | Embed clickable URLs across the Individual manual (Pass 1 of 3)
+- Trigger: Wes approved a per-persona sweep ("one pass per persona"). This is the Individual pass; recruiter and corporate to follow on his sign-off.
+- **Verified route map:** spawned an Explore agent against the product codebase to enumerate every `/dashboard/individual/*` route in the React Router config — 50+ routes verified before editing. No invented URLs. Full map is in the agent's response (saved as conversation context).
+- **Surprises worth knowing for the recruiter/corporate sweeps:**
+  - Career DNA, Autopilot, and Market Radar are **tabs inside `/dashboard/individual/settings`**, not their own routes — chapters that link to them should send the user to Settings and name the tab.
+  - SETA Learnerships is at `/dashboard/individual/learning` (the route name doesn't match the page title).
+  - "Learning Hub" is at `/dashboard/individual/learning-hub` (separate from the SETA page above).
+  - Resume Upload has its own route `/dashboard/individual/resume-upload` even though it isn't in the main sidebar.
+- **Pages updated** (22 chapters with nav references; ch01 and ch24 had none worth a URL):
+  - Part 1: ch02 (sign-up + login URLs), ch03 (post-onboarding redirect), ch04 (sidebar tour table — 7 routes + 2 inline)
+  - Part 2: ch05 (5 refs), ch06 (2 refs), ch07 (6 refs), ch08 (1 ref)
+  - Part 3: ch09 (table of 3 routes + 2 inline), ch10 (2 refs), ch11 (2 refs), ch12 (3 refs), ch13 (table of 3 routes + 4 inline + 2 section headings)
+  - Part 4: ch14 (table of 5 routes + 3 inline), ch15 (4 refs), ch16 (5 refs)
+  - Part 5: ch17 (7 refs — 4 of them via `replace_all` on the repeated `(\`/dashboard/individual/coaching\`)` pattern), ch18 (5 refs), ch19 (6 refs)
+  - Part 6: ch20 (1 ref), ch21 (5 refs), ch22 (1 ref), ch23 (table of 7 routes + 4 inline)
+- **Format adopted across the sweep:** `Open **PageName**: [https://www.sebenzahub.co.za/dashboard/individual/route](https://www.sebenzahub.co.za/dashboard/individual/route)` — the URL is both visible (so it can be copy-pasted, and so the reader sees where they're being sent) and clickable. For tables, the route column header was renamed to "Open it" with one URL per row in the same shape. Sidebar-instruction prose is preserved alongside the URL where it adds value.
+- **Verification:** post-sweep grep for `` `/dashboard/individual/` `` returned zero matches — every dashboard reference is now a clickable production URL. Cross-grep against all forbidden internal-only folder links also returned zero (Layer 1 still clean).
+- **Pages NOT touched** (zero nav refs to convert): ch01-what-sebenza-hub-is, ch24-mobile-app, individual/index.md.
+- **Still to sweep:** recruiter (34 chapters) and corporate (15 chapters), pending Wes's spot-check of this Individual pass.
+
 ## [2026-04-25] sync | How-To refresh against the latest product code
 - Source: `C:\Users\User\Desktop\Sebenza_Hub_Claude\Sebenza_Hub_Claude_V2` at `origin/main` (commits up to e8f086e)
 - Trigger: Wes asked for a How-To refresh — "CV Templates have changed completely; do the rest too."

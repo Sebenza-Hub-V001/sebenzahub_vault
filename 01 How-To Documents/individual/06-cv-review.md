@@ -53,7 +53,7 @@ A **History** tab tracks every review run so you can see your score climb over t
 
 **How to use it.**
 
-1. Go to **CV Review** (`/dashboard/individual/cv-review`).
+1. Open **CV Review**: [https://www.sebenzahub.co.za/dashboard/individual/cv-review](https://www.sebenzahub.co.za/dashboard/individual/cv-review)
 2. Pick the CV you want reviewed from the dropdown. If you have more than one CV from Chapter 5, start with your default.
 
 ![[i-ch06-cv-review-select-dialog.png]]
@@ -113,7 +113,7 @@ The bullet-quantification step is the one most people fumble. There's a separate
 **How to use it.**
 
 1. The fastest path is the **Before/After** tab in CV Review — it pre-loads the bullets it identified as weak and proposes rewrites side-by-side. Pick the rewrites you like, copy them out.
-2. For one-off bullets, open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Bullet Transformer** tab. Paste the weak bullet, add any extra context the AI doesn't have (the actual numbers, the team size, the specific outcome). The more truth you give it, the better the rewrite.
+2. For one-off bullets, open **Coaching**: [https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching) — and switch to the **Bullet Transformer** tab. Paste the weak bullet, add any extra context the AI doesn't have (the actual numbers, the team size, the specific outcome). The more truth you give it, the better the rewrite.
 3. Pick from the suggested rewrites, or use one as a starting point and edit. Paste the final version into your CV in My CVs.
 4. Repeat for every weak bullet in the same review pass — don't switch contexts back and forth.
 

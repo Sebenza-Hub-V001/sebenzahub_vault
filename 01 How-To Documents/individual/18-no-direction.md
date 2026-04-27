@@ -31,18 +31,18 @@ All of these are real. None of them are "you should already know."
 
 ## The four tools that actually help
 
-Sebenza Hub has four features that, used in sequence, can move you from drift to direction. Three of them are tabs inside **Coaching** (`/dashboard/individual/coaching`); the fourth — Career Path Mapping — is its own page:
+Sebenza Hub has four features that, used in sequence, can move you from drift to direction. Three of them are tabs inside **Coaching** ([https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching)); the fourth — Career Path Mapping — is its own page:
 
 1. **Career Coach** (Coaching tab) — structured conversation to surface what you actually want
 2. **Career Story** (Coaching tab) — turns the fragments of your past into one coherent narrative
-3. **Career Path Mapping** (`/dashboard/individual/career-path`) — projects where that narrative could plausibly go next
+3. **Career Path Mapping** ([https://www.sebenzahub.co.za/dashboard/individual/career-path](https://www.sebenzahub.co.za/dashboard/individual/career-path)) — projects where that narrative could plausibly go next
 4. **Job Search** (Coaching tab) — converts the chosen direction into a concrete 30/60/90 plan
 
 Use them in roughly this order. None of them gives you a single answer; together they narrow the field enough to make a decision.
 
 ## Tool 1 — Career Coach (start here)
 
-Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Career Coach** tab. This is the most important tool in this chapter, and people skip it because it feels too soft. Use it first — the other three tools are sharper once coaching has surfaced what you actually want.
+Open **Coaching** ([https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching)) and switch to the **Career Coach** tab. This is the most important tool in this chapter, and people skip it because it feels too soft. Use it first — the other three tools are sharper once coaching has surfaced what you actually want.
 
 ### Career Coach — _Tier: see Pricing_
 
@@ -96,7 +96,7 @@ Now that you have a story, look at where it can plausibly go.
 
 **How to use it.**
 
-1. Open **Career Path** (`/dashboard/individual/career-path`).
+1. Open **Career Path**: [https://www.sebenzahub.co.za/dashboard/individual/career-path](https://www.sebenzahub.co.za/dashboard/individual/career-path)
 
 ![[i-ch18-career-path-map.png]]
 

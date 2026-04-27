@@ -22,9 +22,11 @@ If you only ever do these three things, your account is technically functional. 
 
 ### 1. Sign up and fill in agency profile basics (4 minutes)
 
-Sign up and pick **Recruiter** as your role. You'll land on `/dashboard/recruiter/profile`.
+Open the sign-up page: [https://www.sebenzahub.co.za/get-started](https://www.sebenzahub.co.za/get-started)
 
-Fill in only the basics on the profile page:
+Pick **Recruiter** as your role. After signup you'll land on your agency profile: [https://www.sebenzahub.co.za/dashboard/recruiter/profile](https://www.sebenzahub.co.za/dashboard/recruiter/profile)
+
+Fill in only the basics:
 
 - Agency name
 - Logo (drag in any image — you can replace it later)
@@ -37,9 +39,11 @@ That's enough to look credible. The full rich-profile walkthrough — DNA Card, 
 
 ### 2. Add at least one client (2 minutes)
 
-Click **Clients** in the sidebar → **Add Client**.
+Open the Clients page: [https://www.sebenzahub.co.za/dashboard/recruiter/clients](https://www.sebenzahub.co.za/dashboard/recruiter/clients)
 
-Enter:
+(Or click **Clients** in the sidebar.)
+
+Click **Add Client** and enter:
 
 - Client company name
 - One contact person and their email
@@ -51,9 +55,11 @@ The full client-management workflow — engagement terms, fee structures, contra
 
 ### 3. Create one job draft (4 minutes)
 
-Click **Post Jobs** in the sidebar → **New Job**.
+Open the Jobs page: [https://www.sebenzahub.co.za/dashboard/recruiter/jobs](https://www.sebenzahub.co.za/dashboard/recruiter/jobs)
 
-Pick the client you just added, give the job a title, paste in any job description (or use the AI JD Writer button if you'd rather see what it does), pick a location, and **save as draft**. Don't publish it yet.
+(Or click **Post Jobs** in the sidebar.)
+
+Click **New Job**. Pick the client you just added, give the job a title, paste in any job description (or use the AI JD Writer button if you'd rather see what it does), pick a location, and **save as draft**. Don't publish it yet.
 
 That's it — your account now has a real shape. The full job-posting flow with AI JD Writer, screening criteria, and distribution is in [[01 How-To Documents/recruiter/11-posting-a-job|Chapter 11]].
 

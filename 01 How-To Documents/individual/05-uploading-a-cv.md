@@ -24,7 +24,7 @@ Everything in this chapter writes into your Profile — the core record Sebenza 
 
 **Why it matters.** Without a complete profile, nothing else on the platform works. Recruiters can't find you. The AI has nothing to reason over. Applications go out half-filled. This is why profile editing is free on every plan — the cost of a half-complete profile is borne by you in missed roles, not by Sebenza Hub.
 
-**How to use it.** You already filled in the basics during onboarding (Chapter 3). You'll revisit `/dashboard/individual/profile` throughout your time on the platform — whenever you change phone number, move cities, finish a qualification, or shift what kind of role you're chasing. For this chapter you don't need to do anything in Profile directly — uploading a CV (and confirming the overwrite prompt) populates most of what's missing automatically.
+**How to use it.** You already filled in the basics during onboarding (Chapter 3). You'll revisit your Profile at [https://www.sebenzahub.co.za/dashboard/individual/profile](https://www.sebenzahub.co.za/dashboard/individual/profile) throughout your time on the platform — whenever you change phone number, move cities, finish a qualification, or shift what kind of role you're chasing. For this chapter you don't need to do anything in Profile directly — uploading a CV (and confirming the overwrite prompt) populates most of what's missing automatically.
 
 ## Decide which route you're on
 
@@ -49,7 +49,7 @@ Both routes take 10–20 minutes. The build route takes longer but produces a mo
 
 **How to use it.**
 
-1. Go to **Resume Upload** (`/dashboard/individual/resume-upload`).
+1. Open **Resume Upload**: [https://www.sebenzahub.co.za/dashboard/individual/resume-upload](https://www.sebenzahub.co.za/dashboard/individual/resume-upload)
 2. Click **Upload New Resume**. Before the file picker opens, the platform asks: *"Replace profile information?"* This is important — read the next paragraph before answering.
 3. Drag and drop your CV file, or click to browse. PDF, DOC and DOCX formats are supported.
 
@@ -100,18 +100,18 @@ If you uploaded a CV months ago and the parsing was poor, the simplest fix is to
 
 ### CV Creation & Editing — _Tier: see Pricing_
 
-**What this feature is.** The in-app CV Builder is two surfaces working in lockstep. **My CVs** (`/dashboard/individual/cvs`) is where the *content* lives — sections, bullets, dates, skills. **CV Builder** (`/dashboard/individual/cv-templates`) is where the *look* lives — template, layout, accent colours, fonts, density, export. Content stays in sync between the two: edit a bullet in My CVs and it appears in the Builder preview immediately.
+**What this feature is.** The in-app CV Builder is two surfaces working in lockstep. **My CVs** ([https://www.sebenzahub.co.za/dashboard/individual/cvs](https://www.sebenzahub.co.za/dashboard/individual/cvs)) is where the *content* lives — sections, bullets, dates, skills. **CV Builder** ([https://www.sebenzahub.co.za/dashboard/individual/cv-templates](https://www.sebenzahub.co.za/dashboard/individual/cv-templates)) is where the *look* lives — template, layout, accent colours, fonts, density, export. Content stays in sync between the two: edit a bullet in My CVs and it appears in the Builder preview immediately.
 
 **Why it matters.** Serious job seekers apply to 20–50 roles with different emphasis — a generalist CV underperforms a tailored one every time. The Free tier gives you one CV because that's all a casual visitor needs. The moment you find yourself rewriting your CV for a specific role, you've hit the natural upgrade trigger — Standard unlocks 5 versions, Premium goes unlimited.
 
 **How to use it.**
 
-1. Create the CV in **My CVs** (`/dashboard/individual/cvs`). Click **New CV** and fill in the wizard — personal details, summary, work history, education, skills, certifications, languages, references. Most fields will already be pre-populated from onboarding and (if you uploaded a CV) from the parser. You're filling in the gaps.
+1. Create the CV in **My CVs**: [https://www.sebenzahub.co.za/dashboard/individual/cvs](https://www.sebenzahub.co.za/dashboard/individual/cvs). Click **New CV** and fill in the wizard — personal details, summary, work history, education, skills, certifications, languages, references. Most fields will already be pre-populated from onboarding and (if you uploaded a CV) from the parser. You're filling in the gaps.
 
 ![[ch05-cv-builder-personal-info.png]]
 
 2. Save. The new CV appears as a card on the My CVs grid alongside any others.
-3. Open the **CV Builder** (`/dashboard/individual/cv-templates`) to design the look. The Builder has four tabs across the top:
+3. Open the **CV Builder**: [https://www.sebenzahub.co.za/dashboard/individual/cv-templates](https://www.sebenzahub.co.za/dashboard/individual/cv-templates) — to design the look. The Builder has four tabs across the top:
    - **Gallery** — 5 polished templates (described below)
    - **Signatures** — 10 role-native layouts (described below)
    - **Content** — reorder sections, hide sections, control which fields are visible

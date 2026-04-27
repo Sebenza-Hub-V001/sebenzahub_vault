@@ -23,7 +23,7 @@ Both are under your control. The defaults are sensible but worth reviewing rathe
 
 ## Profile visibility: public vs private
 
-You set this during onboarding. To change it now, go to **Settings** (`/dashboard/individual/settings`) and find Profile Visibility.
+You set this during onboarding. To change it now, open **Settings**: [https://www.sebenzahub.co.za/dashboard/individual/settings](https://www.sebenzahub.co.za/dashboard/individual/settings) — and find Profile Visibility.
 
 ![[i-ch08-popia-consent-toggles.png]]
 

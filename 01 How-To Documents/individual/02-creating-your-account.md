@@ -19,7 +19,11 @@ This chapter walks you through your first sign-up. It takes about two minutes, a
 
 ## Step 1 — Open the sign-up page
 
-Go to **sebenzahub.co.za** and click **Get Started** (or **Log In** — both routes lead to the same magic-link form for new users). The page asks for one thing: your email address.
+Open the sign-up page directly: [https://www.sebenzahub.co.za/get-started](https://www.sebenzahub.co.za/get-started)
+
+(Or visit [https://www.sebenzahub.co.za](https://www.sebenzahub.co.za) and click **Get Started** — both routes lead to the same magic-link form for new users. **Log In** at [https://www.sebenzahub.co.za/login](https://www.sebenzahub.co.za/login) also works the same way for new users.)
+
+The page asks for one thing: your email address.
 
 Use an email you'll keep checking. You'll get application updates, interview invitations, and reminders here, so a working personal email is much better than a temporary or shared one.
 
@@ -50,7 +54,7 @@ Open the email and click the magic link. This will:
 
 The first time you do this, you'll be redirected to **/onboarding** because Sebenza Hub doesn't know who you are yet. That's covered in [[01 How-To Documents/individual/03-onboarding|Chapter 3]].
 
-> **If you click the link and get an "expired token" error**, it means either the 15 minutes ran out or the link has already been used. Go back to /login and request a fresh one — there's nothing wrong with your account.
+> **If you click the link and get an "expired token" error**, it means either the 15 minutes ran out or the link has already been used. Go back to [https://www.sebenzahub.co.za/login](https://www.sebenzahub.co.za/login) and request a fresh one — there's nothing wrong with your account.
 
 ## Step 4 — Stay signed in
 

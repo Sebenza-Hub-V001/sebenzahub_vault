@@ -89,7 +89,9 @@ If anything in the consent text is unclear, read it before you tick. Don't tick 
 
 ## Step 4 — Submit
 
-When you click submit, Sebenza Hub saves your profile and redirects you to **/dashboard/individual/profile**. That's your new home base. Chapter 4 walks you through it.
+When you click submit, Sebenza Hub saves your profile and redirects you to your dashboard: [https://www.sebenzahub.co.za/dashboard/individual/profile](https://www.sebenzahub.co.za/dashboard/individual/profile)
+
+That's your new home base. Chapter 4 walks you through it.
 
 ## What happens if you make a mistake
 

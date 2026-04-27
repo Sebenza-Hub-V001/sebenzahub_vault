@@ -69,7 +69,7 @@ That's normal. It's expected. Use the time.
 
 ## Step 3 — Compare against the market
 
-Open **Salary Insights** (`/dashboard/individual/salary-insights`) and look up the role + experience level + location. The platform shows market salary data — typical ranges, percentile breakdowns, and how this offer compares. The full walk-through of Salary Insights is in Chapter 16; for now, what matters is that you have a market number to compare against.
+Open **Salary Insights**: [https://www.sebenzahub.co.za/dashboard/individual/salary-insights](https://www.sebenzahub.co.za/dashboard/individual/salary-insights) — and look up the role + experience level + location. The platform shows market salary data — typical ranges, percentile breakdowns, and how this offer compares. The full walk-through of Salary Insights is in Chapter 16; for now, what matters is that you have a market number to compare against.
 
 If the base salary is at or above the 75th percentile for your role and location, you're being treated well. If it's at the 25th percentile or below, there's room to negotiate (or to walk).
 
@@ -105,7 +105,7 @@ Negotiate if:
 
 **Don't negotiate just for the sake of it.** Negotiation is a real conversation, not a formality. If the offer is genuinely fair and you're going to accept either way, just accept.
 
-If you do decide to negotiate, the **Salary Negotiator** (`/dashboard/individual/salary-negotiator`) is where the structured prep lives. It's a single page with multiple tabs that handle different parts of the negotiation, in roughly the order you'll need them:
+If you do decide to negotiate, the **Salary Negotiator** — [https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator](https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator) — is where the structured prep lives. It's a single page with multiple tabs that handle different parts of the negotiation, in roughly the order you'll need them:
 
 ### Salary Negotiator (the negotiation toolkit) — _Tier: see Pricing_
 
@@ -113,7 +113,7 @@ If you do decide to negotiate, the **Salary Negotiator** (`/dashboard/individual
 
 **Why it matters.** Negotiation rewards preparation more than improvisation. A walk through these tabs typically takes 30–60 minutes and beats winging it by a wide margin — most offers leave 10–20% on the table for candidates who arrive ready.
 
-**How to use it.** Open `/dashboard/individual/salary-negotiator`. Work through the tabs in this order:
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator](https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator). Work through the tabs in this order:
 
 1. **Market Intel** — pull the salary range for your role, level, and location, so every later tab has a real benchmark to anchor on.
 2. **Strategy Builder** — turns the offer details and your context (current package, competing offers, must-haves) into a recommended counter and the reasoning behind it.
@@ -195,7 +195,7 @@ The Salary Negotiator's **Offer Matrix** tab handles competing-offer scenarios s
 Acceptance is not the end of the platform's involvement. After acceptance:
 
 - The application moves to `Hired`
-- You may be asked for additional documents (qualifications, ID, references) via the Application Portal at `/dashboard/individual/portal` (Chapter 13)
+- You may be asked for additional documents (qualifications, ID, references) via the Application Portal at [https://www.sebenzahub.co.za/dashboard/individual/portal](https://www.sebenzahub.co.za/dashboard/individual/portal) (Chapter 13)
 - The employer may send onboarding information through the Inbox
 - The platform's offer record stays in your history for reference
 

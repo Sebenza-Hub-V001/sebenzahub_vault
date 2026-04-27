@@ -18,15 +18,15 @@ This is the last chapter of the guide. Treat the Community as something you opt 
 
 The Individual dashboard has seven pages here:
 
-| Page | What it is |
-|------|------------|
-| **Community Forum** (`/community`) | Open discussion forum with other job seekers |
-| **Trending** (`/community-trending`) | Popular topics and active threads |
-| **Leaderboard** (`/community-leaderboard`) | User rankings based on participation, badges, contributions |
-| **Interview Vault** (`/community-interviews`) | Shared interview experiences and questions, by company and role |
-| **Mentor Connect** (`/community-mentors`) | Browse and reach out to mentors who've opted into discovery |
-| **Mentorship** (`/mentorship`) | The structured-programme experience for ongoing mentor relationships |
-| **Badges** (`/community-badges`) | Achievement badges and recognition |
+| Page | Open it | What it is |
+|------|---------|------------|
+| **Community Forum** | [https://www.sebenzahub.co.za/dashboard/individual/community](https://www.sebenzahub.co.za/dashboard/individual/community) | Open discussion forum with other job seekers |
+| **Trending** | [https://www.sebenzahub.co.za/dashboard/individual/community-trending](https://www.sebenzahub.co.za/dashboard/individual/community-trending) | Popular topics and active threads |
+| **Leaderboard** | [https://www.sebenzahub.co.za/dashboard/individual/community-leaderboard](https://www.sebenzahub.co.za/dashboard/individual/community-leaderboard) | User rankings based on participation, badges, contributions |
+| **Interview Vault** | [https://www.sebenzahub.co.za/dashboard/individual/community-interviews](https://www.sebenzahub.co.za/dashboard/individual/community-interviews) | Shared interview experiences and questions, by company and role |
+| **Mentor Connect** | [https://www.sebenzahub.co.za/dashboard/individual/community-mentors](https://www.sebenzahub.co.za/dashboard/individual/community-mentors) | Browse and reach out to mentors who've opted into discovery |
+| **Mentorship** | [https://www.sebenzahub.co.za/dashboard/individual/mentorship](https://www.sebenzahub.co.za/dashboard/individual/mentorship) | The structured-programme experience for ongoing mentor relationships |
+| **Badges** | [https://www.sebenzahub.co.za/dashboard/individual/community-badges](https://www.sebenzahub.co.za/dashboard/individual/community-badges) | Achievement badges and recognition |
 
 You don't need all of them. The three that actually move your job hunt are **Interview Vault**, **Mentor Connect**, and **Mentorship** — Mentor Connect is for finding the relationship, Mentorship is for running it.
 
@@ -36,7 +36,7 @@ You don't need all of them. The three that actually move your job hunt are **Int
 
 ### Interview Vault
 
-**Interview Vault** (`/dashboard/individual/community-interviews`) is a collection of interview experiences shared by other Sebenza Hub users. Search by company, role, or interview type. You'll find:
+**Interview Vault** — [https://www.sebenzahub.co.za/dashboard/individual/community-interviews](https://www.sebenzahub.co.za/dashboard/individual/community-interviews) — is a collection of interview experiences shared by other Sebenza Hub users. Search by company, role, or interview type. You'll find:
 
 - Real questions people were asked
 - Format details (number of rounds, panel composition, technical vs behavioural mix)
@@ -55,7 +55,7 @@ How to use it well:
 
 ### Mentor Connect (find a mentor)
 
-**Mentor Connect** (`/dashboard/individual/community-mentors`) is the platform's mentor-discovery and matching surface. You can browse experienced professionals who have opted in to mentor others, filtered by industry, role, seniority, or specific topic, and reach out to start a conversation.
+**Mentor Connect** — [https://www.sebenzahub.co.za/dashboard/individual/community-mentors](https://www.sebenzahub.co.za/dashboard/individual/community-mentors) — is the platform's mentor-discovery and matching surface. You can browse experienced professionals who have opted in to mentor others, filtered by industry, role, seniority, or specific topic, and reach out to start a conversation.
 
 A good mentor relationship is one of the highest-leverage things in any career. A bad one wastes everyone's time. The difference is almost entirely in how you approach it.
 
@@ -102,7 +102,7 @@ Bad mentees:
 
 ### Mentorship (run the relationship)
 
-**Mentorship** (`/dashboard/individual/mentorship`) is the page where active mentor relationships live. Where Mentor Connect is the discovery surface, Mentorship is the structured-programme experience that takes over once you have a mentor in place.
+**Mentorship** — [https://www.sebenzahub.co.za/dashboard/individual/mentorship](https://www.sebenzahub.co.za/dashboard/individual/mentorship) — is the page where active mentor relationships live. Where Mentor Connect is the discovery surface, Mentorship is the structured-programme experience that takes over once you have a mentor in place.
 
 You'll find:
 
@@ -131,7 +131,7 @@ Community and mentorship work best when you have something concrete to point at.
 
 **How to use it.**
 
-1. Open **Portfolio Builder** (`/dashboard/individual/portfolio-builder`).
+1. Open **Portfolio Builder**: [https://www.sebenzahub.co.za/dashboard/individual/portfolio-builder](https://www.sebenzahub.co.za/dashboard/individual/portfolio-builder)
 
 ![[i-ch23-portfolio-builder-editor.png]]
 

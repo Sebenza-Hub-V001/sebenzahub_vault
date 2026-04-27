@@ -16,13 +16,13 @@ The most important advice is at the top: **start practising before you have an i
 
 ## Where each tool lives
 
-| Tool | Path | What it's for |
-|------|------|---------------|
-| **Interview Simulator** | `/dashboard/individual/interview-simulator` | Full multi-question mock sessions with end-of-session scoring |
-| **Mock Interview** (Coaching tab) | `/dashboard/individual/coaching` → **Mock Interview** tab | Quick chat-based interview rep |
-| **STAR Builder** (Coaching tab) | `/dashboard/individual/coaching` → **STAR Builder** tab | Behavioural-answer scaffolding |
-| **Anxiety Toolkit** (Coaching tab) | `/dashboard/individual/coaching` → **Anxiety Toolkit** tab | Manage interview nerves |
-| **Interview Scheduling** | `/dashboard/individual/interview-scheduling` | Schedule, prep kit, day plan, thank-you note, reflection |
+| Tool | Open it | What it's for |
+|------|---------|---------------|
+| **Interview Simulator** | [https://www.sebenzahub.co.za/dashboard/individual/interview-simulator](https://www.sebenzahub.co.za/dashboard/individual/interview-simulator) | Full multi-question mock sessions with end-of-session scoring |
+| **Mock Interview** (Coaching tab) | [https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching) → **Mock Interview** tab | Quick chat-based interview rep |
+| **STAR Builder** (Coaching tab) | [https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching) → **STAR Builder** tab | Behavioural-answer scaffolding |
+| **Anxiety Toolkit** (Coaching tab) | [https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching) → **Anxiety Toolkit** tab | Manage interview nerves |
+| **Interview Scheduling** | [https://www.sebenzahub.co.za/dashboard/individual/interview-scheduling](https://www.sebenzahub.co.za/dashboard/individual/interview-scheduling) | Schedule, prep kit, day plan, thank-you note, reflection |
 
 The Interview Scheduling page is where the day-of and post-interview tools live (covered later in this chapter), so it's worth knowing it exists even before you book your first interview.
 
@@ -36,7 +36,7 @@ The Interview Scheduling page is where the day-of and post-interview tools live 
 
 ![[i-ch14-simulator-landing.png]]
 
-**How to use it.** Open `/dashboard/individual/interview-simulator`. The page has four tabs:
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/individual/interview-simulator](https://www.sebenzahub.co.za/dashboard/individual/interview-simulator). The page has four tabs:
 
 - **Simulator** — set up and run a full session. Pick the interview type (behavioural, technical, case study, competency, or panel), the experience level (junior, mid, senior, executive), and the number of questions.
 - **Quick Practice** — short, focused practice on a single question type without the full session overhead.
@@ -68,7 +68,7 @@ A useful sequence over a week:
 
 **Why it matters.** The activation energy for the full simulator is real — set up a session, pick a role, sit through 10 questions. A chat-based version means you can squeeze in a quick rep over lunch or between meetings on the days a full session won't happen.
 
-**How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Mock Interview** tab. Describe the role and start the conversation. Use this for quick reps; save the full Interview Simulator for the deeper sessions where dimension scoring matters.
+**How to use it.** Open **Coaching**: [https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching) — and switch to the **Mock Interview** tab. Describe the role and start the conversation. Use this for quick reps; save the full Interview Simulator for the deeper sessions where dimension scoring matters.
 
 ![[i-ch14-ai-interview-chat.png]]
 
@@ -98,7 +98,7 @@ A useful sequence over a week:
 
 ## Day-of and post-interview tools (inside Interview Scheduling)
 
-Once you have a real interview booked, open **Interview Scheduling** (`/dashboard/individual/interview-scheduling`). Beyond the actual schedule, the page surfaces a set of tabs tied to each booked interview:
+Once you have a real interview booked, open **Interview Scheduling**: [https://www.sebenzahub.co.za/dashboard/individual/interview-scheduling](https://www.sebenzahub.co.za/dashboard/individual/interview-scheduling). Beyond the actual schedule, the page surfaces a set of tabs tied to each booked interview:
 
 - **AI Prep Kit** — auto-research the company, generate likely questions, and prepare a single bundled brief tied to the interview record.
 

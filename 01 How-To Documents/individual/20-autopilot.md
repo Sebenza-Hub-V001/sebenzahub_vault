@@ -16,7 +16,7 @@ This chapter walks you through where Autopilot lives, exactly which toggles you'
 
 ## Where Autopilot lives
 
-Open **Settings** (`/dashboard/individual/settings`) and switch to the **Automation** tab. You'll find three sections:
+Open **Settings**: [https://www.sebenzahub.co.za/dashboard/individual/settings](https://www.sebenzahub.co.za/dashboard/individual/settings) — and switch to the **Automation** tab. You'll find three sections:
 
 1. **Autopilot** — the application-flow automations covered in this chapter.
 2. **Interview AI** — auto-research, auto-prep questions, and auto-thank-you-note for booked interviews (see Chapter 14).

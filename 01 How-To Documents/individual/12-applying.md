@@ -38,7 +38,7 @@ Before you apply, run the JD through the decoder. This is the single highest-lev
 
 **How to use it.**
 
-1. Open the job listing. Click **Decode JD**, or open **Coaching** (`/dashboard/individual/coaching`) and switch to the **JD Decoder** tab if you want to paste a JD from elsewhere.
+1. Open the job listing. Click **Decode JD**, or open **Coaching**: [https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching) — and switch to the **JD Decoder** tab if you want to paste a JD from elsewhere.
 2. Read the breakdown — typically: must-haves vs nice-to-haves, the hidden values signal, any red flags, and a suggested pitch angle.
 3. Use the output to inform every later step: which CV to pick, which bullets to emphasise, what the cover letter should lead with.
 
@@ -104,7 +104,7 @@ A bad cover letter hurts more than no cover letter. If you don't have anything s
 
 **How to use it.**
 
-1. Open the **Cover Letter** tool (`/dashboard/individual/cover-letter`) or call it from inside an application.
+1. Open the **Cover Letter** tool: [https://www.sebenzahub.co.za/dashboard/individual/cover-letter](https://www.sebenzahub.co.za/dashboard/individual/cover-letter) — or call it from inside an application.
 2. Select the job, the CV you're using, and the tone.
 3. Generate. The first draft lands in seconds.
 4. **Treat the output as a first draft, not a final version.** Read it and rewrite anything that sounds generic. The AI doesn't know your real motivation — the "why this company" line will always be the weakest part. Overwrite it with something true.
@@ -166,7 +166,7 @@ You'll see a confirmation, and the application appears in My Applications immedi
 
 **Why it matters.** When you're juggling 40+ applications across 6 stages, the flat list becomes unmanageable — you forget who you replied to, you miss follow-up windows, you double-apply. The Portal turns job hunting into a project you can actually run. This is a natural upgrade trigger for career-transition users who hit the wall around application 25.
 
-**How to use it.** Open **Application Portal** (`/dashboard/individual/portal`). Drag applications between columns as their state changes, click into any card to add notes or set a follow-up reminder, and use the column counts as a quick health check. Chapter 13 covers the day-to-day rhythm in more detail — for now, just know it's where your applications go to be managed once the Submit button has been clicked.
+**How to use it.** Open **Application Portal**: [https://www.sebenzahub.co.za/dashboard/individual/portal](https://www.sebenzahub.co.za/dashboard/individual/portal). Drag applications between columns as their state changes, click into any card to add notes or set a follow-up reminder, and use the column counts as a quick health check. Chapter 13 covers the day-to-day rhythm in more detail — for now, just know it's where your applications go to be managed once the Submit button has been clicked.
 
 ![[i-ch12-application-portal-kanban.png]]
 

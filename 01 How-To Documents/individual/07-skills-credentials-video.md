@@ -29,7 +29,7 @@ You added 1–10 skills during onboarding (Chapter 3). Now expand and refine tha
 
 ### Step 1 — Add the skills that aren't there yet
 
-Go to **Profile** (`/dashboard/individual/profile`) and find the Skills section. Add every skill that:
+Open **Profile**: [https://www.sebenzahub.co.za/dashboard/individual/profile](https://www.sebenzahub.co.za/dashboard/individual/profile) — find the Skills section. Add every skill that:
 
 - Is mentioned in your CV
 - You've used professionally for more than a few months
@@ -84,7 +84,7 @@ Verify skills that are:
 
 ### How to verify
 
-1. Go to **Skill Verifications** (`/dashboard/individual/skill-verifications`).
+1. Open **Skill Verifications**: [https://www.sebenzahub.co.za/dashboard/individual/skill-verifications](https://www.sebenzahub.co.za/dashboard/individual/skill-verifications)
 2. Pick a skill from your profile that has a verification test available.
 3. Take the test. Tests are typically multiple choice plus short structured tasks, timed.
 4. Pass → a verified badge attaches to that skill on your profile.
@@ -100,7 +100,7 @@ Credentials are the formal stuff: certifications, degrees, licences, professiona
 
 ### Step 1 — Upload what you already have
 
-Go to **Credentials** (`/dashboard/individual/credentials`) and upload:
+Open **Credentials**: [https://www.sebenzahub.co.za/dashboard/individual/credentials](https://www.sebenzahub.co.za/dashboard/individual/credentials) — and upload:
 
 - Degree certificates
 - Professional certifications (PMP, AWS, Google, Microsoft, CFA, ACCA, etc.)
@@ -137,7 +137,7 @@ Once your existing credentials are loaded, the obvious next question is: *what s
 
 **How to use it.**
 
-1. Open **Credentials** (`/dashboard/individual/credentials`) and switch to the **Match** tab — that's where the gap analysis lives.
+1. Open **Credentials**: [https://www.sebenzahub.co.za/dashboard/individual/credentials](https://www.sebenzahub.co.za/dashboard/individual/credentials) — and switch to the **Match** tab — that's where the gap analysis lives.
 2. Confirm the target role(s), industry, and experience level you're aiming for. The analysis pulls from your profile preferences, but you can adjust them per run.
 3. Run the analysis. Results come back with each gap categorised as critical, useful, or nice-to-have.
 4. Cross-reference with your own market research — the AI doesn't know about regional nuances or specific employers' quirks.
@@ -173,7 +173,7 @@ That's it. Don't read from a script — practise three times and then record. Si
 
 ### How to record
 
-1. Go to **Video Profile** (`/dashboard/individual/video-profile`).
+1. Open **Video Profile**: [https://www.sebenzahub.co.za/dashboard/individual/video-profile](https://www.sebenzahub.co.za/dashboard/individual/video-profile)
 2. Either record directly in the browser or upload a video file you've recorded elsewhere.
 3. Preview it. If it makes you cringe in a fixable way, re-record. If it's just first-time-on-camera awkwardness, post it anyway — it's still better than no video.
 
@@ -195,7 +195,7 @@ Skip the portfolio if your value is mostly process-based, confidential, or relat
 
 ### How to build one
 
-1. Go to **Portfolio Builder** (`/dashboard/individual/portfolio-builder`).
+1. Open **Portfolio Builder**: [https://www.sebenzahub.co.za/dashboard/individual/portfolio-builder](https://www.sebenzahub.co.za/dashboard/individual/portfolio-builder)
 2. Add projects. Each project takes a title, a one-paragraph description, and the work itself (file uploads, links, embedded media).
 3. Organise by skill or industry — whichever helps a recruiter scan it quickly.
 4. Save and share the portfolio link. You can paste it into applications and your video intro.

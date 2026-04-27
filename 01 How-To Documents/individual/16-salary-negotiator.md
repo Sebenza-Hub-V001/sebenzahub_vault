@@ -14,9 +14,9 @@ You've decided to negotiate the offer. This chapter is about doing that *well*: 
 
 Sebenza Hub gives you three surfaces for this work:
 
-1. **Salary Insights** (`/dashboard/individual/salary-insights`) — the data layer. The numbers you'll defend your counter with.
-2. **Salary Negotiator** (`/dashboard/individual/salary-negotiator`) — the multi-tab toolkit that turns those numbers into a counter, a message, and rehearsed conversation.
-3. **Salary Coach** and **Negotiation Sim** — two tabs inside **Coaching** (`/dashboard/individual/coaching`) for lighter-weight, conversational practice.
+1. **Salary Insights** — [https://www.sebenzahub.co.za/dashboard/individual/salary-insights](https://www.sebenzahub.co.za/dashboard/individual/salary-insights) — the data layer. The numbers you'll defend your counter with.
+2. **Salary Negotiator** — [https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator](https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator) — the multi-tab toolkit that turns those numbers into a counter, a message, and rehearsed conversation.
+3. **Salary Coach** and **Negotiation Sim** — two tabs inside **Coaching** at [https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching) — for lighter-weight, conversational practice.
 
 Use them together. The Salary Negotiator is the structured workhorse; Salary Insights feeds it; the Coaching tabs are where you go when you want to think out loud rather than fill in fields.
 
@@ -28,7 +28,7 @@ Use them together. The Salary Negotiator is the structured workhorse; Salary Ins
 
 **Why it matters.** South African salary data is notoriously opaque — candidates regularly accept 20–30% below market because they don't know what the role actually pays. One well-grounded negotiation can pay for a year's subscription many times over. Without this data, you're negotiating in the dark.
 
-**How to use it.** Open **Salary Insights** (`/dashboard/individual/salary-insights`) and search for the role + experience level + location combination that matches the offer. The platform shows:
+**How to use it.** Open **Salary Insights**: [https://www.sebenzahub.co.za/dashboard/individual/salary-insights](https://www.sebenzahub.co.za/dashboard/individual/salary-insights) — and search for the role + experience level + location combination that matches the offer. The platform shows:
 
 - **Median salary** for the role
 - **25th and 75th percentile** ranges
@@ -54,7 +54,7 @@ Your floor should be at least at the 25th percentile for your role and experienc
 
 **Why it matters.** Most candidates either skip preparation or pick at it randomly. Walking through the Negotiator's tabs forces you to confront every step that affects the conversation — market context, take-home pay, predictable objections, your own readiness — before you send a single message.
 
-**How to use it.** Open `/dashboard/individual/salary-negotiator` and walk through the tabs in roughly this order:
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator](https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator) and walk through the tabs in roughly this order:
 
 1. **Market Intel** — pulls the salary range for your role/level/location into the page so every later tab has a benchmark to anchor on.
 2. **Strategy Builder** — turns the offer details and your context (current package, competing offers, must-haves) into a recommended counter and the reasoning behind it.
@@ -77,7 +77,7 @@ You don't have to use every tab. The minimum is **Market Intel → Strategy Buil
 
 ## Step 3 — When you'd rather think out loud
 
-If structured tabs feel like overkill — or you want a second pair of eyes on a strategy you're already drafting — open **Coaching** (`/dashboard/individual/coaching`) and use one of two tabs:
+If structured tabs feel like overkill — or you want a second pair of eyes on a strategy you're already drafting — open **Coaching**: [https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching) — and use one of two tabs:
 
 ### Salary Coach — _Tier: see Pricing_
 

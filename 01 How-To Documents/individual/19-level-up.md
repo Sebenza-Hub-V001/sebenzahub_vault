@@ -30,7 +30,7 @@ Before you pick a course, find out what's actually missing.
 
 **How to use it.**
 
-1. Open **Skill Gap Analysis** (`/dashboard/individual/skill-gap`).
+1. Open **Skill Gap Analysis**: [https://www.sebenzahub.co.za/dashboard/individual/skill-gap](https://www.sebenzahub.co.za/dashboard/individual/skill-gap)
 2. Confirm your target role; let it score the gap.
 
 ![[i-ch19-skill-gap-chart.png]]
@@ -51,7 +51,7 @@ The list usually splits into three buckets:
 
 **Why it matters.** SA hiring is credential-heavy and many roles reject on NQF level alone. This tells you whether a R30,000 certification will actually unlock the next role or is vanity spend.
 
-**How to use it.** Open **Credentials** (`/dashboard/individual/credentials`) and switch to the **Match** tab to run the gap analysis. Review the missing credentials. Cross-reference with [[01 How-To Documents/individual/07-skills-credentials-video|Chapter 7]] — that's where credentials get added to your profile once earned.
+**How to use it.** Open **Credentials**: [https://www.sebenzahub.co.za/dashboard/individual/credentials](https://www.sebenzahub.co.za/dashboard/individual/credentials) — and switch to the **Match** tab to run the gap analysis. Review the missing credentials. Cross-reference with [[01 How-To Documents/individual/07-skills-credentials-video|Chapter 7]] — that's where credentials get added to your profile once earned.
 
 ## Stage 2 — Plan
 
@@ -73,7 +73,7 @@ Don't start consuming until you know the schedule and the sequence.
 
 **How to use it.**
 
-1. Open **Study Planner** (`/dashboard/individual/study-planner`).
+1. Open **Study Planner**: [https://www.sebenzahub.co.za/dashboard/individual/study-planner](https://www.sebenzahub.co.za/dashboard/individual/study-planner)
 2. Set realistic availability windows (mornings, lunch, evenings, weekends).
 3. Let it slot the plan in. Reasonable patterns: 30–45 min weekdays + a longer weekend session if working full-time; 90–120 min/day if between jobs; 20 min daily if family-heavy.
 
@@ -91,7 +91,7 @@ The platform has multiple learning surfaces. Pick by what fits the skill, not by
 
 **Why it matters.** Free general access keeps the door open for users who aren't yet job-hunting and for active hunters topping up gaps without burning credits.
 
-**How to use it.** Open **Learning Hub** (`/dashboard/individual/learning-hub`). Search by the exact skill name from your gap analysis, not by a topic area.
+**How to use it.** Open **Learning Hub**: [https://www.sebenzahub.co.za/dashboard/individual/learning-hub](https://www.sebenzahub.co.za/dashboard/individual/learning-hub). Search by the exact skill name from your gap analysis, not by a topic area.
 
 ![[i-ch19-learning-hub-catalogue.png]]
 
@@ -111,7 +111,7 @@ The platform has multiple learning surfaces. Pick by what fits the skill, not by
 
 **Why it matters.** Mobile, commuter-friendly learning is how you maintain momentum on busy days. Free keeps the streak unbroken without draining credits.
 
-**How to use it.** Open **Micro Learning** (`/dashboard/individual/micro-learning`). Use it for skills you've touched but want to deepen — and on days you only have ten minutes.
+**How to use it.** Open **Micro Learning**: [https://www.sebenzahub.co.za/dashboard/individual/micro-learning](https://www.sebenzahub.co.za/dashboard/individual/micro-learning). Use it for skills you've touched but want to deepen — and on days you only have ten minutes.
 
 ![[i-ch19-micro-learning-card.png]]
 
@@ -231,7 +231,7 @@ The system only works if you keep showing up. These features close the motivatio
 
 **Why it matters.** Skill-building is abstract without visualisation — a tree makes progression tangible and addictive. You'll chase the next node the way gamers chase achievements.
 
-**How to use it.** Open **Skill Tree** (`/dashboard/individual/skill-tree`) once a week. Pick the next unlocked node, check what unlocks it, route that into your study plan.
+**How to use it.** Open **Skill Tree**: [https://www.sebenzahub.co.za/dashboard/individual/skill-tree](https://www.sebenzahub.co.za/dashboard/individual/skill-tree) — once a week. Pick the next unlocked node, check what unlocks it, route that into your study plan.
 
 ![[i-ch19-skill-tree-visualisation.png]]
 

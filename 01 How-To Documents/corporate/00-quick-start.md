@@ -28,17 +28,23 @@ You also get a **30-day Premium trial** automatically. Everything in this quick 
 
 ### 1. Sign up and choose Business role (3 minutes)
 
-Sign up and pick **Business** as your role. Use a real work email — your team-invite emails will reference this domain.
+Open the sign-up page: [https://www.sebenzahub.co.za/get-started](https://www.sebenzahub.co.za/get-started)
 
-You'll land on `/dashboard/business` (the corporate dashboard). The full account-creation walkthrough is in [[01 How-To Documents/corporate/02-creating-your-account|Chapter 2]].
+Pick **Business** as your role. Use a real work email — your team-invite emails will reference this domain.
+
+After signup you'll land on the corporate dashboard: [https://www.sebenzahub.co.za/dashboard/business/home](https://www.sebenzahub.co.za/dashboard/business/home)
+
+The full account-creation walkthrough is in [[01 How-To Documents/corporate/02-creating-your-account|Chapter 2]].
 
 > ⚠️ **Your role is locked after onboarding.** Business stays Business. If you also need to test the candidate or recruiter experience, sign up with a different email. [[01 How-To Documents/corporate/02-creating-your-account|Chapter 2]] covers the implications.
 
 ### 2. Either invite one teammate or skip (3 minutes)
 
-Click **Settings** in the sidebar → **Team Members** → **Invite member**.
+Open the Team page: [https://www.sebenzahub.co.za/dashboard/business/team](https://www.sebenzahub.co.za/dashboard/business/team)
 
-Enter one work email and pick the role:
+(Or click **Settings → Team Members** in the sidebar.)
+
+Click **Invite member**, enter one work email, and pick the role:
 
 - **Admin** — full access, including billing and integrations. Pick this if your finance contact is different from you and they need to convert the trial later.
 - **Member** — the default. Can run requisitions, see candidates, send messages.
@@ -50,11 +56,15 @@ If you're truly the only person on day one, skip this — you can always invite 
 
 ### 3. Fill in branding basics and create one requisition draft (9 minutes)
 
-**Branding (3 min):** Settings → **Company Branding**. Drop in your logo and your primary brand colour. That's enough. Apply rates jump immediately the moment your career page stops looking generic. The full white-label and brand-customisation walkthrough is in [[01 How-To Documents/corporate/03-setting-up-your-org|Chapter 3]].
+**Branding (3 min):** Open Settings: [https://www.sebenzahub.co.za/dashboard/business/settings](https://www.sebenzahub.co.za/dashboard/business/settings)
 
-**Requisition (6 min):** Click **Post Jobs** in the sidebar → **New Requisition**.
+Find the **Company Branding** section, drop in your logo and your primary brand colour. That's enough. Apply rates jump immediately the moment your career page stops looking generic. The full white-label and brand-customisation walkthrough is in [[01 How-To Documents/corporate/03-setting-up-your-org|Chapter 3]].
 
-Fill in only the basics:
+**Requisition (6 min):** Open the Jobs page: [https://www.sebenzahub.co.za/dashboard/business/jobs](https://www.sebenzahub.co.za/dashboard/business/jobs)
+
+(Or click **Post Jobs** in the sidebar.)
+
+Click **New Requisition** and fill in only the basics:
 
 - Job title
 - Department / hiring manager (your name is fine for now)

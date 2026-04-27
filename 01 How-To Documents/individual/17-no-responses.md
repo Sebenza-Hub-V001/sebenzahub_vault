@@ -28,7 +28,7 @@ If you have 10–20 applications across 2+ weeks and you're getting close to zer
 
 ## Step 1 — Diagnose using Application Analytics
 
-Open **Application Analytics** (`/dashboard/individual/application-analytics`). Don't skip this. Without the data, you'll guess at the wrong cause.
+Open **Application Analytics**: [https://www.sebenzahub.co.za/dashboard/individual/application-analytics](https://www.sebenzahub.co.za/dashboard/individual/application-analytics). Don't skip this. Without the data, you'll guess at the wrong cause.
 
 Look for:
 
@@ -88,7 +88,7 @@ If you're getting screened but rejected at the screening stage, the CV is the bo
 ### Fixes
 
 1. **Re-run CV Review.** Read the feedback this time. Action it.
-2. **Run Skill Gap Analysis** (`/dashboard/individual/skill-gap`). It compares your skills to your target role and tells you what's missing. The missing items are usually exactly what's hurting you on screening.
+2. **Run Skill Gap Analysis**: [https://www.sebenzahub.co.za/dashboard/individual/skill-gap](https://www.sebenzahub.co.za/dashboard/individual/skill-gap). It compares your skills to your target role and tells you what's missing. The missing items are usually exactly what's hurting you on screening.
 3. **Tailor a CV for one specific role you want.** Don't apply with a generic CV to a senior role; rewrite it with that role in mind. This is the highest-ROI thing you can do if your problem is screening.
 4. **Switch to an ATS-friendly template.** If you're using a fancy template with tables and columns, replace it with a Modern or Professional template from CV Templates (Chapter 5). Many ATS systems can't read decorative layouts.
 5. **Have a human read your CV.** Ideally someone who hires for the kind of role you're going after. AI feedback is good but not perfect.
@@ -121,7 +121,7 @@ If your CV is good but your profile fields are incomplete, you might be invisibl
 
 **Why it matters.** Around 70% of South African recruiters source on LinkedIn. If you're not surfacing in their searches, you don't exist as far as they're concerned — no matter how good your Sebenza Hub profile is. The fix is mechanical: the right keywords in the right places.
 
-**How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **LinkedIn** tab. Paste or connect your LinkedIn profile. Read the suggested rewrites. Apply the headline and About-section changes first — they have the biggest impact on search rank. Re-run after a week to see what else has shifted. If you're getting recruiter views but no responses, the headline is usually the problem. If you're getting no views at all, it's the keyword density across the whole profile.
+**How to use it.** Open **Coaching** ([https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching)) and switch to the **LinkedIn** tab. Paste or connect your LinkedIn profile. Read the suggested rewrites. Apply the headline and About-section changes first — they have the biggest impact on search rank. Re-run after a week to see what else has shifted. If you're getting recruiter views but no responses, the headline is usually the problem. If you're getting no views at all, it's the keyword density across the whole profile.
 
 ![[i-ch17-linkedin-optimizer.png]]
 
@@ -131,7 +131,7 @@ If applications convert to first interviews but you stall there, the problem isn
 
 ## Cause E — Coaching helps when you're stuck on diagnosis
 
-If you've done the above and you're still stuck, try **AI Coaching** (`/dashboard/individual/coaching`). It's a structured conversation tool that asks you about your situation, your goals, and your constraints, and then suggests specific next steps. It's most useful when you don't yet know what your real problem is — not when you already do.
+If you've done the above and you're still stuck, try **AI Coaching** ([https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching)). It's a structured conversation tool that asks you about your situation, your goals, and your constraints, and then suggests specific next steps. It's most useful when you don't yet know what your real problem is — not when you already do.
 
 ## Cause F — You're answering "weakness" questions badly
 
@@ -143,7 +143,7 @@ If you're getting to interviews but not progressing past the first round, and yo
 
 **Why it matters.** "What's your biggest weakness?" is answered badly by 90% of candidates, and it's one of the few questions where a rehearsed answer beats an authentic one. A clean reframing is real competitive edge for not very much effort.
 
-**How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Weakness Alchemist** tab. Input two or three real weaknesses — not made-up ones. The tool returns reframed versions you can use in interviews. Pick the one that feels most honest to you (the others will sound rehearsed when you say them out loud). Practise it until it sounds natural, then forget about it until the question comes up.
+**How to use it.** Open **Coaching** ([https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching)) and switch to the **Weakness Alchemist** tab. Input two or three real weaknesses — not made-up ones. The tool returns reframed versions you can use in interviews. Pick the one that feels most honest to you (the others will sound rehearsed when you say them out loud). Practise it until it sounds natural, then forget about it until the question comes up.
 
 ![[i-ch17-weakness-alchemist.png]]
 
@@ -157,7 +157,7 @@ Sometimes the issue isn't a pattern — it's a single rejection that's left you 
 
 **Why it matters.** Job searches are 90% rejection. The candidates who keep their momentum after a hard "no" outperform the ones who go silent for two weeks. This isn't just a wellness tool — it's a retention mechanism for *you*, in your own search.
 
-**How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Rejection Recovery** tab. Run it after any rejection that's hit you harder than the rest. Don't run it after every rejection — that turns into noise. Use it specifically when you're stuck and need a structured way out.
+**How to use it.** Open **Coaching** ([https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching)) and switch to the **Rejection Recovery** tab. Run it after any rejection that's hit you harder than the rest. Don't run it after every rejection — that turns into noise. Use it specifically when you're stuck and need a structured way out.
 
 ![[i-ch17-rejection-recovery-plan.png]]
 
@@ -171,7 +171,7 @@ Cold applications are slow. Referrals are fast. If your conversion rate is broke
 
 **Why it matters.** 60%+ of senior hires happen through networking, but most candidates never reach out because they don't know what to say. Getting the first message right turns cold profiles into warm referrals. The lift is large because so few candidates do this at all.
 
-**How to use it.** Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Message Crafter** tab. Identify 5–10 people at companies you'd actually want to work for. For each, generate a tailored message — not a generic "I'd love to connect." Send the message. Don't expect a response from every one (rates are typically 20–40%); the ones who do reply are now warm referrers for current and future roles. Run this monthly during an active search.
+**How to use it.** Open **Coaching** ([https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching)) and switch to the **Message Crafter** tab. Identify 5–10 people at companies you'd actually want to work for. For each, generate a tailored message — not a generic "I'd love to connect." Send the message. Don't expect a response from every one (rates are typically 20–40%); the ones who do reply are now warm referrers for current and future roles. Run this monthly during an active search.
 
 ![[i-ch17-networking-message-draft.png]]
 

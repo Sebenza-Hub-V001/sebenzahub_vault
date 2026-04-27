@@ -12,7 +12,7 @@ user-types: [individual]
 
 By the time you reach this chapter, the platform already knows what you can do (skills), where you are (location), what level you work at (experience), and what kind of role you want (target title). What it still doesn't know is *how you actually want to work* and *what you'll trade off when two jobs are otherwise similar*. Career DNA and Opportunity Weights are how you tell it.
 
-These two settings don't show up in the basic onboarding flow. Open **Settings** (`/dashboard/individual/settings`) and switch to the **Career DNA** tab. The settings on this tab change how Auto Match (Chapter 9) ranks jobs for you. Configured well, they make the difference between matches that are *technically* fits and matches that are *actually* what you want.
+These two settings don't show up in the basic onboarding flow. Open **Settings**: [https://www.sebenzahub.co.za/dashboard/individual/settings](https://www.sebenzahub.co.za/dashboard/individual/settings) — and switch to the **Career DNA** tab. The settings on this tab change how Auto Match (Chapter 9) ranks jobs for you. Configured well, they make the difference between matches that are *technically* fits and matches that are *actually* what you want.
 
 ![[i-ch21-career-dna-settings.png]]
 
@@ -153,7 +153,7 @@ Career DNA tunes how the platform sees you. The next step is tuning how *people*
 
 **How to use it.**
 
-1. Open **Coaching** (`/dashboard/individual/coaching`) and switch to the **Elevator Pitch** tab.
+1. Open **Coaching**: [https://www.sebenzahub.co.za/dashboard/individual/coaching](https://www.sebenzahub.co.za/dashboard/individual/coaching) — and switch to the **Elevator Pitch** tab.
 2. Pick the variant you need next: 30-sec for networking, 60-sec for screens, 2-min for formal interviews.
 
 ![[i-ch21-elevator-pitch-variants.png]]
@@ -167,11 +167,11 @@ The dashboard, billing, and support features sit alongside the advanced tooling 
 
 ### Profile (your default landing page) — _Tier: see Pricing_
 
-**What this feature is.** Profile (`/dashboard/individual/profile`) is the page you land on after every login. It shows your personal info, contact details, role preferences, documents, and privacy settings, plus shortcut tiles into the parts of the platform you'll touch most often.
+**What this feature is.** Profile — [https://www.sebenzahub.co.za/dashboard/individual/profile](https://www.sebenzahub.co.za/dashboard/individual/profile) — is the page you land on after every login. It shows your personal info, contact details, role preferences, documents, and privacy settings, plus shortcut tiles into the parts of the platform you'll touch most often.
 
 **Why it matters.** Without a clear landing page, returning users don't know what to do next. Profile is the orientation surface — keep your details current here and use it as the starting point for every session rather than diving straight into a feature page.
 
-**How to use it.** Open `/dashboard/individual/profile` after every login. Read the recommendations tile before doing anything else; it's calibrated to your current state and points at whichever action will move your hunt forward today.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/individual/profile](https://www.sebenzahub.co.za/dashboard/individual/profile) after every login. Read the recommendations tile before doing anything else; it's calibrated to your current state and points at whichever action will move your hunt forward today.
 
 ![[i-ch21-basic-dashboard.png]]
 
@@ -181,7 +181,7 @@ The dashboard, billing, and support features sit alongside the advanced tooling 
 
 **Why it matters.** Billing UX is the difference between a user who downgrades cleanly and one who chargebacks. Self-service protects you from getting stuck on the wrong plan and protects the platform from churn it can't recover.
 
-**How to use it.** Open **Billing** (`/dashboard/individual/billing`) when changing tier, updating a card, or pulling an invoice for tax. Cancel from here directly — no phone calls required.
+**How to use it.** Open **Billing**: [https://www.sebenzahub.co.za/dashboard/individual/billing](https://www.sebenzahub.co.za/dashboard/individual/billing) — when changing tier, updating a card, or pulling an invoice for tax. Cancel from here directly — no phone calls required.
 
 ![[i-ch21-billing-subscription.png]]
 

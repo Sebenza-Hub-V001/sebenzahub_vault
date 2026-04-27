@@ -37,7 +37,7 @@ Before you even add a job to favourites, glance at the company. You're looking f
 
 **Why it matters.** Showing up to an interview knowing the company's latest product launch changes the dynamic from "I need a job" to "I want to work on X specifically." It's cheap intel with outsized impact — most candidates skip it, and you'll feel the difference in the room.
 
-**How to use it.** Open **AI Company Research** (`/dashboard/individual/company-research`) and search for the employer. The platform pulls together:
+**How to use it.** Open **AI Company Research**: [https://www.sebenzahub.co.za/dashboard/individual/company-research](https://www.sebenzahub.co.za/dashboard/individual/company-research) — and search for the employer. The platform pulls together:
 
 - **Basics** — name, size, industry, headquarters, founding year
 - **Culture signals** — reviews, ratings, employee sentiment
@@ -87,7 +87,7 @@ If you know the names of the interviewer(s) — and you usually do once the inte
 
 **Why it matters.** An interview with a partner who went to UCT Law goes very differently from one with a Wits engineering grad. Tailored intelligence turns a generic pitch into a warm conversation — and at senior levels, that warmth is often the deciding factor between two technically strong candidates.
 
-**How to use it.** Open **Interview Scheduling** (`/dashboard/individual/interview-scheduling`), open the booked interview, and switch to the **Interviewer** tab. Enter each interviewer's name. The platform pulls together what it can find. You're looking for:
+**How to use it.** Open **Interview Scheduling**: [https://www.sebenzahub.co.za/dashboard/individual/interview-scheduling](https://www.sebenzahub.co.za/dashboard/individual/interview-scheduling) — open the booked interview, and switch to the **Interviewer** tab. Enter each interviewer's name. The platform pulls together what it can find. You're looking for:
 
 - Their role at the company and how long they've been there
 - What they did before (often more revealing than what they do now)

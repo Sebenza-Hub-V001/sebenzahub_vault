@@ -10,7 +10,7 @@ user-types: [individual]
 
 # Chapter 4 — Your first 10 minutes on the dashboard
 
-You've signed up. You've finished onboarding. You're now looking at your dashboard at **/dashboard/individual/profile** and there are dozens of things in the sidebar. This chapter is a tour, not a deep dive — its job is to make the dashboard feel familiar so the rest of the guide makes sense.
+You've signed up. You've finished onboarding. You're now looking at your dashboard at [https://www.sebenzahub.co.za/dashboard/individual/profile](https://www.sebenzahub.co.za/dashboard/individual/profile) and there are dozens of things in the sidebar. This chapter is a tour, not a deep dive — its job is to make the dashboard feel familiar so the rest of the guide makes sense.
 
 Spend ten minutes here. Don't try to do anything yet. Just look around.
 
@@ -78,7 +78,7 @@ A single entry — **My Wikis** — for your personal knowledge base. Optional.
 
 Billing, AI Transparency, Settings.
 
-The Settings page is where Career DNA, Autopilot, and Market Radar live as tabs (covered in Chapters 20, 21, 22). AI Transparency (`/dashboard/individual/ai-transparency`) is where you can see what AI features have been used on your account, what data they processed, and how the platform records that — read it once, then come back when you have a specific question.
+The Settings page is where Career DNA, Autopilot, and Market Radar live as tabs (covered in Chapters 20, 21, 22). AI Transparency lives at [https://www.sebenzahub.co.za/dashboard/individual/ai-transparency](https://www.sebenzahub.co.za/dashboard/individual/ai-transparency) — it's where you can see what AI features have been used on your account, what data they processed, and how the platform records that. Read it once, then come back when you have a specific question.
 
 ![[ch04-sidebar-supporting.png]]
 
@@ -103,13 +103,13 @@ This is a deliberate empty state. Your job in the next few chapters is to fill i
 
 Don't read this — *do* it. Open your dashboard in another tab and spend a literal ten minutes clicking through these pages. Don't fill anything in yet. Just look.
 
-1. **Profile** (`/dashboard/individual/profile`) — see what onboarding gave you
-2. **My CVs** (`/dashboard/individual/cvs`) — empty for now; this is where Chapter 5 starts
-3. **All Jobs** (`/dashboard/individual/all-jobs`) — scroll through to get a feel for the volume
-4. **Auto Match** (`/dashboard/individual/auto-match`) — probably empty or sparse because your profile is thin
-5. **My Applications** (`/dashboard/individual/applications`) — empty for now; this is where Chapter 13 lives
-6. **Messages** (`/dashboard/individual/inbox`) — empty; this is where recruiters reach you
-7. **Settings** (`/dashboard/individual/settings`) — note where it lives, but don't change anything yet
+1. **Profile** — [https://www.sebenzahub.co.za/dashboard/individual/profile](https://www.sebenzahub.co.za/dashboard/individual/profile) — see what onboarding gave you
+2. **My CVs** — [https://www.sebenzahub.co.za/dashboard/individual/cvs](https://www.sebenzahub.co.za/dashboard/individual/cvs) — empty for now; this is where Chapter 5 starts
+3. **All Jobs** — [https://www.sebenzahub.co.za/dashboard/individual/all-jobs](https://www.sebenzahub.co.za/dashboard/individual/all-jobs) — scroll through to get a feel for the volume
+4. **Auto Match** — [https://www.sebenzahub.co.za/dashboard/individual/auto-match](https://www.sebenzahub.co.za/dashboard/individual/auto-match) — probably empty or sparse because your profile is thin
+5. **My Applications** — [https://www.sebenzahub.co.za/dashboard/individual/applications](https://www.sebenzahub.co.za/dashboard/individual/applications) — empty for now; this is where Chapter 13 lives
+6. **Messages** — [https://www.sebenzahub.co.za/dashboard/individual/inbox](https://www.sebenzahub.co.za/dashboard/individual/inbox) — empty; this is where recruiters reach you
+7. **Settings** — [https://www.sebenzahub.co.za/dashboard/individual/settings](https://www.sebenzahub.co.za/dashboard/individual/settings) — note where it lives, but don't change anything yet
 
 ![[ch04-sidebar-tour-highlights.png]]
 

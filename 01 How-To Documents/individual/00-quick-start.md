@@ -22,25 +22,31 @@ If you only ever do these three things, you've already done more than most users
 
 ### 1. Sign up and pick "Job Seeker" (1 minute)
 
-Go to the signup page and choose **Individual / Job Seeker** as your role. Use a real email address — verification links and recruiter messages go there.
+Open the sign-up page: [https://www.sebenzahub.co.za/get-started](https://www.sebenzahub.co.za/get-started)
 
-You'll land on `/dashboard/individual/profile`. The full account-creation walkthrough is in [[01 How-To Documents/individual/02-creating-your-account|Chapter 2]] if you get stuck.
+Choose **Individual / Job Seeker** as your role. Use a real email address — verification links and recruiter messages go there.
+
+After signup you'll land on your profile: [https://www.sebenzahub.co.za/dashboard/individual/profile](https://www.sebenzahub.co.za/dashboard/individual/profile)
+
+The full account-creation walkthrough is in [[01 How-To Documents/individual/02-creating-your-account|Chapter 2]] if you get stuck.
 
 > ⚠️ **Your role is locked after signup.** Job Seeker stays Job Seeker — you can't turn this same login into a Recruiter or Business account later. If you also need an agency or corporate account, sign up with a different email. [[01 How-To Documents/individual/02-creating-your-account|Chapter 2]] covers the implications.
 
 ### 2. Upload a CV (2 minutes)
 
-Click **My CVs** in the left sidebar (under *Build Profile*) → **Upload CV**.
+Open **My CVs** — click it in the left sidebar (under *Build Profile*), or go directly to: [https://www.sebenzahub.co.za/dashboard/individual/cvs](https://www.sebenzahub.co.za/dashboard/individual/cvs)
 
-Drop in any existing CV — Word or PDF, in whatever shape it's in. Don't rewrite it first. The AI is going to tell you what to fix; uploading the messy version is the point.
+Click **Upload CV** and drop in any existing CV — Word or PDF, in whatever shape it's in. Don't rewrite it first. The AI is going to tell you what to fix; uploading the messy version is the point.
 
 The full upload walkthrough — including the CV Builder if you don't have a CV to upload — is in [[01 How-To Documents/individual/05-uploading-a-cv|Chapter 5]].
 
 ### 3. Run a CV Review (2 minutes)
 
-From the same **My CVs** page, click **Run CV Review** on the CV you just uploaded.
+Open the CV Review page directly: [https://www.sebenzahub.co.za/dashboard/individual/cv-review](https://www.sebenzahub.co.za/dashboard/individual/cv-review)
 
-The review takes 30–60 seconds. You'll see a multi-tab dashboard with up to 14 different analyses — overall score, ATS friendliness, keyword fit, formatting, missing sections, and more. Read the **Overall Score** and the top three improvement suggestions. That's it for now.
+(Or click **CV Review** in the sidebar under *Build Profile*.)
+
+Pick the CV you just uploaded and click **Run Review**. It takes 30–60 seconds. You'll see a multi-tab dashboard with up to 14 different analyses — overall score, ATS friendliness, keyword fit, formatting, missing sections, and more. Read the **Overall Score** and the top three improvement suggestions. That's it for now.
 
 The full breakdown of every tab and what each score means is in [[01 How-To Documents/individual/06-cv-review|Chapter 6]].
 

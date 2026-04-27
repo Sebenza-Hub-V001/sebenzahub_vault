@@ -125,7 +125,7 @@ Market Radar tells you what's moving *out there*. Career Pulse tells you where *
 
 **How to use it.**
 
-1. Open **Career Pulse** (`/dashboard/individual/career-pulse`). Generate a fresh report.
+1. Open **Career Pulse**: [https://www.sebenzahub.co.za/dashboard/individual/career-pulse](https://www.sebenzahub.co.za/dashboard/individual/career-pulse). Generate a fresh report.
 
 ![[i-ch22-career-pulse-report.png]]
 

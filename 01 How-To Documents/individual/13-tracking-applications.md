@@ -24,7 +24,7 @@ Before you get into the kanban boards and analytics, the foundation is the simpl
 
 **Why it matters.** Job seekers apply to dozens of roles in parallel, and losing track means missed interviews and rescinded offers. Keeping tracking accessible on the entry tier is a trust signal — Sebenza Hub gets paid when you get hired, not when you click apply, and the tracker is the proof of that. Without this, the platform would be just another job board.
 
-**How to use it.** Open **My Applications** (`/dashboard/individual/applications`) — the flat list view. Sort by date, status, or company. Click into any application to see full detail and history. This view is your daily ground truth; everything else in this chapter is built on top of it.
+**How to use it.** Open **My Applications**: [https://www.sebenzahub.co.za/dashboard/individual/applications](https://www.sebenzahub.co.za/dashboard/individual/applications) — the flat list view. Sort by date, status, or company. Click into any application to see full detail and history. This view is your daily ground truth; everything else in this chapter is built on top of it.
 
 ![[i-ch13-my-applications-list.png]]
 
@@ -36,9 +36,9 @@ The Track Applications section of the dashboard has nine pages, but you only nee
 
 | Page | What it's for | How often you'll use it |
 |------|---------------|-------------------------|
-| **My Applications** (`/applications`) | Flat list of every application, sortable | Almost every visit |
-| **Application Tracker** (`/application-tracker`) | Visual pipeline (kanban) view | A few times a week |
-| **Inbox** (`/inbox`) | Messages from recruiters and employers | Every visit |
+| **My Applications** — [open](https://www.sebenzahub.co.za/dashboard/individual/applications) | Flat list of every application, sortable | Almost every visit |
+| **Application Tracker** — [open](https://www.sebenzahub.co.za/dashboard/individual/application-tracker) | Visual pipeline (kanban) view | A few times a week |
+| **Inbox** — [open](https://www.sebenzahub.co.za/dashboard/individual/inbox) | Messages from recruiters and employers | Every visit |
 
 The other six pages are useful but not essential right away:
 
@@ -76,7 +76,7 @@ You can't always tell which one. But the right move is the same in all three cas
 
 ## Application Tracker (the kanban view)
 
-Open **Application Tracker** (`/dashboard/individual/application-tracker`). It shows your applications grouped into pipeline columns: New, Screening, Interview, Offer, Placed, Rejected, Withdrawn.
+Open **Application Tracker**: [https://www.sebenzahub.co.za/dashboard/individual/application-tracker](https://www.sebenzahub.co.za/dashboard/individual/application-tracker). It shows your applications grouped into pipeline columns: New, Screening, Interview, Offer, Placed, Rejected, Withdrawn.
 
 This view is the most useful one when you have more than three or four applications running. You can:
 
@@ -114,7 +114,7 @@ Don't over-engineer this. Three or four consistent tags beat fifteen one-off one
 
 ## Follow-up reminders
 
-Go to **Follow-up Reminders** (`/dashboard/individual/follow-up-reminders`).
+Open **Follow-up Reminders**: [https://www.sebenzahub.co.za/dashboard/individual/follow-up-reminders](https://www.sebenzahub.co.za/dashboard/individual/follow-up-reminders)
 
 The platform can remind you to follow up on an application after a set period of silence. Standard cadence:
 
@@ -138,7 +138,7 @@ If they don't respond to the second follow-up, mark the application as effective
 
 ## The Inbox
 
-**Inbox** (`/dashboard/individual/inbox`) is where recruiters and employers reach you, and where you reply. It's a threaded messaging interface, like email but tied to specific applications.
+**Inbox** — [https://www.sebenzahub.co.za/dashboard/individual/inbox](https://www.sebenzahub.co.za/dashboard/individual/inbox) — is where recruiters and employers reach you, and where you reply. It's a threaded messaging interface, like email but tied to specific applications.
 
 A few things to know:
 
@@ -157,7 +157,7 @@ A few things to know:
 
 **How to use it.**
 
-Open **Application Analytics** (`/dashboard/individual/application-analytics`) once you have at least 10 applications. Before that, the data is too thin to be useful.
+Open **Application Analytics**: [https://www.sebenzahub.co.za/dashboard/individual/application-analytics](https://www.sebenzahub.co.za/dashboard/individual/application-analytics) — once you have at least 10 applications. Before that, the data is too thin to be useful.
 
 It shows:
 
@@ -178,7 +178,7 @@ Don't open Analytics every day. Look at it every two or three weeks, when you ha
 
 These two pages look similar at first glance and are easy to confuse. They are different surfaces for different uses, and you'll touch each weekly.
 
-### Application Portal (`/dashboard/individual/portal`)
+### Application Portal — [https://www.sebenzahub.co.za/dashboard/individual/portal](https://www.sebenzahub.co.za/dashboard/individual/portal)
 
 The Application Portal is your day-to-day applications control centre. It opens on three tabs — **Applications**, **Offers**, **Analytics** — with both list and kanban views of the applications tab. Above the tabs, the page surfaces:
 
@@ -189,7 +189,7 @@ The Application Portal is your day-to-day applications control centre. It opens 
 
 Open the Portal whenever you need to act on a specific application: change a stage, draft a follow-up, log an offer. It's the surface where work happens.
 
-### Candidate Hub (`/dashboard/individual/candidate-hub`)
+### Candidate Hub — [https://www.sebenzahub.co.za/dashboard/individual/candidate-hub](https://www.sebenzahub.co.za/dashboard/individual/candidate-hub)
 
 The Candidate Hub is the wider career command centre. It uses eight tabs — **Overview**, **Intelligence**, **Applications**, **Practice Arena**, **Wellbeing**, **Skills**, **Profile & Docs**, **Achievements** — to pull together everything that's happening across your hunt: AI recommendations, recent application activity, momentum, weekly velocity, ghost alerts, practice prep, skill progress, profile completeness, and badges.
 

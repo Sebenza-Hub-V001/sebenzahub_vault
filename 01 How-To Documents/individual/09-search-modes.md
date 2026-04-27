@@ -18,11 +18,11 @@ What follows is short: the three modes, when each is best, and how to read the s
 
 ## The three modes
 
-| Mode | Route | Best for |
-|------|-------|----------|
-| **All Jobs** | `/dashboard/individual/all-jobs` | Browsing the full market, getting a sense of what's out there |
-| **Auto Match** | `/dashboard/individual/auto-match` | Letting AI surface roles that fit your profile |
-| **Manual Search** | `/dashboard/individual/manual-search` | When you have specific criteria in mind (salary, location, remote, industry) |
+| Mode | Open it | Best for |
+|------|---------|----------|
+| **All Jobs** | [https://www.sebenzahub.co.za/dashboard/individual/all-jobs](https://www.sebenzahub.co.za/dashboard/individual/all-jobs) | Browsing the full market, getting a sense of what's out there |
+| **Auto Match** | [https://www.sebenzahub.co.za/dashboard/individual/auto-match](https://www.sebenzahub.co.za/dashboard/individual/auto-match) | Letting AI surface roles that fit your profile |
+| **Manual Search** | [https://www.sebenzahub.co.za/dashboard/individual/manual-search](https://www.sebenzahub.co.za/dashboard/individual/manual-search) | When you have specific criteria in mind (salary, location, remote, industry) |
 
 Use them roughly like this:
 
@@ -38,7 +38,7 @@ Use them roughly like this:
 
 **Why it matters.** This is the front door. Friction here loses you to Pnet, CareerJunction, or LinkedIn before you've even begun, so it's free on every plan. For Sebenza Hub it's also the SEO surface — every indexed job page is an acquisition funnel. For you it means you can do the obvious "what's out there in Cape Town?" search without paying anything.
 
-**How to use it.** Open **All Jobs** (`/dashboard/individual/all-jobs`), type a keyword (a role, a skill, a company), set the location, and scroll. The basic filters live in the sidebar. If your search returns hundreds of results and you need to cut them down, that's the cue to switch to Advanced Search (next section).
+**How to use it.** Open **All Jobs**: [https://www.sebenzahub.co.za/dashboard/individual/all-jobs](https://www.sebenzahub.co.za/dashboard/individual/all-jobs) — type a keyword (a role, a skill, a company), set the location, and scroll. The basic filters live in the sidebar. If your search returns hundreds of results and you need to cut them down, that's the cue to switch to Advanced Search (next section).
 
 ![[i-ch09-all-jobs-results.png]]
 
@@ -107,7 +107,7 @@ Auto Match is only as good as the input. If your profile is thin, your matches w
 
 **Why it matters.** Serious job hunters filter hard. The difference between 500 results and 12 relevant ones is the difference between actually applying and giving up. The advanced filters are usually the first paywall you'll hit on the platform — Standard unlocks them, and the productivity jump from basic to advanced is substantial once you know what you're looking for.
 
-**How to use it.** Open **Manual Search** (`/dashboard/individual/manual-search`). Set the filters you actually care about — don't add filters for the sake of it. Save the result view if it's a search you'll re-run (Chapter 10 covers that). The same filter set is available inside Saved Searches.
+**How to use it.** Open **Manual Search**: [https://www.sebenzahub.co.za/dashboard/individual/manual-search](https://www.sebenzahub.co.za/dashboard/individual/manual-search). Set the filters you actually care about — don't add filters for the sake of it. Save the result view if it's a search you'll re-run (Chapter 10 covers that). The same filter set is available inside Saved Searches.
 
 Manual Search is the precision tool. You set the filters yourself instead of letting AI infer them.
 

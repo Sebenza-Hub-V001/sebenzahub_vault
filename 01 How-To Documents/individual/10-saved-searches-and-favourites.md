@@ -37,7 +37,7 @@ Use both. They serve different purposes.
 
 **How to use it.**
 
-Go to **Saved Searches** (`/dashboard/individual/saved-searches`) to manage them. To create one, run a search you like in **Manual Search** (Chapter 9), then save the criteria.
+Open **Saved Searches**: [https://www.sebenzahub.co.za/dashboard/individual/saved-searches](https://www.sebenzahub.co.za/dashboard/individual/saved-searches) — to manage them. To create one, run a search you like in **Manual Search** (Chapter 9), then save the criteria.
 
 ![[i-ch10-saved-search-create-dialog.png]]
 
@@ -88,7 +88,7 @@ Saved searches are not set-and-forget. They get better as you tune them.
 
 **How to use it.**
 
-Go to **Favourites** (`/dashboard/individual/favourites`) to see your bookmarked jobs. To add one, click the favourite icon (usually a star or heart) on any job listing.
+Open **Favourites**: [https://www.sebenzahub.co.za/dashboard/individual/favourites](https://www.sebenzahub.co.za/dashboard/individual/favourites) — to see your bookmarked jobs. To add one, click the favourite icon (usually a star or heart) on any job listing.
 
 ![[i-ch10-favourites-list.png]]
 
