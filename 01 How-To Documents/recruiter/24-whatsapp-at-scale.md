@@ -127,7 +127,7 @@ Campaigns are bulk WhatsApp messages sent to a target audience — your equivale
 1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns](https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns).
 2. Click **+ New campaign**.
 3. Pick the audience:
-   - A talent pool (Chapter 14)
+   - A talent pool (Chapter 12)
    - A custom filter (e.g. all candidates with `whatsappConsent: true` AND `tag:senior_dev`)
    - A list you upload manually
 4. Pick the **template** — must be a WhatsApp-approved template

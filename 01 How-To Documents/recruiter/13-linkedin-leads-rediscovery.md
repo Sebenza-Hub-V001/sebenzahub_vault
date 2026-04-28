@@ -1,5 +1,5 @@
 ---
-title: "Chapter 13 — LinkedIn Leads and Talent Rediscovery"
+title: "Chapter 13 — Talent Rediscovery and LinkedIn Leads"
 type: concept
 created: 2026-04-09
 updated: 2026-04-20
@@ -8,82 +8,20 @@ status: draft
 user-types: [recruiter]
 ---
 
-# Chapter 13 — LinkedIn Leads and Talent Rediscovery
+# Chapter 13 — Talent Rediscovery and LinkedIn Leads
 
-These two tools are the **warm-but-not-yet-engaged** sources. LinkedIn Leads brings people into your database from a single specific channel. Talent Rediscovery finds people *already* in your database who you've forgotten about. Both are higher-yield than cold sourcing because the candidate has at least one prior touchpoint with you or with a context that makes you credible.
+These two tools are the **warm-but-not-yet-engaged** sources. Talent Rediscovery finds people *already* in your database who you've forgotten about. LinkedIn Leads brings people into your database from a single specific channel. Both are higher-yield than cold sourcing because the candidate has at least one prior touchpoint with you or with a context that makes you credible.
 
-## Why they get their own chapter
+## Where they sit in the warm-to-cold order
 
-Cold sourcing (Chapter 12) is slow and expensive. Internal database search (AI Search) is fast but limited to people already in your system. These two tools sit in between:
+By the time you reach this chapter you've already worked Talent Pools and Talent CRM (Chapter 12) — your warmest, most-engaged candidates. Cold sourcing channels (Chapter 14) are still ahead. The two tools in this chapter sit *between* the two extremes:
 
+- **Talent Rediscovery** — the candidate *was* in your database for a previous role and has gone quiet. They're not cold; they're dormant. Reach for them first.
 - **LinkedIn Leads** — the target has a LinkedIn profile that hints at fit; they're a "warm import" rather than a cold reach.
-- **Talent Rediscovery** — the target *was* in your database for a previous role and has gone quiet. They're not cold; they're dormant.
 
 Used well, these two together fill 30–40% of your senior roles. Used poorly, they become a graveyard of unanswered outreach.
 
-## 1. LinkedIn Leads
-
-**Page:** [https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads](https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads)
-
-LinkedIn Leads is the integration point between LinkedIn and Sebenza Hub. It pulls in people who match a target profile, scores and enriches them with AI, and lets you nurture them through sequences before converting them into full candidate records.
-
-This page sits on top of **LinkedIn Sync** (covered in Chapter 12) — Sync brings the data in, LinkedIn Leads is what you do with it.
-
-### The flow
-
-```
-Define a target profile in LinkedIn Leads
-   ↓
-Import matching profiles (manually or via the LinkedIn integration)
-   ↓
-AI scores and enriches each lead:
-  ├─ Match score against your active jobs
-  ├─ Inferred skills, sectors, seniority
-  ├─ Engagement likelihood
-  └─ Suggested outreach tone
-   ↓
-Lead enters the nurture sequence
-   ↓
-On positive response → convert to full candidate record
-   ↓
-Candidate enters the standard sourcing pool
-```
-
-### Setting up a lead source
-
-1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads](https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads) and click **+ New lead source**.
-2. Pick the import method:
-   - **Manual paste** — paste a list of LinkedIn URLs you've collected
-   - **CSV upload** — upload a spreadsheet of leads (e.g. exported from LinkedIn Sales Navigator)
-   - **API integration** — if you have the LinkedIn integration enabled, you can pull directly
-3. Tag the source so you can later measure which lead sources actually convert. ("PyConZA 2025 attendee list", "LinkedIn group X", etc.)
-4. Set the default nurture sequence (or create a new one).
-
-![[r-ch13-linkedin-leads-import.png]]
-
-### Nurturing leads
-
-The platform's sequence engine (Chapter 23) sends multi-touch outreach automatically. A typical lead nurture:
-
-- **Day 0** — light first touch via LinkedIn ("noticed your background in X, wanted to connect")
-- **Day 4** — follow up with a specific role link if they didn't respond
-- **Day 10** — final follow-up across a different channel (email)
-- **Exit rule** — any reply pauses the sequence and routes to your inbox
-
-The point of nurturing is *not* to close them on the first touch. Most leads respond on touch 2 or 3. Don't escalate aggressively; you're building a relationship, not running a sales blitz.
-
-### When to use LinkedIn Leads
-
-- **Senior and specialised roles** where LinkedIn is the dominant talent pool
-- **Competitor poaching** — you've identified specific people at a specific competitor
-- **Geographic expansion** — a new city where you don't have an existing database
-- **Building your talent pool over time** — every lead that doesn't convert today is in your database for next quarter
-
-### Compliance note
-
-LinkedIn outreach is governed by both LinkedIn's own terms and POPIA. The platform's integration handles rate limiting and connection-request etiquette automatically, but **you** are responsible for the content of messages and for honouring opt-outs. A reply of "no thanks" or "please don't message me again" must be added to your suppression list immediately. Chapter 27 covers this.
-
-## 2. Three features for resurfacing past candidates
+## 1. Three features for resurfacing past candidates
 
 Past candidates are the cheapest source of qualified hires you have. Sebenza Hub layers three features on this — one to surface forgotten candidates against new roles, one to drive structured re-engagement, and one purpose-built for executive-level rediscovery.
 
@@ -146,6 +84,68 @@ That candidate is probably more experienced now, possibly looking again, and far
 - **As a substitute for fresh sourcing.** Rediscovery refills the pipeline; it doesn't replace new sourcing for high-volume roles.
 - **For candidates who explicitly said "don't contact me again."** The platform should respect suppression lists, but always double-check before sending.
 
+## 2. LinkedIn Leads
+
+**Page:** [https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads](https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads)
+
+LinkedIn Leads is the integration point between LinkedIn and Sebenza Hub. It pulls in people who match a target profile, scores and enriches them with AI, and lets you nurture them through sequences before converting them into full candidate records.
+
+This page sits on top of **LinkedIn Sync** (covered in Chapter 14) — Sync brings the data in, LinkedIn Leads is what you do with it.
+
+### The flow
+
+```
+Define a target profile in LinkedIn Leads
+   ↓
+Import matching profiles (manually or via the LinkedIn integration)
+   ↓
+AI scores and enriches each lead:
+  ├─ Match score against your active jobs
+  ├─ Inferred skills, sectors, seniority
+  ├─ Engagement likelihood
+  └─ Suggested outreach tone
+   ↓
+Lead enters the nurture sequence
+   ↓
+On positive response → convert to full candidate record
+   ↓
+Candidate enters the standard sourcing pool
+```
+
+### Setting up a lead source
+
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads](https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads) and click **+ New lead source**.
+2. Pick the import method:
+   - **Manual paste** — paste a list of LinkedIn URLs you've collected
+   - **CSV upload** — upload a spreadsheet of leads (e.g. exported from LinkedIn Sales Navigator)
+   - **API integration** — if you have the LinkedIn integration enabled, you can pull directly
+3. Tag the source so you can later measure which lead sources actually convert. ("PyConZA 2025 attendee list", "LinkedIn group X", etc.)
+4. Set the default nurture sequence (or create a new one).
+
+![[r-ch13-linkedin-leads-import.png]]
+
+### Nurturing leads
+
+The platform's sequence engine (Chapter 23) sends multi-touch outreach automatically. A typical lead nurture:
+
+- **Day 0** — light first touch via LinkedIn ("noticed your background in X, wanted to connect")
+- **Day 4** — follow up with a specific role link if they didn't respond
+- **Day 10** — final follow-up across a different channel (email)
+- **Exit rule** — any reply pauses the sequence and routes to your inbox
+
+The point of nurturing is *not* to close them on the first touch. Most leads respond on touch 2 or 3. Don't escalate aggressively; you're building a relationship, not running a sales blitz.
+
+### When to use LinkedIn Leads
+
+- **Senior and specialised roles** where LinkedIn is the dominant talent pool
+- **Competitor poaching** — you've identified specific people at a specific competitor
+- **Geographic expansion** — a new city where you don't have an existing database
+- **Building your talent pool over time** — every lead that doesn't convert today is in your database for next quarter
+
+### Compliance note
+
+LinkedIn outreach is governed by both LinkedIn's own terms and POPIA. The platform's integration handles rate limiting and connection-request etiquette automatically, but **you** are responsible for the content of messages and for honouring opt-outs. A reply of "no thanks" or "please don't message me again" must be added to your suppression list immediately. Chapter 27 covers this.
+
 ## Pro tip: link the two tools
 
 LinkedIn Leads brings new people in. Talent Rediscovery resurfaces old people. The same nurture sequences and the same outreach templates work for both — and the platform's analytics treat them similarly. Build one good "warm reach" sequence and reuse it for both contexts.
@@ -176,11 +176,11 @@ LinkedIn Leads brings new people in. Talent Rediscovery resurfaces old people. T
 
 ## Next chapter
 
-[[01 How-To Documents/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+[[01 How-To Documents/recruiter/14-sourcing-channels|Chapter 14 — Sourcing channels: AI Search, AI Sourcing, Talent Discovery]]
 
 ## References
 
 - [[02-concepts/compliance]] — POPIA, opt-outs, suppression lists
 - [[02-concepts/ai-features]] — AI scoring and enrichment
-- [[01 How-To Documents/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
-- [[01 How-To Documents/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+- [[01 How-To Documents/recruiter/12-talent-pools-crm|Chapter 12 — Talent Pools and Talent CRM]]
+- [[01 How-To Documents/recruiter/14-sourcing-channels|Chapter 14 — Sourcing channels]]

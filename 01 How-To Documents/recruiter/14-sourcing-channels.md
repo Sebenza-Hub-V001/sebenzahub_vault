@@ -1,5 +1,5 @@
 ---
-title: "Chapter 12 — Sourcing channels"
+title: "Chapter 14 — Sourcing channels"
 type: concept
 created: 2026-04-09
 updated: 2026-04-20
@@ -8,11 +8,11 @@ status: draft
 user-types: [recruiter]
 ---
 
-# Chapter 12 — Sourcing channels: AI Search, Talent Discovery, Sourcing
+# Chapter 14 — Sourcing channels: AI Search, AI Sourcing, Talent Discovery
 
 Sebenza Hub has eight sourcing tools. They overlap, they have similar-sounding names, and the difference between them isn't obvious until you've used a few. This chapter is your decoder ring — what each tool is for, when to reach for which one, and the order to try them in for a typical role.
 
-This chapter covers the three "core" sourcing tools: **AI Search**, **Talent Discovery**, and **Candidate Sourcing**. Chapters 13 and 14 cover the other five (LinkedIn Leads, Talent Rediscovery, Talent Pools, Talent CRM, and the Candidates database).
+This chapter covers the three "active search" tools that scan against your database and the broader index: **AI Search**, **AI Sourcing** (a.k.a. Candidate Sourcing), and **Talent Discovery**. By the time you reach this chapter you've already worked Talent Pools / Talent CRM (Chapter 12) and Talent Rediscovery / LinkedIn Leads (Chapter 13). The tools below sit further out on the warm-to-cold gradient — they're what you reach for when the warm channels haven't filled the role.
 
 ## The mental model
 
@@ -122,7 +122,7 @@ Once you have searches you run repeatedly, the platform layers diagnostic and in
 
 **Why it matters.** Building pools manually is tedious and inconsistent across team members. AI generation compresses hours of search-save-tag work into a single prompt, and produces pools that are uniformly tagged and named so the team can actually find them again.
 
-**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool](https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool), click **Generate pool**, type the criteria. The pool appears with all matching candidates pre-loaded. Chapter 14 covers what to do with pools after generation.
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool](https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool), click **Generate pool**, type the criteria. The pool appears with all matching candidates pre-loaded. Chapter 12 covers what to do with pools after generation.
 
 ![[r-ch12-talent-pool-generator-dialog.png]]
 
@@ -156,7 +156,36 @@ Each result shows:
 - **Use the explain panel.** Each result has a "why this match" explanation — learn to read it. Sometimes AI Search includes a candidate for a reason that's wrong (an old CV, a stale skill tag), and the explanation reveals the bug.
 - **Save your searches.** Recurring needs (e.g. "senior backend devs in Cape Town") should be saved searches that surface new candidates as they're added to your database — and then run a Search Health Score check on them quarterly.
 
-## 4. Talent Discovery — passive candidates outside your database
+## 4. AI Sourcing — multi-channel cold outreach
+
+### Candidate Sourcing — _Tier: Standard_
+
+**Page:** [https://www.sebenzahub.co.za/dashboard/recruiter/candidate-sourcing](https://www.sebenzahub.co.za/dashboard/recruiter/candidate-sourcing)
+
+**What this feature is.** Candidate Sourcing (badged **AI Sourcing** in the sidebar) is the multi-channel sourcing and outreach toolset — LinkedIn, niche job boards, community channels — for reaching candidates outside your existing database. Where Talent Discovery (next section) helps you *identify* passive candidates, AI Sourcing helps you *reach them at scale*.
+
+**Why it matters.** Sourcing is the top-of-funnel activity that determines what recruiters can place. Built-in sourcing tools replace 3–4 separate point tools (LinkedIn Recruiter, separate sequence software, niche-board accounts) and keep the data unified in one Sebenza Hub pipeline.
+
+**How to use it.**
+
+1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/candidate-sourcing](https://www.sebenzahub.co.za/dashboard/recruiter/candidate-sourcing).
+2. Build a target audience (filters or imported list).
+3. Craft a multi-step sequence (Day 0 cold message, Day 4 follow-up, Day 10 final touch).
+4. Pick channels per step (Day 0 email, Day 4 LinkedIn message, Day 10 WhatsApp if consent).
+5. Launch the sequence; reply rates feed back into your candidate engagement scores.
+
+### When to use it
+
+- **You have a clear, large target audience** (e.g. "all SQL DBAs in Gauteng with 5+ years")
+- **The role isn't urgent** — sequences need time to play out
+- **You want to build a long-term funnel** — sourcing campaigns also feed your talent pool
+
+### When NOT to use it
+
+- **Single-candidate outreach** — overkill. Just email them.
+- **Without POPIA-compliant consent** for the channels you're using. WhatsApp messages without opt-in are a legal risk; email is generally fine for B2B but check your scenario.
+
+## 5. Talent Discovery — passive candidates outside your database
 
 **Page:** [https://www.sebenzahub.co.za/dashboard/recruiter/talent-discovery](https://www.sebenzahub.co.za/dashboard/recruiter/talent-discovery)
 
@@ -182,33 +211,6 @@ The AI doesn't violate POPIA — it surfaces publicly-available signals. But eve
 - **High-volume junior roles** — far too slow and expensive per candidate. Use direct applications and AI Search.
 - **Roles where you need someone yesterday** — passive sourcing is a slow burn. It pays off over weeks, not days.
 
-## 5. Multi-channel cold outreach
-
-### Candidate Sourcing — _Tier: Standard_
-
-**What this feature is.** Candidate Sourcing is the multi-channel sourcing and outreach toolset — LinkedIn, niche job boards, community channels — for reaching candidates outside your existing database. Where Talent Discovery helps you *identify* passive candidates, Candidate Sourcing helps you *reach them at scale*.
-
-**Why it matters.** Sourcing is the top-of-funnel activity that determines what recruiters can place. Built-in sourcing tools replace 3–4 separate point tools (LinkedIn Recruiter, separate sequence software, niche-board accounts) and keep the data unified in one Sebenza Hub pipeline.
-
-**How to use it.**
-
-1. Open [https://www.sebenzahub.co.za/dashboard/recruiter/candidate-sourcing](https://www.sebenzahub.co.za/dashboard/recruiter/candidate-sourcing).
-2. Build a target audience (filters or imported list).
-3. Craft a multi-step sequence (Day 0 cold message, Day 4 follow-up, Day 10 final touch).
-4. Pick channels per step (Day 0 email, Day 4 LinkedIn message, Day 10 WhatsApp if consent).
-5. Launch the sequence; reply rates feed back into your candidate engagement scores.
-
-### When to use it
-
-- **You have a clear, large target audience** (e.g. "all SQL DBAs in Gauteng with 5+ years")
-- **The role isn't urgent** — sequences need time to play out
-- **You want to build a long-term funnel** — sourcing campaigns also feed your talent pool
-
-### When NOT to use it
-
-- **Single-candidate outreach** — overkill. Just email them.
-- **Without POPIA-compliant consent** for the channels you're using. WhatsApp messages without opt-in are a legal risk; email is generally fine for B2B but check your scenario.
-
 ## 6. LinkedIn as a sync target
 
 ### LinkedIn Sync — _Tier: Premium_
@@ -217,19 +219,20 @@ The AI doesn't violate POPIA — it surfaces publicly-available signals. But eve
 
 **Why it matters.** LinkedIn is still the top source for senior candidates. Sync means you don't have to choose between "the data lives on LinkedIn" and "the data lives in Sebenza Hub" — it lives in both, with Sebenza Hub as the system of record. The Premium tier reflects the LinkedIn API cost.
 
-**How to use it.** Connect your LinkedIn account in Settings ([https://www.sebenzahub.co.za/dashboard/recruiter/settings](https://www.sebenzahub.co.za/dashboard/recruiter/settings)) → **Integrations**. Once connected, sync runs automatically — new leads from LinkedIn appear in your candidate database, and existing candidate records are enriched with current LinkedIn data. Chapter 13 covers the LinkedIn-specific lead-gen flow on top of this sync.
+**How to use it.** Connect your LinkedIn account in Settings ([https://www.sebenzahub.co.za/dashboard/recruiter/settings](https://www.sebenzahub.co.za/dashboard/recruiter/settings)) → **Integrations**. Once connected, sync runs automatically — new leads from LinkedIn appear in your candidate database, and existing candidate records are enriched with current LinkedIn data. The LinkedIn-specific lead-gen flow on top of this sync is covered in Chapter 13.
 
 ![[r-ch12-linkedin-sync.png]]
 
 ## The "first hour" sourcing routine
 
-When you take on a new role, the right sequence in the first hour:
+When you take on a new role, the right sequence in the first hour — warm to cold, internal to external:
 
-1. **5 min — AI Search** your existing database with a specific query. Save 5–10 strong matches.
-2. **5 min — Talent Pools** (Chapter 14) — check if you already have a relevant pool you can pull from.
-3. **10 min — Talent Rediscovery** (Chapter 13) — surface past candidates who fit but were placed elsewhere or paused.
-4. **20 min — Talent Discovery** — build a passive shortlist if the role warrants it.
-5. **20 min — Candidate Sourcing** — kick off a sequence if you'll need volume over the coming weeks.
+1. **5 min — Talent Pools** (Chapter 12) — check if you already have a relevant pool you can pull from. Cheapest fill; candidates already know you.
+2. **5 min — Talent Rediscovery** (Chapter 13) — surface past candidates who fit but were placed elsewhere or paused.
+3. **5 min — AI Search** of your existing database with a specific query. Save 5–10 strong matches.
+4. **20 min — Candidate Sourcing** (this chapter) — kick off a sequence if you'll need volume over the coming weeks.
+5. **20 min — Talent Discovery** (this chapter) — build a passive shortlist if the role warrants it.
+6. **5 min — LinkedIn Leads** (Chapter 13) — review the latest enriched leads to add to outreach.
 
 That's your hour. By the end, you've checked every internal source and started two external channels. Most senior roles can be filled with the candidates this hour produces.
 
@@ -280,12 +283,12 @@ Watch your usage on [https://www.sebenzahub.co.za/dashboard/recruiter/billing](h
 
 ## Next chapter
 
-[[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
+[[01 How-To Documents/recruiter/15-screening-config|Chapter 15 — Configuring screening at the job level]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI capabilities behind these tools
 - [[02-concepts/compliance]] — POPIA implications for cold outreach
-- [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
-- [[01 How-To Documents/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+- [[01 How-To Documents/recruiter/12-talent-pools-crm|Chapter 12 — Talent Pools and Talent CRM]]
+- [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — Talent Rediscovery and LinkedIn Leads]]
 - [[01 How-To Documents/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

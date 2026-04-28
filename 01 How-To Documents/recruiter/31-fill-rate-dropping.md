@@ -66,7 +66,7 @@ You're looking for patterns across multiple jobs, not just one. If three jobs al
 
 In [https://www.sebenzahub.co.za/dashboard/recruiter/analytics](https://www.sebenzahub.co.za/dashboard/recruiter/analytics), look at **source effectiveness** — which channels brought you placements last quarter vs this one. If your top channel has gone quiet (LinkedIn algorithm change, Talent Pool gone stale, AI Search returning weak matches), that's the cause.
 
-**Try: #114 Search Market Pulse _(Premium)_.** Why this helps in this scenario: it analyses your saved-search criteria against live SA market signals — candidate supply, demand shifts, salary movement, geographic hotspots — so you can see whether the channel went quiet or whether the market moved. Run it from any saved search on [https://www.sebenzahub.co.za/dashboard/recruiter/candidates](https://www.sebenzahub.co.za/dashboard/recruiter/candidates) (full walkthrough in [[01 How-To Documents/recruiter/12-sourcing-channels|Chapter 12]]).
+**Try: #114 Search Market Pulse _(Premium)_.** Why this helps in this scenario: it analyses your saved-search criteria against live SA market signals — candidate supply, demand shifts, salary movement, geographic hotspots — so you can see whether the channel went quiet or whether the market moved. Run it from any saved search on [https://www.sebenzahub.co.za/dashboard/recruiter/candidates](https://www.sebenzahub.co.za/dashboard/recruiter/candidates) (full walkthrough in [[01 How-To Documents/recruiter/14-sourcing-channels|Chapter 14]]).
 
 **Try: #134 Screening Market Intelligence _(Premium)_.** Why this helps in this scenario: it tells you what candidates for the affected role *currently* look like — salary bands, supply depth, competitor activity — so you know if your offer or sourcing footprint is now off-market. Surface inside the screening config covered in [[01 How-To Documents/recruiter/15-screening-config|Chapter 15]].
 
@@ -94,7 +94,7 @@ By the time you've worked through the diagnostic, the cause usually fits one of 
 
 **Symptom:** Top sourcing channel from last quarter is producing fewer or weaker candidates this quarter. Application volume is down across multiple jobs.
 
-**Fix:** Diversify. If LinkedIn used to be your top channel and has gone quiet, lean harder on AI Search of your existing database (Chapter 12), Talent Rediscovery (Chapter 13), or paid recruitment marketing (Chapter 30).
+**Fix:** Diversify. If LinkedIn used to be your top channel and has gone quiet, lean harder on AI Search of your existing database (Chapter 14), Talent Rediscovery (Chapter 13), Talent Pools (Chapter 12), or paid recruitment marketing (Chapter 30).
 
 ### 4. Time-to-fill has crept up
 

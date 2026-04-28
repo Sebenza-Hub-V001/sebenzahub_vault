@@ -289,12 +289,13 @@ Posting is the start. Knowing whether it's actually going to fill — early enou
 
 ## Next chapter
 
-[[01 How-To Documents/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels: AI Search, Talent Discovery, Sourcing]]
+[[01 How-To Documents/recruiter/12-talent-pools-crm|Chapter 12 — Talent Pools and Talent CRM]]
 
 ## References
 
 - [[02-concepts/ai-features]] — AI JD Writer capabilities
 - [[02-concepts/application-lifecycle]] — Status enum and pipeline stages
-- [[01 How-To Documents/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
+- [[01 How-To Documents/recruiter/12-talent-pools-crm|Chapter 12 — Talent Pools and Talent CRM]]
+- [[01 How-To Documents/recruiter/14-sourcing-channels|Chapter 14 — Sourcing channels]]
 - [[01 How-To Documents/recruiter/15-screening-config|Chapter 15 — Screening configuration at the job level]]
 - [[01 How-To Documents/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]

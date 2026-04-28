@@ -48,10 +48,12 @@ Every chapter ends with a **Checklist** — tick it off before moving on.
 
 ## Part 4 — Post Jobs and Source Talent
 
+Sourcing flows warm-to-cold: start with the candidates you already have a relationship with (Ch.12), then resurface dormant and LinkedIn warm-imports (Ch.13), then reach for active database search and cold sourcing (Ch.14).
+
 11. [[01 How-To Documents/recruiter/11-posting-a-job|Posting a job (with AI JD Writer)]]
-12. [[01 How-To Documents/recruiter/12-sourcing-channels|Sourcing channels: AI Search, Talent Discovery, Sourcing]]
-13. [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|LinkedIn Leads and Talent Rediscovery]]
-14. [[01 How-To Documents/recruiter/14-talent-pools-crm|Talent Pools and Talent CRM]]
+12. [[01 How-To Documents/recruiter/12-talent-pools-crm|Talent Pools and Talent CRM]]
+13. [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Talent Rediscovery and LinkedIn Leads]]
+14. [[01 How-To Documents/recruiter/14-sourcing-channels|Sourcing channels: AI Search, AI Sourcing, Talent Discovery]]
 
 ## Part 5 — Screen, Interview, Offer, Place
 

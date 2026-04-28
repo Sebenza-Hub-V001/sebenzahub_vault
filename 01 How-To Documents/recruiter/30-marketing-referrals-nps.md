@@ -168,7 +168,7 @@ A detractor response is a fire alarm. The right sequence:
 
 1. **Within 24 hours, reply personally.** Not a template. Acknowledge their score and ask what went wrong.
 2. **Within 48 hours, schedule a call** if their concern is substantive. Email back-and-forth on a complaint usually escalates; voice de-escalates.
-3. **Document the conversation** in their record (Chapter 14 / 22).
+3. **Document the conversation** in their record (Chapter 12 / 22).
 4. **Fix what you can.** If they were ghosted, apologise and explain why. If they were treated rudely, address it with the team member involved.
 5. **Follow up two weeks later** to confirm the issue is resolved (or that they appreciate the response).
 
@@ -288,6 +288,6 @@ This is the loop. Recruitment marketing fills the top, NPS identifies the gold, 
 
 - [[02-concepts/ai-features]] — AI scoring of NPS sentiment and references
 - [[01 How-To Documents/recruiter/06-ai-profile-assets|Chapter 6 — AI profile assets (NPS feeds Reputation)]]
-- [[01 How-To Documents/recruiter/14-talent-pools-crm|Chapter 14 — Talent Pools and Talent CRM]]
+- [[01 How-To Documents/recruiter/12-talent-pools-crm|Chapter 12 — Talent Pools and Talent CRM]]
 - [[01 How-To Documents/recruiter/29-career-site-brand|Chapter 29 — Career Site, Brand Page, and Job Boards]]
 - [[01 How-To Documents/recruiter/31-fill-rate-dropping|Chapter 31 — Troubleshooting: fill rate dropping]]

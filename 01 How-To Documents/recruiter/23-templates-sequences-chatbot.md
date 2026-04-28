@@ -78,7 +78,7 @@ These cover 80% of your daily messaging. The other 20% is genuinely personal and
 
 **Why it matters.** 60% of candidate responses happen after email 3. Sequences automate the multi-touch follow-ups recruiters know they should do but stop doing manually after the first week of a busy desk — which raises reply rates by 2–3×.
 
-**How to use it.** Build a sequence in [https://www.sebenzahub.co.za/dashboard/recruiter/sequences](https://www.sebenzahub.co.za/dashboard/recruiter/sequences) (full walkthrough below). Enroll candidates from the Pipeline, from a talent pool (Chapter 14), or via a workflow automation rule. Always set the exit rules so the sequence pauses the moment a candidate replies.
+**How to use it.** Build a sequence in [https://www.sebenzahub.co.za/dashboard/recruiter/sequences](https://www.sebenzahub.co.za/dashboard/recruiter/sequences) (full walkthrough below). Enroll candidates from the Pipeline, from a talent pool (Chapter 12), or via a workflow automation rule. Always set the exit rules so the sequence pauses the moment a candidate replies.
 
 ![[r-ch23-email-sequences-builder.png]]
 

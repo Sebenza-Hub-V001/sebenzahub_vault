@@ -1,5 +1,5 @@
 ---
-title: "Chapter 14 — Talent Pools and Talent CRM"
+title: "Chapter 12 — Talent Pools and Talent CRM"
 type: concept
 created: 2026-04-09
 updated: 2026-04-20
@@ -8,9 +8,9 @@ status: draft
 user-types: [recruiter]
 ---
 
-# Chapter 14 — Talent Pools and Talent CRM
+# Chapter 12 — Talent Pools and Talent CRM
 
-Sourcing chapters 12 and 13 are about *finding* candidates. This chapter is about *keeping them organised once you've found them*. Talent Pools group candidates by characteristic; Talent CRM tracks the relationship over time. Together they're the difference between an agency that re-sources from scratch every month and an agency that compounds its database into a moat.
+This chapter is about *keeping candidates organised* — the warm-relationship layer that sits at the front of every sourcing decision. Talent Pools group candidates by characteristic; Talent CRM tracks the relationship over time. Together they're the difference between an agency that re-sources from scratch every month and an agency that compounds its database into a moat. Reach for these *first* — before LinkedIn (Chapter 13) or AI sourcing channels (Chapter 14) — because the cheapest fill is the one you already have a relationship with.
 
 ## The base layer — Candidate Management
 
@@ -249,11 +249,11 @@ The platform has to handle both arrival (you've just signed up with 5,000 candid
 
 ## Next chapter
 
-[[01 How-To Documents/recruiter/15-screening-config|Chapter 15 — Configuring screening at the job level]]
+[[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — Talent Rediscovery and LinkedIn Leads]]
 
 ## References
 
-- [[01 How-To Documents/recruiter/12-sourcing-channels|Chapter 12 — Sourcing channels]]
-- [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — LinkedIn Leads and Talent Rediscovery]]
+- [[01 How-To Documents/recruiter/13-linkedin-leads-rediscovery|Chapter 13 — Talent Rediscovery and LinkedIn Leads]]
+- [[01 How-To Documents/recruiter/14-sourcing-channels|Chapter 14 — Sourcing channels]]
 - [[01 How-To Documents/recruiter/15-screening-config|Chapter 15 — Configuring screening at the job level]]
 - [[01 How-To Documents/recruiter/04.5-how-we-charge|Chapter 4.5 — How Sebenza Hub charges you]]
