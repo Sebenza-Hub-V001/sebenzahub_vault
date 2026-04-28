@@ -10,14 +10,12 @@ user-types: [business]
 
 # Chapter 5 — Posting jobs
 
-A requisition is the unit of work in a corporate hiring system: one approved role, one budget, one pipeline, one hire (usually). This chapter is about getting that role drafted, configured, and published — the four tools in the **Post Jobs** sidebar group.
+A requisition is the unit of work in a corporate hiring system: one approved role, one budget, one pipeline, one hire (usually). This chapter is about getting that role drafted, configured, and published. The four pages you'll touch span three sidebar groups, because each tool lives where you'll use it day-to-day rather than only at posting time:
 
-The pages you'll use:
-
-- **Jobs** ([https://www.sebenzahub.co.za/dashboard/business/jobs](https://www.sebenzahub.co.za/dashboard/business/jobs)) — the requisition list and the create/edit form.
-- **AI JD Writer** ([https://www.sebenzahub.co.za/dashboard/business/ai-writer](https://www.sebenzahub.co.za/dashboard/business/ai-writer)) — drafts the job description from a few seed inputs.
-- **Screening Roles** ([https://www.sebenzahub.co.za/dashboard/business/screening-roles](https://www.sebenzahub.co.za/dashboard/business/screening-roles)) — defines the qualifying questions and screening criteria attached to the role.
-- **Content Repurpose** ([https://www.sebenzahub.co.za/dashboard/business/content-repurpose](https://www.sebenzahub.co.za/dashboard/business/content-repurpose)) — turns the published role into channel-shaped variants for distribution.
+- **Jobs** ([https://www.sebenzahub.co.za/dashboard/business/jobs](https://www.sebenzahub.co.za/dashboard/business/jobs)) — the requisition list and the create/edit form. _Post Jobs sidebar group._
+- **AI JD Writer** ([https://www.sebenzahub.co.za/dashboard/business/ai-writer](https://www.sebenzahub.co.za/dashboard/business/ai-writer)) — drafts the job description from a few seed inputs. _Post Jobs sidebar group._
+- **Screening Roles** ([https://www.sebenzahub.co.za/dashboard/business/screening-roles](https://www.sebenzahub.co.za/dashboard/business/screening-roles)) — defines the qualifying questions and screening criteria attached to the role. _Screen & Evaluate sidebar group_ — you'll configure it when you create the requisition, then return to it from the screening surface as criteria evolve.
+- **Content Repurpose** ([https://www.sebenzahub.co.za/dashboard/business/content-repurpose](https://www.sebenzahub.co.za/dashboard/business/content-repurpose)) — turns the published role into channel-shaped variants for distribution. _Communication & Automation sidebar group_ — sits next to Brand Voice because it's a content tool, not a posting tool.
 
 Read end-to-end the first time. After that, treat each section as reference — most teams will draft a JD with the AI, configure screening, publish, and only then think about distribution.
 
@@ -97,7 +95,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Screening Roles — _Tier: Standard_
 
-**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/screening-roles](https://www.sebenzahub.co.za/dashboard/business/screening-roles), in the **Post Jobs** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/screening-roles](https://www.sebenzahub.co.za/dashboard/business/screening-roles), in the **Screen & Evaluate** sidebar group. You'll configure it during requisition setup, then revisit it from the screening surface as criteria evolve — see also [[01 How-To Documents/corporate/07-screening-and-evaluating|Chapter 7]].
 
 **What it does.** Screening Roles is where you define the qualifying questions and minimum criteria that attach to a role — work eligibility, notice period, salary expectation, must-have qualifications, location preferences. The criteria flow into the application form candidates fill out and into the screening tools in [[01 How-To Documents/corporate/07-screening-and-evaluating|Chapter 7]] (notably the Screening Bot).
 
@@ -113,7 +111,7 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 ### Content Repurpose — _Tier: Premium_
 
-**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/content-repurpose](https://www.sebenzahub.co.za/dashboard/business/content-repurpose), in the **Post Jobs** sidebar group.
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/content-repurpose](https://www.sebenzahub.co.za/dashboard/business/content-repurpose), in the **Communication & Automation** sidebar group, next to Brand Voice — see also [[01 How-To Documents/corporate/11-communication-and-automation|Chapter 11]].
 
 **What it does.** Takes a published job and produces channel-shaped variants: a LinkedIn post, a shorter X/Twitter version, a WhatsApp broadcast snippet, and an internal Slack message. Each variant respects the platform's character and formatting limits and your Brand Voice profile.
 

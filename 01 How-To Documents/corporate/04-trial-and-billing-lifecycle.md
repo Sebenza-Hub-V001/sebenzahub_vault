@@ -10,7 +10,7 @@ user-types: [business]
 
 # Chapter 4 — Trial and billing lifecycle
 
-Every new Business account starts on a **30-day Premium trial**, then lives the rest of its lifespan on whichever paid plan you convert to (or on the Free tier if you let the trial expire). This chapter walks through the lifecycle end-to-end so finance, the account owner, and the TA leader all share the same picture of what happens when. The Billing page lives at [https://www.sebenzahub.co.za/dashboard/business/billing](https://www.sebenzahub.co.za/dashboard/business/billing) in the **Configure Organization** sidebar group — Admin / owner only.
+Every new Business account starts on a **30-day Premium trial**, then lives the rest of its lifespan on whichever paid plan you convert to (or on the Free tier if you let the trial expire). This chapter walks through the lifecycle end-to-end so finance, the account owner, and the TA leader all share the same picture of what happens when. The Billing page lives at [https://www.sebenzahub.co.za/dashboard/business/billing](https://www.sebenzahub.co.za/dashboard/business/billing) in the **Account** sidebar group at the bottom of the dashboard — Admin / owner only.
 
 ## Day 0 — signup
 
@@ -27,8 +27,13 @@ You do not enter card details. You do not pick a plan. The trial is the default.
 During these three weeks the account behaves as a Premium customer in every meaningful way. Standout markers:
 
 - **TrialBanner.** A persistent banner across the top of the dashboard shows the day-count remaining. It's there so the trial end is never a surprise.
+
+![[c-ch04-trial-banner.png]]
+
 - **Hard caps on real-cost items.** Three features that cost real external money per call have per-trial caps: **Background Checks** (2 per trial), **Bulk Export** (5 per trial), and **WhatsApp Campaigns** (50 messages per trial). All other Premium features are unmetered during the trial.
 - **An UpgradeDialog on cap-hit.** If you hit a trial cap or trip a Premium gate that the trial doesn't grant (rare), a centralised upgrade dialog opens with the conversion path. Same dialog opens from the TrialBanner's "Upgrade now" action.
+
+![[c-ch04-upgrade-dialog.png]]
 
 Use this window for a real evaluation. Stand up your team, post real requisitions, run a real pipeline, run the integrations you actually plan to use. Buyers who treat the trial as a real pilot get a real signal; buyers who poke at the dashboard for an hour on day 28 don't.
 
@@ -58,8 +63,16 @@ If you let it expire and want Premium back later, you can subscribe at any time.
 Conversion is a single action from the **Billing** page ([https://www.sebenzahub.co.za/dashboard/business/billing](https://www.sebenzahub.co.za/dashboard/business/billing)):
 
 1. Open the page. The TrialBanner and the page itself surface the conversion call-to-action.
+
+![[c-ch04-billing-page-trial.png]]
+
 2. Pick the plan you want to convert to. The default offered is Premium (the trial set the expectation); Standard is available if your operation doesn't need the Premium-only features.
+
+![[c-ch04-plan-comparison-checkout.png]]
+
 3. Enter card details and confirm. The conversion happens at checkout — there's no separate "activate" step.
+
+![[c-ch04-billing-page-active-paid.png]]
 
 After confirmation, the platform:
 

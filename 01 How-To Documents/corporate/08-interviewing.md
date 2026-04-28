@@ -34,6 +34,9 @@ The pages you'll use:
 1. From the candidate record or the pipeline, click **Schedule interview**.
 2. Pick the interview type (recruiter screen, hiring manager interview, panel, technical, executive). The system pulls the panel's calendar availability for the suggested slots.
 3. Confirm the slot. The candidate gets a calendar invite with the meeting link and any prep materials; the panel gets the same invite plus the relevant Interview Kit.
+
+![[c-ch08-scheduling-panel-availability.png]]
+
 4. Reschedules are first-class — both the candidate and the panel see the same updated state, no email-thread chaos.
 
 ## Let candidates self-serve a slot
@@ -51,6 +54,8 @@ The pages you'll use:
 - Always for first-round screens and high-volume roles.
 - Cautiously for senior or executive interviews where the candidate experience expects a white-glove scheduling touch from a recruiter.
 
+![[c-ch08-self-scheduling-candidate-view.png]]
+
 ## Hand interviewers a kit
 
 ### Interview Kits — _Tier: Standard_
@@ -66,6 +71,9 @@ The pages you'll use:
 1. Build a kit per role family. Reuse the competency framework from the Scorecards in [[01 How-To Documents/corporate/07-screening-and-evaluating|Chapter 7]] — interview, scorecard, and (eventually) performance review should share the same competency vocabulary.
 2. For each round in the kit, pick the must-have questions and a pool of optional probes. Tag each question with the competency it's testing.
 3. Pair the kit with the corresponding scorecard so the interviewer sees question and rating side-by-side in the room.
+
+![[c-ch08-interview-kit-question-bank.png]]
+
 4. Review the kit quarterly. Questions that nobody is using and competencies where the interview signal disagrees with first-year performance are the candidates for replacement.
 
 ## Add the candidate-specific layer
@@ -81,6 +89,8 @@ The pages you'll use:
 - When you don't have a maintained interview kit per role family — AI Questions gives you a credible starting point fast.
 - When a CV throws something unusual the standard kit doesn't cover — the AI surfaces probes the kit wouldn't have.
 - Pair it with the **Interview Kits** library for the standard backbone — AI Questions adds the candidate-specific layer rather than replacing the kit.
+
+![[c-ch08-ai-questions-output.png]]
 
 While the AI is working you'll see a multi-phase **AI Progress Messaging** indicator — drafting, validating, scoring, finalising — so you know the model is progressing rather than wondering if the page has hung.
 

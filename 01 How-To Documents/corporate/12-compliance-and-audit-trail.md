@@ -26,6 +26,8 @@ Sebenza Hub gives you four pages dedicated to that evidence: POPIA Compliance, B
 - **On every DSAR.** Candidates have the right to ask what data you hold and request deletion. The page gives you the workflow to action a request and the evidence that you did.
 - **Quarterly.** Review the Operator register against your live integrations. Any new vendor that receives candidate data needs an Operator agreement on file before they're processing.
 
+![[c-ch12-popia-compliance-console.png]]
+
 ## B-BBEE
 
 **Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/bbbee](https://www.sebenzahub.co.za/dashboard/business/bbbee), in the **Compliance & Governance** sidebar group.
@@ -36,6 +38,8 @@ Sebenza Hub gives you four pages dedicated to that evidence: POPIA Compliance, B
 
 - **Annually, ahead of verification.** Your verification agency will ask for the data this page already aggregates. Pull a snapshot for the verification window.
 - **Quarterly.** Use the projection view to see whether your hiring rate keeps you on the scorecard band you're targeting. If the projection shows you slipping a level, that's the trigger to adjust the hiring mix while there's still time.
+
+![[c-ch12-bbbee-management-control-projection.png]]
 
 ## Employment Equity
 
@@ -48,6 +52,8 @@ Sebenza Hub gives you four pages dedicated to that evidence: POPIA Compliance, B
 - **Once a year, at plan setup.** Load the EE plan you've filed, with the per-level targets agreed with the EE Committee.
 - **Monthly.** Review actuals against plan. The Diversity Analytics view in [[01 How-To Documents/corporate/14-analytics-and-reporting|Chapter 14]] is the operational lens; this page is the regulatory lens. They should agree.
 - **At report submission time.** Generate the EEA-format outputs and compare them to what you'd report manually before submitting.
+
+![[c-ch12-employment-equity-plan-actuals.png]]
 
 ## Audit Trail
 
@@ -64,6 +70,10 @@ Sebenza Hub gives you four pages dedicated to that evidence: POPIA Compliance, B
 - **On any incident.** Suspected unauthorised access, a candidate complaint, an internal control test — the audit trail is the first place to look.
 - **Quarterly.** Sample-test entries against expected user behaviour. Outliers (a recruiter exporting 5,000 candidate records on a weekend) deserve a conversation.
 - **At access reviews.** Cross-reference the audit trail against the current Team Members list to find dormant or orphaned accounts that should be deactivated.
+
+![[c-ch12-audit-trail-filtered-view.png]]
+
+![[c-ch12-audit-trail-ai-tool-call-detail.png]]
 
 ## Honest limits
 
