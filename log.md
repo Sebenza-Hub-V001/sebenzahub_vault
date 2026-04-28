@@ -1,5 +1,59 @@
 # Activity Log
 
+## [2026-04-28] restructure + mirror | Dashboard reorders, Recruiter source-chapter swap, Corporate full mirror, screenshot placeholders
+- **Trigger:** Wes asked to compare dashboard order to manual order; this expanded into a multi-step restructure across both repos and a full mirror of the Recruiter manual into Corporate.
+
+### Dashboard reorders (product repo: `Sebenza_Hub_Claude_V2/client/src/pages`)
+- **IndividualDashboard.tsx** — already in target shape (Cover Letter & Salary Insights in Search & Apply, Simulator before Scheduling, "Career Pulse" relabelled "Market Radar").
+- **RecruiterDashboard.tsx** — Team moved from Account → Agency Profile · Screening Roles before Pipeline · Reference Checks moved into Screen group · Make Offer reordered (Templates → Letters; Predictor before Approvals; Compliance before Analytics) · NPS before Referrals in Place & Retain · Chatbot moved below Sequences in Communication · Compliance reordered POPIA-first · Brand Page moved next to Career Site.
+- **BusinessDashboard.tsx** — "Configure Organization" → "Organization" (Overview + Team only) · Settings, Billing, SSO Config moved to a new bottom **Account** group (mirrors Individual + Recruiter) · Screening Roles moved to Screen & Evaluate · Content Repurpose moved to Communication & Automation (next to Brand Voice) · Analytics demoted from Supporting to a Parallel Track · Compliance reordered POPIA-first · Make Offer reordered Templates-then-Letters and Predictive-then-Approvals.
+- **Logic principle adopted across all three:** setup-then-operate, warm-to-cold, build-block-then-use.
+
+### Recruiter source-chapter renumbering (Ch.12 ↔ Ch.14)
+- Renamed `12-sourcing-channels.md` → `14-sourcing-channels.md` and `14-talent-pools-crm.md` → `12-talent-pools-crm.md` (via temp file).
+- Reordered Ch.13 internal sections (Rediscovery before LinkedIn) to fit the warm-to-cold flow.
+- Updated all cross-references across [[01 How-To Documents/recruiter/03.5-quick-start]], [[01 How-To Documents/recruiter/11-posting-a-job]], [[01 How-To Documents/recruiter/23-templates-sequences-chatbot]], [[01 How-To Documents/recruiter/24-whatsapp-at-scale]], [[01 How-To Documents/recruiter/30-marketing-referrals-nps]], [[01 How-To Documents/recruiter/31-fill-rate-dropping]], plus the recruiter index. Ch.14's "first hour" routine rewritten as warm-internal → cold-external.
+
+### Corporate full mirror (Wes asked: "no reason a Business user should jump to the Recruiter manual")
+- **5 in-place expansions:** [[01 How-To Documents/corporate/06-receiving-applications]] (full Pipeline coverage from R-Ch.16) · [[01 How-To Documents/corporate/07-screening-and-evaluating]] (full screening surface from R-Ch.17) · [[01 How-To Documents/corporate/10-vendor-management-and-sourcing]] (Talent CRM + AI Search depth from R-Ch.12 + R-Ch.14) · [[01 How-To Documents/corporate/11-communication-and-automation]] (Templates / Sequences / Chatbot / Workflow Automation from R-Ch.23) · [[01 How-To Documents/corporate/14-analytics-and-reporting]] (full analytics + AI Intelligence + Engagement + Team DNA callbacks from R-Ch.25 + R-Ch.26).
+- **5 new chapters created:** [[01 How-To Documents/corporate/04.5-the-corporate-dashboard]] (mirror of R-Ch.4) · [[01 How-To Documents/corporate/16-time-to-fill-creeping-up]] (R-Ch.31) · [[01 How-To Documents/corporate/17-candidates-ghosting-between-stages]] (R-Ch.32) · [[01 How-To Documents/corporate/18-hiring-managers-unhappy-with-calibre]] (R-Ch.33) · [[01 How-To Documents/corporate/19-advanced-and-ai-orchestration]] (R-Ch.34, agency-specific portions skipped).
+- **Recruiter content deliberately not duplicated:** Ch.5–7 (agency profile / DNA Card / Trust Tier — agency-specific), Ch.8–10 (clients — N/A for internal hiring), Ch.13/14 (Rediscovery + sourcing channels not exposed in Business product), Ch.21 (placement-revenue not corporate concern), Ch.29–30 (career site / agency marketing), Trust-tier badge framework. All other recruiter content has a corporate equivalent.
+- Corporate index.md restructured into 6 parts (Getting Started · Hiring Journey · Parallel Tracks · Insights & Knowledge · When You're Stuck · Advanced).
+- Verified: zero links from corporate manual to recruiter or individual; zero internal-folder leaks across the published surface.
+
+### Screenshot placeholders (90 new, 121 total in corporate)
+- Added 90 new `![[c-chXX-...]]` embeds across the 14 chapters touched in this session — Ch.4 (5), Ch.4.5 (7), Ch.6 (8), Ch.7 (10), Ch.8 (4), Ch.9 (7), Ch.10 (7), Ch.11 (7), Ch.12 (5), Ch.14 (5), Ch.16 (4), Ch.17 (5), Ch.18 (4), Ch.19 (5).
+- Updated [[12-tasks/screenshot-plan|the screenshot capture plan]] — replaced the outdated 33-placeholder Corporate section with the current 121-placeholder map; fixed location guidance (`01 How-To Documents/screenshots/` not `13-raw/screenshots/`); fixed embed instructions to filename-only (the chapter files already use that, the doc was lying).
+
+### Audit findings
+- **Individual manual:** no major depth gaps relative to Recruiter — 24 chapters, 102 placeholders, structurally complete and self-contained. No action needed.
+- **Lint:** Layer 1 + Layer 2 clean across the published surface. Zero forbidden-folder leaks anywhere in `01 How-To Documents/`.
+
+### Pending — screenshots not yet captured
+- 121 corporate placeholders queued; capture workflow documented in [[12-tasks/screenshot-plan]]. Order: Complex UI shots first (Pipeline, scorecard panel, sequence builder, market pulse, heat map, diversity funnel, Linda audit detail).
+
+## [2026-04-28] sync | Document My CVs hub features (Insights / Batch Tailor / Job Radar)
+- Trigger: Wes flagged the live My CVs page (`/dashboard/individual/cvs`) has a toolbar (Upload Resume · Build CV · Insights · Batch Tailor · Job Radar) and four stat cards (Total CVs · Default CV · Avg. Completeness · Last Updated) that the wiki described as a passive grid of CV cards. Same URL as before — the page evolved into a hub.
+- **Verified via product code probe** (Explore agent against `Sebenza_Hub_Claude_V2`):
+  - Stat cards backed by `client/src/components/cv/CvStatsBar.tsx` — Total / Default / Avg Completeness / Last Updated.
+  - Toolbar buttons fire from `client/src/pages/individuals/cv/IndividualCvs.tsx` (around lines 326–452).
+  - **Insights** → `CvAnalytics.tsx` dialog. Four panels: section completeness radar, skills distribution bar, experience timeline, AI improvement suggestions. Maps to entitlement key `analytics-dashboard-individual` = standard tier (per `server/seed-feature-entitlements.ts:70`).
+  - **Batch Tailor** → `CvBatchTailor.tsx` dialog. Calls `/api/ai/tailor-cv` per target job. Generates up to 5 tailored CV variants with rewritten "About Me" sections — each lands as a new CV. Tier not in MIN_TIER seed map; implied standard via `ai-cv-review` family.
+  - **Job Radar** → `CvJobRadar.tsx` Sheet (side panel). Calls `POST /api/ai/cv-job-radar` with cvText + skills + experienceSummary. Returns matched jobs with score %, salary, employment type, matched/missing keyword arrays.
+  - **Build CV** opens `CvWizard` dialog *in-page* — NOT a route to `/cv-templates`. The route `/cv-templates` exists but is the design-layer CV Builder (Gallery + Signatures + Tweaks + Export), separate from this in-page content wizard.
+  - Per-CV card menu (`CvCard.tsx:260-282`): Interview Prep (`/api/ai/interview-prep` — tailored Q&A kit, distinct from the standalone `/interview-simulator` covered in Ch 14), SA Readiness, Version History, Job Radar (per-CV), Duplicate, Delete.
+- **Pages updated:**
+  - [[01 How-To Documents/individual/05-uploading-a-cv]] — added "The My CVs page at a glance" orientation section, new **Step 4 — Use the My CVs hub** covering Insights / Batch Tailor / Job Radar with the standard *What this feature is / Why it matters / How to use it* structure, and a per-CV actions sub-section. Fixed Step 1B button name from "**New CV**" → "**Build CV**". Updated Checklist (4 new optional items) and Features-covered table (added rows 7–11).
+  - [[01-entities/individual-user]] — expanded the CV Management row in the Profile & Identity table to enumerate the hub features.
+  - [[03-workflows/individual-journey]] — expanded the CV Management ASCII flow to show the toolbar and per-CV actions.
+- **Lint:** Layer 1 clean (forbidden-folder grep returned no matches across `01 How-To Documents/`). Layer 2 clean for the transitive set — `seo-strategy.md`, `tech-stack.md`, and `admin-journey.md` have leaks but none of them are referenced by any how-to chapter, so they're outside the published surface and exempt.
+- **Tier confidence:** Marked all three new features as "_Tier: see Pricing_" rather than asserting a tier in prose. Insights is confidently standard (verified in seed file). Batch Tailor and Job Radar were not in the MIN_TIER map and tier was inferred — worth a tier audit on the next product sync.
+- **Not done — screenshots:** the three new sections would each benefit from a screenshot. To add to [[12-tasks/screenshot-plan]]:
+  - `ch05-my-cvs-hub-overview.png` — full My CVs page showing the four stat cards + toolbar at the top.
+  - `ch05-cv-insights-dialog.png` — Insights dialog open, showing the four analytics panels.
+  - `ch05-batch-tailor-setup.png` — Batch Tailor dialog with 2–3 target jobs entered.
+  - `ch05-job-radar-panel.png` — Job Radar side panel with ranked matches and missing-keyword badges.
+
 ## [2026-04-27] new chapters | Per-persona Quick Start pages to fight day-one overwhelm
 - Trigger: Wes flagged that the platform feels overwhelming for new users — wanted "very basic getting started where you only need to do the bare minimal." Asked for honest opinion + suggestions, then approved doing all of them.
 - **New pages:**

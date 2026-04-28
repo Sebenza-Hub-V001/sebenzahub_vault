@@ -2,24 +2,24 @@
 title: "Screenshot Capture Plan — How-To Manuals"
 type: task
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-28
 tags: [screenshots, documentation, capture-plan, how-tos]
 status: active
 ---
 
 # Screenshot Capture Plan — How-To Manuals
 
-Master list of every screenshot placeholder inserted across the Individual / Recruiter / Corporate How-To books on 2026-04-20. Use this as a capture checklist — tick the Status column as each file is shot and dropped into `13-raw/screenshots/`.
+Master list of every screenshot placeholder across the Individual / Recruiter / Corporate How-To books. Use this as a capture checklist — tick the Status column as each file is shot and dropped into the public screenshots folder.
 
 ## Conventions
 
 - **Naming:** `<book-prefix>-chNN-<feature-or-topic-slug>.png`
   - Individual: `i-chNN-...`
   - Recruiter: `r-chNN-...` (Ch 4.5 uses `r-ch04-5-...`)
-  - Corporate: `c-chNN-...`
-- **Location:** All files go under `13-raw/screenshots/`.
+  - Corporate: `c-chNN-...` (Ch 4.5 uses `c-ch045-...`)
+- **Location:** All NEW files go under `01 How-To Documents/screenshots/` (the public surface). The 11 originals also live in `13-raw/screenshots/` (kept untouched per the immutability rule); don't add new files there — they won't render on the public site because `13-raw/` is hidden in the Publish Navigation UI.
 - **Shared files:** `ch02-magic-link-email.png` is reused across all three books (auth flow is identical). Don't recapture.
-- **Rendering:** Embeds in chapter files use `![[13-raw/screenshots/<filename>]]`. Once the PNG drops in the folder, Obsidian renders it automatically — no chapter edit needed.
+- **Rendering:** Embeds in chapter files use **filename-only** syntax: `![[c-ch045-corporate-dashboard-full-view.png]]` — never include the folder path. Obsidian resolves filename-only embeds from anywhere in the vault, so embeds keep working if a file is moved.
 
 ## Priority tiers (guidance)
 
@@ -550,7 +550,9 @@ These 11 files already live in `13-raw/screenshots/`:
 
 ---
 
-# Corporate Book (33 placeholders)
+# Corporate Book (121 placeholders)
+
+> **Note:** The Corporate manual was restructured on 2026-04-28 (full mirror of the Recruiter manual, see log). Some placeholder filenames retain their original `c-ch04-...`, `c-ch05-...` etc. prefix from the pre-restructure version even though the content now lives in a different chapter — that's a hint, not a strict mapping. The "Now in" column below reflects the current chapter the placeholder lives in.
 
 ## Ch 01 — What Sebenza Hub is for Corporates (2)
 
@@ -577,69 +579,200 @@ These 11 files already live in `13-raw/screenshots/`:
 | 5 | `c-ch03-white-label-custom-domain.png` | White-Label step 3 | Decision | Custom domain entry + DNS records panel | [ ] |
 | 6 | `c-ch03-team-collaboration-feed.png` | Collaboration step 4 | Output | Activity feed with @mentions and decisions | [ ] |
 
-## Ch 04 — Your First Requisition (5)
+## Ch 04 — Trial and Billing Lifecycle (5)
 
 | # | Filename | Position | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch04-create-requisition-form.png` | Basic ATS step 1 | Nav | Create requisition form | [ ] |
-| 2 | `c-ch04-basic-ats-pipeline-view.png` | Basic ATS step 5 | Complex UI | Pipeline kanban (Applied/Screened/Interviewed/Offered/Hired) | [ ] |
-| 3 | `c-ch04-full-ats-custom-stages-editor.png` | Full ATS step 2 | Complex UI | Custom stages editor per role family | [ ] |
-| 4 | `c-ch04-automation-rules-builder.png` | Full ATS after step 3 | Decision | Auto-advance / auto-reject / auto-message rule builder | [ ] |
-| 5 | `c-ch04-onboarding-checklist.png` | Onboarding step 6 | Output | 30/60/90 checklist with owners + due dates | [ ] |
+| 1 | `c-ch04-trial-banner.png` | Day 1–23 section | Nav | Top-of-dashboard TrialBanner with day-count remaining | [ ] |
+| 2 | `c-ch04-upgrade-dialog.png` | Day 1–23 section | Decision | Centralised UpgradeDialog modal (triggered via cap-hit or banner click) | [ ] |
+| 3 | `c-ch04-billing-page-trial.png` | Conversion step 1 | Nav | Billing page during trial (with conversion CTA) | [ ] |
+| 4 | `c-ch04-plan-comparison-checkout.png` | Conversion step 2 | Decision | Plan picker (Premium default vs Standard vs Free) at checkout | [ ] |
+| 5 | `c-ch04-billing-page-active-paid.png` | Conversion step 3 | Output | Billing page after conversion (no banner, paid status visible) | [ ] |
 
-## Ch 05 — Contract Workers (3)
-
-| # | Filename | Position | Type | What to capture | Status |
-|---|---|---|---|---|---|
-| 1 | `c-ch05-contract-worker-form.png` | Step 1 | Decision | Employment type picker (FTC / Independent / Temp / Consultant) | [ ] |
-| 2 | `c-ch05-contract-end-date-dashboard.png` | Step 6 | Output | Contract Workers dashboard with end-date alerts | [ ] |
-| 3 | `c-ch05-section-198-compliance-alert.png` | After compliance paragraph | Decision | Section 198 / labour broker warning banner | [ ] |
-
-## Ch 06 — Internal Mobility (3)
+## Ch 04.5 — The Corporate Dashboard (7)
 
 | # | Filename | Position | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch06-internal-job-board-list.png` | IJB step 5 | Complex UI | Employee-only job list with visibility rules | [ ] |
-| 2 | `c-ch06-succession-planning-chart.png` | Succession step 3 | Complex UI | Critical-role chart with successors + readiness bands | [ ] |
-| 3 | `c-ch06-performance-management-review.png` | Performance step 4 | Decision | Review screen with competency framework | [ ] |
+| 1 | `c-ch045-corporate-dashboard-full-view.png` | Top (hero) | Complex UI | Full corporate dashboard with sidebar visible (Hiring Path / Parallel Tracks / Supporting bands) | [ ] |
+| 2 | `c-ch045-sidebar-hiring-path.png` | After Hiring Path table | Nav | Sidebar zoomed to show the 6 Hiring Path groups | [ ] |
+| 3 | `c-ch045-sidebar-parallel-tracks.png` | After Parallel Tracks list | Nav | Sidebar zoomed to show the 5 Parallel Track groups | [ ] |
+| 4 | `c-ch045-sidebar-supporting-account.png` | After Supporting paragraph | Nav | Sidebar zoomed to show Knowledge Base + Account groups at the bottom | [ ] |
+| 5 | `c-ch045-overview-metrics-tiles.png` | Basic Analytics section | Output | Overview page metric tiles (hires / time-to-hire / fill rate / pipeline value) | [ ] |
+| 6 | `c-ch045-billing-usage-page.png` | Billing & Usage Limits section | Output | Billing page → Usage history tab with consumption bars | [ ] |
+| 7 | `c-ch045-notifications-per-event-channels.png` | All Notification Channels section | Decision | Notifications matrix view per-event × channel | [ ] |
 
-## Ch 07 — Vendor Management (3)
-
-| # | Filename | Position | Type | What to capture | Status |
-|---|---|---|---|---|---|
-| 1 | `c-ch07-po-creation-form.png` | Step 2 | Decision | Auto-generated PO form per vendor | [ ] |
-| 2 | `c-ch07-agency-performance-comparison.png` | Step 4 | Complex UI | Side-by-side vendor metrics (submit/interview/offer/time-to-fill) | [ ] |
-| 3 | `c-ch07-vendor-compliance-status.png` | Step 6 | Output | Red / yellow / green compliance grid (MSA/POPIA/B-BBEE/tax) | [ ] |
-
-## Ch 08 — Integrations and Reporting (6)
+## Ch 05 — Posting Jobs (3) _legacy filenames retained_
 
 | # | Filename | Position | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch08-analytics-dashboard-hero.png` | Analytics step 1 | Nav | Default quarter dashboard with funnel + time-to-hire | [ ] |
-| 2 | `c-ch08-advanced-analytics-drilldown.png` | Advanced step 4 | Complex UI | Cohort / drill-down query builder | [ ] |
-| 3 | `c-ch08-custom-reports-builder.png` | Custom Reports step 1 | Complex UI | Drag-drop report builder | [ ] |
-| 4 | `c-ch08-notification-channels-matrix.png` | All Channels step 3 | Decision | Event × channel routing matrix | [ ] |
-| 5 | `c-ch08-hris-integration-config.png` | HRIS step 1 | Decision | SAP / Workday / BambooHR vendor selection + creds | [ ] |
-| 6 | `c-ch08-api-key-management.png` | API step 1 | Decision | Token generation + scope picker | [ ] |
+| 1 | `c-ch04-create-requisition-form.png` | Jobs how-to step 1 | Nav | Create requisition form | [ ] |
+| 2 | `c-ch04-full-ats-custom-stages-editor.png` | Pipeline customisation | Complex UI | Custom stages editor per role family | [ ] |
+| 3 | `c-ch04-automation-rules-builder.png` | After automation discussion | Decision | Auto-advance / auto-reject / auto-message rule builder | [ ] |
 
-## Ch 09 — Workforce Planning (3)
+## Ch 06 — Receiving Applications (9)
 
 | # | Filename | Position | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch09-workforce-planning-dashboard.png` | Step 1 | Complex UI | Workforce planning home with plan-vs-actual | [ ] |
-| 2 | `c-ch09-headcount-forecast-chart.png` | Step 2 | Output | Headcount forecast chart by quarter / department | [ ] |
-| 3 | `c-ch09-capacity-vs-budget-alignment.png` | Step 6 | Output | Scenario model with revenue +20 / -10 / flat | [ ] |
+| 1 | `c-ch06-applications-triage-view.png` | Applications how-to step 3 | Complex UI | Applications cross-requisition list with filters and sort | [ ] |
+| 2 | `c-ch06-source-effectiveness-breakdown.png` | Applications how-to step 4 | Output | Per-channel source-quality breakdown | [ ] |
+| 3 | `c-ch04-basic-ats-pipeline-view.png` _(legacy filename)_ | Pipeline how-to step 1 | Complex UI | Pipeline kanban (Applied/Screened/Interviewed/Offered/Hired) | [ ] |
+| 4 | `c-ch06-pipeline-card-anatomy.png` | Card-anatomy section | Decision | Single Pipeline card with name, score, stage age, quick actions | [ ] |
+| 5 | `c-ch06-engagement-score-card.png` | Engagement Scorer section | Output | Engagement score badge on candidate card with declining indicator | [ ] |
+| 6 | `c-ch06-requirement-restriction-flags.png` | Requirement Analyzer section | Output | Per-requirement count of rejected candidates with relax-projection | [ ] |
+| 7 | `c-ch06-pipeline-filters-bar.png` | Filters section | Nav | Filter bar showing My + Stage + Source + Score range | [ ] |
+| 8 | `c-ch06-bulk-actions-menu.png` | Bulk actions section | Decision | Multi-select selection with bulk-action menu open | [ ] |
+| 9 | `c-ch06-stage-config-settings.png` | Stage configuration section | Decision | Settings → Pipeline stage editor with custom stages | [ ] |
+
+## Ch 07 — Screening and Evaluating (10)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch07-ai-candidate-screening-shortlist.png` | AI Candidate Screening section | Output | Auto-ranked shortlist with reasoning per candidate | [ ] |
+| 2 | `c-ch07-resume-vs-jd-scoring-card.png` | Resume vs JD section | Output | Per-candidate Resume-vs-JD percentage match with explanation | [ ] |
+| 3 | `c-ch07-batch-screening-report.png` | Batch Screening section | Complex UI | Batch report grouped into Advance / Maybe / Reject buckets | [ ] |
+| 4 | `c-ch07-screening-roles-editor.png` | Screening Roles section | Decision | Per-role-family criteria editor with knockout questions | [ ] |
+| 5 | `c-ch07-screening-bot-conversation.png` | Screening Bot section | Output | Conversational pre-screen transcript with extracted answers | [ ] |
+| 6 | `c-ch07-ai-candidate-summary.png` | AI Candidate Summary section | Output | One-paragraph AI summary embedded on a candidate record | [ ] |
+| 7 | `c-ch07-video-interview-async-recording.png` | Video Interviews section | Output | Async one-way recording with question prompts and timestamps | [ ] |
+| 8 | `c-ch07-scorecard-panel-aggregate.png` | Scorecards section | Complex UI | Aggregate panel scorecard view with per-interviewer ratings | [ ] |
+| 9 | `c-ch07-background-check-consent-flow.png` | Background Checks step 2 | Decision | Candidate consent screen for background-check authorization | [ ] |
+| 10 | `c-ch07-background-check-result.png` | Background Checks step 4 | Output | Result panel with status (clear/flagged) and audit-trail entry | [ ] |
+
+## Ch 08 — Interviewing (4)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch08-scheduling-panel-availability.png` | Scheduling step 3 | Complex UI | Scheduling form with panel calendar availability rendered | [ ] |
+| 2 | `c-ch08-self-scheduling-candidate-view.png` | Self-Scheduling section | Output | Candidate-facing slot picker with available windows | [ ] |
+| 3 | `c-ch08-interview-kit-question-bank.png` | Interview Kits step 3 | Decision | Kit editor with rounds, must-haves, optional probes, competency tags | [ ] |
+| 4 | `c-ch08-ai-questions-output.png` | AI Questions section | Output | Generated candidate-specific question set with rationale | [ ] |
+
+## Ch 09 — Making Offers (7)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch09-offers-list-overview.png` | Offers section | Complex UI | Master offer list with status and approval state per row | [ ] |
+| 2 | `c-ch09-offer-detail-page.png` | Offers section | Decision | Per-offer detail page with package, approval thread, signatures | [ ] |
+| 3 | `c-ch09-offer-template-editor.png` | Offer Templates section | Decision | Template editor with placeholders and contract-type pickers | [ ] |
+| 4 | `c-ch09-offer-letter-generator.png` | Offer Letters section | Output | Generated letter preview with merged candidate data | [ ] |
+| 5 | `c-ch09-offer-letter-signed.png` | Offer Letters section | Output | Signed offer letter on the candidate record | [ ] |
+| 6 | `c-ch09-predictive-hiring-acceptance-score.png` | Predictive Hiring section | Output | Acceptance probability score with contributing factors | [ ] |
+| 7 | `c-ch09-offer-approvals-routing.png` | Offer Approvals section | Complex UI | Approval routing panel with chain visualisation and decision history | [ ] |
+
+## Ch 10 — Vendor Management and Sourcing (10)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch07-po-creation-form.png` _(legacy filename)_ | Vendor Management step 2 | Decision | Auto-generated PO form per vendor | [ ] |
+| 2 | `c-ch07-agency-performance-comparison.png` _(legacy filename)_ | Vendor Management step 4 | Complex UI | Side-by-side vendor metrics (submit/interview/offer/time-to-fill) | [ ] |
+| 3 | `c-ch07-vendor-compliance-status.png` _(legacy filename)_ | Vendor Management step 6 | Output | Red / yellow / green compliance grid (MSA/POPIA/B-BBEE/tax) | [ ] |
+| 4 | `c-ch10-talent-crm-record-view.png` | Talent CRM section | Decision | CRM-style candidate record with notes, tags, timeline, status | [ ] |
+| 5 | `c-ch10-auto-tag-candidate.png` | Auto-Tag section | Output | Candidate profile with auto-applied tags highlighted | [ ] |
+| 6 | `c-ch10-side-by-side-comparison.png` | Comparison section | Complex UI | 2-5 candidates side-by-side across skills, scorecards, salary | [ ] |
+| 7 | `c-ch10-ai-search-natural-language-results.png` | AI Search section | Output | Natural-language query with ranked results and reasoning | [ ] |
+| 8 | `c-ch10-search-market-pulse.png` | Market Pulse section | Complex UI | Trend lines for candidate supply / salary / demand pressure | [ ] |
+| 9 | `c-ch10-competitive-heat-map.png` | Heat Map section | Complex UI | Geographic heat map of competing employers and salary bands | [ ] |
+| 10 | `c-ch10-csv-bulk-import-mapping.png` | CSV Import section | Decision | Column-mapping screen during bulk import | [ ] |
+
+## Ch 11 — Communication and Automation (8)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch11-unified-inbox-multichannel.png` | Unified Inbox step 2 | Complex UI | Inbox showing email + WhatsApp + in-platform threads on one view | [ ] |
+| 2 | `c-ch08-notification-channels-matrix.png` _(legacy filename)_ | Inbox how-to step 3 | Decision | Event × channel routing matrix in Settings | [ ] |
+| 3 | `c-ch11-template-merge-fields-editor.png` | Templates step 7 | Decision | Template editor with merge field picker and preview | [ ] |
+| 4 | `c-ch11-sequence-builder-conditional-branches.png` | Sequences step 5 | Complex UI | Sequence builder with day-by-day steps and exit-rule config | [ ] |
+| 5 | `c-ch11-brand-voice-profile-editor.png` | Brand Voice section | Decision | Voice profile config with tone / formality / banned-words / examples | [ ] |
+| 6 | `c-ch11-content-repurpose-channel-variants.png` | Content Repurpose step 3 | Output | Per-channel JD variants (LinkedIn long, short, internal, social) | [ ] |
+| 7 | `c-ch11-approvals-routing-config.png` | Approvals step 2 | Decision | Non-offer approvals routing config with rule conditions | [ ] |
+| 8 | `c-ch11-workflow-automation-rule-builder.png` | Workflow Automation rules table | Complex UI | Rule builder with trigger / condition / action editor | [ ] |
+
+## Ch 12 — Compliance and Audit Trail (5)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch12-popia-compliance-console.png` | POPIA section | Complex UI | Console showing consent records, retention rules, Operator register | [ ] |
+| 2 | `c-ch12-bbbee-management-control-projection.png` | B-BBEE section | Output | Demographic projection chart vs B-BBEE scorecard target | [ ] |
+| 3 | `c-ch12-employment-equity-plan-actuals.png` | EE section | Complex UI | EE plan targets vs actuals across occupational levels | [ ] |
+| 4 | `c-ch12-audit-trail-filtered-view.png` | Audit Trail section | Complex UI | Audit log filtered by user / action type / date range | [ ] |
+| 5 | `c-ch12-audit-trail-ai-tool-call-detail.png` | Audit Trail section | Output | Single AI tool call entry showing inputs / outputs / function name | [ ] |
+
+## Ch 13 — Workforce and HR (10) _legacy filenames_
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch08-hris-integration-config.png` | HRIS Integration section | Decision | SAP / Workday / BambooHR vendor selection + creds | [ ] |
+| 2 | `c-ch09-workforce-planning-dashboard.png` | Workforce Planning section | Complex UI | Workforce planning home with plan-vs-actual | [ ] |
+| 3 | `c-ch09-headcount-forecast-chart.png` | Workforce Planning section | Output | Headcount forecast chart by quarter / department | [ ] |
+| 4 | `c-ch09-capacity-vs-budget-alignment.png` | Workforce Planning section | Output | Scenario model with revenue +20 / -10 / flat | [ ] |
+| 5 | `c-ch06-internal-job-board-list.png` | Internal Job Board section | Complex UI | Employee-only job list with visibility rules | [ ] |
+| 6 | `c-ch06-performance-management-review.png` | Performance section | Decision | Review screen with competency framework | [ ] |
+| 7 | `c-ch06-succession-planning-chart.png` | Succession section | Complex UI | Critical-role chart with successors + readiness bands | [ ] |
+| 8 | `c-ch05-contract-worker-form.png` | Contract Workers section | Decision | Employment type picker (FTC / Independent / Temp / Consultant) | [ ] |
+| 9 | `c-ch05-contract-end-date-dashboard.png` | Contract Workers section | Output | Contract Workers dashboard with end-date alerts | [ ] |
+| 10 | `c-ch05-section-198-compliance-alert.png` | Contract Workers section | Decision | Section 198 / labour broker warning banner | [ ] |
+
+## Ch 14 — Analytics and Reporting (8)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch14-bottleneck-view-stage-dwell.png` | Bottleneck View section | Complex UI | Per-stage dwell-time visualization | [ ] |
+| 2 | `c-ch08-analytics-dashboard-hero.png` _(legacy)_ | Recruitment Analytics how-to step 1 | Nav | Default quarter dashboard with funnel + time-to-hire | [ ] |
+| 3 | `c-ch08-advanced-analytics-drilldown.png` _(legacy)_ | Recruitment Analytics step 4 | Complex UI | Cohort / drill-down query builder | [ ] |
+| 4 | `c-ch14-cohort-analysis-retention.png` | Cohort analysis section | Complex UI | Q1 hires retention curve at 90/180/365 days | [ ] |
+| 5 | `c-ch14-predictive-analytics-forecast.png` | Predictive Analytics section | Complex UI | Per-requisition forecast with at-risk flags | [ ] |
+| 6 | `c-ch14-diversity-funnel-stage-dropoff.png` | Diversity Analytics section | Complex UI | Demographic funnel with stage-level drop-offs highlighted | [ ] |
+| 7 | `c-ch08-custom-reports-builder.png` _(legacy)_ | Custom Reports section | Complex UI | Drag-drop report builder | [ ] |
+| 8 | `c-ch14-custom-report-scheduled-delivery.png` | Custom Reports step 5 | Decision | Schedule + recipients + format config for an automated board pack | [ ] |
+
+## Ch 16 — Time-to-Fill Creeping Up (4)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch16-time-to-fill-trend-chart.png` | Top (hero) | Complex UI | Time-to-fill trend line over 12 weeks with drift highlighted | [ ] |
+| 2 | `c-ch16-funnel-conversion-comparison.png` | Step 2 | Complex UI | Side-by-side historical vs current funnel conversion table | [ ] |
+| 3 | `c-ch16-requirement-restriction-flags.png` | Step 3 | Output | Requirement Restriction Analyzer output with rejection counts | [ ] |
+| 4 | `c-ch16-search-market-pulse.png` | Step 4 | Complex UI | Market Pulse for the affected role family | [ ] |
+
+## Ch 17 — Candidates Ghosting Between Stages (5)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch17-stage-age-stuck-cards.png` | "What ghosting looks like" section | Output | Pipeline filtered to Stage age > 5 days | [ ] |
+| 2 | `c-ch17-engagement-score-heatmap.png` | Engagement Score signals | Complex UI | Heatmap of declining engagement across pipeline candidates | [ ] |
+| 3 | `c-ch17-sentiment-flag-inbox.png` | Sentiment analysis signals | Output | Unified Inbox message with sentiment-decline flag | [ ] |
+| 4 | `c-ch17-recovery-sequence-day1-day8.png` | Recovery playbook | Complex UI | Sequence builder showing Day 1 / Day 4 / Day 8 recovery touches | [ ] |
+| 5 | `c-ch17-dropoff-funnel-stages.png` | Stage-specific patterns table | Complex UI | Funnel showing drop-off rates per stage with cause overlays | [ ] |
+
+## Ch 18 — Hiring Managers Unhappy with Calibre (4)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch18-predictive-hiring-rank.png` | Pattern 2 section | Output | Predictive Hiring scores ranking the shortlist | [ ] |
+| 2 | `c-ch18-requirement-restriction-evidence.png` | Pattern 3 section | Output | Requirement Restriction output as data for the difficult conversation | [ ] |
+| 3 | `c-ch18-scorecard-panel-disagreement.png` | Use scorecards section | Complex UI | Aggregate scorecard view with one outlier interviewer flagged | [ ] |
+| 4 | `c-ch18-disagreement-analyzer-pattern.png` | Use scorecards section | Complex UI | Disagreement Analyzer showing systemic-vs-random pattern | [ ] |
+
+## Ch 19 — Advanced and AI Orchestration (5)
+
+| # | Filename | Position | Type | What to capture | Status |
+|---|---|---|---|---|---|
+| 1 | `c-ch19-predictive-hiring-department-forecast.png` | Predictive Hiring forecast section | Complex UI | Per-department forecast with confidence bands | [ ] |
+| 2 | `c-ch19-hiring-manager-portal-landing.png` | Hiring Manager Portal section | Nav | Portal landing with this-manager's-only requisitions visible | [ ] |
+| 3 | `c-ch19-hiring-manager-candidate-review.png` | Hiring Manager Portal section | Decision | Candidate review surface inside the portal (AI summary + scorecard) | [ ] |
+| 4 | `c-ch19-workflow-automation-rule-builder.png` | Workflow Automation section | Complex UI | Advanced rule builder with multi-condition trigger | [ ] |
+| 5 | `c-ch19-linda-tool-call-audit-detail.png` | Linda agent section | Output | Audit Trail entry detailing a Linda tool call with inputs/outputs | [ ] |
 
 ---
 
 # Summary
 
-| Book | Chapters with placeholders | Placeholders added | Existing shots | Total shots expected |
-|------|---------------------------|--------------------|----------------|----------------------|
+| Book | Chapters with placeholders | Placeholders | Existing shots | Total shots expected |
+|------|---------------------------|--------------|----------------|----------------------|
 | Individual | 18 | 92 | 11 | 103 |
 | Recruiter | 32 | 148 | 3 (shared auth) | 151 (3 shared) |
-| Corporate | 9 | 32 | 1 shared | 33 (1 shared) |
-| **Total new captures needed** | | **272** | | |
+| Corporate | 17 | 121 | 1 shared | 122 (1 shared) |
+| **Total new captures needed** | | **361** | | |
 
 Shared across books: `ch02-magic-link-email.png` (already exists) and the Individual/Recruiter Ch 02 auth flow screenshots. No recapture needed for these.
 
@@ -648,7 +781,7 @@ Shared across books: `ch02-magic-link-email.png` (already exists) and the Indivi
 1. Pick a chapter. Pick the "Complex UI" rows first (highest leverage).
 2. Set up demo data so the UI actually has content worth shooting — empty states make bad screenshots.
 3. Shoot at 1920×1200 or similar; crop to relevant area if the UI has wasteful chrome. PNG.
-4. Save to `c:\Users\User\Desktop\SebenzaHub_Wiki\sebenzahub_vault\13-raw\screenshots\` with the exact filename from the table.
+4. Save to `c:\Users\User\Desktop\SebenzaHub_Wiki\sebenzahub_vault\01 How-To Documents\screenshots\` with the exact filename from the table. (NOT `13-raw/screenshots/` — that's hidden on the public site and embeds from there won't render.)
 5. Tick `[x]` in the Status column as you go.
 6. Open the chapter file in Obsidian to confirm the embed renders.
 
