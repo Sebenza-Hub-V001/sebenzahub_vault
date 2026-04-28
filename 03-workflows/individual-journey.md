@@ -102,10 +102,16 @@ Complete profile tabs:
 ### CVs & Documents
 
 ```
-CV Management → /cvs
-  ├─ Create multiple CV versions (tailored per industry/role)
-  ├─ Upload existing CVs → /resume-upload (AI parsing)
-  └─ Version history and style presets
+CV Management → /cvs   (hub page: stats + AI tools, not just a grid)
+  ├─ Stats: Total CVs · Default CV · Avg. Completeness · Last Updated
+  ├─ Toolbar:
+  │    ├─ Upload Resume → /resume-upload (AI parsing)
+  │    ├─ Build CV → in-page CvWizard dialog
+  │    ├─ Insights → CvAnalytics dialog (completeness radar, skills, timeline, AI suggestions)
+  │    ├─ Batch Tailor → up to 5 tailored variants from job titles + descriptions
+  │    └─ Job Radar → ranks active jobs against this CV's skills/experience
+  ├─ Per-CV card menu: Interview Prep · SA Readiness · Version History · Job Radar · Duplicate
+  └─ Multiple CV versions (tailored per industry/role)
     ↓
 CV Templates → /cv-templates
   ├─ Professional, Modern, Creative, Minimalist, Executive styles

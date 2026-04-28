@@ -2,7 +2,7 @@
 title: "Individual (Job Seeker)"
 type: entity
 created: 2026-04-07
-updated: 2026-04-20
+updated: 2026-04-28
 tags: [user-type, individual, job-seeker, career]
 sources: [repo-audit-2026-04-07, repo-sync-2026-04-20]
 status: active
@@ -26,7 +26,7 @@ All Individual features live under `/dashboard/individual/*`.
 | Feature | Route | Description |
 |---------|-------|-------------|
 | Profile Management | `/profile` | Personal info, avatar, LinkedIn connection |
-| CV Management | `/cvs` | Create multiple CVs, version history, style presets |
+| CV Management | `/cvs` | Multi-CV hub with stats (Total / Default / Avg Completeness / Last Updated). Toolbar: Upload Resume, Build CV (in-page wizard), Insights (analytics dialog), Batch Tailor (multi-job tailoring), Job Radar (CV→jobs match). Per-CV menu: Interview Prep, SA Readiness, Version History, Job Radar, Duplicate |
 | Resume Upload | `/resume-upload` | Upload existing resumes for AI parsing |
 | CV Review | `/cv-review` | AI-powered CV analysis and improvement suggestions |
 | CV Templates | `/cv-templates` | Professional, modern, creative, minimalist, executive styles |

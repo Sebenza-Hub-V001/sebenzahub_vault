@@ -2,8 +2,8 @@
 title: "Chapter 5 — Uploading or building a CV"
 type: concept
 created: 2026-04-09
-updated: 2026-04-25
-tags: [how-to, individual, cv, profile, resume-upload, ai-parsing, skill-inference, soft-skills, cv-builder, templates, signatures]
+updated: 2026-04-28
+tags: [how-to, individual, cv, profile, resume-upload, ai-parsing, skill-inference, soft-skills, cv-builder, templates, signatures, cv-insights, batch-tailor, job-radar, interview-prep, sa-readiness]
 status: active
 user-types: [individual]
 ---
@@ -38,6 +38,23 @@ Pick one:
 | Your CV is in a format you're embarrassed by | **Upload route, then redesign it in CV Builder** |
 
 Both routes take 10–20 minutes. The build route takes longer but produces a more polished result. The upload route is faster and lets the AI parser populate your profile fields automatically.
+
+## The My CVs page at a glance
+
+Open **My CVs**: [https://www.sebenzahub.co.za/dashboard/individual/cvs](https://www.sebenzahub.co.za/dashboard/individual/cvs)
+
+Whichever route you take below, you'll land here either before or after. The page is a hub, not just a list — it shows stats across all your CVs and gives you AI tools that work *over* the CVs you've already saved:
+
+- **Stat cards** — Total CVs, Default CV, average completeness across all CVs, and when any of them was last updated. A quick way to spot a stale CV before a recruiter does.
+- **Toolbar** — five entry points across the top:
+  - **Upload Resume** — opens [Resume Upload](https://www.sebenzahub.co.za/dashboard/individual/resume-upload) (Step 1A below)
+  - **Build CV** — opens an in-page wizard to create a CV from scratch (Step 1B below)
+  - **Insights** — analytics dialog covering section completeness, skills distribution, experience timeline, and AI improvement suggestions (Step 4)
+  - **Batch Tailor** — generates up to five tailored CV variants in one go from a list of job titles and descriptions (Step 4)
+  - **Job Radar** — scans active jobs in the system and ranks how well each one matches a specific CV (Step 4)
+- **CV cards** — every saved CV shown with a circular completeness score, key facts, and a per-card menu (the three-dot icon) containing **Interview Prep**, **SA Readiness**, **Version History**, **Job Radar** for that CV, **Duplicate**, and **Delete**.
+
+Steps 1–3 below get a CV into the system. Step 4 is where the hub features earn their place.
 
 ## Step 1A — Upload an existing CV
 
@@ -106,7 +123,7 @@ If you uploaded a CV months ago and the parsing was poor, the simplest fix is to
 
 **How to use it.**
 
-1. Create the CV in **My CVs**: [https://www.sebenzahub.co.za/dashboard/individual/cvs](https://www.sebenzahub.co.za/dashboard/individual/cvs). Click **New CV** and fill in the wizard — personal details, summary, work history, education, skills, certifications, languages, references. Most fields will already be pre-populated from onboarding and (if you uploaded a CV) from the parser. You're filling in the gaps.
+1. Open **My CVs**: [https://www.sebenzahub.co.za/dashboard/individual/cvs](https://www.sebenzahub.co.za/dashboard/individual/cvs). Click **Build CV** in the toolbar across the top of the page. The wizard pops up — fill it in section by section: personal details, summary, work history, education, skills, certifications, languages, references. Most fields will already be pre-populated from onboarding and (if you uploaded a CV) from the parser. You're filling in the gaps.
 
 ![[ch05-cv-builder-personal-info.png]]
 
@@ -204,6 +221,44 @@ Example setup for a mid-career candidate with multiple CVs available:
 
 You don't have to do this on day one. But the moment you find yourself rewriting your CV for one specific application, save the rewrite as a new version instead of overwriting the original. My CVs is built for exactly this — duplicate any existing CV from its card menu, rename it, and you're editing a fresh copy with the original safe.
 
+## Step 4 — Use the My CVs hub
+
+Once you have at least one CV saved, the toolbar at the top of [My CVs](https://www.sebenzahub.co.za/dashboard/individual/cvs) becomes useful. The three features below work *over* the CVs you've already built — they don't replace Steps 1–3, they extend them.
+
+### CV Insights — _Tier: see Pricing_
+
+**What this feature is.** Insights is an analytics dialog that opens over your My CVs page when you click **Insights** in the toolbar. It shows four panels per selected CV: section completeness as a radar chart, skills distribution as a bar chart, your experience timeline, and AI-generated improvement suggestions.
+
+**Why it matters.** A CV that *feels* complete and a CV the platform *measures* as complete are not always the same thing. Insights surfaces the gaps — a missing summary, a skills section that's all soft skills with no hard ones, a 7-year-old role with no bullets — before they cost you matches. The improvement suggestions tell you what to fix first.
+
+**How to use it.** Click **Insights** in the toolbar. Pick a CV from the dropdown if you have more than one. Read the radar to see which sections are pulling your completeness down, glance at the skills bar to check the technical-vs-soft balance, and act on the top suggestion. This is a 2-minute health check, not a full review — for a deeper analysis, that's what [CV Review](https://www.sebenzahub.co.za/dashboard/individual/cv-review) (next chapter) is for.
+
+### Batch Tailor — _Tier: see Pricing_
+
+**What this feature is.** Batch Tailor generates up to five tailored CV variants in a single run. You give it a base CV and a list of target jobs (job title + a paste of the job description), and it produces a tailored "About Me" rewrite plus emphasis adjustments per job. Each variant is saved as a new CV in My CVs.
+
+**Why it matters.** The single biggest determinant of an application's success is whether the CV is tailored to the role. Most candidates don't tailor because the per-application overhead feels too high. Batch Tailor inverts the economics — set up five tailorings once, walk away, and come back to five role-ready CVs sitting in your My CVs grid.
+
+**How to use it.** Click **Batch Tailor** in the toolbar. Pick the source CV the variants should be derived from. For each target role (up to five), paste a job title and the relevant chunk of the job description. Run it. Each variant lands as a new CV — review and adjust before applying. **The variants are starting points, not finished CVs** — read them, fix the parts the AI got wrong, save. They count against your CV quota the same way any other CV does.
+
+### Job Radar — _Tier: see Pricing_
+
+**What this feature is.** Job Radar scans active job postings on the platform and ranks them by how well they match the CV you point it at. For each match it shows a percentage match score, the salary range (where available), the employment type, and which keywords in the job posting matched and which were missing from the CV.
+
+**Why it matters.** Auto Match (Chapter 9) ranks jobs against your *profile*. Job Radar ranks them against a *specific CV* — useful when you have multiple tailored CVs and want to know which roles each one is strongest for. The missing-keyword list also tells you what to add to your CV to widen the match.
+
+**How to use it.** Click **Job Radar** in the toolbar (or on a CV card's three-dot menu, to scope the radar to that specific CV). The Radar opens as a side panel listing matched jobs with score badges. Sort by score, scan the missing keywords, then either apply directly or take the keyword feedback back into Step 1B to tighten the CV.
+
+### Per-CV actions
+
+Each CV card on the grid has a three-dot menu (top-right of the card) with extra actions:
+
+- **Interview Prep** — generates a tailored interview question kit (Behavioural, Technical, Situational, Culture Fit) for a specific job role you're applying for, using this CV as context. This is the fast pre-application kit — different from the full mock-session [Interview Simulator](https://www.sebenzahub.co.za/dashboard/individual/interview-simulator) covered in Chapter 14.
+- **SA Readiness** — checks the CV against South African hiring conventions (POPIA-compliant personal info, B-BBEE / Employment Equity demographics, ID number formatting) and flags anything that's wrong or missing for the local market. Worth running once on each CV before you start applying.
+- **Version History** — every save, every AI rewrite, every duplicate is a versioned snapshot. Open the history to compare versions and restore an older one if a recent edit went wrong.
+- **Duplicate** — one-click copy of a CV. Use it before tailoring so the original stays untouched.
+- **Job Radar (per-CV)** — same Radar as the toolbar version, but pre-scoped to this card's CV.
+
 ## What the platform does for you behind the scenes
 
 Once a CV is saved and the AI features have run:
@@ -236,6 +291,10 @@ Skipping this chapter and going straight to job applications means none of those
 - [ ] Exported a PDF (and DOCX if you expect to be asked for it)
 - [ ] Saved the CV with a clear filename you'll recognise later
 - [ ] Optionally (paid tiers): created a second CV for a different type of role
+- [ ] Optionally: ran **Insights** to spot completeness gaps
+- [ ] Optionally: tried **Batch Tailor** if you're applying to multiple role types
+- [ ] Optionally: ran **Job Radar** to see which active jobs match this CV
+- [ ] Optionally: ran **SA Readiness** on each CV before you start applying
 
 ## Features covered in this chapter
 
@@ -247,6 +306,11 @@ Skipping this chapter and going straight to job applications means none of those
 | 4 | AI Resume Parsing |
 | 5 | AI Skill Inference |
 | 6 | Soft Skills Detection |
+| 7 | CV Insights |
+| 8 | Batch Tailor |
+| 9 | Job Radar |
+| 10 | Interview Prep (per-CV) |
+| 11 | SA Readiness |
 
 ## Next chapter
 
