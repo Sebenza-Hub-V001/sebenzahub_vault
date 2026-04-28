@@ -44,185 +44,185 @@ These 11 files already live in `13-raw/screenshots/`:
 
 ## Ch 06 — CV Review (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch06-cv-review-nav.png` | After intro, before "What CV Review actually checks" | Nav | CV Review item in individual sidebar | [ ] |
-| 2 | `i-ch06-cv-review-select-dialog.png` | After "Run review" steps | Decision | CV picker dialog on `/cv-review` | [ ] |
-| 3 | `i-ch06-cv-review-score-card.png` | Before "Work through it section by section" | Output | Full score card with section-by-section breakdown | [ ] |
-| 4 | `i-ch06-bullet-writer-before-after.png` | After Bullet Writer steps | Output | Weak bullet vs rewritten impact bullet side-by-side | [ ] |
+| 1 | `i-ch06-cv-review-nav.png` | https://www.sebenzahub.co.za/dashboard/individual/cv-review | Nav | CV Review item highlighted in the individual sidebar | [ ] |
+| 2 | `i-ch06-cv-review-select-dialog.png` | https://www.sebenzahub.co.za/dashboard/individual/cv-review | Decision | "Run review" CV picker dialog | [ ] |
+| 3 | `i-ch06-cv-review-score-card.png` | https://www.sebenzahub.co.za/dashboard/individual/cv-review | Output | Full score card with section-by-section breakdown | [ ] |
+| 4 | `i-ch06-bullet-writer-before-after.png` | https://www.sebenzahub.co.za/dashboard/individual/cv-review | Output | Bullet Writer: weak bullet vs rewritten impact bullet side-by-side | [ ] |
 
 ## Ch 07 — Skills, Credentials, Video (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch07-profile-skills-nav.png` | After intro, before "Why this matters" | Nav | Profile page with Skills/Credentials/Video tabs visible | [ ] |
-| 2 | `i-ch07-competency-test-interface.png` | After Competency Tests "How to use it" | Complex UI | In-browser test with timer + question panel | [ ] |
-| 3 | `i-ch07-credential-gap-output.png` | After Credential Gap Analysis steps | Output | Ranked gap list (critical / useful / nice-to-have) | [ ] |
-| 4 | `i-ch07-credential-roadmap-timeline.png` | After Credential Roadmap "How to use it" | Complex UI | Visual time-sequenced roadmap (12/24-month plan) | [ ] |
-| 5 | `i-ch07-video-profile-recorder.png` | After video recording steps | Decision | Browser recorder with preview panel | [ ] |
+| 1 | `i-ch07-profile-skills-nav.png` | https://www.sebenzahub.co.za/dashboard/individual/profile | Nav | Profile page with Skills/Credentials/Video tabs visible | [ ] |
+| 2 | `i-ch07-competency-test-interface.png` | https://www.sebenzahub.co.za/dashboard/individual/tests | Complex UI | In-browser test with timer + question panel | [ ] |
+| 3 | `i-ch07-credential-gap-output.png` | https://www.sebenzahub.co.za/dashboard/individual/credentials | Output | Ranked gap list (critical / useful / nice-to-have) | [ ] |
+| 4 | `i-ch07-credential-roadmap-timeline.png` | https://www.sebenzahub.co.za/dashboard/individual/credentials | Complex UI | Visual time-sequenced roadmap (12/24-month plan) | [ ] |
+| 5 | `i-ch07-video-profile-recorder.png` | https://www.sebenzahub.co.za/dashboard/individual/video-profile | Decision | Browser recorder with preview panel | [ ] |
 
 ## Ch 08 — Privacy and POPIA (2)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch08-popia-consent-toggles.png` | After Profile Visibility intro | Decision | Settings → Privacy panel with public/private toggle + consent switches | [ ] |
-| 2 | `i-ch08-dsar-request-form.png` | After POPIA rights table | Decision | Request data export / account deletion form | [ ] |
+| 1 | `i-ch08-popia-consent-toggles.png` | https://www.sebenzahub.co.za/dashboard/individual/settings | Decision | Settings → Privacy panel with public/private toggle + consent switches | [ ] |
+| 2 | `i-ch08-dsar-request-form.png` | https://www.sebenzahub.co.za/dashboard/individual/settings | Decision | Privacy → Request data export / account deletion form | [ ] |
 
 ## Ch 09 — Search Modes (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch09-search-modes-nav.png` | After intro, before "The three modes" | Nav | Sidebar showing All Jobs, Auto Match, Manual Search | [ ] |
-| 2 | `i-ch09-all-jobs-results.png` | After Basic Search "How to use it" | Result | All Jobs page with results + sidebar filters | [ ] |
-| 3 | `i-ch09-auto-match-ranked-list.png` | After "What you get back" list | Output | Ranked match list with % scores and matched/missing skill chips | [ ] |
-| 4 | `i-ch09-manual-search-filters.png` | After filter list, before "When to use" | Decision | Advanced filters panel (salary, B-BBEE, remote, etc.) | [ ] |
-| 5 | `i-ch09-match-score-explanation.png` | After 0–100 score interpretation table | Output | Expanded match-score explanation with reasons | [ ] |
+| 1 | `i-ch09-search-modes-nav.png` | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Nav | Sidebar showing All Jobs, Auto Match, Manual Search | [ ] |
+| 2 | `i-ch09-all-jobs-results.png` | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Result | All Jobs page with results + sidebar filters | [ ] |
+| 3 | `i-ch09-auto-match-ranked-list.png` | https://www.sebenzahub.co.za/dashboard/individual/auto-match | Output | Ranked match list with % scores and matched/missing skill chips | [ ] |
+| 4 | `i-ch09-manual-search-filters.png` | https://www.sebenzahub.co.za/dashboard/individual/manual-search | Decision | Advanced filters panel (salary, B-BBEE, remote, etc.) | [ ] |
+| 5 | `i-ch09-match-score-explanation.png` | https://www.sebenzahub.co.za/dashboard/individual/auto-match | Output | Click into a match score for the expanded reasons panel | [ ] |
 
 ## Ch 10 — Saved Searches & Favourites (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch10-saved-searches-favourites-nav.png` | After intro difference table | Nav | Sidebar showing Saved Searches + Favourites | [ ] |
-| 2 | `i-ch10-saved-search-create-dialog.png` | After Saved Searches "How to use it" | Decision | Save-query dialog with alert frequency dropdown | [ ] |
-| 3 | `i-ch10-favourites-list.png` | After Favourites "How to use it" | Result | Favourites page with bookmarked job cards | [ ] |
-| 4 | `i-ch10-notifications-settings.png` | After recommended-channel table | Decision | Settings → Notifications matrix (email/SMS/WhatsApp per event) | [ ] |
+| 1 | `i-ch10-saved-searches-favourites-nav.png` | https://www.sebenzahub.co.za/dashboard/individual/saved-searches | Nav | Sidebar showing Saved Searches + Favourites | [ ] |
+| 2 | `i-ch10-saved-search-create-dialog.png` | https://www.sebenzahub.co.za/dashboard/individual/saved-searches | Decision | Save-query dialog with alert frequency dropdown | [ ] |
+| 3 | `i-ch10-favourites-list.png` | https://www.sebenzahub.co.za/dashboard/individual/favourites | Result | Favourites page with bookmarked job cards | [ ] |
+| 4 | `i-ch10-notifications-settings.png` | https://www.sebenzahub.co.za/dashboard/individual/settings | Decision | Settings → Notifications matrix (email/SMS/WhatsApp per event) | [ ] |
 
 ## Ch 11 — Applying (7)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch11-apply-flow-nav.png` | After intro, before "Before you click Apply" | Nav | Apply button on a job listing | [ ] |
-| 2 | `i-ch11-jd-decoder-output.png` | After JD Decoder steps | Output | Decoded JD with must-have / nice-to-have / red-flags panels | [ ] |
-| 3 | `i-ch11-cover-letter-draft.png` | After Cover Letter Generator steps | Output | Generated draft with tone selector visible | [ ] |
-| 4 | `i-ch11-quick-apply-confirmation.png` | After Quick Apply "How to use it" | Decision | One-click confirmation modal | [ ] |
-| 5 | `i-ch11-application-portal-kanban.png` | After Application Portal "How to use it" | Complex UI | Kanban board with stage columns | [ ] |
-| 6 | `i-ch11-ai-feedback-card.png` | After AI Application Feedback "How to use it" | Output | Feedback tab with score + suggestions | [ ] |
-| 7 | `i-ch11-priority-badge.png` | After Priority Applications "How to use it" | Decision | Mark-as-priority toggle + priority badge on submitted app | [ ] |
+| 1 | `i-ch11-apply-flow-nav.png` | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Nav | A specific job listing with the Apply button highlighted | [ ] |
+| 2 | `i-ch11-jd-decoder-output.png` | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Output | JD Decoder tool: must-have / nice-to-have / red-flags panels | [ ] |
+| 3 | `i-ch11-cover-letter-draft.png` | https://www.sebenzahub.co.za/dashboard/individual/cover-letter | Output | Generated draft with tone selector visible | [ ] |
+| 4 | `i-ch11-quick-apply-confirmation.png` | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Decision | One-click Quick Apply confirmation modal | [ ] |
+| 5 | `i-ch11-application-portal-kanban.png` | https://www.sebenzahub.co.za/dashboard/individual/portal | Complex UI | Application Portal kanban with stage columns | [ ] |
+| 6 | `i-ch11-ai-feedback-card.png` | https://www.sebenzahub.co.za/dashboard/individual/applications | Output | Submitted-app detail → Feedback tab with score + suggestions | [ ] |
+| 7 | `i-ch11-priority-badge.png` | https://www.sebenzahub.co.za/dashboard/individual/applications | Decision | Mark-as-priority toggle + priority badge on a submitted app | [ ] |
 
 ## Ch 12 — Tracking Applications (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch12-my-applications-list.png` | After Application Tracking "How to use it" | Result | Flat sortable list of applications with status column | [ ] |
-| 2 | `i-ch12-application-tracker-kanban.png` | After kanban column insights | Complex UI | Kanban board with counts per stage | [ ] |
-| 3 | `i-ch12-analytics-dashboard.png` | After analytics "course-correct" paragraph | Complex UI | Hero dashboard with response rate, time-to-response, source breakdown | [ ] |
-| 4 | `i-ch12-candidate-hub-overview.png` | After Candidate Hub description | Result | Aggregate landing page with upcoming actions | [ ] |
+| 1 | `i-ch12-my-applications-list.png` | https://www.sebenzahub.co.za/dashboard/individual/applications | Result | Flat sortable list of applications with status column | [ ] |
+| 2 | `i-ch12-application-tracker-kanban.png` | https://www.sebenzahub.co.za/dashboard/individual/application-tracker | Complex UI | Kanban board with counts per stage | [ ] |
+| 3 | `i-ch12-analytics-dashboard.png` | https://www.sebenzahub.co.za/dashboard/individual/application-analytics | Complex UI | Hero dashboard with response rate, time-to-response, source breakdown | [ ] |
+| 4 | `i-ch12-candidate-hub-overview.png` | https://www.sebenzahub.co.za/dashboard/individual/candidate-hub | Result | Aggregate landing page with upcoming actions | [ ] |
 
 ## Ch 13 — Interview Simulator (9)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch13-simulator-landing.png` | After intro, before "What the simulator actually does" | Nav | Interview Simulator landing page with sidebar | [ ] |
-| 2 | `i-ch13-prep-kit-output.png` | End of Interview Prep Kit | Output | Consolidated prep kit document | [ ] |
-| 3 | `i-ch13-anxiety-toolkit.png` | End of Interview Anxiety Toolkit | Complex UI | Breathing exercises + reframe prompts | [ ] |
-| 4 | `i-ch13-star-builder.png` | End of STAR Response Builder | Decision | STAR builder form walking through S/T/A/R | [ ] |
-| 5 | `i-ch13-simulator-session.png` | End of Interview Simulator | Complex UI | In-session simulator (video/text mode) | [ ] |
-| 6 | `i-ch13-ai-interview-chat.png` | End of AI Interview | Complex UI | Chat-based AI interview thread | [ ] |
-| 7 | `i-ch13-scoring-breakdown.png` | End of AI Interview Scoring | Output | Score card with dimension breakdowns | [ ] |
-| 8 | `i-ch13-thank-you-note.png` | End of Thank You Note Generator | Output | Generated thank-you note draft | [ ] |
-| 9 | `i-ch13-interview-comparison.png` | End of Interview Comparison | Complex UI | Cross-session comparison table/chart | [ ] |
+| 1 | `i-ch13-simulator-landing.png` | https://www.sebenzahub.co.za/dashboard/individual/interview-simulator | Nav | Interview Simulator landing page with sidebar | [ ] |
+| 2 | `i-ch13-prep-kit-output.png` | https://www.sebenzahub.co.za/dashboard/individual/interview-simulator | Output | Interview Prep Kit consolidated document | [ ] |
+| 3 | `i-ch13-anxiety-toolkit.png` | https://www.sebenzahub.co.za/dashboard/individual/interview-simulator | Complex UI | Anxiety Toolkit: breathing exercises + reframe prompts | [ ] |
+| 4 | `i-ch13-star-builder.png` | https://www.sebenzahub.co.za/dashboard/individual/interview-simulator | Decision | STAR Response Builder form walking through S/T/A/R | [ ] |
+| 5 | `i-ch13-simulator-session.png` | https://www.sebenzahub.co.za/dashboard/individual/interview-simulator | Complex UI | In-session simulator (video/text mode) | [ ] |
+| 6 | `i-ch13-ai-interview-chat.png` | https://www.sebenzahub.co.za/dashboard/individual/interview-simulator | Complex UI | Chat-based AI interview thread | [ ] |
+| 7 | `i-ch13-scoring-breakdown.png` | https://www.sebenzahub.co.za/dashboard/individual/interview-simulator | Output | AI Interview Scoring card with dimension breakdowns | [ ] |
+| 8 | `i-ch13-thank-you-note.png` | https://www.sebenzahub.co.za/dashboard/individual/interview-simulator | Output | Generated thank-you note draft | [ ] |
+| 9 | `i-ch13-interview-comparison.png` | https://www.sebenzahub.co.za/dashboard/individual/interview-simulator | Complex UI | Cross-session comparison table/chart | [ ] |
 
 ## Ch 14 — Company Research (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch14-company-research-landing.png` | After intro | Nav | Company research tool landing | [ ] |
-| 2 | `i-ch14-company-report.png` | Inside AI Company Research, after bullet list | Output | Full company briefing report | [ ] |
-| 3 | `i-ch14-interviewer-intel-card.png` | End of Interviewer Intelligence | Output | Interviewer profile card | [ ] |
-| 4 | `i-ch14-talking-points.png` | End of Step 5 — Build two questions | Output | Generated talking points panel | [ ] |
+| 1 | `i-ch14-company-research-landing.png` | https://www.sebenzahub.co.za/dashboard/individual/company-research | Nav | Company research tool landing | [ ] |
+| 2 | `i-ch14-company-report.png` | https://www.sebenzahub.co.za/dashboard/individual/company-research | Output | Full AI Company Research briefing report | [ ] |
+| 3 | `i-ch14-interviewer-intel-card.png` | https://www.sebenzahub.co.za/dashboard/individual/company-research | Output | Interviewer Intelligence profile card | [ ] |
+| 4 | `i-ch14-talking-points.png` | https://www.sebenzahub.co.za/dashboard/individual/company-research | Output | Generated talking-points panel | [ ] |
 
 ## Ch 15 — Receiving an Offer (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch15-offer-record.png` | End of "Where the offer appears" | Complex UI | Structured offer record view | [ ] |
-| 2 | `i-ch15-negotiation-advisor.png` | End of Negotiation Advisor | Output | Recommended counter with reasoning | [ ] |
-| 3 | `i-ch15-playbook-document.png` | End of Negotiation Playbook | Output | Multi-round playbook document | [ ] |
-| 4 | `i-ch15-scenario-practice.png` | End of Negotiation Scenario | Decision | Written scenario + response feedback | [ ] |
-| 5 | `i-ch15-roleplay-chat.png` | End of Negotiation Roleplay | Complex UI | Interactive roleplay chat | [ ] |
+| 1 | `i-ch15-offer-record.png` | https://www.sebenzahub.co.za/dashboard/individual/applications | Complex UI | Application detail → structured offer record view | [ ] |
+| 2 | `i-ch15-negotiation-advisor.png` | https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator | Output | Negotiation Advisor: recommended counter with reasoning | [ ] |
+| 3 | `i-ch15-playbook-document.png` | https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator | Output | Negotiation Playbook multi-round document | [ ] |
+| 4 | `i-ch15-scenario-practice.png` | https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator | Decision | Negotiation Scenario: written scenario + response feedback | [ ] |
+| 5 | `i-ch15-roleplay-chat.png` | https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator | Complex UI | Negotiation Roleplay interactive chat | [ ] |
 
 ## Ch 16 — Salary Negotiator (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch16-salary-insights-chart.png` | End of Salary Insights | Output | Percentile benchmark chart | [ ] |
-| 2 | `i-ch16-negotiation-coach-chat.png` | End of Salary Negotiation Coach | Complex UI | Conversational strategy chat | [ ] |
-| 3 | `i-ch16-structured-prep-workflow.png` | End of Salary Negotiation Coaching | Complex UI | Structured prep workflow screen | [ ] |
-| 4 | `i-ch16-live-coach-feedback.png` | End of Negotiation Coach | Complex UI | Live roleplay with realtime feedback panel | [ ] |
+| 1 | `i-ch16-salary-insights-chart.png` | https://www.sebenzahub.co.za/dashboard/individual/salary-insights | Output | Percentile benchmark chart for the role | [ ] |
+| 2 | `i-ch16-negotiation-coach-chat.png` | https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator | Complex UI | Salary Negotiation Coach conversational strategy chat | [ ] |
+| 3 | `i-ch16-structured-prep-workflow.png` | https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator | Complex UI | Structured prep workflow screen | [ ] |
+| 4 | `i-ch16-live-coach-feedback.png` | https://www.sebenzahub.co.za/dashboard/individual/salary-negotiator | Complex UI | Live roleplay with realtime feedback panel | [ ] |
 
 ## Ch 17 — No Responses (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch17-application-analytics.png` | End of Step 1 — Diagnose | Complex UI | Application Analytics dashboard with patterns | [ ] |
-| 2 | `i-ch17-linkedin-optimizer.png` | End of LinkedIn Optimizer | Decision | Optimizer suggestions (before/after) | [ ] |
-| 3 | `i-ch17-weakness-alchemist.png` | End of Weakness Alchemist | Output | Reframed weakness output | [ ] |
-| 4 | `i-ch17-rejection-recovery-plan.png` | End of Rejection Recovery Coach | Output | Generated recovery plan | [ ] |
-| 5 | `i-ch17-networking-message-draft.png` | End of Networking Message Writer | Output | Drafted networking message | [ ] |
+| 1 | `i-ch17-application-analytics.png` | https://www.sebenzahub.co.za/dashboard/individual/application-analytics | Complex UI | Application Analytics dashboard with patterns | [ ] |
+| 2 | `i-ch17-linkedin-optimizer.png` | https://www.sebenzahub.co.za/dashboard/individual/profile | Decision | LinkedIn Optimizer suggestions (before/after view) | [ ] |
+| 3 | `i-ch17-weakness-alchemist.png` | https://www.sebenzahub.co.za/dashboard/individual/coaching | Output | Weakness Alchemist reframed-weakness output | [ ] |
+| 4 | `i-ch17-rejection-recovery-plan.png` | https://www.sebenzahub.co.za/dashboard/individual/coaching | Output | Rejection Recovery Coach generated plan | [ ] |
+| 5 | `i-ch17-networking-message-draft.png` | https://www.sebenzahub.co.za/dashboard/individual/coaching | Output | Networking Message Writer drafted message | [ ] |
 
 ## Ch 18 — No Direction (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch18-direction-tools-overview.png` | Hero, after intro | Nav | Landing view showing the four direction tools | [ ] |
-| 2 | `i-ch18-coaching-chat.png` | Tool 1 step 1 | Complex UI | Coaching chat interface mid-session | [ ] |
-| 3 | `i-ch18-career-story-draft.png` | Tool 2 step 3 | Output | Generated career narrative draft | [ ] |
-| 4 | `i-ch18-career-path-map.png` | Tool 3 step 1 | Complex UI | 5–10 year career progression visualisation | [ ] |
-| 5 | `i-ch18-strategy-30-60-90-plan.png` | Tool 4 step 2 | Output | 30/60/90 day action plan document | [ ] |
+| 1 | `i-ch18-direction-tools-overview.png` | https://www.sebenzahub.co.za/dashboard/individual/coaching | Nav | Landing view showing the four direction tools | [ ] |
+| 2 | `i-ch18-coaching-chat.png` | https://www.sebenzahub.co.za/dashboard/individual/coaching | Complex UI | AI Coaching chat interface mid-session | [ ] |
+| 3 | `i-ch18-career-story-draft.png` | https://www.sebenzahub.co.za/dashboard/individual/coaching | Output | Generated career narrative draft | [ ] |
+| 4 | `i-ch18-career-path-map.png` | https://www.sebenzahub.co.za/dashboard/individual/career-path | Complex UI | 5–10 year career progression visualisation | [ ] |
+| 5 | `i-ch18-strategy-30-60-90-plan.png` | https://www.sebenzahub.co.za/dashboard/individual/coaching | Output | 30/60/90 day action plan document | [ ] |
 
 ## Ch 19 — Level Up (13) — heaviest chapter
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch19-learning-stages-overview.png` | Hero, intro | Nav | Learning hub with six stages visible | [ ] |
-| 2 | `i-ch19-skill-gap-chart.png` | Stage 1 Diagnose | Output | Skill gap analysis ranked chart | [ ] |
-| 3 | `i-ch19-study-planner-weekly-grid.png` | Stage 2 Plan | Complex UI | Weekly grid with scheduled slots | [ ] |
-| 4 | `i-ch19-learning-hub-catalogue.png` | Stage 3 Consume | Nav | Learning Hub catalogue grid | [ ] |
-| 5 | `i-ch19-micro-learning-card.png` | Stage 3 Consume | Output | Micro-learning module card | [ ] |
-| 6 | `i-ch19-skill-battle-leaderboard.png` | Stage 4 Practice | Complex UI | Leaderboard with streaks | [ ] |
-| 7 | `i-ch19-weakness-drill-session.png` | Stage 4 Practice | Complex UI | Active drill session UI | [ ] |
-| 8 | `i-ch19-adaptive-difficulty-meter.png` | Stage 4 Practice | Decision | Adaptive difficulty meter | [ ] |
-| 9 | `i-ch19-test-feedback-breakdown.png` | Stage 5 Test | Output | Per sub-topic score breakdown | [ ] |
-| 10 | `i-ch19-test-portfolio-public-page.png` | Stage 5 Test | Output | Public shareable portfolio page | [ ] |
-| 11 | `i-ch19-skill-tree-visualisation.png` | Stage 6 Track | Complex UI | Skill tree with locked/unlocked nodes | [ ] |
-| 12 | `i-ch19-learning-analytics-dashboard.png` | Stage 6 Track | Complex UI | Analytics dashboard tied to job-readiness | [ ] |
-| 13 | `i-ch19-challenge-streak-state.png` | Stage 6 Track | Output | Streak/badge state | [ ] |
+| 1 | `i-ch19-learning-stages-overview.png` | https://www.sebenzahub.co.za/dashboard/individual/learning-hub | Nav | Learning hub home with the six stages visible | [ ] |
+| 2 | `i-ch19-skill-gap-chart.png` | https://www.sebenzahub.co.za/dashboard/individual/skill-gap | Output | Stage 1 — Skill Gap analysis ranked chart | [ ] |
+| 3 | `i-ch19-study-planner-weekly-grid.png` | https://www.sebenzahub.co.za/dashboard/individual/study-planner | Complex UI | Stage 2 — Study Planner weekly grid with scheduled slots | [ ] |
+| 4 | `i-ch19-learning-hub-catalogue.png` | https://www.sebenzahub.co.za/dashboard/individual/learning-hub | Nav | Stage 3 — Learning Hub catalogue grid | [ ] |
+| 5 | `i-ch19-micro-learning-card.png` | https://www.sebenzahub.co.za/dashboard/individual/micro-learning | Output | Stage 3 — Micro-Learning module card | [ ] |
+| 6 | `i-ch19-skill-battle-leaderboard.png` | https://www.sebenzahub.co.za/dashboard/individual/learning-challenges | Complex UI | Stage 4 — Leaderboard with streaks | [ ] |
+| 7 | `i-ch19-weakness-drill-session.png` | https://www.sebenzahub.co.za/dashboard/individual/learning-challenges | Complex UI | Stage 4 — Active drill session UI | [ ] |
+| 8 | `i-ch19-adaptive-difficulty-meter.png` | https://www.sebenzahub.co.za/dashboard/individual/learning-challenges | Decision | Stage 4 — Adaptive difficulty meter | [ ] |
+| 9 | `i-ch19-test-feedback-breakdown.png` | https://www.sebenzahub.co.za/dashboard/individual/tests | Output | Stage 5 — Per sub-topic score breakdown | [ ] |
+| 10 | `i-ch19-test-portfolio-public-page.png` | https://www.sebenzahub.co.za/dashboard/individual/portfolio-builder | Output | Stage 5 — Public shareable portfolio page | [ ] |
+| 11 | `i-ch19-skill-tree-visualisation.png` | https://www.sebenzahub.co.za/dashboard/individual/skill-tree | Complex UI | Stage 6 — Skill tree with locked/unlocked nodes | [ ] |
+| 12 | `i-ch19-learning-analytics-dashboard.png` | https://www.sebenzahub.co.za/dashboard/individual/learning-analytics | Complex UI | Stage 6 — Analytics dashboard tied to job-readiness | [ ] |
+| 13 | `i-ch19-challenge-streak-state.png` | https://www.sebenzahub.co.za/dashboard/individual/community-badges | Output | Stage 6 — Streak/badge state | [ ] |
 
 ## Ch 20 — Autopilot (3)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch20-autopilot-settings.png` | Hero, What Autopilot is | Nav | Autopilot settings page | [ ] |
-| 2 | `i-ch20-threshold-sliders.png` | Principles #1 | Decision | Match-score threshold sliders | [ ] |
-| 3 | `i-ch20-auto-applied-review-queue.png` | Principles #3 | Output | Queue of auto-submitted applications | [ ] |
+| 1 | `i-ch20-autopilot-settings.png` | https://www.sebenzahub.co.za/dashboard/individual/auto-match | Nav | Auto Match → Autopilot settings panel | [ ] |
+| 2 | `i-ch20-threshold-sliders.png` | https://www.sebenzahub.co.za/dashboard/individual/auto-match | Decision | Match-score threshold sliders | [ ] |
+| 3 | `i-ch20-auto-applied-review-queue.png` | https://www.sebenzahub.co.za/dashboard/individual/applications | Output | Applications filtered to auto-submitted queue | [ ] |
 
 ## Ch 21 — Career DNA (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch21-career-dna-settings.png` | Hero, intro | Complex UI | Career DNA configuration screen | [ ] |
-| 2 | `i-ch21-elevator-pitch-variants.png` | Elevator Pitch step 2 | Output | 30s / 60s / 2min variant tabs | [ ] |
-| 3 | `i-ch21-basic-dashboard.png` | Basic Dashboard | Nav | Main dashboard with next-best-actions | [ ] |
-| 4 | `i-ch21-billing-subscription.png` | Billing | Nav | Billing & subscription page | [ ] |
-| 5 | `i-ch21-support-contact-form.png` | Email Support | Output | Contact Support form | [ ] |
+| 1 | `i-ch21-career-dna-settings.png` | https://www.sebenzahub.co.za/dashboard/individual/profile | Complex UI | Profile → Career DNA configuration screen | [ ] |
+| 2 | `i-ch21-elevator-pitch-variants.png` | https://www.sebenzahub.co.za/dashboard/individual/coaching | Output | 30s / 60s / 2min Elevator Pitch variant tabs | [ ] |
+| 3 | `i-ch21-basic-dashboard.png` | https://www.sebenzahub.co.za/dashboard/individual/profile | Nav | Main dashboard with next-best-actions | [ ] |
+| 4 | `i-ch21-billing-subscription.png` | https://www.sebenzahub.co.za/dashboard/individual/billing | Nav | Billing & subscription page | [ ] |
+| 5 | `i-ch21-support-contact-form.png` | https://www.sebenzahub.co.za/dashboard/individual/settings | Output | Contact Support form (Settings → Help) | [ ] |
 
 ## Ch 22 — Market Radar (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch22-market-radar-watches.png` | How to set it up | Complex UI | Configured watches list | [ ] |
-| 2 | `i-ch22-career-pulse-report.png` | Career Pulse step 1 | Output | Career Pulse hero report view | [ ] |
-| 3 | `i-ch22-demand-salary-trend.png` | Career Pulse step 2 | Output | Demand / salary trajectory chart | [ ] |
-| 4 | `i-ch22-hottest-cities-heatmap.png` | Worked example | Output | Hottest cities heatmap | [ ] |
+| 1 | `i-ch22-market-radar-watches.png` | https://www.sebenzahub.co.za/dashboard/individual/career-pulse | Complex UI | Configured Market Radar watches list | [ ] |
+| 2 | `i-ch22-career-pulse-report.png` | https://www.sebenzahub.co.za/dashboard/individual/career-pulse | Output | Career Pulse hero report view | [ ] |
+| 3 | `i-ch22-demand-salary-trend.png` | https://www.sebenzahub.co.za/dashboard/individual/career-pulse | Output | Demand / salary trajectory chart | [ ] |
+| 4 | `i-ch22-hottest-cities-heatmap.png` | https://www.sebenzahub.co.za/dashboard/individual/career-pulse | Output | Hottest cities heatmap | [ ] |
 
 ## Ch 23 — Community & Mentorship (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `i-ch23-community-hub.png` | What's in Community | Nav | Community section landing with 6 tiles | [ ] |
-| 2 | `i-ch23-mentor-connect-match.png` | Finding a mentor | Complex UI | Mentor browse/filter interface | [ ] |
-| 3 | `i-ch23-portfolio-builder-editor.png` | Portfolio step 1 | Complex UI | Portfolio Builder edit view | [ ] |
-| 4 | `i-ch23-published-portfolio-page.png` | Portfolio step 4 | Output | Published public portfolio page | [ ] |
+| 1 | `i-ch23-community-hub.png` | https://www.sebenzahub.co.za/dashboard/individual/community | Nav | Community section landing with 6 tiles | [ ] |
+| 2 | `i-ch23-mentor-connect-match.png` | https://www.sebenzahub.co.za/dashboard/individual/community-mentors | Complex UI | Mentor browse/filter interface | [ ] |
+| 3 | `i-ch23-portfolio-builder-editor.png` | https://www.sebenzahub.co.za/dashboard/individual/portfolio-builder | Complex UI | Portfolio Builder edit view | [ ] |
+| 4 | `i-ch23-published-portfolio-page.png` | https://www.sebenzahub.co.za/dashboard/individual/portfolio-builder | Output | Published public portfolio page (preview) | [ ] |
 
 ---
 
@@ -230,323 +230,323 @@ These 11 files already live in `13-raw/screenshots/`:
 
 ## Ch 03 — Agency Onboarding (3)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch03-agency-onboarding-form.png` | Top (hero) | Nav | Agency onboarding form top view | [ ] |
-| 2 | `r-ch03-sector-multi-select.png` | After Step 3 | Decision | Sector multi-select dropdown open | [ ] |
-| 3 | `r-ch03-verification-proof-url.png` | After Step 4 | Decision | Verification proof URL field | [ ] |
+| 1 | `r-ch03-agency-onboarding-form.png` | https://www.sebenzahub.co.za/onboarding (recruiter flow) | Nav | Agency onboarding form top view | [ ] |
+| 2 | `r-ch03-sector-multi-select.png` | https://www.sebenzahub.co.za/onboarding (recruiter flow) | Decision | Sector multi-select dropdown open | [ ] |
+| 3 | `r-ch03-verification-proof-url.png` | https://www.sebenzahub.co.za/onboarding (recruiter flow) | Decision | Verification proof URL field | [ ] |
 
 ## Ch 04 — Recruiter Dashboard (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch04-dashboard-full-view.png` | Top (hero) | Nav | Full recruiter dashboard with sidebar | [ ] |
-| 2 | `r-ch04-recruitment-path-sidebar.png` | After Path table | Nav | Recruitment Path sidebar group expanded | [ ] |
-| 3 | `r-ch04-parallel-tracks-sidebar.png` | After Tracks list | Nav | Parallel Tracks sidebar section | [ ] |
-| 4 | `r-ch04-billing-usage-page.png` | After Billing & Usage | Output | Billing page with usage-vs-limit meters | [ ] |
-| 5 | `r-ch04-notifications-settings.png` | After All Channels | Decision | Notifications per-event channel config | [ ] |
+| 1 | `r-ch04-dashboard-full-view.png` | https://www.sebenzahub.co.za/dashboard/recruiter/profile | Nav | Full recruiter dashboard with sidebar visible | [ ] |
+| 2 | `r-ch04-recruitment-path-sidebar.png` | https://www.sebenzahub.co.za/dashboard/recruiter/profile | Nav | Sidebar zoomed to the Recruitment Path groups | [ ] |
+| 3 | `r-ch04-parallel-tracks-sidebar.png` | https://www.sebenzahub.co.za/dashboard/recruiter/profile | Nav | Sidebar zoomed to the Parallel Tracks section | [ ] |
+| 4 | `r-ch04-billing-usage-page.png` | https://www.sebenzahub.co.za/dashboard/recruiter/billing | Output | Billing → Usage history with consumption meters | [ ] |
+| 5 | `r-ch04-notifications-settings.png` | https://www.sebenzahub.co.za/dashboard/recruiter/settings | Decision | Settings → Notifications per-event channel config | [ ] |
 
 ## Ch 04.5 — How We Charge (3)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch04-5-pricing-page.png` | After plans table | Output | Pricing page with three tiers | [ ] |
-| 2 | `r-ch04-5-support-tier-comparison.png` | After Dedicated Support | Complex UI | Support tier comparison table | [ ] |
-| 3 | `r-ch04-5-support-contact-form.png` | Same block | Decision | Support contact form | [ ] |
+| 1 | `r-ch04-5-pricing-page.png` | https://www.sebenzahub.co.za/pricing | Output | Public pricing page with three tiers | [ ] |
+| 2 | `r-ch04-5-support-tier-comparison.png` | https://www.sebenzahub.co.za/pricing | Complex UI | Support tier comparison table | [ ] |
+| 3 | `r-ch04-5-support-contact-form.png` | https://www.sebenzahub.co.za/dashboard/recruiter/settings | Decision | Settings → Support contact form | [ ] |
 
 ## Ch 05 — Agency Profile (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch05-agency-profile-landing.png` | Where it lives (hero) | Nav | Agency Profile landing page | [ ] |
-| 2 | `r-ch05-website-import-populated.png` | After Website Import | Output | URL input then populated form | [ ] |
-| 3 | `r-ch05-social-proof-summary.png` | After Social Proof | Output | Social proof summary with chart | [ ] |
-| 4 | `r-ch05-recruiter-bio-output.png` | After Bio Writer | Output | Generated recruiter bio output | [ ] |
-| 5 | `r-ch05-recruiter-dna-card.png` | After DNA Card | Output | Recruiter DNA Card one-screen | [ ] |
+| 1 | `r-ch05-agency-profile-landing.png` | https://www.sebenzahub.co.za/dashboard/recruiter/profile | Nav | Agency Profile landing page | [ ] |
+| 2 | `r-ch05-website-import-populated.png` | https://www.sebenzahub.co.za/dashboard/recruiter/profile | Output | Website Import: URL input then populated form | [ ] |
+| 3 | `r-ch05-social-proof-summary.png` | https://www.sebenzahub.co.za/dashboard/recruiter/profile | Output | Social Proof summary with chart | [ ] |
+| 4 | `r-ch05-recruiter-bio-output.png` | https://www.sebenzahub.co.za/dashboard/recruiter/profile | Output | Bio Writer generated recruiter bio | [ ] |
+| 5 | `r-ch05-recruiter-dna-card.png` | https://www.sebenzahub.co.za/dashboard/recruiter/profile | Output | Recruiter DNA Card one-screen view | [ ] |
 
 ## Ch 06 — AI Profile Assets (6)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch06-brand-page-generator.png` | After Brand Page Gen | Output | Brand page generator form + draft | [ ] |
-| 2 | `r-ch06-public-company-page-slug.png` | After Public Page | Nav | Public company page at slug URL | [ ] |
-| 3 | `r-ch06-brand-content-export-dialog.png` | After Export | Decision | Export format selector dialog | [ ] |
-| 4 | `r-ch06-case-study-output.png` | After Case Study | Output | Generated case study narrative | [ ] |
-| 5 | `r-ch06-employer-brand-content-editor.png` | After Brand Content | Decision | Content editor with format/tone picker | [ ] |
-| 6 | `r-ch06-market-analysis-report.png` | After Market Analysis | Output | Market analysis report with charts | [ ] |
+| 1 | `r-ch06-brand-page-generator.png` | https://www.sebenzahub.co.za/dashboard/recruiter/brand | Output | Brand page generator form + draft | [ ] |
+| 2 | `r-ch06-public-company-page-slug.png` | https://www.sebenzahub.co.za/agency/{your-slug} | Nav | Public company page at slug URL (your agency's public URL) | [ ] |
+| 3 | `r-ch06-brand-content-export-dialog.png` | https://www.sebenzahub.co.za/dashboard/recruiter/brand | Decision | Export format selector dialog | [ ] |
+| 4 | `r-ch06-case-study-output.png` | https://www.sebenzahub.co.za/dashboard/recruiter/brand | Output | Case Study generated narrative | [ ] |
+| 5 | `r-ch06-employer-brand-content-editor.png` | https://www.sebenzahub.co.za/dashboard/recruiter/brand | Decision | Brand Content editor with format/tone picker | [ ] |
+| 6 | `r-ch06-market-analysis-report.png` | https://www.sebenzahub.co.za/dashboard/recruiter/brand | Output | Market Analysis report with charts | [ ] |
 
 ## Ch 07 — Team Setup (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch07-team-invite-form.png` | After Team Members | Decision | Invite member form with role dropdown | [ ] |
-| 2 | `r-ch07-role-permissions.png` | After Custom roles | Complex UI | Custom role permission matrix | [ ] |
-| 3 | `r-ch07-collaboration-mention-feed.png` | After Team Collaboration | Complex UI | @-mention feed & team activity | [ ] |
-| 4 | `r-ch07-coach-insights-dashboard.png` | After Coach Insights | Output | Coach insight cards per recruiter | [ ] |
-| 5 | `r-ch07-recruiter-benchmark-chart.png` | After Benchmark | Output | Benchmark chart agency vs platform | [ ] |
+| 1 | `r-ch07-team-invite-form.png` | https://www.sebenzahub.co.za/dashboard/recruiter/team | Decision | Invite member form with role dropdown | [ ] |
+| 2 | `r-ch07-role-permissions.png` | https://www.sebenzahub.co.za/dashboard/recruiter/team | Complex UI | Custom role permission matrix | [ ] |
+| 3 | `r-ch07-collaboration-mention-feed.png` | https://www.sebenzahub.co.za/dashboard/recruiter/team | Complex UI | @-mention feed & team activity | [ ] |
+| 4 | `r-ch07-coach-insights-dashboard.png` | https://www.sebenzahub.co.za/dashboard/recruiter/team | Output | Coach insight cards per recruiter | [ ] |
+| 5 | `r-ch07-recruiter-benchmark-chart.png` | https://www.sebenzahub.co.za/dashboard/recruiter/team | Output | Benchmark chart agency vs platform | [ ] |
 
 ## Ch 08 — Adding Clients (3)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch08-client-list-view.png` | Where it lives (hero) | Nav | Master client list with filters | [ ] |
-| 2 | `r-ch08-add-client-form.png` | After min fields table | Decision | Add Client form filled in | [ ] |
-| 3 | `r-ch08-client-detail-requisitions.png` | After Documents | Nav | Client detail page with requisitions | [ ] |
+| 1 | `r-ch08-client-list-view.png` | https://www.sebenzahub.co.za/dashboard/recruiter/clients | Nav | Master client list with filters | [ ] |
+| 2 | `r-ch08-add-client-form.png` | https://www.sebenzahub.co.za/dashboard/recruiter/clients | Decision | Add Client form filled in | [ ] |
+| 3 | `r-ch08-client-detail-requisitions.png` | https://www.sebenzahub.co.za/dashboard/recruiter/clients | Nav | Client detail page with requisitions list | [ ] |
 
 ## Ch 09 — Engagement Terms (2)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch09-engagement-terms-form.png` | Where it lives (hero) | Decision | Engagement form (fee structure, terms) | [ ] |
-| 2 | `r-ch09-signed-agreement-view.png` | After multi-engagements | Output | Signed agreement / engagement record | [ ] |
+| 1 | `r-ch09-engagement-terms-form.png` | https://www.sebenzahub.co.za/dashboard/recruiter/clients | Decision | Engagement form (fee structure, terms) | [ ] |
+| 2 | `r-ch09-signed-agreement-view.png` | https://www.sebenzahub.co.za/dashboard/recruiter/clients | Output | Signed agreement / engagement record | [ ] |
 
 ## Ch 10 — Managing Client Relationships (2)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch10-client-crm-view.png` | After 4 tools table (hero) | Nav | Client CRM master view | [ ] |
-| 2 | `r-ch10-activity-timeline.png` | After 30-second rule | Complex UI | Call notes / activity interaction timeline | [ ] |
+| 1 | `r-ch10-client-crm-view.png` | https://www.sebenzahub.co.za/dashboard/recruiter/client-pipeline | Nav | Client CRM master view | [ ] |
+| 2 | `r-ch10-activity-timeline.png` | https://www.sebenzahub.co.za/dashboard/recruiter/call-notes | Complex UI | Call notes / activity interaction timeline | [ ] |
 
 ## Ch 11 — Posting a Job (8)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch11-job-list-status.png` | Intro (hero) | Nav | Jobs list with status column | [ ] |
-| 2 | `r-ch11-ai-jd-generator-output.png` | Write — after JD Gen | Output | Generated JD in form | [ ] |
-| 3 | `r-ch11-bias-detection-highlights.png` | Validate — Bias | Output | Inclusivity highlights + rewrites | [ ] |
-| 4 | `r-ch11-jd-compliance-flags.png` | Validate — Compliance | Output | Block/warning compliance flags | [ ] |
-| 5 | `r-ch11-salary-benchmark-chart.png` | Validate — Salary | Output | Market median + P25–P75 range | [ ] |
-| 6 | `r-ch11-publish-channel-selector.png` | Publish — Postings | Decision | Publish dialog with channel toggles | [ ] |
-| 7 | `r-ch11-job-board-integrations-panel.png` | Publish — Boards | Decision | Job Board Integrations panel (Pnet/CJ) | [ ] |
-| 8 | `r-ch11-job-ai-insights-dashboard.png` | Monitor — AI Insights | Output | Job AI Insights dashboard | [ ] |
+| 1 | `r-ch11-job-list-status.png` | https://www.sebenzahub.co.za/dashboard/recruiter/jobs | Nav | Jobs list with status column | [ ] |
+| 2 | `r-ch11-ai-jd-generator-output.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ai-writer | Output | AI JD Writer generated JD in form | [ ] |
+| 3 | `r-ch11-bias-detection-highlights.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ai-writer | Output | Inclusivity highlights + rewrites | [ ] |
+| 4 | `r-ch11-jd-compliance-flags.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ai-writer | Output | Block/warning compliance flags | [ ] |
+| 5 | `r-ch11-salary-benchmark-chart.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ai-writer | Output | Market median + P25–P75 range chart | [ ] |
+| 6 | `r-ch11-publish-channel-selector.png` | https://www.sebenzahub.co.za/dashboard/recruiter/jobs | Decision | Publish dialog with channel toggles | [ ] |
+| 7 | `r-ch11-job-board-integrations-panel.png` | https://www.sebenzahub.co.za/dashboard/recruiter/job-board-integrations | Decision | Job Board Integrations panel (Pnet/CJ) | [ ] |
+| 8 | `r-ch11-job-ai-insights-dashboard.png` | https://www.sebenzahub.co.za/dashboard/recruiter/jobs | Output | Per-requisition Job AI Insights dashboard | [ ] |
 
-## Ch 12 — Sourcing Channels (7)
+## Ch 12 — Sourcing Channels (now Ch.14 after 2026-04-28 renumber, 7)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch12-candidate-search-results.png` | After Basic Search | Nav | Candidate search results page | [ ] |
-| 2 | `r-ch12-ai-hybrid-search.png` | After Hybrid | Output | Hybrid natural-language search results | [ ] |
-| 3 | `r-ch12-smart-search-suggestions.png` | After Suggestions | Complex UI | Smart suggestions sidebar | [ ] |
-| 4 | `r-ch12-market-pulse-chart.png` | After Market Pulse | Output | Market pulse trend chart | [ ] |
-| 5 | `r-ch12-competitive-heat-map.png` | After Heat Map | Complex UI | Competitive heat map geo view | [ ] |
-| 6 | `r-ch12-talent-pool-generator-dialog.png` | After Pool Generator | Decision | Talent Pool Generator prompt dialog | [ ] |
-| 7 | `r-ch12-linkedin-sync.png` | After LinkedIn Sync | Nav | LinkedIn Sync integration panel | [ ] |
+| 1 | `r-ch12-candidate-search-results.png` | https://www.sebenzahub.co.za/dashboard/recruiter/candidates | Nav | Candidate search results page | [ ] |
+| 2 | `r-ch12-ai-hybrid-search.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ai-search | Output | Hybrid natural-language search results | [ ] |
+| 3 | `r-ch12-smart-search-suggestions.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ai-search | Complex UI | Smart suggestions sidebar | [ ] |
+| 4 | `r-ch12-market-pulse-chart.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ai-search | Output | Market pulse trend chart per saved search | [ ] |
+| 5 | `r-ch12-competitive-heat-map.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ai-search | Complex UI | Competitive heat map geographic view | [ ] |
+| 6 | `r-ch12-talent-pool-generator-dialog.png` | https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool | Decision | Talent Pool Generator prompt dialog | [ ] |
+| 7 | `r-ch12-linkedin-sync.png` | https://www.sebenzahub.co.za/dashboard/recruiter/settings | Nav | Settings → Integrations → LinkedIn Sync panel | [ ] |
 
-## Ch 13 — LinkedIn Leads & Rediscovery (4)
+## Ch 13 — Talent Rediscovery & LinkedIn Leads (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch13-linkedin-leads-import.png` | After lead source setup | Decision | LinkedIn Leads import/upload screen | [ ] |
-| 2 | `r-ch13-ai-candidate-recommendations.png` | After AI Recs | Output | Ranked candidate recommendations list | [ ] |
-| 3 | `r-ch13-candidate-reengagement.png` | After Re-Engagement | Output | AI-suggested re-engagement message | [ ] |
-| 4 | `r-ch13-talent-rediscovery-view.png` | After Rediscovery | Complex UI | Dormant candidates ranked vs open jobs | [ ] |
+| 1 | `r-ch13-linkedin-leads-import.png` | https://www.sebenzahub.co.za/dashboard/recruiter/linkedin-leads | Decision | LinkedIn Leads import / upload screen | [ ] |
+| 2 | `r-ch13-ai-candidate-recommendations.png` | https://www.sebenzahub.co.za/dashboard/recruiter/jobs | Output | Per-job AI Recommendations tab with ranked candidates | [ ] |
+| 3 | `r-ch13-candidate-reengagement.png` | https://www.sebenzahub.co.za/dashboard/recruiter/re-engagement | Output | AI-suggested re-engagement message | [ ] |
+| 4 | `r-ch13-talent-rediscovery-view.png` | https://www.sebenzahub.co.za/dashboard/recruiter/talent-rediscovery | Complex UI | Dormant candidates ranked vs open jobs | [ ] |
 
-## Ch 14 — Talent Pools & CRM (6)
+## Ch 14 — Talent Pools & CRM (now Ch.12 after 2026-04-28 renumber, 6)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch14-talent-pools-list.png` | After pool creation | Nav | Talent Pools list with criteria | [ ] |
-| 2 | `r-ch14-auto-tag-candidate.png` | After Auto-Tag | Output | Auto-applied tags on candidate | [ ] |
-| 3 | `r-ch14-talent-pool-clustering.png` | After Clustering | Complex UI | AI-discovered cluster suggestions | [ ] |
-| 4 | `r-ch14-talent-pool-analysis.png` | After Analysis | Output | Pool analysis distribution charts | [ ] |
-| 5 | `r-ch14-side-by-side-comparison.png` | After Comparison | Complex UI | 2–5 candidates compared across attributes | [ ] |
-| 6 | `r-ch14-csv-bulk-import.png` | After CSV Import | Decision | Column mapping + dedupe UI | [ ] |
+| 1 | `r-ch14-talent-pools-list.png` | https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool | Nav | Talent Pools list with criteria | [ ] |
+| 2 | `r-ch14-auto-tag-candidate.png` | https://www.sebenzahub.co.za/dashboard/recruiter/candidates | Output | Candidate profile with auto-applied tags | [ ] |
+| 3 | `r-ch14-talent-pool-clustering.png` | https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool | Complex UI | AI-discovered cluster suggestions | [ ] |
+| 4 | `r-ch14-talent-pool-analysis.png` | https://www.sebenzahub.co.za/dashboard/recruiter/talent-pool | Output | Pool analysis distribution charts | [ ] |
+| 5 | `r-ch14-side-by-side-comparison.png` | https://www.sebenzahub.co.za/dashboard/recruiter/comparison | Complex UI | 2–5 candidates compared across attributes | [ ] |
+| 6 | `r-ch14-csv-bulk-import.png` | https://www.sebenzahub.co.za/dashboard/recruiter/candidates | Decision | Bulk import column mapping + dedupe UI | [ ] |
 
 ## Ch 15 — Screening Config (3)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch15-screening-roles-config.png` | After Screening Roles "How to use it" | Complex UI | Screening Roles config screen per role family | [ ] |
-| 2 | `r-ch15-criteria-generator-output.png` | After Screening Criteria Generator | Output | AI-generated must-haves / nice-to-haves / weights | [ ] |
-| 3 | `r-ch15-knockout-questions-editor.png` | Before "Examples that work" (Layer 1) | Complex UI | Knockout questions editor with yes/no rules | [ ] |
+| 1 | `r-ch15-screening-roles-config.png` | https://www.sebenzahub.co.za/dashboard/recruiter/roles | Complex UI | Screening Roles config screen per role family | [ ] |
+| 2 | `r-ch15-criteria-generator-output.png` | https://www.sebenzahub.co.za/dashboard/recruiter/roles | Output | AI-generated must-haves / nice-to-haves / weights | [ ] |
+| 3 | `r-ch15-knockout-questions-editor.png` | https://www.sebenzahub.co.za/dashboard/recruiter/roles | Complex UI | Knockout questions editor with yes/no rules | [ ] |
 
 ## Ch 16 — The Pipeline (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch16-pipeline-kanban-hero.png` | Hero, top of page | Complex UI | Full kanban board, all stages, many cards | [ ] |
-| 2 | `r-ch16-drag-between-stages.png` | After drag/drop description | Decision | Candidate card mid-drag between columns | [ ] |
-| 3 | `r-ch16-engagement-score-card.png` | After Engagement Scorer | Output | Candidate card with engagement indicator beside match score | [ ] |
-| 4 | `r-ch16-requirement-restriction-warning.png` | After Requirement Restriction Analyzer | Output | Warning overlay listing which criteria reject | [ ] |
-| 5 | `r-ch16-stage-config-settings.png` | After "5–7 sweet spot" paragraph | Complex UI | Stage customisation settings screen | [ ] |
+| 1 | `r-ch16-pipeline-kanban-hero.png` | https://www.sebenzahub.co.za/dashboard/recruiter/pipeline | Complex UI | Full kanban board, all stages, many cards | [ ] |
+| 2 | `r-ch16-drag-between-stages.png` | https://www.sebenzahub.co.za/dashboard/recruiter/pipeline | Decision | Candidate card mid-drag between columns | [ ] |
+| 3 | `r-ch16-engagement-score-card.png` | https://www.sebenzahub.co.za/dashboard/recruiter/pipeline | Output | Candidate card with engagement indicator beside match score | [ ] |
+| 4 | `r-ch16-requirement-restriction-warning.png` | https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check | Output | Warning overlay listing which criteria reject | [ ] |
+| 5 | `r-ch16-stage-config-settings.png` | https://www.sebenzahub.co.za/dashboard/recruiter/settings | Complex UI | Settings → Pipeline stage customisation | [ ] |
 
 ## Ch 17 — Screening Tools (14) — heaviest chapter
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch17-ai-candidate-screening-shortlist.png` | After AI Candidate Screening | Output | Ranked shortlist with reasoning per candidate | [ ] |
-| 2 | `r-ch17-resume-vs-jd-scoring-card.png` | After Resume vs JD Scoring | Output | Single candidate fit % card with explanation | [ ] |
-| 3 | `r-ch17-batch-screening-report.png` | After Batch Screening | Output | Batch report grouped advance / maybe / reject | [ ] |
-| 4 | `r-ch17-predictive-hiring-risk-score.png` | After Predictive Hiring | Output | Retention risk score with contributing factors | [ ] |
-| 5 | `r-ch17-culture-fit-radar-chart.png` | After Culture Fit | Output | 6-dimension radar chart | [ ] |
-| 6 | `r-ch17-location-intelligence-map.png` | After Location Intelligence | Output | SA province-level commute/talent map | [ ] |
-| 7 | `r-ch17-screening-chatbot-conversation.png` | After AI Screening Chatbot | Complex UI | Chatbot conversation transcript | [ ] |
-| 8 | `r-ch17-screening-next-steps-recommendation.png` | After Screening Next Steps | Decision | Suggested-action button with reasoning | [ ] |
-| 9 | `r-ch17-test-builder-branching-logic.png` | After Test Builder | Complex UI | Test with branching logic editor | [ ] |
-| 10 | `r-ch17-test-templates-library.png` | After Test Templates | Nav | Template library grid | [ ] |
-| 11 | `r-ch17-anti-cheat-monitoring-live.png` | After Anti-Cheat Monitoring | Complex UI | Live monitoring with flagged events | [ ] |
-| 12 | `r-ch17-ai-reference-questions.png` | After AI Reference Questions | Output | Generated role-specific questions | [ ] |
-| 13 | `r-ch17-reference-check-summary.png` | After Reference Check Summary | Output | AI summary with red flags | [ ] |
-| 14 | `r-ch17-blind-hiring-before-after.png` | After Blind Hiring | Decision | Before/after redaction split view | [ ] |
+| 1 | `r-ch17-ai-candidate-screening-shortlist.png` | https://www.sebenzahub.co.za/dashboard/recruiter/candidate-summary | Output | Ranked shortlist with reasoning per candidate | [ ] |
+| 2 | `r-ch17-resume-vs-jd-scoring-card.png` | https://www.sebenzahub.co.za/dashboard/recruiter/pipeline | Output | Single candidate fit % card with explanation | [ ] |
+| 3 | `r-ch17-batch-screening-report.png` | https://www.sebenzahub.co.za/dashboard/recruiter/batch-jobs | Output | Batch report grouped advance / maybe / reject | [ ] |
+| 4 | `r-ch17-predictive-hiring-risk-score.png` | https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring | Output | Retention risk score with contributing factors | [ ] |
+| 5 | `r-ch17-culture-fit-radar-chart.png` | https://www.sebenzahub.co.za/dashboard/recruiter/culture-fit | Output | 6-dimension radar chart | [ ] |
+| 6 | `r-ch17-location-intelligence-map.png` | https://www.sebenzahub.co.za/dashboard/recruiter/location-intel | Output | SA province-level commute / talent map | [ ] |
+| 7 | `r-ch17-screening-chatbot-conversation.png` | https://www.sebenzahub.co.za/dashboard/recruiter/screening-chatbot | Complex UI | Chatbot conversation transcript | [ ] |
+| 8 | `r-ch17-screening-next-steps-recommendation.png` | https://www.sebenzahub.co.za/dashboard/recruiter/pipeline | Decision | Suggested-action button with reasoning | [ ] |
+| 9 | `r-ch17-test-builder-branching-logic.png` | https://www.sebenzahub.co.za/dashboard/recruiter/tests | Complex UI | Test with branching logic editor | [ ] |
+| 10 | `r-ch17-test-templates-library.png` | https://www.sebenzahub.co.za/dashboard/recruiter/test-templates | Nav | Template library grid | [ ] |
+| 11 | `r-ch17-anti-cheat-monitoring-live.png` | https://www.sebenzahub.co.za/dashboard/recruiter/tests | Complex UI | Live test monitoring with flagged events | [ ] |
+| 12 | `r-ch17-ai-reference-questions.png` | https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks | Output | Generated role-specific reference questions | [ ] |
+| 13 | `r-ch17-reference-check-summary.png` | https://www.sebenzahub.co.za/dashboard/recruiter/reference-checks | Output | AI summary with red flags | [ ] |
+| 14 | `r-ch17-blind-hiring-before-after.png` | https://www.sebenzahub.co.za/dashboard/recruiter/blind-hiring | Decision | Before/after redaction split view | [ ] |
 
 ## Ch 18 — Interview Scheduling (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch18-self-scheduling-calendar.png` | After Self-Scheduling | Complex UI | Candidate-facing calendar time picker | [ ] |
-| 2 | `r-ch18-scheduling-links-share-dialog.png` | After Scheduling Links | Nav | Share link copy dialog | [ ] |
-| 3 | `r-ch18-ai-interview-questions-output.png` | After AI Interview Questions | Output | Generated behavioural/technical questions | [ ] |
-| 4 | `r-ch18-scorecard-template-editor.png` | After Scorecards | Complex UI | Rubric template editor with rating scales | [ ] |
-| 5 | `r-ch18-scorecard-rubric-filled.png` | After Scorecard Suggestions | Output | Filled scorecard mid-interview | [ ] |
+| 1 | `r-ch18-self-scheduling-calendar.png` | https://www.sebenzahub.co.za/dashboard/recruiter/self-scheduling | Complex UI | Candidate-facing calendar time picker | [ ] |
+| 2 | `r-ch18-scheduling-links-share-dialog.png` | https://www.sebenzahub.co.za/dashboard/recruiter/scheduling | Nav | Share link copy dialog | [ ] |
+| 3 | `r-ch18-ai-interview-questions-output.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ai-questions | Output | Generated behavioural / technical questions | [ ] |
+| 4 | `r-ch18-scorecard-template-editor.png` | https://www.sebenzahub.co.za/dashboard/recruiter/scorecards | Complex UI | Rubric template editor with rating scales | [ ] |
+| 5 | `r-ch18-scorecard-rubric-filled.png` | https://www.sebenzahub.co.za/dashboard/recruiter/scorecards | Output | Filled scorecard mid-interview | [ ] |
 
 ## Ch 19 — Video Interviews (7)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch19-video-interview-session.png` | After Video Interviews feature | Complex UI | Video interview in session with controls | [ ] |
-| 2 | `r-ch19-ai-conversational-interview-chat.png` | After AI Conversational Interview | Complex UI | AI chatting with candidate in browser | [ ] |
-| 3 | `r-ch19-sentiment-timeline-chart.png` | After Sentiment Timeline | Output | Minute-by-minute sentiment chart | [ ] |
-| 4 | `r-ch19-behavioral-star-detection.png` | After Behavioral Analysis | Output | STAR detection on each question | [ ] |
-| 5 | `r-ch19-communication-deep-dive-metrics.png` | After Communication Deep Dive | Output | Filler-word rate, vocab metrics | [ ] |
-| 6 | `r-ch19-hiring-recommendation-card.png` | After Hiring Recommendation | Decision | Top-of-record recommendation card | [ ] |
-| 7 | `r-ch19-bias-audit-overlay.png` | After "sorting aid, never a decision" warning | Output | Bias audit demographic overlay | [ ] |
+| 1 | `r-ch19-video-interview-session.png` | https://www.sebenzahub.co.za/dashboard/recruiter/video-interviews | Complex UI | Video interview in session with controls | [ ] |
+| 2 | `r-ch19-ai-conversational-interview-chat.png` | https://www.sebenzahub.co.za/dashboard/recruiter/video-interviews | Complex UI | AI chatting with candidate in browser | [ ] |
+| 3 | `r-ch19-sentiment-timeline-chart.png` | https://www.sebenzahub.co.za/dashboard/recruiter/video-analysis | Output | Minute-by-minute sentiment chart | [ ] |
+| 4 | `r-ch19-behavioral-star-detection.png` | https://www.sebenzahub.co.za/dashboard/recruiter/video-analysis | Output | STAR detection on each question | [ ] |
+| 5 | `r-ch19-communication-deep-dive-metrics.png` | https://www.sebenzahub.co.za/dashboard/recruiter/video-analysis | Output | Filler-word rate, vocab metrics | [ ] |
+| 6 | `r-ch19-hiring-recommendation-card.png` | https://www.sebenzahub.co.za/dashboard/recruiter/video-analysis | Decision | Top-of-record recommendation card | [ ] |
+| 7 | `r-ch19-bias-audit-overlay.png` | https://www.sebenzahub.co.za/dashboard/recruiter/diversity | Output | Bias audit demographic overlay | [ ] |
 
 ## Ch 20 — Making an Offer (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch20-offer-management-list.png` | After Offer Management | Complex UI | Master offer list with versions/status | [ ] |
-| 2 | `r-ch20-offer-letter-generator-output.png` | After Offer Letter Generator | Output | Merged letter preview | [ ] |
-| 3 | `r-ch20-acceptance-predictor-probability.png` | After Acceptance Predictor | Output | 0–100% probability with reasoning | [ ] |
-| 4 | `r-ch20-predictive-performance-trajectory.png` | After Predictive Performance | Output | 30/90/180/365-day trajectory chart | [ ] |
-| 5 | `r-ch20-team-fit-simulation.png` | After Team Fit Simulation | Output | Friction points & complementary strengths | [ ] |
+| 1 | `r-ch20-offer-management-list.png` | https://www.sebenzahub.co.za/dashboard/recruiter/offers | Complex UI | Master offer list with versions / status | [ ] |
+| 2 | `r-ch20-offer-letter-generator-output.png` | https://www.sebenzahub.co.za/dashboard/recruiter/offer-letters | Output | Merged letter preview | [ ] |
+| 3 | `r-ch20-acceptance-predictor-probability.png` | https://www.sebenzahub.co.za/dashboard/recruiter/offer-predictor | Output | 0–100% probability with reasoning | [ ] |
+| 4 | `r-ch20-predictive-performance-trajectory.png` | https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring | Output | 30/90/180/365-day trajectory chart | [ ] |
+| 5 | `r-ch20-team-fit-simulation.png` | https://www.sebenzahub.co.za/dashboard/recruiter/team-dna | Output | Friction points & complementary strengths | [ ] |
 
 ## Ch 21 — Recording a Placement (3)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch21-placement-recording-form.png` | After Step 1 status list | Complex UI | Placement record with status/start date fields | [ ] |
-| 2 | `r-ch21-background-checks-integration.png` | After Background Checks | Output | Background check result with POPIA consent log | [ ] |
-| 3 | `r-ch21-placement-analytics-dashboard.png` | After Placement Analytics | Complex UI | Time-to-fill, retention, ratios dashboard | [ ] |
+| 1 | `r-ch21-placement-recording-form.png` | https://www.sebenzahub.co.za/dashboard/recruiter/placements | Complex UI | Placement record with status / start date fields | [ ] |
+| 2 | `r-ch21-background-checks-integration.png` | https://www.sebenzahub.co.za/dashboard/recruiter/background-checks | Output | Background check result with POPIA consent log | [ ] |
+| 3 | `r-ch21-placement-analytics-dashboard.png` | https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard | Complex UI | Time-to-fill, retention, ratios dashboard | [ ] |
 
 ## Ch 22 — Unified Inbox (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch22-unified-inbox-multichannel.png` | After 3-panel layout description | Complex UI | Three-panel view: conversations + thread + context | [ ] |
-| 2 | `r-ch22-ai-email-composer-suggestions.png` | After AI Email Composer | Output | Composer with AI draft + tone suggestions | [ ] |
-| 3 | `r-ch22-email-templates-library.png` | After Email Templates | Nav | Template library grid | [ ] |
-| 4 | `r-ch22-outreach-draft-generator.png` | After Outreach Draft Generator | Output | Personalised outreach draft | [ ] |
-| 5 | `r-ch22-whatsapp-messages-in-inbox.png` | After WhatsApp Messages | Complex UI | WhatsApp thread within Unified Inbox | [ ] |
+| 1 | `r-ch22-unified-inbox-multichannel.png` | https://www.sebenzahub.co.za/dashboard/recruiter/unified-inbox | Complex UI | Three-panel view: conversations + thread + context | [ ] |
+| 2 | `r-ch22-ai-email-composer-suggestions.png` | https://www.sebenzahub.co.za/dashboard/recruiter/unified-inbox | Output | Composer with AI draft + tone suggestions | [ ] |
+| 3 | `r-ch22-email-templates-library.png` | https://www.sebenzahub.co.za/dashboard/recruiter/email-templates | Nav | Template library grid | [ ] |
+| 4 | `r-ch22-outreach-draft-generator.png` | https://www.sebenzahub.co.za/dashboard/recruiter/sequences | Output | Personalised outreach draft | [ ] |
+| 5 | `r-ch22-whatsapp-messages-in-inbox.png` | https://www.sebenzahub.co.za/dashboard/recruiter/unified-inbox | Complex UI | WhatsApp thread within Unified Inbox | [ ] |
 
 ## Ch 23 — Templates, Sequences, Chatbot (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch23-template-variable-editor.png` | After "Building a template" steps | Complex UI | Template body with merge field variables | [ ] |
-| 2 | `r-ch23-email-sequences-builder.png` | After Email Sequences feature | Complex UI | Sequence builder with Day 0/4/10 steps | [ ] |
-| 3 | `r-ch23-sequence-conditional-branches.png` | After sequence-build step 6 | Complex UI | Exit rules + conditional branches | [ ] |
-| 4 | `r-ch23-sequence-analytics.png` | After Candidate Re-Engagement callback | Output | Per-sequence reply/open/exit analytics | [ ] |
+| 1 | `r-ch23-template-variable-editor.png` | https://www.sebenzahub.co.za/dashboard/recruiter/email-templates | Complex UI | Template body with merge field variables | [ ] |
+| 2 | `r-ch23-email-sequences-builder.png` | https://www.sebenzahub.co.za/dashboard/recruiter/sequences | Complex UI | Sequence builder with Day 0 / 4 / 10 steps | [ ] |
+| 3 | `r-ch23-sequence-conditional-branches.png` | https://www.sebenzahub.co.za/dashboard/recruiter/sequences | Complex UI | Exit rules + conditional branches | [ ] |
+| 4 | `r-ch23-sequence-analytics.png` | https://www.sebenzahub.co.za/dashboard/recruiter/sequences | Output | Per-sequence reply / open / exit analytics | [ ] |
 
 ## Ch 24 — WhatsApp at Scale (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch24-whatsapp-apply-6-languages.png` | After WhatsApp-First Apply | Complex UI | Apply-via-WhatsApp flow with language picker | [ ] |
-| 2 | `r-ch24-whatsapp-command-center.png` | After WhatsApp Apply step 6 | Complex UI | Command Center conversation list + reply panel | [ ] |
-| 3 | `r-ch24-whatsapp-campaign-builder.png` | After WhatsApp Campaigns feature | Complex UI | Campaign composer with template picker | [ ] |
-| 4 | `r-ch24-audience-segmentation.png` | After campaign-build step 7 | Complex UI | Segment filters: pool + tags + consent | [ ] |
-| 5 | `r-ch24-campaign-analytics-dashboard.png` | After opt-out rule end | Output | Campaign sent / delivered / replied / opted-out metrics | [ ] |
+| 1 | `r-ch24-whatsapp-apply-6-languages.png` | https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-apply | Complex UI | Apply-via-WhatsApp flow with language picker | [ ] |
+| 2 | `r-ch24-whatsapp-command-center.png` | https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-bot | Complex UI | Command Center conversation list + reply panel | [ ] |
+| 3 | `r-ch24-whatsapp-campaign-builder.png` | https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns | Complex UI | Campaign composer with template picker | [ ] |
+| 4 | `r-ch24-audience-segmentation.png` | https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns | Complex UI | Segment filters: pool + tags + consent | [ ] |
+| 5 | `r-ch24-campaign-analytics-dashboard.png` | https://www.sebenzahub.co.za/dashboard/recruiter/whatsapp-campaigns | Output | Campaign sent / delivered / replied / opted-out metrics | [ ] |
 
 ## Ch 25 — Reading Your Analytics (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch25-kpi-dashboard-hero.png` | Top hero | Nav | KPI Dashboard with placement/revenue/fill-rate tiles | [ ] |
-| 2 | `r-ch25-recruiter-analytics-funnel.png` | Recruiter Analytics | Complex UI | Full conversion funnel chart stage-by-stage | [ ] |
-| 3 | `r-ch25-cost-per-hire-breakdown.png` | After "What it shows" list | Output | Cost-per-hire table by source and client | [ ] |
-| 4 | `r-ch25-predictive-analytics-forecast.png` | After predictive bullet list | Output | 30/60/90-day forecast with at-risk role flags | [ ] |
-| 5 | `r-ch25-source-quality-scoring.png` | End of Requirement Check "Specific signals" | Output | Per-source quality score ranking | [ ] |
+| 1 | `r-ch25-kpi-dashboard-hero.png` | https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard | Nav | KPI Dashboard with placement / revenue / fill-rate tiles | [ ] |
+| 2 | `r-ch25-recruiter-analytics-funnel.png` | https://www.sebenzahub.co.za/dashboard/recruiter/analytics | Complex UI | Full conversion funnel chart stage-by-stage | [ ] |
+| 3 | `r-ch25-cost-per-hire-breakdown.png` | https://www.sebenzahub.co.za/dashboard/recruiter/analytics | Output | Cost-per-hire table by source and client | [ ] |
+| 4 | `r-ch25-predictive-analytics-forecast.png` | https://www.sebenzahub.co.za/dashboard/recruiter/predictive-analytics | Output | 30/60/90-day forecast with at-risk role flags | [ ] |
+| 5 | `r-ch25-source-quality-scoring.png` | https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check | Output | Per-source quality score ranking | [ ] |
 
 ## Ch 26 — Diversity, Panel, AI (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch26-diversity-pipeline-stages.png` | Top hero | Complex UI | Stage-by-stage demographic drop-off chart | [ ] |
-| 2 | `r-ch26-video-bias-audit-flags.png` | After Video Bias Audit | Output | Flagged-interview list with bias indicators | [ ] |
-| 3 | `r-ch26-interviewer-effectiveness-scoring.png` | After Interviewer Effectiveness | Output | Interviewer leaderboard with scores | [ ] |
-| 4 | `r-ch26-disagreement-scorecard-overlay.png` | After Disagreement Analyzer | Complex UI | Multi-interviewer scorecard overlay | [ ] |
-| 5 | `r-ch26-team-dna-composition.png` | After Team DNA | Complex UI | Team composition radar / strengths view | [ ] |
+| 1 | `r-ch26-diversity-pipeline-stages.png` | https://www.sebenzahub.co.za/dashboard/recruiter/diversity | Complex UI | Stage-by-stage demographic drop-off chart | [ ] |
+| 2 | `r-ch26-video-bias-audit-flags.png` | https://www.sebenzahub.co.za/dashboard/recruiter/disagreements | Output | Flagged-interview list with bias indicators | [ ] |
+| 3 | `r-ch26-interviewer-effectiveness-scoring.png` | https://www.sebenzahub.co.za/dashboard/recruiter/disagreements | Output | Interviewer leaderboard with scores | [ ] |
+| 4 | `r-ch26-disagreement-scorecard-overlay.png` | https://www.sebenzahub.co.za/dashboard/recruiter/disagreements | Complex UI | Multi-interviewer scorecard overlay | [ ] |
+| 5 | `r-ch26-team-dna-composition.png` | https://www.sebenzahub.co.za/dashboard/recruiter/team-dna | Complex UI | Team composition radar / strengths view | [ ] |
 
 ## Ch 27 — POPIA in Practice (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch27-popia-consent-dashboard.png` | After POPIA Compliance | Nav | Consent dashboard landing | [ ] |
-| 2 | `r-ch27-dsar-request-screen.png` | After DSAR bullet list | Decision | DSAR compilation screen | [ ] |
-| 3 | `r-ch27-consent-audit-log.png` | After retention config paragraph | Output | Timestamped consent audit log | [ ] |
-| 4 | `r-ch27-candidate-nps-results.png` | After NPS | Output | NPS promoter / passive / detractor chart | [ ] |
+| 1 | `r-ch27-popia-consent-dashboard.png` | https://www.sebenzahub.co.za/dashboard/recruiter/compliance | Nav | Consent dashboard landing | [ ] |
+| 2 | `r-ch27-dsar-request-screen.png` | https://www.sebenzahub.co.za/dashboard/recruiter/compliance | Decision | DSAR compilation screen | [ ] |
+| 3 | `r-ch27-consent-audit-log.png` | https://www.sebenzahub.co.za/dashboard/recruiter/audit-trail | Output | Timestamped consent audit log | [ ] |
+| 4 | `r-ch27-candidate-nps-results.png` | https://www.sebenzahub.co.za/dashboard/recruiter/feedback | Output | NPS promoter / passive / detractor chart | [ ] |
 
 ## Ch 28 — B-BBEE, EE, Audit Trail (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch28-ee-report-eea2-output.png` | After EE Reporting | Output | EEA2/EEA4-formatted PDF output | [ ] |
-| 2 | `r-ch28-bbbee-scorecard-tracker.png` | After B-BBEE Compliance | Complex UI | Pillar-by-pillar scorecard tracker | [ ] |
-| 3 | `r-ch28-transformation-statement-output.png` | After Transformation Statement | Output | Generated transformation statement | [ ] |
-| 4 | `r-ch28-blind-hiring-toggle.png` | After Blind Hiring callback | Decision | Blind Hiring toggle with masked candidate preview | [ ] |
-| 5 | `r-ch28-audit-trail-timeline.png` | After audit search numbered list | Complex UI | Chronological immutable timeline | [ ] |
+| 1 | `r-ch28-ee-report-eea2-output.png` | https://www.sebenzahub.co.za/dashboard/recruiter/ee-reports | Output | EEA2 / EEA4-formatted PDF output | [ ] |
+| 2 | `r-ch28-bbbee-scorecard-tracker.png` | https://www.sebenzahub.co.za/dashboard/recruiter/bbbee | Complex UI | Pillar-by-pillar scorecard tracker | [ ] |
+| 3 | `r-ch28-transformation-statement-output.png` | https://www.sebenzahub.co.za/dashboard/recruiter/bbbee | Output | Generated transformation statement | [ ] |
+| 4 | `r-ch28-blind-hiring-toggle.png` | https://www.sebenzahub.co.za/dashboard/recruiter/blind-hiring | Decision | Blind Hiring toggle with masked candidate preview | [ ] |
+| 5 | `r-ch28-audit-trail-timeline.png` | https://www.sebenzahub.co.za/dashboard/recruiter/audit-trail | Complex UI | Chronological immutable timeline | [ ] |
 
 ## Ch 29 — Career Site, Brand (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch29-career-site-builder-editor.png` | After Career Site 8-step list | Complex UI | Builder editor with branding panels | [ ] |
-| 2 | `r-ch29-published-career-site-preview.png` | After Career Site "What's on it" list | Output | Live published career site preview | [ ] |
-| 3 | `r-ch29-custom-domain-settings.png` | After "Career Site beats..." list | Nav | Custom subdomain settings | [ ] |
-| 4 | `r-ch29-brand-content-library.png` | After Brand Page "What's on it" testimonials bullet | Complex UI | Brand content library assets grid | [ ] |
+| 1 | `r-ch29-career-site-builder-editor.png` | https://www.sebenzahub.co.za/dashboard/recruiter/career-site | Complex UI | Builder editor with branding panels | [ ] |
+| 2 | `r-ch29-published-career-site-preview.png` | https://www.sebenzahub.co.za/agency/{your-slug}/careers | Output | Live published career site preview (your agency's public URL) | [ ] |
+| 3 | `r-ch29-custom-domain-settings.png` | https://www.sebenzahub.co.za/dashboard/recruiter/career-site | Nav | Custom subdomain settings | [ ] |
+| 4 | `r-ch29-brand-content-library.png` | https://www.sebenzahub.co.za/dashboard/recruiter/brand | Complex UI | Brand content library assets grid | [ ] |
 
 ## Ch 30 — Marketing, Referrals, NPS (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch30-referral-program-dashboard.png` | After Referral Program | Nav | Referral programme dashboard with commissions | [ ] |
-| 2 | `r-ch30-referral-tracking-attribution.png` | After Referral Tracking | Output | Referrer-to-placement attribution view | [ ] |
-| 3 | `r-ch30-coaching-report-document.png` | After Coaching Report | Output | Generated coaching report doc | [ ] |
-| 4 | `r-ch30-nps-results-chart.png` | After NPS score interpretation | Output | NPS score breakdown chart | [ ] |
-| 5 | `r-ch30-campaign-builder.png` | After campaign build steps | Complex UI | Campaign builder configuration | [ ] |
+| 1 | `r-ch30-referral-program-dashboard.png` | https://www.sebenzahub.co.za/dashboard/recruiter/referrals | Nav | Referral programme dashboard with commissions | [ ] |
+| 2 | `r-ch30-referral-tracking-attribution.png` | https://www.sebenzahub.co.za/dashboard/recruiter/referrals | Output | Referrer-to-placement attribution view | [ ] |
+| 3 | `r-ch30-coaching-report-document.png` | https://www.sebenzahub.co.za/dashboard/recruiter/team | Output | Generated coaching report doc | [ ] |
+| 4 | `r-ch30-nps-results-chart.png` | https://www.sebenzahub.co.za/dashboard/recruiter/feedback | Output | NPS score breakdown chart | [ ] |
+| 5 | `r-ch30-campaign-builder.png` | https://www.sebenzahub.co.za/dashboard/recruiter/recruitment-marketing | Complex UI | Marketing campaign builder configuration | [ ] |
 
 ## Ch 31 — Fill Rate Dropping (2) — scenario
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch31-fill-rate-trend-diagnostic.png` | After funnel code block | Output | Fill-rate trend diagnostic chart | [ ] |
-| 2 | `r-ch31-requirement-restriction-flags.png` | After Requirement Restriction Analyzer try-box | Output | Per-requirement pool-shrink flags | [ ] |
+| 1 | `r-ch31-fill-rate-trend-diagnostic.png` | https://www.sebenzahub.co.za/dashboard/recruiter/kpi-dashboard | Output | Fill-rate trend diagnostic chart | [ ] |
+| 2 | `r-ch31-requirement-restriction-flags.png` | https://www.sebenzahub.co.za/dashboard/recruiter/requirement-check | Output | Per-requirement pool-shrink flags | [ ] |
 
 ## Ch 32 — Candidates Ghosting (2) — scenario
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch32-engagement-score-heatmap.png` | After Engagement Scorer try-box | Complex UI | Per-candidate engagement heatmap | [ ] |
-| 2 | `r-ch32-dropoff-funnel-stages.png` | After stage-cause table | Output | Stage-by-stage drop-off funnel | [ ] |
+| 1 | `r-ch32-engagement-score-heatmap.png` | https://www.sebenzahub.co.za/dashboard/recruiter/engagement | Complex UI | Per-candidate engagement heatmap | [ ] |
+| 2 | `r-ch32-dropoff-funnel-stages.png` | https://www.sebenzahub.co.za/dashboard/recruiter/analytics | Output | Stage-by-stage drop-off funnel | [ ] |
 
 ## Ch 33 — Client Unhappy with Calibre (2) — scenario
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch33-culture-fit-disagreement.png` | After Culture Fit try-box | Output | Culture Fit 6-dimension scoring vs panel | [ ] |
-| 2 | `r-ch33-predictive-vs-actual-performance.png` | After Predictive Hiring try-box | Output | Predicted vs actual performance comparison | [ ] |
+| 1 | `r-ch33-culture-fit-disagreement.png` | https://www.sebenzahub.co.za/dashboard/recruiter/culture-fit | Output | Culture Fit 6-dimension scoring vs panel | [ ] |
+| 2 | `r-ch33-predictive-vs-actual-performance.png` | https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring | Output | Predicted vs actual performance comparison | [ ] |
 
 ## Ch 34 — Advanced & Platinum (6)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `r-ch34-rapid-workflow-quick-actions.png` | After Rapid Workflow | Nav | Rapid Workflow quick-action panel | [ ] |
-| 2 | `r-ch34-workflow-automation-rule-builder.png` | After Workflow Automation | Complex UI | Rule-builder with triggers / actions | [ ] |
-| 3 | `r-ch34-auto-pilot-rules-config.png` | After Auto-Pilot | Complex UI | Auto-Pilot shadow / live config with thresholds | [ ] |
-| 4 | `r-ch34-fraud-detection-alerts.png` | After Fraud Detection | Output | Fraud dashboard with flagged signals | [ ] |
-| 5 | `r-ch34-hiring-manager-portal.png` | After Hiring Manager Portal | Nav | Simplified manager review surface | [ ] |
-| 6 | `r-ch34-api-key-management.png` | After API Access | Nav | Token management with scopes | [ ] |
+| 1 | `r-ch34-rapid-workflow-quick-actions.png` | https://www.sebenzahub.co.za/dashboard/recruiter/rapid-workflow | Nav | Rapid Workflow quick-action panel | [ ] |
+| 2 | `r-ch34-workflow-automation-rule-builder.png` | https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation | Complex UI | Rule-builder with triggers / actions | [ ] |
+| 3 | `r-ch34-auto-pilot-rules-config.png` | https://www.sebenzahub.co.za/dashboard/recruiter/workflow-automation | Complex UI | Auto-Pilot shadow / live config with thresholds | [ ] |
+| 4 | `r-ch34-fraud-detection-alerts.png` | https://www.sebenzahub.co.za/dashboard/recruiter/audit-trail | Output | Fraud dashboard with flagged signals | [ ] |
+| 5 | `r-ch34-hiring-manager-portal.png` | https://www.sebenzahub.co.za/dashboard/recruiter/hiring-manager | Nav | Simplified manager review surface | [ ] |
+| 6 | `r-ch34-api-key-management.png` | https://www.sebenzahub.co.za/dashboard/recruiter/settings | Nav | Settings → API token management with scopes | [ ] |
 
 ---
 
@@ -556,212 +556,212 @@ These 11 files already live in `13-raw/screenshots/`:
 
 ## Ch 01 — What Sebenza Hub is for Corporates (2)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch01-corporate-dashboard-hero.png` | Top (hero) | Nav | Corporate dashboard landing page overview | [ ] |
-| 2 | `c-ch01-three-user-types-diagram.png` | Before "How Corporate differs..." | Nav | Individual / Recruiter / Corporate three-audience diagram | [ ] |
+| 1 | `c-ch01-corporate-dashboard-hero.png` | https://www.sebenzahub.co.za/dashboard/business/home | Nav | Corporate dashboard landing page overview | [ ] |
+| 2 | `c-ch01-three-user-types-diagram.png` | https://www.sebenzahub.co.za/ | Nav | Marketing site: Individual / Recruiter / Corporate three-audience diagram | [ ] |
 
 ## Ch 02 — Creating Your Account (1 new; 1 shared)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `ch02-magic-link-email.png` | Step 1 (reused) | Shared | **Already captured** — same file as Individual/Recruiter Ch 02 | [x] |
-| 2 | `c-ch02-role-selection-business.png` | Step 3 — after "Choose Business" | Decision | Role picker with Business tile highlighted | [ ] |
+| 1 | `ch02-magic-link-email.png` | _email client_ | Shared | **Already captured** — same file as Individual/Recruiter Ch 02 | [x] |
+| 2 | `c-ch02-role-selection-business.png` | https://www.sebenzahub.co.za/onboarding | Decision | Role picker with Business tile highlighted | [ ] |
 
 ## Ch 03 — Setting Up Your Org (6)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch03-team-members-invite-dialog.png` | Team Members step 5 | Decision | Invite dialog with email + role fields | [ ] |
-| 2 | `c-ch03-rbac-permissions-matrix.png` | RBAC step 5 | Complex UI | Roles × permissions matrix (view/edit/export per role) | [ ] |
-| 3 | `c-ch03-sso-configuration-form.png` | SSO step 2 | Decision | SAML/OAuth protocol picker + SP metadata | [ ] |
-| 4 | `c-ch03-company-branding-upload-preview.png` | Branding step 6 | Output | Logo + colours + hero on sample job listing | [ ] |
-| 5 | `c-ch03-white-label-custom-domain.png` | White-Label step 3 | Decision | Custom domain entry + DNS records panel | [ ] |
-| 6 | `c-ch03-team-collaboration-feed.png` | Collaboration step 4 | Output | Activity feed with @mentions and decisions | [ ] |
+| 1 | `c-ch03-team-members-invite-dialog.png` | https://www.sebenzahub.co.za/dashboard/business/team | Decision | Invite dialog with email + role fields | [ ] |
+| 2 | `c-ch03-rbac-permissions-matrix.png` | https://www.sebenzahub.co.za/dashboard/business/settings | Complex UI | Settings → Roles × permissions matrix (view/edit/export per role) | [ ] |
+| 3 | `c-ch03-sso-configuration-form.png` | https://www.sebenzahub.co.za/dashboard/business/sso-config | Decision | SAML/OAuth protocol picker + SP metadata | [ ] |
+| 4 | `c-ch03-company-branding-upload-preview.png` | https://www.sebenzahub.co.za/dashboard/business/settings | Output | Settings → Branding: logo + colours on sample job listing | [ ] |
+| 5 | `c-ch03-white-label-custom-domain.png` | https://www.sebenzahub.co.za/dashboard/business/settings | Decision | Settings → White-Label custom domain entry + DNS records | [ ] |
+| 6 | `c-ch03-team-collaboration-feed.png` | https://www.sebenzahub.co.za/dashboard/business/team | Output | Team collaboration feed with @mentions and decisions | [ ] |
 
 ## Ch 04 — Trial and Billing Lifecycle (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch04-trial-banner.png` | Day 1–23 section | Nav | Top-of-dashboard TrialBanner with day-count remaining | [ ] |
-| 2 | `c-ch04-upgrade-dialog.png` | Day 1–23 section | Decision | Centralised UpgradeDialog modal (triggered via cap-hit or banner click) | [ ] |
-| 3 | `c-ch04-billing-page-trial.png` | Conversion step 1 | Nav | Billing page during trial (with conversion CTA) | [ ] |
-| 4 | `c-ch04-plan-comparison-checkout.png` | Conversion step 2 | Decision | Plan picker (Premium default vs Standard vs Free) at checkout | [ ] |
-| 5 | `c-ch04-billing-page-active-paid.png` | Conversion step 3 | Output | Billing page after conversion (no banner, paid status visible) | [ ] |
+| 1 | `c-ch04-trial-banner.png` | https://www.sebenzahub.co.za/dashboard/business/home | Nav | Top-of-dashboard TrialBanner with day-count remaining (during trial) | [ ] |
+| 2 | `c-ch04-upgrade-dialog.png` | https://www.sebenzahub.co.za/dashboard/business/home | Decision | Centralised UpgradeDialog modal (click "Upgrade now" on TrialBanner, or hit a cap) | [ ] |
+| 3 | `c-ch04-billing-page-trial.png` | https://www.sebenzahub.co.za/dashboard/business/billing | Nav | Billing page during trial with conversion CTA | [ ] |
+| 4 | `c-ch04-plan-comparison-checkout.png` | https://www.sebenzahub.co.za/dashboard/business/billing | Decision | Plan picker (Premium default vs Standard vs Free) at checkout | [ ] |
+| 5 | `c-ch04-billing-page-active-paid.png` | https://www.sebenzahub.co.za/dashboard/business/billing | Output | Billing page after conversion (no banner, paid status visible) | [ ] |
 
 ## Ch 04.5 — The Corporate Dashboard (7)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch045-corporate-dashboard-full-view.png` | Top (hero) | Complex UI | Full corporate dashboard with sidebar visible (Hiring Path / Parallel Tracks / Supporting bands) | [ ] |
-| 2 | `c-ch045-sidebar-hiring-path.png` | After Hiring Path table | Nav | Sidebar zoomed to show the 6 Hiring Path groups | [ ] |
-| 3 | `c-ch045-sidebar-parallel-tracks.png` | After Parallel Tracks list | Nav | Sidebar zoomed to show the 5 Parallel Track groups | [ ] |
-| 4 | `c-ch045-sidebar-supporting-account.png` | After Supporting paragraph | Nav | Sidebar zoomed to show Knowledge Base + Account groups at the bottom | [ ] |
-| 5 | `c-ch045-overview-metrics-tiles.png` | Basic Analytics section | Output | Overview page metric tiles (hires / time-to-hire / fill rate / pipeline value) | [ ] |
-| 6 | `c-ch045-billing-usage-page.png` | Billing & Usage Limits section | Output | Billing page → Usage history tab with consumption bars | [ ] |
-| 7 | `c-ch045-notifications-per-event-channels.png` | All Notification Channels section | Decision | Notifications matrix view per-event × channel | [ ] |
+| 1 | `c-ch045-corporate-dashboard-full-view.png` | https://www.sebenzahub.co.za/dashboard/business/home | Complex UI | Full corporate dashboard with sidebar visible (all three bands) | [ ] |
+| 2 | `c-ch045-sidebar-hiring-path.png` | https://www.sebenzahub.co.za/dashboard/business/home | Nav | Sidebar zoomed to the 6 Hiring Path groups | [ ] |
+| 3 | `c-ch045-sidebar-parallel-tracks.png` | https://www.sebenzahub.co.za/dashboard/business/home | Nav | Sidebar zoomed to the 5 Parallel Track groups | [ ] |
+| 4 | `c-ch045-sidebar-supporting-account.png` | https://www.sebenzahub.co.za/dashboard/business/home | Nav | Sidebar zoomed to Knowledge Base + Account groups at the bottom | [ ] |
+| 5 | `c-ch045-overview-metrics-tiles.png` | https://www.sebenzahub.co.za/dashboard/business/home | Output | Overview page metric tiles (hires / time-to-hire / fill rate / pipeline value) | [ ] |
+| 6 | `c-ch045-billing-usage-page.png` | https://www.sebenzahub.co.za/dashboard/business/billing | Output | Billing → Usage history tab with consumption bars | [ ] |
+| 7 | `c-ch045-notifications-per-event-channels.png` | https://www.sebenzahub.co.za/dashboard/business/settings | Decision | Settings → Notifications per-event × channel matrix | [ ] |
 
 ## Ch 05 — Posting Jobs (3) _legacy filenames retained_
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch04-create-requisition-form.png` | Jobs how-to step 1 | Nav | Create requisition form | [ ] |
-| 2 | `c-ch04-full-ats-custom-stages-editor.png` | Pipeline customisation | Complex UI | Custom stages editor per role family | [ ] |
-| 3 | `c-ch04-automation-rules-builder.png` | After automation discussion | Decision | Auto-advance / auto-reject / auto-message rule builder | [ ] |
+| 1 | `c-ch04-create-requisition-form.png` | https://www.sebenzahub.co.za/dashboard/business/jobs | Nav | Create requisition form (click "+ New requisition") | [ ] |
+| 2 | `c-ch04-full-ats-custom-stages-editor.png` | https://www.sebenzahub.co.za/dashboard/business/settings | Complex UI | Settings → Pipeline custom-stages editor per role family | [ ] |
+| 3 | `c-ch04-automation-rules-builder.png` | https://www.sebenzahub.co.za/dashboard/business/jobs | Decision | Per-requisition automation rules (auto-advance / auto-reject) builder | [ ] |
 
 ## Ch 06 — Receiving Applications (9)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch06-applications-triage-view.png` | Applications how-to step 3 | Complex UI | Applications cross-requisition list with filters and sort | [ ] |
-| 2 | `c-ch06-source-effectiveness-breakdown.png` | Applications how-to step 4 | Output | Per-channel source-quality breakdown | [ ] |
-| 3 | `c-ch04-basic-ats-pipeline-view.png` _(legacy filename)_ | Pipeline how-to step 1 | Complex UI | Pipeline kanban (Applied/Screened/Interviewed/Offered/Hired) | [ ] |
-| 4 | `c-ch06-pipeline-card-anatomy.png` | Card-anatomy section | Decision | Single Pipeline card with name, score, stage age, quick actions | [ ] |
-| 5 | `c-ch06-engagement-score-card.png` | Engagement Scorer section | Output | Engagement score badge on candidate card with declining indicator | [ ] |
-| 6 | `c-ch06-requirement-restriction-flags.png` | Requirement Analyzer section | Output | Per-requirement count of rejected candidates with relax-projection | [ ] |
-| 7 | `c-ch06-pipeline-filters-bar.png` | Filters section | Nav | Filter bar showing My + Stage + Source + Score range | [ ] |
-| 8 | `c-ch06-bulk-actions-menu.png` | Bulk actions section | Decision | Multi-select selection with bulk-action menu open | [ ] |
-| 9 | `c-ch06-stage-config-settings.png` | Stage configuration section | Decision | Settings → Pipeline stage editor with custom stages | [ ] |
+| 1 | `c-ch06-applications-triage-view.png` | https://www.sebenzahub.co.za/dashboard/business/applications | Complex UI | Applications cross-requisition list with filters and sort | [ ] |
+| 2 | `c-ch06-source-effectiveness-breakdown.png` | https://www.sebenzahub.co.za/dashboard/business/applications | Output | Per-channel source-quality breakdown | [ ] |
+| 3 | `c-ch04-basic-ats-pipeline-view.png` _(legacy)_ | https://www.sebenzahub.co.za/dashboard/business/pipeline | Complex UI | Pipeline kanban (Applied/Screened/Interviewed/Offered/Hired) | [ ] |
+| 4 | `c-ch06-pipeline-card-anatomy.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Decision | Single Pipeline card with name, score, stage age, quick actions | [ ] |
+| 5 | `c-ch06-engagement-score-card.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Output | Engagement score badge on candidate card with declining indicator | [ ] |
+| 6 | `c-ch06-requirement-restriction-flags.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Output | Click "Analyze requirements" — per-requirement rejection counts | [ ] |
+| 7 | `c-ch06-pipeline-filters-bar.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Nav | Filter bar: My + Stage + Source + Score range | [ ] |
+| 8 | `c-ch06-bulk-actions-menu.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Decision | Multi-select cards with bulk-action menu open | [ ] |
+| 9 | `c-ch06-stage-config-settings.png` | https://www.sebenzahub.co.za/dashboard/business/settings | Decision | Settings → Pipeline stage editor with custom stages | [ ] |
 
 ## Ch 07 — Screening and Evaluating (10)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch07-ai-candidate-screening-shortlist.png` | AI Candidate Screening section | Output | Auto-ranked shortlist with reasoning per candidate | [ ] |
-| 2 | `c-ch07-resume-vs-jd-scoring-card.png` | Resume vs JD section | Output | Per-candidate Resume-vs-JD percentage match with explanation | [ ] |
-| 3 | `c-ch07-batch-screening-report.png` | Batch Screening section | Complex UI | Batch report grouped into Advance / Maybe / Reject buckets | [ ] |
-| 4 | `c-ch07-screening-roles-editor.png` | Screening Roles section | Decision | Per-role-family criteria editor with knockout questions | [ ] |
-| 5 | `c-ch07-screening-bot-conversation.png` | Screening Bot section | Output | Conversational pre-screen transcript with extracted answers | [ ] |
-| 6 | `c-ch07-ai-candidate-summary.png` | AI Candidate Summary section | Output | One-paragraph AI summary embedded on a candidate record | [ ] |
-| 7 | `c-ch07-video-interview-async-recording.png` | Video Interviews section | Output | Async one-way recording with question prompts and timestamps | [ ] |
-| 8 | `c-ch07-scorecard-panel-aggregate.png` | Scorecards section | Complex UI | Aggregate panel scorecard view with per-interviewer ratings | [ ] |
-| 9 | `c-ch07-background-check-consent-flow.png` | Background Checks step 2 | Decision | Candidate consent screen for background-check authorization | [ ] |
-| 10 | `c-ch07-background-check-result.png` | Background Checks step 4 | Output | Result panel with status (clear/flagged) and audit-trail entry | [ ] |
+| 1 | `c-ch07-ai-candidate-screening-shortlist.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Output | Auto-ranked shortlist with reasoning per candidate | [ ] |
+| 2 | `c-ch07-resume-vs-jd-scoring-card.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Output | Click "Score against JD" on a candidate card — match % with explanation | [ ] |
+| 3 | `c-ch07-batch-screening-report.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Complex UI | Multi-select → Batch screen → grouped Advance / Maybe / Reject report | [ ] |
+| 4 | `c-ch07-screening-roles-editor.png` | https://www.sebenzahub.co.za/dashboard/business/screening-roles | Decision | Per-role-family criteria editor with knockout questions | [ ] |
+| 5 | `c-ch07-screening-bot-conversation.png` | https://www.sebenzahub.co.za/dashboard/business/screening-bot | Output | Conversational pre-screen transcript with extracted answers | [ ] |
+| 6 | `c-ch07-ai-candidate-summary.png` | https://www.sebenzahub.co.za/dashboard/business/candidates | Output | Open a candidate record — AI summary panel at top | [ ] |
+| 7 | `c-ch07-video-interview-async-recording.png` | https://www.sebenzahub.co.za/dashboard/business/video-interviews | Output | Async one-way recording with question prompts and timestamps | [ ] |
+| 8 | `c-ch07-scorecard-panel-aggregate.png` | https://www.sebenzahub.co.za/dashboard/business/scorecards | Complex UI | Aggregate panel scorecard view with per-interviewer ratings | [ ] |
+| 9 | `c-ch07-background-check-consent-flow.png` | https://www.sebenzahub.co.za/dashboard/business/background-checks | Decision | Candidate consent screen for background-check authorization | [ ] |
+| 10 | `c-ch07-background-check-result.png` | https://www.sebenzahub.co.za/dashboard/business/background-checks | Output | Result panel with status (clear/flagged) and audit-trail entry | [ ] |
 
 ## Ch 08 — Interviewing (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch08-scheduling-panel-availability.png` | Scheduling step 3 | Complex UI | Scheduling form with panel calendar availability rendered | [ ] |
-| 2 | `c-ch08-self-scheduling-candidate-view.png` | Self-Scheduling section | Output | Candidate-facing slot picker with available windows | [ ] |
-| 3 | `c-ch08-interview-kit-question-bank.png` | Interview Kits step 3 | Decision | Kit editor with rounds, must-haves, optional probes, competency tags | [ ] |
-| 4 | `c-ch08-ai-questions-output.png` | AI Questions section | Output | Generated candidate-specific question set with rationale | [ ] |
+| 1 | `c-ch08-scheduling-panel-availability.png` | https://www.sebenzahub.co.za/dashboard/business/scheduling | Complex UI | Scheduling form with panel calendar availability rendered | [ ] |
+| 2 | `c-ch08-self-scheduling-candidate-view.png` | https://www.sebenzahub.co.za/dashboard/business/self-scheduling | Output | Candidate-facing slot picker with available windows | [ ] |
+| 3 | `c-ch08-interview-kit-question-bank.png` | https://www.sebenzahub.co.za/dashboard/business/interview-kits | Decision | Kit editor: rounds, must-haves, optional probes, competency tags | [ ] |
+| 4 | `c-ch08-ai-questions-output.png` | https://www.sebenzahub.co.za/dashboard/business/ai-questions | Output | Generated candidate-specific question set with rationale | [ ] |
 
 ## Ch 09 — Making Offers (7)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch09-offers-list-overview.png` | Offers section | Complex UI | Master offer list with status and approval state per row | [ ] |
-| 2 | `c-ch09-offer-detail-page.png` | Offers section | Decision | Per-offer detail page with package, approval thread, signatures | [ ] |
-| 3 | `c-ch09-offer-template-editor.png` | Offer Templates section | Decision | Template editor with placeholders and contract-type pickers | [ ] |
-| 4 | `c-ch09-offer-letter-generator.png` | Offer Letters section | Output | Generated letter preview with merged candidate data | [ ] |
-| 5 | `c-ch09-offer-letter-signed.png` | Offer Letters section | Output | Signed offer letter on the candidate record | [ ] |
-| 6 | `c-ch09-predictive-hiring-acceptance-score.png` | Predictive Hiring section | Output | Acceptance probability score with contributing factors | [ ] |
-| 7 | `c-ch09-offer-approvals-routing.png` | Offer Approvals section | Complex UI | Approval routing panel with chain visualisation and decision history | [ ] |
+| 1 | `c-ch09-offers-list-overview.png` | https://www.sebenzahub.co.za/dashboard/business/offers | Complex UI | Master offer list with status and approval state per row | [ ] |
+| 2 | `c-ch09-offer-detail-page.png` | https://www.sebenzahub.co.za/dashboard/business/offers | Decision | Click into an offer — detail page with package, approval thread, signatures | [ ] |
+| 3 | `c-ch09-offer-template-editor.png` | https://www.sebenzahub.co.za/dashboard/business/offer-templates | Decision | Template editor with placeholders and contract-type pickers | [ ] |
+| 4 | `c-ch09-offer-letter-generator.png` | https://www.sebenzahub.co.za/dashboard/business/offer-letters | Output | Generated letter preview with merged candidate data | [ ] |
+| 5 | `c-ch09-offer-letter-signed.png` | https://www.sebenzahub.co.za/dashboard/business/offer-letters | Output | Signed offer letter on the candidate record | [ ] |
+| 6 | `c-ch09-predictive-hiring-acceptance-score.png` | https://www.sebenzahub.co.za/dashboard/business/predictive-hiring | Output | Acceptance probability score with contributing factors | [ ] |
+| 7 | `c-ch09-offer-approvals-routing.png` | https://www.sebenzahub.co.za/dashboard/business/offer-approvals | Complex UI | Approval routing panel with chain visualisation and decision history | [ ] |
 
 ## Ch 10 — Vendor Management and Sourcing (10)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch07-po-creation-form.png` _(legacy filename)_ | Vendor Management step 2 | Decision | Auto-generated PO form per vendor | [ ] |
-| 2 | `c-ch07-agency-performance-comparison.png` _(legacy filename)_ | Vendor Management step 4 | Complex UI | Side-by-side vendor metrics (submit/interview/offer/time-to-fill) | [ ] |
-| 3 | `c-ch07-vendor-compliance-status.png` _(legacy filename)_ | Vendor Management step 6 | Output | Red / yellow / green compliance grid (MSA/POPIA/B-BBEE/tax) | [ ] |
-| 4 | `c-ch10-talent-crm-record-view.png` | Talent CRM section | Decision | CRM-style candidate record with notes, tags, timeline, status | [ ] |
-| 5 | `c-ch10-auto-tag-candidate.png` | Auto-Tag section | Output | Candidate profile with auto-applied tags highlighted | [ ] |
-| 6 | `c-ch10-side-by-side-comparison.png` | Comparison section | Complex UI | 2-5 candidates side-by-side across skills, scorecards, salary | [ ] |
-| 7 | `c-ch10-ai-search-natural-language-results.png` | AI Search section | Output | Natural-language query with ranked results and reasoning | [ ] |
-| 8 | `c-ch10-search-market-pulse.png` | Market Pulse section | Complex UI | Trend lines for candidate supply / salary / demand pressure | [ ] |
-| 9 | `c-ch10-competitive-heat-map.png` | Heat Map section | Complex UI | Geographic heat map of competing employers and salary bands | [ ] |
-| 10 | `c-ch10-csv-bulk-import-mapping.png` | CSV Import section | Decision | Column-mapping screen during bulk import | [ ] |
+| 1 | `c-ch07-po-creation-form.png` _(legacy)_ | https://www.sebenzahub.co.za/dashboard/business/vendors | Decision | Auto-generated PO form per vendor | [ ] |
+| 2 | `c-ch07-agency-performance-comparison.png` _(legacy)_ | https://www.sebenzahub.co.za/dashboard/business/vendors | Complex UI | Side-by-side vendor metrics (submit/interview/offer/time-to-fill) | [ ] |
+| 3 | `c-ch07-vendor-compliance-status.png` _(legacy)_ | https://www.sebenzahub.co.za/dashboard/business/vendors | Output | Red / yellow / green compliance grid (MSA/POPIA/B-BBEE/tax) | [ ] |
+| 4 | `c-ch10-talent-crm-record-view.png` | https://www.sebenzahub.co.za/dashboard/business/talent-crm | Decision | CRM-style candidate record with notes, tags, timeline, status | [ ] |
+| 5 | `c-ch10-auto-tag-candidate.png` | https://www.sebenzahub.co.za/dashboard/business/candidates | Output | Candidate profile with auto-applied tags highlighted | [ ] |
+| 6 | `c-ch10-side-by-side-comparison.png` | https://www.sebenzahub.co.za/dashboard/business/candidates | Complex UI | Multi-select candidates → Compare → side-by-side view | [ ] |
+| 7 | `c-ch10-ai-search-natural-language-results.png` | https://www.sebenzahub.co.za/dashboard/business/ai-search | Output | Natural-language query with ranked results and reasoning | [ ] |
+| 8 | `c-ch10-search-market-pulse.png` | https://www.sebenzahub.co.za/dashboard/business/ai-search | Complex UI | Saved search → Market Pulse: candidate supply / salary / demand | [ ] |
+| 9 | `c-ch10-competitive-heat-map.png` | https://www.sebenzahub.co.za/dashboard/business/ai-search | Complex UI | AI Search result → Competitive heat map geo view | [ ] |
+| 10 | `c-ch10-csv-bulk-import-mapping.png` | https://www.sebenzahub.co.za/dashboard/business/candidates | Decision | Candidates → Import → Column-mapping screen during bulk import | [ ] |
 
 ## Ch 11 — Communication and Automation (8)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch11-unified-inbox-multichannel.png` | Unified Inbox step 2 | Complex UI | Inbox showing email + WhatsApp + in-platform threads on one view | [ ] |
-| 2 | `c-ch08-notification-channels-matrix.png` _(legacy filename)_ | Inbox how-to step 3 | Decision | Event × channel routing matrix in Settings | [ ] |
-| 3 | `c-ch11-template-merge-fields-editor.png` | Templates step 7 | Decision | Template editor with merge field picker and preview | [ ] |
-| 4 | `c-ch11-sequence-builder-conditional-branches.png` | Sequences step 5 | Complex UI | Sequence builder with day-by-day steps and exit-rule config | [ ] |
-| 5 | `c-ch11-brand-voice-profile-editor.png` | Brand Voice section | Decision | Voice profile config with tone / formality / banned-words / examples | [ ] |
-| 6 | `c-ch11-content-repurpose-channel-variants.png` | Content Repurpose step 3 | Output | Per-channel JD variants (LinkedIn long, short, internal, social) | [ ] |
-| 7 | `c-ch11-approvals-routing-config.png` | Approvals step 2 | Decision | Non-offer approvals routing config with rule conditions | [ ] |
-| 8 | `c-ch11-workflow-automation-rule-builder.png` | Workflow Automation rules table | Complex UI | Rule builder with trigger / condition / action editor | [ ] |
+| 1 | `c-ch11-unified-inbox-multichannel.png` | https://www.sebenzahub.co.za/dashboard/business/unified-inbox | Complex UI | Inbox showing email + WhatsApp + in-platform threads on one view | [ ] |
+| 2 | `c-ch08-notification-channels-matrix.png` _(legacy)_ | https://www.sebenzahub.co.za/dashboard/business/settings | Decision | Settings → Notifications: event × channel routing matrix | [ ] |
+| 3 | `c-ch11-template-merge-fields-editor.png` | https://www.sebenzahub.co.za/dashboard/business/email-templates | Decision | Template editor with merge field picker and preview | [ ] |
+| 4 | `c-ch11-sequence-builder-conditional-branches.png` | https://www.sebenzahub.co.za/dashboard/business/email-templates | Complex UI | Sequences tab → builder with day-by-day steps and exit-rule config | [ ] |
+| 5 | `c-ch11-brand-voice-profile-editor.png` | https://www.sebenzahub.co.za/dashboard/business/brand-voice | Decision | Voice profile config with tone / formality / banned-words / examples | [ ] |
+| 6 | `c-ch11-content-repurpose-channel-variants.png` | https://www.sebenzahub.co.za/dashboard/business/content-repurpose | Output | Per-channel JD variants (LinkedIn long, short, internal, social) | [ ] |
+| 7 | `c-ch11-approvals-routing-config.png` | https://www.sebenzahub.co.za/dashboard/business/approvals | Decision | Non-offer approvals routing config with rule conditions | [ ] |
+| 8 | `c-ch11-workflow-automation-rule-builder.png` | https://www.sebenzahub.co.za/dashboard/business/approvals | Complex UI | Workflow Automation rule builder (trigger / condition / action) | [ ] |
 
 ## Ch 12 — Compliance and Audit Trail (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch12-popia-compliance-console.png` | POPIA section | Complex UI | Console showing consent records, retention rules, Operator register | [ ] |
-| 2 | `c-ch12-bbbee-management-control-projection.png` | B-BBEE section | Output | Demographic projection chart vs B-BBEE scorecard target | [ ] |
-| 3 | `c-ch12-employment-equity-plan-actuals.png` | EE section | Complex UI | EE plan targets vs actuals across occupational levels | [ ] |
-| 4 | `c-ch12-audit-trail-filtered-view.png` | Audit Trail section | Complex UI | Audit log filtered by user / action type / date range | [ ] |
-| 5 | `c-ch12-audit-trail-ai-tool-call-detail.png` | Audit Trail section | Output | Single AI tool call entry showing inputs / outputs / function name | [ ] |
+| 1 | `c-ch12-popia-compliance-console.png` | https://www.sebenzahub.co.za/dashboard/business/popia-compliance | Complex UI | Console showing consent records, retention rules, Operator register | [ ] |
+| 2 | `c-ch12-bbbee-management-control-projection.png` | https://www.sebenzahub.co.za/dashboard/business/bbbee | Output | Demographic projection chart vs B-BBEE scorecard target | [ ] |
+| 3 | `c-ch12-employment-equity-plan-actuals.png` | https://www.sebenzahub.co.za/dashboard/business/employment-equity | Complex UI | EE plan targets vs actuals across occupational levels | [ ] |
+| 4 | `c-ch12-audit-trail-filtered-view.png` | https://www.sebenzahub.co.za/dashboard/business/audit-trail | Complex UI | Audit log filtered by user / action type / date range | [ ] |
+| 5 | `c-ch12-audit-trail-ai-tool-call-detail.png` | https://www.sebenzahub.co.za/dashboard/business/audit-trail | Output | Single AI tool call entry showing inputs / outputs / function name | [ ] |
 
 ## Ch 13 — Workforce and HR (10) _legacy filenames_
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch08-hris-integration-config.png` | HRIS Integration section | Decision | SAP / Workday / BambooHR vendor selection + creds | [ ] |
-| 2 | `c-ch09-workforce-planning-dashboard.png` | Workforce Planning section | Complex UI | Workforce planning home with plan-vs-actual | [ ] |
-| 3 | `c-ch09-headcount-forecast-chart.png` | Workforce Planning section | Output | Headcount forecast chart by quarter / department | [ ] |
-| 4 | `c-ch09-capacity-vs-budget-alignment.png` | Workforce Planning section | Output | Scenario model with revenue +20 / -10 / flat | [ ] |
-| 5 | `c-ch06-internal-job-board-list.png` | Internal Job Board section | Complex UI | Employee-only job list with visibility rules | [ ] |
-| 6 | `c-ch06-performance-management-review.png` | Performance section | Decision | Review screen with competency framework | [ ] |
-| 7 | `c-ch06-succession-planning-chart.png` | Succession section | Complex UI | Critical-role chart with successors + readiness bands | [ ] |
-| 8 | `c-ch05-contract-worker-form.png` | Contract Workers section | Decision | Employment type picker (FTC / Independent / Temp / Consultant) | [ ] |
-| 9 | `c-ch05-contract-end-date-dashboard.png` | Contract Workers section | Output | Contract Workers dashboard with end-date alerts | [ ] |
-| 10 | `c-ch05-section-198-compliance-alert.png` | Contract Workers section | Decision | Section 198 / labour broker warning banner | [ ] |
+| 1 | `c-ch08-hris-integration-config.png` | https://www.sebenzahub.co.za/dashboard/business/hris-integration | Decision | SAP / Workday / BambooHR vendor selection + creds | [ ] |
+| 2 | `c-ch09-workforce-planning-dashboard.png` | https://www.sebenzahub.co.za/dashboard/business/workforce-planning | Complex UI | Workforce planning home with plan-vs-actual | [ ] |
+| 3 | `c-ch09-headcount-forecast-chart.png` | https://www.sebenzahub.co.za/dashboard/business/workforce-planning | Output | Headcount forecast chart by quarter / department | [ ] |
+| 4 | `c-ch09-capacity-vs-budget-alignment.png` | https://www.sebenzahub.co.za/dashboard/business/workforce-planning | Output | Scenario model with revenue +20 / -10 / flat | [ ] |
+| 5 | `c-ch06-internal-job-board-list.png` | https://www.sebenzahub.co.za/dashboard/business/internal-job-board | Complex UI | Employee-only job list with visibility rules | [ ] |
+| 6 | `c-ch06-performance-management-review.png` | https://www.sebenzahub.co.za/dashboard/business/performance | Decision | Review screen with competency framework | [ ] |
+| 7 | `c-ch06-succession-planning-chart.png` | https://www.sebenzahub.co.za/dashboard/business/succession-planning | Complex UI | Critical-role chart with successors + readiness bands | [ ] |
+| 8 | `c-ch05-contract-worker-form.png` | https://www.sebenzahub.co.za/dashboard/business/contract-workers | Decision | Employment type picker (FTC / Independent / Temp / Consultant) | [ ] |
+| 9 | `c-ch05-contract-end-date-dashboard.png` | https://www.sebenzahub.co.za/dashboard/business/contract-workers | Output | Contract Workers dashboard with end-date alerts | [ ] |
+| 10 | `c-ch05-section-198-compliance-alert.png` | https://www.sebenzahub.co.za/dashboard/business/contract-workers | Decision | Section 198 / labour broker warning banner | [ ] |
 
 ## Ch 14 — Analytics and Reporting (8)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch14-bottleneck-view-stage-dwell.png` | Bottleneck View section | Complex UI | Per-stage dwell-time visualization | [ ] |
-| 2 | `c-ch08-analytics-dashboard-hero.png` _(legacy)_ | Recruitment Analytics how-to step 1 | Nav | Default quarter dashboard with funnel + time-to-hire | [ ] |
-| 3 | `c-ch08-advanced-analytics-drilldown.png` _(legacy)_ | Recruitment Analytics step 4 | Complex UI | Cohort / drill-down query builder | [ ] |
-| 4 | `c-ch14-cohort-analysis-retention.png` | Cohort analysis section | Complex UI | Q1 hires retention curve at 90/180/365 days | [ ] |
-| 5 | `c-ch14-predictive-analytics-forecast.png` | Predictive Analytics section | Complex UI | Per-requisition forecast with at-risk flags | [ ] |
-| 6 | `c-ch14-diversity-funnel-stage-dropoff.png` | Diversity Analytics section | Complex UI | Demographic funnel with stage-level drop-offs highlighted | [ ] |
-| 7 | `c-ch08-custom-reports-builder.png` _(legacy)_ | Custom Reports section | Complex UI | Drag-drop report builder | [ ] |
-| 8 | `c-ch14-custom-report-scheduled-delivery.png` | Custom Reports step 5 | Decision | Schedule + recipients + format config for an automated board pack | [ ] |
+| 1 | `c-ch14-bottleneck-view-stage-dwell.png` | https://www.sebenzahub.co.za/dashboard/business/analytics | Complex UI | Bottleneck View — per-stage dwell-time visualization | [ ] |
+| 2 | `c-ch08-analytics-dashboard-hero.png` _(legacy)_ | https://www.sebenzahub.co.za/dashboard/business/analytics | Nav | Default quarter dashboard with funnel + time-to-hire | [ ] |
+| 3 | `c-ch08-advanced-analytics-drilldown.png` _(legacy)_ | https://www.sebenzahub.co.za/dashboard/business/analytics | Complex UI | Cohort / drill-down query builder | [ ] |
+| 4 | `c-ch14-cohort-analysis-retention.png` | https://www.sebenzahub.co.za/dashboard/business/analytics | Complex UI | Q1 hires retention curve at 90/180/365 days | [ ] |
+| 5 | `c-ch14-predictive-analytics-forecast.png` | https://www.sebenzahub.co.za/dashboard/business/predictive-analytics | Complex UI | Per-requisition forecast with at-risk flags | [ ] |
+| 6 | `c-ch14-diversity-funnel-stage-dropoff.png` | https://www.sebenzahub.co.za/dashboard/business/diversity-analytics | Complex UI | Demographic funnel with stage-level drop-offs highlighted | [ ] |
+| 7 | `c-ch08-custom-reports-builder.png` _(legacy)_ | https://www.sebenzahub.co.za/dashboard/business/custom-reports | Complex UI | Drag-drop report builder | [ ] |
+| 8 | `c-ch14-custom-report-scheduled-delivery.png` | https://www.sebenzahub.co.za/dashboard/business/custom-reports | Decision | Schedule + recipients + format config for an automated board pack | [ ] |
 
 ## Ch 16 — Time-to-Fill Creeping Up (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch16-time-to-fill-trend-chart.png` | Top (hero) | Complex UI | Time-to-fill trend line over 12 weeks with drift highlighted | [ ] |
-| 2 | `c-ch16-funnel-conversion-comparison.png` | Step 2 | Complex UI | Side-by-side historical vs current funnel conversion table | [ ] |
-| 3 | `c-ch16-requirement-restriction-flags.png` | Step 3 | Output | Requirement Restriction Analyzer output with rejection counts | [ ] |
-| 4 | `c-ch16-search-market-pulse.png` | Step 4 | Complex UI | Market Pulse for the affected role family | [ ] |
+| 1 | `c-ch16-time-to-fill-trend-chart.png` | https://www.sebenzahub.co.za/dashboard/business/analytics | Complex UI | Time-to-fill trend line over 12 weeks with drift highlighted | [ ] |
+| 2 | `c-ch16-funnel-conversion-comparison.png` | https://www.sebenzahub.co.za/dashboard/business/analytics | Complex UI | Side-by-side historical vs current funnel conversion table | [ ] |
+| 3 | `c-ch16-requirement-restriction-flags.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Output | Requirement Restriction Analyzer output with rejection counts | [ ] |
+| 4 | `c-ch16-search-market-pulse.png` | https://www.sebenzahub.co.za/dashboard/business/ai-search | Complex UI | Market Pulse for the affected role family | [ ] |
 
 ## Ch 17 — Candidates Ghosting Between Stages (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch17-stage-age-stuck-cards.png` | "What ghosting looks like" section | Output | Pipeline filtered to Stage age > 5 days | [ ] |
-| 2 | `c-ch17-engagement-score-heatmap.png` | Engagement Score signals | Complex UI | Heatmap of declining engagement across pipeline candidates | [ ] |
-| 3 | `c-ch17-sentiment-flag-inbox.png` | Sentiment analysis signals | Output | Unified Inbox message with sentiment-decline flag | [ ] |
-| 4 | `c-ch17-recovery-sequence-day1-day8.png` | Recovery playbook | Complex UI | Sequence builder showing Day 1 / Day 4 / Day 8 recovery touches | [ ] |
-| 5 | `c-ch17-dropoff-funnel-stages.png` | Stage-specific patterns table | Complex UI | Funnel showing drop-off rates per stage with cause overlays | [ ] |
+| 1 | `c-ch17-stage-age-stuck-cards.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Output | Pipeline filtered to Stage age > 5 days | [ ] |
+| 2 | `c-ch17-engagement-score-heatmap.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Complex UI | Heatmap of declining engagement across pipeline candidates | [ ] |
+| 3 | `c-ch17-sentiment-flag-inbox.png` | https://www.sebenzahub.co.za/dashboard/business/unified-inbox | Output | Unified Inbox message with sentiment-decline flag | [ ] |
+| 4 | `c-ch17-recovery-sequence-day1-day8.png` | https://www.sebenzahub.co.za/dashboard/business/email-templates | Complex UI | Sequences → recovery sequence showing Day 1 / Day 4 / Day 8 touches | [ ] |
+| 5 | `c-ch17-dropoff-funnel-stages.png` | https://www.sebenzahub.co.za/dashboard/business/analytics | Complex UI | Funnel showing drop-off rates per stage with cause overlays | [ ] |
 
 ## Ch 18 — Hiring Managers Unhappy with Calibre (4)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch18-predictive-hiring-rank.png` | Pattern 2 section | Output | Predictive Hiring scores ranking the shortlist | [ ] |
-| 2 | `c-ch18-requirement-restriction-evidence.png` | Pattern 3 section | Output | Requirement Restriction output as data for the difficult conversation | [ ] |
-| 3 | `c-ch18-scorecard-panel-disagreement.png` | Use scorecards section | Complex UI | Aggregate scorecard view with one outlier interviewer flagged | [ ] |
-| 4 | `c-ch18-disagreement-analyzer-pattern.png` | Use scorecards section | Complex UI | Disagreement Analyzer showing systemic-vs-random pattern | [ ] |
+| 1 | `c-ch18-predictive-hiring-rank.png` | https://www.sebenzahub.co.za/dashboard/business/predictive-hiring | Output | Predictive Hiring scores ranking the shortlist | [ ] |
+| 2 | `c-ch18-requirement-restriction-evidence.png` | https://www.sebenzahub.co.za/dashboard/business/pipeline | Output | Requirement Restriction output as data for the difficult conversation | [ ] |
+| 3 | `c-ch18-scorecard-panel-disagreement.png` | https://www.sebenzahub.co.za/dashboard/business/scorecards | Complex UI | Aggregate scorecard view with one outlier interviewer flagged | [ ] |
+| 4 | `c-ch18-disagreement-analyzer-pattern.png` | https://www.sebenzahub.co.za/dashboard/business/team-dna | Complex UI | Disagreement Analyzer showing systemic-vs-random pattern | [ ] |
 
 ## Ch 19 — Advanced and AI Orchestration (5)
 
-| # | Filename | Position | Type | What to capture | Status |
+| # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
-| 1 | `c-ch19-predictive-hiring-department-forecast.png` | Predictive Hiring forecast section | Complex UI | Per-department forecast with confidence bands | [ ] |
-| 2 | `c-ch19-hiring-manager-portal-landing.png` | Hiring Manager Portal section | Nav | Portal landing with this-manager's-only requisitions visible | [ ] |
-| 3 | `c-ch19-hiring-manager-candidate-review.png` | Hiring Manager Portal section | Decision | Candidate review surface inside the portal (AI summary + scorecard) | [ ] |
-| 4 | `c-ch19-workflow-automation-rule-builder.png` | Workflow Automation section | Complex UI | Advanced rule builder with multi-condition trigger | [ ] |
-| 5 | `c-ch19-linda-tool-call-audit-detail.png` | Linda agent section | Output | Audit Trail entry detailing a Linda tool call with inputs/outputs | [ ] |
+| 1 | `c-ch19-predictive-hiring-department-forecast.png` | https://www.sebenzahub.co.za/dashboard/business/predictive-hiring | Complex UI | Per-department forecast with confidence bands | [ ] |
+| 2 | `c-ch19-hiring-manager-portal-landing.png` | _portal URL provisioned per-manager by your Sebenza account manager_ | Nav | Portal landing with this-manager's-only requisitions visible | [ ] |
+| 3 | `c-ch19-hiring-manager-candidate-review.png` | _portal URL (as above)_ | Decision | Candidate review surface inside the portal (AI summary + scorecard) | [ ] |
+| 4 | `c-ch19-workflow-automation-rule-builder.png` | https://www.sebenzahub.co.za/dashboard/business/approvals | Complex UI | Advanced rule builder with multi-condition trigger | [ ] |
+| 5 | `c-ch19-linda-tool-call-audit-detail.png` | https://www.sebenzahub.co.za/dashboard/business/audit-trail | Output | Audit Trail entry detailing a Linda tool call with inputs/outputs | [ ] |
 
 ---
 
