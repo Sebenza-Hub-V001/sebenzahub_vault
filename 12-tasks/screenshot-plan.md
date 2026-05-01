@@ -3,7 +3,7 @@ title: "Screenshot Capture Plan — How-To Manuals"
 type: task
 created: 2026-04-20
 updated: 2026-04-28
-tags: [screenshots, documentation, capture-plan, how-tos]
+tags: [screenshots, documentation, capture-plan, how-tos, salary-calculator]
 status: active
 ---
 
@@ -44,8 +44,8 @@ These 11 files already live in `13-raw/screenshots/`:
 
 ## Ch 06 — CV Review (4)
 
-| #   | Filename                                | URL                                                         | Type     | What to capture                                                    | Status |
-| --- | --------------------------------------- | ----------------------------------------------------------- | -------- | ------------------------------------------------------------------ | ------ |
+| #   | Filename                          | URL                                                         | Type     | What to capture                                                    | Status |
+| --- | --------------------------------- | ----------------------------------------------------------- | -------- | ------------------------------------------------------------------ | ------ |
 | 1   | i-ch06-cv-review-nav              | https://www.sebenzahub.co.za/dashboard/individual/cv-review | Nav      | CV Review item highlighted in the individual sidebar               | [ ]    |
 | 2   | i-ch06-cv-review-select-dialog    | https://www.sebenzahub.co.za/dashboard/individual/cv-review | Decision | "Run review" CV picker dialog                                      | [ ]    |
 | 3   | i-ch06-cv-review-score-card       | https://www.sebenzahub.co.za/dashboard/individual/cv-review | Output   | Full score card with section-by-section breakdown                  | [ ]    |
@@ -53,51 +53,51 @@ These 11 files already live in `13-raw/screenshots/`:
 
 ## Ch 07 — Skills, Credentials, Video (5)
 
-| # | Filename | URL | Type | What to capture | Status |
-|---|---|---|---|---|---|
-| 1 | i-ch07-profile-skills-nav | https://www.sebenzahub.co.za/dashboard/individual/profile | Nav | Profile page with Skills/Credentials/Video tabs visible | [ ] |
-| 2 | i-ch07-competency-test-interface | https://www.sebenzahub.co.za/dashboard/individual/tests | Complex UI | In-browser test with timer + question panel | [ ] |
-| 3 | i-ch07-credential-gap-output | https://www.sebenzahub.co.za/dashboard/individual/credentials | Output | Ranked gap list (critical / useful / nice-to-have) | [ ] |
-| 4 | i-ch07-credential-roadmap-timeline | https://www.sebenzahub.co.za/dashboard/individual/credentials | Complex UI | Visual time-sequenced roadmap (12/24-month plan) | [ ] |
-| 5 | i-ch07-video-profile-recorder | https://www.sebenzahub.co.za/dashboard/individual/video-profile | Decision | Browser recorder with preview panel | [ ] |
+| #   | Filename                           | URL                                                             | Type       | What to capture                                         | Status |
+| --- | ---------------------------------- | --------------------------------------------------------------- | ---------- | ------------------------------------------------------- | ------ |
+| 1   | i-ch07-profile-skills-nav          | https://www.sebenzahub.co.za/dashboard/individual/profile       | Nav        | Profile page with Skills/Credentials/Video tabs visible | [ ]    |
+| 2   | i-ch07-competency-test-interface   | https://www.sebenzahub.co.za/dashboard/individual/tests         | Complex UI | In-browser test with timer + question panel             | [ ]    |
+| 3   | i-ch07-credential-gap-output       | https://www.sebenzahub.co.za/dashboard/individual/credentials   | Output     | Ranked gap list (critical / useful / nice-to-have)      | [ ]    |
+| 4   | i-ch07-credential-roadmap-timeline | https://www.sebenzahub.co.za/dashboard/individual/credentials   | Complex UI | Visual time-sequenced roadmap (12/24-month plan)        | [ ]    |
+| 5   | i-ch07-video-profile-recorder      | https://www.sebenzahub.co.za/dashboard/individual/video-profile | Decision   | Browser recorder with preview panel                     | [ ]    |
 
 ## Ch 08 — Privacy and POPIA (2)
 
-| # | Filename | URL | Type | What to capture | Status |
-|---|---|---|---|---|---|
-| 1 | i-ch08-popia-consent-toggles | https://www.sebenzahub.co.za/dashboard/individual/settings | Decision | Settings → Privacy panel with public/private toggle + consent switches | [ ] |
-| 2 | i-ch08-dsar-request-form | https://www.sebenzahub.co.za/dashboard/individual/settings | Decision | Privacy → Request data export / account deletion form | [ ] |
+| #   | Filename                     | URL                                                        | Type     | What to capture                                                        | Status |
+| --- | ---------------------------- | ---------------------------------------------------------- | -------- | ---------------------------------------------------------------------- | ------ |
+| 1   | i-ch08-popia-consent-toggles | https://www.sebenzahub.co.za/dashboard/individual/settings | Decision | Settings → Privacy panel with public/private toggle + consent switches | [ ]    |
+| 2   | i-ch08-popia-data-rights-card | https://www.sebenzahub.co.za/dashboard/individual/settings | Decision | Privacy tab → POPIA & Data Rights card with green compliance badge, rights list, and **Export My Data** button | [ ]    |
 
 ## Ch 09 — Search Modes (5)
 
-| # | Filename | URL | Type | What to capture | Status |
-|---|---|---|---|---|---|
-| 1 | i-ch09-search-modes-nav | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Nav | Sidebar showing All Jobs, Auto Match, Manual Search | [ ] |
-| 2 | i-ch09-all-jobs-results | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Result | All Jobs page with results + sidebar filters | [ ] |
-| 3 | i-ch09-auto-match-ranked-list | https://www.sebenzahub.co.za/dashboard/individual/auto-match | Output | Ranked match list with % scores and matched/missing skill chips | [ ] |
-| 4 | i-ch09-manual-search-filters | https://www.sebenzahub.co.za/dashboard/individual/manual-search | Decision | Advanced filters panel (salary, B-BBEE, remote, etc.) | [ ] |
-| 5 | i-ch09-match-score-explanation | https://www.sebenzahub.co.za/dashboard/individual/auto-match | Output | Click into a match score for the expanded reasons panel | [ ] |
+| #   | Filename                       | URL                                                             | Type     | What to capture                                                 | Status |
+| --- | ------------------------------ | --------------------------------------------------------------- | -------- | --------------------------------------------------------------- | ------ |
+| 1   | i-ch09-search-modes-nav        | https://www.sebenzahub.co.za/dashboard/individual/all-jobs      | Nav      | Sidebar showing All Jobs, Auto Match, Manual Search             | [ ]    |
+| 2   | i-ch09-all-jobs-results        | https://www.sebenzahub.co.za/dashboard/individual/all-jobs      | Result   | All Jobs page with results + sidebar filters                    | [ ]    |
+| 3   | i-ch09-auto-match-ranked-list  | https://www.sebenzahub.co.za/dashboard/individual/auto-match    | Output   | Ranked match list with % scores and matched/missing skill chips | [ ]    |
+| 4   | i-ch09-manual-search-filters   | https://www.sebenzahub.co.za/dashboard/individual/manual-search | Decision | Advanced filters panel (salary, B-BBEE, remote, etc.)           | [ ]    |
+| 5   | i-ch09-match-score-explanation | https://www.sebenzahub.co.za/dashboard/individual/auto-match    | Output   | Click into a match score for the expanded reasons panel         | [ ]    |
 
 ## Ch 10 — Saved Searches & Favourites (4)
 
-| # | Filename | URL | Type | What to capture | Status |
-|---|---|---|---|---|---|
-| 1 | i-ch10-saved-searches-favourites-nav | https://www.sebenzahub.co.za/dashboard/individual/saved-searches | Nav | Sidebar showing Saved Searches + Favourites | [ ] |
-| 2 | i-ch10-saved-search-create-dialog | https://www.sebenzahub.co.za/dashboard/individual/saved-searches | Decision | Save-query dialog with alert frequency dropdown | [ ] |
-| 3 | i-ch10-favourites-list | https://www.sebenzahub.co.za/dashboard/individual/favourites | Result | Favourites page with bookmarked job cards | [ ] |
-| 4 | i-ch10-notifications-settings | https://www.sebenzahub.co.za/dashboard/individual/settings | Decision | Settings → Notifications matrix (email/SMS/WhatsApp per event) | [ ] |
+| #   | Filename                             | URL                                                              | Type     | What to capture                                                | Status |
+| --- | ------------------------------------ | ---------------------------------------------------------------- | -------- | -------------------------------------------------------------- | ------ |
+| 1   | i-ch10-saved-searches-favourites-nav | https://www.sebenzahub.co.za/dashboard/individual/saved-searches | Nav      | Sidebar showing Saved Searches + Favourites                    | [ ]    |
+| 2   | i-ch10-saved-search-create-dialog    | https://www.sebenzahub.co.za/dashboard/individual/saved-searches | Decision | Save-query dialog with alert frequency dropdown                | [ ]    |
+| 3   | i-ch10-favourites-list               | https://www.sebenzahub.co.za/dashboard/individual/favourites     | Result   | Favourites page with bookmarked job cards                      | [ ]    |
+| 4   | i-ch10-notifications-settings        | https://www.sebenzahub.co.za/dashboard/individual/settings       | Decision | Settings → Notifications matrix (email/SMS/WhatsApp per event) | [ ]    |
 
 ## Ch 11 — Applying (7)
 
-| # | Filename | URL | Type | What to capture | Status |
-|---|---|---|---|---|---|
-| 1 | i-ch11-apply-flow-nav | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Nav | A specific job listing with the Apply button highlighted | [ ] |
-| 2 | i-ch11-jd-decoder-output | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Output | JD Decoder tool: must-have / nice-to-have / red-flags panels | [ ] |
-| 3 | i-ch11-cover-letter-draft | https://www.sebenzahub.co.za/dashboard/individual/cover-letter | Output | Generated draft with tone selector visible | [ ] |
-| 4 | i-ch11-quick-apply-confirmation | https://www.sebenzahub.co.za/dashboard/individual/all-jobs | Decision | One-click Quick Apply confirmation modal | [ ] |
-| 5 | i-ch11-application-portal-kanban | https://www.sebenzahub.co.za/dashboard/individual/portal | Complex UI | Application Portal kanban with stage columns | [ ] |
-| 6 | i-ch11-ai-feedback-card | https://www.sebenzahub.co.za/dashboard/individual/applications | Output | Submitted-app detail → Feedback tab with score + suggestions | [ ] |
-| 7 | i-ch11-priority-badge | https://www.sebenzahub.co.za/dashboard/individual/applications | Decision | Mark-as-priority toggle + priority badge on a submitted app | [ ] |
+| #   | Filename                         | URL                                                            | Type       | What to capture                                              | Status |
+| --- | -------------------------------- | -------------------------------------------------------------- | ---------- | ------------------------------------------------------------ | ------ |
+| 1   | i-ch11-apply-flow-nav            | https://www.sebenzahub.co.za/dashboard/individual/all-jobs     | Nav        | A specific job listing with the Apply button highlighted     | [ ]    |
+| 2   | i-ch11-jd-decoder-output         | https://www.sebenzahub.co.za/dashboard/individual/all-jobs     | Output     | JD Decoder tool: must-have / nice-to-have / red-flags panels | [ ]    |
+| 3   | i-ch11-cover-letter-draft        | https://www.sebenzahub.co.za/dashboard/individual/cover-letter | Output     | Generated draft with tone selector visible                   | [ ]    |
+| 4   | i-ch11-quick-apply-confirmation  | https://www.sebenzahub.co.za/dashboard/individual/all-jobs     | Decision   | One-click Quick Apply confirmation modal                     | [ ]    |
+| 5   | i-ch11-application-portal-kanban | https://www.sebenzahub.co.za/dashboard/individual/portal       | Complex UI | Application Portal kanban with stage columns                 | [ ]    |
+| 6   | i-ch11-ai-feedback-card          | https://www.sebenzahub.co.za/dashboard/individual/applications | Output     | Submitted-app detail → Feedback tab with score + suggestions | [ ]    |
+| 7   | i-ch11-priority-badge            | https://www.sebenzahub.co.za/dashboard/individual/applications | Decision   | Mark-as-priority toggle + priority badge on a submitted app  | [ ]    |
 
 ## Ch 12 — Tracking Applications (4)
 
@@ -411,7 +411,7 @@ These 11 files already live in `13-raw/screenshots/`:
 | 6 | r-ch19-hiring-recommendation-card | https://www.sebenzahub.co.za/dashboard/recruiter/video-analysis | Decision | Top-of-record recommendation card | [ ] |
 | 7 | r-ch19-bias-audit-overlay | https://www.sebenzahub.co.za/dashboard/recruiter/diversity | Output | Bias audit demographic overlay | [ ] |
 
-## Ch 20 — Making an Offer (5)
+## Ch 20 — Making an Offer (8)
 
 | # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
@@ -420,6 +420,9 @@ These 11 files already live in `13-raw/screenshots/`:
 | 3 | r-ch20-acceptance-predictor-probability | https://www.sebenzahub.co.za/dashboard/recruiter/offer-predictor | Output | 0–100% probability with reasoning | [ ] |
 | 4 | r-ch20-predictive-performance-trajectory | https://www.sebenzahub.co.za/dashboard/recruiter/predictive-hiring | Output | 30/90/180/365-day trajectory chart | [ ] |
 | 5 | r-ch20-team-fit-simulation | https://www.sebenzahub.co.za/dashboard/recruiter/team-dna | Output | Friction points & complementary strengths | [ ] |
+| 6 | r-ch20-salary-calculator-gross-to-net | https://www.sebenzahub.co.za/dashboard/recruiter/salary-calculator | Output | Gross→Net mode with take-home + PAYE/UIF/effective rate breakdown | [ ] |
+| 7 | r-ch20-salary-calculator-cost-to-company | https://www.sebenzahub.co.za/dashboard/recruiter/salary-calculator | Output | CTC mode with employer UIF/SDL/medical/pension/bonus accrual + cost multiplier | [ ] |
+| 8 | r-ch20-salary-calculator-net-to-gross | https://www.sebenzahub.co.za/dashboard/recruiter/salary-calculator | Output | Net→Gross mode showing required basic for a target take-home | [ ] |
 
 ## Ch 21 — Recording a Placement (3)
 
@@ -647,7 +650,7 @@ These 11 files already live in `13-raw/screenshots/`:
 | 3 | c-ch08-interview-kit-question-bank | https://www.sebenzahub.co.za/dashboard/business/interview-kits | Decision | Kit editor: rounds, must-haves, optional probes, competency tags | [ ] |
 | 4 | c-ch08-ai-questions-output | https://www.sebenzahub.co.za/dashboard/business/ai-questions | Output | Generated candidate-specific question set with rationale | [ ] |
 
-## Ch 09 — Making Offers (7)
+## Ch 09 — Making Offers (10)
 
 | # | Filename | URL | Type | What to capture | Status |
 |---|---|---|---|---|---|
@@ -658,6 +661,9 @@ These 11 files already live in `13-raw/screenshots/`:
 | 5 | c-ch09-offer-letter-signed | https://www.sebenzahub.co.za/dashboard/business/offer-letters | Output | Signed offer letter on the candidate record | [ ] |
 | 6 | c-ch09-predictive-hiring-acceptance-score | https://www.sebenzahub.co.za/dashboard/business/predictive-hiring | Output | Acceptance probability score with contributing factors | [ ] |
 | 7 | c-ch09-offer-approvals-routing | https://www.sebenzahub.co.za/dashboard/business/offer-approvals | Complex UI | Approval routing panel with chain visualisation and decision history | [ ] |
+| 8 | c-ch09-salary-calculator-gross-to-net | https://www.sebenzahub.co.za/dashboard/business/salary-calculator | Output | Gross→Net mode with take-home + PAYE/UIF/effective rate breakdown | [ ] |
+| 9 | c-ch09-salary-calculator-cost-to-company | https://www.sebenzahub.co.za/dashboard/business/salary-calculator | Output | CTC mode with employer UIF/SDL/medical/pension/bonus accrual + cost multiplier | [ ] |
+| 10 | c-ch09-salary-calculator-net-to-gross | https://www.sebenzahub.co.za/dashboard/business/salary-calculator | Output | Net→Gross mode showing required basic for a target take-home | [ ] |
 
 ## Ch 10 — Vendor Management and Sourcing (10)
 

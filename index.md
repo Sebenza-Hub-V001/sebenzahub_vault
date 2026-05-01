@@ -2,14 +2,14 @@
 title: "Wiki Index"
 type: overview
 created: 2026-04-06
-updated: 2026-04-27
+updated: 2026-05-01
 tags: [index, navigation]
 status: active
 ---
 
 # Wiki Index
 
-> Last updated: 2026-04-27 | Pages: 89 | Sources: 15 (+11 raw docs) | Presentations: 0 | How-To's: 3 manuals + 3 quick-starts | AI Features: 152 | Endpoints: 3,741 | Tables: 820 | Migrations: 37
+> Last updated: 2026-05-01 | Pages: 90 | Sources: 15 (+11 raw docs) | Presentations: 0 | How-To's: 3 manuals + 3 quick-starts | AI Features: 152 | Endpoints: 3,741 | Tables: 820 | Migrations: 37
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -109,6 +109,7 @@ status: active
 - [[10-tweets/09-nickspisak-claude-managed-agents]] — Claude Managed Agents public beta: Anthropic-hosted agent runtime (sandbox, session, MCP, per-tool permissions, $0.08/session-hr), @NickSpisak_, 2026-04-09
 - [[10-tweets/08-aiedge-claude-obsidian-second-brain]] — Claude Code + Obsidian second-brain setup guide (Marp, Dataview, Web Clipper, qmd on top of Karpathy's schema), @aiedge_, 2026-04-09
 - [[10-tweets/10-bloggersarvesh-claude-cowork-chief-of-seo]] — 20-prompt "Chief of SEO" audit library in Claude Cowork: GBP (8), website (5), backlinks (3), content (4) — maps 1:1 onto three Sebenza Hub SEO gaps, @bloggersarvesh, 2026-03-25
+- [[10-tweets/11-shippernow-website-to-app]] — "Paste any URL → Claude Opus 4.7 builds you a mobile app" — competitive-landscape data point, skip-with-justification (no overlap with Sebenza Hub's recruitment domain), @shipper_now, 2026-04-29
 
 ## Presentations
 

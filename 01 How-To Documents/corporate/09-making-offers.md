@@ -2,15 +2,15 @@
 title: "Chapter 9 — Making offers"
 type: concept
 created: 2026-04-26
-updated: 2026-04-26
-tags: [how-to, corporate, offers, offer-letters, approvals, predictive-hiring, ai]
+updated: 2026-04-28
+tags: [how-to, corporate, offers, offer-letters, approvals, predictive-hiring, salary-calculator, paye, ai]
 status: active
 user-types: [business]
 ---
 
 # Chapter 9 — Making offers
 
-The offer is the moment everything before it gets converted (or not). The **Make Offer** sidebar group has five pages and they cover the offer end-to-end: the live list of in-flight offers, the letter your candidate signs, the templates the letters are built from, the approval routing that gates the letter going out, and the predictive layer that gives you a prior on whether the offer will land.
+The offer is the moment everything before it gets converted (or not). The **Make Offer** sidebar group has six pages and they cover the offer end-to-end: the live list of in-flight offers, the letter your candidate signs, the templates the letters are built from, the approval routing that gates the letter going out, the predictive layer that gives you a prior on whether the offer will land, and the SARS-aligned salary calculator that turns the package number into the candidate's take-home and the employer's true cost.
 
 The pages you'll use, in the order you'll reach for them:
 
@@ -19,6 +19,7 @@ The pages you'll use, in the order you'll reach for them:
 - **Offer Letters** ([https://www.sebenzahub.co.za/dashboard/business/offer-letters](https://www.sebenzahub.co.za/dashboard/business/offer-letters)) — the document the candidate signs, generated from the template.
 - **Predictive Hiring** ([https://www.sebenzahub.co.za/dashboard/business/predictive-hiring](https://www.sebenzahub.co.za/dashboard/business/predictive-hiring)) — the AI prior on offer-acceptance and role-fit, consulted before you route for approval.
 - **Offer Approvals** ([https://www.sebenzahub.co.za/dashboard/business/offer-approvals](https://www.sebenzahub.co.za/dashboard/business/offer-approvals)) — the routing that gets the right approvers on the letter before it sends.
+- **Salary Calculator (ZA)** ([https://www.sebenzahub.co.za/dashboard/business/salary-calculator](https://www.sebenzahub.co.za/dashboard/business/salary-calculator)) — the SARS-aligned PAYE / UIF / SDL / two-pot model that converts a basic into the candidate's take-home and the employer's full cost.
 
 ## Run the offer
 
@@ -117,6 +118,47 @@ While the AI is working you'll see a multi-phase **AI Progress Messaging** indic
 
 3. Letters cannot be sent until all required approvers have signed off — the platform enforces the routing rather than relying on the recruiter to remember.
 
+## Model the package before you generate the letter
+
+### Salary Calculator (ZA) — _Tier: Standard_
+
+**Where it lives.** [https://www.sebenzahub.co.za/dashboard/business/salary-calculator](https://www.sebenzahub.co.za/dashboard/business/salary-calculator), the last item in the **Make Offer** sidebar group.
+
+**What it does.** A SARS-aligned salary calculator for the **2026/2027 tax year** (1 March 2026 – 28 February 2027) that runs in three modes:
+
+- **Gross → Net** — enter the monthly basic and see PAYE, UIF, effective rate, marginal rate, annual rebate, medical scheme tax credit, and the candidate's monthly take-home.
+- **Cost-to-Company** — adds employer UIF, employer SDL, employer medical and pension contributions, bonus accrual, and the indicative cost of fringe benefits to surface the full payroll burden and a single cost multiplier.
+- **Net → Gross** — enter a target take-home; the system solves backwards for the basic that delivers it under the candidate's tax profile.
+
+It models age-based PAYE rebates, medical aid scheme tax credits (members + dependants), retirement contributions across **RA / provident / pension** with the combined 27.5% / R350,000 deductible cap and the **two-pot September-2024 split** (2/3 retirement, 1/3 savings), travel allowance with the 80/20 default vs. logbook 20/80 split, **company car** and **accommodation** fringe benefits, and the **13th cheque** under the annualised method.
+
+**Why it matters.** Two failure modes drive offer disputes: the candidate sees the gross and assumes the take-home; the budget owner sees the basic and forgets that UIF, SDL, employer medical, employer pension, and bonus accrual sit on top. The calculator closes both gaps — _before_ the letter is generated and routed for approval — so the package isn't renegotiated when the first payslip arrives or when Finance audits the actual payroll burden three months later.
+
+**How to use it.**
+
+1. Use **Gross → Net** to validate what the candidate will actually bank. Enter the monthly basic, the candidate's age (drives the secondary / tertiary rebate at 65 and 75), medical aid members and dependants (drives the medical scheme credit), and any retirement contributions, travel allowance, fringe benefits, or 13th cheque that form part of the package.
+
+![[c-ch09-salary-calculator-gross-to-net.png]]
+
+2. Switch to **Cost-to-Company** before the offer goes for Finance approval (Offer Approvals, above). The CTC view exposes employer UIF (1%, capped at the UIF ceiling), employer SDL (1% of payroll if SDL-liable), employer medical and pension contributions, bonus accrual, and the indicative employer cost of fringe benefits. The cost multiplier (e.g., **1.18×**) is the number Finance plans against — not the basic.
+
+![[c-ch09-salary-calculator-cost-to-company.png]]
+
+3. Use **Net → Gross** when a candidate is anchored on a take-home target ("I can't move for less than R30,000 net"). The reverse calculation iterates to find the basic that delivers the chosen net under the candidate's tax profile. Feed the resulting basic into Offer Templates as the package number rather than guessing and reworking the package after the candidate runs the maths themselves.
+
+![[c-ch09-salary-calculator-net-to-gross.png]]
+
+4. For candidates with retirement contributions, look at the **two-pot split** panel. From September 2024, every new contribution splits 2/3 to the retirement component (locked until retirement) and 1/3 to the savings component (one withdrawal per tax year). Surface this on the offer summary — it changes how candidates compare offers from employers who haven't aligned their retirement defaults.
+
+5. Watch the **deductible cap** warning. Retirement contributions above 27.5% of remuneration (or R350,000/year, whichever is lower) are not tax-deductible — the calculator flags the excess in amber. Lift it to the candidate before they make over-contributions they can't write off.
+
+**Notes and caveats.**
+
+- The fringe-benefit numbers are the **SARS taxable values** — 3.5% of determined value for company cars (3.25% with a maintenance plan) and the Section 9 formula for accommodation. The employer's true acquisition cost (lease, depreciation, rent) can differ, which is why the CTC view labels these as _indicative_.
+- The travel-allowance taxable portion defaults to **0.8** (no logbook). Switch to **0.2** only if the candidate maintains a SARS-compliant logbook proving more than 80% business use — without the logbook, SARS holds the 80% taxable assumption and the candidate ends up with a tax bill on assessment.
+- The **SDL toggle** in CTC mode is on by default. Turn it off only for organisations with a total annual payroll under **R500,000** (the SDL exemption threshold).
+- All calculations use SARS published rates for the 2026/2027 tax year. Re-run any time SARS releases an in-year update — the rates table refreshes server-side, so you don't need to redo the maths by hand.
+
 ## Hand off to onboarding and the new hire
 
 When the candidate accepts and the offer letter is signed, advance them to **Hired** in the pipeline. From here:
@@ -130,6 +172,8 @@ When the candidate accepts and the offer letter is signed, advance them to **Hir
 - [ ] Offer Approvals rules route every above-band or above-headcount offer through Finance / next-level
 - [ ] Offer Letters are generated in-platform, signed in-platform, and land on the candidate record
 - [ ] Predictive Hiring is used as a prior on offer-acceptance, not as the decision
+- [ ] Salary Calculator has been run in CTC mode and the cost multiplier shared with Finance _before_ the approval routing
+- [ ] Net → Gross has been used to anchor on the candidate's take-home target whenever they're anchored on a net number
 - [ ] Hired candidates flow through to HRIS sync and onboarding without manual re-keying
 
 ## Features covered in this chapter
@@ -141,6 +185,7 @@ When the candidate accepts and the offer letter is signed, advance them to **Hir
 | 3 | Offer Letters | Standard | [https://www.sebenzahub.co.za/dashboard/business/offer-letters](https://www.sebenzahub.co.za/dashboard/business/offer-letters) |
 | 4 | Predictive Hiring | Premium | [https://www.sebenzahub.co.za/dashboard/business/predictive-hiring](https://www.sebenzahub.co.za/dashboard/business/predictive-hiring) |
 | 5 | Offer Approvals | Standard | [https://www.sebenzahub.co.za/dashboard/business/offer-approvals](https://www.sebenzahub.co.za/dashboard/business/offer-approvals) |
+| 6 | Salary Calculator (ZA) | Standard | [https://www.sebenzahub.co.za/dashboard/business/salary-calculator](https://www.sebenzahub.co.za/dashboard/business/salary-calculator) |
 
 ## Next chapter
 

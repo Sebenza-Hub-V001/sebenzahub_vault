@@ -731,3 +731,23 @@
 - Contradictions flagged: none — the article's 40/25/15/20 section split (GBP / website / backlinks / content) may contradict the traditional agency "link building is where the leverage is" narrative, but this is flagged as an Open Question rather than a contradiction with existing wiki content
 - Fidelity note: X/Twitter blocked direct article scraping (HTTP 402) at ingest time; structural summary was reconstructed from the fxtwitter card. Verbatim prompt text for the 20 prompts was NOT recovered — re-ingest from original source before shipping Rec #2 or #3. Confidence: medium.
 - Total wiki pages: 85 (+11 raw docs)
+
+## [2026-04-28] docs | Salary Calculator (ZA) — added to corporate Ch 9 + recruiter Ch 20
+- Feature: SARS-aligned 2026/2027 PAYE / UIF / SDL / two-pot salary calculator in three modes (Gross→Net, Cost-to-Company, Net→Gross). Same component lives at `/dashboard/business/salary-calculator` and `/dashboard/recruiter/salary-calculator` (last item in the **Make Offer** sidebar group on both sides).
+- Pages touched:
+  - [[01 How-To Documents/corporate/09-making-offers]] — new "Model the package before you generate the letter" section after Offer Approvals; updated intro list (5 → 6 pages), checklist (+2 items), Features-covered table (+row 6), tags + `updated` field
+  - [[01 How-To Documents/recruiter/20-making-an-offer]] — new "Salary Calculator (ZA)" sub-section under Step 1 (between Benchmarking and Offer Acceptance Predictor); updated 11-pages-mapped table → 12, intro count (11→12), Step 7 negotiation section (cross-reference for counter-offer reverse calc), checklist (+4 items), pro-tips (+1), Features-covered table (+row 219), tags + `updated` field
+- Screenshot placeholders embedded (6 new, 0 captured): `c-ch09-salary-calculator-{gross-to-net,cost-to-company,net-to-gross}.png`, `r-ch20-salary-calculator-{gross-to-net,cost-to-company,net-to-gross}.png`
+- Screenshot plan updated: [[12-tasks/screenshot-plan]] — Ch 09 corporate count 7→10, Ch 20 recruiter count 5→8
+- New pages: none
+- Source: feature exists in product code at `client/src/pages/dashboard/recruiter/RecruiterSalaryCalculator.tsx`; mounted on both business and recruiter dashboards (verified via grep on the live routes)
+- Cross-site lint: clean — both chapters only link to siblings inside `01 How-To Documents/`, `02-concepts/`, and `03-workflows/`
+- Total wiki pages: 85 (+11 raw docs)
+
+## [2026-05-01] tweet | shipper_now — Website to App (paste any URL → Claude builds mobile app)
+- Source: https://x.com/shipper_now/status/2049441395866509492
+- Filed: [[10-tweets/11-shippernow-website-to-app]]
+- Recommendations: 0 (skip-with-justification — Sebenza Hub is recruitment SaaS, no overlap with consumer no-code app builders; logged as competitive-landscape data point only)
+- Pages touched: none (no cross-references warranted; two weak adjacencies noted inside the tweet page)
+- Workflow note: first tweet ingested via the Apify `apidojo/twitter-scraper-lite` actor instead of WebFetch — CLAUDE.md updated in the same session to make Apify the default fetch path (with WebFetch as fallback). Token wired into Claude Code user settings as `$APIFY_API_TOKEN`. Cost: ~$0.05 per single-tweet URL query.
+- Total wiki pages: 86 (+11 raw docs)

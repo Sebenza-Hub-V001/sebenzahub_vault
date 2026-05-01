@@ -47,9 +47,9 @@
     "//13-raw/13-raw/screenshots",
     "/",
     "//05-procedures",
-    "//01 How-To Documents/01 How-To Documents/individual",
     "//00 Welcome",
-    "//01 How-To Documents"
+    "//01 How-To Documents",
+    "//01 How-To Documents/01 How-To Documents/individual"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

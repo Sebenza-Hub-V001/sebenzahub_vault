@@ -91,15 +91,21 @@ You have the right to:
 
 | Right | What it means | How to exercise it |
 |-------|---------------|---------------------|
-| **Access** | See what data Sebenza Hub holds about you | Settings → Privacy → Request data export |
-| **Correction** | Fix data that's wrong | Edit your profile fields directly, or request a correction for fields you can't edit |
-| **Deletion** | Have your data removed (a "Data Subject Access Request" or DSAR) | Settings → Privacy → Request account deletion |
-| **Object to processing** | Say no to specific uses of your data | Settings → Privacy → Communication preferences |
-| **Withdraw consent** | Take back the consent you gave at onboarding | Settings → Privacy → Withdraw consent (this effectively closes your account) |
+| **Access** | See what data Sebenza Hub holds about you | Settings → Privacy → POPIA & Data Rights → **Export My Data** (downloads your profile, applications, and history). A second JSON export lives at Settings → Account → **Data & Export → Export Profile**. |
+| **Correction** | Fix data that's wrong | Edit your profile fields directly, or email **privacy@sebenzahub.co.za** for fields you can't edit |
+| **Object to processing** | Limit specific uses of your data | Settings → Privacy → **Recruiter Interactions** toggles (Searchable by Recruiters, Allow Messages, Allow Recommendations); plus Settings → **Notifications** for email / WhatsApp / SMS channels |
+| **Withdraw consent (demographic data)** | Revoke your Employment Equity / demographic consent only — your account stays open | Settings → Privacy → **Demographics** card → **Withdraw consent & delete** (deletes only the demographic record) |
+| **Deletion** | Permanently delete your account and all data | Settings → **Account → Danger Zone → Delete My Account** — confirmation prompt, then a 30-day POPIA retention window before final wipe |
 
-![[i-ch08-dsar-request-form.png]]
+![[i-ch08-popia-data-rights-card.png]]
 
-> ⚠️ **Withdrawing consent ends your use of the platform.** Sebenza Hub cannot legally continue processing your data without consent, so this is a one-way door — your account will be closed and your data deleted (subject to whatever the platform is required to retain for legal reasons).
+> ℹ️ **There is no single "DSAR request form" in the product.** Each right has its own button, and they live in different tabs:
+>
+> - **Export** lives on the Privacy tab (and Account tab) — non-destructive, fires immediately.
+> - **Withdraw demographic consent** lives on the Privacy tab inside the Demographics card — destructive but narrow (deletes only your gender / race / age / disability record; account stays open).
+> - **Delete My Account** lives on the Account tab under Danger Zone — destructive and final, with a 30-day cooling-off window mandated by POPIA.
+>
+> If you need a right that doesn't have a dedicated button (e.g. a partial export, or objecting to a specific processing purpose that none of the toggles cover), email **privacy@sebenzahub.co.za** with "DSAR" in the subject line and the platform's privacy team will action it manually.
 
 ### If the platform updates its terms
 
@@ -140,7 +146,7 @@ Avoid turning *everything* on across all channels — you'll be exhausted within
 - [ ] You know whether your profile is currently public or private (and that's the right setting)
 - [ ] You've previewed your public profile and corrected anything wrong
 - [ ] You understand what you consented to under POPIA
-- [ ] You know how to withdraw consent if you ever need to
+- [ ] You know where to find the export, withdraw-demographic-consent, and delete-account buttons (three different tabs)
 - [ ] You've set notification preferences across email, WhatsApp, and SMS
 - [ ] Your chosen notification volume is sustainable, not overwhelming
 

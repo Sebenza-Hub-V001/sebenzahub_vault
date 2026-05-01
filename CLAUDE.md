@@ -205,7 +205,17 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
 **Workflow:**
 
-1. **Fetch** the tweet content using WebFetch on the URL.
+1. **Fetch** the tweet via the Apify `apidojo/twitter-scraper-lite` actor (default). WebFetch is the fallback if Apify is unavailable or `$APIFY_API_TOKEN` is missing.
+
+   ```bash
+   curl -s -X POST \
+     "https://api.apify.com/v2/acts/apidojo~twitter-scraper-lite/run-sync-get-dataset-items?token=$APIFY_API_TOKEN" \
+     -H "Content-Type: application/json" \
+     -d '{"startUrls":["<tweet-url>"],"maxItems":1}'
+   ```
+
+   Returns a JSON array; the first item exposes `text`, `fullText`, `author.userName`, `author.name`, `createdAt` (Twitter format, e.g. `Wed Apr 29 10:51:20 +0000 2026`), engagement counts (`likeCount`, `retweetCount`, `replyCount`, `viewCount`, `quoteCount`, `bookmarkCount`), and `extendedEntities.media[]` for images/videos. Cost: ~$0.05 per tweet URL (pay-per-event model). For threads or quote-tweets, append each URL to `startUrls` and bump `maxItems` to match. `$APIFY_API_TOKEN` lives in Claude Code user settings — never hardcode it in this file.
+
 2. **Extract** the core insight, claim, or idea from the tweet and any thread/replies visible.
 3. **Create** a tweet page in `10-tweets/` with this structure:
    ```markdown

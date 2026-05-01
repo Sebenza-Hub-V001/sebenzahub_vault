@@ -2,15 +2,15 @@
 title: "Chapter 20 — Making an offer"
 type: concept
 created: 2026-04-09
-updated: 2026-04-20
-tags: [how-to, recruiter, offers, approvals, negotiation, predictive-performance, team-fit, acceptance-predictor]
+updated: 2026-04-28
+tags: [how-to, recruiter, offers, approvals, negotiation, predictive-performance, team-fit, acceptance-predictor, salary-calculator, paye]
 status: draft
 user-types: [recruiter]
 ---
 
 # Chapter 20 — Making an offer: templates, approvals, predictor, negotiation
 
-Making an offer is the moment everything converges — the candidate, the client, the engagement terms, the compensation package, the legal compliance, the approval chain — into one document that either gets accepted (revenue) or declined (back to the pipeline). Sebenza Hub has 11 distinct pages dedicated to the offer lifecycle, plus three predictive AI features that tell you the offer's chance of acceptance, the candidate's likely on-the-job performance, and how they'll integrate with the existing team. This chapter walks through them in the order you'll actually use them.
+Making an offer is the moment everything converges — the candidate, the client, the engagement terms, the compensation package, the legal compliance, the approval chain — into one document that either gets accepted (revenue) or declined (back to the pipeline). Sebenza Hub has 12 distinct pages dedicated to the offer lifecycle, plus three predictive AI features that tell you the offer's chance of acceptance, the candidate's likely on-the-job performance, and how they'll integrate with the existing team — and a SARS-aligned salary calculator that converts package numbers into the candidate's take-home and the client's full payroll cost. This chapter walks through them in the order you'll actually use them.
 
 ## The offer feature stack
 
@@ -36,7 +36,7 @@ Six features cover the offer surface — the management tool, the letter generat
 
 ![[r-ch20-offer-letter-generator-output.png]]
 
-## The 11 offer pages, mapped
+## The 12 offer pages, mapped
 
 | Page | When you'll use it |
 |---|---|
@@ -44,6 +44,7 @@ Six features cover the offer surface — the management tool, the letter generat
 | [https://www.sebenzahub.co.za/dashboard/recruiter/offer-templates](https://www.sebenzahub.co.za/dashboard/recruiter/offer-templates) | Build reusable templates (set up once) |
 | [https://www.sebenzahub.co.za/dashboard/recruiter/offer-letters](https://www.sebenzahub.co.za/dashboard/recruiter/offer-letters) | Generate the final letter document |
 | [https://www.sebenzahub.co.za/dashboard/recruiter/offer-benchmarking](https://www.sebenzahub.co.za/dashboard/recruiter/offer-benchmarking) | Check market data before proposing terms |
+| [https://www.sebenzahub.co.za/dashboard/recruiter/salary-calculator](https://www.sebenzahub.co.za/dashboard/recruiter/salary-calculator) | SARS-aligned PAYE / UIF / SDL / two-pot model — turn package numbers into take-home and client cost |
 | [https://www.sebenzahub.co.za/dashboard/recruiter/offer-predictor](https://www.sebenzahub.co.za/dashboard/recruiter/offer-predictor) | AI prediction of acceptance probability |
 | [https://www.sebenzahub.co.za/dashboard/recruiter/offer-approvals](https://www.sebenzahub.co.za/dashboard/recruiter/offer-approvals) | Routing offers through your approval chain |
 | [https://www.sebenzahub.co.za/dashboard/recruiter/offer-timeline](https://www.sebenzahub.co.za/dashboard/recruiter/offer-timeline) | Track the offer lifecycle for one candidate |
@@ -52,7 +53,7 @@ Six features cover the offer surface — the management tool, the letter generat
 | [https://www.sebenzahub.co.za/dashboard/recruiter/offer-analytics](https://www.sebenzahub.co.za/dashboard/recruiter/offer-analytics) | Acceptance rates, time-to-accept, decline reasons |
 | [https://www.sebenzahub.co.za/dashboard/recruiter/offer-compliance](https://www.sebenzahub.co.za/dashboard/recruiter/offer-compliance) | Auto-validate against legal and policy requirements |
 
-You won't visit all 11 every day. The daily flow uses about four; the rest are setup, analysis, or specialist tools.
+You won't visit all 12 every day. The daily flow uses about four; the rest are setup, analysis, or specialist tools.
 
 ## Step 1 — Before you create the offer: benchmark and predict
 
@@ -68,6 +69,36 @@ Open [https://www.sebenzahub.co.za/dashboard/recruiter/offer-benchmarking](https
 - Recent placements at similar roles (anonymised)
 
 If your client's proposed offer is below the 25th percentile, you have a problem you need to address with the client *before* sending the offer to the candidate. An offer that's significantly below market gets declined — you'll have wasted weeks of work.
+
+### Salary Calculator (ZA) — _Tier: Standard_
+
+**What this feature is.** A SARS-aligned salary calculator for the **2026/2027 tax year** (1 March 2026 – 28 February 2027) that runs in three modes — **Gross → Net**, **Cost-to-Company**, and **Net → Gross** — and models PAYE, UIF, SDL, age-based rebates, medical scheme tax credits, retirement contributions (RA / provident / pension with the 27.5% / R350,000 cap and the September-2024 two-pot split), travel allowance (logbook / no-logbook split), company car and accommodation fringe benefits, and 13th cheque under the annualised method.
+
+**Why it matters.** Offers die in three predictable places: the candidate maths the take-home themselves, sees a smaller number than they expected, and ghosts; the client signs off on the basic and balks at the true CTC three months later when payroll reconciles; the candidate's anchor is "I need R30,000 in my account" and you've been quoting gross. The calculator closes all three holes in one tool — and the same numbers travel into the offer letter, so what you quote is what the candidate sees on the payslip.
+
+**How to use it.** Open [https://www.sebenzahub.co.za/dashboard/recruiter/salary-calculator](https://www.sebenzahub.co.za/dashboard/recruiter/salary-calculator) — it's the **Salary Calculator (ZA)** item in the **Make Offer** sidebar group, sitting next to Benchmarking.
+
+1. **Gross → Net** validates what the candidate will actually bank. Enter the monthly basic, the candidate's age (drives the secondary / tertiary rebate at 65 and 75), medical aid members and dependants (drives the medical scheme credit), and any retirement contributions, travel allowance, fringe benefits, or 13th cheque. Use this number — not the gross — when you brief the candidate. It pre-empts the "I expected more" conversation that kills offers in the last 48 hours.
+
+![[r-ch20-salary-calculator-gross-to-net.png]]
+
+2. **Cost-to-Company** is the view to share with the client. The CTC tab adds employer UIF (1%, capped at the UIF ceiling), employer SDL (1% of payroll if SDL-liable — toggle off only for clients with a total payroll under R500k/year), employer medical and pension contributions, bonus accrual, and the indicative employer cost of fringe benefits. The cost multiplier (e.g., **1.18×** the basic) is what your client actually plans against — use it to defend the fee conversation when the client says "but the basic is only R35k".
+
+![[r-ch20-salary-calculator-cost-to-company.png]]
+
+3. **Net → Gross** is the mode SA recruiters reach for most. Candidates anchor on take-home — "I'm on R28k net, I need R32k net to move" — and you need a basic that delivers it. Enter the target monthly net, the system iterates against the same tax profile, and you get the basic to feed into the offer. Use it before you propose the package, not after a counter has already come back.
+
+![[r-ch20-salary-calculator-net-to-gross.png]]
+
+4. Watch the **two-pot split** panel for any candidate with retirement contributions. From September 2024, every new contribution splits 2/3 to the retirement component (locked until retirement) and 1/3 to the savings component (one withdrawal per tax year). It's a candidate-experience differentiator — most clients still don't surface it, and walking the candidate through it positions you as the recruiter who actually knows the numbers.
+
+5. Watch the **deductible cap** warning on retirement. Contributions above 27.5% of remuneration (or R350,000/year, whichever is lower) are not tax-deductible — the calculator flags the excess in amber. Surface it to the candidate before the offer goes out so they don't end up over-contributing into a non-deductible bucket and blaming you when assessment hits.
+
+**Caveats.**
+
+- Fringe-benefit numbers are the **SARS taxable values** — 3.5% of determined value for company cars (3.25% with a maintenance plan) and the Section 9 formula for accommodation. The client's true acquisition cost can differ; the CTC tab labels these as _indicative_.
+- Travel allowance taxable portion defaults to **0.8** (no logbook). Switch to **0.2** only if the candidate maintains a SARS-compliant logbook proving more than 80% business use — without the logbook, SARS holds the 80% taxable assumption on assessment.
+- All calculations use SARS published rates for the 2026/2027 tax year. The rates table refreshes server-side, so the numbers stay current without you re-checking SARS yourself.
 
 ### Offer Acceptance Predictor — _Tier: Premium_
 
@@ -209,6 +240,8 @@ The platform's AI surfaces negotiation tactics: "the candidate has emphasised fl
 
 Each round increments `negotiationRounds`. Rounds beyond 3 are usually a sign that one side is unrealistic — escalate to the client to either approve a better package or pull the offer.
 
+When the candidate counters with a take-home number ("I need R5,000 more in my account"), don't guess the gross — re-open the **Salary Calculator (ZA)** in **Net → Gross** mode and reverse the number with the same tax profile you used originally. Feed that basic into the counter; it keeps the negotiation honest and the candidate sees you've done the maths properly.
+
 ### Offer Compare
 
 While negotiating, [https://www.sebenzahub.co.za/dashboard/recruiter/offer-compare](https://www.sebenzahub.co.za/dashboard/recruiter/offer-compare) lets you model different package alternatives side by side:
@@ -246,6 +279,7 @@ Watch the decline reasons. If "competing offer" is your top decline reason, your
 ## Pro tips
 
 - **Always benchmark before proposing.** The 5 minutes you spend in Offer Benchmarking saves you from sending a doomed offer.
+- **Quote take-home, not gross.** SA candidates anchor on what lands in their account. A R45,000 gross with no medical aid + no retirement nets very differently to a R45,000 gross with a R6,000 medical contribution and 7.5% RA — and the candidate will work it out, even if you don't. Open the calculator first.
 - **Use the predictor as a sanity check, not a gate.** A 70%+ predictor score is "go ahead". A sub-50% score is a warning — investigate before sending.
 - **Standardise on 5–7 day expiries.** Shorter and you panic the candidate; longer and they shop you around. Five working days is the sweet spot for SA market.
 - **Don't haggle on small numbers.** A R10,000 difference in base salary on a R900,000 offer is 1.1%. Concede it and move on. Save your negotiation capital for the things that actually matter to the candidate.
@@ -255,13 +289,16 @@ Watch the decline reasons. If "competing offer" is your top decline reason, your
 ## Checklist
 
 - [ ] You've benchmarked the role before proposing terms
+- [ ] You've run the **Salary Calculator (ZA)** in Gross → Net and briefed the candidate on take-home, not gross
+- [ ] You've shared the **Cost-to-Company** view with your client before the fee conversation
+- [ ] If the candidate anchored on a net number, you used **Net → Gross** to find the basic — not guesswork
 - [ ] You've run Offer Acceptance Predictor and addressed any score under 60%
 - [ ] You've read the Predictive Performance trajectory before approving the offer
 - [ ] You've run Team Fit Simulation for senior roles and shared friction points with the hiring manager
 - [ ] You're using the Offer Letter Generator, not writing letters from scratch
 - [ ] The offer has gone through the approval chain you set up in Chapter 7
 - [ ] You've reviewed and addressed any compliance warnings
-- [ ] You know how to handle a counter-offer in the Offer Negotiation workspace
+- [ ] You know how to handle a counter-offer in the Offer Negotiation workspace (and re-run the calculator on the counter)
 - [ ] You'll log the decline reason if the offer gets declined
 
 ## Features covered in this chapter
@@ -274,6 +311,7 @@ Watch the decline reasons. If "competing offer" is your top decline reason, your
 | 187 | Offer Management | Standard |
 | 189 | Offer Letter Generator | Standard |
 | 207 | Offer Negotiation | Standard |
+| 219 | Salary Calculator (ZA) | Standard |
 
 ## Next chapter
 
