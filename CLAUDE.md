@@ -283,6 +283,8 @@ Content goes here. Use [[wiki-links]] to connect to other pages.
 
 **Batch tweets:** If multiple tweet URLs are provided, process each one. Group related tweets if they cover the same topic.
 
+**Phone capture / inbox processing:** When the user says *"process tweet inbox"* (or *"ingest the inbox"*, *"process pending tweets"*, *"drain the tweet inbox"*), read `12-tasks/tweet-inbox.md`, extract every URL under the `## URLs` heading, and run the full Tweet workflow (steps 1–6 above) on each one in sequence. After processing, **clear only the URL lines** from `12-tasks/tweet-inbox.md` — preserve the frontmatter, the `# Tweet Inbox` heading, the `## How to use` section, and the `## URLs` heading + its placeholder HTML comment. Use one `log.md` entry per tweet (not a batched entry); add a short *"Triggered by: tweet-inbox drain"* line to each entry so the provenance is clear. This path exists because phones can't run the Apify call directly — Wes queues URLs from Obsidian Mobile and the desktop processes them later.
+
 ---
 
 ## Index Format
