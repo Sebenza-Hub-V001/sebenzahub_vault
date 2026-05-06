@@ -2,9 +2,9 @@
 title: "AI Features"
 type: concept
 created: 2026-04-07
-updated: 2026-04-20
-tags: [ai, machine-learning, openai, anthropic, google, compliance, regulation, risk-classification, rag, whatsapp-ai]
-sources: [repo-audit-2026-04-07, ai-enhancement-opportunities-2026-04-07, sa-ai-policy-compliance-review, repo-sync-2026-04-20]
+updated: 2026-05-06
+tags: [ai, machine-learning, openai, anthropic, google, compliance, regulation, risk-classification, rag, whatsapp-ai, agentic, cost-governance]
+sources: [repo-audit-2026-04-07, ai-enhancement-opportunities-2026-04-07, sa-ai-policy-compliance-review, repo-sync-2026-04-20, repo-sync-2026-05-06]
 status: active
 confidence: high
 ---
@@ -17,9 +17,13 @@ Sebenza Hub integrates **three AI providers** — OpenAI, Anthropic Claude, and 
 
 | Provider | SDK | Primary Use |
 |----------|-----|-------------|
-| OpenAI | `openai 4.77.0` | Job matching, CV analysis, content generation; Whisper for WhatsApp voice transcription |
+| OpenAI | `openai 4.77.0` | Job matching, CV analysis, content generation; Whisper for WhatsApp voice transcription. **Default model bumped to `gpt-4o` on 2026-04-29** (was `gpt-5.4`) — applied via migrations `0079`/`0080` and updates across the codebase |
 | Anthropic Claude | `@anthropic-ai/sdk 0.78.0` | Complex reasoning, analysis — model ID bumped to **Claude Opus 4.7** across components on 2026-04-18 |
 | Google Gemini | `@google/generative-ai 0.24.1` | Generative features |
+
+**Platform-wide AI default chain** (added 2026-04-25, `eafcde2f`): admin sets a global default chain at the platform level. Per-feature configs override the global default only when explicitly set, and global config now takes priority over hardcoded defaults during model resolution (`f5c5cd25`). The `unique_constraint_on_ai_feature_configs.feature_key` (migration `0074`) prevents duplicate configs.
+
+**`isAgentic` flag** (added 2026-04-25, `62ae13b8`): AI features are now classified as agentic (multi-turn, adaptive — e.g. Linda) or one-shot (single inference — e.g. CV Review). Used downstream by the cost-governance + telemetry layer to differentiate session-cost from request-cost economics.
 
 ## Features by User Type
 
@@ -79,8 +83,15 @@ Sebenza Hub integrates **three AI providers** — OpenAI, Anthropic Claude, and 
 | **AI Monitoring** | Track usage, costs, quality across all AI features |
 | **Bias Auditing** | Monitor AI decisions for demographic bias |
 | **AI Governance** | Policy management for AI features (unified with billing registry on 2026-04-13) |
-| **Model Metrics** | Track accuracy, latency, cost per model |
+| **Model Metrics** | Track accuracy, latency, cost per model. **ZAR alongside USD** across Predictive, A/B Testing, Usage Analytics, Cost Intelligence, and Cost Optimizer tabs (2026-04-26). Cost-per-request is now weighted by call count (volume-weighted), not arithmetic mean. Blended `token_cost_per_1k` exposed for Model Cost Comparison. |
 | **Pay Equity Dashboard** | Platform-wide pay equity surfaces (added 2026-04-19) |
+| **Spend Explorer** | Per-feature × per-model cost breakdown (added 2026-05-04, `81afeaa9`) — admin observability tab inside AI Monitoring |
+| **AI Off toggle** | Now actually disables the feature (`92991158`, 2026-05-04) — was cosmetic before |
+| **Daily AI spend circuit breaker** | Automatic throttle when daily spend crosses threshold (added 2026-05-01, `df49ea48`) |
+| **Runtime daily budget kill switch** | Admin can override the daily AI budget at runtime (added 2026-05-03, migration `0107`) — backed by `ai_budget_overrides` table |
+| **AI migration generation** | Admin authors SQL migrations from natural language (added 2026-04-25, `f59b82ad`); admin migrations UI at `471b8130` with password unlock at `12d5d1a0` |
+| **Database migration guard** | Destructive `drizzle-kit push` blocked in production (added 2026-04-25, `a2c65869`) |
+| **Soak-report endpoint** | Bearer-token endpoint for agentic AI feature soak metrics (added 2026-04-26, `d9033dcf`) |
 
 ### WhatsApp / Linda AI Features (Phase 0–6, 2026-04-19)
 
@@ -181,12 +192,29 @@ Audit findings show **83% of pages don't use AI** despite 42 backend functions b
 - **Dormant embeddings** — `jobEmbeddings` table exists but isn't used for semantic search
 - **No proactive AI notifications** — all notifications are event-based
 
+## 2026-05-06 — Cost Governance & Telemetry Maturity
+
+A heavy build-out across the AI cost / governance / observability surfaces during the 2026-04-21 → 2026-05-06 window. See [[09-sources/repo-sync-2026-05-06]] for full commit-level detail. Highlights:
+
+- **Default model gpt-4o** (was `gpt-5.4`) — class-based defaults via migrations `0079`/`0080`.
+- **Spend Explorer** (per-feature × per-model breakdown) for admin observability.
+- **Daily AI spend circuit breaker** + **runtime budget kill switch** with `ai_budget_overrides` table.
+- **ZAR display alongside USD** across all cost tabs; volume-weighted cost-per-request.
+- **`isAgentic` flag** to classify multi-turn vs one-shot features.
+- **Platform-wide AI default chain** with global config priority over hardcoded defaults.
+- **AI migration generation** — natural-language → SQL migration via admin UI.
+- **`tool_calls` audit trail** in `ai_usage_logs` (every Linda agent tool call audit-logged).
+- **Fallback attempt tracking** in AI metrics logging (`5273905f`).
+- **Limit candidate scoring to 50** for performance (`07721448`).
+- **CV review sub-tools** + feature catalog updates (`b45bdc8d`).
+
 ## Open Questions
 
-- How is the AI provider selected per feature? Is it configurable or hardcoded?
+- How is the AI provider selected per feature? Is it configurable or hardcoded? — **partially resolved 2026-05-06:** platform-wide default chain is admin-configurable, per-feature overrides via `ai_feature_configs.feature_key` (unique-constrained).
 - What's the cost model — are AI features metered/limited by plan?
 - How is prompt engineering managed? Are prompts versioned?
-- What's the fallback when an AI provider is unavailable?
+- What's the fallback when an AI provider is unavailable? — **partially resolved 2026-05-06:** AI metrics now log fallback attempts; cross-provider AI fallback added in resume parse pipeline (`adce4fbd`).
+- What's the operational runbook for triggering the runtime AI budget kill switch? Who has admin permissions? (raised 2026-05-06)
 
 ## References
 
@@ -197,3 +225,4 @@ Audit findings show **83% of pages don't use AI** despite 42 backend functions b
 - [[03-workflows/individual-journey]] — AI tools in the Individual journey (Step 8)
 - [[03-workflows/recruiter-journey]] — AI tools across the recruiter workflow
 - Internal source: repo sync 2026-04-20 — WhatsApp AI Phase 0–6, smart match, role-gated AI endpoints, Opus 4.7
+- Internal source: [[09-sources/repo-sync-2026-05-06]] — gpt-4o default, isAgentic flag, daily spend circuit breaker, runtime budget kill switch, Spend Explorer, ZAR display, AI migration generation, tool_calls audit

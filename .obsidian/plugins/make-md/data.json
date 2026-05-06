@@ -49,7 +49,10 @@
     "//05-procedures",
     "//00 Welcome",
     "//01 How-To Documents",
-    "//01 How-To Documents/01 How-To Documents/individual"
+    "//01 How-To Documents/01 How-To Documents/individual",
+    "//13-raw",
+    "//12-tasks",
+    "//10-tweets"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

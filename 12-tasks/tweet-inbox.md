@@ -1,10 +1,15 @@
 ---
-title: "Tweet Inbox"
+title: Tweet Inbox
 type: task
 created: 2026-05-01
-updated: 2026-05-01
-tags: [inbox, tweets, mobile-capture]
+updated: 2026-05-06
+tags:
+  - "#inbox"
+  - "#tweets"
+  - "#mobile-capture"
+  - tweets
 status: active
+color: "linear-gradient(90deg, var(--mk-color-red) 0%, #ffffff 100%)"
 ---
 
 # Tweet Inbox

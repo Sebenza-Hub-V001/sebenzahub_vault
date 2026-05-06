@@ -2,9 +2,9 @@
 title: "Recruiter (Talent Agency)"
 type: entity
 created: 2026-04-07
-updated: 2026-04-20
+updated: 2026-05-06
 tags: [user-type, recruiter, agency, talent]
-sources: [repo-audit-2026-04-07, repo-sync-2026-04-20]
+sources: [repo-audit-2026-04-07, repo-sync-2026-04-20, repo-sync-2026-05-06]
 status: active
 confidence: high
 ---
@@ -38,8 +38,8 @@ All Recruiter features live under `/dashboard/recruiter/*`.
 |---------|-------|-------------|
 | AI Search | `/ai-search` | AI-powered candidate discovery |
 | Talent Discovery | `/talent-discovery` | Find passive candidates |
-| Talent CRM | `/talent-crm` | Full CRM for talent relationships |
-| Talent Pool | `/talent-pool` | Create and segment talent pools |
+| Talent CRM | `/talent-crm` | Full CRM for talent relationships. **Bulk candidate import with column mapping** (added 2026-04-27) — sessions tracked in `candidate_import_sessions` table |
+| Talent Pool | `/talent-pool` | Create and segment talent pools. **Search & Talent Pool Intelligence** AI features added 2026-04-29 |
 | Talent Rediscovery | `/talent-rediscovery` | Re-engage past candidates |
 | LinkedIn Leads | `/linkedin-leads` | Import and manage LinkedIn leads |
 | Candidate Sourcing | `/candidate-sourcing` | Multi-channel sourcing tools |
@@ -133,7 +133,7 @@ All Recruiter features live under `/dashboard/recruiter/*`.
 |---------|-------|-------------|
 | Job Board Integrations | `/job-board-integrations` | Pnet, CareerJunction, Adzuna |
 | Career Site | `/career-site` | Build custom careers page |
-| Brand | `/brand` | Public agency profile page |
+| Brand | `/brand` | Public agency profile page. **Expanded 2026-05-04:** unique slug enforced, agency block adds description / contact / website / social, badges/certs/awards/team rendered as object types, recruiter's active jobs surfaced |
 
 ## Data Model
 
@@ -212,11 +212,28 @@ Fee structures: percentage-based, fixed, or hybrid. Payment terms: upfront, 50/5
 - **AI-intelligence endpoints role-gated** (`f31a58a`) — 5 AI endpoints now require recruiter role (were previously open to any authenticated user).
 - **Fraud watchlist improvements** (`0813262`) — Watchlist entry updates require a reason; usage tracking + quotas added.
 
+## 2026-05-06 Additions
+
+A heavy build-out across the Recruiter surface during the 2026-04-21 → 2026-05-06 window. See [[09-sources/repo-sync-2026-05-06]] for full commit-level detail.
+
+| Area | What's new |
+|------|------------|
+| **Public profile expansion** | Slug uniqueness enforced (migrations `0108`/`0109`); agency block expanded with description, contact, website, social (`892fa559`); badges/certs/awards/team now rendered as object types — with crash fix for malformed objects (`8308245d`); recruiter's active jobs surfaced (`92c2d6b6`); job-detail link corrected to `/job/:id` singular (`5f2ffa1c`). |
+| **Search & Talent Pool Intelligence** | AI-driven search and talent-pool features (`21d724bb`). |
+| **Bulk candidate import** | Column mapping UI; `candidate_import_sessions` table tracks each batch (migration `0100`). |
+| **Candidate dossier page** | Full dossier view + assessment routing (`d85cc0bf`); credentials backfill for completed assessments. |
+| **Email templates `appliesTo` field** | Controls which dashboards (Recruiter/Business/Individual) a template appears in (`150ba2b5`). |
+| **WhatsApp verification flow** | Recruiter-side WhatsApp verification + parsed-resume normalization (`88e33d11`). |
+| **Industry / sub-industry handling** | In recruiter job creation (`daf2eae9`). |
+| **Trial banner + upgrade flow** | Trial Phases 7–10 surface in recruiter UI; default trial 14 days, env-controllable, per-plan, kill-switchable. |
+| **Bulk admin actions** | Bulk plan assignment + verification across businesses + recruiters (`f15fb66c`). |
+
 ## Open Questions
 
 - How is the recruiter verification process managed? Is it manual (admin) or automated?
 - What triggers trust tier upgrades (bronze → silver → gold → platinum)?
 - How do recruiters compete for the same Business client's jobs?
+- Does Vendor Performance Tracking (now on the Business side, see [[01-entities/business-user]]) surface to Recruiters so they can see how clients rate them, or is it Business-only? (raised 2026-05-06)
 
 ## References
 
@@ -237,3 +254,4 @@ Fee structures: percentage-based, fixed, or hybrid. Payment terms: upfront, 50/5
 - Source: [[09-sources/recruitment-features-2026-04-07]]
 - Source: [[09-sources/recruiter-journey-gap-analysis-2026-04-08]]
 - Source: [[09-sources/repo-sync-2026-04-20]] — Team management, smart match, real benchmark endpoints, role-gated AI
+- Source: [[09-sources/repo-sync-2026-05-06]] — Public profile expansion (slug, agency block, objects, active jobs), Search & Talent Pool Intelligence, bulk candidate import, candidate dossier, email-template `appliesTo`

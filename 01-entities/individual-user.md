@@ -2,9 +2,9 @@
 title: "Individual (Job Seeker)"
 type: entity
 created: 2026-04-07
-updated: 2026-04-28
+updated: 2026-05-06
 tags: [user-type, individual, job-seeker, career]
-sources: [repo-audit-2026-04-07, repo-sync-2026-04-20]
+sources: [repo-audit-2026-04-07, repo-sync-2026-04-20, repo-sync-2026-05-06]
 status: active
 confidence: high
 ---
@@ -28,8 +28,8 @@ All Individual features live under `/dashboard/individual/*`.
 | Profile Management | `/profile` | Personal info, avatar, LinkedIn connection |
 | CV Management | `/cvs` | Multi-CV hub with stats (Total / Default / Avg Completeness / Last Updated). Toolbar: Upload Resume, Build CV (in-page wizard), Insights (analytics dialog), Batch Tailor (multi-job tailoring), Job Radar (CV→jobs match). Per-CV menu: Interview Prep, SA Readiness, Version History, Job Radar, Duplicate |
 | Resume Upload | `/resume-upload` | Upload existing resumes for AI parsing |
-| CV Review | `/cv-review` | AI-powered CV analysis and improvement suggestions |
-| CV Templates | `/cv-templates` | Professional, modern, creative, minimalist, executive styles |
+| CV Review | `/cv-review` | AI-powered CV analysis with **multi-tab dashboard (14 distinct analyses)**, **saved snapshots** (save/load/rename/delete), auto-save, before/after transformation with retry, prominent status banner. Backed by `cv_reviews` table (added 2026-05-06) |
+| CV Templates | `/cv-templates` | Professional, modern, creative, minimalist, executive styles. **Modern CV template added 2026-05-06** |
 | Video Profile | `/video-profile` | Upload video introduction for recruiters |
 | Portfolio Builder | `/portfolio-builder` | Create project portfolios to showcase work |
 | Credentials | `/credentials` | Track certifications, education, qualifications |
@@ -75,10 +75,12 @@ All Individual features live under `/dashboard/individual/*`.
 | Career Path | `/career-path` | Visualize career progression options |
 | Career Pulse | `/career-pulse` | Real-time career health monitoring |
 | Salary Insights | `/salary-insights` | Market salary data and trends |
+| Salary Calculator | `/salary-calculator` | **Tax year 2026** + historical calculation support (added 2026-05-06) |
 | Salary Negotiator | `/salary-negotiator` | AI guidance on salary negotiation |
 | Coaching | `/coaching` | AI career coaching and guidance |
 | Mentorship | `/mentorship` | Connect with experienced professionals |
 | Interview Simulator | `/interview-simulator` | Practice interviews with AI feedback |
+| Interview Studio | `/interview-studio` | **Mock Interview, STAR Builder, Rehearsal Review tabs** (added 2026-04-29) |
 | Tests | `/tests` | Take skill assessments |
 
 ### Community & Engagement
@@ -170,11 +172,29 @@ Between April 18–19, **nine previously demo-only areas** were rewritten agains
 
 Five sections previously dropped during refactor were also re-added across 3 pages (`11e6c39`). Individual dashboard is now effectively free of demo/placeholder data for these categories.
 
+## 2026-05-06 Additions
+
+A heavy build-out across the Individual surface during the 2026-04-21 → 2026-05-06 window. See [[09-sources/repo-sync-2026-05-06]] for full commit-level detail.
+
+| Area | What's new |
+|------|------------|
+| **CV Reviews — saved snapshots** | Multi-tab dashboard (14 distinct analyses), save/load/rename/delete reports, auto-save, prominent status banner, before/after transformation with feedback + retry, sub-tools added. Backed by `cv_reviews` table (migrations `0072`/`0073`). |
+| **Interview Studio** | New tab with Mock Interview, STAR Builder, Rehearsal Review (commit `18f37ab3`). |
+| **Salary Calculator** | New page with tax year 2026 + historical calculation support. Endpoints + core logic at `802786e3`. |
+| **AI match score teaser + unlock** | Paywall pattern for non-premium users on job listings (`821c7c69`). |
+| **`ApplyStepperMode`** | Guided multi-step apply flow component (`ded4f1f0`). |
+| **External job applications** | External-source handling with redirection + retrieval; native vs. external distinction clarified in apply UX (`b0da16f3`, `acb422c5`). |
+| **Modern CV template** | Added to CV Builder (`6d03516f`); PDF text extraction + re-parsing improved (`76a06e72`). |
+| **CV deletion auditing** | Every CV deletion is audit-logged; bulk delete now confirms (`66324c5b`). |
+| **Mobile Individual portal** | Wired to live auth, live endpoints, real Home/Jobs/Features data. Cold-launch splash + Universal Links + Profile API mapping. Camera/Push SPM deps. Project version 2 with camera/photo permissions. |
+| **My CVs hub features** | Insights / Batch Tailor / Job Radar already documented from prior session — see CV Management row above. |
+
 ## Open Questions
 
 - How does the auto-apply (Autopilot) feature work in practice? What safeguards exist?
 - What's the conversion rate from Individual signup to first application?
 - How are learning paths curated and updated?
+- Is the iOS / Android Individual app in App Store / Play Store production, or internal track only? (raised 2026-05-06)
 
 ## References
 
@@ -193,3 +213,4 @@ Five sections previously dropped during refactor were also re-added across 3 pag
 - Source: [[09-sources/individual-features-2026-04-07]]
 - Source: [[09-sources/individual-journey-gap-analysis-2026-04-07]]
 - Source: [[09-sources/repo-sync-2026-04-20]] — 9-area de-hardcode pass, 21 new tables, real data throughout Individual dashboard
+- Source: [[09-sources/repo-sync-2026-05-06]] — CV Reviews saved snapshots, Interview Studio, Salary Calculator (tax 2026), ApplyStepperMode, mobile portal live data

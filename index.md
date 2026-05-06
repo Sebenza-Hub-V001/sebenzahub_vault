@@ -9,7 +9,7 @@ status: active
 
 # Wiki Index
 
-> Last updated: 2026-05-01 | Pages: 90 | Sources: 15 (+11 raw docs) | Presentations: 0 | How-To's: 3 manuals + 3 quick-starts | AI Features: 152 | Endpoints: 3,741 | Tables: 820 | Migrations: 37
+> Last updated: 2026-05-06 | Pages: 92 | Sources: 16 (+11 raw docs) | Presentations: 0 | How-To's: 3 manuals + 3 quick-starts | AI Features: 152 | Endpoints: 3,741 | Tables: 820+ (delta pending re-count) | Migrations: 87 (was 37, +50 in 2026-04-21 → 2026-05-06 window)
 
 ## Entities
 - [[01-entities/sebenza-hub]] — Multi-sided recruitment & career SaaS platform (South Africa)
@@ -63,6 +63,7 @@ status: active
 - [[09-sources/database-erd-2026-04-10]] — Full database ERD: 794 tables, 29 domains, 1208 FK relationships
 - [[09-sources/sa-ai-policy-compliance-review-2026-04-11]] — SA National AI Policy compliance gap analysis (6 principles, 10 priority actions)
 - [[09-sources/repo-sync-2026-04-20]] — 151-commit repo sync: WhatsApp AI Phase 0–6, Flow Builder maturation, POPIA AI-consent enforcement, 9-area Individual-dashboard de-hardcode, pay-equity rollout
+- [[09-sources/repo-sync-2026-05-06]] — 325-commit repo sync (50 migrations): 30-day → 14-day trial system (Phases 7–10), pricing-tier overage billing, AI cost governance (gpt-4o default, kill switch, Spend Explorer, ZAR), iOS+Android mobile apps, Linda agent-runtime as the only path, Business–Recruiter Alignment Phase 1 (Brand Profile, Integrations API, Cost Centers, SCIM 2.0, Succession Planning, Vendor Performance), Recruiter public-profile expansion, CV Reviews saved snapshots, Interview Studio, Salary Calculator, KYC (Smile ID), domain verification
 
 ## Raw Source Documents
 - `13-raw/data/features-inventory.md` — Platform feature inventory (325 pages, 3586 endpoints, 755 tables)
@@ -110,6 +111,7 @@ status: active
 - [[10-tweets/08-aiedge-claude-obsidian-second-brain]] — Claude Code + Obsidian second-brain setup guide (Marp, Dataview, Web Clipper, qmd on top of Karpathy's schema), @aiedge_, 2026-04-09
 - [[10-tweets/10-bloggersarvesh-claude-cowork-chief-of-seo]] — 20-prompt "Chief of SEO" audit library in Claude Cowork: GBP (8), website (5), backlinks (3), content (4) — maps 1:1 onto three Sebenza Hub SEO gaps, @bloggersarvesh, 2026-03-25
 - [[10-tweets/11-shippernow-website-to-app]] — "Paste any URL → Claude Opus 4.7 builds you a mobile app" — competitive-landscape data point, skip-with-justification (no overlap with Sebenza Hub's recruitment domain), @shipper_now, 2026-04-29
+- [[10-tweets/12-negligible-cap-anthropic-financial-templates]] — Anthropic ships 10 vertical agent templates for finance with $SPGI / $MCO partnerships — validates Sebenza Hub's vertical-AI bet and points to a "recruitment agent templates + named SA data partners" playbook, @negligible_cap, 2026-05-05
 
 ## Presentations
 

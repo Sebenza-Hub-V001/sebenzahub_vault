@@ -2,9 +2,9 @@
 title: "Compliance (POPIA, B-BBEE, Employment Equity, AI Policy)"
 type: concept
 created: 2026-04-07
-updated: 2026-04-20
-tags: [compliance, popia, bbbee, employment-equity, south-africa, legal, ai, regulation, transparency, privacy-policy, pay-equity]
-sources: [repo-audit-2026-04-07, sa-ai-policy-compliance-review, repo-sync-2026-04-20]
+updated: 2026-05-06
+tags: [compliance, popia, bbbee, employment-equity, south-africa, legal, ai, regulation, transparency, privacy-policy, pay-equity, kyc, domain-verification]
+sources: [repo-audit-2026-04-07, sa-ai-policy-compliance-review, repo-sync-2026-04-20, repo-sync-2026-05-06]
 status: active
 confidence: high
 ---
@@ -32,6 +32,8 @@ South Africa's data protection law (similar to GDPR).
 | **AI processing consent** | Required flag enforced at `POST /api/applications` — request rejected without it (2026-04-17) |
 | **AI disclosure UI** | AI-assisted review badge on public job detail; AI screening disclosure + consent checkbox in QuickApplyDialog (2026-04-17) |
 | **Demographic opt-in** | Gender/race capture is opt-in at source (2026-04-18) — consented data then drives pay-gap cards |
+| **POPIA actions consolidated** | All POPIA-related actions (consent management, DSAR, opt-out, data export) are surfaced in a unified **Privacy tab** for discoverability (added 2026-04-28, `d85cc0bf`) |
+| **CV deletion audit logging** | Every CV deletion is audit-logged; bulk delete now requires confirmation (added 2026-04-29, `66324c5b`) |
 
 **Key principle:** Users must consent before their personal data is processed. Recruiters and Businesses must declare POPIA compliance.
 
@@ -90,12 +92,32 @@ All compliance-relevant actions are tracked:
 | Table | Purpose |
 |-------|---------|
 | `audit_trail` | General audit trail for all actions |
+| `audit_logs` | **General-purpose formal audit trail (added 2026-04-27, migration `0064`)** — successor to `audit_trail`, captures more structured events |
 | `fraud_audit_log` | Admin fraud reviews |
 | `approval_audit_log` | Approval workflow audits |
 | `ai_audit_events` | AI decision monitoring |
+| `ai_usage_logs` | **AI usage with `tool_calls` audit trail (added 2026-04-26)** — every Linda agent tool invocation logged here |
 | `migration_compliance_audit` | Data migration compliance |
 
 Recruiter and Business dashboards include an **Audit Trail** page showing all actions and changes.
+
+**Admin diagnostics endpoints** added during this window:
+- **System-wide orphan audit** (`7266642b`) — finds dangling FK references across the schema.
+- **One-off CV-recovery notification endpoint** (`4967375e`) — admin can trigger recovery emails for accidentally deleted CVs.
+- **Soak-report endpoint for agentic AI** (`d9033dcf`) — bearer-token auth, tracks long-running agent run quality.
+- **Slack error notifier** (`18c9605c`) — production errors relayed to Slack with env-tagged alerts (`fd626cc2`).
+
+## Identity & Domain Verification (added 2026-04-30)
+
+Two new verification surfaces landed:
+
+### KYC — Smile ID integration (`4743d931`)
+
+A KYC verification flow with **Smile ID integration**. Smile ID is an Africa-focused identity verification provider supporting SA-issued IDs and biometric matching. Used for higher-trust user onboarding scenarios — exact tenant-side trigger conditions are not yet documented in the wiki.
+
+### Organization domain verification (`ae87006b`, `45c0d1e8`)
+
+Verifies that an organization actually owns a claimed email domain. Hooked into job moderation features (`45c0d1e8`) — verified-domain orgs may have lighter moderation friction. The verification mechanism itself (DNS TXT, file upload, email) is not visible in the diff and is an open question.
 
 ## AI Bias Auditing
 
@@ -103,6 +125,7 @@ AI decisions are monitored for compliance:
 - `ai_bias_audits` — Fairness auditing results with demographic breakdowns
 - Admin bias auditing dashboard at `/admin/bias-auditing`
 - **Platform-wide Pay Equity dashboard** added 2026-04-19 at the admin layer (`b104376`)
+- **B-BBEE total score fix** — missing target columns added (migration `0106`, 2026-05-03); B-BBEE score mutation now calculates total correctly (the 2026-04-20 sync flagged this as incomplete; now closed)
 - Connects to [[02-concepts/ai-features]] governance
 
 > ⚠️ **Tension:** The bias audit infrastructure (database tables, admin dashboard) exists but is **not operationalised**. An internal compliance review (2026-04-11) finds no evidence of documented bias detection, demographic parity testing, or fairness constraints actually running against matching/scoring algorithms. The plumbing is there; the processes aren't.
@@ -146,6 +169,9 @@ Full gap analysis and prioritised action items are tracked in the internal SA AI
 - Does the `ai_bias_audits` table contain any production data, or is it an empty schema?
 - What would a POPIA Section 71 notification look like in the Sebenza Hub UX?
 - Should Sebenza Hub submit a public comment on the draft AI policy by 10 June 2026?
+- What's the org-domain verification mechanism (DNS TXT, file upload, email)? (raised 2026-05-06)
+- What tenant-side triggers Smile ID KYC — is it conditional on user role, plan tier, or admin opt-in? (raised 2026-05-06)
+- Which background-check provider was integrated 2026-04-23, and is data SA-resident or US/EU-based (POPIA cross-border data flow implications)? (raised 2026-05-06)
 
 ## Compliance in Workflows
 
@@ -159,3 +185,4 @@ Full gap analysis and prioritised action items are tracked in the internal SA AI
 - [[02-concepts/rbac]] — `data:pii_access` permission for sensitive data
 - [[03-workflows/recruiter-journey]] — Track C: Compliance & Governance
 - Internal source: repo sync 2026-04-20 — POPIA AI consent enforcement, Privacy Policy page, demographic opt-in, pay-equity dashboard
+- Internal source: [[09-sources/repo-sync-2026-05-06]] — KYC (Smile ID), org domain verification, general-purpose `audit_logs` table, POPIA Privacy tab consolidation, B-BBEE total score fix, CV deletion auditing

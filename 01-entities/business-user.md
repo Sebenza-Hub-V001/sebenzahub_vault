@@ -2,9 +2,9 @@
 title: "Business (Employer / Corporate HR)"
 type: entity
 created: 2026-04-07
-updated: 2026-04-07
-tags: [user-type, business, employer, corporate, hr]
-sources: [repo-audit-2026-04-07]
+updated: 2026-05-06
+tags: [user-type, business, employer, corporate, hr, scim, vendor-management, cost-centers]
+sources: [repo-audit-2026-04-07, repo-sync-2026-05-06]
 status: active
 confidence: high
 ---
@@ -40,14 +40,16 @@ All Business features live under `/dashboard/business/*`.
 
 | Feature | Route | Description |
 |---------|-------|-------------|
-| Team | `/team` | Manage HR/hiring team members and permissions |
+| Team | `/team` | Manage HR/hiring team members and permissions. **SCIM 2.0 provisioning** routes added 2026-05-04 — enterprise IdP integration for user provisioning |
 | Team DNA | `/team-dna` | Team composition analysis |
 | Internal Job Board | `/internal-job-board` | Post internal-only positions |
-| HRIS Integration | `/hris-integration` | Connect to external HR systems |
+| HRIS Integration | `/hris-integration` | Connect to external HR systems. `organization_integrations` adds `hris_provider` + `video_provider` columns 2026-05-01 (migrations `0102`/`0103`) |
 | Workforce Planning | `/workforce-planning` | Plan headcount and skill gaps |
 | Performance Management | `/performance` | Track employee performance |
-| Succession Planning | `/succession-planning` | Identify replacement candidates |
+| Succession Planning | `/succession-planning` | **Formal workflow** for identifying and grooming successor candidates per role (added 2026-05-04, migration `0111`) |
 | Contract Workers | `/contract-workers` | Manage contractors and temps |
+| Cost Centers | `/cost-centers` | **Full CRUD for cost centers**, hooked into approvals + reporting (added 2026-05-04) |
+| Salary Calculator | `/salary-calculator` | **Tax year 2026** + historical calculation support (added 2026-04-28) |
 
 ### Screening & Assessment
 
@@ -74,8 +76,8 @@ All Business features live under `/dashboard/business/*`.
 | Feature | Route | Description |
 |---------|-------|-------------|
 | Unified Inbox | `/unified-inbox` | Centralized messaging |
-| Email Templates | `/email-templates` | Pre-built email templates |
-| Scheduling | `/scheduling` | Interview scheduling |
+| Email Templates | `/email-templates` | Pre-built email templates. `appliesTo` field controls which dashboards a template appears in (added 2026-05-04) |
+| Scheduling | `/scheduling` | Interview scheduling. **Two-way calendar sync with Google Calendar + Microsoft 365** added 2026-04-20 |
 | Self-Scheduling | `/self-scheduling` | Candidate self-service booking |
 
 ### Sourcing
@@ -113,8 +115,11 @@ All Business features live under `/dashboard/business/*`.
 | Settings | `/settings` | Company-wide settings |
 | SSO Config | `/sso-config` | Single sign-on configuration |
 | Profile | `/profile` | Company profile |
-| Billing | `/billing` | Subscription and payments |
-| Vendors | `/vendors` | Manage third-party vendor relationships |
+| **Brand Profile** | `/brand-profile` | **Public-facing employer brand profile** (added 2026-05-04) — mirrors Recruiter's agency profile pattern |
+| **Integrations API** | `/integrations-api` | **API key management + webhook management** (added 2026-05-04) |
+| Billing | `/billing` | Subscription and payments. **30-day → 14-day trial default** (configurable per-plan, kill-switchable) |
+| Vendors | `/vendors` | Manage third-party vendor relationships. **Vendor Management with performance tracking** (added 2026-05-04) — fill rates, time-to-fill, quality scores per recruiter |
+| Background Checks | `/background-checks` | First **external BG check provider** integrated 2026-04-23 |
 
 ## Data Model
 
@@ -189,11 +194,35 @@ Business and Recruiter share many features (pipeline, offers, interviews, screen
 
 See [[06-comparisons/user-type-comparison]] for the full matrix.
 
+## 2026-05-06 Additions — Business–Recruiter Alignment Phase 1
+
+A major Business surface expansion landed during the 2026-05-04 wave (migrations `0110`–`0113`). See [[09-sources/repo-sync-2026-05-06]] for full commit-level detail.
+
+| Area | What's new |
+|------|------------|
+| **BusinessBrandProfile page** | Public-facing employer brand profile, mirrors Recruiter's agency profile pattern (`434c6332`). |
+| **BusinessIntegrationsApi page** | API key management + webhook management surface (`434c6332`). |
+| **Cost Center management** | Full CRUD for cost centers, hooked into approvals + reporting (`e1d0f8da`). |
+| **SCIM 2.0 provisioning** | Enterprise IdP integration routes — User provisioning and lifecycle via SCIM (`c97c18fb`). |
+| **Succession Planning workflows** | Formal workflow for identifying and grooming successor candidates per role (`c97c18fb`). |
+| **Vendor Management with performance tracking** | Business-side view of recruiter vendor performance — fill rates, time-to-fill, quality scores (`c97c18fb`). |
+| **Salary Calculator** | New page with tax year 2026 + historical calculation support; routed into Business Dashboard (`de61788e`). |
+| **Calendar two-way sync** | Google Calendar + Microsoft 365 (`f40939b4`, `4b54b084`). |
+| **Background check provider integration** | First external BG check provider wired (`1dc6af1c`). |
+| **Job moderation features** | Business can flag/moderate jobs visible to their org (`45c0d1e8`). |
+| **Domain verification** | Verifies an org actually owns a claimed email domain (`ae87006b`, `45c0d1e8`). |
+| **KYC verification flow** | Smile ID integration (`4743d931`). |
+| **Phase 4 production hardening + Phase 5 integration links + Phase 6 admin observability** | Migrations `0112`/`0113` + commits `0bcab2c4`, `c36d19c5`, `c02dcf0c`. |
+
 ## Open Questions
 
 - How does the Business-Recruiter vendor relationship get established? Does the Business invite recruiters, or do recruiters request access?
-- What's the SSO provider support? (SAML, OIDC, specific providers?)
+- What's the SSO provider support? (SAML, OIDC, specific providers?) — **partially resolved 2026-05-04:** SCIM 2.0 routes added; pilot IdPs unconfirmed (Okta / Azure AD / JumpCloud?)
 - How does workforce planning integrate with job posting?
+- Are Cost Centers wired into the offer-approval flow (so spend per cost center is tracked) or report-only? (raised 2026-05-06)
+- Does Vendor Performance Tracking surface to Recruiters, or is it Business-only? (raised 2026-05-06)
+- Which BG check provider was integrated, and is it SA-resident or US/EU-based (POPIA cross-border data flow)? (raised 2026-05-06)
+- What's the domain-verification mechanism (DNS TXT, file upload, email)? (raised 2026-05-06)
 
 ## References
 
@@ -208,3 +237,4 @@ See [[06-comparisons/user-type-comparison]] for the full matrix.
 - [[06-comparisons/user-type-comparison]] — Feature comparison
 - Source: [[09-sources/repo-audit-2026-04-07]]
 - Source: [[09-sources/business-journey-gap-analysis-2026-04-08]]
+- Source: [[09-sources/repo-sync-2026-05-06]] — Business–Recruiter Alignment Phase 1: Brand Profile, Integrations API, Cost Centers, SCIM 2.0, Succession Planning, Vendor Performance Tracking, Salary Calculator, Calendar 2-way sync, BG check provider

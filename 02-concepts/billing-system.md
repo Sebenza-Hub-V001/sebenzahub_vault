@@ -2,9 +2,9 @@
 title: "Billing System"
 type: concept
 created: 2026-04-07
-updated: 2026-04-20
-tags: [billing, payments, subscriptions, plans, credits, entitlements]
-sources: [repo-audit-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11, repo-sync-2026-04-20]
+updated: 2026-05-06
+tags: [billing, payments, subscriptions, plans, credits, entitlements, trial, overage, credit-packs]
+sources: [repo-audit-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11, repo-sync-2026-04-20, repo-sync-2026-05-06]
 status: active
 confidence: medium
 ---
@@ -86,12 +86,39 @@ A new shared `DashboardPlanCards.tsx` component (189 lines) provides a consisten
 
 This refactoring replaced duplicated billing code in `RecruiterBilling.tsx` and `IndividualBilling.tsx`, reducing each by ~78 lines.
 
+## 30-Day Free Trial System (Phases 7–10, 2026-04-24)
+
+A multi-phase trial rollout shipped during 2026-04-24. See [[09-sources/repo-sync-2026-05-06]] for full detail.
+
+| Phase | What | Commit |
+|-------|------|--------|
+| **Schema + signup hook** | Trial schema + signup-time provisioning + lifecycle | `ceea3ec9` |
+| **Phase 7 — UI** | `TrialBanner` + global `UpgradeDialog` surface across the app | `6091f089` |
+| **Phase 8 — Conversion** | Trial subscription converts in-place at checkout (no second subscription record) | `58d83b70` |
+| **Phase 9 — Analytics** | Admin trial analytics tile + `/api/admin/trials/analytics` endpoint | `facdf53c` |
+| **Phase 10 — Admin controls + security** | Kill switch, env-controlled trial duration, per-plan trial flags, full UI controls; E2E coverage for trial envelope, admin analytics, security | `5696255e`, `85d0c37a` |
+
+**Default trial duration** is 14 days (migration `0087_update_default_trial_to_14_days`), env-overridable, per-plan toggleable, kill-switchable.
+
+**Pricing tier build (Phases 6–7, 2026-04-30):**
+- **Phase 6** — Overage billing with invoice line items (`f75fd2d5`).
+- **Phase 7** — Quota gating with manual overrides + smoke tests for agentic AI features (`fcb2b0d2`, `692a8571`).
+- **Renewal columns** added to subscriptions; AI recurring monitors re-applied (migration `0114`).
+- **Annual plan prices** fixed to full-year amount (migration `0068`).
+
+**Admin-managed credit packs** (`40749e4e`, migrations `0085`/`0086`) — admin authors and prices credit packs from the UI. Org-keyed credit wallets for the candidates-uploaded feature (migration `0083`).
+
+**Plans + features `.xlsx` export** (`a9fe414f`) — admin can dump the full plan / feature catalog as a workbook.
+
+**Email previews for usage alerts and pricing cards** (`0c098a98`) — admin can preview the templated emails before sending.
+
 ## Open Questions
 
 - What are the 18 specific plans and their pricing tiers?
 - What features are credit-metered vs included in plans?
 - Is Peach Payments confirmed or is there another gateway?
 - How does the referral program work (credits, free months, etc.)?
+- Was the 30-day trial referenced in marketing materials before the 2026-04-30 default-to-14-days change? Any user-facing reconciliation needed? (raised 2026-05-06)
 
 ## References
 
@@ -100,3 +127,4 @@ This refactoring replaced duplicated billing code in `RecruiterBilling.tsx` and 
 - [[03-workflows/recruiter-journey]] — Billing in the recruiter journey
 - [[03-workflows/business-journey]] — Billing in the Business journey
 - Source: repo sync 2026-04-20 — Centralised pricing, feature entitlements seeding, unified AI-Governance/billing registries
+- Source: [[09-sources/repo-sync-2026-05-06]] — 30-day → 14-day trial default, trial Phases 7–10, overage billing, admin credit packs, plans/features xlsx export, renewal columns

@@ -1,5 +1,20 @@
 # Activity Log
 
+## [2026-05-06] repo-sync | Product codebase 2026-04-20 → 2026-05-06 (325 commits, +50 migrations)
+- Source: `Sebenza_Hub_Claude_V2` branch `claude/build-sebenza-hub-website-559Nz`, commits since 2026-04-20
+- Filed: [[09-sources/repo-sync-2026-05-06]] (canonical record, ~80 distinct feature changes organised across 8 themes)
+- Pages updated: [[01-entities/individual-user]] (CV Reviews saved snapshots, Interview Studio, Salary Calculator, ApplyStepperMode, mobile portal live data) · [[01-entities/recruiter-user]] (public profile expansion, Search & Talent Pool Intelligence, bulk candidate import, candidate dossier) · [[01-entities/business-user]] (Business–Recruiter Alignment Phase 1: Brand Profile, Integrations API, Cost Centers, SCIM 2.0, Succession Planning workflows, Vendor Management with performance tracking, Salary Calculator, Calendar two-way sync, BG check provider) · [[01-entities/whatsapp-bot]] (Linda agent runtime as the only path — `FEATURE_LINDA_AGENT_MODE` flag removed, "Chat to Linda", auto-matching, block/unblock, dynamic template buttons, daily Meta sync, tool_calls audit) · [[02-concepts/ai-features]] (gpt-4o default, isAgentic, daily spend circuit breaker, runtime budget kill switch, Spend Explorer, ZAR display, AI migration generation) · [[02-concepts/billing-system]] (Trial Phases 7–10, default 14-day trial, overage billing, admin credit packs) · [[02-concepts/compliance]] (KYC Smile ID, org domain verification, general-purpose audit_logs table, POPIA Privacy tab consolidation, B-BBEE total score fix) · [[15-dashboards/business-dashboard]] (pending sidebar reconciliation note for new Business pages) · [[index]] (page count 91→92, sources 15→16, migrations 37→87)
+- New pages: [[09-sources/repo-sync-2026-05-06]]
+- Contradictions resolved: Linda dual-mode (now agent-runtime-only); 30-day trial (now 14-day default); OpenAI default model gpt-5.4 → gpt-4o; B-BBEE total score (was incomplete, now closed)
+- Open questions raised: agent-mode-only Linda production rollout state, mobile app store status, SCIM IdP coverage, Cost Center wiring into approval flow, AI budget kill-switch runbook, BG-check provider data residency, default-trial marketing reconciliation, domain-verification mechanism, vendor performance visibility direction
+
+## [2026-05-06] tweet | Anthropic ships 10 financial-services agent templates with $SPGI / $MCO partnerships
+- Source: https://x.com/negligible_cap/status/2051681737747386626
+- Filed: [[10-tweets/12-negligible-cap-anthropic-financial-templates]]
+- Recommendations: 4 (top: stand up a "Recruitment Agent Templates" library wrapping the existing 383+ AI endpoints as drop-in recruiter recipes, modelled on Anthropic's 10-template finance bundle)
+- Pages touched: [[index]] (tweets section + page count)
+- Triggered by: tweet-inbox drain
+
 ## [2026-04-28] restructure + mirror | Dashboard reorders, Recruiter source-chapter swap, Corporate full mirror, screenshot placeholders
 - **Trigger:** Wes asked to compare dashboard order to manual order; this expanded into a multi-step restructure across both repos and a full mirror of the Recruiter manual into Corporate.
 

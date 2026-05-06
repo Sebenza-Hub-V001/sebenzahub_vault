@@ -2,9 +2,9 @@
 title: "WhatsApp Bot — Linda"
 type: entity
 created: 2026-04-07
-updated: 2026-04-20
-tags: [whatsapp, chatbot, ai, messaging, candidate-experience, automation, linda, flow-builder, rag, translation]
-sources: [whatsapp-bot-training-manual-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11, repo-sync-2026-04-20]
+updated: 2026-05-06
+tags: [whatsapp, chatbot, ai, messaging, candidate-experience, automation, linda, flow-builder, rag, translation, agent-runtime]
+sources: [whatsapp-bot-training-manual-2026-04-07, whatsapp-bot-training-manual-v2-2026-04-11, repo-sync-2026-04-20, repo-sync-2026-05-06]
 status: active
 confidence: high
 user-types: [individual, recruiter, admin]
@@ -15,6 +15,8 @@ user-types: [individual, recruiter, admin]
 **Linda** is Sebenza Hub's **AI-powered WhatsApp recruitment assistant** that handles the full candidate lifecycle via WhatsApp — the dominant messaging platform in South Africa. She's not a simple FAQ chatbot; she's a complete recruitment operating system accessible via messaging.
 
 Linda introduces herself by name in every first interaction: *"I'm Linda, your AI-powered recruitment assistant from Sebenza Hub!"*
+
+> **Architectural shift (2026-05-04):** The `FEATURE_LINDA_AGENT_MODE` flag has been **removed entirely** (commit `12f25545`, PR #606 merge `0fe168c3`). The agent runtime is now the only WhatsApp path — the legacy hardcoded state-machine code has been retired. Every Linda interaction runs through the agent runtime, with each tool call audit-logged to `ai_usage_logs`. This supersedes the dual-mode description in [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]].
 
 ## What It Does
 
@@ -37,6 +39,12 @@ Linda introduces herself by name in every first interaction: *"I'm Linda, your A
 | **Escalation summary** | Full conversation auto-summarised when handed off to a human agent |
 | **Auto-translation** | Bidirectional — user writes local language, agent reads English, replies flow back translated |
 | **Magic-link auth** | Phone-lookup auth; email captured if phone miss, then linked |
+| **Chat to Linda** | Free-form AI chat option in main menu — open-ended conversation alongside structured flows (added 2026-04-22) |
+| **Auto-matching** | Incoming numbers auto-match against existing users; invite-to-register linking when no match (added 2026-04-22) |
+| **Block/unblock** | Admin can block individual numbers from the command center (added 2026-04-28) |
+| **Coaching/screening scripts panel** | Recruiter-facing helper for live conversations (added 2026-04-30) |
+| **Daily Meta template sync** | Cron at 06:00 SAST keeps Meta template approval state fresh (added 2026-04-22) |
+| **Tool-call audit trail** | Every tool invocation by Linda's agent runtime is logged to `ai_usage_logs.tool_calls` (added 2026-04-26) |
 
 ## Candidate Experience Flow
 
@@ -227,6 +235,29 @@ Recruiter Dashboard > WhatsApp Apply provides a full application management suit
 - Bot stuck in a state: candidate types **MENU** to reset; admin uses Conversation Replay to debug
 - False sentiment escalation: escalation needs 3+ consecutive at <−50, not individual negative messages
 
+## 2026-05-06 Additions
+
+A second wave of Linda changes during the 2026-04-21 → 2026-05-06 window. See [[09-sources/repo-sync-2026-05-06]] for full commit-level detail.
+
+| Area | What's new |
+|------|------------|
+| **Agent runtime as the only path** | `FEATURE_LINDA_AGENT_MODE` flag removed (`12f25545`, PR #606). Legacy state-machine retired. |
+| **`ai_usage_logs.tool_calls` audit trail** | Every tool invocation by Linda is logged (`9be43966`); fire-and-forget audit for agent runs (`32a2dcc0`). |
+| **Agent runtime tests** | Proper test coverage for Linda agent run options (`ae458ebd`). |
+| **"Chat to Linda" free-form AI chat** | Added to main menu (`238548ce`); flow visualizer updated to document Linda Chat + new Main Menu (`707fdcef`). |
+| **Auto-matching** | WhatsApp conversations auto-match against existing users; invite-to-register otherwise (`d4bd5db3`). |
+| **Block/unblock numbers** | Admin command center controls (`e8e53c72`, migration `0077`). |
+| **Coaching and screening scripts panel** | Recruiter-facing helper for live conversations (`8ec06ade`). |
+| **Dynamic template buttons** | Meta template message handling supports CTA buttons (`7e304c24`). |
+| **Daily Meta template sync** | Cron at 06:00 SAST (`11e64998`). |
+| **Audience counts API** | Live counts for broadcast targeting (`98081a11`). |
+| **Invite-to-register linking** | Magic-link tokens carry `invite_phone` (`fd2955ea`, migration `0065`). |
+| **Detailed failure reasons + codes** | Error capture in `whatsapp_messages` (`f706c35c`, migration `0071`). |
+| **Slack notifications** | New + returning conversations with formatted detail (`d97ad107`); Slack alerts tagged by env. |
+| **WhatsApp CV staging** | Unregistered uploads persist instead of being lost to anonymous senders (`e146a6ac`). |
+| **Media type widened** | `whatsapp_media_type` widened to varchar(127) for richer MIME support (migration `0078`). |
+| **Active window tracking** | `whatsapp_conversations.active_window_id` added (migration alongside `0077`). |
+
 ## Open Questions
 
 - What's the monthly message volume and per-message cost?
@@ -239,6 +270,7 @@ Recruiter Dashboard > WhatsApp Apply provides a full application management suit
 - Which AI provider (OpenAI / Claude / Gemini) powers each of Phase 1–6 operations?
 - What's the fallback rate now that intent AI is default-on — has it improved vs pre-Phase-1?
 - Are any of the 7 cron-based flow triggers active in production yet, or seeded-only?
+- Is the agent-mode-only Linda running in production for all tenants, or behind a percentage rollout? The flag is gone from code but operational rollout state is not visible in the diff. (raised 2026-05-06)
 
 ## References
 
@@ -252,3 +284,4 @@ Recruiter Dashboard > WhatsApp Apply provides a full application management suit
 - Source: [[09-sources/whatsapp-bot-training-manual-2026-04-07]]
 - Source: [[09-sources/whatsapp-bot-training-manual-v2-2026-04-11]]
 - Source: [[09-sources/repo-sync-2026-04-20]] — Phase 0–6 AI expansion, Flow Builder Phase 2/3, magic-link auth
+- Source: [[09-sources/repo-sync-2026-05-06]] — Agent runtime as the only path, Chat to Linda, auto-matching, block/unblock, dynamic template buttons, daily Meta sync, tool_calls audit trail
